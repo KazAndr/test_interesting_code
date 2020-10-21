@@ -1,0 +1,180 @@
+Query         Q_9186633_37
+Match_columns 40
+No_of_seqs    91 out of 93
+Neff          3.04676
+Searched_HMMs 69205
+Date          Sun May 24 00:22:28 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_37.hhr -oa3m ../results/9186633_37.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF13137.6 ; DUF3983 ; Protein   99.9 6.8E-23 9.8E-28  106.0   4.2   34    5-38      1-34  (34)
+  2 PF18157.1 ; MID_pPIWI_RE ; MID  76.0     4.4 6.3E-05   24.9   2.3   17   23-39    131-147 (152)
+  3 cd01093 CRIB_PAK_like; PAK (p2  41.3      22 0.00032   14.4   0.7   14   25-38     27-40  (46)
+  4 PF10384.9 ; Scm3 ; Centromere   39.3      54 0.00078   17.7   2.2   15   23-37     10-24  (53)
+  5 PF16226.5 ; DUF4885 ; Domain o  33.0      98  0.0014   22.6   3.2   23   16-38    127-149 (325)
+  6 PF00325.20 ; Crp ; Bacterial r  32.7      46 0.00066   11.6   1.7   13   27-39     20-32  (32)
+  7 PF16078.5 ; 2-oxogl_dehyd_N ;   31.1      44 0.00064   14.5   0.9   13   25-37     26-38  (41)
+  8 cd00132 CRIB; PAK (p21 activat  30.6      50 0.00073   12.7   1.0   16   25-40     27-42  (42)
+  9 d1ej5a_ a.68.1.1 (A:) Wiscott-  28.4      43 0.00062   19.1   0.7   14   25-38     22-35  (107)
+ 10 d1oi7a2 c.23.4.1 (A:122-288) S  24.0      96  0.0014   19.1   1.7   14   26-39    137-150 (167)
+ 11 cd09532 SAM_SLA1_fungal; SAM d  22.3      96  0.0014   13.5   1.2   10   29-38      3-12  (62)
+ 12 KOG3671 Actin regulatory prote  20.6      69   0.001   24.0   0.7   14   25-38    265-278 (569)
+
+No 1
+>PF13137.6 ; DUF3983 ; Protein of unknown function (DUF3983)
+Probab=99.88  E-value=6.8e-23  Score=106.04  Aligned_cols=34  Identities=79%  Similarity=1.154  Sum_probs=0.0  Template_Neff=2.300
+
+Q ss_pred             HHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHhcc
+Q Q_9186633_37      5 KKRKTRKAIARRAKAVEKHQVNKAWKSIFVQAGI   38 (40)
+Q Consensus         5 KKrK~kKaiaRR~K~veK~rv~~AWRNiFVqaGi   38 (40)
+                      ||+|++|+|+||+|++|||||++|||||||||||
+T Consensus         1 KKrK~kKaIaRRaK~veK~rv~~AWRNIFVqagi   34 (34)
+T Q81Z20_BACAN/1    1 KKRKVRKAIARRAKAVEKHQVDKAWRNIFVRNGY   34 (34)
+T ss_pred             CcHHHHHHHHHHHHHHhHHHHHHHHHHHhhhcCC
+
+
+No 2
+>PF18157.1 ; MID_pPIWI_RE ; MID domain of pPIWI_RE
+Probab=76.03  E-value=4.4  Score=24.86  Aligned_cols=17  Identities=35%  Similarity=0.579  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             HHHHHHHHHHHHHhccC
+Q Q_9186633_37     23 HQVNKAWKSIFVQAGII   39 (40)
+Q Consensus        23 ~rv~~AWRNiFVqaGil   39 (40)
+                      +|+..||...|-|+|++
+T Consensus       131 ~R~~~A~~DllRqlG~~  147 (152)
+T B8I7F6_CLOCE/4  131 HKYINGIKDLFRQLGIL  147 (152)
+T ss_pred             HHHHHHHHHHHHHcCCC
+
+
+No 3
+>cd01093 CRIB_PAK_like; PAK (p21 activated kinase) Binding Domain (PBD), binds Cdc42p- and/or Rho-like small GTPases.
+Probab=41.28  E-value=22  Score=14.43  Aligned_cols=14  Identities=14%  Similarity=0.574  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             HHHHHHHHHHHhcc
+Q Q_9186633_37     25 VNKAWKSIFVQAGI   38 (40)
+Q Consensus        25 v~~AWRNiFVqaGi   38 (40)
+                      +...|..++.++|+
+T Consensus        27 ~~~~~~~~~~~~~~   40 (46)
+T cd01093          27 MPEQWARLLQTSNI   40 (46)
+T ss_pred             CCHHHHHHHHhCCC
+
+
+No 4
+>PF10384.9 ; Scm3 ; Centromere protein Scm3
+Probab=39.26  E-value=54  Score=17.67  Aligned_cols=15  Identities=20%  Similarity=0.527  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHHHHHHHhc
+Q Q_9186633_37     23 HQVNKAWKSIFVQAG   37 (40)
+Q Consensus        23 ~rv~~AWRNiFVqaG   37 (40)
+                      .|+..+|-+||.+-|
+T Consensus        10 ~rl~~~w~~i~~kY~   24 (53)
+T S8AYP6_PENO1/4   10 LRLKSIFEGIFAKYG   24 (53)
+T ss_pred             HHHHHHHHHHHHHhC
+
+
+No 5
+>PF16226.5 ; DUF4885 ; Domain of unknown function (DUF4885)
+Probab=32.96  E-value=98  Score=22.65  Aligned_cols=23  Identities=22%  Similarity=0.333  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             HhHHHHHHHHHHHHHHHHHHhcc
+Q Q_9186633_37     16 RAKAVEKHQVNKAWKSIFVQAGI   38 (40)
+Q Consensus        16 R~K~veK~rv~~AWRNiFVqaGi   38 (40)
+                      ..|++.+.+|+....++|.+.||
+T Consensus       127 ~~k~~~R~~vN~Qiq~ll~~nGI  149 (325)
+T YBDO_BACSU/63-  127 NEKVYQRGQVNQQLQVLLNRNHI  149 (325)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhCCC
+
+
+No 6
+>PF00325.20 ; Crp ; Bacterial regulatory proteins, crp family
+Probab=32.66  E-value=46  Score=11.65  Aligned_cols=13  Identities=8%  Similarity=0.031  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             HHHHHHHHHhccC
+Q Q_9186633_37     27 KAWKSIFVQAGII   39 (40)
+Q Consensus        27 ~AWRNiFVqaGil   39 (40)
+                      ..|.+.|.+.|++
+T Consensus        20 ~~~~~~~~~~~~~   32 (32)
+T Q03CY5_LACP3/1   20 SRTLKRLAEEKLI   32 (32)
+T ss_pred             HHHHHHHHHCCCC
+
+
+No 7
+>PF16078.5 ; 2-oxogl_dehyd_N ; 2-oxoglutarate dehydrogenase N-terminus
+Probab=31.08  E-value=44  Score=14.49  Aligned_cols=13  Identities=23%  Similarity=0.309  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHhc
+Q Q_9186633_37     25 VNKAWKSIFVQAG   37 (40)
+Q Consensus        25 v~~AWRNiFVqaG   37 (40)
+                      |+..|+..|...+
+T Consensus        26 v~~~w~~~f~~~~   38 (41)
+T B2UA83_RALPJ/1   26 VSEALRAYFDALQ   38 (41)
+T ss_pred             cCHHHHHHHHHhc
+
+
+No 8
+>cd00132 CRIB; PAK (p21 activated kinase) Binding Domain (PBD), binds Cdc42p- and/or Rho-like small GTPases.
+Probab=30.62  E-value=50  Score=12.75  Aligned_cols=16  Identities=19%  Similarity=0.557  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             HHHHHHHHHHHhccCC
+Q Q_9186633_37     25 VNKAWKSIFVQAGIIK   40 (40)
+Q Consensus        25 v~~AWRNiFVqaGilK   40 (40)
+                      +...|...+.++|+-+
+T Consensus        27 ~~~~~~~~~~~~~~~~   42 (42)
+T cd00132          27 MPEQWARLLQTSNITK   42 (42)
+T ss_pred             CCHHHHHHHHHCCCCC
+
+
+No 9
+>d1ej5a_ a.68.1.1 (A:) Wiscott-Aldrich syndrome protein, WASP, C-terminal domain {Human (Homo sapiens) [TaxId: 9606]}
+Probab=28.42  E-value=43  Score=19.11  Aligned_cols=14  Identities=36%  Similarity=0.729  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             HHHHHHHHHHHhcc
+Q Q_9186633_37     25 VNKAWKSIFVQAGI   38 (40)
+Q Consensus        25 v~~AWRNiFVqaGi   38 (40)
+                      ++..|+.+|.++||
+T Consensus        22 l~~~w~~~l~~~gi   35 (107)
+T d1ej5a_          22 LDPDLRSLFSRAGI   35 (107)
+T ss_dssp             CCHHHHHHHHHTTC
+T ss_pred             CCHHHHHHHHHcCC
+
+
+No 10
+>d1oi7a2 c.23.4.1 (A:122-288) Succinyl-CoA synthetase, alpha-chain, C-terminal domain {Thermus thermophilus [TaxId: 274]}
+Probab=23.99  E-value=96  Score=19.06  Aligned_cols=14  Identities=29%  Similarity=0.335  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             HHHHHHHHHHhccC
+Q Q_9186633_37     26 NKAWKSIFVQAGII   39 (40)
+Q Consensus        26 ~~AWRNiFVqaGil   39 (40)
+                      +..|...|.|+|++
+T Consensus       137 ~~~~~a~~~~~Gvi  150 (167)
+T d1oi7a2         137 PESKLRAFAEAGIP  150 (167)
+T ss_dssp             HHHHHHHHHHHTCC
+T ss_pred             HHHHHHHHHHcCCe
+
+
+No 11
+>cd09532 SAM_SLA1_fungal; SAM domain of SLA1 subfamily. SAM (sterile alpha motif) domain of fungal SLA1 proteins is a protein-protein interaction domain.
+Probab=22.28  E-value=96  Score=13.55  Aligned_cols=10  Identities=30%  Similarity=1.059  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             HHHHHHHhcc
+Q Q_9186633_37     29 WKSIFVQAGI   38 (40)
+Q Consensus        29 WRNiFVqaGi   38 (40)
+                      |.+.|+++|+
+T Consensus         3 w~~~~~~~~l   12 (62)
+T cd09532           3 WFEFFLNCGV   12 (62)
+T ss_pred             HHHHHHHCCC
+
+
+No 12
+>KOG3671 Actin regulatory protein (Wiskott-Aldrich syndrome protein) [Signal transduction mechanisms, Cytoskeleton]
+Probab=20.60  E-value=69  Score=24.02  Aligned_cols=14  Identities=29%  Similarity=0.541  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             HHHHHHHHHHHhcc
+Q Q_9186633_37     25 VNKAWKSIFVQAGI   38 (40)
+Q Consensus        25 v~~AWRNiFVqaGi   38 (40)
+                      ++..|+++|.++||
+T Consensus       265 ~dp~~~~ll~~~Gi  278 (569)
+T KOG3671         265 NDPPLNNLFSSAGI  278 (569)
+T ss_pred             CCHHHHHHHHHCCC
+
+

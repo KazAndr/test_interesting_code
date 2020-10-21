@@ -1,0 +1,2104 @@
+Query         Q_9186633_66
+Match_columns 149
+No_of_seqs    171 out of 211
+Neff          4.98323
+Searched_HMMs 69205
+Date          Sun May 24 00:28:04 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_66.hhr -oa3m ../results/9186633_66.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17209.3 ; Hfq ; Hfq protein   89.9     0.3 4.4E-06   33.1   1.6   49    4-60     16-64  (64)
+  2 PF17209.3 ; Hfq ; Hfq protein   88.5    0.51 7.3E-06   32.1   1.9   49   67-123    16-64  (64)
+  3 d3hsbd_ b.38.1.0 (D:) automate  86.4    0.55   8E-06   32.4   1.2   51    2-60     15-65  (67)
+  4 d5szda1 b.38.1.0 (A:4-72) auto  86.2    0.98 1.4E-05   31.4   2.3   51    2-60     18-68  (69)
+  5 d3hsbd_ b.38.1.0 (D:) automate  84.3    0.87 1.3E-05   31.4   1.4   51   65-123    15-65  (67)
+  6 d5szda1 b.38.1.0 (A:4-72) auto  83.2     1.7 2.4E-05   30.2   2.4   51   65-123    18-68  (69)
+  7 COG1923 Hfq; sRNA-binding regu  82.5       7  0.0001   27.9   5.4   56   65-130    20-77  (77)
+  8 cd01716 Hfq; bacterial Hfq-lik  82.0    0.87 1.3E-05   29.9   0.6   45    3-55     16-60  (60)
+  9 d4pnoa_ b.38.1.2 (A:) automate  80.7     1.8 2.6E-05   29.7   1.8   50    2-60     15-64  (65)
+ 10 d4nl2a_ b.38.1.0 (A:) automate  80.2     2.3 3.3E-05   29.9   2.3   49    4-60     23-71  (73)
+ 11 d4pnoa_ b.38.1.2 (A:) automate  79.1      12 0.00017   25.7   5.4   47   65-123    15-64  (65)
+ 12 cd11676 Gemin6; Gemin 6. Gemin  78.7     1.8 2.7E-05   27.1   1.3   54   65-119    10-63  (63)
+ 13 d1kq1a_ b.38.1.2 (A:) Pleiotro  78.3     1.3 1.8E-05   29.9   0.5   46    2-55     15-60  (60)
+ 14 cd01716 Hfq; bacterial Hfq-lik  78.1     1.5 2.2E-05   28.8   0.8   46   65-118    15-60  (60)
+ 15 cd11676 Gemin6; Gemin 6. Gemin  77.8     1.8 2.6E-05   27.2   1.0   53    3-56     11-63  (63)
+ 16 d4nl2a_ b.38.1.0 (A:) automate  75.3     4.1   6E-05   28.7   2.4   49   67-123    23-71  (73)
+ 17 COG1923 Hfq; sRNA-binding regu  74.7      29 0.00041   24.8   6.5   47    2-58     20-68  (77)
+ 18 d1kq1a_ b.38.1.2 (A:) Pleiotro  74.3     2.1   3E-05   28.9   0.7   46   65-118    15-60  (60)
+ 19 KOG1775 U6 snRNA-associated Sm  71.4      11 0.00016   25.8   3.7   59   65-124    18-84  (84)
+ 20 KOG1775 U6 snRNA-associated Sm  70.5      11 0.00016   25.8   3.6   59    2-61     18-84  (84)
+ 21 d1s3aa1 c.47.1.22 (A:15-99) NA  63.1      26 0.00038   24.1   4.3   29    3-31     50-78  (85)
+ 22 KOG1784 Small Nuclear ribonucl  62.6      23 0.00034   25.3   4.1   74   66-140    12-94  (96)
+ 23 d1ryja_ d.15.3.2 (A:) Hypothet  61.5      55  0.0008   21.1   6.2   46    1-46      4-50  (70)
+ 24 PF10957.8 ; Spore_Cse60 ; Spor  60.2      15 0.00022   23.8   2.6   21    1-32      1-21  (59)
+ 25 KOG3446 NADH:ubiquinone oxidor  59.6      28 0.00041   24.6   4.1   28    4-31     64-91  (97)
+ 26 d1s3aa1 c.47.1.22 (A:15-99) NA  57.8      36 0.00053   23.3   4.3   30   66-95     50-79  (85)
+ 27 KOG1780 Small Nuclear ribonucl  57.5      25 0.00036   23.7   3.4   55    3-58     16-75  (77)
+ 28 PF01423.22 ; LSM ; LSM domain   57.0      17 0.00024   22.7   2.3   46    3-55     10-55  (55)
+ 29 PF01423.22 ; LSM ; LSM domain   56.1      18 0.00025   22.6   2.3   47   65-118     9-55  (55)
+ 30 d1m5q1_ b.38.1.1 (1:) Sm-Like   54.8      17 0.00024   27.5   2.4   57   65-122    11-68  (127)
+ 31 d4f7ue_ b.38.1.0 (E:) automate  54.6      26 0.00037   23.4   3.1   54    2-56     19-78  (78)
+ 32 d3bw1a1 b.38.1.0 (A:1-89) auto  53.9      27 0.00039   23.7   3.1   61   65-126    14-86  (89)
+ 33 d4f7ue_ b.38.1.0 (E:) automate  52.9      29 0.00042   23.1   3.1   54   65-119    19-78  (78)
+ 34 KOG3446 NADH:ubiquinone oxidor  52.8      48  0.0007   23.5   4.3   28   67-94     64-91  (97)
+ 35 d1m5q1_ b.38.1.1 (1:) Sm-Like   52.2      18 0.00026   27.4   2.2   57    2-59     11-68  (127)
+ 36 KOG1780 Small Nuclear ribonucl  51.0      40 0.00059   22.6   3.6   57   66-123    16-77  (77)
+ 37 d4emkb_ b.38.1.0 (B:) automate  49.5      34  0.0005   22.3   3.0   53    3-56     16-73  (73)
+ 38 PF17353.2 ; DUF5381 ; Family o  49.5   1E+02  0.0015   23.9   6.0   62   30-94     76-144 (169)
+ 39 d4f7ua_ b.38.1.1 (A:) D1 core   49.3      51 0.00074   21.9   3.8   60   66-126    14-78  (82)
+ 40 KOG1783 Small nuclear ribonucl  48.4      64 0.00093   21.4   4.2   55    3-58     18-77  (77)
+ 41 KOG3482 Small nuclear ribonucl  47.3      39 0.00056   22.7   3.0   55    3-58     20-79  (79)
+ 42 d4emkb_ b.38.1.0 (B:) automate  45.8      43 0.00062   21.9   3.0   53   66-119    16-73  (73)
+ 43 KOG1784 Small Nuclear ribonucl  45.2      40 0.00058   24.0   3.0   56    3-59     12-76  (96)
+ 44 d4f7ua_ b.38.1.1 (A:) D1 core   44.9      73  0.0011   21.1   4.1   57    3-60     14-75  (82)
+ 45 KOG1781 Small Nuclear ribonucl  44.8      52 0.00075   24.1   3.6   68   65-133    28-108 (108)
+ 46 KOG3482 Small nuclear ribonucl  44.8      36 0.00053   22.8   2.6   56   65-121    19-79  (79)
+ 47 d3bw1a1 b.38.1.0 (A:1-89) auto  44.6      43 0.00062   22.6   2.9   59    3-62     15-85  (89)
+ 48 KOG3445 Mitochondrial/chloropl  44.6      66 0.00095   25.1   4.3   29    3-31     71-99  (145)
+ 49 KOG3459 Small nuclear ribonucl  44.5      55  0.0008   24.1   3.7   59    3-62     38-114 (114)
+ 50 d4xq3a_ b.38.1.0 (A:) automate  44.5      39 0.00056   22.4   2.7   61    2-62     12-78  (78)
+ 51 KOG1783 Small nuclear ribonucl  44.1      64 0.00093   21.4   3.7   56   65-121    17-77  (77)
+ 52 KOG3474 Molybdopterin converti  44.1 1.2E+02  0.0017   19.7   5.1   56    1-56      1-80  (84)
+ 53 d4c92e_ b.38.1.0 (E:) automate  43.8      58 0.00084   21.8   3.5   56    3-59     16-84  (84)
+ 54 d1ryja_ d.15.3.2 (A:) Hypothet  43.1 1.2E+02  0.0017   19.5   6.1   47   63-109     3-50  (70)
+ 55 KOG3459 Small nuclear ribonucl  42.8      62  0.0009   23.8   3.7   59   66-125    38-114 (114)
+ 56 KOG4079 Putative mitochondrial  42.4      65 0.00093   26.2   4.1   28    4-31     77-104 (169)
+ 57 d3jcmv_ b.38.1.1 (V:) Small nu  42.3      56  0.0008   21.8   3.2   53    3-56     19-84  (84)
+ 58 d4c92e_ b.38.1.0 (E:) automate  41.9      71   0.001   21.4   3.7   56   66-122    16-84  (84)
+ 59 d3jb9z_ b.38.1.1 (Z:) D3 core   41.5      59 0.00086   21.6   3.2   60   66-126    14-78  (80)
+ 60 d2fwka_ b.38.1.1 (A:) U6 snRNA  41.5      68 0.00099   21.9   3.6   56    3-59     17-92  (92)
+ 61 d1d3bb_ b.38.1.1 (B:) B core S  41.1      72   0.001   21.0   3.5   57    3-60     10-81  (81)
+ 62 d1d3bb_ b.38.1.1 (B:) B core S  40.8      71   0.001   21.0   3.5   57   66-123    10-81  (81)
+ 63 KOG3445 Mitochondrial/chloropl  40.8      75  0.0011   24.8   4.1   29   67-95     72-100 (145)
+ 64 d1i4k1_ b.38.1.1 (1:) Archaeal  40.1      55  0.0008   21.3   2.8   53    3-56     15-72  (72)
+ 65 d1i4k1_ b.38.1.1 (1:) Archaeal  40.1      56 0.00082   21.2   2.9   54   65-119    14-72  (72)
+ 66 d2fwka_ b.38.1.1 (A:) U6 snRNA  39.6      78  0.0011   21.6   3.6   56   66-122    17-92  (92)
+ 67 d4xq3a_ b.38.1.0 (A:) automate  39.4      56  0.0008   21.6   2.8   61   65-125    12-78  (78)
+ 68 cd01729 LSm7; Like-Sm protein   39.3      95  0.0014   20.0   3.9   62   66-128    14-88  (89)
+ 69 d3jcmv_ b.38.1.1 (V:) Small nu  38.5      68 0.00098   21.4   3.1   54   65-119    18-84  (84)
+ 70 KOG3448 Predicted snRNP core p  38.1      57 0.00083   22.9   2.8   59    3-61     14-78  (96)
+ 71 d4emka_ b.38.1.0 (A:) automate  38.0      87  0.0013   20.3   3.5   54    3-57     13-72  (72)
+ 72 d1h641_ b.38.1.1 (1:) Archaeal  37.2      43 0.00062   21.8   2.0   53   65-118    13-70  (71)
+ 73 d4c92g_ b.38.1.0 (G:) automate  37.0      92  0.0013   21.0   3.6   57    3-60     12-84  (85)
+ 74 PF18416.1 ; GbpA_2 ; N-acetylg  36.9 2.1E+02   0.003   20.7   5.6   52   49-104     3-66  (100)
+ 75 d4c92g_ b.38.1.0 (G:) automate  36.4      83  0.0012   21.2   3.3   58   65-123    11-84  (85)
+ 76 cd01731 archaeal_Sm1; archaeal  36.3      65 0.00094   19.7   2.6   53    2-55     12-69  (69)
+ 77 KOG4079 Putative mitochondrial  35.8      96  0.0014   25.2   4.1   29   67-95     77-105 (169)
+ 78 cd00600 Sm_like; Sm and relate  35.7      62 0.00089   19.2   2.4   50   66-116     8-62  (63)
+ 79 d4f7ub_ b.38.1.1 (B:) D2 core   35.6 1.1E+02  0.0016   21.1   4.0   56   65-121    19-93  (93)
+ 80 d4emka_ b.38.1.0 (A:) automate  35.4      95  0.0014   20.2   3.4   53   65-118    12-70  (72)
+ 81 KOG1781 Small Nuclear ribonucl  35.4      59 0.00086   23.8   2.6   59    2-61     28-99  (108)
+ 82 d1h641_ b.38.1.1 (1:) Archaeal  35.1      49 0.00071   21.5   2.0   52    3-55     14-70  (71)
+ 83 KOG1782 Small Nuclear ribonucl  34.8      75  0.0011   24.2   3.2   58    3-61     21-86  (129)
+ 84 d1s3si_ d.15.1.2 (I:) p47 {Nor  34.1 1.5E+02  0.0022   18.8   4.1   27   55-81     10-36  (50)
+ 85 d4f7ub_ b.38.1.1 (B:) D2 core   34.1 1.3E+02  0.0019   20.7   4.1   55    3-58     20-93  (93)
+ 86 d3jb9z_ b.38.1.1 (Z:) D3 core   33.5      96  0.0014   20.6   3.3   51    3-54     14-69  (80)
+ 87 d1i8fa_ b.38.1.1 (A:) Archaeal  33.5      90  0.0013   20.3   3.1   55    2-57     13-71  (71)
+ 88 KOG3168 U1 snRNP component [Tr  33.5      83  0.0012   25.6   3.4   60   66-126    16-90  (177)
+ 89 PF14847.6 ; Ras_bdg_2 ; Ras-bi  33.1 1.3E+02  0.0019   22.7   4.2   27    4-30      2-29  (109)
+ 90 PF11094.8 ; UL11 ; Membrane-as  33.1      25 0.00037   23.2   0.3   22   68-89     21-42  (43)
+ 91 d4emha_ b.38.1.0 (A:) automate  32.7      85  0.0012   19.4   2.7   52   65-117     2-59  (60)
+ 92 d1uh6a1 d.15.1.1 (A:28-100) Ub  32.5 1.3E+02  0.0018   17.4   3.4   20    1-20      1-20  (73)
+ 93 d3jcmj_ b.38.1.1 (J:) D3 core   32.3      91  0.0013   20.5   3.0   60   66-126    14-78  (79)
+ 94 KOG1782 Small Nuclear ribonucl  31.6      93  0.0013   23.7   3.2   58   66-124    21-86  (129)
+ 95 PF06115.11 ; DUF956 ; Domain o  31.4 2.3E+02  0.0034   21.4   5.3   59   41-99     44-104 (116)
+ 96 PF17255.2 ; EbsA ; EbsA-like p  30.5 2.2E+02  0.0032   20.6   5.0   59   30-97     64-126 (132)
+ 97 PF03614.13 ; Flag1_repress ; R  30.4      69 0.00099   26.8   2.4   96    4-103    32-159 (165)
+ 98 d1i8fa_ b.38.1.1 (A:) Archaeal  30.2 1.1E+02  0.0016   19.8   3.1   55   65-120    13-71  (71)
+ 99 d3jcmx_ b.38.1.1 (X:) Small nu  30.1 1.3E+02  0.0019   19.7   3.5   56    3-58     14-76  (76)
+100 d1th7a1 b.38.1.1 (A:3-78) Arch  30.0      76  0.0011   20.9   2.3   53    3-56     19-76  (76)
+101 d3jcmq_ b.38.1.1 (Q:) D2 core   30.0 1.2E+02  0.0018   20.8   3.4   55   66-121    24-90  (90)
+102 KOG3293 Small nuclear ribonucl  29.4      65 0.00093   25.1   2.1   55    3-58     14-74  (134)
+103 KOG3168 U1 snRNP component [Tr  29.3   1E+02  0.0014   25.1   3.2   59    3-62     16-89  (177)
+104 cd17109 FERM_F1_SNX17_like; FE  29.2 2.4E+02  0.0034   20.0   4.8   57    3-59      4-71  (93)
+105 d1ljoa1 b.38.1.1 (A:3-75) Arch  29.0      87  0.0013   20.5   2.4   53   65-118    14-72  (73)
+106 cd11678 archaeal_LSm; archaeal  28.9 1.1E+02  0.0016   18.7   2.7   52    3-55     12-69  (69)
+107 cd16122 FERM_F1_SNX31; FERM (F  28.6 2.3E+02  0.0033   20.0   4.6   29   65-93      6-35  (98)
+108 d1ljoa1 b.38.1.1 (A:3-75) Arch  28.5      91  0.0013   20.4   2.4   54    2-56     14-73  (73)
+109 d1th7a1 b.38.1.1 (A:3-78) Arch  28.1      90  0.0013   20.6   2.4   54   65-119    18-76  (76)
+110 d3jb9j_ b.38.1.1 (J:) Small nu  28.0 1.6E+02  0.0023   19.1   3.5   55    3-58     14-73  (73)
+111 cd11679 archaeal_Sm_like; arch  27.9      74  0.0011   19.6   1.8   52    3-54     12-64  (65)
+112 d4c92d_ b.38.1.0 (D:) automate  26.9   1E+02  0.0015   20.5   2.5   56    2-58     13-84  (84)
+113 PF14453.6 ; ThiS-like ; ThiS-l  26.4 2.1E+02   0.003   17.2   4.5   39    2-47      1-39  (54)
+114 d1d3ba_ b.38.1.1 (A:) D3 core   26.3 1.8E+02  0.0026   18.8   3.5   54    3-57     14-72  (72)
+115 d4c92d_ b.38.1.0 (D:) automate  26.1   1E+02  0.0015   20.5   2.4   56   65-121    13-84  (84)
+116 PF18416.1 ; GbpA_2 ; N-acetylg  25.9 2.2E+02  0.0032   20.5   4.3   36    2-41     19-66  (100)
+117 PF14451.6 ; Ub-Mut7C ; Mut7-C   25.8 2.7E+02  0.0039   18.3   4.7   47    1-47      1-61  (81)
+118 KOG3493 Ubiquitin-like protein  25.7 1.9E+02  0.0027   16.8   3.4   20    1-20      1-20  (73)
+119 d4f7uf_ b.38.1.0 (F:) automate  25.7 1.8E+02  0.0026   18.7   3.5   54    3-57     15-73  (73)
+120 d3jcmq_ b.38.1.1 (Q:) D2 core   25.6 1.5E+02  0.0022   20.3   3.3   55    3-58     24-90  (90)
+121 PF17412.2 ; VraX ; Family of u  25.3 3.1E+02  0.0045   18.9   4.6   33   61-93      9-42  (55)
+122 d1mgqa_ b.38.1.1 (A:) Archaeal  25.3 1.2E+02  0.0017   19.9   2.6   52    3-55     18-74  (74)
+123 KOG3448 Predicted snRNP core p  24.6 1.1E+02  0.0016   21.5   2.4   56   66-122    14-76  (96)
+124 KOG3460 Small nuclear ribonucl  24.5 1.2E+02  0.0018   20.8   2.6   57    3-60     17-91  (91)
+125 d4emga_ b.38.1.0 (A:) automate  24.2 1.7E+02  0.0025   19.4   3.2   55   66-121    13-85  (85)
+126 PF08806.11 ; Sep15_SelM ; Sep1  24.1 2.3E+02  0.0034   19.6   3.9   31    3-33     43-74  (76)
+127 d3jcmj_ b.38.1.1 (J:) D3 core   23.8 1.4E+02   0.002   19.7   2.6   59    3-62     14-77  (79)
+128 cd16121 FERM_F1_SNX17; FERM (F  23.6 1.8E+02  0.0026   20.6   3.3   23    3-25      4-26  (93)
+129 PF14438.6 ; SM-ATX ; Ataxin 2   23.5      72   0.001   21.2   1.2   52   66-117    15-85  (87)
+130 cd01773 UBX_UBXN7; Ubiquitin r  23.3 2.1E+02   0.003   17.0   3.2   20    1-20      1-20  (76)
+131 cd16121 FERM_F1_SNX17; FERM (F  23.2 1.9E+02  0.0028   20.4   3.4   23   66-88      4-26  (93)
+132 KOG3460 Small nuclear ribonucl  23.1 1.5E+02  0.0021   20.4   2.8   58   65-123    16-91  (91)
+133 d1n9ra_ b.38.1.1 (A:) Small nu  22.6 1.8E+02  0.0025   18.6   2.9   55    3-58      8-68  (68)
+134 cd01719 Sm_G; Sm protein G. Th  22.3   2E+02  0.0028   17.4   3.0   54    3-57     12-70  (70)
+135 PF14438.6 ; SM-ATX ; Ataxin 2   22.3      69   0.001   21.3   1.0   52    3-54     15-85  (87)
+136 cd01729 LSm7; Like-Sm protein   22.2 1.8E+02  0.0026   18.6   3.0   58    3-61     14-84  (89)
+137 cd17179 FERM_F1_PLEKHH2; FERM   21.4 3.7E+02  0.0054   18.4   4.7   29   65-93      2-31  (103)
+138 d4c92b1 b.38.1.0 (B:2-95) auto  21.0 1.4E+02  0.0021   20.3   2.4   56    3-59     13-75  (94)
+139 d1wm3a_ d.15.1.1 (A:) SUMO-2 {  20.8 2.4E+02  0.0035   16.6   3.2   22    2-23      2-23  (72)
+140 KOG3293 Small nuclear ribonucl  20.8 1.1E+02  0.0015   23.9   1.8   56   65-121    13-74  (134)
+141 KOG3172 Small nuclear ribonucl  20.7 1.6E+02  0.0023   22.4   2.7   55    3-58     17-76  (119)
+142 KOG3172 Small nuclear ribonucl  20.2 1.5E+02  0.0022   22.4   2.5   80   65-145    16-100 (119)
+
+No 1
+>PF17209.3 ; Hfq ; Hfq protein
+Probab=89.93  E-value=0.3  Score=33.15  Aligned_cols=49  Identities=8%  Similarity=0.242  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             EEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEecceeeEEEecCCCC
+Q Q_9186633_66      4 IEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQRIDVKRILPINLPT   60 (149)
+Q Consensus         4 ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~   60 (149)
+                      +.|+|.||..+.-.+..||...+.=..++        +..++-|+.|..|.|.....
+T Consensus        16 v~v~l~nG~~l~G~I~~~D~y~i~l~~~~--------~~~lI~KhaI~~I~~~~~~~   64 (64)
+T B0TB06_HELMI/7   16 VTIFLVNGFQIKGMVKGFDSFTVFLDVEG--------KQQMVYKHAISTIMPLRPVS   64 (64)
+T ss_pred             EEEEEcCCcEEEEEEeeECCcEEEEEECC--------eEEEEEeeeEEEEEeCCCCC
+
+
+No 2
+>PF17209.3 ; Hfq ; Hfq protein
+Probab=88.49  E-value=0.51  Score=32.05  Aligned_cols=49  Identities=8%  Similarity=0.252  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             EEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEECCeEEecceEEEEEeccCCC
+Q Q_9186633_66     67 LKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIGDYIFSRIDVKQVVPVKEEP  123 (149)
+Q Consensus        67 ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IGd~Iisr~~Vk~I~Pv~~~~  123 (149)
+                      ++|+|.||..+.-....||...+.=..++        +..++-|+.|..|.|.+...
+T Consensus        16 v~v~l~nG~~l~G~I~~~D~y~i~l~~~~--------~~~lI~KhaI~~I~~~~~~~   64 (64)
+T B0TB06_HELMI/7   16 VTIFLVNGFQIKGMVKGFDSFTVFLDVEG--------KQQMVYKHAISTIMPLRPVS   64 (64)
+T ss_pred             EEEEEcCCcEEEEEEeeECCcEEEEEECC--------eEEEEEeeeEEEEEeCCCCC
+
+
+No 3
+>d3hsbd_ b.38.1.0 (D:) automated matches {Bacillus subtilis [TaxId: 1423]}
+Probab=86.37  E-value=0.55  Score=32.43  Aligned_cols=51  Identities=8%  Similarity=0.126  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEecceeeEEEecCCCC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQRIDVKRILPINLPT   60 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~   60 (149)
+                      ..+.|+|.||..++-.+..||...+.=.-+.        +..+|-|+.|..|.|.....
+T Consensus        15 ~~V~i~L~nG~~l~G~I~~~D~y~i~l~~~~--------~~~lI~K~aI~~I~~~~~~~   65 (67)
+T d3hsbd_          15 TYVTVFLLNGFQLRGQVKGFDNFTVLLESEG--------KQQLIYKHAISTFAPQKNVQ   65 (67)
+T ss_dssp             CEEEEEETTSCEEEEEEEEECSSEEEEEETT--------EEEEEEGGGEEEEEESSCCC
+T ss_pred             CcEEEEECCCCEEEEEEEEECCCEEEEEECC--------EEEEEEEeeeeEEEeCCCCC
+
+
+No 4
+>d5szda1 b.38.1.0 (A:4-72) automated matches {Aquifex aeolicus [TaxId: 224324]}
+Probab=86.18  E-value=0.98  Score=31.38  Aligned_cols=51  Identities=12%  Similarity=0.243  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEecceeeEEEecCCCC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQRIDVKRILPINLPT   60 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~   60 (149)
+                      ..+.|+|-||..+.-.+..||...+.  |...+      +..+|.|+.|..|.|.....
+T Consensus        18 ~~V~i~L~~G~~l~G~I~~~D~y~i~--l~~~~------~~~lI~KhAIs~I~~~~~~~   68 (69)
+T d5szda1          18 VKVSVYLVNGVRLQGRIRSFDLFTIL--LEDGK------QQTLVYKHAITTIVPHERLE   68 (69)
+T ss_dssp             CEEEEEETTSCEEEEEEEEECSSEEE--EEETT------EEEEEEGGGEEEEEESSCCC
+T ss_pred             CcEEEEEcCCCEEEEEEEEECCCEEE--EEeCC------eEEEEEeeeeeEEEeCCcCC
+
+
+No 5
+>d3hsbd_ b.38.1.0 (D:) automated matches {Bacillus subtilis [TaxId: 1423]}
+Probab=84.33  E-value=0.87  Score=31.44  Aligned_cols=51  Identities=12%  Similarity=0.137  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEECCeEEecceEEEEEeccCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIGDYIFSRIDVKQVVPVKEEP  123 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IGd~Iisr~~Vk~I~Pv~~~~  123 (149)
+                      ..++|+|-||..+.-....||...+.=.-+.        +..+|-|+.|..|.|.+..+
+T Consensus        15 ~~V~i~L~nG~~l~G~I~~~D~y~i~l~~~~--------~~~lI~K~aI~~I~~~~~~~   65 (67)
+T d3hsbd_          15 TYVTVFLLNGFQLRGQVKGFDNFTVLLESEG--------KQQLIYKHAISTFAPQKNVQ   65 (67)
+T ss_dssp             CEEEEEETTSCEEEEEEEEECSSEEEEEETT--------EEEEEEGGGEEEEEESSCCC
+T ss_pred             CcEEEEECCCCEEEEEEEEECCCEEEEEECC--------EEEEEEEeeeeEEEeCCCCC
+
+
+No 6
+>d5szda1 b.38.1.0 (A:4-72) automated matches {Aquifex aeolicus [TaxId: 224324]}
+Probab=83.18  E-value=1.7  Score=30.23  Aligned_cols=51  Identities=14%  Similarity=0.221  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEECCeEEecceEEEEEeccCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIGDYIFSRIDVKQVVPVKEEP  123 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IGd~Iisr~~Vk~I~Pv~~~~  123 (149)
+                      ..++|+|-||..+.-....||...+.  |....      +..+|.|+.|..|.|.+..+
+T Consensus        18 ~~V~i~L~~G~~l~G~I~~~D~y~i~--l~~~~------~~~lI~KhAIs~I~~~~~~~   68 (69)
+T d5szda1          18 VKVSVYLVNGVRLQGRIRSFDLFTIL--LEDGK------QQTLVYKHAITTIVPHERLE   68 (69)
+T ss_dssp             CEEEEEETTSCEEEEEEEEECSSEEE--EEETT------EEEEEEGGGEEEEEESSCCC
+T ss_pred             CcEEEEEcCCCEEEEEEEEECCCEEE--EEeCC------eEEEEEeeeeeEEEeCCcCC
+
+
+No 7
+>COG1923 Hfq; sRNA-binding regulator protein Hfq [Signal transduction mechanisms]. 
+Probab=82.51  E-value=7  Score=27.91  Aligned_cols=56  Identities=9%  Similarity=0.180  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEECC--eEEecceEEEEEeccCCCCCCCCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIGD--YIFSRIDVKQVVPVKEEPKEPEQPP  130 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IGd--~Iisr~~Vk~I~Pv~~~~~~~~~~~  130 (149)
+                      ..+.|+|.||..+.-....||+..+          .+.-++  .+|-|+.|..|.|......-.+.+.
+T Consensus        20 ~~V~v~L~nG~~l~G~I~~~D~~~I----------~l~~~g~~~lI~KhAIs~I~~~~~~~~~~~~~~   77 (77)
+T COG1923          20 IPVTIFLVNGFKLQGQVESFDNFVV----------LLKNTGKQQLVYKHAISTIVPSRPVQLHTEEEE   77 (77)
+T ss_pred             CCEEEEECCCCEEEEEEEEECCCEE----------EEEECCeEEEEEeeeeEEEEeCCCCCCCCcCCC
+
+
+No 8
+>cd01716 Hfq; bacterial Hfq-like. Hfq, an abundant, ubiquitous RNA-binding protein, functions as a pleiotropic regulator of RNA metabolism in prokaryotes, required for transcription of some transcripts and degradation of others.
+Probab=81.97  E-value=0.87  Score=29.95  Aligned_cols=45  Identities=13%  Similarity=0.208  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEecceeeEEEe
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQRIDVKRILP   55 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~P   55 (149)
+                      .+.|+|.||..+.-.+..||.-.+.=..++        +..++.|+.|+.|.|
+T Consensus        16 ~v~i~l~~G~~l~G~i~~~D~~~i~l~~~~--------~~~~i~KhaI~~i~p   60 (60)
+T cd01716          16 EVTVFFLNGFQMKGVIEEYDKYVVSLNSQG--------KQHLIYKHAISTYTV   60 (60)
+T ss_pred             eEEEEECCCcEEEEEEEEECCcEEEEEECC--------eEEEEEEeeEEeeeC
+
+
+No 9
+>d4pnoa_ b.38.1.2 (A:) automated matches {Escherichia coli [TaxId: 562]}
+Probab=80.74  E-value=1.8  Score=29.71  Aligned_cols=50  Identities=20%  Similarity=0.266  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEecceeeEEEecCCCC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQRIDVKRILPINLPT   60 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~   60 (149)
+                      ..++|+|.||..++-.+..||...+.=. +.        +..+|.|+.|..|.|.....
+T Consensus        15 ~~V~v~l~~G~~l~G~I~~~D~~~i~l~-~~--------~~~lI~KhaI~~I~~~~~~~   64 (65)
+T d4pnoa_          15 VPVSIYLVNGIKLQGQIESFDQFVILLK-NT--------VSQMVYKHAISTVVPSRPVS   64 (65)
+T ss_dssp             CCEEEEETTSCEEEECEEEECSSEEEEC--C--------CCEEEEGGGEEEEEESSCCC
+T ss_pred             CCEEEEEcCCCEEEEEEEEECCcEEEEE-CC--------ceEEEEeeeeEEEEeCCCCC
+
+
+No 10
+>d4nl2a_ b.38.1.0 (A:) automated matches {Listeria monocytogenes [TaxId: 1639]}
+Probab=80.20  E-value=2.3  Score=29.95  Aligned_cols=49  Identities=6%  Similarity=0.146  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             EEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEecceeeEEEecCCCC
+Q Q_9186633_66      4 IEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQRIDVKRILPINLPT   60 (149)
+Q Consensus         4 ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~   60 (149)
+                      ++|+|-||..+.-.+..||.-.+.  |...+      +..+|-|+.|+.|.|.....
+T Consensus        23 V~i~L~nG~~l~G~I~~fD~y~i~--l~~~~------~~~lI~KhAIs~I~~~~~~~   71 (73)
+T d4nl2a_          23 ATVFLTNGFQLRGRVVSFDNFTVL--LDVEG------KQQLVFKHAISTFSPQKNVA   71 (73)
+T ss_dssp             EEEEETTSCEEEEEEEEECSSEEE--EEETT------EEEEEEGGGEEEEEESSCCC
+T ss_pred             EEEEECCCCEEEEEEEEECCCEEE--EEECC------EEEEEEEeeeeEEeeCCCCC
+
+
+No 11
+>d4pnoa_ b.38.1.2 (A:) automated matches {Escherichia coli [TaxId: 562]}
+Probab=79.14  E-value=12  Score=25.72  Aligned_cols=47  Identities=11%  Similarity=0.270  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEEC---CeEEecceEEEEEeccCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIG---DYIFSRIDVKQVVPVKEEP  123 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IG---d~Iisr~~Vk~I~Pv~~~~  123 (149)
+                      ..++|+|.||..+.-....||..            ++.+.   ..+|-|+.|..|.|.+...
+T Consensus        15 ~~V~v~l~~G~~l~G~I~~~D~~------------~i~l~~~~~~lI~KhaI~~I~~~~~~~   64 (65)
+T d4pnoa_          15 VPVSIYLVNGIKLQGQIESFDQF------------VILLKNTVSQMVYKHAISTVVPSRPVS   64 (65)
+T ss_dssp             CCEEEEETTSCEEEECEEEECSS------------EEEEC-CCCEEEEGGGEEEEEESSCCC
+T ss_pred             CCEEEEEcCCCEEEEEEEEECCc------------EEEEECCceEEEEeeeeEEEEeCCCCC
+
+
+No 12
+>cd11676 Gemin6; Gemin 6. Gemins 6, together with the survival motor neuron (SMN) protein, other Gemins, and Unr-interacting protein (UNRIP) form the SMN complex, which plays an important role in the Sm core assembly reaction, by binding directly to the Sm proteins, as well as UsnRNAs.
+Probab=78.67  E-value=1.8  Score=27.12  Aligned_cols=54  Identities=17%  Similarity=0.022  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEECCeEEecceEEEEEec
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIGDYIFSRIDVKQVVPV  119 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IGd~Iisr~~Vk~I~Pv  119 (149)
+                      ..+.|.+.+|..+.-....|||...+-.|.+..-. ..+|-.++..+.|+.+...
+T Consensus        10 ~~v~v~~~~g~~~~G~l~~~Dp~~~nlvL~~~~~~-~~~~~~~i~g~~I~~i~~~   63 (63)
+T cd11676          10 KEVRVTASEKNEYKGWVLTTDPVSANIVLVNFLED-GSMSVTGIMGHAVQTVETM   63 (63)
+T ss_pred             CEEEEEeCCCCEEEEEEEEeCCCCCEEEEEeeCCC-CceEEEEEcccceEEEEEC
+
+
+No 13
+>d1kq1a_ b.38.1.2 (A:) Pleiotropic translational regulator Hfq {Staphylococcus aureus [TaxId: 1280]}
+Probab=78.34  E-value=1.3  Score=29.89  Aligned_cols=46  Identities=15%  Similarity=0.235  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEecceeeEEEe
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQRIDVKRILP   55 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~P   55 (149)
+                      ..+.|+|.||..+.=.+..||...+.=.-+.+        ..+|.|+.|..|.|
+T Consensus        15 ~~v~i~l~~G~~l~G~I~~~D~~~i~l~~~g~--------~~lI~KhAI~~I~~   60 (60)
+T d1kq1a_          15 TEVTVFFLNGFQMKGVIEEYDKYVVSLNSQGK--------QHLIYKHAISTYTV   60 (60)
+T ss_dssp             CEEEEEETTSCEEEEEEEEECSSEEEEEETTE--------EEEEEGGGEEEEEC
+T ss_pred             CeEEEEECCCcEEEEEEEEECCcEEEEEECCe--------EEEEEEeeEEeeeC
+
+
+No 14
+>cd01716 Hfq; bacterial Hfq-like. Hfq, an abundant, ubiquitous RNA-binding protein, functions as a pleiotropic regulator of RNA metabolism in prokaryotes, required for transcription of some transcripts and degradation of others.
+Probab=78.05  E-value=1.5  Score=28.81  Aligned_cols=46  Identities=11%  Similarity=0.185  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEECCeEEecceEEEEEe
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIGDYIFSRIDVKQVVP  118 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IGd~Iisr~~Vk~I~P  118 (149)
+                      ..+.++|.||..+.-....||...+.=..++        +..++.|+.|..|.|
+T Consensus        15 ~~v~i~l~~G~~l~G~i~~~D~~~i~l~~~~--------~~~~i~KhaI~~i~p   60 (60)
+T cd01716          15 TEVTVFFLNGFQMKGVIEEYDKYVVSLNSQG--------KQHLIYKHAISTYTV   60 (60)
+T ss_pred             CeEEEEECCCcEEEEEEEEECCcEEEEEECC--------eEEEEEEeeEEeeeC
+
+
+No 15
+>cd11676 Gemin6; Gemin 6. Gemins 6, together with the survival motor neuron (SMN) protein, other Gemins, and Unr-interacting protein (UNRIP) form the SMN complex, which plays an important role in the Sm core assembly reaction, by binding directly to the Sm proteins, as well as UsnRNAs.
+Probab=77.81  E-value=1.8  Score=27.18  Aligned_cols=53  Identities=8%  Similarity=-0.141  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEecceeeEEEec
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQRIDVKRILPI   56 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~Pv   56 (149)
+                      .+.|.+.||..+.-.+..|||...+-.|.+..-. -.+|-.++..+.|+.|...
+T Consensus        11 ~v~v~~~~g~~~~G~l~~~Dp~~~nlvL~~~~~~-~~~~~~~i~g~~I~~i~~~   63 (63)
+T cd11676          11 EVRVTASEKNEYKGWVLTTDPVSANIVLVNFLED-GSMSVTGIMGHAVQTVETM   63 (63)
+T ss_pred             EEEEEeCCCCEEEEEEEEeCCCCCEEEEEeeCCC-CceEEEEEcccceEEEEEC
+
+
+No 16
+>d4nl2a_ b.38.1.0 (A:) automated matches {Listeria monocytogenes [TaxId: 1639]}
+Probab=75.25  E-value=4.1  Score=28.69  Aligned_cols=49  Identities=12%  Similarity=0.155  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             EEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEECCeEEecceEEEEEeccCCC
+Q Q_9186633_66     67 LKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIGDYIFSRIDVKQVVPVKEEP  123 (149)
+Q Consensus        67 ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IGd~Iisr~~Vk~I~Pv~~~~  123 (149)
+                      ++|+|-||..+.-....||...+.  |....      +..+|-|+.|..|.|.+...
+T Consensus        23 V~i~L~nG~~l~G~I~~fD~y~i~--l~~~~------~~~lI~KhAIs~I~~~~~~~   71 (73)
+T d4nl2a_          23 ATVFLTNGFQLRGRVVSFDNFTVL--LDVEG------KQQLVFKHAISTFSPQKNVA   71 (73)
+T ss_dssp             EEEEETTSCEEEEEEEEECSSEEE--EEETT------EEEEEEGGGEEEEEESSCCC
+T ss_pred             EEEEECCCCEEEEEEEEECCCEEE--EEECC------EEEEEEEeeeeEEeeCCCCC
+
+
+No 17
+>COG1923 Hfq; sRNA-binding regulator protein Hfq [Signal transduction mechanisms]. 
+Probab=74.69  E-value=29  Score=24.82  Aligned_cols=47  Identities=15%  Similarity=0.257  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECC--EEEecceeeEEEecCC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGD--FIIQRIDVKRILPINL   58 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd--~Iisr~~Ik~I~Pv~~   58 (149)
+                      ..+.|+|.||..++-.+..||          +-...+.-++  .+|.|+.|..|.|...
+T Consensus        20 ~~V~v~L~nG~~l~G~I~~~D----------~~~I~l~~~g~~~lI~KhAIs~I~~~~~   68 (77)
+T COG1923          20 IPVTIFLVNGFKLQGQVESFD----------NFVVLLKNTGKQQLVYKHAISTIVPSRP   68 (77)
+T ss_pred             CCEEEEECCCCEEEEEEEEEC----------CCEEEEEECCeEEEEEeeeeEEEEeCCC
+
+
+No 18
+>d1kq1a_ b.38.1.2 (A:) Pleiotropic translational regulator Hfq {Staphylococcus aureus [TaxId: 1280]}
+Probab=74.26  E-value=2.1  Score=28.85  Aligned_cols=46  Identities=11%  Similarity=0.199  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEECCeEEecceEEEEEe
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIGDYIFSRIDVKQVVP  118 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IGd~Iisr~~Vk~I~P  118 (149)
+                      ..+.|+|-||..+.=....||...+.=.-+..        ..++.|+.|..|.|
+T Consensus        15 ~~v~i~l~~G~~l~G~I~~~D~~~i~l~~~g~--------~~lI~KhAI~~I~~   60 (60)
+T d1kq1a_          15 TEVTVFFLNGFQMKGVIEEYDKYVVSLNSQGK--------QHLIYKHAISTYTV   60 (60)
+T ss_dssp             CEEEEEETTSCEEEEEEEEECSSEEEEEETTE--------EEEEEGGGEEEEEC
+T ss_pred             CeEEEEECCCcEEEEEEEEECCcEEEEEECCe--------EEEEEEeeEEeeeC
+
+
+No 19
+>KOG1775 U6 snRNA-associated Sm-like protein [RNA processing and modification]
+Probab=71.40  E-value=11  Score=25.82  Aligned_cols=59  Identities=17%  Similarity=0.264  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCce--------EEEECCeEEecceEEEEEeccCCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTV--------TVVIGDYIFSRIDVKQVVPVKEEPK  124 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~--------tV~IGd~Iisr~~Vk~I~Pv~~~~~  124 (149)
+                      ..+.|.|.||..+.-....||.. +|=.|-+....        ...+|-+++....|..|.+..++++
+T Consensus        18 ~~v~v~l~~~~~~~G~L~~~D~~-~Nl~L~~~~e~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~~~   84 (84)
+T KOG1775          18 SKIWIIMKSDKEFVGTLVGFDDF-VNMVLEDVTEYEITPEGRRMTKLDQILLNGNNITMLVPGGEGPE   84 (84)
+T ss_pred             CeEEEEECCCCEEEEEEEEECCc-ccEEEEecEEEEeCCCCCceEeCCEEEEcCCcEEEEEeCCCCCC
+
+
+No 20
+>KOG1775 U6 snRNA-associated Sm-like protein [RNA processing and modification]
+Probab=70.48  E-value=11  Score=25.81  Aligned_cols=59  Identities=10%  Similarity=0.110  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCce--------EEEECCEEEecceeeEEEecCCCCC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLI--------TVLIGDFIIQRIDVKRILPINLPTA   61 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~--------tV~IGd~Iisr~~Ik~I~Pv~~~~~   61 (149)
+                      ..+.|.|.||..+.-....||.. ++=.|-+....        ...+|-+++....|..|.+..++.+
+T Consensus        18 ~~v~v~l~~~~~~~G~L~~~D~~-~Nl~L~~~~e~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~~~   84 (84)
+T KOG1775          18 SKIWIIMKSDKEFVGTLVGFDDF-VNMVLEDVTEYEITPEGRRMTKLDQILLNGNNITMLVPGGEGPE   84 (84)
+T ss_pred             CeEEEEECCCCEEEEEEEEECCc-ccEEEEecEEEEeCCCCCceEeCCEEEEcCCcEEEEEeCCCCCC
+
+
+No 21
+>d1s3aa1 c.47.1.22 (A:15-99) NADH-ubiquinone oxidoreductase b8 subunit, CI-B8 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=63.12  E-value=26  Score=24.05  Aligned_cols=29  Identities=17%  Similarity=0.270  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHc
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLN   31 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LN   31 (149)
+                      .+.++..||....+.+++.+++++.+.++
+T Consensus        50 ~i~v~y~~G~~~~i~~~~~~~~eI~~~v~   78 (85)
+T d1s3aa1          50 KLWARYAFGQETNVPLNNFSADQVTRALE   78 (85)
+T ss_dssp             EEEEEESSCCEEEEECTTCCHHHHHHHHH
+T ss_pred             EEEEEECCCcEEEEECCCCCHHHHHHHHH
+
+
+No 22
+>KOG1784 Small Nuclear ribonucleoprotein splicing factor [RNA processing and modification]
+Probab=62.57  E-value=23  Score=25.26  Aligned_cols=74  Identities=20%  Similarity=0.227  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCC---------ceEEEECCeEEecceEEEEEeccCCCCCCCCCCCcCCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNN---------TVTVVIGDYIFSRIDVKQVVPVKEEPKEPEQPPVTEPEQ  136 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~---------~~tV~IGd~Iisr~~Vk~I~Pv~~~~~~~~~~~~~~~~~  136 (149)
+                      .+.|.|.||..+.-....|| ..+|=.|.+..         .....+|.+++....|..|.+......++...+....+.
+T Consensus        12 ~v~V~l~~g~~~~G~L~~~D-~~~NlvL~~~~e~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~~~~~~~~~~~~~~~   90 (96)
+T KOG1784          12 RVSVITNDGRVIVGSLKGFD-QTTNLIIDESHERIFSETEGVEQIVLGLYIIRGENVAVIGEIDEELDSRLDLTKIRAEP   90 (96)
+T ss_pred             EEEEEECCCCEEEEEEEEEe-CCCCEEEeceEEEEecCCCCceEEEeeEEEEeCCcEEEEEECCcchhccCCcccccccC
+
+
+Q ss_pred             CCCC
+Q Q_9186633_66    137 PTTE  140 (149)
+Q Consensus       137 ~~~~  140 (149)
+                      ....
+T Consensus        91 ~~~~   94 (96)
+T KOG1784          91 LHPV   94 (96)
+T ss_pred             CCCC
+
+
+No 23
+>d1ryja_ d.15.3.2 (A:) Hypothetical protein MTH1743 {Methanobacterium thermoautotrophicum [TaxId: 145262]}
+Probab=61.46  E-value=55  Score=21.10  Aligned_cols=46  Identities=13%  Similarity=0.022  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CeEEEEEeCCCCEEEEEeccCCHHHHHHHHc-CCCceEEEECCEEEe
+Q Q_9186633_66      1 MQTIEIHTQGGLKNTVQIENYNAQVLNDKLN-DKDLITVLIGDFIIQ   46 (149)
+Q Consensus         1 Mm~ieI~t~~G~~~~~~ve~Yna~~l~~~LN-n~~~~tV~IGd~Iis   46 (149)
+                      +|++++.+.+|......-+.-+..+|.+.|+ ..+...+.+.+.+++
+T Consensus         4 ~m~v~~~~~~g~~~~~~~~~~tv~~ll~~l~~~~~~~~v~vng~~v~   50 (70)
+T d1ryja_           4 GMKFTVITDDGKKILESGAPRRIKDVLGELEIPIETVVVKKNGQIVI   50 (70)
+T ss_dssp             CEEEEEEETTEEEEEEESSCCBHHHHHHHTTCCTTTEEEEETTEECC
+T ss_pred             CeEEEEEeCCCeEEEEcCCCCcHHHHHHHCCCCcccEEEEECCEEec
+
+
+No 24
+>PF10957.8 ; Spore_Cse60 ; Sporulation protein Cse60
+Probab=60.18  E-value=15  Score=23.78  Aligned_cols=21  Identities=19%  Similarity=0.398  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CeEEEEEeCCCCEEEEEeccCCHHHHHHHHcC
+Q Q_9186633_66      1 MQTIEIHTQGGLKNTVQIENYNAQVLNDKLND   32 (149)
+Q Consensus         1 Mm~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn   32 (149)
+                      ||++++....           ++..|.+++|+
+T Consensus         1 MmkvK~f~~~-----------~~~~le~~IN~   21 (59)
+T Q5KW14_GEOKA/1    1 MYKVKVFDKE-----------HEKDLEAAVND   21 (59)
+T ss_pred             CeEEEEEEcC-----------CHHHHHHHHHH
+
+
+No 25
+>KOG3446 NADH:ubiquinone oxidoreductase NDUFA2/B8 subunit [Energy production and conversion]
+Probab=59.60  E-value=28  Score=24.64  Aligned_cols=28  Identities=18%  Similarity=0.335  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             EEEEeCCCCEEEEEeccCCHHHHHHHHc
+Q Q_9186633_66      4 IEIHTQGGLKNTVQIENYNAQVLNDKLN   31 (149)
+Q Consensus         4 ieI~t~~G~~~~~~ve~Yna~~l~~~LN   31 (149)
+                      +++...||...++.++++++.++.+.+.
+T Consensus        64 v~v~y~~G~~~~i~~~~~~~~eI~~~i~   91 (97)
+T KOG3446          64 LWARYGNGVERSVSLANLSAPQIHKALE   91 (97)
+T ss_pred             EEEEECCCcEEEEECCCCCHHHHHHHHH
+
+
+No 26
+>d1s3aa1 c.47.1.22 (A:15-99) NADH-ubiquinone oxidoreductase b8 subunit, CI-B8 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=57.76  E-value=36  Score=23.33  Aligned_cols=30  Identities=23%  Similarity=0.278  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhc
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNN   95 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd   95 (149)
+                      .++++..||....+..++.++.++.+.|+.
+T Consensus        50 ~i~v~y~~G~~~~i~~~~~~~~eI~~~v~~   79 (85)
+T d1s3aa1          50 KLWARYAFGQETNVPLNNFSADQVTRALEN   79 (85)
+T ss_dssp             EEEEEESSCCEEEEECTTCCHHHHHHHHHH
+T ss_pred             EEEEEECCCcEEEEECCCCCHHHHHHHHHH
+
+
+No 27
+>KOG1780 Small Nuclear ribonucleoprotein G [RNA processing and modification]
+Probab=57.54  E-value=25  Score=23.66  Aligned_cols=55  Identities=22%  Similarity=0.248  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.+.||..+.-....||.. ++-.|.+     .......+|.++++-..|..|.+...
+T Consensus        16 ~v~v~l~~~~~~~G~L~~~D~~-~Nl~L~~~~~~~~~~~~~~~~~~~irG~~V~~i~~~~~   75 (77)
+T KOG1780          16 KIVLKLNGGRKVTGILRGYDPF-MNIVLDETVEPNGDGDKNNIGMVVIRGNSIVMVEALER   75 (77)
+T ss_pred             EEEEEECCCCEEEEEEEEeCCC-CCEEEeccEEeCCCCCeeEeeEEEEeCCcEEEEEEccc
+
+
+No 28
+>PF01423.22 ; LSM ; LSM domain
+Probab=56.97  E-value=17  Score=22.75  Aligned_cols=46  Identities=13%  Similarity=0.171  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEecceeeEEEe
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQRIDVKRILP   55 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~P   55 (149)
+                      .+.|.+.+|..+.-....|| ..++-.|.+..      |.++++...|..+.+
+T Consensus        10 ~v~v~l~~~~~~~G~l~~~D-~~~N~~L~~~~------~~~~irg~~I~~i~~   55 (55)
+T O27489_METTH/1   10 NVLLTLKNNEETRGKLISID-NYLNTVLQTEE------GLQFIKGTKIAFIAM   55 (55)
+T ss_pred             EEEEEECCCCEEEEEEEEEC-CCCcEEEEcCe------eeEEEecccEEEEEC
+
+
+No 29
+>PF01423.22 ; LSM ; LSM domain
+Probab=56.11  E-value=18  Score=22.64  Aligned_cols=47  Identities=13%  Similarity=0.138  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEECCeEEecceEEEEEe
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVIGDYIFSRIDVKQVVP  118 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~IGd~Iisr~~Vk~I~P  118 (149)
+                      ..+.|.+.+|..+.-....|| ..+|-.|.+..      |.+++....|..+.+
+T Consensus         9 ~~v~v~l~~~~~~~G~l~~~D-~~~N~~L~~~~------~~~~irg~~I~~i~~   55 (55)
+T O27489_METTH/1    9 KNVLLTLKNNEETRGKLISID-NYLNTVLQTEE------GLQFIKGTKIAFIAM   55 (55)
+T ss_pred             CEEEEEECCCCEEEEEEEEEC-CCCcEEEEcCe------eeEEEecccEEEEEC
+
+
+No 30
+>d1m5q1_ b.38.1.1 (1:) Sm-Like archaeal protein Smap3 {Pyrobaculum aerophilum [TaxId: 13773]}
+Probab=54.81  E-value=17  Score=27.53  Aligned_cols=57  Identities=12%  Similarity=0.098  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCC-ceEEEECCeEEecceEEEEEeccCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNN-TVTVVIGDYIFSRIDVKQVVPVKEE  122 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~-~~tV~IGd~Iisr~~Vk~I~Pv~~~  122 (149)
+                      ..+.|.|.||..+.-....||+ .+|=.|.+.. .....+|-+++..+.|+.|.+..+.
+T Consensus        11 k~V~V~l~~g~~~~G~L~~~D~-~~NlvL~d~~~~~~~~~~~~~IrG~~I~~I~~~~~~   68 (127)
+T d1m5q1_          11 REVQVVLSNGEVYKGVLHAVDN-QLNIVLANASNKAGEKFNRVFIMYRYIVHIDSTERR   68 (127)
+T ss_dssp             SEEEEEETTSCEEEEEEEEECT-TCCEEEEEEEETTCCEEEEEEECGGGEEEEEECSCC
+T ss_pred             CEEEEEECCCCEEEEEEEEECC-CCcEEEEeceecCCccccEEEEcCCeEEEEEeCCcc
+
+
+No 31
+>d4f7ue_ b.38.1.0 (E:) automated matches {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=54.62  E-value=26  Score=23.39  Aligned_cols=54  Identities=11%  Similarity=0.190  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCC------ceEEEECCEEEecceeeEEEec
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKD------LITVLIGDFIIQRIDVKRILPI   56 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~------~~tV~IGd~Iisr~~Ik~I~Pv   56 (149)
+                      ..+.|.+.+|..+.-....|| ..++=.|.+..      -....+|.++++...|..|.|.
+T Consensus        19 ~~V~i~l~~g~~~~G~l~~~D-~~~Nl~L~~~~e~~~~~~~~~~~~~~~irG~~i~~i~~~   78 (78)
+T d4f7ue_          19 IQVWLYEQVNMRIEGCIIGFD-EYMNLVLDDAEEIHSKTKSRKQLGRIMLKGDNITLLQSV   78 (78)
+T ss_dssp             EEEEESSCSSEEEEEEEEEEC-TTCCEEEEEEEEEETTTTEEEEEEEEEECGGGEEEEEEC
+T ss_pred             cEEEEEeCCCcEEEEEEEEEc-CCcCEEEeccEEEecCCCceEEeeEEEEecccEEEEEeC
+
+
+No 32
+>d3bw1a1 b.38.1.0 (A:1-89) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=53.90  E-value=27  Score=23.67  Aligned_cols=61  Identities=10%  Similarity=0.091  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCC------------ceEEEECCeEEecceEEEEEeccCCCCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNN------------TVTVVIGDYIFSRIDVKQVVPVKEEPKEP  126 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~------------~~tV~IGd~Iisr~~Vk~I~Pv~~~~~~~  126 (149)
+                      ..+.|.|.+|..+.-....||. .+|=.|.+..            .....+|.+++....|..|.+..++..+.
+T Consensus        14 ~~v~v~l~~~~~~~G~l~~~D~-~~Nl~L~~~~~~~~~~~~~~~~~~~~~l~~~~irG~~i~~i~~~~~~~~~~   86 (89)
+T d3bw1a1          14 ERVYIKLRGARTLVGTLQAFDS-HCNIVLSDAVETIYQLNNEELSESERRCEMVFIRGDTVTLISTPSEDDDGA   86 (89)
+T ss_dssp             SEEEEEEGGGCEEEEEEEEECT-TCCEEEEEEEEEEECCSTTCCCEEEEEEEEEEECGGGEEEEECCC-----C
+T ss_pred             CEEEEEECCCcEEEEEEEEEcC-CCCeEEeeeEEEEeccCccccccceEEceEEEEcCCeEEEEECCCCCcccc
+
+
+No 33
+>d4f7ue_ b.38.1.0 (E:) automated matches {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=52.88  E-value=29  Score=23.14  Aligned_cols=54  Identities=13%  Similarity=0.184  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCC------ceEEEECCeEEecceEEEEEec
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNN------TVTVVIGDYIFSRIDVKQVVPV  119 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~------~~tV~IGd~Iisr~~Vk~I~Pv  119 (149)
+                      ..+.|.+.+|..+.-....|| ..+|=.|.+..      .....+|.++++...|..|.|.
+T Consensus        19 ~~V~i~l~~g~~~~G~l~~~D-~~~Nl~L~~~~e~~~~~~~~~~~~~~~irG~~i~~i~~~   78 (78)
+T d4f7ue_          19 IQVWLYEQVNMRIEGCIIGFD-EYMNLVLDDAEEIHSKTKSRKQLGRIMLKGDNITLLQSV   78 (78)
+T ss_dssp             EEEEESSCSSEEEEEEEEEEC-TTCCEEEEEEEEEETTTTEEEEEEEEEECGGGEEEEEEC
+T ss_pred             cEEEEEeCCCcEEEEEEEEEc-CCcCEEEeccEEEecCCCceEEeeEEEEecccEEEEEeC
+
+
+No 34
+>KOG3446 NADH:ubiquinone oxidoreductase NDUFA2/B8 subunit [Energy production and conversion]
+Probab=52.77  E-value=48  Score=23.45  Aligned_cols=28  Identities=14%  Similarity=0.166  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             EEEEeCCCCEEEEEecCCCHHHHHHHhh
+Q Q_9186633_66     67 LKVHTNGGKEIEIITNDYDPIFLNEQLN   94 (149)
+Q Consensus        67 ieV~l~~G~~i~~~ve~Yda~~lneqLN   94 (149)
+                      +++...||....+...++++.++.+.|.
+T Consensus        64 v~v~y~~G~~~~i~~~~~~~~eI~~~i~   91 (97)
+T KOG3446          64 LWARYGNGVERSVSLANLSAPQIHKALE   91 (97)
+T ss_pred             EEEEECCCcEEEEECCCCCHHHHHHHHH
+
+
+No 35
+>d1m5q1_ b.38.1.1 (1:) Sm-Like archaeal protein Smap3 {Pyrobaculum aerophilum [TaxId: 13773]}
+Probab=52.20  E-value=18  Score=27.40  Aligned_cols=57  Identities=11%  Similarity=0.019  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCC-ceEEEECCEEEecceeeEEEecCCC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKD-LITVLIGDFIIQRIDVKRILPINLP   59 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~-~~tV~IGd~Iisr~~Ik~I~Pv~~~   59 (149)
+                      ..+.|.|.||..+.-....||+ .++=.|.+.. -....+|-+++..+.|+.|....++
+T Consensus        11 k~V~V~l~~g~~~~G~L~~~D~-~~NlvL~d~~~~~~~~~~~~~IrG~~I~~I~~~~~~   68 (127)
+T d1m5q1_          11 REVQVVLSNGEVYKGVLHAVDN-QLNIVLANASNKAGEKFNRVFIMYRYIVHIDSTERR   68 (127)
+T ss_dssp             SEEEEEETTSCEEEEEEEEECT-TCCEEEEEEEETTCCEEEEEEECGGGEEEEEECSCC
+T ss_pred             CEEEEEECCCCEEEEEEEEECC-CCcEEEEeceecCCccccEEEEcCCeEEEEEeCCcc
+
+
+No 36
+>KOG1780 Small Nuclear ribonucleoprotein G [RNA processing and modification]
+Probab=50.95  E-value=40  Score=22.65  Aligned_cols=57  Identities=23%  Similarity=0.351  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCce-----EEEECCeEEecceEEEEEeccCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTV-----TVVIGDYIFSRIDVKQVVPVKEEP  123 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~-----tV~IGd~Iisr~~Vk~I~Pv~~~~  123 (149)
+                      .+.|.|.+|..+.-....||.. +|-.|.+....     ...+|.+++.-..|..|.+.....
+T Consensus        16 ~v~v~l~~~~~~~G~L~~~D~~-~Nl~L~~~~~~~~~~~~~~~~~~~irG~~V~~i~~~~~~~   77 (77)
+T KOG1780          16 KIVLKLNGGRKVTGILRGYDPF-MNIVLDETVEPNGDGDKNNIGMVVIRGNSIVMVEALERVG   77 (77)
+T ss_pred             EEEEEECCCCEEEEEEEEeCCC-CCEEEeccEEeCCCCCeeEeeEEEEeCCcEEEEEEcccCC
+
+
+No 37
+>d4emkb_ b.38.1.0 (B:) automated matches {Schizosaccharomyces pombe [TaxId: 284812]}
+Probab=49.51  E-value=34  Score=22.35  Aligned_cols=53  Identities=15%  Similarity=0.194  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceE-----EEECCEEEecceeeEEEec
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLIT-----VLIGDFIIQRIDVKRILPI   56 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~t-----V~IGd~Iisr~~Ik~I~Pv   56 (149)
+                      .+.|.+.+|..+.-....|| ..++=.|.+.....     ..+|.+.++-..|..|.|.
+T Consensus        16 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~   73 (73)
+T d4emkb_          16 KVLIRLSSGVDYKGILSCLD-GYMNLALERTEEYVNGKKTNVYGDAFIRGNNVLYVSAL   73 (73)
+T ss_dssp             EEEEECTTSCEEEEEEEEEC-TTCEEEEEEEEEEETTEEEEEEEEEEEEGGGSSEEEEC
+T ss_pred             EEEEEeCCCCEEEEEEEEEC-CCccEEEEeeEEEECCceeEEeeEEEEccCcEEEEEeC
+
+
+No 38
+>PF17353.2 ; DUF5381 ; Family of unknown function (DUF5381)
+Probab=49.46  E-value=1e+02  Score=23.89  Aligned_cols=62  Identities=13%  Similarity=0.098  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             H--cCCCceEEEECCEEEecceeeEEEecCCCCCCC----eeeEEEEeCCCCEEEEEecCC-CHHHHHHHhh
+Q Q_9186633_66     30 L--NDKDLITVLIGDFIIQRIDVKRILPINLPTAEG----TTKLKVHTNGGKEIEIITNDY-DPIFLNEQLN   94 (149)
+Q Consensus        30 L--Nn~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~~~~----~m~ieV~l~~G~~i~~~ve~Y-da~~lneqLN   94 (149)
+                      +  ++..+..-  ++.-|+-.+|+++.. .......    ...+.+.++||+.+.+..-+. +.+++.+.|+
+T Consensus        76 i~~~~~Gi~~~--~~~~I~W~dI~~i~~-~~~~~~~~~~~~~~l~i~~~~~~~~~i~~~~l~~~~el~~~i~  144 (169)
+T A8FIX8_BACP2/5   76 IQRGKNGAVLH--RERTIPFQDIQSIDM-RRHRYSVRGFLFMDVLIRKIDGKLIKIPAYSILDEEVFEQTVK  144 (169)
+T ss_pred             EEeCCCeeEEe--CCcEEeHHHceEEEe-eecccccceeeeceEEEEEeCCcEEEEecccCCCHHHHHHHHH
+
+
+No 39
+>d4f7ua_ b.38.1.1 (A:) D1 core SNRNP protein {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=49.35  E-value=51  Score=21.90  Aligned_cols=60  Identities=12%  Similarity=0.233  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhc-----CCceEEEECCeEEecceEEEEEeccCCCCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNN-----NNTVTVVIGDYIFSRIDVKQVVPVKEEPKEP  126 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd-----~~~~tV~IGd~Iisr~~Vk~I~Pv~~~~~~~  126 (149)
+                      .+.|.+.+|..+.-....|| ..+|=.|.+     .......+|.+++....|..+.........+
+T Consensus        14 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~~~~~~~   78 (82)
+T d4f7ua_          14 TVTIELKNGTQVHGTITGVD-VSMNTHLKAVKMTLKNREPVQLETLSIRGNNIRYFILPDSLPLDT   78 (82)
+T ss_dssp             EEEEEETTSCEEEEEEEEEC-TTCCEEEEEEEEECTTSCCEEEEEEEECGGGEEEEECCTTCCHHH
+T ss_pred             EEEEEECCCCEEEEEEEEEc-ccccEEEeEEEEEcCCCCeEEeEEEEEeCCcEEEEECCCCCChhH
+
+
+No 40
+>KOG1783 Small nuclear ribonucleoprotein F [RNA processing and modification]
+Probab=48.45  E-value=64  Score=21.40  Aligned_cols=55  Identities=16%  Similarity=0.204  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.+.||..+.-....||.. ++-.|.+     .....-.+|.+++.-..|..|.+...
+T Consensus        18 ~v~v~l~~~~~~~G~l~~~D~~-~Ni~L~~~~e~~~~~~~~~~~~~~irG~~I~~i~~~~~   77 (77)
+T KOG1783          18 TVVVKLNSGVDYRGTLVCLDGY-MNIALESTEEYVNGQLKNKYGDAFIRGNNVLYISTQKI   77 (77)
+T ss_pred             EEEEEeCCCCEEEEEEEEECCC-ccEEEEeeEEEECCceeEEeeeEEEcCCcEEEEEeCCC
+
+
+No 41
+>KOG3482 Small nuclear ribonucleoprotein (snRNP) SMF [RNA processing and modification]
+Probab=47.27  E-value=39  Score=22.65  Aligned_cols=55  Identities=15%  Similarity=0.167  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.+.+|..+.-....||.. ++-.|-+     ..-....+|.+++....|..|.+..+
+T Consensus        20 ~v~v~l~~~~~~~G~l~~~D~~-~N~~L~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~   79 (79)
+T KOG3482          20 PVLVKLKWGQEYKGTLVSVDNY-MNLQLANAEEYIDGVSTGNLGEILIRCNNVLYIRGVPE   79 (79)
+T ss_pred             eEEEEECCCCEEEEEEEEECCC-CCEEEEeeEEEeCCCceEEeeEEEECCCcEEEEEeCCC
+
+
+No 42
+>d4emkb_ b.38.1.0 (B:) automated matches {Schizosaccharomyces pombe [TaxId: 284812]}
+Probab=45.76  E-value=43  Score=21.87  Aligned_cols=53  Identities=21%  Similarity=0.246  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceE-----EEECCeEEecceEEEEEec
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVT-----VVIGDYIFSRIDVKQVVPV  119 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~t-----V~IGd~Iisr~~Vk~I~Pv  119 (149)
+                      .+.|.+.+|..+.-....|| ..+|=.|.+.....     ..+|.+++.-..|..|.|.
+T Consensus        16 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~   73 (73)
+T d4emkb_          16 KVLIRLSSGVDYKGILSCLD-GYMNLALERTEEYVNGKKTNVYGDAFIRGNNVLYVSAL   73 (73)
+T ss_dssp             EEEEECTTSCEEEEEEEEEC-TTCEEEEEEEEEEETTEEEEEEEEEEEEGGGSSEEEEC
+T ss_pred             EEEEEeCCCCEEEEEEEEEC-CCccEEEEeeEEEECCceeEEeeEEEEccCcEEEEEeC
+
+
+No 43
+>KOG1784 Small Nuclear ribonucleoprotein splicing factor [RNA processing and modification]
+Probab=45.20  E-value=40  Score=24.04  Aligned_cols=56  Identities=16%  Similarity=0.274  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCC---------ceEEEECCEEEecceeeEEEecCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKD---------LITVLIGDFIIQRIDVKRILPINLP   59 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~---------~~tV~IGd~Iisr~~Ik~I~Pv~~~   59 (149)
+                      ++.|.|.||..+.-....||.. +|=.|.+..         .....+|.+++....|..|.+....
+T Consensus        12 ~v~V~l~~g~~~~G~L~~~D~~-~NlvL~~~~e~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~   76 (96)
+T KOG1784          12 RVSVITNDGRVIVGSLKGFDQT-TNLIIDESHERIFSETEGVEQIVLGLYIIRGENVAVIGEIDEE   76 (96)
+T ss_pred             EEEEEECCCCEEEEEEEEEeCC-CCEEEeceEEEEecCCCCceEEEeeEEEEeCCcEEEEEECCcc
+
+
+No 44
+>d4f7ua_ b.38.1.1 (A:) D1 core SNRNP protein {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=44.86  E-value=73  Score=21.14  Aligned_cols=57  Identities=16%  Similarity=0.209  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPINLPT   60 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~   60 (149)
+                      .+.|.+.+|..+.-....|| ..++=.|.+     .+-....+|.++++...|..|.......
+T Consensus        14 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~~~~   75 (82)
+T d4f7ua_          14 TVTIELKNGTQVHGTITGVD-VSMNTHLKAVKMTLKNREPVQLETLSIRGNNIRYFILPDSLP   75 (82)
+T ss_dssp             EEEEEETTSCEEEEEEEEEC-TTCCEEEEEEEEECTTSCCEEEEEEEECGGGEEEEECCTTCC
+T ss_pred             EEEEEECCCCEEEEEEEEEc-ccccEEEeEEEEEcCCCCeEEeEEEEEeCCcEEEEECCCCCC
+
+
+No 45
+>KOG1781 Small Nuclear ribonucleoprotein splicing factor [RNA processing and modification]
+Probab=44.79  E-value=52  Score=24.06  Aligned_cols=68  Identities=22%  Similarity=0.293  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCc-------------eEEEECCeEEecceEEEEEeccCCCCCCCCCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNT-------------VTVVIGDYIFSRIDVKQVVPVKEEPKEPEQPPV  131 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~-------------~tV~IGd~Iisr~~Vk~I~Pv~~~~~~~~~~~~  131 (149)
+                      ..+.|.|.||..+.-....||.. +|=.|.+...             ...-+|-++|.-..|..|.+...+...+.+-+.
+T Consensus        28 ~~v~V~l~~gr~~~G~L~~~D~~-~NlvL~~a~e~~~~~~~~~~~~~~~~~~g~~~IRG~~I~~i~~~~~~~~~~~~~~~  106 (108)
+T KOG1781          28 KKIRVKFTGGREASGILKGYDQL-LNLVLDDTVEYLRDPDDPYKLTDETRKLGLVVCRGTALVLISPADGSEEIANPFVQ  106 (108)
+T ss_pred             CEEEEEECCCCEEEEEEEEEcCC-cCEEEeeEEEEEeCCCCCccCCcceEEeeEEEEcCCcEEEEEeCCCChhcCCCccc
+
+
+Q ss_pred             cC
+Q Q_9186633_66    132 TE  133 (149)
+Q Consensus       132 ~~  133 (149)
+                      .|
+T Consensus       107 ~~  108 (108)
+T KOG1781         107 QE  108 (108)
+T ss_pred             CC
+
+
+No 46
+>KOG3482 Small nuclear ribonucleoprotein (snRNP) SMF [RNA processing and modification]
+Probab=44.76  E-value=36  Score=22.80  Aligned_cols=56  Identities=23%  Similarity=0.198  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCce-----EEEECCeEEecceEEEEEeccC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTV-----TVVIGDYIFSRIDVKQVVPVKE  121 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~-----tV~IGd~Iisr~~Vk~I~Pv~~  121 (149)
+                      ..+.|.|.+|..+.-....||.. +|-.|-+....     ...+|.+++....|..|.+..+
+T Consensus        19 ~~v~v~l~~~~~~~G~l~~~D~~-~N~~L~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~   79 (79)
+T KOG3482          19 KPVLVKLKWGQEYKGTLVSVDNY-MNLQLANAEEYIDGVSTGNLGEILIRCNNVLYIRGVPE   79 (79)
+T ss_pred             CeEEEEECCCCEEEEEEEEECCC-CCEEEEeeEEEeCCCceEEeeEEEECCCcEEEEEeCCC
+
+
+No 47
+>d3bw1a1 b.38.1.0 (A:1-89) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=44.58  E-value=43  Score=22.63  Aligned_cols=59  Identities=14%  Similarity=0.016  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCC------------ceEEEECCEEEecceeeEEEecCCCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKD------------LITVLIGDFIIQRIDVKRILPINLPTAE   62 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~------------~~tV~IGd~Iisr~~Ik~I~Pv~~~~~~   62 (149)
+                      .+.|.+.+|..+.-....||. .++=.|.+..            .....+|.++++...|..|.+...+.+.
+T Consensus        15 ~v~v~l~~~~~~~G~l~~~D~-~~Nl~L~~~~~~~~~~~~~~~~~~~~~l~~~~irG~~i~~i~~~~~~~~~   85 (89)
+T d3bw1a1          15 RVYIKLRGARTLVGTLQAFDS-HCNIVLSDAVETIYQLNNEELSESERRCEMVFIRGDTVTLISTPSEDDDG   85 (89)
+T ss_dssp             EEEEEEGGGCEEEEEEEEECT-TCCEEEEEEEEEEECCSTTCCCEEEEEEEEEEECGGGEEEEECCC-----
+T ss_pred             EEEEEECCCcEEEEEEEEEcC-CCCeEEeeeEEEEeccCccccccceEEceEEEEcCCeEEEEECCCCCccc
+
+
+No 48
+>KOG3445 Mitochondrial/chloroplast ribosomal protein 36a [Translation, ribosomal structure and biogenesis]
+Probab=44.57  E-value=66  Score=25.07  Aligned_cols=29  Identities=10%  Similarity=0.212  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHc
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLN   31 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LN   31 (149)
+                      .|+++..||....+.+++.+++++.+.|.
+T Consensus        71 ~I~i~y~dG~~~~i~~~~~s~~eI~~~l~   99 (145)
+T KOG3445          71 LLRAEYLNGRERVICVRNMSQEEVSKKAT   99 (145)
+T ss_pred             EEEEEEcCCCEEEEECCCCCHHHHHHHHH
+
+
+No 49
+>KOG3459 Small nuclear ribonucleoprotein (snRNP) Sm core protein [RNA processing and modification]
+Probab=44.52  E-value=55  Score=24.11  Aligned_cols=59  Identities=15%  Similarity=0.183  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCce------------------EEEECCEEEecceeeEEEecCCCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLI------------------TVLIGDFIIQRIDVKRILPINLPTAE   62 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~------------------tV~IGd~Iisr~~Ik~I~Pv~~~~~~   62 (149)
+                      .+.|.|.||..+.-....||.. ++=.|.+-...                  ...+|.++|....|..|.+.....++
+T Consensus        38 ~V~V~l~~~r~~~G~L~~~D~~-~NlvL~d~~e~~~~~~~~~~~~~~~~~~~~~~l~~~~IrG~~I~~i~~~~~~~~~  114 (114)
+T KOG3459          38 QVLINCRNNVKLLGRVKAFDRH-CNMVLENVKELWTEVPKSGKGKKAKPVNKDRFISKMFLRGDSVILVLRNPLWTQA  114 (114)
+T ss_pred             eEEEEECCCcEEEEEEEEEcCC-CCEEEeeeEEEeeecCCCCCCCCCCCCceEEEeceEEECCCeEEEEEeCCccCCC
+
+
+No 50
+>d4xq3a_ b.38.1.0 (A:) automated matches {Sulfolobus solfataricus [TaxId: 555311]}
+Probab=44.49  E-value=39  Score=22.39  Aligned_cols=61  Identities=8%  Similarity=0.051  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCH------HHHHHHHcCCCceEEEECCEEEecceeeEEEecCCCCCC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNA------QVLNDKLNDKDLITVLIGDFIIQRIDVKRILPINLPTAE   62 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna------~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~~~   62 (149)
+                      ..+.|.+.||..++-....||.      ....+...+.......+|.++++-..|..|.........
+T Consensus        12 ~~v~v~l~~~~~~~G~l~~~D~~~Nl~L~d~~e~~~~~~~~~~~~~~~~IrG~~I~~i~~~~~~~~~   78 (78)
+T d4xq3a_          12 RIVLVKLKDGSEYIGKLEQTDGTMNLVLRDCTEIREGTSEPVAKYGRVLIRGSNILFISVDYETVMN   78 (78)
+T ss_dssp             SEEEEEETTSCEEEEEEEECCTTCCEEEEEEECCCTTSCCCSCCCEEEEECGGGEEEEETTTTSTTC
+T ss_pred             CEEEEEECCCCEEEEEEEEEcCCCCEEEeceEEEecCCCCCeEEceEEEECCCcEEEEEeCHHhccC
+
+
+No 51
+>KOG1783 Small nuclear ribonucleoprotein F [RNA processing and modification]
+Probab=44.08  E-value=64  Score=21.40  Aligned_cols=56  Identities=18%  Similarity=0.121  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceE-----EEECCeEEecceEEEEEeccC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVT-----VVIGDYIFSRIDVKQVVPVKE  121 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~t-----V~IGd~Iisr~~Vk~I~Pv~~  121 (149)
+                      ..+.|.|.+|..+.-....||.. +|-.|-+.....     -.+|.+++.-..|..|.+...
+T Consensus        17 ~~v~v~l~~~~~~~G~l~~~D~~-~Ni~L~~~~e~~~~~~~~~~~~~~irG~~I~~i~~~~~   77 (77)
+T KOG1783          17 RTVVVKLNSGVDYRGTLVCLDGY-MNIALESTEEYVNGQLKNKYGDAFIRGNNVLYISTQKI   77 (77)
+T ss_pred             CEEEEEeCCCCEEEEEEEEECCC-ccEEEEeeEEEECCceeEEeeeEEEcCCcEEEEEeCCC
+
+
+No 52
+>KOG3474 Molybdopterin converting factor, small subunit [Energy production and conversion]
+Probab=44.05  E-value=1.2e+02  Score=19.69  Aligned_cols=56  Identities=14%  Similarity=0.219  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CeEEEEEeCCC-------CEEEEEe-ccCCHHHHHHHHcCC--------CceEEEECCEEEe--------cceeeEEEec
+Q Q_9186633_66      1 MQTIEIHTQGG-------LKNTVQI-ENYNAQVLNDKLNDK--------DLITVLIGDFIIQ--------RIDVKRILPI   56 (149)
+Q Consensus         1 Mm~ieI~t~~G-------~~~~~~v-e~Yna~~l~~~LNn~--------~~~tV~IGd~Iis--------r~~Ik~I~Pv   56 (149)
+                      ||+++|.+...       ..+.+++ +..+..++.+.|..+        +...+.+.+-.+.        ..+...+.|.
+T Consensus         1 ~~~v~i~~~~~l~~~~~~~~~~~~~~~~~tv~~ll~~l~~~~~~~~~~~~~~~i~vn~~~~~~~~~~~l~~gd~i~i~p~   80 (84)
+T KOG3474           1 MIEIKVLFFAEACELTGKPDEAIDFPEESDTEECLDEILEKFPALEEIEKCMMLALDEEYANPGDRAELQHFDEIAIIPP   80 (84)
+T ss_pred             CcEEEEEEeHHHHHHhCCCeEEEECCCCCCHHHHHHHHHHHChhhHHHhhceEEEecccccCCCCcccCCCCCEEEEeCC
+
+
+No 53
+>d4c92e_ b.38.1.0 (E:) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=43.83  E-value=58  Score=21.81  Aligned_cols=56  Identities=13%  Similarity=0.118  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCce-------------EEEECCEEEecceeeEEEecCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLI-------------TVLIGDFIIQRIDVKRILPINLP   59 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~-------------tV~IGd~Iisr~~Ik~I~Pv~~~   59 (149)
+                      .+.|.+.||..+.-....||. .++=.|-+....             ...+|.+++....|..|.+..++
+T Consensus        16 ~V~v~l~~~~~~~G~l~~~D~-~~Nl~L~~~~~~~~~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~   84 (84)
+T d4c92e_          16 KVLIVLQSNREFEGTLVGFDD-FVNVILEDAVEWLIDPEDESRNEKVMQHHGRMLLSGNNIAILVPGGKK   84 (84)
+T ss_dssp             EEEEEESSSEEEEEEEEEECT-TCCEEEEEEEEEECCSSCTTSCEEEEECCSEEEECTTSEEEEEETCCC
+T ss_pred             eEEEEECCCCEEEEEEEEECC-CCCEEEEeeEEeecCcccccccccceEEeeeEEEecCeEEEEEeCCCC
+
+
+No 54
+>d1ryja_ d.15.3.2 (A:) Hypothetical protein MTH1743 {Methanobacterium thermoautotrophicum [TaxId: 145262]}
+Probab=43.09  E-value=1.2e+02  Score=19.50  Aligned_cols=47  Identities=23%  Similarity=0.058  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CeeeEEEEeCCCCEEEEEecCCCHHHHHHHhh-cCCceEEEECCeEEe
+Q Q_9186633_66     63 GTTKLKVHTNGGKEIEIITNDYDPIFLNEQLN-NNNTVTVVIGDYIFS  109 (149)
+Q Consensus        63 ~~m~ieV~l~~G~~i~~~ve~Yda~~lneqLN-d~~~~tV~IGd~Iis  109 (149)
+                      ..|++.+.+.+|+......+.-+..+|.+.|+ ..+...+++.+.+++
+T Consensus         3 ~~m~v~~~~~~g~~~~~~~~~~tv~~ll~~l~~~~~~~~v~vng~~v~   50 (70)
+T d1ryja_           3 IGMKFTVITDDGKKILESGAPRRIKDVLGELEIPIETVVVKKNGQIVI   50 (70)
+T ss_dssp             CCEEEEEEETTEEEEEEESSCCBHHHHHHHTTCCTTTEEEEETTEECC
+T ss_pred             cCeEEEEEeCCCeEEEEcCCCCcHHHHHHHCCCCcccEEEEECCEEec
+
+
+No 55
+>KOG3459 Small nuclear ribonucleoprotein (snRNP) Sm core protein [RNA processing and modification]
+Probab=42.79  E-value=62  Score=23.83  Aligned_cols=59  Identities=12%  Similarity=0.063  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCce------------------EEEECCeEEecceEEEEEeccCCCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTV------------------TVVIGDYIFSRIDVKQVVPVKEEPKE  125 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~------------------tV~IGd~Iisr~~Vk~I~Pv~~~~~~  125 (149)
+                      .+.|.|.||..+.-....||.. +|=.|.+....                  -..+|.+++.-..|..|.+......|
+T Consensus        38 ~V~V~l~~~r~~~G~L~~~D~~-~NlvL~d~~e~~~~~~~~~~~~~~~~~~~~~~l~~~~IrG~~I~~i~~~~~~~~~  114 (114)
+T KOG3459          38 QVLINCRNNVKLLGRVKAFDRH-CNMVLENVKELWTEVPKSGKGKKAKPVNKDRFISKMFLRGDSVILVLRNPLWTQA  114 (114)
+T ss_pred             eEEEEECCCcEEEEEEEEEcCC-CCEEEeeeEEEeeecCCCCCCCCCCCCceEEEeceEEECCCeEEEEEeCCccCCC
+
+
+No 56
+>KOG4079 Putative mitochondrial ribosomal protein mRpS25 [Translation, ribosomal structure and biogenesis]
+Probab=42.44  E-value=65  Score=26.17  Aligned_cols=28  Identities=7%  Similarity=0.164  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             EEEEeCCCCEEEEEeccCCHHHHHHHHc
+Q Q_9186633_66      4 IEIHTQGGLKNTVQIENYNAQVLNDKLN   31 (149)
+Q Consensus         4 ieI~t~~G~~~~~~ve~Yna~~l~~~LN   31 (149)
+                      |++++.||....+.+++.+++++.+.|.
+T Consensus        77 i~~~y~dG~~~~idv~~~s~~eIl~~l~  104 (169)
+T KOG4079          77 ARAYLDDGREVLFDLDGMKREEIEKHLA  104 (169)
+T ss_pred             EEEEeCCCCEEEEECCCCCHHHHHHHHH
+
+
+No 57
+>d3jcmv_ b.38.1.1 (V:) Small nuclear ribonucleoprotein E {Saccharomyces cerevisiae S288c [TaxId: 559292]}
+Probab=42.30  E-value=56  Score=21.83  Aligned_cols=53  Identities=17%  Similarity=0.293  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceE-------------EEECCEEEecceeeEEEec
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLIT-------------VLIGDFIIQRIDVKRILPI   56 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~t-------------V~IGd~Iisr~~Ik~I~Pv   56 (149)
+                      .+.|.+.||..+.-....|| ..++=.|.+-....             ..+|.+++....|..|.|.
+T Consensus        19 ~v~v~~~~~~~~~G~l~~~D-~~~Nl~L~~~~e~~~~~~~~~~~~~~~~~l~~~~IrG~~I~~i~~~   84 (84)
+T d3jcmv_          19 TIWLFEQIGIRIKGKIVGFD-EFMNVVIDEAVEIPVNSADGKEDVEKGTPLGKILLKGDNITLITSA   84 (84)
+T ss_dssp             EEEESSCSSCEECCEEEEEC-TTCCEEEESCCBC-------CCCCBC-----CEEECTTSEEEEEEC
+T ss_pred             EEEEEEccCCEEEEEEEEEc-CceeEEEeeeEEEecCCCCCCccccceEEceEEEEccCeEEEEEeC
+
+
+No 58
+>d4c92e_ b.38.1.0 (E:) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=41.89  E-value=71  Score=21.39  Aligned_cols=56  Identities=20%  Similarity=0.259  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCce-------------EEEECCeEEecceEEEEEeccCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTV-------------TVVIGDYIFSRIDVKQVVPVKEE  122 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~-------------tV~IGd~Iisr~~Vk~I~Pv~~~  122 (149)
+                      .+.|.+.||..+.-....||. .+|=.|-+....             ...+|.+++.-..|..|.+..++
+T Consensus        16 ~V~v~l~~~~~~~G~l~~~D~-~~Nl~L~~~~~~~~~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~   84 (84)
+T d4c92e_          16 KVLIVLQSNREFEGTLVGFDD-FVNVILEDAVEWLIDPEDESRNEKVMQHHGRMLLSGNNIAILVPGGKK   84 (84)
+T ss_dssp             EEEEEESSSEEEEEEEEEECT-TCCEEEEEEEEEECCSSCTTSCEEEEECCSEEEECTTSEEEEEETCCC
+T ss_pred             eEEEEECCCCEEEEEEEEECC-CCCEEEEeeEEeecCcccccccccceEEeeeEEEecCeEEEEEeCCCC
+
+
+No 59
+>d3jb9z_ b.38.1.1 (Z:) D3 core SNRNP protein {Schizosaccharomyces pombe 972h- [TaxId: 284812]}
+Probab=41.55  E-value=59  Score=21.61  Aligned_cols=60  Identities=7%  Similarity=0.057  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhc-----CCceEEEECCeEEecceEEEEEeccCCCCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNN-----NNTVTVVIGDYIFSRIDVKQVVPVKEEPKEP  126 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd-----~~~~tV~IGd~Iisr~~Vk~I~Pv~~~~~~~  126 (149)
+                      .+.|.+.+|..+.-....|| ..+|=.|.+     .......+|.+++....|..+.........+
+T Consensus        14 ~v~v~l~~g~~~~G~l~~~D-~~~N~~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~~~~~~~   78 (80)
+T d3jb9z_          14 IVTMELENGSTYRGKLIEAE-DNMNCQMRDISVTARDGRVSHLDQVYIRGSHIRFLIVPDMLRNAP   78 (80)
+T ss_dssp             EEEEEETTSCEEEEEEEEEC-SSCCEEEEEEEEECSSCCEEEEEEEEECGGGEEEEEECGGGGSSC
+T ss_pred             EEEEEECCCCEEEEEEEEEC-CccCEEEeeeEEEcCCCcEEEEEEEEEcCCcEEEEECChHHhcCC
+
+
+No 60
+>d2fwka_ b.38.1.1 (A:) U6 snRNA-associated sm-like protein LSM5 {Cryptosporidium parvum [TaxId: 5807]}
+Probab=41.53  E-value=68  Score=21.86  Aligned_cols=56  Identities=14%  Similarity=0.207  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceE--------------------EEECCEEEecceeeEEEecCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLIT--------------------VLIGDFIIQRIDVKRILPINLP   59 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~t--------------------V~IGd~Iisr~~Ik~I~Pv~~~   59 (149)
+                      .+.|.+.||..+.-....||. .++=.|.+-....                    ..+|.++|....|..|.+...+
+T Consensus        17 ~V~V~~~~~~~~~G~l~~~D~-~~Nl~L~d~~e~~~~~~~~~~~~~~~~~~~~~~~~l~~~~IrG~~V~~i~~~~~~   92 (92)
+T d2fwka_          17 RIYVVMKGDKEFSGVLRGFDE-YVNMVLDDVQEYGFKADEEDISGGNKKLKRVMVNRLETILLSGNNVAMLVPGGDP   92 (92)
+T ss_dssp             BCEEEETTTEEECCEEEEECT-TCCEEEESCCEEEC---------------CEECCCCSEEEECGGGEEEEESSSCC
+T ss_pred             eEEEEEcCCeEEEEEEEEeCC-ccCEEEEeeEEEeeccchhccccccccceeeeEEeceEEEEccCcEEEEEeCCCC
+
+
+No 61
+>d1d3bb_ b.38.1.1 (B:) B core SNRNP protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=41.14  E-value=72  Score=20.99  Aligned_cols=57  Identities=14%  Similarity=0.131  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCc---------------eEEEECCEEEecceeeEEEecCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDL---------------ITVLIGDFIIQRIDVKRILPINLPT   60 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~---------------~tV~IGd~Iisr~~Ik~I~Pv~~~~   60 (149)
+                      .+.|.+.||..+.-....|| ..++=.|.+...               ....+|.+++.-..|..|....++.
+T Consensus        10 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~e~~~~~~~~~~~~~~~~~~~l~~~~irG~~I~~i~~~~~~~   81 (81)
+T d1d3bb_          10 RMRCILQDGRIFIGTFKAFD-KHMNLILCDCDEFRKIKPKNSKQAEREEKRVLGLVLLRGENLVSMTVEGPPP   81 (81)
+T ss_dssp             EEEEEETTCCEEEEEEEECC-TTCCEEEEEEEEEEEECCSSTTSCCEEEEEEEEEEEECGGGEEEEEEEECCC
+T ss_pred             eEEEEECCCCEEEEEEEEec-CCccEEecceEEEEecCCCCccccccceeEEEeEEEEccccEEEEEEcCCCC
+
+
+No 62
+>d1d3bb_ b.38.1.1 (B:) B core SNRNP protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=40.77  E-value=71  Score=21.01  Aligned_cols=57  Identities=12%  Similarity=0.169  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCc---------------eEEEECCeEEecceEEEEEeccCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNT---------------VTVVIGDYIFSRIDVKQVVPVKEEP  123 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~---------------~tV~IGd~Iisr~~Vk~I~Pv~~~~  123 (149)
+                      .+.|.|.+|..+.-....|| ..+|=.|.+...               ....+|.+++.-..|..|....+++
+T Consensus        10 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~e~~~~~~~~~~~~~~~~~~~l~~~~irG~~I~~i~~~~~~~   81 (81)
+T d1d3bb_          10 RMRCILQDGRIFIGTFKAFD-KHMNLILCDCDEFRKIKPKNSKQAEREEKRVLGLVLLRGENLVSMTVEGPPP   81 (81)
+T ss_dssp             EEEEEETTCCEEEEEEEECC-TTCCEEEEEEEEEEEECCSSTTSCCEEEEEEEEEEEECGGGEEEEEEEECCC
+T ss_pred             eEEEEECCCCEEEEEEEEec-CCccEEecceEEEEecCCCCccccccceeEEEeEEEEccccEEEEEEcCCCC
+
+
+No 63
+>KOG3445 Mitochondrial/chloroplast ribosomal protein 36a [Translation, ribosomal structure and biogenesis]
+Probab=40.77  E-value=75  Score=24.76  Aligned_cols=29  Identities=14%  Similarity=0.139  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             EEEEeCCCCEEEEEecCCCHHHHHHHhhc
+Q Q_9186633_66     67 LKVHTNGGKEIEIITNDYDPIFLNEQLNN   95 (149)
+Q Consensus        67 ieV~l~~G~~i~~~ve~Yda~~lneqLNd   95 (149)
+                      ++++..||.+..+..++.++.++.++|..
+T Consensus        72 I~i~y~dG~~~~i~~~~~s~~eI~~~l~~  100 (145)
+T KOG3445          72 LRAEYLNGRERVICVRNMSQEEVSKKATL  100 (145)
+T ss_pred             EEEEEcCCCEEEEECCCCCHHHHHHHHHH
+
+
+No 64
+>d1i4k1_ b.38.1.1 (1:) Archaeal homoheptameric Sm protein {Archaeoglobus fulgidus, AF-Sm1 [TaxId: 2234]}
+Probab=40.13  E-value=55  Score=21.29  Aligned_cols=53  Identities=19%  Similarity=0.298  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEec
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPI   56 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv   56 (149)
+                      .+.|.+.||..+.-....||. .++=.|.+     .+.....+|.+.++...|..|.+.
+T Consensus        15 ~v~v~l~~g~~~~G~l~~~D~-~~Ni~L~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~   72 (72)
+T d1i4k1_          15 PVIVRLKGGREFRGTLDGYDI-HMNLVLLDAEEIQNGEVVRKVGSVVIRGDTVVFVSPA   72 (72)
+T ss_dssp             EEEEEEGGGCEEEEEEEEECT-TCCEEEEEEEEESSSSEEEEEEEEEECGGGEEEEECC
+T ss_pred             CEEEEECCCCEEEEEEEEEcC-CCCEEEEeeEEEECCceEEEeeEEEEccCcEEEEEeC
+
+
+No 65
+>d1i4k1_ b.38.1.1 (1:) Archaeal homoheptameric Sm protein {Archaeoglobus fulgidus, AF-Sm1 [TaxId: 2234]}
+Probab=40.06  E-value=56  Score=21.24  Aligned_cols=54  Identities=24%  Similarity=0.330  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcC-----CceEEEECCeEEecceEEEEEec
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNN-----NTVTVVIGDYIFSRIDVKQVVPV  119 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~-----~~~tV~IGd~Iisr~~Vk~I~Pv  119 (149)
+                      ..+.|.+.+|..+.-....||. .+|=.|.+.     ......+|.+++....|..|.+.
+T Consensus        14 ~~v~v~l~~g~~~~G~l~~~D~-~~Ni~L~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~   72 (72)
+T d1i4k1_          14 SPVIVRLKGGREFRGTLDGYDI-HMNLVLLDAEEIQNGEVVRKVGSVVIRGDTVVFVSPA   72 (72)
+T ss_dssp             SEEEEEEGGGCEEEEEEEEECT-TCCEEEEEEEEESSSSEEEEEEEEEECGGGEEEEECC
+T ss_pred             CCEEEEECCCCEEEEEEEEEcC-CCCEEEEeeEEEECCceEEEeeEEEEccCcEEEEEeC
+
+
+No 66
+>d2fwka_ b.38.1.1 (A:) U6 snRNA-associated sm-like protein LSM5 {Cryptosporidium parvum [TaxId: 5807]}
+Probab=39.64  E-value=78  Score=21.58  Aligned_cols=56  Identities=20%  Similarity=0.320  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceE--------------------EEECCeEEecceEEEEEeccCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVT--------------------VVIGDYIFSRIDVKQVVPVKEE  122 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~t--------------------V~IGd~Iisr~~Vk~I~Pv~~~  122 (149)
+                      .+.|.+.+|..+.-....||. .+|=.|.+.....                    ..+|.+++....|..|.+...+
+T Consensus        17 ~V~V~~~~~~~~~G~l~~~D~-~~Nl~L~d~~e~~~~~~~~~~~~~~~~~~~~~~~~l~~~~IrG~~V~~i~~~~~~   92 (92)
+T d2fwka_          17 RIYVVMKGDKEFSGVLRGFDE-YVNMVLDDVQEYGFKADEEDISGGNKKLKRVMVNRLETILLSGNNVAMLVPGGDP   92 (92)
+T ss_dssp             BCEEEETTTEEECCEEEEECT-TCCEEEESCCEEEC---------------CEECCCCSEEEECGGGEEEEESSSCC
+T ss_pred             eEEEEEcCCeEEEEEEEEeCC-ccCEEEEeeEEEeeccchhccccccccceeeeEEeceEEEEccCcEEEEEeCCCC
+
+
+No 67
+>d4xq3a_ b.38.1.0 (A:) automated matches {Sulfolobus solfataricus [TaxId: 555311]}
+Probab=39.43  E-value=56  Score=21.64  Aligned_cols=61  Identities=11%  Similarity=-0.018  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCH------HHHHHHhhcCCceEEEECCeEEecceEEEEEeccCCCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDP------IFLNEQLNNNNTVTVVIGDYIFSRIDVKQVVPVKEEPKE  125 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda------~~lneqLNd~~~~tV~IGd~Iisr~~Vk~I~Pv~~~~~~  125 (149)
+                      ..+.|.+.+|..+.=....||.      ....+...+.......+|.+++.-..|..|........+
+T Consensus        12 ~~v~v~l~~~~~~~G~l~~~D~~~Nl~L~d~~e~~~~~~~~~~~~~~~~IrG~~I~~i~~~~~~~~~   78 (78)
+T d4xq3a_          12 RIVLVKLKDGSEYIGKLEQTDGTMNLVLRDCTEIREGTSEPVAKYGRVLIRGSNILFISVDYETVMN   78 (78)
+T ss_dssp             SEEEEEETTSCEEEEEEEECCTTCCEEEEEEECCCTTSCCCSCCCEEEEECGGGEEEEETTTTSTTC
+T ss_pred             CEEEEEECCCCEEEEEEEEEcCCCCEEEeceEEEecCCCCCeEEceEEEECCCcEEEEEeCHHhccC
+
+
+No 68
+>cd01729 LSm7; Like-Sm protein 7. The eukaryotic LSm proteins (LSm2-8 or LSm1-7) assemble into a hetero-heptameric ring around the 3'-terminus uridylation tag of the gamma-methyl triphosphate (gamma-m-P3) capped U6 snRNA.
+Probab=39.31  E-value=95  Score=20.00  Aligned_cols=62  Identities=16%  Similarity=0.335  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcC-------------CceEEEECCeEEecceEEEEEeccCCCCCCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNN-------------NTVTVVIGDYIFSRIDVKQVVPVKEEPKEPEQ  128 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~-------------~~~tV~IGd~Iisr~~Vk~I~Pv~~~~~~~~~  128 (149)
+                      .+.|.+.+|..+.-....|| ..+|-.|.+.             ......+|.+++....|..+.+.......+++
+T Consensus        14 ~v~v~~~~~~~~~G~l~~~D-~~~N~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~~~~~~~~~   88 (89)
+T cd01729          14 RIQATFTGGRQITGILKGFD-QLMNLVLDDVEEQLRNPED-GKLTGAIRKLGLVVVRGTTLVLIAPMDGSEEIPNP   87 (88)
+T ss_pred             eEEEEECCCcEEEEEEEEEc-CCcCEEEeeeEEEecCCCcccccCceeEEeeEEEECCCcEEEEECCCcccCCCCC
+
+
+No 69
+>d3jcmv_ b.38.1.1 (V:) Small nuclear ribonucleoprotein E {Saccharomyces cerevisiae S288c [TaxId: 559292]}
+Probab=38.50  E-value=68  Score=21.40  Aligned_cols=54  Identities=11%  Similarity=0.228  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceE-------------EEECCeEEecceEEEEEec
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVT-------------VVIGDYIFSRIDVKQVVPV  119 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~t-------------V~IGd~Iisr~~Vk~I~Pv  119 (149)
+                      ..+.|.+.||..+.-....|| ..+|=.|.+.....             ..+|.+++....|..|.|.
+T Consensus        18 ~~v~v~~~~~~~~~G~l~~~D-~~~Nl~L~~~~e~~~~~~~~~~~~~~~~~l~~~~IrG~~I~~i~~~   84 (84)
+T d3jcmv_          18 VTIWLFEQIGIRIKGKIVGFD-EFMNVVIDEAVEIPVNSADGKEDVEKGTPLGKILLKGDNITLITSA   84 (84)
+T ss_dssp             EEEEESSCSSCEECCEEEEEC-TTCCEEEESCCBC-------CCCCBC-----CEEECTTSEEEEEEC
+T ss_pred             CEEEEEEccCCEEEEEEEEEc-CceeEEEeeeEEEecCCCCCCccccceEEceEEEEccCeEEEEEeC
+
+
+No 70
+>KOG3448 Predicted snRNP core protein [RNA processing and modification]
+Probab=38.05  E-value=57  Score=22.89  Aligned_cols=59  Identities=8%  Similarity=0.017  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCH------HHHHHHHcCCCceEEEECCEEEecceeeEEEecCCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNA------QVLNDKLNDKDLITVLIGDFIIQRIDVKRILPINLPTA   61 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna------~~l~~~LNn~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~~   61 (149)
+                      .+.|.+.||..+.-....||.      ..-.+...+.......+|.+++....|..|........
+T Consensus        14 ~v~V~l~~~~~~~G~L~~~D~~~Nl~L~~~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~~~   78 (96)
+T KOG3448          14 EVVVELKNDLSICGTLHSVDQYLNLKLTDISVTDPDKYPHMLSVKNCFIRGSVVRYVQLPKDAVD   78 (96)
+T ss_pred             EEEEEECCCCEEEEEEEEECCCCCEEEEEeEEeCCCCCCceeEeeEEEEeCCeEEEEECChhhcC
+
+
+No 71
+>d4emka_ b.38.1.0 (A:) automated matches {Schizosaccharomyces pombe [TaxId: 284812]}
+Probab=38.00  E-value=87  Score=20.34  Aligned_cols=54  Identities=7%  Similarity=0.080  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceE------EEECCEEEecceeeEEEecC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLIT------VLIGDFIIQRIDVKRILPIN   57 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~t------V~IGd~Iisr~~Ik~I~Pv~   57 (149)
+                      .+.|.+.+|..+.-....||. .++=.|.+.....      ..+|.+.++...|..|.|..
+T Consensus        13 ~v~v~~~~~~~~~G~l~~~D~-~~Ni~L~~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~   72 (72)
+T d4emka_          13 NLWVIMKSEREFAGTLVGFDD-YVNIVLKDVTEYDTVTGVTEKHSEMLLNGNGMCMLIPGG   72 (72)
+T ss_dssp             EEEEEESSSEEEEEEEEEECT-TCCEEEEEEEEEETTTCCEEEEEEEEECSTTEEEEEECC
+T ss_pred             eEEEEECCCCEEEEEEEEECC-cccEEecccEEEECCCCcEEEeeeEEEcCCcEEEEEcCC
+
+
+No 72
+>d1h641_ b.38.1.1 (1:) Archaeal homoheptameric Sm protein {Pyrococcus abyssi [TaxId: 29292]}
+Probab=37.21  E-value=43  Score=21.75  Aligned_cols=53  Identities=25%  Similarity=0.263  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCc-----eEEEECCeEEecceEEEEEe
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNT-----VTVVIGDYIFSRIDVKQVVP  118 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~-----~tV~IGd~Iisr~~Vk~I~P  118 (149)
+                      ..+.|.+.+|..+.-....|| ..+|=.|.+...     ....+|.+++.-..|..+.+
+T Consensus        13 ~~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~   70 (71)
+T d1h641_          13 KDVLVILKKGFEFRGRLIGYD-IHLNVVLADAEMIQDGEVVKRYGKIVIRGDNVLAISP   70 (71)
+T ss_dssp             SEEEEEETTSEEEEEEEEEEC-TTCCEEEEEEEEEETTEEEEEEEEEEECGGGEEEEEE
+T ss_pred             CcEEEEECCCcEEEEEEEEEC-CCCCEEEeeeEEEeCCceEEEeeEEEEcCCcEEEEec
+
+
+No 73
+>d4c92g_ b.38.1.0 (G:) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=37.05  E-value=92  Score=21.01  Aligned_cols=57  Identities=18%  Similarity=0.186  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEE----------------EECCEEEecceeeEEEecCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITV----------------LIGDFIIQRIDVKRILPINLPT   60 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV----------------~IGd~Iisr~~Ik~I~Pv~~~~   60 (149)
+                      .+.|.|.||..+.-....|| ..++=.|.+......                .+|-+++.-..|..|.+.....
+T Consensus        12 ~V~V~l~~~~~~~G~l~~~D-~~~Nl~L~d~~e~~~~~~~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~~   84 (85)
+T d4c92g_          12 KIRVKLMGGKLVIGVLKGYD-QLMNLVLDDTVEYMSNPDDENNTELISKNARKLGLTVIRGTILVSLSSAEGSD   84 (85)
+T ss_dssp             EEEEEETTSCEEEEEEEEEC-TTCCEEEEEEEEECC----------CTTCEEEEEEEEECGGGEEEEEESCCEE
+T ss_pred             EEEEEECCCCEEEEEEEEEC-CCccEEeceEEEEecCCCcccccchhccceEEeeeEEEcCccEEEEEeCCCCC
+
+
+No 74
+>PF18416.1 ; GbpA_2 ; N-acetylglucosamine binding protein domain 2
+Probab=36.88  E-value=2.1e+02  Score=20.69  Aligned_cols=52  Identities=25%  Similarity=0.422  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eeeEEEecCCCCCCCeeeEEEEe-CCCCEEEEEecCCC-----------HHHHHHHhhcCCceEEEEC
+Q Q_9186633_66     49 DVKRILPINLPTAEGTTKLKVHT-NGGKEIEIITNDYD-----------PIFLNEQLNNNNTVTVVIG  104 (149)
+Q Consensus        49 ~Ik~I~Pv~~~~~~~~m~ieV~l-~~G~~i~~~ve~Yd-----------a~~lneqLNd~~~~tV~IG  104 (149)
+                      ++-.+.|......-.+..++|+- ++|.   ++...+.           +.+|++++|..... +.+|
+T Consensus         3 ~~G~~~~~~~l~~Gd~V~~rvf~~~~G~---~e~~~~~~~~~~~~~~~W~~~LA~~IN~~~~~-vr~G   66 (100)
+T A0A0W0SDU5_9GA    3 ELQSLYNTAEIESGTTVKLRLFNHENGE---IETHSIVVTDQNNGGNQWPFALGEKVNANSSL-LRIG   66 (100)
+T ss_pred             eceeEcCCCCCCCCCEEEEEEEeCCCCe---EEEEEEecCcccccccchhHHHHHHHHhCCCc-EEee
+
+
+No 75
+>d4c92g_ b.38.1.0 (G:) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=36.42  E-value=83  Score=21.22  Aligned_cols=58  Identities=17%  Similarity=0.252  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEE----------------EECCeEEecceEEEEEeccCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTV----------------VIGDYIFSRIDVKQVVPVKEEP  123 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV----------------~IGd~Iisr~~Vk~I~Pv~~~~  123 (149)
+                      ..+.|.|.+|..+.-....|| ..+|=.|.+......                .+|.+++.-..|..|.+.....
+T Consensus        11 ~~V~V~l~~~~~~~G~l~~~D-~~~Nl~L~d~~e~~~~~~~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~~   84 (85)
+T d4c92g_          11 SKIRVKLMGGKLVIGVLKGYD-QLMNLVLDDTVEYMSNPDDENNTELISKNARKLGLTVIRGTILVSLSSAEGSD   84 (85)
+T ss_dssp             SEEEEEETTSCEEEEEEEEEC-TTCCEEEEEEEEECC----------CTTCEEEEEEEEECGGGEEEEEESCCEE
+T ss_pred             CEEEEEECCCCEEEEEEEEEC-CCccEEeceEEEEecCCCcccccchhccceEEeeeEEEcCccEEEEEeCCCCC
+
+
+No 76
+>cd01731 archaeal_Sm1; archaeal Sm protein 1. The archaeal Sm1 proteins: The Sm proteins are conserved in all three domains of life and are always associated with U-rich RNA sequences.
+Probab=36.34  E-value=65  Score=19.68  Aligned_cols=53  Identities=21%  Similarity=0.287  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEe
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILP   55 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~P   55 (149)
+                      ..+.+.+.+|..+.-....|| ..++-.|.+     .......+|.+.++...|..|.|
+T Consensus        12 ~~v~v~l~~~~~~~G~l~~~d-~~~n~~l~~~~~~~~~~~~~~~~~~~irG~~i~~i~~   69 (69)
+T cd01731          12 KDVLVILKKGFEFRGRLIGYD-IHLNVVLADAEMIQDGEVVKRYGKIVIRGDNVLAISP   69 (69)
+T ss_pred             CeEEEEECCCcEEEEEEEEEc-CCCCEEEEeeEEEeCCceEEEeeEEEEccCcEEEEeC
+
+
+No 77
+>KOG4079 Putative mitochondrial ribosomal protein mRpS25 [Translation, ribosomal structure and biogenesis]
+Probab=35.83  E-value=96  Score=25.21  Aligned_cols=29  Identities=10%  Similarity=0.177  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             EEEEeCCCCEEEEEecCCCHHHHHHHhhc
+Q Q_9186633_66     67 LKVHTNGGKEIEIITNDYDPIFLNEQLNN   95 (149)
+Q Consensus        67 ieV~l~~G~~i~~~ve~Yda~~lneqLNd   95 (149)
+                      +++++.||.+..+.+++.++.++.+.|..
+T Consensus        77 i~~~y~dG~~~~idv~~~s~~eIl~~l~~  105 (169)
+T KOG4079          77 ARAYLDDGREVLFDLDGMKREEIEKHLAK  105 (169)
+T ss_pred             EEEEeCCCCEEEEECCCCCHHHHHHHHHH
+
+
+No 78
+>cd00600 Sm_like; Sm and related proteins. The eukaryotic Sm and Sm-like (LSm) proteins associate with RNA to form the core domain of the ribonucleoprotein particles involved in a variety of RNA processing events including pre-mRNA splicing, telomere replication, and mRNA degradation.
+Probab=35.74  E-value=62  Score=19.22  Aligned_cols=50  Identities=18%  Similarity=0.195  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             eEEEEeCC.CCEEEEEecCCCHHHHHHHhhcCCce-----EEEECCeEEecceEEEE
+Q Q_9186633_66     66 KLKVHTNG.GKEIEIITNDYDPIFLNEQLNNNNTV-----TVVIGDYIFSRIDVKQV  116 (149)
+Q Consensus        66 ~ieV~l~~.G~~i~~~ve~Yda~~lneqLNd~~~~-----tV~IGd~Iisr~~Vk~I  116 (149)
+                      .+.+.+.+ |..+.-....||+ ..+-.|.+....     ...+|.+++....|+.+
+T Consensus         8 ~v~v~~~~.~~~~~G~l~~~d~-~~ni~l~~~~~~~~~~~~~~~~~~~irg~~i~~i   62 (63)
+T cd00600           8 RVGVKLKFnSTEYRGTLVSTDN-YFNLQLNEAEEFVAGVSHGTLGEIFIRCNNVLYI   63 (64)
+T ss_pred             EEEEEeCC.CcEEEEEEEEECC-CccEEEeccEEEeCCCceEEeeEEEEccCcEEEe
+
+
+No 79
+>d4f7ub_ b.38.1.1 (B:) D2 core SNRNP protein {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=35.57  E-value=1.1e+02  Score=21.08  Aligned_cols=56  Identities=16%  Similarity=0.106  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCC-------------------ceEEEECCeEEecceEEEEEeccC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNN-------------------TVTVVIGDYIFSRIDVKQVVPVKE  121 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~-------------------~~tV~IGd~Iisr~~Vk~I~Pv~~  121 (149)
+                      ..+.|.+.+|..+.-....|| ..+|=.|-+..                   .....+|.+++.-..|..|.+...
+T Consensus        19 ~~V~V~l~~g~~~~G~l~~~D-~~~Nl~L~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~IrG~~I~~i~~~~~   93 (93)
+T d4f7ub_          19 TQVLINCRNNKKLLGRVKAFD-RHCNMVLENVKEMWTEVPKSGKGKKKSKPVNKDRYISKMFLRGDSVIVVLRNPL   93 (93)
+T ss_dssp             CEEEEEEGGGCEEEEEEEEEC-TTCCEEEEEEEEEEECC-------------EEEEEEEEEEECGGGEEEEESSCC
+T ss_pred             CeEEEEEcCCCEEEEEEEEEc-CccceEEeeEEEEeeecCCCCCCCCCCCCcceEEEeeeEEEcCCEEEEEEeCCC
+
+
+No 80
+>d4emka_ b.38.1.0 (A:) automated matches {Schizosaccharomyces pombe [TaxId: 284812]}
+Probab=35.44  E-value=95  Score=20.15  Aligned_cols=53  Identities=13%  Similarity=0.201  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceE------EEECCeEEecceEEEEEe
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVT------VVIGDYIFSRIDVKQVVP  118 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~t------V~IGd~Iisr~~Vk~I~P  118 (149)
+                      ..+.|.+.+|..+.-....||. .+|=.|.+.....      ..+|.+.++-..|..|.|
+T Consensus        12 ~~v~v~~~~~~~~~G~l~~~D~-~~Ni~L~~~~~~~~~~~~~~~~~~~~irG~~i~~i~~   70 (72)
+T d4emka_          12 SNLWVIMKSEREFAGTLVGFDD-YVNIVLKDVTEYDTVTGVTEKHSEMLLNGNGMCMLIP   70 (72)
+T ss_dssp             SEEEEEESSSEEEEEEEEEECT-TCCEEEEEEEEEETTTCCEEEEEEEEECSTTEEEEEE
+T ss_pred             CeEEEEECCCCEEEEEEEEECC-cccEEecccEEEECCCCcEEEeeeEEEcCCcEEEEEc
+
+
+No 81
+>KOG1781 Small Nuclear ribonucleoprotein splicing factor [RNA processing and modification]
+Probab=35.44  E-value=59  Score=23.76  Aligned_cols=59  Identities=20%  Similarity=0.246  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCc-------------eEEEECCEEEecceeeEEEecCCCCC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDL-------------ITVLIGDFIIQRIDVKRILPINLPTA   61 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~-------------~tV~IGd~Iisr~~Ik~I~Pv~~~~~   61 (149)
+                      ..+.|.|.||..+.-....||.. ++=.|.+-..             ....+|-++|.-..|..|.+...+.+
+T Consensus        28 ~~v~V~l~~gr~~~G~L~~~D~~-~NlvL~~a~e~~~~~~~~~~~~~~~~~~g~~~IRG~~I~~i~~~~~~~~   99 (108)
+T KOG1781          28 KKIRVKFTGGREASGILKGYDQL-LNLVLDDTVEYLRDPDDPYKLTDETRKLGLVVCRGTALVLISPADGSEE   99 (108)
+T ss_pred             CEEEEEECCCCEEEEEEEEEcCC-cCEEEeeEEEEEeCCCCCccCCcceEEeeEEEEcCCcEEEEEeCCCChh
+
+
+No 82
+>d1h641_ b.38.1.1 (1:) Archaeal homoheptameric Sm protein {Pyrococcus abyssi [TaxId: 29292]}
+Probab=35.08  E-value=49  Score=21.48  Aligned_cols=52  Identities=21%  Similarity=0.329  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCc-----eEEEECCEEEecceeeEEEe
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDL-----ITVLIGDFIIQRIDVKRILP   55 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~-----~tV~IGd~Iisr~~Ik~I~P   55 (149)
+                      .+.|.+.+|..+.-....|| ..++=.|.+...     ....+|.++++...|..|.+
+T Consensus        14 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~   70 (71)
+T d1h641_          14 DVLVILKKGFEFRGRLIGYD-IHLNVVLADAEMIQDGEVVKRYGKIVIRGDNVLAISP   70 (71)
+T ss_dssp             EEEEEETTSEEEEEEEEEEC-TTCCEEEEEEEEEETTEEEEEEEEEEECGGGEEEEEE
+T ss_pred             cEEEEECCCcEEEEEEEEEC-CCCCEEEeeeEEEeCCceEEEeeEEEEcCCcEEEEec
+
+
+No 83
+>KOG1782 Small Nuclear ribonucleoprotein splicing factor [RNA processing and modification]
+Probab=34.82  E-value=75  Score=24.21  Aligned_cols=58  Identities=19%  Similarity=0.116  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEE--------EECCEEEecceeeEEEecCCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITV--------LIGDFIIQRIDVKRILPINLPTA   61 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV--------~IGd~Iisr~~Ik~I~Pv~~~~~   61 (149)
+                      .+.|.|.||..+.-....||.. +|=.|.+-.....        .+|-+++....|..|........
+T Consensus        21 ~V~V~l~~gr~~~G~L~~~D~~-~NlvL~d~~e~~~~~~~~~~r~lg~~~IRG~~I~~i~~~~~~~~   86 (129)
+T KOG1782          21 KLLVLLRDGRKLIGVLRSFDQF-ANLVLQGVIERIFVGNKYCDIPRGLFIIRGENVVLLGEIDLDKE   86 (129)
+T ss_pred             EEEEEECCCCEEEEEEEEEcCc-cCEEEeeEEEEEeeCCccceEEceEEEEcCCcEEEEEeCCCCCC
+
+
+No 84
+>d1s3si_ d.15.1.2 (I:) p47 {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=34.10  E-value=1.5e+02  Score=18.78  Aligned_cols=27  Identities=22%  Similarity=0.255  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             ecCCCCCCCeeeEEEEeCCCCEEEEEe
+Q Q_9186633_66     55 PINLPTAEGTTKLKVHTNGGKEIEIIT   81 (149)
+Q Consensus        55 Pv~~~~~~~~m~ieV~l~~G~~i~~~v   81 (149)
+                      +..........+++|.|.||..+.-..
+T Consensus        10 ~~~~~~~~~~~~iqiRlp~G~~~~~~F   36 (50)
+T d1s3si_          10 SILINEAEPTTNIQIRLADGGRLVQKF   36 (50)
+T ss_dssp             TC-------------------------
+T ss_pred             cCCCCCCCCeEEEEEEcCCCCeEEEEE
+
+
+No 85
+>d4f7ub_ b.38.1.1 (B:) D2 core SNRNP protein {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=34.08  E-value=1.3e+02  Score=20.70  Aligned_cols=55  Identities=15%  Similarity=0.140  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCC-------------------ceEEEECCEEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKD-------------------LITVLIGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~-------------------~~tV~IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.+.||..+.-....|| ..++=.|-+..                   .....+|.++|.-..|..|.+...
+T Consensus        20 ~V~V~l~~g~~~~G~l~~~D-~~~Nl~L~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~IrG~~I~~i~~~~~   93 (93)
+T d4f7ub_          20 QVLINCRNNKKLLGRVKAFD-RHCNMVLENVKEMWTEVPKSGKGKKKSKPVNKDRYISKMFLRGDSVIVVLRNPL   93 (93)
+T ss_dssp             EEEEEEGGGCEEEEEEEEEC-TTCCEEEEEEEEEEECC-------------EEEEEEEEEEECGGGEEEEESSCC
+T ss_pred             eEEEEEcCCCEEEEEEEEEc-CccceEEeeEEEEeeecCCCCCCCCCCCCcceEEEeeeEEEcCCEEEEEEeCCC
+
+
+No 86
+>d3jb9z_ b.38.1.1 (Z:) D3 core SNRNP protein {Schizosaccharomyces pombe 972h- [TaxId: 284812]}
+Probab=33.53  E-value=96  Score=20.58  Aligned_cols=51  Identities=10%  Similarity=0.202  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEE
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRIL   54 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~   54 (149)
+                      .+.|.+.+|..+.-....|| ..++=.|.+     .+-....+|.++++...|..|.
+T Consensus        14 ~v~v~l~~g~~~~G~l~~~D-~~~N~~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~   69 (80)
+T d3jb9z_          14 IVTMELENGSTYRGKLIEAE-DNMNCQMRDISVTARDGRVSHLDQVYIRGSHIRFLI   69 (80)
+T ss_dssp             EEEEEETTSCEEEEEEEEEC-SSCCEEEEEEEEECSSCCEEEEEEEEECGGGEEEEE
+T ss_pred             EEEEEECCCCEEEEEEEEEC-CccCEEEeeeEEEcCCCcEEEEEEEEEcCCcEEEEE
+
+
+No 87
+>d1i8fa_ b.38.1.1 (A:) Archaeal homoheptameric Sm protein {Pyrobaculum aerophilum [TaxId: 13773]}
+Probab=33.52  E-value=90  Score=20.27  Aligned_cols=55  Identities=15%  Similarity=0.211  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCC----CceEEEECCEEEecceeeEEEecC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDK----DLITVLIGDFIIQRIDVKRILPIN   57 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~----~~~tV~IGd~Iisr~~Ik~I~Pv~   57 (149)
+                      ..+.|.+.+|..+.-....||.. ++=.|.+.    .-....+|.++++...|..|.+..
+T Consensus        13 ~~v~v~l~~~~~~~G~l~~~D~~-~Nl~L~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~   71 (71)
+T d1i8fa_          13 KQVLVKLRDSHEIRGILRSFDQH-VNLLLEDAEEIIDGNVYKRGTMVVRGENVLFISPVP   71 (71)
+T ss_dssp             SEEEEEEGGGEEEEEEEEEECTT-CCEEEEEEEEEETTEEEEEEEEEECGGGEEEEEECC
+T ss_pred             CEEEEEECCCCEEEEEEEEEcCC-CCEEEcCeEEEeCCcEEEceEEEECCCcEEEEEeCC
+
+
+No 88
+>KOG3168 U1 snRNP component [Transcription]
+Probab=33.52  E-value=83  Score=25.62  Aligned_cols=60  Identities=13%  Similarity=0.220  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCce---------------EEEECCeEEecceEEEEEeccCCCCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTV---------------TVVIGDYIFSRIDVKQVVPVKEEPKEP  126 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~---------------tV~IGd~Iisr~~Vk~I~Pv~~~~~~~  126 (149)
+                      .+.|.|+||..+.-....||.. +|-.|.|....               ...+|-+++....|.+|........++
+T Consensus        16 ~V~V~l~dgr~~~G~l~afD~~-mNlvL~d~~E~~~~~~~~~~~~~~~~~r~lglvilRG~~Iv~i~v~~~p~~~~   90 (177)
+T KOG3168          16 RMRVRLQDGRTFIGQFKAFDKH-MNLVLQDCEEFRKIKPKNRKMTDGEEKRVLGLVLLRGENIVSMTVEGPPPPSD   90 (177)
+T ss_pred             eEEEEECCCCEEEEEEEEeCCC-CCEEEEeeEEEeccCCCCCCCCCCcceEEEeEEEEcCcceEeeEeCCCCCCCh
+
+
+No 89
+>PF14847.6 ; Ras_bdg_2 ; Ras-binding domain of Byr2
+Probab=33.12  E-value=1.3e+02  Score=22.74  Aligned_cols=27  Identities=30%  Similarity=0.468  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             EEEEeCCCCEEEEEecc-CCHHHHHHHH
+Q Q_9186633_66      4 IEIHTQGGLKNTVQIEN-YNAQVLNDKL   30 (149)
+Q Consensus         4 ieI~t~~G~~~~~~ve~-Yna~~l~~~L   30 (149)
+                      |+|++.||....+.|.+ +||.++.++.
+T Consensus         2 Ikfi~~dg~~~~V~Vs~c~~a~~I~~ri   29 (109)
+T M3K819_CANMX/1    2 ITFILQDGSMKRVNVTGCFNAQAIKRKV   29 (109)
+T ss_pred             eEEEECCCcEEEEECCCCCCHHHHHHHH
+
+
+No 90
+>PF11094.8 ; UL11 ; Membrane-associated tegument protein
+Probab=33.11  E-value=25  Score=23.16  Aligned_cols=22  Identities=9%  Similarity=0.250  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             EEEeCCCCEEEEEecCCCHHHH
+Q Q_9186633_66     68 KVHTNGGKEIEIITNDYDPIFL   89 (149)
+Q Consensus        68 eV~l~~G~~i~~~ve~Yda~~l   89 (149)
+                      .+.+++|+.+.+..++|+.-+|
+T Consensus        21 ~lvT~~GE~v~L~a~~Fe~fdl   42 (43)
+T CEP3_VZVD/1-43   21 ELVTCNGETVALNSEFFEDFDF   42 (43)
+T ss_pred             EEEeCCCcEEEcCHHHcccccC
+
+
+No 91
+>d4emha_ b.38.1.0 (A:) automated matches {Schizosaccharomyces pombe [TaxId: 284812]}
+Probab=32.75  E-value=85  Score=19.39  Aligned_cols=52  Identities=12%  Similarity=0.125  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCc------eEEEECCeEEecceEEEEE
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNT------VTVVIGDYIFSRIDVKQVV  117 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~------~tV~IGd~Iisr~~Vk~I~  117 (149)
+                      ..+.|.|.+|..+.-....|| ..+|=.|.+...      ....+|.+++....|..+.
+T Consensus         2 ~~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~~irG~~i~~i~   59 (60)
+T d4emha_           2 RPILVELKNGETFNGHLENCD-NYMNLTLREVIRTMPDGDKFFRLPECYIRGNNIKYLR   59 (60)
+T ss_dssp             CEEEEEETTSCEEEEEEEEEC-TTCCEEEEEEEEECTTSCEEEEEEEEEECGGGEEEEE
+T ss_pred             ceEEEEECCCCEEEEEEEEeC-CcccEEEEeeEEEcCCCCeEEeccEEEEecCcEEEEE
+
+
+No 92
+>d1uh6a1 d.15.1.1 (A:28-100) Ubiquitin-like protein 5, ubl5 {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=32.49  E-value=1.3e+02  Score=17.41  Aligned_cols=20  Identities=20%  Similarity=0.189  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CeEEEEEeCCCCEEEEEecc
+Q Q_9186633_66      1 MQTIEIHTQGGLKNTVQIEN   20 (149)
+Q Consensus         1 Mm~ieI~t~~G~~~~~~ve~   20 (149)
+                      ||.+.+...+|..+.+.+..
+T Consensus         1 ~~~i~v~~~~~~~~~~~~~~   20 (73)
+T d1uh6a1           1 MIEVVCNDRLGKKVRVKCNT   20 (73)
+T ss_dssp             EEEEEEECSSSSCEEEEEET
+T ss_pred             CEEEEEEcCCCCEEEEEEcC
+
+
+No 93
+>d3jcmj_ b.38.1.1 (J:) D3 core SNRNP protein {Saccharomyces cerevisiae S288c [TaxId: 559292]}
+Probab=32.28  E-value=91  Score=20.51  Aligned_cols=60  Identities=12%  Similarity=0.083  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhc-----CCceEEEECCeEEecceEEEEEeccCCCCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNN-----NNTVTVVIGDYIFSRIDVKQVVPVKEEPKEP  126 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd-----~~~~tV~IGd~Iisr~~Vk~I~Pv~~~~~~~  126 (149)
+                      .+.|.+++|..+.-....|| ..+|=.|.+     .+.....+|.+++....|..|.........+
+T Consensus        14 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~~~~~~~   78 (79)
+T d3jcmj_          14 IVSLELTTGATYRGKLVESE-DSMNVQLRDVIATEPQGAVTHMDQIFVRGSQIKFIVVPDLLKNAP   78 (79)
+T ss_dssp             EEEEEETTSCEEEEEEEEEC-SSCCEEEEEEEEECSSCCEEEEEEEEECGGGEEEEEECGGGGSSC
+T ss_pred             EEEEEECCCCEEEEEEEEEc-CccCEEEEEEEEECCCCCeEEeeEEEEcCCcEEEEECChHHhcCC
+
+
+No 94
+>KOG1782 Small Nuclear ribonucleoprotein splicing factor [RNA processing and modification]
+Probab=31.59  E-value=93  Score=23.70  Aligned_cols=58  Identities=17%  Similarity=0.173  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEE--------EECCeEEecceEEEEEeccCCCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTV--------VIGDYIFSRIDVKQVVPVKEEPK  124 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV--------~IGd~Iisr~~Vk~I~Pv~~~~~  124 (149)
+                      .+.|.|.+|..+.-....||.. +|=.|.+......        .+|-+++.-..|..|........
+T Consensus        21 ~V~V~l~~gr~~~G~L~~~D~~-~NlvL~d~~e~~~~~~~~~~r~lg~~~IRG~~I~~i~~~~~~~~   86 (129)
+T KOG1782          21 KLLVLLRDGRKLIGVLRSFDQF-ANLVLQGVIERIFVGNKYCDIPRGLFIIRGENVVLLGEIDLDKE   86 (129)
+T ss_pred             EEEEEECCCCEEEEEEEEEcCc-cCEEEeeEEEEEeeCCccceEEceEEEEcCCcEEEEEeCCCCCC
+
+
+No 95
+>PF06115.11 ; DUF956 ; Domain of unknown function (DUF956)
+Probab=31.40  E-value=2.3e+02  Score=21.37  Aligned_cols=59  Identities=7%  Similarity=0.031  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCEEEecceeeEEEecCCCCCCCeeeEEEEeCCCCEEEEEecCCC--HHHHHHHhhcCCce
+Q Q_9186633_66     41 GDFIIQRIDVKRILPINLPTAEGTTKLKVHTNGGKEIEIITNDYD--PIFLNEQLNNNNTV   99 (149)
+Q Consensus        41 Gd~Iisr~~Ik~I~Pv~~~~~~~~m~ieV~l~~G~~i~~~ve~Yd--a~~lneqLNd~~~~   99 (149)
+                      |.+-|.-.+|.+|.+...-..--..-+.|.|.||..+...+.+=+  ..+|.+.|...++.
+T Consensus        44 ~~~~Ip~~~I~~V~~~~~~~~~i~ngl~V~t~~g~~~~Fvv~~r~~~l~~i~~~l~~~~~~  104 (116)
+T V5XP27_ENTMU/1   44 KFVQIPWEEVDVVIASVMFKGKWIPRFAIRTKKNGTYSFSAKHPKEVLRAVRKYVDPSHMV  104 (116)
+T ss_pred             CcEEEeHHHccEEEEEecCCCccccEEEEEECCCCEEEEEECCHHHHHHHHHHhCChhhee
+
+
+No 96
+>PF17255.2 ; EbsA ; EbsA-like protein
+Probab=30.49  E-value=2.2e+02  Score=20.56  Aligned_cols=59  Identities=8%  Similarity=0.060  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HcCCCceEEEEC---CEEEecceeeEEEecCCCCCCCeeeEEEEeCC-CCEEEEEecCCCHHHHHHHhhcCC
+Q Q_9186633_66     30 LNDKDLITVLIG---DFIIQRIDVKRILPINLPTAEGTTKLKVHTNG-GKEIEIITNDYDPIFLNEQLNNNN   97 (149)
+Q Consensus        30 LNn~~~~tV~IG---d~Iisr~~Ik~I~Pv~~~~~~~~m~ieV~l~~-G~~i~~~ve~Yda~~lneqLNd~~   97 (149)
+                      +.++.+.+-...   ..-|+..+|++|.+....       +.+.+++ |..+-+..+  |++++.+.|++..
+T Consensus        64 i~~~~l~i~~~~~~~~~~i~~~~I~~i~~~~~~-------l~i~~~~~~~~~~i~~~--~~~~~~~~l~~~~  126 (132)
+T S0KF28_9ENTE/1   64 LTEDHIIVFFARFWKKQEFYYHNITRVALVPNG-------IEFLYLGKEYHFLMRKK--TKNAFVAALQAHI  126 (132)
+T ss_pred             ecCCEEEEEeCCCCCCEEEeHHHeeEEEEeCCE-------EEEEECCEEEEEEEcHH--hHHHHHHHHHhcc
+
+
+No 97
+>PF03614.13 ; Flag1_repress ; Repressor of phase-1 flagellin
+Probab=30.40  E-value=69  Score=26.80  Aligned_cols=96  Identities=14%  Similarity=0.052  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             EEEEeCCCCEEEEEeccCCHHHHHHHHcCC------------CceEEEECCEEEecceeeEEEecCCCCCCCe-------
+Q Q_9186633_66      4 IEIHTQGGLKNTVQIENYNAQVLNDKLNDK------------DLITVLIGDFIIQRIDVKRILPINLPTAEGT-------   64 (149)
+Q Consensus         4 ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~------------~~~tV~IGd~Iisr~~Ik~I~Pv~~~~~~~~-------   64 (149)
+                      ++|.+.||+.+...+..+++..=.=-|-+.            ++.++-.+.    ++++..-.-+....-+..       
+T Consensus        32 Vkvt~~dGq~f~~yv~k~~~~~n~i~~sd~~~~~~Ri~~~le~IatiE~i~----~~~~~~~~t~~~~~f~~~~~~ps~r  107 (165)
+T FLJA_SALTY/8-1   32 VRLVSNNARIITGYIAKFNPKENLILASDKPKGNKRIEVKLESLAILEELS----GNDAFNLSLVPADGFNLQQYTPSRR  107 (165)
+T ss_pred             eEEEecCCcEEEEEEEEEcCCCCeEEeeCCCCCCcceeeeHHHeeeEEEec----CCccccceecCcccCCCccCCCChH
+
+
+Q ss_pred             -------------eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEEE
+Q Q_9186633_66     65 -------------TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVVI  103 (149)
+Q Consensus        65 -------------m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~I  103 (149)
+                                   ..+.|++.||..++-....-|+..+.=.+.+++...|++
+T Consensus       108 dFf~Icnkah~~~k~IrV~M~dGr~~~G~s~gvdacqV~l~~~n~~~i~Imf  159 (165)
+T FLJA_SALTY/8-1  108 DYFSICNKCYKQGVGIKIYMKYGQVLTGKTTGVNACQVGVRTSNGNHMQVMF  159 (165)
+T ss_pred             HHHHHHHHHHHcCCcEEEEecCCCEEEeeccCcceeEEEEEecCCCEEEEEE
+
+
+No 98
+>d1i8fa_ b.38.1.1 (A:) Archaeal homoheptameric Sm protein {Pyrobaculum aerophilum [TaxId: 13773]}
+Probab=30.18  E-value=1.1e+02  Score=19.78  Aligned_cols=55  Identities=20%  Similarity=0.248  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcC----CceEEEECCeEEecceEEEEEecc
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNN----NTVTVVIGDYIFSRIDVKQVVPVK  120 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~----~~~tV~IGd~Iisr~~Vk~I~Pv~  120 (149)
+                      ..+.|.+.+|..+.-....||.. +|=.|.+.    ......+|.+++....|..|.+..
+T Consensus        13 ~~v~v~l~~~~~~~G~l~~~D~~-~Nl~L~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~   71 (71)
+T d1i8fa_          13 KQVLVKLRDSHEIRGILRSFDQH-VNLLLEDAEEIIDGNVYKRGTMVVRGENVLFISPVP   71 (71)
+T ss_dssp             SEEEEEEGGGEEEEEEEEEECTT-CCEEEEEEEEEETTEEEEEEEEEECGGGEEEEEECC
+T ss_pred             CEEEEEECCCCEEEEEEEEEcCC-CCEEEcCeEEEeCCcEEEceEEEECCCcEEEEEeCC
+
+
+No 99
+>d3jcmx_ b.38.1.1 (X:) Small nuclear ribonucleoprotein G {Saccharomyces cerevisiae S288c [TaxId: 559292]}
+Probab=30.11  E-value=1.3e+02  Score=19.74  Aligned_cols=56  Identities=11%  Similarity=0.126  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCH------HHHHHHHcCCCceEEEECC-EEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNA------QVLNDKLNDKDLITVLIGD-FIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna------~~l~~~LNn~~~~tV~IGd-~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.+.+|..+.-....||.      ....+...+.......+|. ++++-..|..|.....
+T Consensus        14 ~v~V~l~~~~~~~G~l~~~D~~~Nl~L~~~~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~~   76 (76)
+T d3jcmx_          14 KILLNINGSRKVAGILRGYDIFLNVVLDDAMEINGEDPANNHQLGLQTVIRGNSIISLEALDA   76 (76)
+T ss_dssp             EEEEEETTTEEEEEEEEEECTTCCEEEEEEEEEC----CCCCBCC--CEECTTTCCEEECSCC
+T ss_pred             eEEEEECCCCEEEEEEEEEcCcccEEEeeeEEEeCCCCCceeecccEEEEeCCcEEEEEEcCC
+
+
+No 100
+>d1th7a1 b.38.1.1 (A:3-78) Archaeal homoheptameric Sm protein {Sulfolobus solfataricus [TaxId: 2287]}
+Probab=30.04  E-value=76  Score=20.93  Aligned_cols=53  Identities=19%  Similarity=0.290  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCc-----eEEEECCEEEecceeeEEEec
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDL-----ITVLIGDFIIQRIDVKRILPI   56 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~-----~tV~IGd~Iisr~~Ik~I~Pv   56 (149)
+                      .+.|.+.||..++-....||. .++=.|.+...     ....+|.++++...|..|.+.
+T Consensus        19 ~v~v~l~~g~~~~G~l~~~D~-~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~   76 (76)
+T d1th7a1          19 LVLVKLKGNKEVRGMLRSYDQ-HMNLVLSDSEEIQSDGSGKKLGTIVIRGDNVILISPL   76 (76)
+T ss_dssp             EEEEEETTTEEEEEEEEEECT-TCCEEEEEEEEECSSSCEEEEEEEEECGGGEEEEEEC
+T ss_pred             EEEEEECCCCEEEEEeEEEcC-CCcEEEcCeEEEeeCCCeeEeeEEEECCCcEEEEecC
+
+
+No 101
+>d3jcmq_ b.38.1.1 (Q:) D2 core SNRNP protein {Saccharomyces cerevisiae S288c [TaxId: 559292]}
+Probab=29.97  E-value=1.2e+02  Score=20.82  Aligned_cols=55  Identities=15%  Similarity=0.116  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceEEE------------ECCeEEecceEEEEEeccC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVTVV------------IGDYIFSRIDVKQVVPVKE  121 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~tV~------------IGd~Iisr~~Vk~I~Pv~~  121 (149)
+                      .+.|.|.+|..+.-....||. .+|=.|.+.....-.            +|.++|....|..|.+..+
+T Consensus        24 ~V~V~l~~~~~~~G~L~~~D~-~~NlvL~d~~e~~~~~~~~~~~~~~~~~~~~~IrG~~v~~i~~~~~   90 (90)
+T d3jcmq_          24 PVIISLRNNHKIIARVKAFDR-HCNMVLENVKELWTEKKGKNVINRERFISKLFLRGDSVIVVLKTPV   90 (90)
+T ss_dssp             EEEEEETTSCEEEEEEEECCT-TCCEEEEEEEEECCCCC-CCCCCCCCEEEEEEECGGGEEEEECCCC
+T ss_pred             CEEEEECCCCEEEEEEEEEcC-ccceeeeeEEEEeeecCCCcceeeEEEccEEEEcCCEEEEEEeCCC
+
+
+No 102
+>KOG3293 Small nuclear ribonucleoprotein (snRNP) [RNA processing and modification]
+Probab=29.36  E-value=65  Score=25.08  Aligned_cols=55  Identities=11%  Similarity=0.086  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC------CCceEEEECCEEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND------KDLITVLIGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn------~~~~tV~IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.|.||..+.=....||.. ++-.|.+      ....+..+|.++|.-..|+.|.....
+T Consensus        14 ~V~V~L~~g~~~~G~L~~~D~~-mNl~L~dv~e~~~~~~~~~~lg~~~IrG~~I~~i~~~~~   74 (134)
+T KOG3293          14 PMLVELKNGETYNGHLVNCDNW-MNLHLREVICTSEDGDKFFRMPECYIRGTTIKYLRIPDE   74 (134)
+T ss_pred             cEEEEeCCCCEEEEEEEEeCCC-CCEEEEEEEEeCCCCCcEEECCeEEEeCCcEEEEECCHH
+
+
+No 103
+>KOG3168 U1 snRNP component [Transcription]
+Probab=29.34  E-value=1e+02  Score=25.14  Aligned_cols=59  Identities=14%  Similarity=0.237  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCce---------------EEEECCEEEecceeeEEEecCCCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLI---------------TVLIGDFIIQRIDVKRILPINLPTAE   62 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~---------------tV~IGd~Iisr~~Ik~I~Pv~~~~~~   62 (149)
+                      .+.|.|+||..+.-....||.. +|-.|.|-...               ...+|-+++....|.+|.........
+T Consensus        16 ~V~V~l~dgr~~~G~l~afD~~-mNlvL~d~~E~~~~~~~~~~~~~~~~~r~lglvilRG~~Iv~i~v~~~p~~~   89 (177)
+T KOG3168          16 RMRVRLQDGRTFIGQFKAFDKH-MNLVLQDCEEFRKIKPKNRKMTDGEEKRVLGLVLLRGENIVSMTVEGPPPPS   89 (177)
+T ss_pred             eEEEEECCCCEEEEEEEEeCCC-CCEEEEeeEEEeccCCCCCCCCCCcceEEEeEEEEcCcceEeeEeCCCCCCC
+
+
+No 104
+>cd17109 FERM_F1_SNX17_like; FERM (Four.1 protein, Ezrin, Radixin, Moesin) domain, F1 sub-domain, found in PX-FERM family sorting nexin proteins.
+Probab=29.24  E-value=2.4e+02  Score=20.03  Aligned_cols=57  Identities=19%  Similarity=0.360  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCH-----HHHHHHHcCCCceEEEECCEEEecce------eeEEEecCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNA-----QVLNDKLNDKDLITVLIGDFIIQRID------VKRILPINLP   59 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna-----~~l~~~LNn~~~~tV~IGd~Iisr~~------Ik~I~Pv~~~   59 (149)
+                      .++|+|-||..+++.+..-+.     +.++++++=++...=.+|=+++-+..      +++..+-+.+
+T Consensus         4 ~l~V~Lpdg~~v~v~v~~~~~t~~Vl~~v~~~igl~~~~~~~F~LF~~~~~~~~~~~~~rkl~~~E~P   71 (93)
+T cd17109           4 SLEVLLSNGQKVLVNVLTSDQTEDVLEAVAAKLDLPDDLIGYFSLFLVREKEDGAFSFVRKLQEFELP   71 (93)
+T ss_pred             eEEEEeCCCCEEEEEEeCCCCHHHHHHHHHHHCCCChhHhhceEEEEEEEccCCcEEEEEeccCCCcc
+
+
+No 105
+>d1ljoa1 b.38.1.1 (A:3-75) Archaeal homoheptameric Sm protein {Archaeoglobus fulgidus, AF-Sm2 [TaxId: 2234]}
+Probab=29.02  E-value=87  Score=20.46  Aligned_cols=53  Identities=17%  Similarity=0.284  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eeEEEEeCCC-CEEEEEecCCCHHHHHHHhhcCC-----ceEEEECCeEEecceEEEEEe
+Q Q_9186633_66     65 TKLKVHTNGG-KEIEIITNDYDPIFLNEQLNNNN-----TVTVVIGDYIFSRIDVKQVVP  118 (149)
+Q Consensus        65 m~ieV~l~~G-~~i~~~ve~Yda~~lneqLNd~~-----~~tV~IGd~Iisr~~Vk~I~P  118 (149)
+                      ..+.|.+.|| ..+.-....||. .+|=.|.+..     .....+|.+++....|..+.+
+T Consensus        14 ~~v~v~l~~~~~~~~G~l~~~D~-~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~   72 (73)
+T d1ljoa1          14 KIIRVEMKGEENQLVGKLEGVDD-YMNLYLTNAMECKGEEKVRSLGEIVLRGNNVVLIQP   72 (73)
+T ss_dssp             SEEEEEETTCSSEEEEEEEEECT-TCCEEEEEEEEEETTEEEEEEEEEEECGGGEEEEEE
+T ss_pred             CEEEEEEeCCceEEEEEEEEECC-CcCEEEeeeEEEeCCcceEEecEEEEccCcEEEEeC
+
+
+No 106
+>cd11678 archaeal_LSm; archaeal Like-Sm protein. The archaeal Sm-like (LSm): The Sm proteins are conserved in all three domains of life and are always associated with U-rich RNA sequences.
+Probab=28.86  E-value=1.1e+02  Score=18.66  Aligned_cols=52  Identities=17%  Similarity=0.281  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             EEEEEeCC-CCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEe
+Q Q_9186633_66      3 TIEIHTQG-GLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILP   55 (149)
+Q Consensus         3 ~ieI~t~~-G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~P   55 (149)
+                      .+.|.+.+ |..+.-....|| ..++-.|.+     .......+|.++++-..|..|.|
+T Consensus        12 ~v~v~l~~~~~~~~G~l~~~d-~~~N~~l~~~~~~~~~~~~~~~~~~~irG~~i~~i~~   69 (69)
+T cd11678          12 IIRVEMKGEENQLVGKLEGVD-DYMNLYLTNAMECKGEEKVRSLGEIVLRGNNVVLIQP   69 (69)
+T ss_pred             EEEEEEeCCCcEEEEEEEEEC-CCCcEEEeeeEEEeCCceeEeccEEEECCCcEEEEeC
+
+
+No 107
+>cd16122 FERM_F1_SNX31; FERM (Four.1 protein, Ezrin, Radixin, Moesin) domain, F1 sub-domain, found in sorting nexin protein 31 (SNX31).
+Probab=28.60  E-value=2.3e+02  Score=19.97  Aligned_cols=29  Identities=17%  Similarity=0.086  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCC-HHHHHHHh
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYD-PIFLNEQL   93 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yd-a~~lneqL   93 (149)
+                      ..++|+|-||..+.+.+..-+ +.++.+.+
+T Consensus         6 v~l~V~l~dg~~~~v~v~~~~tt~~vl~~v   35 (98)
+T cd16122           6 AYLDIFLPNEQSIRIEIITSDTAERVLEVV   35 (98)
+T ss_pred             eEEEEEcCCCCEEEEEEeCCCCHHHHHHHH
+
+
+No 108
+>d1ljoa1 b.38.1.1 (A:3-75) Archaeal homoheptameric Sm protein {Archaeoglobus fulgidus, AF-Sm2 [TaxId: 2234]}
+Probab=28.47  E-value=91  Score=20.38  Aligned_cols=54  Identities=17%  Similarity=0.226  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eEEEEEeCCC-CEEEEEeccCCHHHHHHHHcCCC-----ceEEEECCEEEecceeeEEEec
+Q Q_9186633_66      2 QTIEIHTQGG-LKNTVQIENYNAQVLNDKLNDKD-----LITVLIGDFIIQRIDVKRILPI   56 (149)
+Q Consensus         2 m~ieI~t~~G-~~~~~~ve~Yna~~l~~~LNn~~-----~~tV~IGd~Iisr~~Ik~I~Pv   56 (149)
+                      ..+.|.+.|| ..+.-....||.. ++=.|.+..     .....+|.+.++...|..|.+.
+T Consensus        14 ~~v~v~l~~~~~~~~G~l~~~D~~-~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~   73 (73)
+T d1ljoa1          14 KIIRVEMKGEENQLVGKLEGVDDY-MNLYLTNAMECKGEEKVRSLGEIVLRGNNVVLIQPQ   73 (73)
+T ss_dssp             SEEEEEETTCSSEEEEEEEEECTT-CCEEEEEEEEEETTEEEEEEEEEEECGGGEEEEEEC
+T ss_pred             CEEEEEEeCCceEEEEEEEEECCC-cCEEEeeeEEEeCCcceEEecEEEEccCcEEEEeCC
+
+
+No 109
+>d1th7a1 b.38.1.1 (A:3-78) Archaeal homoheptameric Sm protein {Sulfolobus solfataricus [TaxId: 2287]}
+Probab=28.05  E-value=90  Score=20.56  Aligned_cols=54  Identities=20%  Similarity=0.343  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCc-----eEEEECCeEEecceEEEEEec
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNT-----VTVVIGDYIFSRIDVKQVVPV  119 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~-----~tV~IGd~Iisr~~Vk~I~Pv  119 (149)
+                      ..+.|.+.||..+.-....||. .+|=.|.+...     ....+|.+++....|..+.+.
+T Consensus        18 ~~v~v~l~~g~~~~G~l~~~D~-~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~   76 (76)
+T d1th7a1          18 NLVLVKLKGNKEVRGMLRSYDQ-HMNLVLSDSEEIQSDGSGKKLGTIVIRGDNVILISPL   76 (76)
+T ss_dssp             SEEEEEETTTEEEEEEEEEECT-TCCEEEEEEEEECSSSCEEEEEEEEECGGGEEEEEEC
+T ss_pred             CEEEEEECCCCEEEEEeEEEcC-CCcEEEcCeEEEeeCCCeeEeeEEEECCCcEEEEecC
+
+
+No 110
+>d3jb9j_ b.38.1.1 (J:) Small nuclear ribonucleoprotein G {Schizosaccharomyces pombe 972h- [TaxId: 284812]}
+Probab=28.02  E-value=1.6e+02  Score=19.09  Aligned_cols=55  Identities=25%  Similarity=0.242  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCC-----CceEEEECCEEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDK-----DLITVLIGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~-----~~~tV~IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.+.||..++-....||.. ++=.|.+.     ......+|.+++....|..+.....
+T Consensus        14 ~v~V~l~~~~~~~G~l~~~D~~-~Ni~L~~~~~~~~~~~~~~~~~~~irg~~i~~i~~~~~   73 (73)
+T d3jb9j_          14 QVFVQLNGSRKVYGVLRGYDIF-LNIVLEDSIEEKVDGEKVKIGSVAIRGNSVIMIETLDK   73 (73)
+T ss_dssp             EEEEEETTTEEEEEEEEEECTT-CCEEEEEEEEECSSCCCCEEEEEEECTTTCCEEECSCC
+T ss_pred             EEEEEECCCCEEEEEEEEEcCC-ccEEEeccEEEEeCCCEEEeEEEEEccCcEEEEEEcCC
+
+
+No 111
+>cd11679 archaeal_Sm_like; archaeal Sm-related protein. Archaeal Sm-related proteins: The Sm proteins are conserved in all three domains of life and are always associated with U-rich RNA sequences.
+Probab=27.90  E-value=74  Score=19.60  Aligned_cols=52  Identities=12%  Similarity=0.019  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCce-EEEECCEEEecceeeEEE
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLI-TVLIGDFIIQRIDVKRIL   54 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~-tV~IGd~Iisr~~Ik~I~   54 (149)
+                      .+.+.+.+|..+.-....+|+..++-.|.+.... --.+|.+.+..+.|..+.
+T Consensus        12 ~v~v~~~~~~~~~G~l~~~d~~~~n~~l~~~~~~~~~~~~~~~irg~~i~~i~   64 (65)
+T cd11679          12 EVQVVLSNGEVYKGVLHAVDN-QLNIVLANASNKAGEKFNRVFIXYRYIVHID   63 (64)
+T ss_pred             EEEEEECCCcEEEEEEEEECCCccEEEeeccEEeCCceEEEEEEcCCcEEEEE
+
+
+No 112
+>d4c92d_ b.38.1.0 (D:) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=26.93  E-value=1e+02  Score=20.46  Aligned_cols=56  Identities=18%  Similarity=0.157  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcC----------------CCceEEEECCEEEecceeeEEEecCC
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLND----------------KDLITVLIGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn----------------~~~~tV~IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      ..+.|.+.||..+.-....|| ..++-.|.+                .......+|.++++...|..|....+
+T Consensus        13 ~~v~v~l~~~~~~~G~l~~~D-~~~NlvL~d~~~~~~~~~~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~d~   84 (84)
+T d4c92d_          13 QQMQIELKNGEIIQGILTNVD-NWMNLTLSNVTEYSEESAINSEDNAESSKAVKLNEIYIRGTFIKFIKLQDN   84 (84)
+T ss_dssp             CEEEEEETTSEEEEEEEEEEC-TTCCEEEEEEEEEEHHHHHHTTSCSSTTCCEEEEEEEECGGGEEEEEECCC
+T ss_pred             CcEEEEEcCCCEEEEEEEEEC-CCCCEEEEEEEEEecccccCCcccccccceEEceEEEEcCCcEEEEEcCCC
+
+
+No 113
+>PF14453.6 ; ThiS-like ; ThiS-like ubiquitin
+Probab=26.39  E-value=2.1e+02  Score=17.18  Aligned_cols=39  Identities=23%  Similarity=0.232  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEEECCEEEec
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVLIGDFIIQR   47 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~IGd~Iisr   47 (149)
+                      |++.+   +|+.+.+.-  ....+|.+.++ ... .+++++-++++
+T Consensus         1 ~~i~~---n~~~~~~~~--~t~~~l~~~~~-~~~-~v~vn~~~~~~   39 (54)
+T M4YP45_THEXX/1    1 MRIVL---NGKETDVSD--TAAFALRDRIL-PGG-YVVIDGFSASE   39 (54)
+T ss_pred             CEEEE---CCEEeecCc--ccHHHHHHhhC-CCc-EEEECCEEcCC
+
+
+No 114
+>d1d3ba_ b.38.1.1 (A:) D3 core SNRNP protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=26.33  E-value=1.8e+02  Score=18.85  Aligned_cols=54  Identities=9%  Similarity=0.134  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPIN   57 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~   57 (149)
+                      .+.|.+.+|..+.-....||. .++=.|.+     ..-....+|.++++-..|..+....
+T Consensus        14 ~v~v~l~~~~~~~G~l~~~D~-~~N~~L~~~~~~~~~~~~~~~~~~~i~g~~i~~v~~~~   72 (72)
+T d1d3ba_          14 IVTCETNTGEVYRGKLIEAED-NMNCQMSNITVTYRDGRVAQLEQVYIRGCKIRFLILPD   72 (72)
+T ss_dssp             EEEEEETTSCEEEEEEEEECT-TCCEEEEEEEEECTTSCEEEEEEEEECGGGEEEEEECC
+T ss_pred             EEEEEeCCCCEEEEEEEEEcC-CccEEEEeeEEEeCCCeEEEEEEEEEcCCeEEEEECCC
+
+
+No 115
+>d4c92d_ b.38.1.0 (D:) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=26.07  E-value=1e+02  Score=20.48  Aligned_cols=56  Identities=16%  Similarity=0.243  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcC----------------CceEEEECCeEEecceEEEEEeccC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNN----------------NTVTVVIGDYIFSRIDVKQVVPVKE  121 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~----------------~~~tV~IGd~Iisr~~Vk~I~Pv~~  121 (149)
+                      ..+.|.|.+|..+.-....|| ..+|-.|.+.                ......+|.++++...|+.|.+..+
+T Consensus        13 ~~v~v~l~~~~~~~G~l~~~D-~~~NlvL~d~~~~~~~~~~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~d~   84 (84)
+T d4c92d_          13 QQMQIELKNGEIIQGILTNVD-NWMNLTLSNVTEYSEESAINSEDNAESSKAVKLNEIYIRGTFIKFIKLQDN   84 (84)
+T ss_dssp             CEEEEEETTSEEEEEEEEEEC-TTCCEEEEEEEEEEHHHHHHTTSCSSTTCCEEEEEEEECGGGEEEEEECCC
+T ss_pred             CcEEEEEcCCCEEEEEEEEEC-CCCCEEEEEEEEEecccccCCcccccccceEEceEEEEcCCcEEEEEcCCC
+
+
+No 116
+>PF18416.1 ; GbpA_2 ; N-acetylglucosamine binding protein domain 2
+Probab=25.95  E-value=2.2e+02  Score=20.53  Aligned_cols=36  Identities=17%  Similarity=0.363  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eEEEEEe-CCCCEEEEEeccCC-----------HHHHHHHHcCCCceEEEEC
+Q Q_9186633_66      2 QTIEIHT-QGGLKNTVQIENYN-----------AQVLNDKLNDKDLITVLIG   41 (149)
+Q Consensus         2 m~ieI~t-~~G~~~~~~ve~Yn-----------a~~l~~~LNn~~~~tV~IG   41 (149)
+                      ++++++- ++|.   ++...+.           +.+|++++|..... +.+|
+T Consensus        19 V~~rvf~~~~G~---~e~~~~~~~~~~~~~~~W~~~LA~~IN~~~~~-vr~G   66 (100)
+T A0A0W0SDU5_9GA   19 VKLRLFNHENGE---IETHSIVVTDQNNGGNQWPFALGEKVNANSSL-LRIG   66 (100)
+T ss_pred             EEEEEEeCCCCe---EEEEEEecCcccccccchhHHHHHHHHhCCCc-EEee
+
+
+No 117
+>PF14451.6 ; Ub-Mut7C ; Mut7-C ubiquitin
+Probab=25.80  E-value=2.7e+02  Score=18.28  Aligned_cols=47  Identities=13%  Similarity=0.049  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CeEEEEEeCCCCE-----------EEEEe-ccCCHHHHHHHHcC--CCceEEEECCEEEec
+Q Q_9186633_66      1 MQTIEIHTQGGLK-----------NTVQI-ENYNAQVLNDKLND--KDLITVLIGDFIIQR   47 (149)
+Q Consensus         1 Mm~ieI~t~~G~~-----------~~~~v-e~Yna~~l~~~LNn--~~~~tV~IGd~Iisr   47 (149)
+                      ||+++|++...-.           +.+.+ +..+..++.+++..  +....+.+++.++++
+T Consensus         1 m~~i~v~~~g~l~~~~~~~~~~~~~~~~~~~~~tv~~ll~~l~~~~~~~~~~~vng~~~~~   61 (81)
+T Q3SGY2_THIDA/1    1 MVIATFRFYEELNDFLAPDRRKREFTVPCARAATTKHMIEALGVPHTEVELILVNGESAGF   61 (81)
+T ss_pred             CceEEEEEcHHHHHhcCccccCCcEEEEcCCCCcHHHHHHHHCCChhceEEEEECCEEccc
+
+
+No 118
+>KOG3493 Ubiquitin-like protein [Posttranslational modification, protein turnover, chaperones]
+Probab=25.71  E-value=1.9e+02  Score=16.85  Aligned_cols=20  Identities=20%  Similarity=0.253  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CeEEEEEeCCCCEEEEEecc
+Q Q_9186633_66      1 MQTIEIHTQGGLKNTVQIEN   20 (149)
+Q Consensus         1 Mm~ieI~t~~G~~~~~~ve~   20 (149)
+                      ||.+.+...+|..+.+.+..
+T Consensus         1 ~~~i~v~~~~~~~~~~~v~~   20 (73)
+T KOG3493           1 MIEVVLNDRLGKKVRVKCNT   20 (73)
+T ss_pred             CeEEEEEcCCCCEEEEEEcC
+
+
+No 119
+>d4f7uf_ b.38.1.0 (F:) automated matches {African clawed frog (Xenopus laevis) [TaxId: 8355]}
+Probab=25.70  E-value=1.8e+02  Score=18.71  Aligned_cols=54  Identities=13%  Similarity=0.231  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPIN   57 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~   57 (149)
+                      .+.|.+.+|..+.-....|| ..++=.|.+     ..-....+|.+++....|..|.+..
+T Consensus        15 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~l~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~d   73 (73)
+T d4f7uf_          15 PVMVKLKWGMEYKGYLVSVD-GYMNMQLANTEEYIDGALSGHLGEVLIRCNNVLYIRGVE   73 (73)
+T ss_dssp             EEEEEETTSCEEEEEEEEEC-TTCCEEEEEEEEEETTEEEEEEEEEEECGGGEEEEEECC
+T ss_pred             eEEEEECCCCEEEEEEEEEC-CccCEEEEEeEEEECCceeEEeeEEEECCCcEEEEEeCC
+
+
+No 120
+>d3jcmq_ b.38.1.1 (Q:) D2 core SNRNP protein {Saccharomyces cerevisiae S288c [TaxId: 559292]}
+Probab=25.63  E-value=1.5e+02  Score=20.32  Aligned_cols=55  Identities=13%  Similarity=0.152  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCceEEE------------ECCEEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDLITVL------------IGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~~tV~------------IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.+.||..+.-....||. .++=.|.+-....-.            +|.++|....|..|.+..+
+T Consensus        24 ~V~V~l~~~~~~~G~L~~~D~-~~NlvL~d~~e~~~~~~~~~~~~~~~~~~~~~IrG~~v~~i~~~~~   90 (90)
+T d3jcmq_          24 PVIISLRNNHKIIARVKAFDR-HCNMVLENVKELWTEKKGKNVINRERFISKLFLRGDSVIVVLKTPV   90 (90)
+T ss_dssp             EEEEEETTSCEEEEEEEECCT-TCCEEEEEEEEECCCCC-CCCCCCCCEEEEEEECGGGEEEEECCCC
+T ss_pred             CEEEEECCCCEEEEEEEEEcC-ccceeeeeEEEEeeecCCCcceeeEEEccEEEEcCCEEEEEEeCCC
+
+
+No 121
+>PF17412.2 ; VraX ; Family of unknown function
+Probab=25.33  E-value=3.1e+02  Score=18.87  Aligned_cols=33  Identities=21%  Similarity=0.263  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             CCCeeeEEEEeCCCCEEEE-EecCCCHHHHHHHh
+Q Q_9186633_66     61 AEGTTKLKVHTNGGKEIEI-ITNDYDPIFLNEQL   93 (149)
+Q Consensus        61 ~~~~m~ieV~l~~G~~i~~-~ve~Yda~~lneqL   93 (149)
+                      ..+...++|.++.|..+++ ..++++...+.+-|
+T Consensus         9 e~~~~iY~V~T~~g~~itvk~~~d~~~~~v~~lL   42 (55)
+T VRAX_STAEQ/1-5    9 ENGTPVYEIITKTFKTITIKCDETFNKYEIYQLL   42 (55)
+T ss_pred             eCCCeEEEEEcCCCCEEEEEeCCCCCHHHHHHHH
+
+
+No 122
+>d1mgqa_ b.38.1.1 (A:) Archaeal homoheptameric Sm protein {Methanobacterium thermoautotrophicum [TaxId: 145262]}
+Probab=25.28  E-value=1.2e+02  Score=19.85  Aligned_cols=52  Identities=21%  Similarity=0.314  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEe
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILP   55 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~P   55 (149)
+                      .+.|.+.||..+.-....||. .++=.|-+     .......+|.++++...|..|.|
+T Consensus        18 ~v~v~l~~g~~~~G~l~~~D~-~~Ni~L~~~~e~~~~~~~~~~~~~~irG~~i~~i~~   74 (74)
+T d1mgqa_          18 PVIIKLKGDREFRGVLKSFDL-HMNLVLNDAEELEDGEVTRRLGTVLIRGDNIVYISP   74 (74)
+T ss_dssp             EEEEEETTTEEEEEEEEEECT-TCCEEEEEEEEEETTEEEEEEEEEEECGGGEEEEEC
+T ss_pred             cEEEEECCCCEEEEEEEEECC-CCCEEEEeeEEEcCCceEEEeeEEEEcCCcEEEEeC
+
+
+No 123
+>KOG3448 Predicted snRNP core protein [RNA processing and modification]
+Probab=24.56  E-value=1.1e+02  Score=21.49  Aligned_cols=56  Identities=16%  Similarity=0.131  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCce-------EEEECCeEEecceEEEEEeccCC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTV-------TVVIGDYIFSRIDVKQVVPVKEE  122 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~-------tV~IGd~Iisr~~Vk~I~Pv~~~  122 (149)
+                      .+.|.|.+|..+.-....||.. +|=.|-+....       ...+|.+++....|..|......
+T Consensus        14 ~v~V~l~~~~~~~G~L~~~D~~-~Nl~L~~~~~~~~~~~~~~~~~~~~~irG~~I~~i~~~~~~   76 (96)
+T KOG3448          14 EVVVELKNDLSICGTLHSVDQY-LNLKLTDISVTDPDKYPHMLSVKNCFIRGSVVRYVQLPKDA   76 (96)
+T ss_pred             EEEEEECCCCEEEEEEEEECCC-CCEEEEEeEEeCCCCCCceeEeeEEEEeCCeEEEEECChhh
+
+
+No 124
+>KOG3460 Small nuclear ribonucleoprotein (snRNP) LSM3 [RNA processing and modification]
+Probab=24.51  E-value=1.2e+02  Score=20.79  Aligned_cols=57  Identities=11%  Similarity=0.089  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCc------------------eEEEECCEEEecceeeEEEecCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDL------------------ITVLIGDFIIQRIDVKRILPINLPT   60 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~------------------~tV~IGd~Iisr~~Ik~I~Pv~~~~   60 (149)
+                      .+.|.|.||..+.-....||.. ++-.|.+...                  ....+|.+++....|..|.+.....
+T Consensus        17 ~V~V~l~~g~~~~G~l~~~D~~-~Nl~L~~~~e~~~~~~~~~~~~~~~~~~~~~~l~~~~irG~~I~~i~~~~~~d   91 (91)
+T KOG3460          17 RVYVKLRSDRELRGTLHAFDEH-LNMVLGDVEETITTVEIDEDTYEEIVKTTKRTVEMLFVRGDGVILVSPPLRLD   91 (91)
+T ss_pred             cEEEEECCCCEEEEEEEEEeCC-cCEEEEEEEEEEeecccCccccceeeeeeEEEeeeEEECCCeEEEEECCCCCC
+
+
+No 125
+>d4emga_ b.38.1.0 (A:) automated matches {Schizosaccharomyces pombe [TaxId: 284812]}
+Probab=24.20  E-value=1.7e+02  Score=19.38  Aligned_cols=55  Identities=18%  Similarity=0.213  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceE------------------EEECCeEEecceEEEEEeccC
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVT------------------VVIGDYIFSRIDVKQVVPVKE  121 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~t------------------V~IGd~Iisr~~Vk~I~Pv~~  121 (149)
+                      .+.|.|.||..+.-....|| ..+|=.|-+.....                  ..+|.+++.-..|..+.+..+
+T Consensus        13 ~v~V~l~~~~~~~G~l~~~D-~~~Nl~L~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~IrG~~i~~i~~~~~   85 (85)
+T d4emga_          13 IVYVKLRGDRELNGRLHAYD-EHLNMVLGDAEEIVTIFDDEETDKDKALKTIRKHYEMLFVRGDSVILIAPPRN   85 (85)
+T ss_dssp             EEEEEETTTEEEEEEEEEEC-TTCCEEEEEEEEEEC--------------CEEEEEEEEEECGGGEEEEECCCC
+T ss_pred             eEEEEECCCCEEEEEEEEEe-CeecEEEceeEEEEeeecCCCcchhhhcceEEEEeceEEEcCCeEEEEECCCC
+
+
+No 126
+>PF08806.11 ; Sep15_SelM ; Sep15/SelM redox domain
+Probab=24.08  E-value=2.3e+02  Score=19.61  Aligned_cols=31  Identities=13%  Similarity=0.305  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             EEEEEeCCCCEEEE-EeccCCHHHHHHHHcCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTV-QIENYNAQVLNDKLNDK   33 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~-~ve~Yna~~l~~~LNn~   33 (149)
+                      .|.++-.+|+.+.- .++.|+.+.+.+.|.+.
+T Consensus        43 ~L~~~d~~g~~ve~i~I~~w~~~~I~e~L~~~   74 (76)
+T B7QB83_IXOSC/7   43 IIKLMDDRGEVQEELSIKKWDTDTIEEFLLEH   74 (76)
+T ss_pred             EEEEECCCCCEEEEEEcccCCHHHHHHHHHhh
+
+
+No 127
+>d3jcmj_ b.38.1.1 (J:) D3 core SNRNP protein {Saccharomyces cerevisiae S288c [TaxId: 559292]}
+Probab=23.78  E-value=1.4e+02  Score=19.67  Aligned_cols=59  Identities=12%  Similarity=0.172  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecCCCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPINLPTAE   62 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~~~~~~   62 (149)
+                      .+.|.+++|..+.-....|| ..++=.|.+     .+-....+|.++++...|..|.........
+T Consensus        14 ~v~v~l~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~~~~~~   77 (79)
+T d3jcmj_          14 IVSLELTTGATYRGKLVESE-DSMNVQLRDVIATEPQGAVTHMDQIFVRGSQIKFIVVPDLLKNA   77 (79)
+T ss_dssp             EEEEEETTSCEEEEEEEEEC-SSCCEEEEEEEEECSSCCEEEEEEEEECGGGEEEEEECGGGGSS
+T ss_pred             EEEEEECCCCEEEEEEEEEc-CccCEEEEEEEEECCCCCeEEeeEEEEcCCcEEEEECChHHhcC
+
+
+No 128
+>cd16121 FERM_F1_SNX17; FERM (Four.1 protein, Ezrin, Radixin, Moesin) domain, F1 sub-domain, found in sorting nexin protein 17 (SNX17).
+Probab=23.64  E-value=1.8e+02  Score=20.61  Aligned_cols=23  Identities=17%  Similarity=0.237  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHH
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQV   25 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~   25 (149)
+                      .+.|+|.||..+.+.+..-+..+
+T Consensus         4 ~l~V~lpdg~~~~v~v~~~~tt~   26 (93)
+T cd16121           4 SLEVLLSNGQKVLVNVLTSDQTE   26 (93)
+T ss_pred             eEEEEeCCCCEEEEEEeCCCCHH
+
+
+No 129
+>PF14438.6 ; SM-ATX ; Ataxin 2 SM domain
+Probab=23.54  E-value=72  Score=21.23  Aligned_cols=52  Identities=13%  Similarity=0.022  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCH-HHHHHHhhcCCceEE------------------EECCeEEecceEEEEE
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDP-IFLNEQLNNNNTVTV------------------VIGDYIFSRIDVKQVV  117 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda-~~lneqLNd~~~~tV------------------~IGd~Iisr~~Vk~I~  117 (149)
+                      .+.|.+.+|..+.-....||+ ..++-.|.+.....-                  .+|.++|...+|..+.
+T Consensus        15 ~v~v~l~~g~~~~G~l~~~d~~~~~ni~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~irg~~I~~i~   85 (87)
+T D8RJA7_SELML/7   15 FVEVQLKDGSVFSGIFHTANMDKDFGVVLKMARLTKEAGGKSGKGDAVKQAARKPPTKSLIIYAKDLVQID   85 (87)
+T ss_pred             EEEEEeCCCCEEEEEEEEecCCcceeEEEEeeEEecCCCCCCCCCcccccccCCCCCceEEEeHHHEEEEE
+
+
+No 130
+>cd01773 UBX_UBXN7; Ubiquitin regulatory domain X (UBX) found in UBX domain protein 7 (UBXN7) and similar proteins.
+Probab=23.32  E-value=2.1e+02  Score=16.98  Aligned_cols=20  Identities=5%  Similarity=0.252  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CeEEEEEeCCCCEEEEEecc
+Q Q_9186633_66      1 MQTIEIHTQGGLKNTVQIEN   20 (149)
+Q Consensus         1 Mm~ieI~t~~G~~~~~~ve~   20 (149)
+                      |+.+.+.+.+|..+......
+T Consensus         1 ~~~~~ir~p~g~~~~~~~~~   20 (76)
+T cd01773           1 KAQLMLRYPDGKREQITLPE   20 (76)
+T ss_pred             CeEEEEECCCCCeEEEEECC
+
+
+No 131
+>cd16121 FERM_F1_SNX17; FERM (Four.1 protein, Ezrin, Radixin, Moesin) domain, F1 sub-domain, found in sorting nexin protein 17 (SNX17).
+Probab=23.16  E-value=1.9e+02  Score=20.41  Aligned_cols=23  Identities=17%  Similarity=0.173  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eEEEEeCCCCEEEEEecCCCHHH
+Q Q_9186633_66     66 KLKVHTNGGKEIEIITNDYDPIF   88 (149)
+Q Consensus        66 ~ieV~l~~G~~i~~~ve~Yda~~   88 (149)
+                      .++|+|.||..+.+.+...+...
+T Consensus         4 ~l~V~lpdg~~~~v~v~~~~tt~   26 (93)
+T cd16121           4 SLEVLLSNGQKVLVNVLTSDQTE   26 (93)
+T ss_pred             eEEEEeCCCCEEEEEEeCCCCHH
+
+
+No 132
+>KOG3460 Small nuclear ribonucleoprotein (snRNP) LSM3 [RNA processing and modification]
+Probab=23.11  E-value=1.5e+02  Score=20.39  Aligned_cols=58  Identities=16%  Similarity=0.133  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCc------------------eEEEECCeEEecceEEEEEeccCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNT------------------VTVVIGDYIFSRIDVKQVVPVKEEP  123 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~------------------~tV~IGd~Iisr~~Vk~I~Pv~~~~  123 (149)
+                      ..+.|.|.+|..+.-....||.. +|-.|.+...                  ....+|.+++....|..|.+.....
+T Consensus        16 ~~V~V~l~~g~~~~G~l~~~D~~-~Nl~L~~~~e~~~~~~~~~~~~~~~~~~~~~~l~~~~irG~~I~~i~~~~~~d   91 (91)
+T KOG3460          16 ERVYVKLRSDRELRGTLHAFDEH-LNMVLGDVEETITTVEIDEDTYEEIVKTTKRTVEMLFVRGDGVILVSPPLRLD   91 (91)
+T ss_pred             CcEEEEECCCCEEEEEEEEEeCC-cCEEEEEEEEEEeecccCccccceeeeeeEEEeeeEEECCCeEEEEECCCCCC
+
+
+No 133
+>d1n9ra_ b.38.1.1 (A:) Small nuclear ribonucleoprotein F, Smf {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=22.60  E-value=1.8e+02  Score=18.58  Aligned_cols=55  Identities=13%  Similarity=0.175  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             EEEEEeC-CCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQ-GGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~-~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.+. +|..+.-....|| ..++=.|.+     .+-....+|-+.+....|..|....+
+T Consensus         8 ~v~v~l~~~~~~~~G~l~~~D-~~~Nl~L~~~~~~~~~~~~~~~~~~~irg~~i~~i~~~~~   68 (68)
+T d1n9ra_           8 RVGVKLKFNSTEYRGTLVSTD-NYFNLQLNEAEEFVAGVSHGTLGEIFIRCNNVLYIRELPN   68 (68)
+T ss_dssp             EEEEEESSTTEEEEEEEEECC-TTTCEEEEEEEEEETTEEEEECCSEEECGGGEEEEEECCC
+T ss_pred             EEEEEEccCCEEEEEEEEEEC-CCcCEEEeecEEEeCCCcceEceEEEEecCcEEEEEeCCC
+
+
+No 134
+>cd01719 Sm_G; Sm protein G. The eukaryotic Sm proteins (B/B', D1, D2, D3, E, F and G) assemble into a hetero-heptameric ring around the Sm site of the 2,2,7-trimethyl guanosine (m3G) capped U1, U2, U4 and U5 snRNAs (Sm snRNAs) forming the core of the snRNP particle.
+Probab=22.35  E-value=2e+02  Score=17.37  Aligned_cols=54  Identities=11%  Similarity=0.217  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPIN   57 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~   57 (149)
+                      .+.+.+.+|..+.-....|| ..++-.|.+     .......+|.++++-..|..+.+..
+T Consensus        12 ~v~v~~~~~~~~~G~l~~~d-~~~n~~l~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~d   70 (70)
+T cd01719          12 KLSLKLNGGRHVQGILRGFD-PFMNLVIDECVEMATSGQQNNIGMVVIRGNSIIMLEALE   70 (70)
+T ss_pred             EEEEEECCCeEEEEEEEEEC-CCCCEEEeceEEECCCCCeeeeEEEEEcCCeEEEEEECC
+
+
+No 135
+>PF14438.6 ; SM-ATX ; Ataxin 2 SM domain
+Probab=22.29  E-value=69  Score=21.31  Aligned_cols=52  Identities=17%  Similarity=0.101  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCH-HHHHHHHcCCCceEE------------------EECCEEEecceeeEEE
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNA-QVLNDKLNDKDLITV------------------LIGDFIIQRIDVKRIL   54 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna-~~l~~~LNn~~~~tV------------------~IGd~Iisr~~Ik~I~   54 (149)
+                      .+.|.+.+|..+.-....||. +.++-.|.+.....-                  .+|.++|+..+|..|.
+T Consensus        15 ~v~v~l~~g~~~~G~l~~~d~~~~~ni~L~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~irg~~I~~i~   85 (87)
+T D8RJA7_SELML/7   15 FVEVQLKDGSVFSGIFHTANMDKDFGVVLKMARLTKEAGGKSGKGDAVKQAARKPPTKSLIIYAKDLVQID   85 (87)
+T ss_pred             EEEEEeCCCCEEEEEEEEecCCcceeEEEEeeEEecCCCCCCCCCcccccccCCCCCceEEEeHHHEEEEE
+
+
+No 136
+>cd01729 LSm7; Like-Sm protein 7. The eukaryotic LSm proteins (LSm2-8 or LSm1-7) assemble into a hetero-heptameric ring around the 3'-terminus uridylation tag of the gamma-methyl triphosphate (gamma-m-P3) capped U6 snRNA.
+Probab=22.23  E-value=1.8e+02  Score=18.65  Aligned_cols=58  Identities=19%  Similarity=0.291  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcCCCc-------------eEEEECCEEEecceeeEEEecCCCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLNDKDL-------------ITVLIGDFIIQRIDVKRILPINLPTA   61 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn~~~-------------~tV~IGd~Iisr~~Ik~I~Pv~~~~~   61 (149)
+                      .+.|.+.+|..+.-....|| ..++-.|.+...             ....+|.++++...|..+.+......
+T Consensus        14 ~v~v~~~~~~~~~G~l~~~D-~~~N~~L~~~~~~~~~~~~~~~~~~~~~~~~~~~irG~~i~~i~~~~~~~~   84 (89)
+T cd01729          14 RIQATFTGGRQITGILKGFD-QLMNLVLDDVEEQLRNPED-GKLTGAIRKLGLVVVRGTTLVLIAPMDGSEE   83 (88)
+T ss_pred             eEEEEECCCcEEEEEEEEEc-CCcCEEEeeeEEEecCCCcccccCceeEEeeEEEECCCcEEEEECCCcccC
+
+
+No 137
+>cd17179 FERM_F1_PLEKHH2; FERM (Four.1 protein, Ezrin, Radixin, Moesin) domain, F1 sub-domain, found in pleckstrin homology domain-containing family H member 2 (PLEKHH2).
+Probab=21.35  E-value=3.7e+02  Score=18.36  Aligned_cols=29  Identities=14%  Similarity=-0.050  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCC-HHHHHHHh
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYD-PIFLNEQL   93 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yd-a~~lneqL   93 (149)
+                      +.+.|++.||....+.++.+. +.++...+
+T Consensus         2 ~~v~v~~~~g~~~~v~v~s~tt~~e~~~~l   31 (103)
+T cd17179           2 FSIPVHFMNGIYQVVGFDASTTVEEFLNTL   31 (103)
+T ss_pred             eEEEEEeCCCcEEEEEecCCccHHHHHHHH
+
+
+No 138
+>d4c92b1 b.38.1.0 (B:2-95) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=20.99  E-value=1.4e+02  Score=20.27  Aligned_cols=56  Identities=14%  Similarity=0.144  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-------CCceEEEECCEEEecceeeEEEecCCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-------KDLITVLIGDFIIQRIDVKRILPINLP   59 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-------~~~~tV~IGd~Iisr~~Ik~I~Pv~~~   59 (149)
+                      .+.|.+.||..+.-....|| ..++=.|-+       .......+|.+.+....|..+....+.
+T Consensus        13 ~v~i~l~~~~~~~G~l~~~D-~~~N~~l~~~~~~~~~~~~~~~~~~~~~irg~~i~~i~~~~~~   75 (94)
+T d4c92b1          13 EVVVELKNDIEIKGTLQSVD-QFLNLKLDNISCTDEKKYPHLGSVRNIFIRGSTVRYVYLNKNM   75 (94)
+T ss_dssp             EEEEEETTSCEEEEEEEEEC-TTCCEEEEEEEECCCSSSCCCTTCCCEEECGGGEEEEEECGGG
+T ss_pred             EEEEEECCCCEEEEEEEEEC-CCCCEEEEEEEEECCCCCCccceeeEEEEECCeEEEEEcChhh
+
+
+No 139
+>d1wm3a_ d.15.1.1 (A:) SUMO-2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.84  E-value=2.4e+02  Score=16.62  Aligned_cols=22  Identities=14%  Similarity=0.197  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             eEEEEEeCCCCEEEEEeccCCH
+Q Q_9186633_66      2 QTIEIHTQGGLKNTVQIENYNA   23 (149)
+Q Consensus         2 m~ieI~t~~G~~~~~~ve~Yna   23 (149)
+                      |.+.+.+.+|..+.+.+...++
+T Consensus         2 ~~i~v~~~~g~~~~~~v~~~~~   23 (72)
+T d1wm3a_           2 INLKVAGQDGSVVQFKIKRHTP   23 (72)
+T ss_dssp             EEEEEECTTSCEEEEEECTTSC
+T ss_pred             EEEEEECCCCCEEEEEEeCCCc
+
+
+No 140
+>KOG3293 Small nuclear ribonucleoprotein (snRNP) [RNA processing and modification]
+Probab=20.77  E-value=1.1e+02  Score=23.93  Aligned_cols=56  Identities=13%  Similarity=0.069  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCce------EEEECCeEEecceEEEEEeccC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTV------TVVIGDYIFSRIDVKQVVPVKE  121 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~------tV~IGd~Iisr~~Vk~I~Pv~~  121 (149)
+                      ..|.|.|.||..+.=+...||.. +|-.|.+....      +..+|.++|.-..|+.|.....
+T Consensus        13 k~V~V~L~~g~~~~G~L~~~D~~-mNl~L~dv~e~~~~~~~~~~lg~~~IrG~~I~~i~~~~~   74 (134)
+T KOG3293          13 HPMLVELKNGETYNGHLVNCDNW-MNLHLREVICTSEDGDKFFRMPECYIRGTTIKYLRIPDE   74 (134)
+T ss_pred             CcEEEEeCCCCEEEEEEEEeCCC-CCEEEEEEEEeCCCCCcEEECCeEEEeCCcEEEEECCHH
+
+
+No 141
+>KOG3172 Small nuclear ribonucleoprotein Sm D3 [RNA processing and modification]
+Probab=20.70  E-value=1.6e+02  Score=22.36  Aligned_cols=55  Identities=13%  Similarity=0.208  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             EEEEEeCCCCEEEEEeccCCHHHHHHHHcC-----CCceEEEECCEEEecceeeEEEecCC
+Q Q_9186633_66      3 TIEIHTQGGLKNTVQIENYNAQVLNDKLND-----KDLITVLIGDFIIQRIDVKRILPINL   58 (149)
+Q Consensus         3 ~ieI~t~~G~~~~~~ve~Yna~~l~~~LNn-----~~~~tV~IGd~Iisr~~Ik~I~Pv~~   58 (149)
+                      .+.|.|.||..+.=....||.. +|-.|-+     .+-....+|.++|.-..|..|.....
+T Consensus        17 ~V~I~l~~g~~~~G~L~~~D~~-mNi~L~~a~e~~~~~~~~~l~~i~IrG~~I~~I~~~~~   76 (119)
+T KOG3172          17 IVTVETKTGEVYRGKLIEAEDN-MNCQLRDITVTARDGRVSQLEQVFIRGSKIRFLVLPDM   76 (119)
+T ss_pred             EEEEEECCCCEEEEEEEEECCC-ccEEEEEEEEEccCCcEEEEEEEEEeCccEEEEECChH
+
+
+No 142
+>KOG3172 Small nuclear ribonucleoprotein Sm D3 [RNA processing and modification]
+Probab=20.21  E-value=1.5e+02  Score=22.43  Aligned_cols=80  Identities=10%  Similarity=-0.007  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             eeEEEEeCCCCEEEEEecCCCHHHHHHHhhcCCceE-----EEECCeEEecceEEEEEeccCCCCCCCCCCCcCCCCCCC
+Q Q_9186633_66     65 TKLKVHTNGGKEIEIITNDYDPIFLNEQLNNNNTVT-----VVIGDYIFSRIDVKQVVPVKEEPKEPEQPPVTEPEQPTT  139 (149)
+Q Consensus        65 m~ieV~l~~G~~i~~~ve~Yda~~lneqLNd~~~~t-----V~IGd~Iisr~~Vk~I~Pv~~~~~~~~~~~~~~~~~~~~  139 (149)
+                      ..+.|.|.||..+.=....||.. +|=.|-+.....     ..+|.++|.-..|..|.........+.-...+-+.....
+T Consensus        16 k~V~I~l~~g~~~~G~L~~~D~~-mNi~L~~a~e~~~~~~~~~l~~i~IrG~~I~~I~~~~~~~~~~~l~~~~~~~~~~~   94 (119)
+T KOG3172          16 HIVTVETKTGEVYRGKLIEAEDN-MNCQLRDITVTARDGRVSQLEQVFIRGSKIRFLVLPDMLKNAPMFKKGKSRSLGGG   94 (119)
+T ss_pred             CEEEEEECCCCEEEEEEEEECCC-ccEEEEEEEEEccCCcEEEEEEEEEeCccEEEEECChHHhchHhHhhcccccCCCC
+
+
+Q ss_pred             CCCCCc
+Q Q_9186633_66    140 EEPPVT  145 (149)
+Q Consensus       140 ~~~~~~  145 (149)
+                      .....+
+T Consensus        95 ~~~~~~  100 (119)
+T KOG3172          95 PGRGRA  100 (119)
+T ss_pred             CCcccc
+
+

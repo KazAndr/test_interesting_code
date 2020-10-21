@@ -1,0 +1,192 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      "/home/andrey/programming/miniconda3/lib/python3.4/site-packages/IPython/utils/path.py:264: UserWarning: get_ipython_cache_dir has moved to the IPython.paths module\n",
+      "  warn(\"get_ipython_cache_dir has moved to the IPython.paths module\")\n"
+     ]
+    },
+    {
+     "data": {
+      "application/javascript": [
+       "$.getScript(\"https://raw.github.com/marijnh/CodeMirror/master/mode/fortran/fortran.js\", function () {\n",
+       "IPython.config.cell_magic_highlight['magic_fortran'] = {'reg':[/^%%fortran/]};});\n"
+      ]
+     },
+     "metadata": {},
+     "output_type": "display_data"
+    }
+   ],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array([-0.99989676,  0.57305455,  0.1653084 ,  0.59045345,  0.19727091,\n",
+       "       -0.57271731,  0.93086416,  0.73718548,  0.98593855,  0.18724008,\n",
+       "       -0.99974591, -0.56359327, -0.26511446,  0.63655519,  0.01454862,\n",
+       "        0.44306529, -0.94971865,  0.36842063, -0.58238453, -0.6778996 ,\n",
+       "        0.99866712,  0.31862634, -0.08617942, -0.74554473,  0.05066894,\n",
+       "       -0.39824617, -0.9849543 ,  0.26315019, -0.80038387,  0.9570331 ,\n",
+       "        0.99940288,  0.48875609, -0.9547053 , -0.98785424,  0.99184614,\n",
+       "       -0.58430517,  0.60349065,  0.43382761,  0.84809661,  0.84142303,\n",
+       "       -0.02086831, -0.12010556, -0.56174505,  0.8178032 , -0.35415646,\n",
+       "        0.09805102, -0.94559616,  0.9420085 ,  0.20189513,  0.97129118,\n",
+       "        0.57934928, -0.18688267,  0.13566102,  0.95957983,  0.76217854,\n",
+       "       -0.97002304, -0.39191872,  0.9890995 ,  0.99998027,  0.29568404,\n",
+       "       -0.76651657, -0.33442542, -0.85725844, -0.65795952, -0.02048627,\n",
+       "       -0.95873493,  0.58790541,  0.94730663,  0.88202661,  0.71416539,\n",
+       "        0.68770725, -0.58971196,  0.35732102,  0.14752771,  0.76995587,\n",
+       "       -0.99304277,  0.80862623,  0.18076791,  0.03282872, -0.99900019,\n",
+       "       -0.10227243, -0.88380259,  0.62704515,  0.38303208,  0.98918617,\n",
+       "       -0.98749036,  0.54004961,  0.86483932, -0.03055925,  0.9443748 ,\n",
+       "        0.6820873 , -0.49501383,  0.99906105,  0.25235257,  0.13183063,\n",
+       "       -0.87611806, -0.73929352, -0.82500958,  0.37082556,  0.09120999], dtype=float32)"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "z"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "def deter_param(filename):\n",
+    "    \n",
+    "    start_nois = 0\n",
+    "    end_nois = 100\n",
+    "    start_prof = 120\n",
+    "    end_prof = 180\n",
+    "    threshold = 3.5\n",
+    "    \n",
+    "    with open(filename, 'r') as file: # название файла указывать тут!\n",
+    "        first_line_numpar, first_line_value = file.readline().split()\n",
+    "        header = {}\n",
+    "        for i in range(int(first_line_value)-1):\n",
+    "            a, *b = file.readline().split()\n",
+    "            try:\n",
+    "                header[a] = b[0] + '.' + b[1]\n",
+    "            except IndexError:\n",
+    "                header[a] = b[0]\n",
+    "           \n",
+    "    \n",
+    "        data_pulses = []\n",
+    "        for i in range(int(header[\"numpuls\"])):\n",
+    "            file.readline()\n",
+    "            data_pulses.append([])\n",
+    "            for j in range(int(header[\"numpointwin\"])):\n",
+    "                a, b = file.readline().split()\n",
+    "                data_pulses[i].append(float(b))\n",
+    "        data_pulses = np.asarray(data_pulses)\n",
+    "        \n",
+    "    main_pulse = 0\n",
+    "    for item in data_pulses:\n",
+    "        main_pulse += item\n",
+    "    main_pulse = main_pulse/int(header['numpuls'])\n",
+    "    \n",
+    "    plt.plot(main_pulse)\n",
+    "    plt.show()\n",
+    "    \n",
+    "    return None"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "ename": "FileNotFoundError",
+     "evalue": "[Errno 2] No such file or directory: '220617_1133+16_00_profiles.txt'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-3-71714a595e5e>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mdeter_param\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m'220617_1133+16_00_profiles.txt'\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;32m<ipython-input-2-5a61160abe13>\u001b[0m in \u001b[0;36mdeter_param\u001b[0;34m(filename)\u001b[0m\n\u001b[1;32m      7\u001b[0m     \u001b[0mthreshold\u001b[0m \u001b[1;33m=\u001b[0m \u001b[1;36m3.5\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0;32m----> 9\u001b[0;31m     \u001b[1;32mwith\u001b[0m \u001b[0mopen\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;34m'220617_1133+16_00_profiles.txt'\u001b[0m\u001b[1;33m,\u001b[0m \u001b[1;34m'r'\u001b[0m\u001b[1;33m)\u001b[0m \u001b[1;32mas\u001b[0m \u001b[0mfile\u001b[0m\u001b[1;33m:\u001b[0m \u001b[1;31m# название файла указывать тут!\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     10\u001b[0m         \u001b[0mfirst_line_numpar\u001b[0m\u001b[1;33m,\u001b[0m \u001b[0mfirst_line_value\u001b[0m \u001b[1;33m=\u001b[0m \u001b[0mfile\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0mreadline\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m.\u001b[0m\u001b[0msplit\u001b[0m\u001b[1;33m(\u001b[0m\u001b[1;33m)\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n\u001b[1;32m     11\u001b[0m         \u001b[0mheader\u001b[0m \u001b[1;33m=\u001b[0m \u001b[1;33m{\u001b[0m\u001b[1;33m}\u001b[0m\u001b[1;33m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mFileNotFoundError\u001b[0m: [Errno 2] No such file or directory: '220617_1133+16_00_profiles.txt'"
+     ]
+    }
+   ],
+   "source": [
+    "deter_param('220617_1133+16_00_profiles.txt')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.4.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 1
+}

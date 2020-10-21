@@ -1,0 +1,953 @@
+Query         Q_9186633_11
+Match_columns 45
+No_of_seqs    72 out of 74
+Neff          2.79388
+Searched_HMMs 69205
+Date          Sun May 24 00:19:09 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_11.hhr -oa3m ../results/9186633_11.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17448.2 ; YqaH ; Uncharacter  94.8   0.028 4.1E-07   31.9   1.5   25    9-35     58-82  (84)
+  2 PF17814.1 ; LisH_TPL ; LisH-li  59.8      23 0.00034   16.6   2.5   25   11-35      2-26  (30)
+  3 d1w53a_ a.186.1.2 (A:) Phospho  57.6      48 0.00069   19.2   4.7   36    4-41     20-55  (84)
+  4 PF18473.1 ; Urease_linker ; Ur  55.5      18 0.00027   17.9   1.8   22   10-31      2-23  (34)
+  5 d2o35a1 a.293.1.1 (A:2-80) Hyp  52.8      45 0.00066   20.9   3.6   24    1-24      3-26  (79)
+  6 COG3492 COG3492; Uncharacteriz  51.3      45 0.00065   21.8   3.5   24    1-24      6-29  (104)
+  7 PF15861.5 ; partial_CstF ; Par  50.1      41  0.0006   20.1   3.0   19    8-26     44-62  (62)
+  8 PF13478.6 ; XdhC_C ; XdhC Ross  48.5      41 0.00059   20.2   2.8   25   11-37     96-120 (143)
+  9 PF18548.1 ; MetOD2 ; Metanogen  47.3      55  0.0008   19.5   3.3   29   11-45      2-30  (88)
+ 10 d3fyba1 a.293.1.0 (A:1-97) aut  46.5      60 0.00087   21.1   3.5   24    1-24      4-27  (97)
+ 11 PF08673.10 ; RsbU_N ; Phosphos  46.4      71   0.001   17.8   4.8   37    4-42     11-47  (74)
+ 12 PF02631.16 ; RecX ; RecX famil  42.5      69   0.001   18.2   3.1   20   15-36     46-65  (121)
+ 13 PF10165.9 ; Ric8 ; Guanine nuc  41.1   1E+02  0.0015   22.1   4.2   31    4-34    391-425 (428)
+ 14 d1mgta2 c.55.7.1 (A:1-88) O6-a  39.9      68 0.00098   20.2   2.9   20    8-27     34-53  (88)
+ 15 PF04924.12 ; Pox_A6 ; Poxvirus  39.6      53 0.00076   25.6   2.9   34    9-42    133-166 (369)
+ 16 PF12482.8 ; DUF3701 ; Phage in  38.9      69   0.001   19.3   2.8   21   16-36     23-43  (92)
+ 17 d1unaa_ d.85.1.1 (A:) GA coat   38.3      75  0.0011   20.9   3.1   24    8-33     97-121 (129)
+ 18 PF07765.12 ; KIP1 ; KIP1-like   35.7 1.1E+02  0.0016   17.7   3.2   33   12-44     25-70  (74)
+ 19 COG3552 CoxE; Uncharacterized   35.0 1.2E+02  0.0018   20.4   3.7   25   12-36     13-37  (395)
+ 20 PF11121.8 ; DUF2639 ; Protein   35.0      42 0.00061   18.6   1.3   12   16-27      7-18  (38)
+ 21 d1qc7a_ a.118.14.1 (A:) FliG {  33.0 1.1E+02  0.0015   17.7   2.8   18    8-25     70-87  (101)
+ 22 d1jjcb6 b.153.1.1 (B:191-399)   30.6 1.5E+02  0.0021   19.3   3.5   27   15-43     38-64  (209)
+ 23 d1gmla_ c.8.5.2 (A:) Thermosom  30.2 1.7E+02  0.0025   17.5   3.5   24    4-27     55-78  (169)
+ 24 PF01706.16 ; FliG_C ; FliG C-t  30.0 1.3E+02  0.0019   17.0   2.9   19    8-26     87-105 (108)
+ 25 d1a6db2 c.8.5.2 (B:216-367) Th  29.7 1.4E+02   0.002   17.8   3.1   20    8-27     53-72  (152)
+ 26 d1e6ta_ d.85.1.1 (A:) MS2 viru  29.7      96  0.0014   20.4   2.5   18    8-25     98-115 (129)
+ 27 PF01819.17 ; Levi_coat ; Leviv  29.5 1.4E+02   0.002   19.1   3.2   27    8-36     97-123 (127)
+ 28 cd16169 Tau138_eWH; extended w  29.2      83  0.0012   17.5   2.0   16   10-25     43-58  (97)
+ 29 d1qbea_ d.85.1.1 (A:) Qbeta co  28.8 1.1E+02  0.0015   20.3   2.6   24    8-33    102-125 (132)
+ 30 COG1975 XdhC; Xanthine and CO   28.8 1.2E+02  0.0018   20.9   3.0   25   11-37    206-230 (278)
+ 31 PF18552.1 ; PheRS_DBD1 ; PheRS  28.4 1.2E+02  0.0017   15.6   2.3   16   11-26     32-48  (59)
+ 32 d3uswa_ a.118.14.0 (A:) automa  26.7   2E+02  0.0029   17.8   3.5   23    4-26    194-216 (219)
+ 33 cd10927 CE4_u3; Putative catal  25.7 1.4E+02   0.002   16.6   2.4   27    7-45    200-226 (227)
+ 34 d1p32a_ d.25.1.1 (A:) Acidic m  25.6 2.1E+02  0.0031   18.6   3.6   24   16-42    165-188 (209)
+ 35 PF08285.11 ; DPM3 ; Dolichol-p  25.5 2.1E+02   0.003   17.0   3.5   26    2-27     65-90  (90)
+ 36 PF07102.12 ; DUF1364 ; Protein  24.9 2.1E+02   0.003   16.8   3.8   26    1-26     67-92  (92)
+ 37 PF09216.10 ; Pfg27 ; Pfg27      24.9 1.9E+02  0.0028   19.1   3.3   32    5-36    122-161 (173)
+ 38 cd10958 CE4_NodB_like_2; Catal  24.9 1.1E+02  0.0016   16.5   1.9   26    8-45    164-189 (190)
+ 39 d1assa_ c.8.5.2 (A:) Thermosom  24.7   2E+02  0.0029   17.1   3.1   20    8-27     55-74  (152)
+ 40 PF08899.11 ; DUF1844 ; Domain   24.1 1.4E+02  0.0021   17.1   2.3   16    7-22     55-70  (73)
+ 41 PF17296.2 ; ArenaCapSnatch ; A  24.1 1.9E+02  0.0028   20.4   3.3   25    2-26    111-135 (172)
+ 42 KOG0275 Conserved WD40 repeat-  23.7 1.8E+02  0.0026   18.9   2.9   27   10-36      7-33  (508)
+ 43 PF18263.1 ; MCM6_C ; MCM6 C-te  23.7 1.9E+02  0.0027   17.1   2.9   19    8-26     56-74  (103)
+ 44 KOG4841 Dolichol-phosphate man  23.7 2.5E+02  0.0037   17.5   3.5   26    2-27     69-94  (95)
+ 45 PF02330.16 ; MAM33 ; Mitochond  23.3 2.6E+02  0.0037   17.9   3.6   24   16-42    153-176 (194)
+ 46 d1q3qa2 c.8.5.2 (A:217-369) Th  23.3 2.2E+02  0.0032   16.7   3.1   20    8-27     54-73  (153)
+ 47 PF03501.15 ; S10_plectin ; Ple  23.2      53 0.00077   20.1   0.5   27   13-43     40-67  (94)
+ 48 PF18787.1 ; CRM1_repeat_3 ; CR  23.1   2E+02  0.0029   15.8   2.8   17    7-23     26-42  (51)
+ 49 d2es9a1 a.247.1.1 (A:11-107) H  23.0 1.7E+02  0.0025   17.8   2.7   29    7-35     21-49  (97)
+ 50 PF08869.11 ; XisI ; XisI prote  22.7   1E+02  0.0015   19.2   1.7   20   15-44     77-96  (110)
+ 51 cd10953 CE4_SlAXE_like; Cataly  22.5 1.2E+02  0.0018   16.2   1.8   20   12-43    160-179 (179)
+ 52 PF16699.5 ; CSTF1_dimer ; Clea  22.5 1.1E+02  0.0016   17.1   1.7   20   17-36     12-31  (56)
+ 53 PF16701.5 ; Ad_Cy_reg ; Adenyl  22.4 2.7E+02  0.0039   17.1   4.1   26    9-36     15-40  (186)
+ 54 d3jv1a_ d.25.1.0 (A:) automate  22.0 2.8E+02  0.0041   17.7   3.6   24   16-42    140-163 (182)
+ 55 KOG4464 Signaling protein RIC-  21.7 2.2E+02  0.0031   21.5   3.4   23    4-26    474-496 (532)
+ 56 PF08222.11 ; HTH_CodY ; CodY h  21.6 1.4E+02  0.0021   13.6   2.5   16   11-26     18-33  (61)
+ 57 d4fhrb1 a.118.14.1 (B:115-327)  21.3   2E+02  0.0029   18.2   2.8   18    8-25    190-207 (213)
+ 58 COG2137 RecX; SOS response reg  21.3 2.9E+02  0.0042   17.1   4.4   29   11-41    137-165 (174)
+ 59 d1z3eb1 a.60.3.1 (B:245-311) C  21.3 1.7E+02  0.0025   14.5   2.2   19   16-34     17-35  (67)
+ 60 PF02318.16 ; FYVE_2 ; FYVE-typ  21.2 1.6E+02  0.0024   16.6   2.2   13    8-20      5-17  (118)
+ 61 PF13076.6 ; Fur_reg_FbpA ; Fur  20.7 1.2E+02  0.0018   15.3   1.5   10   17-26      5-14  (36)
+ 62 PF05378.13 ; Hydant_A_N ; Hyda  20.7 1.1E+02  0.0016   19.0   1.6   21   10-30    140-160 (183)
+ 63 cd03270 ABC_UvrA_I; ATP-bindin  20.6 2.3E+02  0.0034   16.7   2.8   20    7-26    171-190 (226)
+ 64 cd12801 HopAB_KID; Kinase-inte  20.6   3E+02  0.0043   16.9   3.6   24   16-41      7-30  (77)
+ 65 PF04924.12 ; Pox_A6 ; Poxvirus  20.5 1.2E+02  0.0017   23.8   2.0   17   18-34    295-311 (369)
+ 66 COG3130 Rmf; Ribosome modulati  20.3 1.9E+02  0.0028   16.0   2.3   21    1-21      1-21  (55)
+
+No 1
+>PF17448.2 ; YqaH ; Uncharacterized YqaH-like
+Probab=94.79  E-value=0.028  Score=31.89  Aligned_cols=25  Identities=16%  Similarity=0.266  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             HHHHHHHHHHHHHHHCCCCCchHHHHH
+Q Q_9186633_11      9 EEKVNIIKMIRDLRARGIHNSADKVEE   35 (45)
+Q Consensus         9 ~erk~Il~II~~Lrs~Gv~nsadvVer   35 (45)
+                      ++++++..+|.+|.++||+  +++|.+
+T Consensus        58 ~~~K~l~~ii~~L~~~Gi~--~~~V~r   82 (84)
+T YQAH_BACSU/1-8   58 ANKGRLYETALKMQQQGIN--LTVVSR   82 (84)
+T ss_pred             HHhhHHHHHHHHHHHCCCC--ceeeec
+
+
+No 2
+>PF17814.1 ; LisH_TPL ; LisH-like dimerisation domain
+Probab=59.77  E-value=23  Score=16.60  Aligned_cols=25  Identities=20%  Similarity=0.393  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             HHHHHHHHHHHHHCCCCCchHHHHH
+Q Q_9186633_11     11 KVNIIKMIRDLRARGIHNSADKVEE   35 (45)
+Q Consensus        11 rk~Il~II~~Lrs~Gv~nsadvVer   35 (45)
+                      +.-+.=|++-|.+.|...++...++
+T Consensus         2 ~~~~~Li~q~L~~~g~~~t~~~l~~   26 (30)
+T A0A167PTA2_PHY    2 KDTVKLILQFLRENNLHRTLQALED   26 (30)
+T ss_pred             hHHHHHHHHHHHHCCcHHHHHHHHH
+
+
+No 3
+>d1w53a_ a.186.1.2 (A:) Phosphoserine phosphatase RsbU, N-terminal domain {Bacillus subtilis [TaxId: 1423]}
+Probab=57.56  E-value=48  Score=19.19  Aligned_cols=36  Identities=11%  Similarity=0.210  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             HHhhHHHHHHHHHHHHHHHHCCCCCchHHHHHHHHHHh
+Q Q_9186633_11      4 QQRDKEEKVNIIKMIRDLRARGIHNSADKVEEMHKEFI   41 (45)
+Q Consensus         4 qqrde~erk~Il~II~~Lrs~Gv~nsadvVer~H~~yI   41 (45)
+                      +..+|........+-+++.+.||.  ++.|-..|.+.+
+T Consensus        20 ~~~~E~~L~~a~~lgr~~i~~~i~--peeiv~lH~~al   55 (84)
+T d1w53a_          20 AELTETSLYQAQKFSRKTIEHQIP--PEEIISIHRKVL   55 (84)
+T ss_dssp             HHCCHHHHHHHHHHHHHHHHTTCC--HHHHHHHHHHHH
+T ss_pred             HhCChHHHHHHHHHHHHHHHcCCC--HHHHHHHHHHHH
+
+
+No 4
+>PF18473.1 ; Urease_linker ; Urease subunit beta-alpha linker domain
+Probab=55.51  E-value=18  Score=17.93  Aligned_cols=22  Identities=18%  Similarity=0.362  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             HHHHHHHHHHHHHHCCCCCchH
+Q Q_9186633_11     10 EKVNIIKMIRDLRARGIHNSAD   31 (45)
+Q Consensus        10 erk~Il~II~~Lrs~Gv~nsad   31 (45)
+                      +-.++-.|+++|.++|..+..+
+T Consensus         2 d~~r~~~I~~~l~~~GF~H~~e   23 (34)
+T M0TYE3_MUSAM/2    2 NDSYIEKVMENVIAKGFGHADQ   23 (34)
+T ss_pred             CHHHHHHHHHHHHHCCCCCCCC
+
+
+No 5
+>d2o35a1 a.293.1.1 (A:2-80) Hypothetical protein SMc04008 {Rhizobium meliloti [TaxId: 382]}
+Probab=52.79  E-value=45  Score=20.93  Aligned_cols=24  Identities=25%  Similarity=0.405  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             CcHHHhhHHHHHHHHHHHHHHHHC
+Q Q_9186633_11      1 MDRQQRDKEEKVNIIKMIRDLRAR   24 (45)
+Q Consensus         1 m~kqqrde~erk~Il~II~~Lrs~   24 (45)
+                      |+.+++.+-|-.-...++.||+.+
+T Consensus         3 ~~~~~~~~leAaaFRrL~~HL~~r   26 (79)
+T d2o35a1           3 ISPEQRTAFEAAVFRRLLEHLRER   26 (79)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHhC
+
+
+No 6
+>COG3492 COG3492; Uncharacterized protein, DUF1244 family [Function unknown]. 
+Probab=51.29  E-value=45  Score=21.83  Aligned_cols=24  Identities=25%  Similarity=0.537  Sum_probs=0.0  Template_Neff=3.100
+
+Q ss_pred             CcHHHhhHHHHHHHHHHHHHHHHC
+Q Q_9186633_11      1 MDRQQRDKEEKVNIIKMIRDLRAR   24 (45)
+Q Consensus         1 m~kqqrde~erk~Il~II~~Lrs~   24 (45)
+                      ||.+++.+-|-.-...++.||+.+
+T Consensus         6 ~~~~~~~eleAAaFRrL~~HL~~r   29 (104)
+T COG3492           6 LSEEQRDRLEAAAFRRLVEHLQER   29 (104)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHhC
+
+
+No 7
+>PF15861.5 ; partial_CstF ; Partial cleavage stimulation factor domain
+Probab=50.10  E-value=41  Score=20.13  Aligned_cols=19  Identities=16%  Similarity=0.538  Sum_probs=0.0  Template_Neff=3.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGI   26 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv   26 (45)
+                      +++|..++.|=+-|+.||.
+T Consensus        44 ~EQr~qVLSIqkaL~~rG~   62 (62)
+T Q4XUS4_PLACH/4   44 NEQLLRVLSLRKSLKKKGY   62 (62)
+T ss_pred             HHHHHHHHHHHHHHHHcCC
+
+
+No 8
+>PF13478.6 ; XdhC_C ; XdhC Rossmann domain
+Probab=48.55  E-value=41  Score=20.18  Aligned_cols=25  Identities=24%  Similarity=0.410  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHHHHCCCCCchHHHHHHH
+Q Q_9186633_11     11 KVNIIKMIRDLRARGIHNSADKVEEMH   37 (45)
+Q Consensus        11 rk~Il~II~~Lrs~Gv~nsadvVer~H   37 (45)
+                      +++...+.++|++.|+.  .+.+++.|
+T Consensus        96 ~~k~~~~~~~l~~~g~~--~~~~~~i~  120 (143)
+T E8N4W2_ANATU/1   96 KRRWLTTKKALLESGIA--EEKIARVH  120 (143)
+T ss_pred             HHHHHHHHHHHHHCCCC--HHHHhccc
+
+
+No 9
+>PF18548.1 ; MetOD2 ; Metanogen output domain 2
+Probab=47.35  E-value=55  Score=19.49  Aligned_cols=29  Identities=28%  Similarity=0.481  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             HHHHHHHHHHHHHCCCCCchHHHHHHHHHHhhhcC
+Q Q_9186633_11     11 KVNIIKMIRDLRARGIHNSADKVEEMHKEFITLAK   45 (45)
+Q Consensus        11 rk~Il~II~~Lrs~Gv~nsadvVer~H~~yITL~k   45 (45)
+                      |..|...|...+..|+.  ++.|.+    |-.|++
+T Consensus         2 r~~I~~~i~~A~~aG~d--~~~i~E----Y~rL~r   30 (88)
+T A7IAW8_METB6/1    2 RQAILSDVERARRCGID--GEVISE----YARLAK   30 (88)
+T ss_pred             hHHHHHHHHHHHHCCCC--HHHHHH----HHHHHH
+
+
+No 10
+>d3fyba1 a.293.1.0 (A:1-97) automated matches {Alcanivorax borkumensis [TaxId: 393595]}
+Probab=46.54  E-value=60  Score=21.09  Aligned_cols=24  Identities=17%  Similarity=0.387  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             CcHHHhhHHHHHHHHHHHHHHHHC
+Q Q_9186633_11      1 MDRQQRDKEEKVNIIKMIRDLRAR   24 (45)
+Q Consensus         1 m~kqqrde~erk~Il~II~~Lrs~   24 (45)
+                      ||.+++.+-|-.-...++.||+.+
+T Consensus         4 ~~~~~~~eleAaaFRrL~~HL~~r   27 (97)
+T d3fyba1           4 IDQASKTEMEAAAFRHLLRHLDEH   27 (97)
+T ss_dssp             SCHHHHHHHHHHHHHHHHHHHHTC
+T ss_pred             CcHHHHHHHHHHHHHHHHHHHHhC
+
+
+No 11
+>PF08673.10 ; RsbU_N ; Phosphoserine phosphatase RsbU, N-terminal domain
+Probab=46.40  E-value=71  Score=17.83  Aligned_cols=37  Identities=14%  Similarity=0.147  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             HHhhHHHHHHHHHHHHHHHHCCCCCchHHHHHHHHHHhh
+Q Q_9186633_11      4 QQRDKEEKVNIIKMIRDLRARGIHNSADKVEEMHKEFIT   42 (45)
+Q Consensus         4 qqrde~erk~Il~II~~Lrs~Gv~nsadvVer~H~~yIT   42 (45)
+                      ...+|........+=+.+.+.|+.  .+.+-+.|.+.+.
+T Consensus        11 ~~~~e~~L~~a~~Lgr~~~~~~i~--~ediv~iH~~al~   47 (74)
+T K0J630_AMPXN/1   11 LTNDETALYQAEQFSRLSVKHNIS--PEEMIQIHIEALQ   47 (74)
+T ss_pred             hcCChHHHHHHHHHHHHHHHCCCC--HHHHHHHHHHHHH
+
+
+No 12
+>PF02631.16 ; RecX ; RecX family
+Probab=42.50  E-value=69  Score=18.25  Aligned_cols=20  Identities=20%  Similarity=0.499  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHCCCCCchHHHHHH
+Q Q_9186633_11     15 IKMIRDLRARGIHNSADKVEEM   36 (45)
+Q Consensus        15 l~II~~Lrs~Gv~nsadvVer~   36 (45)
+                      ..|...|+.+|+.  .+.++.+
+T Consensus        46 ~~I~~~L~~kGi~--~~~i~~~   65 (121)
+T RECX_TREPA/44-   46 AQLLGELKRRGVS--HADAEGA   65 (121)
+T ss_pred             HHHHHHHHHCCCC--HHHHHHH
+
+
+No 13
+>PF10165.9 ; Ric8 ; Guanine nucleotide exchange factor synembryn
+Probab=41.08  E-value=1e+02  Score=22.15  Aligned_cols=31  Identities=23%  Similarity=0.439  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHhhHHHHHHHHHHHHHHHHCCCCCc----hHHHH
+Q Q_9186633_11      4 QQRDKEEKVNIIKMIRDLRARGIHNS----ADKVE   34 (45)
+Q Consensus         4 qqrde~erk~Il~II~~Lrs~Gv~ns----advVe   34 (45)
+                      +++.|+|-.++..++.+|...||=+.    +.+.+
+T Consensus       391 eEEKE~EAerLf~lfdrL~k~Gii~~~nPv~~~~~  425 (428)
+T U1I072_ENDPU/4  391 EEEKEREAERLFVLFERLRATGVVSVENPVREAVE  425 (428)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCCCCCCCchhhHHh
+
+
+No 14
+>d1mgta2 c.55.7.1 (A:1-88) O6-alkylguanine-DNA alkyltransferase {Pyrococcus kodakaraensis [TaxId: 311400]}
+Probab=39.88  E-value=68  Score=20.25  Aligned_cols=20  Identities=20%  Similarity=0.253  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGIH   27 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv~   27 (45)
+                      ++...+|..+++.|+++|+.
+T Consensus        34 ~~~~~ri~~L~~fLr~Rgv~   53 (88)
+T d1mgta2          34 GTLMKRIHDLAEHLGKRGVS   53 (88)
+T ss_dssp             HHHHHHHHHHHHHHHHTTCC
+T ss_pred             hHHHHHHHHHHHHHHHcCcc
+
+
+No 15
+>PF04924.12 ; Pox_A6 ; Poxvirus A6 protein
+Probab=39.63  E-value=53  Score=25.60  Aligned_cols=34  Identities=15%  Similarity=0.330  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             HHHHHHHHHHHHHHHCCCCCchHHHHHHHHHHhh
+Q Q_9186633_11      9 EEKVNIIKMIRDLRARGIHNSADKVEEMHKEFIT   42 (45)
+Q Consensus         9 ~erk~Il~II~~Lrs~Gv~nsadvVer~H~~yIT   42 (45)
+                      +|-|+|+.||.++|+.+-.|.|-.|-..|..||+
+T Consensus       133 ~DsKKImEIvs~ir~~~~e~~ayklLq~n~sFIv  166 (369)
+T Q98276_MCV1/1-  133 ADSKKILEIVAQVRATTCEQQAYRLLSSNYNFLV  166 (369)
+T ss_pred             HHHHHHHHHHHHHHccCcHHHHHHHHhccchHHH
+
+
+No 16
+>PF12482.8 ; DUF3701 ; Phage integrase protein
+Probab=38.88  E-value=69  Score=19.35  Aligned_cols=21  Identities=33%  Similarity=0.395  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             HHHHHHHHCCCCCchHHHHHH
+Q Q_9186633_11     16 KMIRDLRARGIHNSADKVEEM   36 (45)
+Q Consensus        16 ~II~~Lrs~Gv~nsadvVer~   36 (45)
+                      .+.++|.+.|+.+.+|.++..
+T Consensus        23 ~la~rL~~aGi~TL~dL~~~i   43 (92)
+T Q11ZB2_POLSJ/9   23 RSAAALRAAGIKTLADLTVRV   43 (92)
+T ss_pred             HHHHHHHHCCCCCHHHHHHHh
+
+
+No 17
+>d1unaa_ d.85.1.1 (A:) GA coat protein {Bacteriophage GA [TaxId: 12018]}
+Probab=38.29  E-value=75  Score=20.85  Aligned_cols=24  Identities=21%  Similarity=0.228  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHCC-CCCchHHH
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARG-IHNSADKV   33 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~G-v~nsadvV   33 (45)
+                      ++||++|..++..|++-+ .=  .++|
+T Consensus        97 ~~ER~~i~~~l~~lL~~~~lv--~~~i  121 (129)
+T d1unaa_          97 TDDVTVISKSLTGLFKVGNPI--AEAI  121 (129)
+T ss_dssp             TCCCHHHHHHHHHHSCTTSHH--HHHH
+T ss_pred             HHHHHHHHHHHHHHhcCCcch--HHHH
+
+
+No 18
+>PF07765.12 ; KIP1 ; KIP1-like protein
+Probab=35.67  E-value=1.1e+02  Score=17.72  Aligned_cols=33  Identities=18%  Similarity=0.302  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             HHHHHHHHHHHHCCC-------------CCchHHHHHHHHHHhhhc
+Q Q_9186633_11     12 VNIIKMIRDLRARGI-------------HNSADKVEEMHKEFITLA   44 (45)
+Q Consensus        12 k~Il~II~~Lrs~Gv-------------~nsadvVer~H~~yITL~   44 (45)
+                      +++..|.+-+...|-             ......|+..|+.|-+|+
+T Consensus        25 ~kv~~ilkli~~~~~~~~~~ae~~~~kr~eLi~lved~~~~Y~sLa   70 (74)
+T B9GN47_POPTR/1   25 EKVNNMLKIIENSGDTFAQRAEMYYRRRPELINHVEDSYRAYRALA   70 (74)
+T ss_pred             HHHHHHHHHHHhcCccHHHHhHHHHhccHHHHHHHHHHHHHHHHHH
+
+
+No 19
+>COG3552 CoxE; Uncharacterized conserved protein, contains von Willebrand factor type A (vWA) domain   [Function unknown]. 
+Probab=35.04  E-value=1.2e+02  Score=20.42  Aligned_cols=25  Identities=28%  Similarity=0.408  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHHCCCCCchHHHHHH
+Q Q_9186633_11     12 VNIIKMIRDLRARGIHNSADKVEEM   36 (45)
+Q Consensus        12 k~Il~II~~Lrs~Gv~nsadvVer~   36 (45)
+                      .+|+.+++.||..|+.-+.+.+..+
+T Consensus        13 ~~~~~f~~~LR~~g~~v~~~e~~d~   37 (395)
+T COG3552          13 DNIVGFARALRGAGIPVGPSETVDA   37 (395)
+T ss_pred             HHHHHHHHHHHHCCCCCCHHHHHHH
+
+
+No 20
+>PF11121.8 ; DUF2639 ; Protein of unknown function (DUF2639)
+Probab=34.97  E-value=42  Score=18.56  Aligned_cols=12  Identities=25%  Similarity=0.559  Sum_probs=0.0  Template_Neff=2.800
+
+Q ss_pred             HHHHHHHHCCCC
+Q Q_9186633_11     16 KMIRDLRARGIH   27 (45)
+Q Consensus        16 ~II~~Lrs~Gv~   27 (45)
+                      |.|+.|+..||.
+T Consensus         7 WyV~eLK~~Gi~   18 (38)
+T C3AIB5_BACMY/2    7 WYVKELKKLGIR   18 (38)
+T ss_pred             chHHHHHHcCCc
+
+
+No 21
+>d1qc7a_ a.118.14.1 (A:) FliG {Thermotoga maritima [TaxId: 2336]}
+Probab=33.02  E-value=1.1e+02  Score=17.71  Aligned_cols=18  Identities=39%  Similarity=0.661  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARG   25 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~G   25 (45)
+                      +.-+..|+..+++|...|
+T Consensus        70 ~~Aq~~Il~~~~~L~~~G   87 (101)
+T d1qc7a_          70 EEAQQKIINIIRRLEEAG   87 (101)
+T ss_dssp             HHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHcC
+
+
+No 22
+>d1jjcb6 b.153.1.1 (B:191-399) B3/B4 domain of PheRS, PheT {Thermus thermophilus [TaxId: 274]}
+Probab=30.65  E-value=1.5e+02  Score=19.28  Aligned_cols=27  Identities=26%  Similarity=0.400  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHHHCCCCCchHHHHHHHHHHhhh
+Q Q_9186633_11     15 IKMIRDLRARGIHNSADKVEEMHKEFITL   43 (45)
+Q Consensus        15 l~II~~Lrs~Gv~nsadvVer~H~~yITL   43 (45)
+                      +|+-++|+..|+...-..|.-..  ||+|
+T Consensus        38 ~~L~~~L~~~~i~~~N~lvDi~N--yi~l   64 (209)
+T d1jjcb6          38 LWMQRALFAAGMRPINNVVDVTN--YVML   64 (209)
+T ss_dssp             HHHHHHHHHTTCCCCCHHHHHHH--HHHH
+T ss_pred             HHHHHHHHHCCCCCCCHHHHHHH--HHHH
+
+
+No 23
+>d1gmla_ c.8.5.2 (A:) Thermosome, A-domain {Mouse (Mus musculus), gamma chain [TaxId: 10090]}
+Probab=30.20  E-value=1.7e+02  Score=17.53  Aligned_cols=24  Identities=13%  Similarity=0.015  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHhhHHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_11      4 QQRDKEEKVNIIKMIRDLRARGIH   27 (45)
+Q Consensus         4 qqrde~erk~Il~II~~Lrs~Gv~   27 (45)
+                      ++-.+.|+..+..+++.|.+.|++
+T Consensus        55 ~~~~~~e~~~~~~~i~~i~~~gv~   78 (169)
+T d1gmla_          55 TRILQMEEEYIHQLCEDIIQLKPD   78 (169)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTTCCS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCCC
+
+
+No 24
+>PF01706.16 ; FliG_C ; FliG C-terminal domain
+Probab=30.02  E-value=1.3e+02  Score=16.97  Aligned_cols=19  Identities=32%  Similarity=0.573  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGI   26 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv   26 (45)
+                      +..+..|+..++.|.+.|.
+T Consensus        87 ~~A~~~il~~~~~l~~~G~  105 (108)
+T D9S380_THEOJ/2   87 EEAQQKIVNIIRKLEDAGE  105 (108)
+T ss_pred             HHHHHHHHHHHHHHHHhCC
+
+
+No 25
+>d1a6db2 c.8.5.2 (B:216-367) Thermosome, A-domain {Thermoplasma acidophilum, beta chain [TaxId: 2303]}
+Probab=29.72  E-value=1.4e+02  Score=17.81  Aligned_cols=20  Identities=15%  Similarity=0.376  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGIH   27 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv~   27 (45)
+                      +.|+..+.++++.|.+.|++
+T Consensus        53 ~~e~~~~~~~~~~i~~~gv~   72 (152)
+T d1a6db2          53 AQEENMLREMVDKIKSVGAN   72 (152)
+T ss_dssp             HHHHHHHHHHHHHHHHTTCC
+T ss_pred             HHHHHHHHHHHHHHHHCCCC
+
+
+No 26
+>d1e6ta_ d.85.1.1 (A:) MS2 virus coat protein {Bacteriophage MS2 [TaxId: 12022]}
+Probab=29.66  E-value=96  Score=20.41  Aligned_cols=18  Identities=22%  Similarity=0.324  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARG   25 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~G   25 (45)
+                      +.||++|..++..|++-+
+T Consensus        98 ~~ER~~i~~~l~~lL~~~  115 (129)
+T d1e6ta_          98 NSDCELIVKAMQGLLKDG  115 (129)
+T ss_dssp             HHHHHHHHHHHHHHHSTT
+T ss_pred             HHHHHHHHHHHHHHhcCC
+
+
+No 27
+>PF01819.17 ; Levi_coat ; Levivirus coat protein
+Probab=29.48  E-value=1.4e+02  Score=19.11  Aligned_cols=27  Identities=15%  Similarity=0.111  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCCCchHHHHHH
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGIHNSADKVEEM   36 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv~nsadvVer~   36 (45)
+                      +.||++|..++..|++-+.-  .+.|...
+T Consensus        97 ~~ER~~~~~~l~~lL~~a~v--~~~v~~l  123 (127)
+T CAPSD_BPMS2/3-   97 NSDCELIVKAMQGLLKDGNP--IPSAIAA  123 (127)
+T ss_pred             HHHHHHHHHHHHHHhccCCC--HHHHhhc
+
+
+No 28
+>cd16169 Tau138_eWH; extended winged-helix domain of tau138 and related proteins. Tau138 is one of three subunits of the tauB subcomplex of yeast transcription factor IIIC.
+Probab=29.22  E-value=83  Score=17.54  Aligned_cols=16  Identities=6%  Similarity=0.000  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHHCC
+Q Q_9186633_11     10 EKVNIIKMIRDLRARG   25 (45)
+Q Consensus        10 erk~Il~II~~Lrs~G   25 (45)
+                      ||+.+..+|..|.+.|
+T Consensus        43 DrKTl~r~l~~L~~~G   58 (97)
+T cd16169          43 DKKTVRGDVDLMVESE   58 (91)
+T ss_pred             CHHHHHHHHHHHHHcC
+
+
+No 29
+>d1qbea_ d.85.1.1 (A:) Qbeta coat protein {Bacteriophage Qbeta [TaxId: 39803]}
+Probab=28.80  E-value=1.1e+02  Score=20.25  Aligned_cols=24  Identities=21%  Similarity=0.252  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCCCchHHH
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGIHNSADKV   33 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv~nsadvV   33 (45)
+                      ++||++|..++..|.+-+.=  .++|
+T Consensus       102 ~~ERk~i~~l~~~lL~~alV--~~~v  125 (132)
+T d1qbea_         102 DEERAFVRTELAALLASPLL--IDAI  125 (132)
+T ss_dssp             HHHHHHHHHHHHHHHHSHHH--HHHH
+T ss_pred             HHHHHHHHHHHHHHhcchhH--HHHH
+
+
+No 30
+>COG1975 XdhC; Xanthine and CO dehydrogenase maturation factor, XdhC/CoxF family [Posttranslational modification, protein turnover, chaperones]. 
+Probab=28.79  E-value=1.2e+02  Score=20.90  Aligned_cols=25  Identities=16%  Similarity=0.420  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHCCCCCchHHHHHHH
+Q Q_9186633_11     11 KVNIIKMIRDLRARGIHNSADKVEEMH   37 (45)
+Q Consensus        11 rk~Il~II~~Lrs~Gv~nsadvVer~H   37 (45)
+                      |++...+.++|+..|+.  .+.+.+.|
+T Consensus       206 r~k~~~~~~~L~~~G~~--~~~l~rv~  230 (278)
+T COG1975         206 RKRAALRLERLRQAGLD--EEELARLH  230 (278)
+T ss_pred             hHhHHHHHHHHHHCCCC--HHHHHhcc
+
+
+No 31
+>PF18552.1 ; PheRS_DBD1 ; PheRS DNA binding domain 1
+Probab=28.42  E-value=1.2e+02  Score=15.62  Aligned_cols=16  Identities=19%  Similarity=0.472  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHHCC-C
+Q Q_9186633_11     11 KVNIIKMIRDLRARG-I   26 (45)
+Q Consensus        11 rk~Il~II~~Lrs~G-v   26 (45)
+                      ...|.+.+++|.++| +
+T Consensus        32 ~~~V~~~l~~L~~~g~~   48 (59)
+T F6UF05_CIOIN/2   32 HQAIVGAIKSIQCFGDV   48 (59)
+T ss_pred             HHHHHHHHHHHHHhCCc
+
+
+No 32
+>d3uswa_ a.118.14.0 (A:) automated matches {Helicobacter pylori [TaxId: 210]}
+Probab=26.74  E-value=2e+02  Score=17.78  Aligned_cols=23  Identities=17%  Similarity=0.436  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHhhHHHHHHHHHHHHHHHHCCC
+Q Q_9186633_11      4 QQRDKEEKVNIIKMIRDLRARGI   26 (45)
+Q Consensus         4 qqrde~erk~Il~II~~Lrs~Gv   26 (45)
+                      +..-+.-++.|+..+++|.+.|.
+T Consensus       194 ~~~i~~a~~~i~~~~~~l~~~G~  216 (219)
+T d3uswa_         194 IKDVDVAQRKIIEIVQSLQEKGV  216 (219)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHHHTS
+T ss_pred             HHHHHHHHHHHHHHHHHHHHcCC
+
+
+No 33
+>cd10927 CE4_u3; Putative catalytic domain of uncharacterized bacterial proteins from the carbohydrate esterase 4 superfamily.
+Probab=25.70  E-value=1.4e+02  Score=16.58  Aligned_cols=27  Identities=19%  Similarity=0.459  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             hHHHHHHHHHHHHHHHHCCCCCchHHHHHHHHHHhhhcC
+Q Q_9186633_11      7 DKEEKVNIIKMIRDLRARGIHNSADKVEEMHKEFITLAK   45 (45)
+Q Consensus         7 de~erk~Il~II~~Lrs~Gv~nsadvVer~H~~yITL~k   45 (45)
+                      .+.....+..+|..|+++|+.            ++|+..
+T Consensus       200 ~~~~~~~l~~~i~~~~~~g~~------------~~t~~e  226 (227)
+T cd10927         203 DDDKFEEFVRIVDYLAERGCK------------FVLPSE  229 (230)
+T ss_pred             CHHHHHHHHHHHHHHHHCCCe------------EeCccc
+
+
+No 34
+>d1p32a_ d.25.1.1 (A:) Acidic mitochondrial matrix protein p32 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=25.62  E-value=2.1e+02  Score=18.55  Aligned_cols=24  Identities=21%  Similarity=0.369  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHHCCCCCchHHHHHHHHHHhh
+Q Q_9186633_11     16 KMIRDLRARGIHNSADKVEEMHKEFIT   42 (45)
+Q Consensus        16 ~II~~Lrs~Gv~nsadvVer~H~~yIT   42 (45)
+                      .+..-|.+|||+  .+.++-.+. |++
+T Consensus       165 ~~~~yLeerGId--~~l~~fl~~-~~~  188 (209)
+T d1p32a_         165 HLMDFLADRGVD--NTFADELVE-LST  188 (209)
+T ss_dssp             HHHHHHHTTTCS--HHHHHHHHH-HHH
+T ss_pred             HHHHHHHHCCCC--HHHHHHHHH-HHH
+
+
+No 35
+>PF08285.11 ; DPM3 ; Dolichol-phosphate mannosyltransferase subunit 3 (DPM3)
+Probab=25.47  E-value=2.1e+02  Score=16.96  Aligned_cols=26  Identities=31%  Similarity=0.341  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cHHHhhHHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_11      2 DRQQRDKEEKVNIIKMIRDLRARGIH   27 (45)
+Q Consensus         2 ~kqqrde~erk~Il~II~~Lrs~Gv~   27 (45)
+                      |..+..++=.+.|..-=++|+++|+.
+T Consensus        65 dcpeA~~eL~~eI~eAk~dL~~kG~~   90 (90)
+T T0LT01_COLGC/1   65 DVPEAHKELMAEIDEAKADLRKLGVD   90 (90)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHcCCC
+
+
+No 36
+>PF07102.12 ; DUF1364 ; Protein of unknown function (DUF1364)
+Probab=24.93  E-value=2.1e+02  Score=16.81  Aligned_cols=26  Identities=8%  Similarity=0.008  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CcHHHhhHHHHHHHHHHHHHHHHCCC
+Q Q_9186633_11      1 MDRQQRDKEEKVNIIKMIRDLRARGI   26 (45)
+Q Consensus         1 m~kqqrde~erk~Il~II~~Lrs~Gv   26 (45)
+                      ++.+++.+....-+...+..|...|+
+T Consensus        67 ~~~~~~~~~~~~~l~~t~~~l~~~G~   92 (92)
+T YBCO_ECOLI/2-9   67 VDAGYAKECALEGMARTQVIWLKEGV   92 (92)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHcCC
+
+
+No 37
+>PF09216.10 ; Pfg27 ; Pfg27
+Probab=24.93  E-value=1.9e+02  Score=19.08  Aligned_cols=32  Identities=16%  Similarity=0.208  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             HhhHHHHHHHHH--------HHHHHHHCCCCCchHHHHHH
+Q Q_9186633_11      5 QRDKEEKVNIIK--------MIRDLRARGIHNSADKVEEM   36 (45)
+Q Consensus         5 qrde~erk~Il~--------II~~Lrs~Gv~nsadvVer~   36 (45)
+                      |++++|++.++.        +...|+++|+.=+.+.|..+
+T Consensus       122 ~~te~e~~~~i~n~~~Ik~~i~~~l~~~~I~Lse~~i~~~  161 (173)
+T O96127_PLAF7/1  122 QKTFSDKKRLVNNLDSIKLYYESQINKNFISIPKDKIPTA  161 (173)
+T ss_pred             cCCHHHHHHHhcCHHHHHHHHHHHHHHCCCCCChhHHHHH
+
+
+No 38
+>cd10958 CE4_NodB_like_2; Catalytic NodB homology domain of uncharacterized chitin deacetylases and hypothetical proteins.
+Probab=24.89  E-value=1.1e+02  Score=16.48  Aligned_cols=26  Identities=23%  Similarity=0.397  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCCCchHHHHHHHHHHhhhcC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGIHNSADKVEEMHKEFITLAK   45 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv~nsadvVer~H~~yITL~k   45 (45)
+                      +.....+..++..|+++|+.            ++|++.
+T Consensus       164 ~~~~~~l~~ll~~l~~~g~~------------~~t~~~  189 (190)
+T cd10958         244 --TADTLKSILPKLISEGYT------------FITLSN  267 (268)
+T ss_pred             hhHHHHHHHHHHHHHHCCCE------------EEehhh
+
+
+No 39
+>d1assa_ c.8.5.2 (A:) Thermosome, A-domain {Thermoplasma acidophilum, alpha chain [TaxId: 2303]}
+Probab=24.72  E-value=2e+02  Score=17.13  Aligned_cols=20  Identities=15%  Similarity=0.419  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGIH   27 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv~   27 (45)
+                      +.|+..+..+++.+.+.|++
+T Consensus        55 ~~e~~~~~~~~~~i~~~g~~   74 (152)
+T d1assa_          55 NQETNTFKQMVEKIKKSGAN   74 (152)
+T ss_dssp             HHHHHHHHHHHHHHHHTTCS
+T ss_pred             HHHHHHHHHHHHHHHHcCCC
+
+
+No 40
+>PF08899.11 ; DUF1844 ; Domain of unknown function (DUF1844)
+Probab=24.10  E-value=1.4e+02  Score=17.06  Aligned_cols=16  Identities=25%  Similarity=0.443  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             hHHHHHHHHHHHHHHH
+Q Q_9186633_11      7 DKEEKVNIIKMIRDLR   22 (45)
+Q Consensus         7 de~erk~Il~II~~Lr   22 (45)
+                      +++|++.|..++.+||
+T Consensus        55 ~~~E~~~L~~~L~~Lr   70 (73)
+T C6C0R5_DESAD/2   55 TADEERLLCEMLYNLR   70 (73)
+T ss_pred             CHHHHHHHHHHHHHHH
+
+
+No 41
+>PF17296.2 ; ArenaCapSnatch ; Arenavirus cap snatching domain
+Probab=24.07  E-value=1.9e+02  Score=20.42  Aligned_cols=25  Identities=16%  Similarity=0.250  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             cHHHhhHHHHHHHHHHHHHHHHCCC
+Q Q_9186633_11      2 DRQQRDKEEKVNIIKMIRDLRARGI   26 (45)
+Q Consensus         2 ~kqqrde~erk~Il~II~~Lrs~Gv   26 (45)
+                      +-+|+=++|+.+..++=.+|+..|+
+T Consensus       111 ~fe~Ky~~D~~Kl~~lk~dL~~~Gi  135 (172)
+T L_LYCVA/1-172   111 SFEKKFIEDTNKLACIREDLAVAGV  135 (172)
+T ss_pred             HHHHHHHHHHHHHHhHHHHHHhcCc
+
+
+No 42
+>KOG0275 Conserved WD40 repeat-containing protein [General function prediction only]
+Probab=23.72  E-value=1.8e+02  Score=18.85  Aligned_cols=27  Identities=15%  Similarity=0.180  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             HHHHHHHHHHHHHHCCCCCchHHHHHH
+Q Q_9186633_11     10 EKVNIIKMIRDLRARGIHNSADKVEEM   36 (45)
+Q Consensus        10 erk~Il~II~~Lrs~Gv~nsadvVer~   36 (45)
+                      +.+-+.=|.+.|+.+|.+++|...++.
+T Consensus         7 ~~~~~~li~~~l~~~g~~~~~~~l~~e   33 (508)
+T KOG0275           7 SSDVIRLIEQFLKENSLHRTLQTLQEE   33 (508)
+T ss_pred             HHHHHHHHHHHHHHCCHHHHHHHHHHH
+
+
+No 43
+>PF18263.1 ; MCM6_C ; MCM6 C-terminal winged-helix domain
+Probab=23.67  E-value=1.9e+02  Score=17.12  Aligned_cols=19  Identities=21%  Similarity=0.086  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGI   26 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv   26 (45)
+                      ..|++.+..+|++|...|+
+T Consensus        56 ~~e~~l~~kVI~rLi~d~~   74 (103)
+T B6JWT2_SCHJY/7   56 IYEVGLLRKVLNRLVHESI   74 (103)
+T ss_pred             HHHHHHHHHHHHHHhHcCc
+
+
+No 44
+>KOG4841 Dolichol-phosphate mannosyltransferase, subunit 3 [Posttranslational modification, protein turnover, chaperones, Signal transduction mechanisms]
+Probab=23.65  E-value=2.5e+02  Score=17.50  Aligned_cols=26  Identities=23%  Similarity=0.321  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             cHHHhhHHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_11      2 DRQQRDKEEKVNIIKMIRDLRARGIH   27 (45)
+Q Consensus         2 ~kqqrde~erk~Il~II~~Lrs~Gv~   27 (45)
+                      |..+..++=.+.|..--++|+++|+.
+T Consensus        69 dcpeA~~eL~~ei~eAk~~L~~kG~~   94 (95)
+T KOG4841          69 DCEEAAVELQSQIKEARADLARKGLR   94 (95)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHCCCC
+
+
+No 45
+>PF02330.16 ; MAM33 ; Mitochondrial glycoprotein
+Probab=23.29  E-value=2.6e+02  Score=17.92  Aligned_cols=24  Identities=17%  Similarity=0.236  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             HHHHHHHHCCCCCchHHHHHHHHHHhh
+Q Q_9186633_11     16 KMIRDLRARGIHNSADKVEEMHKEFIT   42 (45)
+Q Consensus        16 ~II~~Lrs~Gv~nsadvVer~H~~yIT   42 (45)
+                      .+..-|.+|||+  .+.++-.+. |.+
+T Consensus       153 ~~~~yLe~rGId--~~l~~fi~~-~~~  176 (194)
+T G4TQY5_SERID/6  153 AFEEYLKARKVD--SDLALFIPE-YAA  176 (194)
+T ss_pred             HHHHHHHHCCCC--HHHHHHHHH-HHH
+
+
+No 46
+>d1q3qa2 c.8.5.2 (A:217-369) Thermosome, A-domain {Thermococcus sp. ks-1, alpha chain [TaxId: 79679]}
+Probab=23.26  E-value=2.2e+02  Score=16.74  Aligned_cols=20  Identities=15%  Similarity=0.356  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARGIH   27 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~Gv~   27 (45)
+                      ..|+..+..+++.+.+.|++
+T Consensus        54 ~~e~~~~~~~~~~i~~~~~~   73 (153)
+T d1q3qa2          54 EQEEKMLKDMVDHIAQTGAN   73 (153)
+T ss_dssp             HHHHHHHHHHHHHHHHHTCC
+T ss_pred             HHHHHHHHHHHHHHHHcCCC
+
+
+No 47
+>PF03501.15 ; S10_plectin ; Plectin/S10 domain
+Probab=23.18  E-value=53  Score=20.11  Aligned_cols=27  Identities=15%  Similarity=0.319  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHHHHHCC-CCCchHHHHHHHHHHhhh
+Q Q_9186633_11     13 NIIKMIRDLRARG-IHNSADKVEEMHKEFITL   43 (45)
+Q Consensus        13 ~Il~II~~Lrs~G-v~nsadvVer~H~~yITL   43 (45)
+                      .+..+++.|+|+| +.  -.-..+.+  |-+|
+T Consensus        40 ~V~k~m~SL~Srg~v~--e~f~W~h~--Y~~L   67 (94)
+T Q1HR41_AEDAE/3   40 HVIKTMQSLKSKNFVK--EQFAWRHY--YWYL   67 (94)
+T ss_pred             HHHHHHHhhccCCccc--eeeehhHh--heee
+
+
+No 48
+>PF18787.1 ; CRM1_repeat_3 ; CRM1 / Exportin repeat 3
+Probab=23.09  E-value=2e+02  Score=15.83  Aligned_cols=17  Identities=29%  Similarity=0.517  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             hHHHHHHHHHHHHHHHH
+Q Q_9186633_11      7 DKEEKVNIIKMIRDLRA   23 (45)
+Q Consensus         7 de~erk~Il~II~~Lrs   23 (45)
+                      .+.|+.-+..+|++|..
+T Consensus        26 ee~E~~Flv~vi~~LL~   42 (51)
+T A0A1Y2GKE5_9FU   26 EETEKRFLVTVIKDLLE   42 (51)
+T ss_pred             HHHHHHHHHHHHHHHHH
+
+
+No 49
+>d2es9a1 a.247.1.1 (A:11-107) Hypothetical protein YoaC {Salmonella typhimurium [TaxId: 90371]}
+Probab=23.04  E-value=1.7e+02  Score=17.80  Aligned_cols=29  Identities=14%  Similarity=0.193  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             hHHHHHHHHHHHHHHHHCCCCCchHHHHH
+Q Q_9186633_11      7 DKEEKVNIIKMIRDLRARGIHNSADKVEE   35 (45)
+Q Consensus         7 de~erk~Il~II~~Lrs~Gv~nsadvVer   35 (45)
+                      +..|+.....++..|++.|..-.++.|..
+T Consensus        21 hp~D~~~a~~~l~~L~~~g~~l~~~~i~~   49 (97)
+T d2es9a1          21 HSMDESTAKGILKYLHDLGVPVSPEVVVA   49 (97)
+T ss_dssp             CHHHHHHHHHHHHHHHHTTCCCCHHHHHH
+T ss_pred             CcCCHHHHHHHHHHHHHcCCCCCHHHHHH
+
+
+No 50
+>PF08869.11 ; XisI ; XisI protein
+Probab=22.70  E-value=1e+02  Score=19.20  Aligned_cols=20  Identities=40%  Similarity=0.499  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             HHHHHHHHHCCCCCchHHHHHHHHHHhhhc
+Q Q_9186633_11     15 IKMIRDLRARGIHNSADKVEEMHKEFITLA   44 (45)
+Q Consensus        15 l~II~~Lrs~Gv~nsadvVer~H~~yITL~   44 (45)
+                      .+|..+|..+||.          ++.|.|+
+T Consensus        77 ~~i~~~L~~~GIp----------~~dIVlg   96 (110)
+T K9ZN70_ANACC/1   77 IDIANELVKLGVP----------KEDIVLA   96 (110)
+T ss_pred             chHHHHHHHcCCC----------HHHeEec
+
+
+No 51
+>cd10953 CE4_SlAXE_like; Catalytic NodB homology domain of Streptomyces lividans acetylxylan esterase and its bacterial homologs.
+Probab=22.54  E-value=1.2e+02  Score=16.19  Aligned_cols=20  Identities=15%  Similarity=0.280  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             HHHHHHHHHHHHCCCCCchHHHHHHHHHHhhh
+Q Q_9186633_11     12 VNIIKMIRDLRARGIHNSADKVEEMHKEFITL   43 (45)
+Q Consensus        12 k~Il~II~~Lrs~Gv~nsadvVer~H~~yITL   43 (45)
+                      +.+..+|..|+.+|+.            ++||
+T Consensus       160 ~~l~~li~~~~~~g~~------------~v~l  179 (179)
+T cd10953         159 AAIPRIAQTLAGKGLC------------SGMI  178 (178)
+T ss_pred             HHHHHHHHHHHHCCCE------------EecC
+
+
+No 52
+>PF16699.5 ; CSTF1_dimer ; Cleavage stimulation factor subunit 1, dimerisation domain
+Probab=22.46  E-value=1.1e+02  Score=17.14  Aligned_cols=20  Identities=20%  Similarity=0.248  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             HHHHHHHCCCCCchHHHHHH
+Q Q_9186633_11     17 MIRDLRARGIHNSADKVEEM   36 (45)
+Q Consensus        17 II~~Lrs~Gv~nsadvVer~   36 (45)
+                      ||..|..-|..+.|..|...
+T Consensus        12 IIsQL~~DG~~~~A~~la~~   31 (56)
+T T1IL66_STRMM/6   12 IISQLFYDGHQTLAVSLSNL   31 (56)
+T ss_pred             HHHHHHhCChHHHHHHHHHH
+
+
+No 53
+>PF16701.5 ; Ad_Cy_reg ; Adenylate cyclase regulatory domain
+Probab=22.42  E-value=2.7e+02  Score=17.10  Aligned_cols=26  Identities=12%  Similarity=0.282  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHHHHCCCCCchHHHHHH
+Q Q_9186633_11      9 EEKVNIIKMIRDLRARGIHNSADKVEEM   36 (45)
+Q Consensus         9 ~erk~Il~II~~Lrs~Gv~nsadvVer~   36 (45)
+                      ++.-.-+.+|+.|+++|+.  .+.+.+.
+T Consensus        15 ~~hl~rL~~I~~L~~~g~~--l~~I~~~   40 (186)
+T G8RVK8_MYCRN/5   15 KARTERTELIEWLLGEGFT--FERIKNS   40 (186)
+T ss_pred             HHHHHHHHHHHHHHHCCCC--HHHHHHH
+
+
+No 54
+>d3jv1a_ d.25.1.0 (A:) automated matches {Trypanosome (Trypanosoma brucei) [TaxId: 5691]}
+Probab=22.03  E-value=2.8e+02  Score=17.65  Aligned_cols=24  Identities=21%  Similarity=0.320  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHCCCCCchHHHHHHHHHHhh
+Q Q_9186633_11     16 KMIRDLRARGIHNSADKVEEMHKEFIT   42 (45)
+Q Consensus        16 ~II~~Lrs~Gv~nsadvVer~H~~yIT   42 (45)
+                      .+..-|.+|||+  .+.+.-.|. |.+
+T Consensus       140 ~~~~yLe~rGId--~~l~~fl~~-~~~  163 (182)
+T d3jv1a_         140 SFTSYLSARGVN--DTLANFIDQ-FSL  163 (182)
+T ss_dssp             HHHHHHHTTTCS--HHHHHHHHH-HHH
+T ss_pred             HHHHHHHHCCCC--HHHHHHHHH-HHH
+
+
+No 55
+>KOG4464 Signaling protein RIC-8/synembryn (regulates neurotransmitter secretion) [Signal transduction mechanisms]
+Probab=21.73  E-value=2.2e+02  Score=21.53  Aligned_cols=23  Identities=22%  Similarity=0.534  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             HHhhHHHHHHHHHHHHHHHHCCC
+Q Q_9186633_11      4 QQRDKEEKVNIIKMIRDLRARGI   26 (45)
+Q Consensus         4 qqrde~erk~Il~II~~Lrs~Gv   26 (45)
+                      +++.|+|-.+.-.++.+|...||
+T Consensus       474 eeeKE~EAekL~~lf~rL~~~gv  496 (532)
+T KOG4464         474 EEQKEYEAMKLVNMMDKLSRTGI  496 (532)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhcCC
+
+
+No 56
+>PF08222.11 ; HTH_CodY ; CodY helix-turn-helix domain
+Probab=21.60  E-value=1.4e+02  Score=13.65  Aligned_cols=16  Identities=31%  Similarity=0.630  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             HHHHHHHHHHHHHCCC
+Q Q_9186633_11     11 KVNIIKMIRDLRARGI   26 (45)
+Q Consensus        11 rk~Il~II~~Lrs~Gv   26 (45)
+                      +..+..++..|...|+
+T Consensus        18 ~~~v~~~l~~L~~~g~   33 (61)
+T CODY_STRA5/201   18 RSVIVNALRKLESAGI   33 (61)
+T ss_pred             HHHHHHHHHHHHHCCC
+
+
+No 57
+>d4fhrb1 a.118.14.1 (B:115-327) FliG {Thermotoga maritima [TaxId: 2336]}
+Probab=21.31  E-value=2e+02  Score=18.16  Aligned_cols=18  Identities=39%  Similarity=0.661  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHCC
+Q Q_9186633_11      8 KEEKVNIIKMIRDLRARG   25 (45)
+Q Consensus         8 e~erk~Il~II~~Lrs~G   25 (45)
+                      +..|+.|+..+++|.+.|
+T Consensus       190 ~~A~~~i~~~~r~l~~~G  207 (213)
+T d4fhrb1         190 EEAQQKIINIIRRLEEAG  207 (213)
+T ss_dssp             HHHHHHHHHHHHHHHHTT
+T ss_pred             HHHHHHHHHHHHHHHHhC
+
+
+No 58
+>COG2137 RecX; SOS response regulatory protein OraA/RecX, interacts with RecA [Posttranslational modification, protein turnover, chaperones]. 
+Probab=21.30  E-value=2.9e+02  Score=17.07  Aligned_cols=29  Identities=28%  Similarity=0.235  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHCCCCCchHHHHHHHHHHh
+Q Q_9186633_11     11 KVNIIKMIRDLRARGIHNSADKVEEMHKEFI   41 (45)
+Q Consensus        11 rk~Il~II~~Lrs~Gv~nsadvVer~H~~yI   41 (45)
+                      .+.-..+++.|..+|..  .+.|.++-.++.
+T Consensus       137 ~~~~~Ki~~~L~rkGf~--~~~I~~~l~~~~  165 (174)
+T COG2137         137 KKEKAKIQRFLLRRGFS--YEVIKEALNEAE  165 (174)
+T ss_pred             HHHHHHHHHHHHHCCCC--HHHHHHHHHHHH
+
+
+No 59
+>d1z3eb1 a.60.3.1 (B:245-311) C-terminal domain of RNA polymerase alpha subunit {Bacillus subtilis [TaxId: 1423]}
+Probab=21.27  E-value=1.7e+02  Score=14.52  Aligned_cols=19  Identities=16%  Similarity=0.281  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHHHHHHCCCCCchHHHH
+Q Q_9186633_11     16 KMIRDLRARGIHNSADKVE   34 (45)
+Q Consensus        16 ~II~~Lrs~Gv~nsadvVe   34 (45)
+                      .++.-|...|+.+..|.+.
+T Consensus        17 ~~~~~L~~~gi~t~~dl~~   35 (67)
+T d1z3eb1          17 RSYNCLKRAGINTVQELAN   35 (67)
+T ss_dssp             HHHHHHHHTTCCBHHHHHT
+T ss_pred             HHHHHHHHCCCCCHHHHhc
+
+
+No 60
+>PF02318.16 ; FYVE_2 ; FYVE-type zinc finger
+Probab=21.24  E-value=1.6e+02  Score=16.57  Aligned_cols=13  Identities=23%  Similarity=0.414  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             HHHHHHHHHHHHH
+Q Q_9186633_11      8 KEEKVNIIKMIRD   20 (45)
+Q Consensus         8 e~erk~Il~II~~   20 (45)
+                      ++|+..|+..+++
+T Consensus         5 ~eE~~~I~~Vl~r   17 (118)
+T G3W6N3_SARHA/8    5 DEEAKHIWEVVQR   17 (118)
+T ss_pred             HHHHHHHHHHHHH
+
+
+No 61
+>PF13076.6 ; Fur_reg_FbpA ; Fur-regulated basic protein A
+Probab=20.74  E-value=1.2e+02  Score=15.29  Aligned_cols=10  Identities=30%  Similarity=0.325  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             HHHHHHHCCC
+Q Q_9186633_11     17 MIRDLRARGI   26 (45)
+Q Consensus        17 II~~Lrs~Gv   26 (45)
+                      +|..|...||
+T Consensus         5 lI~~Li~~Gi   14 (36)
+T Q8ERM5_OCEIH/1    5 LIEKLIASNH   14 (36)
+T ss_pred             HHHHHHHCCC
+
+
+No 62
+>PF05378.13 ; Hydant_A_N ; Hydantoinase/oxoprolinase N-terminal region
+Probab=20.72  E-value=1.1e+02  Score=18.99  Aligned_cols=21  Identities=10%  Similarity=-0.004  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             HHHHHHHHHHHHHHCCCCCch
+Q Q_9186633_11     10 EKVNIIKMIRDLRARGIHNSA   30 (45)
+Q Consensus        10 erk~Il~II~~Lrs~Gv~nsa   30 (45)
+                      +...|..+++.|++.|+.+.|
+T Consensus       140 d~~~~~~~~~~l~~~g~~~ia  160 (183)
+T B8NAG3_ASPFN/1  140 NKDALRAELKAWGKDRPEAVA  160 (183)
+T ss_pred             CHHHHHHHHHHHHhcCCCEEE
+
+
+No 63
+>cd03270 ABC_UvrA_I; ATP-binding cassette domain I of the excision repair protein UvrA. Nucleotide excision repair in eubacteria is a process that repairs DNA damage by the removal of a 12-13-mer oligonucleotide containing the lesion.
+Probab=20.59  E-value=2.3e+02  Score=16.66  Aligned_cols=20  Identities=15%  Similarity=0.416  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             hHHHHHHHHHHHHHHHHCCC
+Q Q_9186633_11      7 DKEEKVNIIKMIRDLRARGI   26 (45)
+Q Consensus         7 de~erk~Il~II~~Lrs~Gv   26 (45)
+                      |.++++.+..+++.++..|.
+T Consensus       171 d~~~~~~~~~~l~~~~~~~~  190 (226)
+T cd03270         539 HQRDNDRLLNTLEELRDLGN  558 (594)
+T ss_pred             CHHHHHHHHHHHHHHHHcCC
+
+
+No 64
+>cd12801 HopAB_KID; Kinase-interacting domains of the HopAB family of Type III Effector proteins. HopAB family members are type III effector proteins that are secreted by the plant pathogen Pseudomonas syringae into the host plant to inhibit its immune system and facilitate the spread of the pathogen.
+Probab=20.57  E-value=3e+02  Score=16.91  Aligned_cols=24  Identities=13%  Similarity=0.375  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             HHHHHHHHCCCCCchHHHHHHHHHHh
+Q Q_9186633_11     16 KMIRDLRARGIHNSADKVEEMHKEFI   41 (45)
+Q Consensus        16 ~II~~Lrs~Gv~nsadvVer~H~~yI   41 (45)
+                      .||+.|...|++  -+-+..+-..|+
+T Consensus         7 ~ivq~L~~aG~d--L~~lr~al~~~l   30 (77)
+T cd12801           7 AALRGLVQQGVN--LEHLRTALERHV   30 (76)
+T ss_pred             HHHHHHHHCCCC--HHHHHHHHHHHH
+
+
+No 65
+>PF04924.12 ; Pox_A6 ; Poxvirus A6 protein
+Probab=20.48  E-value=1.2e+02  Score=23.76  Aligned_cols=17  Identities=29%  Similarity=0.561  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             HHHHHHCCCCCchHHHH
+Q Q_9186633_11     18 IRDLRARGIHNSADKVE   34 (45)
+Q Consensus        18 I~~Lrs~Gv~nsadvVe   34 (45)
+                      +.+|+++||+|....|.
+T Consensus       295 ~ddlK~~gV~NlQsLI~  311 (369)
+T Q98276_MCV1/1-  295 VDELRQHGVRNLQSLVR  311 (369)
+T ss_pred             HHHHHHcCCchHHHHHH
+
+
+No 66
+>COG3130 Rmf; Ribosome modulation factor [Translation, ribosomal structure and biogenesis]. 
+Probab=20.32  E-value=1.9e+02  Score=16.01  Aligned_cols=21  Identities=29%  Similarity=0.404  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             CcHHHhhHHHHHHHHHHHHHH
+Q Q_9186633_11      1 MDRQQRDKEEKVNIIKMIRDL   21 (45)
+Q Consensus         1 m~kqqrde~erk~Il~II~~L   21 (45)
+                      |.+|.||..++.-..|...-|
+T Consensus         1 m~~~krd~~~ra~~~Gy~Ag~   21 (55)
+T COG3130           1 MKRQKRDRLERAHQRGYQAGI   21 (55)
+T ss_pred             CCcccchHHHHHHHHHHHHHH
+
+

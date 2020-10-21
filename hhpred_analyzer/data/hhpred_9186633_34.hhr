@@ -1,0 +1,2127 @@
+Query         Q_9186633_34
+Match_columns 100
+No_of_seqs    118 out of 281
+Neff          7.53713
+Searched_HMMs 69205
+Date          Sun May 24 00:23:12 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_34.hhr -oa3m ../results/9186633_34.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF14804.6 ; Jag_N ; Jag N-term  68.5      10 0.00015   20.9   2.6   23   14-36      3-25  (50)
+  2 PF07129.11 ; DUF1381 ; Protein  55.1      27 0.00039   19.5   2.5   20    5-24     23-43  (44)
+  3 PF07566.12 ; DUF1543 ; Domain   54.0      43 0.00062   18.7   3.4   27    2-28      1-27  (52)
+  4 d2pjsa1 d.32.1.2 (A:3-113) Unc  51.2      34  0.0005   19.5   2.9   20   12-31      8-27  (111)
+  5 PF00903.25 ; Glyoxalase ; Glyo  50.1      37 0.00054   19.4   2.9   19   12-30      7-25  (120)
+  6 cd07243 2_3_CTD_C; C-terminal   49.7      33 0.00048   20.5   2.8   29    1-30      2-30  (144)
+  7 PF18029.1 ; Glyoxalase_6 ; Gly  47.4      41  0.0006   19.3   2.8   20   12-31      4-23  (106)
+  8 cd06587 VOC; vicinal oxygen ch  47.3      41 0.00059   18.8   2.8   19   12-30      4-22  (112)
+  9 cd16354 BAT; Bleomycin N-Acety  46.0      42 0.00061   19.0   2.7   19   12-30      5-23  (114)
+ 10 d2wl9a1 d.32.1.0 (A:1-134) aut  45.4      53 0.00076   19.9   3.2   29    1-30      2-30  (134)
+ 11 cd07249 MMCE; Methylmalonyl-Co  45.3      49  0.0007   18.9   2.9   20   12-31      6-25  (127)
+ 12 PF14507.6 ; CppA_C ; CppA C-te  45.1      51 0.00073   18.7   3.0   19   12-30      6-24  (110)
+ 13 PF12681.7 ; Glyoxalase_2 ; Gly  45.0      50 0.00072   19.2   3.0   20   11-30      5-24  (119)
+ 14 cd08354 VOC_like; uncharacteri  44.8      44 0.00064   18.9   2.7   19   12-30      6-24  (122)
+ 15 cd07253 GLOD5; Human glyoxalas  44.6      51 0.00074   18.5   2.9   20   12-31      9-28  (123)
+ 16 d2ehza1 d.32.1.0 (A:4-137) aut  44.3      56  0.0008   19.6   3.2   29    1-30      2-30  (134)
+ 17 d1u6la1 d.32.1.7 (A:4-138) Hyp  44.3      57 0.00083   19.9   3.3   20   11-30      5-25  (135)
+ 18 cd16360 ED_TypeI_classII_N; N-  44.0      46 0.00067   18.4   2.6   19   12-30      4-22  (111)
+ 19 cd16358 GlxI_Ni; Glyoxalase I   43.5      46 0.00067   18.5   2.6   19   12-30      6-24  (122)
+ 20 cd16356 PsjN_like; Burkholderi  43.5      53 0.00077   18.4   2.9   19   12-30      4-22  (119)
+ 21 cd07233 GlxI_Zn; Glyoxalase I   43.4      42 0.00061   19.7   2.5   19   12-30      6-24  (142)
+ 22 d1xqaa1 d.32.1.2 (A:1-112) Hyp  43.3      57 0.00082   18.7   3.0   19   12-30      8-26  (112)
+ 23 cd08352 VOC_Bs_YwkD_like; vici  43.3      50 0.00073   18.6   2.7   19   12-30      8-26  (123)
+ 24 cd09013 BphC-JF8_N_like; N-ter  42.9      69 0.00099   18.2   3.3   29    1-30      2-30  (121)
+ 25 d1klla_ d.32.1.2 (A:) Mitomyci  42.5      49  0.0007   19.6   2.7   18   12-30      8-25  (128)
+ 26 cd07246 VOC_like; uncharacteri  42.2      50 0.00073   18.6   2.6   19   12-30      7-25  (124)
+ 27 cd07237 BphC1-RGP6_C_like; C-t  42.0      83  0.0012   19.0   3.7   29    1-30      5-33  (153)
+ 28 d2rk9a_ d.32.1.0 (A:) automate  42.0      46 0.00066   20.0   2.5   19   12-30      8-26  (132)
+ 29 d1tsja_ d.32.1.7 (A:) Hypothet  41.5      44 0.00064   20.3   2.4   29    1-30      1-29  (129)
+ 30 cd07238 VOC_like; uncharacteri  41.4      65 0.00093   17.9   3.0   20   12-31      6-25  (112)
+ 31 cd07266 HPCD_N_class_II; N-ter  41.3      57 0.00082   18.5   2.8   19   12-30     10-28  (118)
+ 32 cd08351 ChaP_like; ChaP, an en  41.2      66 0.00096   18.3   3.1   20   12-31      8-27  (118)
+ 33 cd08349 BLMA_like; Bleomycin b  40.9      49 0.00071   18.6   2.4   19   12-30      4-22  (114)
+ 34 cd08346 PcpA_N_like; N-termina  40.7      46 0.00067   18.9   2.3   19   12-30      7-25  (124)
+ 35 d5cj3a1 d.32.1.2 (A:1-123) aut  40.5      86  0.0012   18.6   3.6   30    1-31      1-30  (123)
+ 36 cd07242 VOC_BsYqjT; vicinal ox  40.4      66 0.00095   18.3   3.0   20   12-31      7-26  (126)
+ 37 PF06983.13 ; 3-dmu-9_3-mt ; 3-  40.4      55  0.0008   20.0   2.7   20   11-30      7-26  (117)
+ 38 cd08355 TioX_like; Micromonosp  40.3      55  0.0008   18.5   2.6   19   12-30      5-23  (123)
+ 39 COG3607 COG3607; Predicted lac  40.1      57 0.00082   19.6   2.7   18   12-30      9-26  (133)
+ 40 cd06588 PhnB_like; Escherichia  40.0      67 0.00096   18.9   3.0   20   11-30      4-25  (129)
+ 41 cd09012 VOC_like; uncharacteri  39.9      52 0.00075   19.1   2.5   18   12-30      6-23  (127)
+ 42 d1jc5a_ d.32.1.4 (A:) Methylma  39.9   1E+02  0.0015   18.4   3.9   30    1-31      3-32  (145)
+ 43 cd08343 ED_TypeI_classII_C; C-  39.7      51 0.00074   19.1   2.4   19   12-30      5-23  (132)
+ 44 cd07255 VOC_BsCatE_like_N; N-t  39.7      54 0.00077   18.8   2.5   19   12-30      8-26  (124)
+ 45 COG3324 COG3324; Predicted enz  39.5      61 0.00088   19.0   2.8   19   12-30     15-33  (127)
+ 46 cd07263 VOC_like; uncharacteri  39.5      60 0.00087   18.0   2.7   19   12-30      4-22  (120)
+ 47 d3l20a1 d.32.1.0 (A:4-151) aut  39.3      65 0.00094   20.4   3.0   19   12-30      8-26  (148)
+ 48 cd07241 VOC_BsYyaH; vicinal ox  39.3      60 0.00087   18.4   2.7   19   12-30      7-25  (125)
+ 49 cd08353 VOC_like; uncharacteri  39.2      61 0.00088   19.0   2.7   18   12-30      9-26  (142)
+ 50 d1twua_ d.32.1.8 (A:) Hypothet  39.2      45 0.00065   20.0   2.2   19   12-30     15-33  (137)
+ 51 cd09014 BphC-JF8_C_like; C-ter  39.0      57 0.00083   20.5   2.7   29    1-30      2-30  (167)
+ 52 cd09011 VOC_like; uncharacteri  38.9      58 0.00083   18.4   2.5   19   12-30      8-26  (122)
+ 53 d3hpya2 d.32.1.0 (A:147-289) a  38.8      77  0.0011   19.2   3.2   29    1-30      1-29  (143)
+ 54 d1f9za_ d.32.1.1 (A:) Glyoxala  38.7      67 0.00097   19.0   2.9   19   12-30      8-26  (135)
+ 55 d2c21a1 d.32.1.1 (A:3-141) Gly  38.7      54 0.00078   20.0   2.5   19   12-30      9-27  (139)
+ 56 cd16355 VOC_like; uncharacteri  38.6      69   0.001   18.0   2.8   20   11-30      4-23  (121)
+ 57 cd07265 2_3_CTD_N; N-terminal   38.6      54 0.00079   18.8   2.4   19   12-30     10-28  (122)
+ 58 cd07251 VOC_like; uncharacteri  38.5      64 0.00092   18.2   2.7   18   12-30      4-21  (120)
+ 59 d3oa4a1 d.32.1.0 (A:5-139) aut  38.4      51 0.00074   19.6   2.3   19   12-30     10-28  (135)
+ 60 d1r9ca_ d.32.1.2 (A:) Fosfomyc  38.2      64 0.00093   19.3   2.8   19   12-30     10-28  (130)
+ 61 cd07245 VOC_like; uncharacteri  38.0      66 0.00095   17.8   2.6   20   12-31      6-25  (117)
+ 62 COG0346 GloA; Catechol 2,3-dio  37.6      66 0.00096   18.5   2.7   19   12-30      8-26  (138)
+ 63 PF16857.5 ; RNA_pol_inhib ; RN  37.6      79  0.0011   17.7   2.7   18   12-29     18-35  (46)
+ 64 d2q48a_ d.32.1.9 (A:) automate  37.5      79  0.0011   19.0   3.1   20   11-30     10-31  (135)
+ 65 d3hdpa_ d.32.1.0 (A:) automate  37.3      76  0.0011   18.8   3.0   29    1-31      2-30  (132)
+ 66 d1f2ri_ d.15.2.1 (I:) Inhibito  37.2 1.4E+02   0.002   19.4   4.2   31    1-31     18-53  (100)
+ 67 cd08357 VOC_like; uncharacteri  37.1      75  0.0011   17.9   2.8   19   12-30      5-23  (124)
+ 68 cd07267 THT_Oxygenase_N; N-ter  37.0      58 0.00084   18.3   2.3   18   12-30      9-26  (113)
+ 69 d4mtsa_ d.32.1.0 (A:) automate  36.7      63 0.00091   19.0   2.5   19   12-30      8-26  (129)
+ 70 cd08345 Fosfomycin_RP; Fosfomy  36.6      77  0.0011   17.8   2.8   19   12-30      4-22  (118)
+ 71 d2zyqa1 d.32.1.0 (A:2-132) aut  36.6      75  0.0011   18.9   2.9   20   12-31     10-29  (131)
+ 72 cd16359 VOC_BsCatE_like_C; C-t  36.5      63  0.0009   17.8   2.4   19   12-30      5-23  (110)
+ 73 cd07247 SgaA_N_like; N-termina  36.4      62  0.0009   17.9   2.4   19   12-30      6-24  (114)
+ 74 cd08362 BphC5-RrK37_N_like; N-  36.3      70   0.001   18.1   2.6   20   12-31      9-28  (120)
+ 75 cd08359 VOC_like; uncharacteri  36.3      78  0.0011   17.8   2.8   21   11-31      6-26  (119)
+ 76 cd16361 VOC_ShValD_like; vicin  36.2      65 0.00094   19.0   2.6   19   12-30      7-25  (150)
+ 77 d1t47a1 d.32.1.3 (A:16-178) 4-  36.2      71   0.001   19.9   2.8   29    1-30      3-31  (163)
+ 78 cd07264 VOC_like; uncharacteri  36.1      77  0.0011   18.1   2.8   19   12-30      6-24  (118)
+ 79 cd07244 FosA; fosfomycin resis  36.1      81  0.0012   18.0   2.9   19   12-30      7-25  (121)
+ 80 cd07261 EhpR_like; phenazine r  36.1      84  0.0012   17.6   2.9   20   12-31      4-23  (114)
+ 81 d3vw9a_ d.32.1.1 (A:) automate  35.6      72   0.001   20.4   2.8   20   12-31     29-48  (176)
+ 82 d1nkia_ d.32.1.2 (A:) Fosfomyc  35.6      76  0.0011   19.2   2.8   20   12-31     10-29  (134)
+ 83 cd16357 GLOD4_C; C-terminal do  35.4      62 0.00089   18.3   2.3   19   12-30      4-22  (114)
+ 84 cd07254 VOC_like; uncharacteri  35.3      80  0.0012   17.9   2.8   19   12-30      7-25  (120)
+ 85 PF14506.6 ; CppA_N ; CppA N-te  35.3      58 0.00084   19.5   2.2   19   12-30      6-24  (124)
+ 86 PF13046.6 ; DUF3906 ; Protein   35.3   1E+02  0.0015   18.6   3.1   18   11-28     18-35  (64)
+ 87 cd07252 BphC1-RGP6_N_like; N-t  35.1      87  0.0013   17.9   2.9   19   12-30      8-26  (120)
+ 88 PF08967.10 ; DUF1884 ; Domain   35.1      48 0.00069   21.4   1.8   17    1-17     58-76  (91)
+ 89 d2i7ra1 d.32.1.2 (A:1-115) Hyp  35.0      91  0.0013   18.3   3.0   19   12-30      8-26  (115)
+ 90 cd08360 MhqB_like_C; C-termina  35.0      64 0.00093   18.8   2.4   19   12-30      9-27  (134)
+ 91 cd16362 TflA; Toxoflavin Lyase  34.6      80  0.0012   17.7   2.7   19   12-30      5-23  (110)
+ 92 cd08342 HPPD_N_like; N-termina  34.6      85  0.0012   18.5   2.9   19   12-30      6-24  (141)
+ 93 d4jh2a_ d.32.1.0 (A:) automate  34.5      78  0.0011   19.1   2.7   19   12-30     10-28  (138)
+ 94 COG3565 COG3565; Predicted dio  34.0      85  0.0012   18.9   2.8   19   12-30     10-28  (138)
+ 95 d3fcda1 d.32.1.0 (A:4-124) aut  33.8      69   0.001   18.8   2.4   19   12-30      8-26  (121)
+ 96 cd08348 BphC2-C3-RGP6_C_like;   33.4      84  0.0012   18.5   2.7   19   12-30      7-27  (137)
+ 97 d1kw3b2 d.32.1.3 (B:133-288) 2  33.4      76  0.0011   19.9   2.6   19   12-30     16-34  (156)
+ 98 cd08356 VOC_CChe_VCA0619_like;  33.3      94  0.0014   17.7   2.9   19   11-30      6-24  (113)
+ 99 d1kw3b1 d.32.1.3 (B:1-132) 2,3  32.7      76  0.0011   19.1   2.5   19   12-30     10-28  (132)
+100 cd08364 FosX; fosfomycin resis  32.5      98  0.0014   17.8   2.9   19   12-30      9-27  (130)
+101 PF13669.6 ; Glyoxalase_4 ; Gly  32.3      81  0.0012   18.1   2.4   19   12-30      5-23  (104)
+102 d3rmua1 d.32.1.0 (A:45-176) au  32.3      98  0.0014   18.2   2.9   19   12-30      9-27  (132)
+103 d3isqa1 d.32.1.3 (A:9-174) 4-h  32.0 1.1E+02  0.0016   19.3   3.2   29    1-30      6-34  (166)
+104 d1zswa1 d.32.1.10 (A:1-144) Hy  31.7      83  0.0012   19.1   2.5   19   12-30     12-30  (144)
+105 d3hpya1 d.32.1.0 (A:2-146) aut  31.6      82  0.0012   19.2   2.5   19   12-30     13-31  (145)
+106 d3omsa_ d.32.1.0 (A:) automate  31.6 1.1E+02  0.0016   18.5   3.1   20   11-30      6-26  (129)
+107 d2zyqa2 d.32.1.0 (A:133-297) a  31.5      81  0.0012   19.8   2.5   20   12-31     16-35  (165)
+108 cd08361 PpCmtC_N; N-terminal d  31.4      84  0.0012   18.1   2.4   19   12-30     12-30  (124)
+109 d2p7oa_ d.32.1.2 (A:) automate  31.3 1.1E+02  0.0015   18.2   2.9   19   12-30     10-28  (132)
+110 d1jifa_ d.32.1.2 (A:) Bleomyci  31.0 1.2E+02  0.0017   18.0   3.1   20   11-30     10-29  (122)
+111 cd07257 THT_oxygenase_C; The C  30.8      88  0.0013   19.0   2.6   19   12-30      7-25  (152)
+112 cd08363 FosB; fosfomycin resis  30.8      88  0.0013   18.1   2.5   19   12-30      6-24  (131)
+113 d1lkda1 d.32.1.3 (A:2-132) 2,3  30.8      87  0.0013   18.7   2.5   19   12-30     10-28  (131)
+114 d2pk8a_ d.274.1.1 (A:) Hypothe  30.6      65 0.00094   20.8   1.8   17    1-17     60-78  (94)
+115 d1ecsa_ d.32.1.2 (A:) Bleomyci  30.4      97  0.0014   18.2   2.6   18   12-30      8-25  (120)
+116 cd08358 GLOD4_N; N-terminal do  29.6   1E+02  0.0015   17.7   2.6   19   12-30      8-26  (127)
+117 d1mpya1 d.32.1.3 (A:1-145) Cat  29.4 1.1E+02  0.0016   18.7   2.9   19   12-30     13-31  (145)
+118 COG2764 PhnB; Uncharacterized   29.2 1.3E+02  0.0018   18.2   3.0   19   12-30      6-25  (136)
+119 d1xrka_ d.32.1.2 (A:) Bleomyci  28.1 1.4E+02   0.002   17.6   3.0   20   11-30      9-28  (120)
+120 cd08347 PcpA_C_like; C-termina  27.9 1.3E+02  0.0018   18.4   2.9   19   12-30      7-25  (157)
+121 d1c9fa_ d.15.2.1 (A:) Caspase-  27.8 2.1E+02   0.003   18.0   3.8   31    1-31      8-43  (87)
+122 d1npba_ d.32.1.2 (A:) Fosfomyc  27.3 1.3E+02  0.0019   18.5   2.9   19   12-30     10-28  (140)
+123 d1mpya2 d.32.1.3 (A:146-307) C  27.3   1E+02  0.0015   19.7   2.4   29    1-30      1-29  (162)
+124 d1u69a_ d.32.1.7 (A:) Hypothet  27.1 1.4E+02   0.002   20.3   3.1   21   11-31      6-27  (156)
+125 d4naza1 d.32.1.0 (A:2-139) aut  26.9 1.1E+02  0.0016   18.6   2.5   19   12-30      9-27  (138)
+126 d3uh9a1 d.32.1.0 (A:2-139) aut  26.8 1.4E+02   0.002   18.2   2.9   19   12-30      9-27  (138)
+127 d1tfza1 d.32.1.3 (A:15-195) 4-  26.7 1.4E+02   0.002   19.8   3.1   30    1-31      7-36  (181)
+128 cd07262 VOC_like; uncharacteri  26.7 1.3E+02  0.0019   16.8   2.7   19   12-30      6-27  (121)
+129 d1sp8a1 d.32.1.3 (A:36-207) 4-  26.6 1.3E+02  0.0019   19.2   2.9   20   12-31     19-38  (172)
+130 KOG2944 Glyoxalase [Carbohydra  26.4 1.6E+02  0.0023   18.8   3.2   29    1-30     18-46  (170)
+131 cd07258 PpCmtC_C; C-terminal d  25.9 1.1E+02  0.0015   18.4   2.2   19   12-30      5-23  (138)
+132 cd07239 BphC5-RK37_C_like; C-t  25.7 1.3E+02  0.0019   17.9   2.7   19   12-30     10-28  (143)
+133 d2ehza2 d.32.1.0 (A:138-302) a  25.3 1.7E+02  0.0025   18.9   3.3   28    1-30      8-35  (165)
+134 d4ghga1 d.32.1.3 (A:3-147) Hom  25.3 1.2E+02  0.0018   18.6   2.5   19   12-30     21-39  (145)
+135 cd08350 BLMT_like; BLMT, a ble  25.0 1.4E+02   0.002   17.0   2.6   18   12-30      8-25  (118)
+136 d1ss4a1 d.32.1.6 (A:1-148) Hyp  24.9 2.3E+02  0.0033   17.1   3.8   28    1-30      4-31  (148)
+137 d5v91a_ d.32.1.0 (A:) automate  24.4 1.4E+02   0.002   18.1   2.7   19   12-30     10-28  (138)
+138 PF14454.6 ; Prok_Ub ; Prokaryo  24.3 1.1E+02  0.0016   17.9   2.0   27    2-28      4-33  (62)
+139 cd08344 MhqB_like_N; N-termina  24.1 1.6E+02  0.0024   16.2   2.7   18   12-30      8-25  (112)
+140 d2wl9a2 d.32.1.0 (A:135-300) a  23.7 1.2E+02  0.0017   19.6   2.3   28    1-30      8-35  (166)
+141 d1zswa2 d.32.1.10 (A:145-314)   23.2 1.8E+02  0.0026   18.6   3.1   19   12-30     18-36  (170)
+142 d1u7ia1 d.32.1.7 (A:1-132) Hyp  22.8 1.8E+02  0.0027   17.6   2.9   19   11-29      8-28  (132)
+143 COG3865 COG3865; Glyoxalase su  22.3 1.9E+02  0.0027   19.1   3.1   21   11-31      9-30  (151)
+144 cd07256 HPCD_C_class_II; C-ter  21.5 1.6E+02  0.0023   18.3   2.5   18   12-30      9-26  (160)
+145 d4lbha_ d.58.4.0 (A:) automate  21.5 1.8E+02  0.0025   17.2   2.6   21    6-26     54-74  (94)
+146 PF14207.6 ; DpnD-PcfM ; DpnD/P  20.9 2.2E+02  0.0031   15.7   2.6   17   12-28     15-31  (46)
+147 PF18253.1 ; HipN ; Hsp70-inter  20.5 1.4E+02  0.0021   16.0   1.8   13   80-92     30-42  (42)
+
+No 1
+>PF14804.6 ; Jag_N ; Jag N-terminus
+Probab=68.51  E-value=10  Score=20.92  Aligned_cols=23  Identities=26%  Similarity=0.315  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ECCHHHHHHHHHHHhCCCHHHHh
+Q Q_9186633_34     14 AETEEQAKEYYKEECGIDDEDLN   36 (100)
+Q Consensus        14 A~s~eeA~~~y~~~~g~~~e~~~   36 (100)
+                      |.|.++|++-.....|.+.+++.
+T Consensus         3 gkt~eeAi~~A~~~l~~~~~el~   25 (50)
+T R6MI09_9FIRM/1    3 AKNKQDAIELALKELNASREDVE   25 (50)
+T ss_pred             cCCHHHHHHHHHHHcCCCHHHcE
+
+
+No 2
+>PF07129.11 ; DUF1381 ; Protein of unknown function (DUF1381)
+Probab=55.08  E-value=27  Score=19.49  Aligned_cols=20  Identities=45%  Similarity=0.536  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             EECC-eeEEEECCHHHHHHHH
+Q Q_9186633_34      5 KMND-IDWVCAETEEQAKEYY   24 (100)
+Q Consensus         5 ~v~d-~d~vaA~s~eeA~~~y   24 (100)
+                      +-|+ ...|-|.|++||++-|
+T Consensus        23 ReNetf~vVEAeskeeA~~k~   43 (44)
+T Q2FWS7_STAA8/2   23 RDNQTFTVVEAESKEEAKEKY   43 (44)
+T ss_pred             cccCeEEEEEcCCHHHHHHhh
+
+
+No 3
+>PF07566.12 ; DUF1543 ; Domain of Unknown Function (DUF1543)
+Probab=53.95  E-value=43  Score=18.74  Aligned_cols=27  Identities=26%  Similarity=0.438  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             eEEEECCeeEEEECCHHHHHHHHHHHh
+Q Q_9186633_34      2 KVFKMNDIDWVCAETEEQAKEYYKEEC   28 (100)
+Q Consensus         2 kvf~v~d~d~vaA~s~eeA~~~y~~~~   28 (100)
+                      ...+.-+.-.|+|.|+++|+...++..
+T Consensus         1 ~~~E~Hd~~fvVa~~~~~ak~~ak~~w   27 (52)
+T Q067I9_9SYNE/1    1 CNVELHDVRWVIGESIEDTIRTLKNEW   27 (52)
+T ss_pred             CceeeeeEEEEEeCCHHHHHHHHHHhc
+
+
+No 4
+>d2pjsa1 d.32.1.2 (A:3-113) Uncharacterized protein Atu1953 {Agrobacterium tumefaciens [TaxId: 358]}
+Probab=51.23  E-value=34  Score=19.50  Aligned_cols=20  Identities=15%  Similarity=0.454  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +...+.++|++||.+..|..
+T Consensus         8 ~~~~d~~~~~~fy~~~lg~~   27 (111)
+T d2pjsa1           8 IATPEPARAQAFYGDILGMP   27 (111)
+T ss_dssp             EECSCGGGGCCCCCCCTCCC
+T ss_pred             EEcCCHHHHHHHHHHHhCCc
+
+
+No 5
+>PF00903.25 ; Glyoxalase ; Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily
+Probab=50.08  E-value=37  Score=19.40  Aligned_cols=19  Identities=16%  Similarity=0.405  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         7 ~~v~d~~~~~~fy~~~lg~   25 (120)
+T YWBC_BACSU/4-1    7 IMVRDINASITFYEEVLGM   25 (120)
+T ss_pred             EEeCCHHHHHHHHHHhhCC
+
+
+No 6
+>cd07243 2_3_CTD_C; C-terminal domain of catechol 2,3-dioxygenase. This subfamily contains the C-terminal, catalytic, domain of catechol 2,3-dioxygenase.
+Probab=49.72  E-value=33  Score=20.54  Aligned_cols=29  Identities=7%  Similarity=0.258  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |++-++.-. .+.+.+.++|.+||.+..|.
+T Consensus         2 ~~~~~~~~i-~~~~~d~~~a~~fy~~~lg~   30 (144)
+T cd07243           2 IAPIQLDHC-LLYGPNIAEVQKIFTEVLGF   30 (144)
+T ss_pred             CCCccceEE-EEECCCHHHHHHHHHHhhCC
+
+
+No 7
+>PF18029.1 ; Glyoxalase_6 ; Glyoxalase-like domain
+Probab=47.44  E-value=41  Score=19.30  Aligned_cols=20  Identities=10%  Similarity=0.120  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.+.+++++||.+..|..
+T Consensus         4 ~~~~d~~~~~~fy~~~lg~~   23 (106)
+T D2PVX7_KRIFD/1    4 VDCADPLTLGRFWQHLLGGE   23 (106)
+T ss_pred             EecCCHHHHHHHHHHHhCCc
+
+
+No 8
+>cd06587 VOC; vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=47.29  E-value=41  Score=18.79  Aligned_cols=19  Identities=16%  Similarity=0.504  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus         4 ~~~~d~~~~~~fy~~~lg~   22 (112)
+T cd06587           4 PFVRDINRSKSFYRDRLGL   22 (114)
+T ss_pred             eecCCHHHHHHHHHHhhCC
+
+
+No 9
+>cd16354 BAT; Bleomycin N-Acetyltransferase and similar proteins. BlmB, encodes a bleomycin N-acetyltransferase, designated BAT, which inactivates Bm using acetyl-coenzyme A (AcCoA).
+Probab=45.98  E-value=42  Score=19.01  Aligned_cols=19  Identities=5%  Similarity=0.009  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         5 ~~~~d~~~~~~fy~~~lg~   23 (114)
+T cd16354           5 LPVRDVAATLRLVEAALGA   23 (115)
+T ss_pred             EEeccHHHHHHHHHHhhCC
+
+
+No 10
+>d2wl9a1 d.32.1.0 (A:1-134) automated matches {Rhodococcus sp. [TaxId: 186196]}
+Probab=45.40  E-value=53  Score=19.86  Aligned_cols=29  Identities=14%  Similarity=0.211  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +++..++-. .+...+.+++++||.+..|.
+T Consensus         2 ~~~~~~~~~-~l~~~d~~~~~~fy~~~lg~   30 (134)
+T d2wl9a1           2 AKVTELGYL-GLSVSNLDAWRDYAAGIMGM   30 (134)
+T ss_dssp             CCCCEEEEE-EEECSCHHHHHHHHTTTTCC
+T ss_pred             CceeeeEEE-EEEeCCHHHHHHHHhhccCC
+
+
+No 11
+>cd07249 MMCE; Methylmalonyl-CoA epimerase (MMCE). MMCE, also called methylmalonyl-CoA racemase (EC 5.
+Probab=45.31  E-value=49  Score=18.85  Aligned_cols=20  Identities=25%  Similarity=0.542  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.+.+++++||.+..|..
+T Consensus         6 ~~~~d~~~~~~fy~~~lg~~   25 (127)
+T cd07249           6 YACPDADEASKYYQETFGWH   25 (135)
+T ss_pred             EEcCCHHHHHHHHHHHHCCc
+
+
+No 12
+>PF14507.6 ; CppA_C ; CppA C-terminal
+Probab=45.13  E-value=51  Score=18.73  Aligned_cols=19  Identities=11%  Similarity=0.314  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus         6 l~~~d~~~~~~fy~~~lg~   24 (110)
+T I6RYF1_ENTHA/1    6 LNVFDSEEERRFLSDLLGL   24 (110)
+T ss_pred             EEECCHHHHHHHHHHhhCC
+
+
+No 13
+>PF12681.7 ; Glyoxalase_2 ; Glyoxalase-like domain
+Probab=45.02  E-value=50  Score=19.17  Aligned_cols=20  Identities=10%  Similarity=0.302  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             EEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     11 WVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        11 ~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      .+.+.+.+++++||.+..|.
+T Consensus         5 ~l~v~d~~~~~~fy~~~lG~   24 (119)
+T A5HYY7_CLOBH/3    5 LLAVKNVSVSRQFYEELFDQ   24 (119)
+T ss_pred             EEEEecHHHHHHHHHHhcCC
+
+
+No 14
+>cd08354 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=44.76  E-value=44  Score=18.92  Aligned_cols=19  Identities=21%  Similarity=0.609  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus         6 ~~v~d~~~~~~fy~~~lg~   24 (122)
+T cd08354           6 LYADDLDAAEAFYRDVFGL   24 (124)
+T ss_pred             EEeccHHHHHHHHHHhhCe
+
+
+No 15
+>cd07253 GLOD5; Human glyoxalase domain-containing protein 5 and similar proteins. Uncharacterized subfamily of VOC family contains human glyoxalase domain-containing protein 5 and similar proteins.
+Probab=44.55  E-value=51  Score=18.53  Aligned_cols=20  Identities=10%  Similarity=0.315  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.+.+++++||.+..|..
+T Consensus         9 ~~~~d~~~~~~fy~~~lg~~   28 (123)
+T cd07253           9 LTVADIPTTTNFYEKVLGXK   28 (123)
+T ss_pred             EEeCCHHHHHHHHHHhhCCc
+
+
+No 16
+>d2ehza1 d.32.1.0 (A:4-137) automated matches {Pseudomonas sp. [TaxId: 69011]}
+Probab=44.31  E-value=56  Score=19.63  Aligned_cols=29  Identities=10%  Similarity=0.247  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |.+.+++-. -+.+.+.+++++||.+..|.
+T Consensus         2 ~~~~~l~~~-~l~v~d~~~~~~fy~~~lG~   30 (134)
+T d2ehza1           2 AAVIELGYM-GISVKDPDAWKSFATDMLGL   30 (134)
+T ss_dssp             CCEEEEEEE-EEECSCHHHHHHCCCCCCCC
+T ss_pred             CccceeEEE-EEEeCCHHHHHHHHHhccCc
+
+
+No 17
+>d1u6la1 d.32.1.7 (A:4-138) Hypothetical protein PA1353 {Pseudomonas aeruginosa [TaxId: 287]}
+Probab=44.27  E-value=57  Score=19.86  Aligned_cols=20  Identities=15%  Similarity=0.217  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEEEC-CHHHHHHHHHHHhCC
+Q Q_9186633_34     11 WVCAE-TEEQAKEYYKEECGI   30 (100)
+Q Consensus        11 ~vaA~-s~eeA~~~y~~~~g~   30 (100)
+                      .+... +.++|++||.+..|.
+T Consensus         5 ~l~v~~d~~~a~~fY~~~lg~   25 (135)
+T d1u6la1           5 YLIFNGNCREAFSCYHQHLGG   25 (135)
+T ss_dssp             EEEESSCHHHHHHHHHHHHCS
+T ss_pred             EEEECCCHHHHHHHHHHHhCC
+
+
+No 18
+>cd16360 ED_TypeI_classII_N; N-terminal domain of type I, class II extradiol dioxygenases. This family contains the N-terminal non-catalytic domain of type I, class II extradiol dioxygenases.
+Probab=43.99  E-value=46  Score=18.45  Aligned_cols=19  Identities=16%  Similarity=0.382  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|++||.+..|.
+T Consensus         4 l~~~d~~~~~~fy~~~lg~   22 (111)
+T cd16360           4 YGVKDFDAEKAFYADVWGL   22 (113)
+T ss_pred             eecCCHHHHHHHHHHhhCC
+
+
+No 19
+>cd16358 GlxI_Ni; Glyoxalase I that uses Ni(++) as cofactor. This family includes Escherichia coil and other prokaryotic glyoxalase I that uses nickel as cofactor.
+Probab=43.50  E-value=46  Score=18.48  Aligned_cols=19  Identities=11%  Similarity=0.368  Sum_probs=0.0  Template_Neff=13.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|.+||.+..|.
+T Consensus         6 i~~~d~~~~~~fy~~~lg~   24 (122)
+T cd16358           6 LRVGDLQRSIDFYTKVLGM   24 (122)
+T ss_pred             EEeCCHHHHHHHHHHccCC
+
+
+No 20
+>cd16356 PsjN_like; Burkholderia Phytofirmans glyoxalase/bleomycin resistance protein/dioxygenase family enzyme and similar proteins.
+Probab=43.47  E-value=53  Score=18.41  Aligned_cols=19  Identities=11%  Similarity=0.345  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         4 ~~~~d~~~~~~fy~~~lg~   22 (119)
+T cd16356           4 IFTRDIVAXSAFYQQVFGF   22 (119)
+T ss_pred             EEeCCHHHHHHHHHHhhCC
+
+
+No 21
+>cd07233 GlxI_Zn; Glyoxalase I that uses Zn(++) as cofactor. This family includes eukaryotic glyoxalase I that prefers the divalent cation zinc as cofactor.
+Probab=43.40  E-value=42  Score=19.65  Aligned_cols=19  Identities=11%  Similarity=0.420  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|++||.+..|.
+T Consensus         6 ~~~~d~~~~~~fy~~~lg~   24 (142)
+T cd07233           6 LRVKDPKKSLDFYTRVLGM   24 (144)
+T ss_pred             EEeCCHHHHHHHHHhccCC
+
+
+No 22
+>d1xqaa1 d.32.1.2 (A:1-112) Hypothetical protein BC3580 {Bacillus cereus [TaxId: 1396]}
+Probab=43.29  E-value=57  Score=18.72  Aligned_cols=19  Identities=16%  Similarity=0.343  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         8 l~~~d~~~~~~fy~~~lG~   26 (112)
+T d1xqaa1           8 LTVADVVAAREFLEKYFGL   26 (112)
+T ss_dssp             EEESCHHHHHHHHHHHHCC
+T ss_pred             EEeCCHHHHHHHHHHHhCC
+
+
+No 23
+>cd08352 VOC_Bs_YwkD_like; vicinal oxygen chelate (VOC) family protein  Bacillus subtilis YwkD and similar proteins.
+Probab=43.27  E-value=50  Score=18.58  Aligned_cols=19  Identities=26%  Similarity=0.527  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         8 ~~v~d~~~~~~fy~~~lg~   26 (123)
+T cd08352           8 INASNYQATKNFYVEKLGF   26 (123)
+T ss_pred             EecCCHHHHHHHHHHhhCC
+
+
+No 24
+>cd09013 BphC-JF8_N_like; N-terminal, non-catalytic, domain of BphC_JF8, (2,3-dihydroxybiphenyl 1,2-dioxygenase) from Bacillus sp.
+Probab=42.92  E-value=69  Score=18.20  Aligned_cols=29  Identities=3%  Similarity=0.221  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |++-.++-. -+.+.+.+++++||.+..|.
+T Consensus         2 ~~~~~~~~~-~~~~~d~~~~~~fy~~~lg~   30 (121)
+T cd09013           2 FDIAHLARA-ELFSPKPQETLDFFTKFLGX   30 (121)
+T ss_pred             CccceeeeE-EEEcCCHHHHHHHHHHhhCc
+
+
+No 25
+>d1klla_ d.32.1.2 (A:) Mitomycin resistance protein D, MRD {Streptomyces lavendulae [TaxId: 1914]}
+Probab=42.46  E-value=49  Score=19.57  Aligned_cols=18  Identities=28%  Similarity=0.658  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+ .|.
+T Consensus         8 ~~v~d~~~~~~fy~~-lg~   25 (128)
+T d1klla_           8 VVVEDMAKSMEFYRK-MGV   25 (128)
+T ss_dssp             EEESCHHHHHHHHHH-TTC
+T ss_pred             EEeCCHHHHHHHHHH-cCc
+
+
+No 26
+>cd07246 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=42.24  E-value=50  Score=18.61  Aligned_cols=19  Identities=26%  Similarity=0.426  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             EEEC..CHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAE..TEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~..s~eeA~~~y~~~~g~   30 (100)
+                      +.+.  +.+++++||.+..|.
+T Consensus         7 ~~~~..d~~~~~~fy~~~lg~   25 (124)
+T cd07246           7 LLVEaqKVGDAVTFYKSAFGA   27 (132)
+T ss_pred             EEeC..CHHHHHHHHHHccCc
+
+
+No 27
+>cd07237 BphC1-RGP6_C_like; C-terminal domain of 2,3-dihydroxybiphenyl 1,2-dioxygenase. This subfamily contains the C-terminal, catalytic, domain of BphC1-RGP6 and similar proteins.
+Probab=42.03  E-value=83  Score=19.04  Aligned_cols=29  Identities=14%  Similarity=0.328  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |++..+.-. .+...+.++|++||.+..|.
+T Consensus         5 ~~~~~~~~~-~~~~~d~~~~~~fy~~~lg~   33 (153)
+T cd07237           5 TGEQGLGHF-VRCVPDSDKALAFYTDVLGF   33 (152)
+T ss_pred             ceeeceeEE-EEEeCCHHHHHHHHHHhhCC
+
+
+No 28
+>d2rk9a_ d.32.1.0 (A:) automated matches {Vibrio splendidus [TaxId: 314291]}
+Probab=42.01  E-value=46  Score=19.96  Aligned_cols=19  Identities=5%  Similarity=0.226  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|.+||.+..|.
+T Consensus         8 l~~~d~~~~~~fy~~~lg~   26 (132)
+T d2rk9a_           8 LYCFDINVSQSFFVDVLGF   26 (132)
+T ss_dssp             EEESSHHHHHHCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHhccCC
+
+
+No 29
+>d1tsja_ d.32.1.7 (A:) Hypothetical protein MW1090 {Staphylococcus aureus [TaxId: 1280]}
+Probab=41.52  E-value=44  Score=20.29  Aligned_cols=29  Identities=17%  Similarity=0.221  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |++-.+.-. +++..+.++|++||.+..|.
+T Consensus         1 m~~~~~~~~-~~~~~d~~~a~~FY~~~lg~   29 (129)
+T d1tsja_           1 MDIPKITTF-LMFNNQAEEAVKLYTSLFED   29 (129)
+T ss_dssp             CCCCSEEEE-EECSSCHHHHHHHHHHHSSS
+T ss_pred             CCCCcEEEE-EEECCCHHHHHHHHHHhcCc
+
+
+No 30
+>cd07238 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=41.39  E-value=65  Score=17.86  Aligned_cols=20  Identities=15%  Similarity=0.413  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.+.+++++||.+..|..
+T Consensus         6 ~~~~d~~~~~~fy~~~lg~~   25 (112)
+T cd07238           6 IATPEPARAQAFYGDILGXP   25 (112)
+T ss_pred             EEcCCHHHHHHHHHHHHCCC
+
+
+No 31
+>cd07266 HPCD_N_class_II; N-terminal domain of 3,4-dihydroxyphenylacetate 2,3-dioxygenase (HPCD). This subfamily contains the N-terminal, non-catalytic, domain of HPCD.
+Probab=41.30  E-value=57  Score=18.46  Aligned_cols=19  Identities=11%  Similarity=0.441  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|.+||.+..|.
+T Consensus        10 ~~~~d~~~~~~fy~~~lg~   28 (118)
+T cd07266          10 LVVTDLAKSRNFYVDVLGL   28 (121)
+T ss_pred             EEeCCHHHHHHHHHHhccc
+
+
+No 32
+>cd08351 ChaP_like; ChaP, an enzyme involved in the biosynthesis of the antitumor agent chartreusin (cha), and similar proteins.
+Probab=41.21  E-value=66  Score=18.30  Aligned_cols=20  Identities=10%  Similarity=0.320  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.+.++|+.||.+..|..
+T Consensus         8 ~~~~d~~~~~~fy~~~lg~~   27 (118)
+T cd08351           8 VLVKDKDASATFMADLLGLP   27 (120)
+T ss_pred             EEeCCHHHHHHHHHHHhCCC
+
+
+No 33
+>cd08349 BLMA_like; Bleomycin binding protein (BLMA) and similar proteins. BLMA also called Bleomycin resistance protein, confers Bm resistance by directly binding to Bm.
+Probab=40.89  E-value=49  Score=18.60  Aligned_cols=19  Identities=11%  Similarity=0.240  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|.+||.+..|.
+T Consensus         4 l~~~d~~~~~~fy~~~lg~   22 (114)
+T cd08349           4 LTAVDVPANVSFWVDTLGF   22 (113)
+T ss_pred             EecCCHHHHHHHHHHccCC
+
+
+No 34
+>cd08346 PcpA_N_like; N-terminal domain of Sphingobium chlorophenolicum 2,6-dichloro-p-hydroquinone 1,2-dioxygenase (PcpA), and similar proteins.
+Probab=40.74  E-value=46  Score=18.92  Aligned_cols=19  Identities=16%  Similarity=0.534  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++.+||.+..|.
+T Consensus         7 ~~~~d~~~~~~fy~~~lg~   25 (124)
+T cd08346           7 MVTKNANENNHFYKNVLGL   25 (125)
+T ss_pred             EEeCChhHHHHHHHhccCC
+
+
+No 35
+>d5cj3a1 d.32.1.2 (A:1-123) automated matches {Streptomyces flavoviridis [TaxId: 66889]}
+Probab=40.54  E-value=86  Score=18.61  Aligned_cols=30  Identities=17%  Similarity=0.185  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      |+...+.-. .+...+.+.|++||.+..|..
+T Consensus         1 ~~~~~~~~~-~~~v~d~~~~~~fy~~~lg~~   30 (123)
+T d5cj3a1           1 MAVLLSGVP-VLAALDVSTTQKFWIEVLGFT   30 (123)
+T ss_dssp             CCEEEEEEE-EEEESCHHHHHHCCCCCTCCE
+T ss_pred             CCceeceee-eEEeCCHHHHHHHHHHHhCCe
+
+
+No 36
+>cd07242 VOC_BsYqjT; vicinal oxygen chelate (VOC) family protein similar to Bacillus subtilis YqjT. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=40.41  E-value=66  Score=18.32  Aligned_cols=20  Identities=10%  Similarity=0.267  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhC.CC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECG.ID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g.~~   31 (100)
+                      +.+.+.++|++||.+..| ..
+T Consensus         7 ~~~~d~~~~~~fy~~~lg.~~   26 (126)
+T cd07242           7 INVDHLEESIAFWDWLLGeLG   27 (127)
+T ss_pred             EEcCCHHHHHHHHHHHhC.Cc
+
+
+No 37
+>PF06983.13 ; 3-dmu-9_3-mt ; 3-demethylubiquinone-9 3-methyltransferase
+Probab=40.36  E-value=55  Score=20.03  Aligned_cols=20  Identities=15%  Similarity=0.145  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             EEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     11 WVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        11 ~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +++..+.++|++||.+..|.
+T Consensus         7 l~v~~d~~~a~~fY~~~~g~   26 (117)
+T Q74AD9_GEOSL/5    7 LWYDGDAEDAARFYARTFPD   26 (117)
+T ss_pred             EEECCCHHHHHHHHHHHCCC
+
+
+No 38
+>cd08355 TioX_like; Micromonospora sp. TioX and similar proteins. Micromonospora sp. TioX  is encoded by a gene of the thiocoraline biosynthetic gene cluster.
+Probab=40.29  E-value=55  Score=18.47  Aligned_cols=19  Identities=11%  Similarity=0.261  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|++||.+..|.
+T Consensus         5 l~~~d~~~~~~fy~~~lg~   23 (123)
+T cd08355           5 LAYTDPDRAVDWLVRVFGF   23 (119)
+T ss_pred             EEeCCHHHHHHHHHhccCC
+
+
+No 39
+>COG3607 COG3607; Predicted lactoylglutathione lyase  [General function prediction only]. 
+Probab=40.07  E-value=57  Score=19.63  Aligned_cols=18  Identities=22%  Similarity=0.445  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|+.||.+ .|.
+T Consensus         9 l~v~d~~~~~~fy~~-lG~   26 (133)
+T COG3607           9 LPVKDLEASKAFYTA-LGF   26 (133)
+T ss_pred             EEeCCHHHHHHHHHH-cCC
+
+
+No 40
+>cd06588 PhnB_like; Escherichia coli PhnB and similar proteins. The Escherichia coli phnB gene is found next to an operon of fourteen genes (phnC-to-phnP) related to the cleavage of carbon-phosphorus (C-P) bonds in unactivated alkylphosphonates, supporting bacterial growth on alkylphosphonates as the sole phosphorus source.
+Probab=40.02  E-value=67  Score=18.86  Aligned_cols=20  Identities=15%  Similarity=0.213  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             EEEE-CCHHHHHHHHHHHh-CC
+Q Q_9186633_34     11 WVCA-ETEEQAKEYYKEEC-GI   30 (100)
+Q Consensus        11 ~vaA-~s~eeA~~~y~~~~-g~   30 (100)
+                      .+.+ .+.++|++||.+.. |.
+T Consensus         4 ~l~v~~d~~~a~~fy~~~l~g~   25 (129)
+T cd06588           4 CLWYDSAALEAATFYAETFPDS   25 (115)
+T ss_pred             EEEecCCHHHHHHHHHHhcCCC
+
+
+No 41
+>cd09012 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=39.91  E-value=52  Score=19.08  Aligned_cols=18  Identities=6%  Similarity=0.268  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+ .|.
+T Consensus         6 ~~v~d~~~a~~fy~~-lG~   23 (127)
+T cd09012           6 LPVADVAASQAFFGT-LGF   23 (124)
+T ss_pred             EEccCHHHHHHHHHH-cCC
+
+
+No 42
+>d1jc5a_ d.32.1.4 (A:) Methylmalonyl-CoA epimerase {Propionibacterium shermanii [TaxId: 1752]}
+Probab=39.90  E-value=1e+02  Score=18.37  Aligned_cols=30  Identities=17%  Similarity=0.338  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.+++-. -+...+.++|++||.+..|..
+T Consensus         3 ~~~~~i~hi-~l~v~d~~~~~~fy~~~lG~~   32 (145)
+T d1jc5a_           3 DLFICIDHV-AYACPDADEASKYYQETFGWH   32 (145)
+T ss_dssp             CCCSEEEEE-EEECSCHHHHHHHHHHTTCCE
+T ss_pred             CceeeEeEE-EEEcCCHHHHHHHHHHHhCCc
+
+
+No 43
+>cd08343 ED_TypeI_classII_C; C-terminal domain of type I, class II extradiol dioxygenases, catalytic domain. This family contains the C-terminal, catalytic domain of type I, class II extradiol dioxygenases.
+Probab=39.74  E-value=51  Score=19.13  Aligned_cols=19  Identities=11%  Similarity=0.280  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|++||.+..|.
+T Consensus         5 l~~~d~~~~~~fy~~~lg~   23 (132)
+T cd08343           5 LYGPNIAEVQKIFTEVLGF   23 (133)
+T ss_pred             EecCCHHHHHHHHHHccCC
+
+
+No 44
+>cd07255 VOC_BsCatE_like_N; N-terminal of Bacillus subtilis CatE like protein. Uncharacterized subfamily of VOC superfamily contains Bacillus subtilis CatE and similar proteins.
+Probab=39.70  E-value=54  Score=18.78  Aligned_cols=19  Identities=11%  Similarity=0.419  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|.+||.+..|.
+T Consensus         8 ~~~~d~~~~~~fy~~~lg~   26 (124)
+T cd07255           8 LNVADIDRQTDFYHNILGL   26 (123)
+T ss_pred             EeccCHHHHHHHHHHhcCC
+
+
+No 45
+>COG3324 COG3324; Predicted enzyme related to lactoylglutathione lyase  [General function prediction only]. 
+Probab=39.47  E-value=61  Score=19.02  Aligned_cols=19  Identities=26%  Similarity=0.427  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus        15 i~v~d~~~~~~fy~~~lG~   33 (127)
+T COG3324          15 LPVSDLERAKAFYEKVFGW   33 (127)
+T ss_pred             EecCCHHHHHHHHHHhhCC
+
+
+No 46
+>cd07263 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=39.45  E-value=60  Score=17.98  Aligned_cols=19  Identities=21%  Similarity=0.531  Sum_probs=0.0  Template_Neff=13.400
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++.+||.+..|.
+T Consensus         4 ~~~~d~~~~~~fy~~~lg~   22 (120)
+T cd07263           4 IIVSDQEKALDFYVNTLGF   22 (117)
+T ss_pred             eecCCHHHHHHHHHHhhCC
+
+
+No 47
+>d3l20a1 d.32.1.0 (A:4-151) automated matches {Staphylococcus aureus [TaxId: 367830]}
+Probab=39.30  E-value=65  Score=20.38  Aligned_cols=19  Identities=32%  Similarity=0.567  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|+.||.+..|.
+T Consensus         8 l~v~d~e~a~~FY~~~lg~   26 (148)
+T d3l20a1           8 IAFENSKEALAYYEEVFGA   26 (148)
+T ss_dssp             EEESCHHHHHHHHHHHSCC
+T ss_pred             EEeCCHHHHHHHHHHHhCC
+
+
+No 48
+>cd07241 VOC_BsYyaH; vicinal oxygen chelate (VOC) family protein similar to Bacillus subtilis YyaH. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=39.29  E-value=60  Score=18.44  Aligned_cols=19  Identities=26%  Similarity=0.415  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|++||.+..|.
+T Consensus         7 ~~~~d~~~~~~fy~~~lg~   25 (125)
+T cd07241           7 LWTTNLEQXKQFYVTYFGA   25 (124)
+T ss_pred             EEcCCHHHHHHHHHHhhCc
+
+
+No 49
+>cd08353 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=39.17  E-value=61  Score=19.01  Aligned_cols=18  Identities=22%  Similarity=0.606  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+ .|.
+T Consensus         9 ~~~~d~~~~~~fy~~-lg~   26 (142)
+T cd08353           9 IVVESLDNAISFFEE-IGL   26 (142)
+T ss_pred             EEECCHHHHHHHHHH-cCC
+
+
+No 50
+>d1twua_ d.32.1.8 (A:) Hypothetical protein YycE {Bacillus subtilis [TaxId: 1423]}
+Probab=39.17  E-value=45  Score=20.00  Aligned_cols=19  Identities=11%  Similarity=0.177  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|++||.+..|.
+T Consensus        15 l~v~d~~~~~~fy~~~lg~   33 (137)
+T d1twua_          15 RPTGQLDEIIRFYEEGLCL   33 (137)
+T ss_dssp             EECSCHHHHHCCCCCCSCC
+T ss_pred             EEcCCHHHHHHHHHhccCC
+
+
+No 51
+>cd09014 BphC-JF8_C_like; C-terminal, catalytic domain of BphC_JF8, (2,3-dihydroxybiphenyl 1,2-dioxygenase).
+Probab=38.99  E-value=57  Score=20.47  Aligned_cols=29  Identities=10%  Similarity=0.314  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |++-++.-. .+.+.+.++|++||.+..|.
+T Consensus         2 ~~~~~~~~i-~~~~~d~~~a~~fy~~~lG~   30 (167)
+T cd09014           2 IPVKRIDHL-NLXSSDVTAVKDSFERHLGF   30 (167)
+T ss_pred             CcccceEEE-EEEeCCHHHHHHHHHHccCC
+
+
+No 52
+>cd09011 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=38.89  E-value=58  Score=18.43  Aligned_cols=19  Identities=16%  Similarity=0.504  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++++.||.+..|.
+T Consensus         8 ~~~~d~~~~~~fy~~~lg~   26 (122)
+T cd09011           8 PFVRDINRSKSFYRDRLGL   26 (122)
+T ss_pred             eecCCHHHHHHHHHHhhCC
+
+
+No 53
+>d3hpya2 d.32.1.0 (A:147-289) automated matches {Pseudomonas sp. [TaxId: 237609]}
+Probab=38.81  E-value=77  Score=19.25  Aligned_cols=29  Identities=7%  Similarity=0.258  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |++-+++-. -+...+.+++++||.+..|.
+T Consensus         1 ~~~~~i~~~-~i~v~d~~~~~~fy~~~lG~   29 (143)
+T d3hpya2           1 IAPIQLDHC-LLYGPNIAEVQKIFTEVLGF   29 (143)
+T ss_dssp             SCCSEEEEE-EEEESCHHHHHHCCCCCSCC
+T ss_pred             CCCeecceE-EEEcCCHHHHHHHHHHhhCc
+
+
+No 54
+>d1f9za_ d.32.1.1 (A:) Glyoxalase I (lactoylglutathione lyase) {Escherichia coli [TaxId: 562]}
+Probab=38.73  E-value=67  Score=18.97  Aligned_cols=19  Identities=11%  Similarity=0.368  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         8 l~v~d~~~~~~fy~~~lg~   26 (135)
+T d1f9za_           8 LRVGDLQRSIDFYTKVLGM   26 (135)
+T ss_dssp             EECSCHHHHHHCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHHhhCC
+
+
+No 55
+>d2c21a1 d.32.1.1 (A:3-141) Glyoxalase I (lactoylglutathione lyase) {Leishmania major [TaxId: 5664]}
+Probab=38.69  E-value=54  Score=19.98  Aligned_cols=19  Identities=16%  Similarity=0.464  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|++||.+..|.
+T Consensus         9 ~~v~d~~~~~~fy~~~lg~   27 (139)
+T d2c21a1           9 IRVGDLDRSIKFYTERLGM   27 (139)
+T ss_dssp             EECSCHHHHHHCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHhccCC
+
+
+No 56
+>cd16355 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) superfamily. The vicinal oxygen chelate (VOC) superfamily  is composed of structurally related proteins with paired beta.
+Probab=38.60  E-value=69  Score=18.05  Aligned_cols=20  Identities=5%  Similarity=0.082  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     11 WVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        11 ~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      .+...+.+++.+||.+..|.
+T Consensus         4 ~~~v~d~~~~~~fy~~~lg~   23 (121)
+T cd16355           4 VLAVPDLARSVRWWRE-AMG   22 (112)
+T ss_pred             EEEcccHHHHHHHHHHhhCC
+
+
+No 57
+>cd07265 2_3_CTD_N; N-terminal domain of catechol 2,3-dioxygenase. This subfamily contains the N-terminal, non-catalytic, domain of catechol 2,3-dioxygenase.
+Probab=38.55  E-value=54  Score=18.75  Aligned_cols=19  Identities=26%  Similarity=0.232  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++.+||.+..|.
+T Consensus        10 ~~~~d~~~~~~fy~~~lg~   28 (122)
+T cd07265          10 LRVLDMSKALEHYVELLGL   28 (122)
+T ss_pred             EEeCCHHHHHHHHHhcccc
+
+
+No 58
+>cd07251 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=38.53  E-value=64  Score=18.16  Aligned_cols=18  Identities=22%  Similarity=0.359  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+. |.
+T Consensus         4 ~~v~d~~~~~~fy~~~-g~   21 (120)
+T cd07251           4 LGIGDLEASARFYGEGfGW   22 (119)
+T ss_pred             eEeCCHHHHHHHHHhh-CC
+
+
+No 59
+>d3oa4a1 d.32.1.0 (A:5-139) automated matches {Bacillus halodurans [TaxId: 272558]}
+Probab=38.45  E-value=51  Score=19.56  Aligned_cols=19  Identities=5%  Similarity=0.226  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++.+||.+..|.
+T Consensus        10 ~~v~d~~~~~~fy~~~lg~   28 (135)
+T d3oa4a1          10 IAVTSIKDVLPFYVGSLKL   28 (135)
+T ss_dssp             EECSCHHHHHCCCCCCSCC
+T ss_pred             EEcCCHHHHHHHHHHccCC
+
+
+No 60
+>d1r9ca_ d.32.1.2 (A:) Fosfomycin resistance protein FosX {Mesorhizobium loti [TaxId: 381]}
+Probab=38.18  E-value=64  Score=19.29  Aligned_cols=19  Identities=5%  Similarity=-0.034  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|++||.+..|.
+T Consensus        10 ~~v~d~~~~~~fy~~~lG~   28 (130)
+T d1r9ca_          10 FIVRDLERMTRILEGVFDA   28 (130)
+T ss_dssp             EEESCHHHHHHHHHHHHCC
+T ss_pred             EEEcCHHHHHHHHHHhcCC
+
+
+No 61
+>cd07245 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=37.98  E-value=66  Score=17.79  Aligned_cols=20  Identities=40%  Similarity=0.713  Sum_probs=0.0  Template_Neff=13.300
+
+Q ss_pred             EEEC..CHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAE..TEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~..s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.  +.+++++||.+..|..
+T Consensus         6 ~~~~..d~~~~~~fy~~~lg~~   25 (117)
+T cd07245           6 VAAPvgCEEEARAFYGETIGXE   27 (111)
+T ss_pred             EEcC..CHHHHHHHHHHhhCCe
+
+
+No 62
+>COG0346 GloA; Catechol 2,3-dioxygenase or other lactoylglutathione lyase family enzyme [Secondary metabolites biosynthesis, transport and catabolism]. 
+Probab=37.65  E-value=66  Score=18.52  Aligned_cols=19  Identities=16%  Similarity=0.455  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         8 l~v~d~~~~~~fy~~~lg~   26 (138)
+T COG0346           8 LAVPDLEASIDFYTDVLGL   26 (138)
+T ss_pred             EEcCCHHHHHHHHHHhhCC
+
+
+No 63
+>PF16857.5 ; RNA_pol_inhib ; RNA polymerase inhibitor
+Probab=37.63  E-value=79  Score=17.70  Aligned_cols=18  Identities=28%  Similarity=0.204  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             EEECCHHHHHHHHHHHhC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECG   29 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g   29 (100)
+                      |-|.|.++|++.-...++
+T Consensus        18 V~Aes~~eA~e~ae~~Y~   35 (46)
+T B3VCZ0_9CAUD/2   18 VHAGSLDEALEVAEAEYE   35 (46)
+T ss_pred             EEeCCHHHHHHHHHHHhh
+
+
+No 64
+>d2q48a_ d.32.1.9 (A:) automated matches {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+Probab=37.55  E-value=79  Score=18.96  Aligned_cols=20  Identities=25%  Similarity=0.388  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             EEEEC--CHHHHHHHHHHHhCC
+Q Q_9186633_34     11 WVCAE--TEEQAKEYYKEECGI   30 (100)
+Q Consensus        11 ~vaA~--s~eeA~~~y~~~~g~   30 (100)
+                      .+...  +.++|++||.+..|.
+T Consensus        10 ~l~v~~~d~~~a~~fy~~~lG~   31 (135)
+T d2q48a_          10 MLLVEAQKVGDAVTFYKSAFGA   31 (135)
+T ss_dssp             EEEECTTCHHHHHHHHHHHTCC
+T ss_pred             EEEEccccHHHHHHHHHHhhCC
+
+
+No 65
+>d3hdpa_ d.32.1.0 (A:) automated matches {Clostridium acetobutylicum [TaxId: 1488]}
+Probab=37.34  E-value=76  Score=18.82  Aligned_cols=29  Identities=17%  Similarity=0.182  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      |.+..++-. .+...+.++|++||.+ .|..
+T Consensus         2 ~~~~~~~hv-~l~v~d~~~~~~fy~~-lG~~   30 (132)
+T d3hdpa_           2 HMSLKVHHI-GYAVKNIDSALKKFKR-LGYV   30 (132)
+T ss_dssp             CCCCCEEEE-EEECSCHHHHHHHHHH-TTCE
+T ss_pred             CCcceeeEE-EEEEcCHHHHHHHHHh-cCCe
+
+
+No 66
+>d1f2ri_ d.15.2.1 (I:) Inhibitor of caspase-activated DNase (ICAD), DFF45, N-terminal domain {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=37.19  E-value=1.4e+02  Score=19.43  Aligned_cols=31  Identities=23%  Similarity=0.124  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             CeEEEECCee-----EEEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34      1 MKVFKMNDID-----WVCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus         1 mkvf~v~d~d-----~vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +|+|+|.+..     -|+|.|.++.+.--++..+++
+T Consensus        18 ~k~~kV~~~~r~~k~GV~A~SL~eL~~K~~~kl~l~   53 (100)
+T d1f2ri_          18 LKPCLLRRNHSRDQHGVAASSLEELRSKACELLAID   53 (100)
+T ss_dssp             CEEEEEEETTEEEEEEEEESSHHHHHHHHHHHHCCC
+T ss_pred             CceEEeeCCCCCCcEEEEeCCHHHHHHHHHHHhCCC
+
+
+No 67
+>cd08357 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) familyprotein, glyoxalase I, and type I ring-cleaving dioxygenases.
+Probab=37.12  E-value=75  Score=17.92  Aligned_cols=19  Identities=21%  Similarity=0.417  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|++||.+..|.
+T Consensus         5 ~~~~d~~~~~~fy~~~lg~   23 (124)
+T cd08357           5 IPARDLDEAYDFYVTKLGC   23 (118)
+T ss_pred             EEcCCHHHHHHHHHHhhCC
+
+
+No 68
+>cd07267 THT_Oxygenase_N; N-terminal domain of 2,4,5-trihydroxytoluene (THT) oxygenase. This subfamily contains the N-terminal, non-catalytic, domain of THT oxygenase.
+Probab=36.96  E-value=58  Score=18.30  Aligned_cols=18  Identities=22%  Similarity=0.337  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+ .|.
+T Consensus         9 l~~~d~~~~~~fy~~-lg~   26 (113)
+T cd07267           9 FERPDLEQADRFLGD-FGL   26 (113)
+T ss_pred             EeCCCHHHHHHHHHh-cCC
+
+
+No 69
+>d4mtsa_ d.32.1.0 (A:) automated matches {Pseudomonas aeruginosa, PA01 [TaxId: 208964]}
+Probab=36.74  E-value=63  Score=18.97  Aligned_cols=19  Identities=21%  Similarity=0.329  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         8 l~v~d~~~~~~fy~~~lg~   26 (129)
+T d4mtsa_           8 LRVADLEAALEFYTRALDM   26 (129)
+T ss_dssp             EECSCHHHHHHCCCCCTCC
+T ss_pred             EEecCHHHHHHHHHHccCC
+
+
+No 70
+>cd08345 Fosfomycin_RP; Fosfomycin resistant protein. This family contains three types of fosfomycin resistant protein.
+Probab=36.62  E-value=77  Score=17.75  Aligned_cols=19  Identities=0%  Similarity=0.106  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus         4 ~~~~d~~~~~~fy~~~lg~   22 (118)
+T cd08345           4 LIVKDLNKTTAFLQNIFNA   22 (118)
+T ss_pred             EEeCCHHHHHHHHHHhcCC
+
+
+No 71
+>d2zyqa1 d.32.1.0 (A:2-132) automated matches {Mycobacterium tuberculosis [TaxId: 1773]}
+Probab=36.60  E-value=75  Score=18.89  Aligned_cols=20  Identities=20%  Similarity=0.145  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +...+.+++++||.+..|..
+T Consensus        10 l~v~d~~~~~~fy~~~lg~~   29 (131)
+T d2zyqa1          10 IEATDMAAWREYGLKVLGMV   29 (131)
+T ss_dssp             EEESCHHHHHHHHHHTSCCE
+T ss_pred             EEeCCHHHHHHHHHHhhCCe
+
+
+No 72
+>cd16359 VOC_BsCatE_like_C; C-terminal of Bacillus subtilis CatE like protein, a vicinal oxygen chelate subfamily.
+Probab=36.48  E-value=63  Score=17.85  Aligned_cols=19  Identities=21%  Similarity=0.445  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|.+||.+..|.
+T Consensus         5 ~~~~d~~~~~~fy~~~~g~   23 (110)
+T cd16359           5 LRVGDLAQAENFYHGTVGL   23 (110)
+T ss_pred             EEeCCHHHHHHHHHhccCC
+
+
+No 73
+>cd07247 SgaA_N_like; N-terminal domain of Streptomyces griseus SgaA and similar domains. SgaA suppresses the growth disturbances caused by high osmolarity and a high concentration of A-factor, a microbial hormone, during the early growth phase in Streptomyces griseus.
+Probab=36.43  E-value=62  Score=17.86  Aligned_cols=19  Identities=16%  Similarity=0.548  Sum_probs=0.0  Template_Neff=13.200
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus         6 ~~~~d~~~~~~fy~~~lg~   24 (114)
+T cd07247           6 IPFDDGDRARAFYRDAFGW   24 (118)
+T ss_pred             EecCCHHHHHHHHHHccCC
+
+
+No 74
+>cd08362 BphC5-RrK37_N_like; N-terminal, non-catalytic, domain of BphC5 (2,3-dihydroxybiphenyl 1,2-dioxygenase) from Rhodococcus rhodochrous K37, and similar proteins.
+Probab=36.33  E-value=70  Score=18.13  Aligned_cols=20  Identities=15%  Similarity=0.408  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.+.+++++||.+..|..
+T Consensus         9 ~~~~d~~~~~~fy~~~lg~~   28 (120)
+T cd08362           9 YGVKDFDAEKAFYADVWGLE   28 (121)
+T ss_pred             eecCCHHHHHHHHHHhhCCe
+
+
+No 75
+>cd08359 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=36.27  E-value=78  Score=17.82  Aligned_cols=21  Identities=10%  Similarity=0.289  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             EEEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     11 WVCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        11 ~vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      .+...+.+++++||.+..|..
+T Consensus         6 ~~~~~d~~~~~~fy~~~lg~~   26 (119)
+T cd08359           6 VIXTSDVAATAAFYCQHFGFR   26 (119)
+T ss_pred             EeecCcHHHHHHHHHHhhCCe
+
+
+No 76
+>cd16361 VOC_ShValD_like; vicinal oxygen chelate (VOC) family protein similar to Streptomyces hygroscopicus ValD protein.
+Probab=36.24  E-value=65  Score=19.04  Aligned_cols=19  Identities=21%  Similarity=0.419  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus         7 ~~v~d~~~~~~fy~~~lG~   25 (150)
+T cd16361           7 LSVTDLDAAVEFYTQTLGW   25 (148)
+T ss_pred             EEeCCHHHHHHHHHHccCC
+
+
+No 77
+>d1t47a1 d.32.1.3 (A:16-178) 4-hydroxyphenylpyruvate dioxygenase, HppD {Streptomyces avermitilis [TaxId: 33903]}
+Probab=36.22  E-value=71  Score=19.95  Aligned_cols=29  Identities=24%  Similarity=0.430  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |++..++-. -+...+.+++++||.+..|.
+T Consensus         3 ~~~~~i~hv-~l~v~d~~~~~~fy~~~lG~   31 (163)
+T d1t47a1           3 FPVKGMDAV-VFAVGNAKQAAHYYSTAFGM   31 (163)
+T ss_dssp             SCCCEEEEE-EEECSCHHHHHHHHHHTSCC
+T ss_pred             CCCccceEE-EEEecCHHHHHHHHHHhcCC
+
+
+No 78
+>cd07264 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=36.14  E-value=77  Score=18.08  Aligned_cols=19  Identities=11%  Similarity=0.384  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|.+||.+..|.
+T Consensus         6 ~~~~d~~~~~~fy~~~lg~   24 (118)
+T cd07264           6 MYVENPRETIDFYCKAFDV   24 (122)
+T ss_pred             EEeCCHHHHHHHHHHhcCC
+
+
+No 79
+>cd07244 FosA; fosfomycin resistant protein subfamily FosA. This subfamily family contains FosA, a fosfomycin resistant protein.
+Probab=36.10  E-value=81  Score=18.01  Aligned_cols=19  Identities=11%  Similarity=0.343  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++.+||.+..|.
+T Consensus         7 ~~~~d~~~~~~fy~~~lg~   25 (121)
+T cd07244           7 LAVADLPASIAFYRDLLGF   25 (122)
+T ss_pred             EEeCCHHHHHHHHHHhhCC
+
+
+No 80
+>cd07261 EhpR_like; phenazine resistance protein, EhpR. Phenazine resistance protein (EhpR)  in Enterobacter agglomerans confers resistance by binding D-alanyl-griseoluteic acid and acting as a chaperone involved in exporting the antibiotic rather than by altering it chemically.
+Probab=36.07  E-value=84  Score=17.65  Aligned_cols=20  Identities=20%  Similarity=0.542  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.+.+++.+||.+..|..
+T Consensus         4 ~~~~d~~~~~~fy~~~lg~~   23 (114)
+T cd07261           4 LYVDNPPASTQFYKALLGVD   23 (114)
+T ss_pred             EEcCCHHHHHHHHHHHhCCC
+
+
+No 81
+>d3vw9a_ d.32.1.1 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=35.64  E-value=72  Score=20.45  Aligned_cols=20  Identities=10%  Similarity=0.399  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +.+.+.++|++||.+..|..
+T Consensus        29 l~v~d~~~~~~fy~~~lG~~   48 (176)
+T d3vw9a_          29 LRVKDPKKSLDFYTRVLGMT   48 (176)
+T ss_dssp             EECSCHHHHHHCCCCCTCCE
+T ss_pred             EEeCCHHHHHHHHHHhcCCc
+
+
+No 82
+>d1nkia_ d.32.1.2 (A:) Fosfomycin resistance protein A (FosA) {Pseudomonas aeruginosa [TaxId: 287]}
+Probab=35.61  E-value=76  Score=19.25  Aligned_cols=20  Identities=10%  Similarity=0.321  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +...+.++|++||.+..|..
+T Consensus        10 i~v~d~~~~~~fy~~~lg~~   29 (134)
+T d1nkia_          10 LAVADLPASIAFYRDLLGFR   29 (134)
+T ss_dssp             EEESCHHHHHHCCCCCTCCE
+T ss_pred             EEeCCHHHHHHHHHHhhCCE
+
+
+No 83
+>cd16357 GLOD4_C; C-terminal domain of human glyoxalase domain-containing protein 4 and similar proteins.
+Probab=35.38  E-value=62  Score=18.29  Aligned_cols=19  Identities=11%  Similarity=0.312  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         4 l~~~d~~~~~~fy~~~lg~   22 (114)
+T cd16357           4 LAVSDLQKSLNYWCNLLGM   22 (116)
+T ss_pred             EEeCCHHHHHHHHhhcccc
+
+
+No 84
+>cd07254 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=35.33  E-value=80  Score=17.87  Aligned_cols=19  Identities=11%  Similarity=0.263  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++++.||.+..|.
+T Consensus         7 ~~~~d~~~~~~fy~~~lg~   25 (120)
+T cd07254           7 LNVTDLEASVRFYRAAFAA   25 (122)
+T ss_pred             EEcCCHHHHHHHHHHhhCC
+
+
+No 85
+>PF14506.6 ; CppA_N ; CppA N-terminal
+Probab=35.29  E-value=58  Score=19.48  Aligned_cols=19  Identities=16%  Similarity=0.431  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus         6 i~v~d~~~~~~Fy~~~lg~   24 (124)
+T Q8DXW5_STRA5/9    6 LRVNNRDLNIAFYQESLGF   24 (124)
+T ss_pred             EEcCCHHHHHHHHHhccCC
+
+
+No 86
+>PF13046.6 ; DUF3906 ; Protein of unknown function (DUF3906)
+Probab=35.27  E-value=1e+02  Score=18.60  Aligned_cols=18  Identities=33%  Similarity=0.219  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             EEEECCHHHHHHHHHHHh
+Q Q_9186633_34     11 WVCAETEEQAKEYYKEEC   28 (100)
+Q Consensus        11 ~vaA~s~eeA~~~y~~~~   28 (100)
+                      +|+|.|.|+|.+....+.
+T Consensus        18 Vv~Ae~dE~AF~~ae~el   35 (64)
+T N0ARJ2_9BACI/1   18 IVAAENDEAAFRQVDIEI   35 (64)
+T ss_pred             EEEECCHHHHHHHHHHHH
+
+
+No 87
+>cd07252 BphC1-RGP6_N_like; N-terminal domain of 2,3-dihydroxybiphenyl 1,2-dioxygenase. This subfamily contains the N-terminal, non-catalytic, domain of BphC1-RGP6 and similar proteins.
+Probab=35.10  E-value=87  Score=17.92  Aligned_cols=19  Identities=21%  Similarity=0.204  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++.+||.+..|.
+T Consensus         8 ~~~~d~~~~~~fy~~~lg~   26 (120)
+T cd07252           8 IEATDMAAWREYGLKVLGM   26 (120)
+T ss_pred             EEeCCHHHHHHHHHHhhCC
+
+
+No 88
+>PF08967.10 ; DUF1884 ; Domain of unknown function (DUF1884)
+Probab=35.09  E-value=48  Score=21.39  Aligned_cols=17  Identities=24%  Similarity=0.325  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             CeEEEECC--eeEEEECCH
+Q Q_9186633_34      1 MKVFKMND--IDWVCAETE   17 (100)
+Q Consensus         1 mkvf~v~d--~d~vaA~s~   17 (100)
+                      ||||.+.+  +|-|+|.|+
+T Consensus        58 lki~~ieELg~DAvv~Dsk   76 (91)
+T Q5JFJ5_THEKO/6   58 LRVRILEELGGDAVVVDTK   76 (91)
+T ss_pred             CeEEEehhhCCCEEEEchh
+
+
+No 89
+>d2i7ra1 d.32.1.2 (A:1-115) Hypotheical protein SP0731 {Pneumococcus (Streptococcus pneumoniae) [TaxId: 1313]}
+Probab=35.04  E-value=91  Score=18.29  Aligned_cols=19  Identities=5%  Similarity=-0.120  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|.+||.+..|.
+T Consensus         8 l~~~d~~~~~~fy~~~lg~   26 (115)
+T d2i7ra1           8 IIVSNVPQVCADLEHILDK   26 (115)
+T ss_dssp             EECSCHHHHHHHHHHHHTS
+T ss_pred             EEeCCHHHHHHHHHHHhCC
+
+
+No 90
+>cd08360 MhqB_like_C; C-terminal domain of Burkholderia sp. NF100 MhqB and similar proteins. This subfamily contains the C-terminal, catalytic, domain of Burkholderia sp.
+Probab=35.02  E-value=64  Score=18.82  Aligned_cols=19  Identities=16%  Similarity=0.581  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus         9 ~~~~d~~~~~~fy~~~lg~   27 (134)
+T cd08360           9 LFTPSVQRALDFYRDALGL   27 (134)
+T ss_pred             EecCCHHHHHHHHHHccCC
+
+
+No 91
+>cd16362 TflA; Toxoflavin Lyase. Toxoflavin lyase (TflA) is metalloenzyme degrading  toxoflavin at the presence of  oxygen, Mn(II), and dithiothreitol.
+Probab=34.56  E-value=80  Score=17.66  Aligned_cols=19  Identities=11%  Similarity=0.293  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         5 ~~~~d~~~~~~fy~~~lg~   23 (110)
+T cd16362           5 LYTAELDRMLAFYTNMLGA   23 (114)
+T ss_pred             EeccCHHHHHHHHHHhhCC
+
+
+No 92
+>cd08342 HPPD_N_like; N-terminal domain of 4-hydroxyphenylpyruvate dioxygenase (HPPD) and hydroxymandelate Synthase (HmaS).
+Probab=34.55  E-value=85  Score=18.48  Aligned_cols=19  Identities=21%  Similarity=0.420  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++.+||.+..|.
+T Consensus         6 ~~~~d~~~~~~fy~~~lg~   24 (141)
+T cd08342           6 FWVGNAKQAASFYCNKMGF   24 (144)
+T ss_pred             EEeCCHHHHHHHHHHhhCC
+
+
+No 93
+>d4jh2a_ d.32.1.0 (A:) automated matches {Bacillus cereus [TaxId: 222523]}
+Probab=34.53  E-value=78  Score=19.13  Aligned_cols=19  Identities=16%  Similarity=0.211  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus        10 l~v~d~~~~~~fy~~~lG~   28 (138)
+T d4jh2a_          10 FSVSNLEDSIEFYEKVLEG   28 (138)
+T ss_dssp             EEESCHHHHHHHHHHTSCC
+T ss_pred             EEeCCHHHHHHHHHHhcCc
+
+
+No 94
+>COG3565 COG3565; Predicted dioxygenase of extradiol dioxygenase family  [General function prediction only]. 
+Probab=33.96  E-value=85  Score=18.91  Aligned_cols=19  Identities=16%  Similarity=0.419  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus        10 l~v~d~~~~~~fy~~~lG~   28 (138)
+T COG3565          10 IPVNDLDETRRFYGEVLGC   28 (138)
+T ss_pred             EEeCCHHHHHHHHHHhhCc
+
+
+No 95
+>d3fcda1 d.32.1.0 (A:4-124) automated matches {Uncultured bacterium [TaxId: 77133]}
+Probab=33.82  E-value=69  Score=18.78  Aligned_cols=19  Identities=11%  Similarity=0.209  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|.+||.+..|.
+T Consensus         8 l~v~d~~~~~~fy~~~lg~   26 (121)
+T d3fcda1           8 LHIPDMQEALTLFCDTLGF   26 (121)
+T ss_dssp             EEESCHHHHHCCCCCCTCC
+T ss_pred             EEcCCHHHHHHHHHhccCc
+
+
+No 96
+>cd08348 BphC2-C3-RGP6_C_like; The single-domain 2,3-dihydroxybiphenyl 1,2-dioxygenases. This subfamily contains Rhodococcus globerulus P6 BphC2-RGP6 and BphC3-RGP6, and similar proteins.
+Probab=33.43  E-value=84  Score=18.51  Aligned_cols=19  Identities=11%  Similarity=0.237  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             EEECC--HHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAET--EEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s--~eeA~~~y~~~~g~   30 (100)
+                      +.+.+  .++|+.||.+..|.
+T Consensus         7 ~~~~d~~~~~~~~fy~~~lg~   27 (137)
+T cd08348           7 LQTNQ--LPAMTQWYIDVLGA   25 (134)
+T ss_pred             EEcCchhHHHHHHHHHHhhCC
+
+
+No 97
+>d1kw3b2 d.32.1.3 (B:133-288) 2,3-Dihydroxybiphenyl dioxygenase (DHBD, BPHC enzyme) {Pseudomonas sp. [TaxId: 306]}
+Probab=33.42  E-value=76  Score=19.87  Aligned_cols=19  Identities=26%  Similarity=0.567  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus        16 l~v~d~~~a~~fy~~~lG~   34 (156)
+T d1kw3b2          16 RCVPDTAKAMAFYTEVLGF   34 (156)
+T ss_dssp             EECSCHHHHHHCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHHccCC
+
+
+No 98
+>cd08356 VOC_CChe_VCA0619_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. uncharacterized subfamily of vicinal oxygen chelate (VOC) family contains Vibrio cholerae VCA0619 and similar proteins.
+Probab=33.34  E-value=94  Score=17.66  Aligned_cols=19  Identities=26%  Similarity=0.476  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             EEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     11 WVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        11 ~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      .+...+.+++.+||.+ .|.
+T Consensus         6 ~~~~~d~~~~~~fy~~-lg~   24 (113)
+T cd08356           6 FVPAQDFTTSKQFYLS-LGF   24 (113)
+T ss_pred             EEEeCCHHHHHHHHHH-cCC
+
+
+No 99
+>d1kw3b1 d.32.1.3 (B:1-132) 2,3-Dihydroxybiphenyl dioxygenase (DHBD, BPHC enzyme) {Pseudomonas sp. [TaxId: 306]}
+Probab=32.70  E-value=76  Score=19.07  Aligned_cols=19  Identities=5%  Similarity=0.223  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus        10 l~~~d~~~~~~fy~~~lg~   28 (132)
+T d1kw3b1          10 FAVKDVPAWDHFLTKSVGL   28 (132)
+T ss_dssp             EEESCHHHHHHCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHHccCc
+
+
+No 100
+>cd08364 FosX; fosfomycin resistant protein subfamily FosX. This subfamily family contains FosX, a fosfomycin resistant protein.
+Probab=32.47  E-value=98  Score=17.80  Aligned_cols=19  Identities=0%  Similarity=0.106  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus         9 ~~~~d~~~~~~fy~~~lg~   27 (130)
+T cd08364           9 LIVKDLNKTTAFLQNIFNA   27 (130)
+T ss_pred             EEEcCHHHHHHHHHHhcCC
+
+
+No 101
+>PF13669.6 ; Glyoxalase_4 ; Glyoxalase/Bleomycin resistance protein/Dioxygenase superfamily
+Probab=32.29  E-value=81  Score=18.12  Aligned_cols=19  Identities=0%  Similarity=-0.025  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus         5 l~v~d~~~~~~fy~~~lg~   23 (104)
+T D5URS6_TSUPD/1    5 LTSPNSDRIIATLCGRLDF   23 (104)
+T ss_pred             EecCCHHHHHHHHHhhcCc
+
+
+No 102
+>d3rmua1 d.32.1.0 (A:45-176) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=32.29  E-value=98  Score=18.19  Aligned_cols=19  Identities=26%  Similarity=0.459  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus         9 l~v~d~~~~~~fy~~~lg~   27 (132)
+T d3rmua1           9 IAVPDLEKAAAFYKNILGA   27 (132)
+T ss_dssp             EECSCHHHHHHCCCCCSCC
+T ss_pred             EEcCCHHHHHHHHHHHhCC
+
+
+No 103
+>d3isqa1 d.32.1.3 (A:9-174) 4-hydroxyphenylpyruvate dioxygenase, HppD {Human (Homo sapiens) [TaxId: 9606]}
+Probab=32.02  E-value=1.1e+02  Score=19.30  Aligned_cols=29  Identities=14%  Similarity=0.323  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+++-. -+...+.++|++||.+..|.
+T Consensus         6 ~~~~~~~hi-~l~v~d~~~~~~fy~~~lG~   34 (166)
+T d3isqa1           6 GRFLHFHSV-TFWVGNAKQAASFYCSKMGF   34 (166)
+T ss_dssp             CEEEEEEEE-EEECSCHHHHHHHHHHHHCC
+T ss_pred             CccceEEEE-EEEeCCHHHHHHHHHHhhCC
+
+
+No 104
+>d1zswa1 d.32.1.10 (A:1-144) Hypothetical protein BC1024 {Bacillus cereus [TaxId: 1396]}
+Probab=31.71  E-value=83  Score=19.07  Aligned_cols=19  Identities=16%  Similarity=0.534  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus        12 l~v~d~~~~~~fy~~~lG~   30 (144)
+T d1zswa1          12 MVTKNANENNHFYKNVLGL   30 (144)
+T ss_dssp             EEESCHHHHHCCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHhccCC
+
+
+No 105
+>d3hpya1 d.32.1.0 (A:2-146) automated matches {Pseudomonas sp. [TaxId: 237609]}
+Probab=31.64  E-value=82  Score=19.23  Aligned_cols=19  Identities=21%  Similarity=0.401  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus        13 l~v~d~~~a~~fy~~~lg~   31 (145)
+T d3hpya1          13 VRVLNLEEGIHFYRNVLGL   31 (145)
+T ss_dssp             EEESSHHHHHHCCCCCSCC
+T ss_pred             EEeCCHHHHHHHHHHccCc
+
+
+No 106
+>d3omsa_ d.32.1.0 (A:) automated matches {Bacillus cereus [TaxId: 226900]}
+Probab=31.60  E-value=1.1e+02  Score=18.49  Aligned_cols=20  Identities=20%  Similarity=0.350  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             EEEEC-CHHHHHHHHHHHhCC
+Q Q_9186633_34     11 WVCAE-TEEQAKEYYKEECGI   30 (100)
+Q Consensus        11 ~vaA~-s~eeA~~~y~~~~g~   30 (100)
+                      .+... +.++|++||.+..|.
+T Consensus         6 ~l~v~~d~~~~~~FY~~~lg~   26 (129)
+T d3omsa_           6 FLMFEGKAEEAMNFYTSLFDQ   26 (129)
+T ss_dssp             EEEESSCHHHHHHHHHTTSTT
+T ss_pred             EEEECCChHHHHHHHHHHhCC
+
+
+No 107
+>d2zyqa2 d.32.1.0 (A:133-297) automated matches {Mycobacterium tuberculosis [TaxId: 1773]}
+Probab=31.54  E-value=81  Score=19.77  Aligned_cols=20  Identities=15%  Similarity=0.504  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +...+.++|++||.+..|..
+T Consensus        16 l~v~d~~~~~~fy~~~lG~~   35 (165)
+T d2zyqa2          16 LSTRDDAEALHFYRDVLGFR   35 (165)
+T ss_dssp             EECSCHHHHHCCCCCCTCCE
+T ss_pred             EEeCCHHHHHHHHHHccCCe
+
+
+No 108
+>cd08361 PpCmtC_N; N-terminal domain of 2,3-dihydroxy-p-cumate-3,4-dioxygenase (PpCmtC). This subfamily contains the N-terminal, non-catalytic, domain of PpCmtC.
+Probab=31.42  E-value=84  Score=18.12  Aligned_cols=19  Identities=16%  Similarity=0.239  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus        12 ~~~~d~~~~~~fy~~~lg~   30 (124)
+T cd08361          12 LGTPDLEDAESFATSCLGL   30 (124)
+T ss_pred             EEcCCHHHHHHHHHHhcCc
+
+
+No 109
+>d2p7oa_ d.32.1.2 (A:) automated matches {Listeria monocytogenes [TaxId: 169963]}
+Probab=31.34  E-value=1.1e+02  Score=18.25  Aligned_cols=19  Identities=0%  Similarity=0.106  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus        10 l~v~d~~~~~~fy~~~lg~   28 (132)
+T d2p7oa_          10 LIVKDLNKTTAFLQNIFNA   28 (132)
+T ss_dssp             EEESCHHHHHHHHHHHHCC
+T ss_pred             EEECCHHHHHHHHHHhhCC
+
+
+No 110
+>d1jifa_ d.32.1.2 (A:) Bleomycin resistance protein, BRP {Streptomyces verticillus [TaxId: 29309]}
+Probab=31.02  E-value=1.2e+02  Score=17.96  Aligned_cols=20  Identities=10%  Similarity=0.185  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             EEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     11 WVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        11 ~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      .+...+.++|.+||.+..|.
+T Consensus        10 ~l~~~d~~~~~~fy~~~lg~   29 (122)
+T d1jifa_          10 VLTAVDVPANVSFWVDTLGF   29 (122)
+T ss_dssp             EEEESSHHHHHHCCCCCTCC
+T ss_pred             EEEeCCHHHHHHHHHHhhCC
+
+
+No 111
+>cd07257 THT_oxygenase_C; The C-terminal domain of 2,4,5-trihydroxytoluene (THT) oxygenase. This subfamily contains the C-terminal, catalytic, domain of THT oxygenase.
+Probab=30.85  E-value=88  Score=19.02  Aligned_cols=19  Identities=11%  Similarity=0.179  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus         7 ~~~~d~~~~~~fy~~~lg~   25 (152)
+T cd07257           7 LIAKDFDISFDFYCYHFNF   25 (156)
+T ss_pred             eEcCCHHHHHHHHHHhcCC
+
+
+No 112
+>cd08363 FosB; fosfomycin resistant protein subfamily FosB. This subfamily family contains FosB, a fosfomycin resistant protein.
+Probab=30.85  E-value=88  Score=18.11  Aligned_cols=19  Identities=16%  Similarity=0.273  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|.+||.+..|.
+T Consensus         6 ~~~~d~~~~~~fy~~~lg~   24 (131)
+T cd08363           6 FSVSNLEKSIEFYQKILQA   24 (131)
+T ss_pred             EEeCCHHHHHHHHHhccCc
+
+
+No 113
+>d1lkda1 d.32.1.3 (A:2-132) 2,3-Dihydroxybiphenyl dioxygenase (DHBD, BPHC enzyme) {Burkholderia cepacia, formerly Pseudomonas cepacia [TaxId: 292]}
+Probab=30.79  E-value=87  Score=18.66  Aligned_cols=19  Identities=5%  Similarity=0.249  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus        10 l~v~d~~~~~~fy~~~lg~   28 (131)
+T d1lkda1          10 FAVSDVAAWRSFLTQKLGL   28 (131)
+T ss_dssp             EEESCHHHHHHCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHHccCc
+
+
+No 114
+>d2pk8a_ d.274.1.1 (A:) Hypothetical protein PF0899 {Pyrococcus furiosus [TaxId: 2261]}
+Probab=30.55  E-value=65  Score=20.85  Aligned_cols=17  Identities=18%  Similarity=0.272  Sum_probs=0.0  Template_Neff=2.500
+
+Q ss_pred             CeEEEECC--eeEEEECCH
+Q Q_9186633_34      1 MKVFKMND--IDWVCAETE   17 (100)
+Q Consensus         1 mkvf~v~d--~d~vaA~s~   17 (100)
+                      ||||.+.+  +|-|+|.|+
+T Consensus        60 LkI~~ieELg~DAVV~DSk   78 (94)
+T d2pk8a_          60 IKIEILEELGGDAVVIDSK   78 (94)
+T ss_dssp             EEEEECGGGTTEEEEECTT
+T ss_pred             cEEEEehhhCCCEEEEchh
+
+
+No 115
+>d1ecsa_ d.32.1.2 (A:) Bleomycin resistance protein, BRP {Klebsiella pneumoniae [TaxId: 573]}
+Probab=30.45  E-value=97  Score=18.16  Aligned_cols=18  Identities=11%  Similarity=0.371  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|.+||.+ .|.
+T Consensus         8 l~~~d~~~~~~fy~~-lG~   25 (120)
+T d1ecsa_           8 LPSRDFDSTAAFYER-LGF   25 (120)
+T ss_dssp             EEESCHHHHHHHHHT-TTC
+T ss_pred             EEeCCHHHHHHHHHh-cCC
+
+
+No 116
+>cd08358 GLOD4_N; N-terminal domain of human glyoxalase domain-containing protein 4 and similar proteins.
+Probab=29.57  E-value=1e+02  Score=17.75  Aligned_cols=19  Identities=16%  Similarity=0.368  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++++.||.+..|.
+T Consensus         8 ~~~~d~~~~~~fy~~~lg~   26 (127)
+T cd08358           8 FKVGNRFQTARFYRDVLGM   26 (127)
+T ss_pred             EEcCCHHHHHHHHHHhhCC
+
+
+No 117
+>d1mpya1 d.32.1.3 (A:1-145) Catechol 2,3-dioxygenase (metapyrocatechase) {Pseudomonas putida, mt2 [TaxId: 303]}
+Probab=29.41  E-value=1.1e+02  Score=18.73  Aligned_cols=19  Identities=26%  Similarity=0.232  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus        13 l~v~d~~~~~~fy~~~lG~   31 (145)
+T d1mpya1          13 LRVLDMSKALEHYVELLGL   31 (145)
+T ss_dssp             EEESCHHHHHCCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHHhhCc
+
+
+No 118
+>COG2764 PhnB; Uncharacterized conserved protein PhnB, glyoxalase superfamily [General function prediction only]. 
+Probab=29.22  E-value=1.3e+02  Score=18.20  Aligned_cols=19  Identities=26%  Similarity=0.445  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             EEEC-CHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAE-TEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~-s~eeA~~~y~~~~g~   30 (100)
+                      +... +.+++++||.+..|.
+T Consensus         6 l~~~~d~~~~~~fy~~~lg~   25 (136)
+T COG2764           6 LFFNGNAREALAFYKEVFGA   25 (136)
+T ss_pred             EEEcCCHHHHHHHHHHHhCC
+
+
+No 119
+>d1xrka_ d.32.1.2 (A:) Bleomycin resistance protein, BRP {Streptoalloteichus hindustanus [TaxId: 2017]}
+Probab=28.06  E-value=1.4e+02  Score=17.56  Aligned_cols=20  Identities=20%  Similarity=0.403  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             EEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     11 WVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        11 ~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      .+.+.+.++|+.||.+..|.
+T Consensus         9 ~l~~~d~~~~~~fy~~~lg~   28 (120)
+T d1xrka_           9 VLTARDVAEAVEFWTDRLGF   28 (120)
+T ss_dssp             EEEESCHHHHHHCCCCCTCC
+T ss_pred             eEEeccHHHHHHHHHHhhCC
+
+
+No 120
+>cd08347 PcpA_C_like; C-terminal domain of Sphingobium chlorophenolicum 2,6-dichloro-p-hydroquinone 1,2-dioxygenase (PcpA), and similar proteins.
+Probab=27.85  E-value=1.3e+02  Score=18.44  Aligned_cols=19  Identities=11%  Similarity=0.113  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++++.||.+..|.
+T Consensus         7 l~~~d~~~~~~fy~~~lg~   25 (157)
+T cd08347           7 LTVRRLDKMASTLTEIFGY   25 (156)
+T ss_pred             EEeCCHHHHHHHHHHhhCC
+
+
+No 121
+>d1c9fa_ d.15.2.1 (A:) Caspase-activated DNase (CAD), DFF40, N-terminal domain {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=27.84  E-value=2.1e+02  Score=18.00  Aligned_cols=31  Identities=13%  Similarity=0.021  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             CeEEEECCee-----EEEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34      1 MKVFKMNDID-----WVCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus         1 mkvf~v~d~d-----~vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +|.|+|-+.+     -|+|.|.++.+.--++..+++
+T Consensus         8 ~k~fKV~~~~r~~r~gv~a~sl~eL~~k~~~kl~l~   43 (87)
+T d1c9fa_           8 PKCVKLRALHSACKFGVAARSCQELLRKGCVRFQLP   43 (87)
+T ss_dssp             CEEEEEEETTSSCCCEEEESSHHHHHHHHHHHTTCC
+T ss_pred             CceEEEEcCCCCCcEEEEecCHHHHHHHHHHhcCCC
+
+
+No 122
+>d1npba_ d.32.1.2 (A:) Fosfomycin resistance protein A (FosA) {Serratia marcescens [TaxId: 615]}
+Probab=27.30  E-value=1.3e+02  Score=18.50  Aligned_cols=19  Identities=11%  Similarity=0.366  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus        10 l~v~d~~~~~~fy~~~lg~   28 (140)
+T d1npba_          10 LAVSDLQKSVTFWHELLGL   28 (140)
+T ss_dssp             EEESCHHHHHCCCCCCSCC
+T ss_pred             EEeCCHHHHHHHHHHhhCC
+
+
+No 123
+>d1mpya2 d.32.1.3 (A:146-307) Catechol 2,3-dioxygenase (metapyrocatechase) {Pseudomonas putida, mt2 [TaxId: 303]}
+Probab=27.28  E-value=1e+02  Score=19.65  Aligned_cols=29  Identities=7%  Similarity=0.255  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |.+.++.-. .+...+.++|++||.+..|.
+T Consensus         1 m~~~~l~~i-~l~v~d~~~~~~Fy~~~lG~   29 (162)
+T d1mpya2           1 MAAVRFDHA-LMYGDELPATYDLFTKVLGF   29 (162)
+T ss_dssp             TCCCEEEEE-EEEESCHHHHHHCCCCCTCC
+T ss_pred             CCcccccEE-EEEcCCHHHHHHHHHHccCc
+
+
+No 124
+>d1u69a_ d.32.1.7 (A:) Hypothetical protein PA2721 {Pseudomonas aeruginosa [TaxId: 287]}
+Probab=27.13  E-value=1.4e+02  Score=20.32  Aligned_cols=21  Identities=14%  Similarity=0.192  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             EEEEC-CHHHHHHHHHHHhCCC
+Q Q_9186633_34     11 WVCAE-TEEQAKEYYKEECGID   31 (100)
+Q Consensus        11 ~vaA~-s~eeA~~~y~~~~g~~   31 (100)
+                      .+... +.++|++||.+..|..
+T Consensus         6 ~l~v~gd~~~A~~FY~~vfG~~   27 (156)
+T d1u69a_           6 CLWYDSAALEAATFYAETFPDS   27 (156)
+T ss_dssp             EEEESSCHHHHHHHHHHHSTTE
+T ss_pred             EEEECCcHHHHHHHHHHHCCCc
+
+
+No 125
+>d4naza1 d.32.1.0 (A:2-139) automated matches {Staphylococcus aureus [TaxId: 158879]}
+Probab=26.86  E-value=1.1e+02  Score=18.63  Aligned_cols=19  Identities=5%  Similarity=0.086  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus         9 l~v~d~~~~~~fy~~~lg~   27 (138)
+T d4naza1           9 FSVRNLNDSIHFYRDILLG   27 (138)
+T ss_dssp             EEESCHHHHHCCCCCCSCC
+T ss_pred             EEeCCHHHHHHHHHhccCC
+
+
+No 126
+>d3uh9a1 d.32.1.0 (A:2-139) automated matches {Bacillus anthracis [TaxId: 198094]}
+Probab=26.83  E-value=1.4e+02  Score=18.23  Aligned_cols=19  Identities=16%  Similarity=0.273  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|+.||.+..|.
+T Consensus         9 l~v~d~~~~~~fy~~~lG~   27 (138)
+T d3uh9a1           9 FSVSNLEKSIEFYQKILQA   27 (138)
+T ss_dssp             EEESCHHHHHHHHHHTSCC
+T ss_pred             EEeCCHHHHHHHHHHhhCC
+
+
+No 127
+>d1tfza1 d.32.1.3 (A:15-195) 4-hydroxyphenylpyruvate dioxygenase, HppD {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+Probab=26.69  E-value=1.4e+02  Score=19.78  Aligned_cols=30  Identities=13%  Similarity=0.175  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +++.++.-. .+...+.+++++||.+..|..
+T Consensus         7 ~~~~~i~hi-~l~v~d~~~~~~fy~~~lG~~   36 (181)
+T d1tfza1           7 FKVKRFHHI-EFWCGDATNVARRFSWGLGMR   36 (181)
+T ss_dssp             SCEEEEEEE-EEECSCHHHHHHHHHHHHTCE
+T ss_pred             ccccceEEE-EEEeCCHHHHHHHHHHhhCCc
+
+
+No 128
+>cd07262 VOC_like; uncharacterized subfamily of vicinal oxygen chelate (VOC) family. The vicinal oxygen chelate (VOC) superfamily is composed of structurally related proteins with paired beta.
+Probab=26.66  E-value=1.3e+02  Score=16.84  Aligned_cols=19  Identities=16%  Similarity=0.431  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             EEECCHHHHHHHHHHHh---CC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEEC---GI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~---g~   30 (100)
+                      +...+.++|++||.+..   |.
+T Consensus         6 l~v~d~~~~~~fy~~~l~~~~~   27 (121)
+T cd07262           6 FNIADMKKSRAFYDAALSPLGI   27 (118)
+T ss_pred             EecCCHHHHHHHHHHhhCccCc
+
+
+No 129
+>d1sp8a1 d.32.1.3 (A:36-207) 4-hydroxyphenylpyruvate dioxygenase, HppD {Maize (Zea mays) [TaxId: 4577]}
+Probab=26.60  E-value=1.3e+02  Score=19.19  Aligned_cols=20  Identities=10%  Similarity=0.085  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             EEECCHHHHHHHHHHHhCCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGID   31 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~~   31 (100)
+                      +...+.++|++||.+..|..
+T Consensus        19 l~v~d~~~~~~fy~~~lG~~   38 (172)
+T d1sp8a1          19 LWCADAASAAGRFSFGLGAP   38 (172)
+T ss_dssp             EECSCHHHHHHHHHHHHTCC
+T ss_pred             EEeCCHHHHHHHHHHhcCCc
+
+
+No 130
+>KOG2944 Glyoxalase [Carbohydrate transport and metabolism]
+Probab=26.38  E-value=1.6e+02  Score=18.77  Aligned_cols=29  Identities=7%  Similarity=0.265  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+..+.-. .+...+.++++.||.+..|.
+T Consensus        18 ~~~~~~~~~-~i~v~d~~~~~~fy~~~lG~   46 (170)
+T KOG2944          18 TPTYLLQQT-MLRVKDPTGSLKFYTRVNGM   46 (170)
+T ss_pred             CCeeEEeeE-EEEecCChHHHHHHHHhcCC
+
+
+No 131
+>cd07258 PpCmtC_C; C-terminal domain of 2,3-dihydroxy-p-cumate-3,4-dioxygenase (PpCmtC). This subfamily contains the C-terminal, catalytic, domain of PpCmtC.
+Probab=25.93  E-value=1.1e+02  Score=18.43  Aligned_cols=19  Identities=16%  Similarity=0.354  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus         5 l~~~d~~~~~~fy~~~lg~   23 (138)
+T cd07258           5 IGSENFEGSRDSLVDDFGF   23 (141)
+T ss_pred             EecCChHHHHHHHHhccCC
+
+
+No 132
+>cd07239 BphC5-RK37_C_like; C-terminal, catalytic domain of BphC5 (2,3-dihydroxybiphenyl 1,2-dioxygenase). 2,3-dihydroxybiphenyl 1,2-dioxygenase (BphC) catalyzes the extradiol ring cleavage reaction of 2,3-dihydroxybiphenyl, the third step in the polychlorinated biphenyls (PCBs) degradation pathway (bph pathway).
+Probab=25.69  E-value=1.3e+02  Score=17.89  Aligned_cols=19  Identities=5%  Similarity=0.375  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+..|.
+T Consensus        10 l~~~d~~~~~~fy~~~lg~   28 (143)
+T cd07239          10 LHSPNHQDXVKFFTDVLGF   28 (142)
+T ss_pred             EEcCCHHHHHHHHHHhhCC
+
+
+No 133
+>d2ehza2 d.32.1.0 (A:138-302) automated matches {Pseudomonas sp. [TaxId: 69011]}
+Probab=25.34  E-value=1.7e+02  Score=18.87  Aligned_cols=28  Identities=14%  Similarity=0.164  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      |.+.+++-. -+.+.+.++|++||. ..|.
+T Consensus         8 ~~~~~i~hi-~l~v~d~~~a~~FY~-~lG~   35 (165)
+T d2ehza2           8 TGDQGLGHC-IVRQTDVAEAHKFYS-LLGF   35 (165)
+T ss_dssp             CGGGCSCEE-EECCSCHHHHHHHHH-HTTC
+T ss_pred             ccCceeceE-EEEeCCHHHHHHHHH-HcCC
+
+
+No 134
+>d4ghga1 d.32.1.3 (A:3-147) Homoprotocatechuate 2,3-dioxygenase {Brevibacterium fuscum [TaxId: 47914]}
+Probab=25.29  E-value=1.2e+02  Score=18.63  Aligned_cols=19  Identities=11%  Similarity=0.441  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|.+||.+..|.
+T Consensus        21 l~v~d~~~a~~fy~~~lG~   39 (145)
+T d4ghga1          21 LVVTDLAKSRNFYVDVLGL   39 (145)
+T ss_dssp             EEESCHHHHHCCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHHccCc
+
+
+No 135
+>cd08350 BLMT_like; BLMT, a bleomycin resistance protein encoded on the transposon Tn5, and similar proteins.
+Probab=25.04  E-value=1.4e+02  Score=17.00  Aligned_cols=18  Identities=11%  Similarity=0.371  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.+++++||.+ .|.
+T Consensus         8 ~~~~d~~~~~~fy~~-lg~   25 (118)
+T cd08350           8 LPSRDFDSTAAFYER-LGF   25 (118)
+T ss_pred             eEeCCHHHHHHHHHH-cCC
+
+
+No 136
+>d1ss4a1 d.32.1.6 (A:1-148) Hypothetical protein BC1747 {Bacillus cereus (strain ATCC 14579 / DSM 31) [TaxId: 226900]}
+Probab=24.88  E-value=2.3e+02  Score=17.11  Aligned_cols=28  Identities=21%  Similarity=0.580  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+-.++-. -+...+.++|++||.+ .|.
+T Consensus         4 ~~~~~l~hi-~~~v~d~~~~~~fy~~-lG~   31 (148)
+T d1ss4a1           4 NKLLRMDNV-SIVVESLDNAISFFEE-IGL   31 (148)
+T ss_dssp             CCEEEEEEE-EEECSCHHHHHHHHHH-HTC
+T ss_pred             ceeeeeeeE-EEEeCCHHHHHHHHHH-cCC
+
+
+No 137
+>d5v91a_ d.32.1.0 (A:) automated matches {Klebsiella pneumoniae [TaxId: 573]}
+Probab=24.38  E-value=1.4e+02  Score=18.13  Aligned_cols=19  Identities=11%  Similarity=0.350  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.+++++||.+..|.
+T Consensus        10 l~~~d~~~~~~fy~~~lG~   28 (138)
+T d5v91a_          10 LAVSQLAPSVAFYQQLLGM   28 (138)
+T ss_dssp             EEESCHHHHHHCCCCCTCC
+T ss_pred             EEeCCHHHHHHHHHHhcCC
+
+
+No 138
+>PF14454.6 ; Prok_Ub ; Prokaryotic Ubiquitin
+Probab=24.29  E-value=1.1e+02  Score=17.90  Aligned_cols=27  Identities=33%  Similarity=0.415  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             eEEEECC---eeEEEECCHHHHHHHHHHHh
+Q Q_9186633_34      2 KVFKMND---IDWVCAETEEQAKEYYKEEC   28 (100)
+Q Consensus         2 kvf~v~d---~d~vaA~s~eeA~~~y~~~~   28 (100)
+                      |+|+++.   -|--..-|.++++++|...+
+T Consensus         4 R~F~~~~~~l~DP~P~~s~e~v~~~~a~~y   33 (62)
+T H8H183_DEIGI/2    4 RVFKFDGKVLDDPNPKSTPEQVKTFYAPTY   33 (62)
+T ss_pred             EEEEECCEEecCCCCCCCHHHHHHHHHHhC
+
+
+No 139
+>cd08344 MhqB_like_N; N-terminal domain of MhqB, a type I extradiol dioxygenase, and similar proteins.
+Probab=24.05  E-value=1.6e+02  Score=16.17  Aligned_cols=18  Identities=17%  Similarity=0.381  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +.+.+.++|+.||. ..|.
+T Consensus         8 ~~~~d~~~~~~fy~-~lg~   25 (112)
+T cd08344           8 FGVPDLDKAEEFHR-AFGL   25 (112)
+T ss_pred             EEeCCHHHHHHHHH-HcCC
+
+
+No 140
+>d2wl9a2 d.32.1.0 (A:135-300) automated matches {Rhodococcus sp. [TaxId: 186196]}
+Probab=23.70  E-value=1.2e+02  Score=19.64  Aligned_cols=28  Identities=18%  Similarity=0.359  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CeEEEECCeeEEEECCHHHHHHHHHHHhCC
+Q Q_9186633_34      1 MKVFKMNDIDWVCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus         1 mkvf~v~d~d~vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +++-+++-. .+.+.+.++|++||. ..|.
+T Consensus         8 ~~~~~i~hi-~l~v~d~~~a~~Fy~-~lG~   35 (166)
+T d2wl9a2           8 TEGQGLGHI-IIREDDVEEATRFYR-LLGL   35 (166)
+T ss_dssp             CTTTCSCEE-EECCSCHHHHHHHHH-HHTC
+T ss_pred             cCCCcceEE-EEEcCCHHHHHHHHH-HcCC
+
+
+No 141
+>d1zswa2 d.32.1.10 (A:145-314) Hypothetical protein BC1024 {Bacillus cereus [TaxId: 1396]}
+Probab=23.16  E-value=1.8e+02  Score=18.64  Aligned_cols=19  Identities=11%  Similarity=0.113  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+..|.
+T Consensus        18 l~v~d~~~a~~fy~~~lg~   36 (170)
+T d1zswa2          18 LTVRRLDKMASTLTEIFGY   36 (170)
+T ss_dssp             EEESCHHHHHHCCCCCTCC
+T ss_pred             EEECCHHHHHHHHHHHhCC
+
+
+No 142
+>d1u7ia1 d.32.1.7 (A:1-132) Hypothetical protein PA1358 {Pseudomonas aeruginosa [TaxId: 287]}
+Probab=22.76  E-value=1.8e+02  Score=17.56  Aligned_cols=19  Identities=16%  Similarity=0.275  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             EEEECC--HHHHHHHHHHHhC
+Q Q_9186633_34     11 WVCAET--EEQAKEYYKEECG   29 (100)
+Q Consensus        11 ~vaA~s--~eeA~~~y~~~~g   29 (100)
+                      .+...+  .++|++||.+..|
+T Consensus         8 ~~~~~~~d~~~~~~FY~~~lg   28 (132)
+T d1u7ia1           8 FLMFQGVQAEAAMNFYLSLFD   28 (132)
+T ss_dssp             EEEEESSCHHHHHHHHHHHCS
+T ss_pred             EEEEcCCCHHHHHHHHHHhcC
+
+
+No 143
+>COG3865 COG3865; Glyoxalase superfamily enzyme, possibly 3-demethylubiquinone-9 3-methyltransferase [General function prediction only]. 
+Probab=22.30  E-value=1.9e+02  Score=19.06  Aligned_cols=21  Identities=14%  Similarity=0.282  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EEEEC-CHHHHHHHHHHHhCCC
+Q Q_9186633_34     11 WVCAE-TEEQAKEYYKEECGID   31 (100)
+Q Consensus        11 ~vaA~-s~eeA~~~y~~~~g~~   31 (100)
+                      .+... +.++|++||.+..|..
+T Consensus         9 ~l~v~~d~e~a~~FY~~~lG~~   30 (151)
+T COG3865           9 FLWFDGNAEEAMNFYLSTFPDS   30 (151)
+T ss_pred             EEEECCCHHHHHHHHHHhCCcc
+
+
+No 144
+>cd07256 HPCD_C_class_II; C-terminal domain of 3,4-dihydroxyphenylacetate 2,3-dioxygenase (HPCD). This subfamily contains the C-terminal, catalytic, domain of HPCD.
+Probab=21.52  E-value=1.6e+02  Score=18.32  Aligned_cols=18  Identities=11%  Similarity=0.348  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             EEECCHHHHHHHHHHHhCC
+Q Q_9186633_34     12 VCAETEEQAKEYYKEECGI   30 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~g~   30 (100)
+                      +...+.++|++||.+ .|.
+T Consensus         9 l~v~d~~~~~~fy~~-lg~   26 (160)
+T cd07256           9 QVTPDVPRGRAYLED-LGF   26 (160)
+T ss_pred             EEcCCHHHHHHHHHh-cCC
+
+
+No 145
+>d4lbha_ d.58.4.0 (A:) automated matches {Burkholderia cepacia [TaxId: 292]}
+Probab=21.46  E-value=1.8e+02  Score=17.15  Aligned_cols=21  Identities=10%  Similarity=0.140  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             ECCeeEEEECCHHHHHHHHHH
+Q Q_9186633_34      6 MNDIDWVCAETEEQAKEYYKE   26 (100)
+Q Consensus         6 v~d~d~vaA~s~eeA~~~y~~   26 (100)
+                      ++.+-++-|.|.++|.++..+
+T Consensus        54 ~gg~~i~~a~s~~ea~~~~~~   74 (94)
+T d4lbha_          54 TGSFLIMEAESWDEVHSFVEN   74 (94)
+T ss_dssp             EEEEEEEECSSHHHHHHHHHT
+T ss_pred             eEEEEEEEeCCHHHHHHHHhc
+
+
+No 146
+>PF14207.6 ; DpnD-PcfM ; DpnD/PcfM-like protein
+Probab=20.91  E-value=2.2e+02  Score=15.72  Aligned_cols=17  Identities=41%  Similarity=0.348  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             EEECCHHHHHHHHHHHh
+Q Q_9186633_34     12 VCAETEEQAKEYYKEEC   28 (100)
+Q Consensus        12 vaA~s~eeA~~~y~~~~   28 (100)
+                      |-|.|.++|++.-.+.+
+T Consensus        15 VeA~s~~eA~~~v~~~Y   31 (46)
+T R6DPT9_9FIRM/4   15 VEAESVEEAQRRVKEGW   31 (46)
+T ss_pred             EEcCCHHHHHHHHHHHH
+
+
+No 147
+>PF18253.1 ; HipN ; Hsp70-interacting protein N N-terminal domain
+Probab=20.48  E-value=1.4e+02  Score=15.99  Aligned_cols=13  Identities=31%  Similarity=0.148  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             HHHHHHHCCCCCC
+Q Q_9186633_34     80 FEWAIKQNNITKP   92 (100)
+Q Consensus        80 fre~L~~~~~~~P   92 (100)
+                      ||++|+..|.+.|
+T Consensus        30 fk~~les~G~~iP   42 (42)
+T V8P772_OPHHA/2   30 FRDWIESMGGTIP   42 (42)
+T ss_pred             HHHHHHHccCCCC
+
+

@@ -1,0 +1,297 @@
+Query         Q_9186633_27
+Match_columns 63
+No_of_seqs    31 out of 33
+Neff          4.33515
+Searched_HMMs 69205
+Date          Sun May 24 00:21:08 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_27.hhr -oa3m ../results/9186633_27.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF16857.5 ; RNA_pol_inhib ; RN  84.8     3.6 5.2E-05   23.6   3.8   32    2-42      1-33  (46)
+  2 PF02576.17 ; DUF150 ; RimP N-t  73.9      20 0.00029   20.8   7.3   58    1-58      9-70  (74)
+  3 d4ntka_ d.96.1.0 (A:) automate  40.0      87  0.0013   19.4   3.5   36   13-48     34-75  (121)
+  4 COG0779 RimP; Ribosome maturat  35.5 1.8E+02  0.0026   19.3   8.0   58    1-58     21-81  (153)
+  5 PF01093.17 ; Clusterin ; Clust  35.5      98  0.0014   25.2   3.9   35    5-39    374-408 (417)
+  6 PF17412.2 ; VraX ; Family of u  33.4      91  0.0013   18.6   2.7   34   10-44     18-51  (55)
+  7 d2g64a1 d.96.1.2 (A:1-139) 6-p  31.7 1.1E+02  0.0016   19.7   3.1   42   13-54     47-94  (139)
+  8 d3lx3a_ d.96.1.2 (A:) automate  31.4 1.3E+02  0.0018   19.9   3.4   39   13-51     34-77  (163)
+  9 d1ib8a2 d.52.4.1 (A:1-90) Hypo  30.5 1.8E+02  0.0026   17.9   7.0   55    4-58     27-86  (90)
+ 10 KOG4105 6-pyruvoyl tetrahydrob  29.3 1.7E+02  0.0024   19.1   3.7   42   13-54     47-95  (141)
+ 11 PF04446.12 ; Thg1 ; tRNAHis gu  26.9 1.2E+02  0.0018   20.5   2.8   42    1-42      4-56  (143)
+ 12 d1b66a_ d.96.1.2 (A:) 6-pyruvo  25.4 1.6E+02  0.0022   18.9   3.0   42   13-54     45-93  (138)
+ 13 KOG1755 Profilin [Cytoskeleton  24.3 2.2E+02  0.0032   17.5   3.4   40    8-47     89-128 (128)
+ 14 d3ul5a_ d.17.1.0 (A:) automate  24.1 1.9E+02  0.0027   15.9   3.3   33   25-61      1-33  (82)
+ 15 d2w9qa_ d.17.1.0 (A:) automate  23.8 1.9E+02  0.0028   16.0   3.1   35   25-63      7-41  (87)
+ 16 PF17545.2 ; DUF5461 ; Family o  21.8 1.6E+02  0.0024   19.4   2.5   21    2-22     33-53  (89)
+ 17 PF14207.6 ; DpnD-PcfM ; DpnD/P  21.6 2.3E+02  0.0033   15.9   2.9   30    4-42      1-30  (46)
+ 18 COG4423 COG4423; Uncharacteriz  21.1 1.5E+02  0.0021   17.8   2.1   20   26-45      5-24  (81)
+ 19 PF13046.6 ; DUF3906 ; Protein   20.9 2.8E+02  0.0041   17.1   3.3   24    1-24      1-25  (64)
+ 20 PF00031.21 ; Cystatin ; Cystat  20.3 2.4E+02  0.0034   15.7   3.2   35   25-60      7-41  (89)
+
+No 1
+>PF16857.5 ; RNA_pol_inhib ; RNA polymerase inhibitor
+Probab=84.80  E-value=3.6  Score=23.62  Aligned_cols=32  Identities=22%  Similarity=0.312  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             ceEEEEEEE-EEEEEEEEEEecCCcCCchhHHHHHHHHHHhC
+Q Q_9186633_27      2 EKYQVEVKV-TKTYKTLVEVEIPEDANGDDFQRLVEEKVESM   42 (63)
+Q Consensus         2 kky~VEleI-tk~~~t~VvVe~d~~~~d~~i~~~a~~~ad~m   42 (63)
+                      |||.|+++- |..+...|..+..+.         |.++|+.+
+T Consensus         1 Kkf~VtIee~t~s~eV~V~Aes~~e---------A~e~ae~~   33 (46)
+T B3VCZ0_9CAUD/2    1 QKFVVTVETANASYELPVHAGSLDE---------ALEVAEAE   33 (46)
+T ss_pred             CeEEEEEEeceEEEEEEEEeCCHHH---------HHHHHHHH
+
+
+No 2
+>PF02576.17 ; DUF150 ; RimP N-terminal domain
+Probab=73.93  E-value=20  Score=20.84  Aligned_cols=58  Identities=12%  Similarity=-0.096  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             CceEEEEEEEEEEE---EEEEEEec-CCcCCchhHHHHHHHHHHhCCccccccccceEEEEE
+Q Q_9186633_27      1 MEKYQVEVKVTKTY---KTLVEVEI-PEDANGDDFQRLVEEKVESMDQEILDYQDTNHFVLK   58 (63)
+Q Consensus         1 mkky~VEleItk~~---~t~VvVe~-d~~~~d~~i~~~a~~~ad~md~~~w~y~dt~~~v~~   58 (63)
+                      +.-+.|++.+.+..   ...|.|++ +.+.+-.+..++++.+...++...|-..+-..+|-|
+T Consensus         9 ~g~~lvd~~~~~~~~~~~l~v~id~~~~gv~ld~c~~isr~i~~~ld~~~~~~~~y~LEVsS   70 (74)
+T RIMP_CLOPE/13-    9 KGYDLYHIEYVKENNEYYLRLYIEKPEERISLRDCEIVSRALSDMLDIEDPIKDAYFLEVSS   70 (74)
+T ss_pred             cCeEEEEEEEEeeCCeEEEEEEEeCCCCCcCHHHHHHHHHHHHHHhcccCCCCCCcEEEEEC
+
+
+No 3
+>d4ntka_ d.96.1.0 (A:) automated matches {Escherichia coli [TaxId: 469008]}
+Probab=40.04  E-value=87  Score=19.38  Aligned_cols=36  Identities=14%  Similarity=0.254  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             EEEEEEEEecCCc------CCchhHHHHHHHHHHhCCccccc
+Q Q_9186633_27     13 TYKTLVEVEIPED------ANGDDFQRLVEEKVESMDQEILD   48 (63)
+Q Consensus        13 ~~~t~VvVe~d~~------~~d~~i~~~a~~~ad~md~~~w~   48 (63)
+                      +|...|.++|+.+      .+-..+++..+...+.+||..++
+T Consensus        34 ~~~v~v~~~~~~~~~~g~vidf~~l~~~~~~~~~~ldh~~L~   75 (121)
+T d4ntka_          34 SFMVRLEITGEVDPHTGWIIDFAELKAAFKPTYERLDHHYLN   75 (121)
+T ss_dssp             EEEEEEEEECCCCTTTSSSSCHHHHHHHHHHHHHHHTTSBGG
+T ss_pred             cEEEEEEEEeeeCCCccEEEeHHHHHHHHHHHHHhcCccccc
+
+
+No 4
+>COG0779 RimP; Ribosome maturation factor RimP [Translation, ribosomal structure and biogenesis]. 
+Probab=35.55  E-value=1.8e+02  Score=19.33  Aligned_cols=58  Identities=14%  Similarity=-0.051  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CceEEEEEEEEEE---EEEEEEEecCCcCCchhHHHHHHHHHHhCCccccccccceEEEEE
+Q Q_9186633_27      1 MEKYQVEVKVTKT---YKTLVEVEIPEDANGDDFQRLVEEKVESMDQEILDYQDTNHFVLK   58 (63)
+Q Consensus         1 mkky~VEleItk~---~~t~VvVe~d~~~~d~~i~~~a~~~ad~md~~~w~y~dt~~~v~~   58 (63)
+                      ..-+.+++++++.   ..-.|.|+.+.+.+-.+..++...+...++...|-..+-..+|-|
+T Consensus        21 ~g~~l~di~~~~~~~~~~l~V~id~~~~i~ld~c~~~sr~i~~~LD~~~~~~~~y~LEVSS   81 (153)
+T COG0779          21 LGFELVDVEFVKEGRDSVLRIYIDKEGGVTLDDCADVSRAISALLDVEDPIEGAYFLEVSS   81 (153)
+T ss_pred             cCeEEEEEEEEeeCCceEEEEEEeCCCCCCHHHHHHHHHHHHHHhcccCCCCCCcEEEEEe
+
+
+No 5
+>PF01093.17 ; Clusterin ; Clusterin
+Probab=35.46  E-value=98  Score=25.20  Aligned_cols=35  Identities=20%  Similarity=0.233  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             EEEEEEEEEEEEEEEEecCCcCCchhHHHHHHHHH
+Q Q_9186633_27      5 QVEVKVTKTYKTLVEVEIPEDANGDDFQRLVEEKV   39 (63)
+Q Consensus         5 ~VEleItk~~~t~VvVe~d~~~~d~~i~~~a~~~a   39 (63)
+                      .|+|.|--.-+-++.|-|+...++|.+-+.+-++|
+T Consensus       374 ~V~V~ildSpp~T~tVP~e~~~~dp~FieyVa~eA  408 (417)
+T G1SQ27_RABIT/1  374 EVVVKLFDSDPITITIPEEVSRDNPKFMETVAEKA  408 (417)
+T ss_pred             EEEEEeccCCCeEEEecccCCCCChHHHHHHHHHH
+
+
+No 6
+>PF17412.2 ; VraX ; Family of unknown function
+Probab=33.39  E-value=91  Score=18.60  Aligned_cols=34  Identities=24%  Similarity=0.355  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             EEEEEEEEEEEecCCcCCchhHHHHHHHHHHhCCc
+Q Q_9186633_27     10 VTKTYKTLVEVEIPEDANGDDFQRLVEEKVESMDQ   44 (63)
+Q Consensus        10 Itk~~~t~VvVe~d~~~~d~~i~~~a~~~ad~md~   44 (63)
+                      +|+.+. ...+..|++.++-++.++..-.++.||+
+T Consensus        18 ~T~~g~-~itvk~~~d~~~~~v~~lL~ll~~dvD~   51 (55)
+T VRAX_STAEQ/1-5   18 ITKTFK-TITIKCDETFNKYEIYQLLSLLENDVDN   51 (55)
+T ss_pred             EcCCCC-EEEEEeCCCCCHHHHHHHHHHHHHhhhc
+
+
+No 7
+>d2g64a1 d.96.1.2 (A:1-139) 6-pyruvoyl tetrahydropterin synthase {Nematode (Caenorhabditis elegans) [TaxId: 6239]}
+Probab=31.67  E-value=1.1e+02  Score=19.72  Aligned_cols=42  Identities=14%  Similarity=0.117  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             EEEEEEEEecCCc------CCchhHHHHHHHHHHhCCccccccccceE
+Q Q_9186633_27     13 TYKTLVEVEIPED------ANGDDFQRLVEEKVESMDQEILDYQDTNH   54 (63)
+Q Consensus        13 ~~~t~VvVe~d~~------~~d~~i~~~a~~~ad~md~~~w~y~dt~~   54 (63)
+                      +|+..|.+.|+.+      .+-..+++..+++.+.+||..++.....|
+T Consensus        47 ~y~v~v~~~g~~~~~~g~viDf~~lk~~~~~i~~~lDh~~L~~~~~~f   94 (139)
+T d2g64a1          47 NYVWKVKLRGEVDPTSGMVYDLAKLKKEMSLVLDTVDHRNLDKDVEFF   94 (139)
+T ss_dssp             EEEEEEEEEEECCTTTCCSSCHHHHHHHHHHHHHTTTTEEHHHHCGGG
+T ss_pred             cEEEEEEEEeeeCCCCCEEEeHHHHHHHHHHHHHhcChhhcCCCchhh
+
+
+No 8
+>d3lx3a_ d.96.1.2 (A:) automated matches {Plasmodium vivax [TaxId: 5855]}
+Probab=31.37  E-value=1.3e+02  Score=19.93  Aligned_cols=39  Identities=8%  Similarity=0.050  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             EEEEEEEEecCCc-----CCchhHHHHHHHHHHhCCcccccccc
+Q Q_9186633_27     13 TYKTLVEVEIPED-----ANGDDFQRLVEEKVESMDQEILDYQD   51 (63)
+Q Consensus        13 ~~~t~VvVe~d~~-----~~d~~i~~~a~~~ad~md~~~w~y~d   51 (63)
+                      +|...|.++|+.+     .+=..+.+.+++..+.+||......+
+T Consensus        34 ~y~v~v~v~g~ld~~g~viDF~~lk~~l~~ii~~lDH~~L~~~~   77 (163)
+T d3lx3a_          34 NYNVSLRLRGNIQGDGYVIDFSILKEKVRKVCKQLDHHFILPMY   77 (163)
+T ss_dssp             EEEEEEEEEEECCTTSCSSCHHHHHHHHHHHHHHHSSSEEEETT
+T ss_pred             cEEEEEEEEEEeCCCeEEEEHHHHHHHHHHHHHhCCcEEEccCC
+
+
+No 9
+>d1ib8a2 d.52.4.1 (A:1-90) Hypothetical protein SP14.3 (SP0552) {Pneumococcus (Streptococcus pneumoniae) [TaxId: 1313]}
+Probab=30.52  E-value=1.8e+02  Score=17.88  Aligned_cols=55  Identities=16%  Similarity=0.010  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             EEEEEEEEE---EEEEEEEEecCCcCCchhHHHHHHHHHHhCCcc--ccccccceEEEEE
+Q Q_9186633_27      4 YQVEVKVTK---TYKTLVEVEIPEDANGDDFQRLVEEKVESMDQE--ILDYQDTNHFVLK   58 (63)
+Q Consensus         4 y~VEleItk---~~~t~VvVe~d~~~~d~~i~~~a~~~ad~md~~--~w~y~dt~~~v~~   58 (63)
+                      +.|++.+.+   .....|.|+.+.+..-.+..++...+...++..  .+-..+-..+|-|
+T Consensus        27 ~lvdv~~~~~~~~~~l~V~iD~~~gi~lddc~~isr~i~~~Ld~~~~~~~~~~Y~LEVSS   86 (90)
+T d1ib8a2          27 ELVDIEYGKIGSDMILSIFVDKPEGITLNDTADLTEMISPVLDTIKPDPFPEQYFLEITS   86 (90)
+T ss_dssp             EEEEEEEEEETTEEEEEEEEECSSCCCHHHHHHHHHHHGGGTTTCCSCCCCSCEEEEEEC
+T ss_pred             EEEEEEEEEeCCceEEEEEEeCCCCCCHHHHHHHHHHHHHHHhccCCCCCCCCcEEEEEC
+
+
+No 10
+>KOG4105 6-pyruvoyl tetrahydrobiopterin synthase [Coenzyme transport and metabolism]
+Probab=29.26  E-value=1.7e+02  Score=19.12  Aligned_cols=42  Identities=21%  Similarity=0.184  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             EEEEEEEEecCCc------CCchhHHHHHHHHH-HhCCccccccccceE
+Q Q_9186633_27     13 TYKTLVEVEIPED------ANGDDFQRLVEEKV-ESMDQEILDYQDTNH   54 (63)
+Q Consensus        13 ~~~t~VvVe~d~~------~~d~~i~~~a~~~a-d~md~~~w~y~dt~~   54 (63)
+                      +|...|.+.|+.+      .+-..++++.++.. +.+||..++.....|
+T Consensus        47 ty~v~v~~~g~~~~~~g~viDf~~lk~~~~~~~~~~lDh~~Ln~~~~~f   95 (141)
+T KOG4105          47 NYVVKVTVRGEIDPTTGMVYNLAKLKKEMELVIMTRLDHKNLDKDVEYF   95 (141)
+T ss_pred             eEEEEEEEEeeecCCCCEEEEHHHHHHHHHHHHHhhCCccccCCCCccc
+
+
+No 11
+>PF04446.12 ; Thg1 ; tRNAHis guanylyltransferase
+Probab=26.87  E-value=1.2e+02  Score=20.47  Aligned_cols=42  Identities=2%  Similarity=0.116  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CceEEEEEEEEEEEEEEEEEec----------C-CcCCchhHHHHHHHHHHhC
+Q Q_9186633_27      1 MEKYQVEVKVTKTYKTLVEVEI----------P-EDANGDDFQRLVEEKVESM   42 (63)
+Q Consensus         1 mkky~VEleItk~~~t~VvVe~----------d-~~~~d~~i~~~a~~~ad~m   42 (63)
+                      ||.|+-+..+.......|.++|          . +..+|+++..+-.+.|..+
+T Consensus         4 ~k~~E~~~~l~~~~~ivvRlDG~~F~kft~~~~f~kP~D~r~~~~M~~~a~~l   56 (143)
+T A0A023B4J1_GRE    4 VKSFELDDTLLPETYIVLRIDGRGFTKFTEELNFRKPNDNRGLWVMTRAAVDL   56 (143)
+T ss_pred             CcceecCccCCCCCEEEEEeeCCchhHHHHHcCCCCCCCHHHHHHHHHHHHHH
+
+
+No 12
+>d1b66a_ d.96.1.2 (A:) 6-pyruvoyl tetrahydropterin synthase {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=25.38  E-value=1.6e+02  Score=18.94  Aligned_cols=42  Identities=26%  Similarity=0.372  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             EEEEEEEEecCCc------CCchhHHHHHHH-HHHhCCccccccccceE
+Q Q_9186633_27     13 TYKTLVEVEIPED------ANGDDFQRLVEE-KVESMDQEILDYQDTNH   54 (63)
+Q Consensus        13 ~~~t~VvVe~d~~------~~d~~i~~~a~~-~ad~md~~~w~y~dt~~   54 (63)
+                      +|...|.++|+.+      .+-..+.+..++ +.+.+||..+++....|
+T Consensus        45 ~y~v~v~~~g~~~~~~g~viDf~~lk~~~~~~v~~~lDh~~L~~~~~~f   93 (138)
+T d1b66a_          45 NYKVVVTIHGEIDPVTGMVMNLTDLKEYMEEAIMKPLDHKNLDLDVPYF   93 (138)
+T ss_dssp             EEEEEEEEEEECCTTTCCSSCHHHHHHHHCCCCCHHHTTEEHHHHCGGG
+T ss_pred             cEEEEEEEEeeecCCCCEEEEHHHHHHHHHHHchhhhcccccCCCCccc
+
+
+No 13
+>KOG1755 Profilin [Cytoskeleton]
+Probab=24.28  E-value=2.2e+02  Score=17.49  Aligned_cols=40  Identities=18%  Similarity=0.193  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEEEEEEEEEEEecCCcCCchhHHHHHHHHHHhCCcccc
+Q Q_9186633_27      8 VKVTKTYKTLVEVEIPEDANGDDFQRLVEEKVESMDQEIL   47 (63)
+Q Consensus         8 leItk~~~t~VvVe~d~~~~d~~i~~~a~~~ad~md~~~w   47 (63)
+                      +-+.|+-++.|+.-.++..........+++.|+-+.....
+T Consensus        89 ~~v~kt~~~ivi~~~~~~~~~~~~~~~v~~~a~yL~~~g~  128 (128)
+T KOG1755          89 VTIKKTGQALIFSIYKEGVQPGQCNKVVESLADYLRESGY  128 (128)
+T ss_pred             eEEEecCCeEEEEEecCCCCHHHHHHHHHHHHHHHHHcCC
+
+
+No 14
+>d3ul5a_ d.17.1.0 (A:) automated matches {Saccharum officinarum [TaxId: 4547]}
+Probab=24.12  E-value=1.9e+02  Score=15.93  Aligned_cols=33  Identities=9%  Similarity=0.012  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             cCCchhHHHHHHHHHHhCCccccccccceEEEEEeee
+Q Q_9186633_27     25 DANGDDFQRLVEEKVESMDQEILDYQDTNHFVLKINN   61 (63)
+Q Consensus        25 ~~~d~~i~~~a~~~ad~md~~~w~y~dt~~~v~~vke   61 (63)
+                      +.++|.++.+|....+.++...    +..+....|..
+T Consensus         1 ~~~d~~~~~~a~~a~~~~n~~~----~~~~~~~~v~~   33 (82)
+T d3ul5a_           1 HENDLEAIELARFAVAEHNSKT----NAMLEFERLVK   33 (82)
+T ss_dssp             CTTCHHHHHHHHHHHHHHHHHH----CCCCEEEEEEE
+T ss_pred             CCCCHHHHHHHHHHHHHHHHhc----CCCeEEEEEEE
+
+
+No 15
+>d2w9qa_ d.17.1.0 (A:) automated matches {Potato (Solanum tuberosum) [TaxId: 4113]}
+Probab=23.80  E-value=1.9e+02  Score=16.00  Aligned_cols=35  Identities=17%  Similarity=0.299  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             cCCchhHHHHHHHHHHhCCccccccccceEEEEEeeecC
+Q Q_9186633_27     25 DANGDDFQRLVEEKVESMDQEILDYQDTNHFVLKINNIK   63 (63)
+Q Consensus        25 ~~~d~~i~~~a~~~ad~md~~~w~y~dt~~~v~~vkel~   63 (63)
+                      +.++|.++.+|....+..+...    +..|.+.+|....
+T Consensus         7 ~~~d~~~~~~a~~a~~~~n~~~----~~~~~~~~v~~~~   41 (87)
+T d2w9qa_           7 NPNNTKFQELARFAIQDYNKKQ----NAHLEFVENLNVK   41 (87)
+T ss_dssp             STTSHHHHHHHHHHHHHHHHHH----TCCEEEEEEEEEE
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHc----CCceEEEEEEEee
+
+
+No 16
+>PF17545.2 ; DUF5461 ; Family of unknown function (DUF5461)
+Probab=21.76  E-value=1.6e+02  Score=19.45  Aligned_cols=21  Identities=19%  Similarity=0.138  Sum_probs=0.0  Template_Neff=1.900
+
+Q ss_pred             ceEEEEEEEEEEEEEEEEEec
+Q Q_9186633_27      2 EKYQVEVKVTKTYKTLVEVEI   22 (63)
+Q Consensus         2 kky~VEleItk~~~t~VvVe~   22 (63)
+                      ++|.+=..+|+.|+..++++|
+T Consensus        33 ~~Y~i~~~~t~~y~G~iv~~G   53 (89)
+T Y91_SIRV1/3-91   33 KDYMIIDPETKYYIGYILTNG   53 (89)
+T ss_pred             CceEEEecccceeeEEEEecC
+
+
+No 17
+>PF14207.6 ; DpnD-PcfM ; DpnD/PcfM-like protein
+Probab=21.60  E-value=2.3e+02  Score=15.94  Aligned_cols=30  Identities=30%  Similarity=0.357  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             EEEEEEEEEEEEEEEEEecCCcCCchhHHHHHHHHHHhC
+Q Q_9186633_27      4 YQVEVKVTKTYKTLVEVEIPEDANGDDFQRLVEEKVESM   42 (63)
+Q Consensus         4 y~VEleItk~~~t~VvVe~d~~~~d~~i~~~a~~~ad~m   42 (63)
+                      |.|+++=|......|.++..+.         |.+++..+
+T Consensus         1 y~V~I~Etl~r~v~VeA~s~~e---------A~~~v~~~   30 (46)
+T R6DPT9_9FIRM/4    1 YEVTITETLERKIEVEAESVEE---------AQRRVKEG   30 (46)
+T ss_pred             CeEEEEEEEEEEEEEEcCCHHH---------HHHHHHHH
+
+
+No 18
+>COG4423 COG4423; Uncharacterized protein [Function unknown]. 
+Probab=21.06  E-value=1.5e+02  Score=17.81  Aligned_cols=20  Identities=15%  Similarity=0.253  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCchhHHHHHHHHHHhCCcc
+Q Q_9186633_27     26 ANGDDFQRLVEEKVESMDQE   45 (63)
+Q Consensus        26 ~~d~~i~~~a~~~ad~md~~   45 (63)
+                      +.+|.++++|.+.|...+.+
+T Consensus         5 Ikd~ev~~La~elA~~~G~s   24 (81)
+T COG4423           5 IKDPEVDRLARELAARTGES   24 (81)
+T ss_pred             cCCHHHHHHHHHHHHHHCCC
+
+
+No 19
+>PF13046.6 ; DUF3906 ; Protein of unknown function (DUF3906)
+Probab=20.86  E-value=2.8e+02  Score=17.13  Aligned_cols=24  Identities=29%  Similarity=0.434  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             CceEEEEEEEE-EEEEEEEEEecCC
+Q Q_9186633_27      1 MEKYQVEVKVT-KTYKTLVEVEIPE   24 (63)
+Q Consensus         1 mkky~VEleIt-k~~~t~VvVe~d~   24 (63)
+                      |--|.+|++.. ....+.|..++|+
+T Consensus         1 M~LYr~Ev~~~~~~~~vVv~Ae~dE   25 (64)
+T N0ARJ2_9BACI/1    1 MNLYRFEVTIGSEVAHVIVAAENDE   25 (64)
+T ss_pred             CceEEEEEEeCCeEEEEEEEECCHH
+
+
+No 20
+>PF00031.21 ; Cystatin ; Cystatin domain
+Probab=20.30  E-value=2.4e+02  Score=15.66  Aligned_cols=35  Identities=6%  Similarity=0.100  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             cCCchhHHHHHHHHHHhCCccccccccceEEEEEee
+Q Q_9186633_27     25 DANGDDFQRLVEEKVESMDQEILDYQDTNHFVLKIN   60 (63)
+Q Consensus        25 ~~~d~~i~~~a~~~ad~md~~~w~y~dt~~~v~~vk   60 (63)
+                      +.++|.+..+|.......++.. .+.-..+.|.+..
+T Consensus         7 ~~~d~~~~~~~~~a~~~~n~~~-~~~~~~~~v~~a~   41 (89)
+T CYTB_BOVIN/4-9    7 QPATAETQAIADKVKSQLEEKE-NKKFPVFKALEFK   41 (89)
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHh-CCCCCcEEEEEEE
+
+

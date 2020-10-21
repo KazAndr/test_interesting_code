@@ -1,0 +1,764 @@
+Query         Q_9186633_49
+Match_columns 497
+No_of_seqs    229 out of 1953
+Neff          10.6688
+Searched_HMMs 69205
+Date          Sun May 24 00:25:50 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_49.hhr -oa3m ../results/9186633_49.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF05133.14 ; Phage_prot_Gp6 ;  100.0 2.2E-30 3.2E-35  256.8  40.9  401   35-458     2-415 (416)
+  2 COG5511 COG5511; Bacteriophage  99.4 6.4E-10 9.2E-15  113.8  29.0  391   74-490    59-492 (492)
+  3 PF16510.5 ; P22_portal ; Phage  99.4 1.9E-09 2.8E-14  114.9  32.1  411   35-457     3-576 (677)
+  4 PF12236.8 ; Head-tail_con ; Ba  99.2 4.1E-08   6E-13  100.5  29.4  374   37-425     2-448 (488)
+  5 PF06381.11 ; DUF1073 ; Protein  99.1   4E-08 5.7E-13   95.9  25.4  311   72-424     2-345 (351)
+  6 COG3567 COG3567; Uncharacteriz  99.0 2.8E-07   4E-12   93.4  24.6  319   77-438    53-412 (452)
+  7 COG5518 COG5518; Bacteriophage  98.7 3.5E-05   5E-10   79.1  29.8  341   76-449    49-462 (492)
+  8 PF13264.6 ; DUF4055 ; Domain o  98.7 3.6E-07 5.2E-12   75.4  12.3  136  246-388     1-137 (137)
+  9 PF04860.12 ; Phage_portal ; Ph  98.7 1.1E-05 1.6E-10   78.0  22.5  303   81-438     1-329 (329)
+ 10 PF05136.13 ; Phage_portal_2 ;   98.6 3.4E-06 4.9E-11   82.4  16.7  268   74-370    31-348 (348)
+ 11 PF06074.12 ; DUF935 ; Protein   98.5 0.00023 3.4E-09   74.0  28.6  316   80-438    76-411 (539)
+ 12 COG4695 BeeE; Phage portal pro  98.4 0.00015 2.2E-09   72.3  22.0  315   74-438    45-379 (398)
+ 13 COG4383 gp29; Mu-like prophage  98.3  0.0011 1.6E-08   68.8  27.5  321   73-438    62-400 (517)
+ 14 PF07230.11 ; Peptidase_S80 ; B  97.9  0.0072   1E-07   62.0  23.6  358   79-456    79-502 (503)
+
+No 1
+>PF05133.14 ; Phage_prot_Gp6 ; Phage portal protein, SPP1 Gp6-like
+Probab=100.00  E-value=2.2e-30  Score=256.77  Aligned_cols=401  Identities=17%  Similarity=0.175  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHhcCCchhcCCC--CCchhccccceecCchHHHHhhhcchhhccCCceeeecCCCCccHH
+Q Q_9186633_49     35 EFIKDFIDIRNERLRKYKQYTTEKNAIDNREK--PDSDLIKVWNKIHNSFFNLIVDQKVGYVFGNPISYQIEEEVSENER  112 (497)
+Q Consensus        35 ~~~~~~~~~~~~~~~~~~~yy~G~~~~~~~~~--~~~~~~~~~~~~~~n~~~~iv~~~~~~l~~~~~~~~~~~~~~~~~~  112 (497)
+                      +.+++.+..+.++|+++++||.|++++.....  ..+. .........|+++.+|+..+++++++++.+.+.+    ...
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~y~g~~~~~~~~~~~~~~~-~~~~~~~~~n~~~~iv~~~~~~~~~~~~~~~~~~----~~~   76 (416)
+T Q0AXD7_SYNWW/2    2 FTSEYGNWERIANIINIKEYLNGKHAILNRGVEMWNGK-EFHPRTIVLNYAKTILNFSTSYLLKNPVTISGDE----ESV   76 (416)
+T ss_pred             cccccccHHHHHHHHHHHHHHcCCchhHhcCCcccCCC-cccCceeehhHHHHHHHHhHHhhcCCCceeeCCh----hhH
+
+
+Q ss_pred             HHHHHHHHcCCchHHHHHHHHHHHHhCeEEEEEecCCCCCcccccccccccccchheeEEcccC-ceEEEEEeeecCCCc
+Q Q_9186633_49    113 EWVKEYLYNQDVFLKDIETGTQQAACGVSYRLLDIQTQLIPSVVETVASLKNVNSWDAYVLGHK-EAAIVLSEDYTEKGH  191 (497)
+Q Consensus       113 ~~l~~~~~~~~l~~~~~~~~~~~~~~G~~~~~v~~~~~~~~~~~~~~~~i~~~~p~~~~~~~~~-~~~i~~~~~~~~~g~  191 (497)
+                      +.+.++|+.+++...+..+++.++++|.+++.++++..|.+       .+..++|.++++..++ ...+.+...+..+..
+T Consensus        77 ~~l~~~~~~~~~~~~~~~~~~~~~~~G~~~~~v~~~~~g~~-------~~~~~~p~~~~~~~~~~~~~~~~i~~~~~~~~  149 (416)
+T Q0AXD7_SYNWW/2   77 SIMKEIYKKGNYNKIDWDILDKVCKYGSIAEYVYIDKNGEI-------QSKLINPEDSFPVYNDENEYIGFVEHYTSING  149 (416)
+T ss_pred             HHHHHHHHhCCccHHHHHHHHHHHhhCEEEEEEEECCCCCE-------EEEEeCHHHeEeeecCCCCEEEEEEEEcCCCC
+
+
+Q ss_pred             EEEEEEEeCCeEEEEeeccccccCceeeeecccccccCCCCcEEEEeCC-----ccCCCcHHHHHHHHHHHHHHHHhhHH
+Q Q_9186633_49    192 TQILTLYTKDLILEYHSAASEVNGMIGFDIAGGIINLLGVVPVFEFRNN-----QEMHSDFETVEDLNDAYDRMISSGAD  266 (497)
+Q Consensus       192 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~iP~v~~~~~-----~~G~s~~~~i~~~~~~~~~~~s~~~~  266 (497)
+                      ..++++|+++.++.|....       .+.......|+++.+| +++.++     .+|.|++.++.++++.++..+++...
+T Consensus       150 ~~~~~~~~~~~~~~~~~~~-------~~~~~~~~~~~~g~vP-v~~~~~~~~~~~~G~s~~~~~~~~~~~~~~~~s~~~~  221 (416)
+T Q0AXD7_SYNWW/2  150 ISYWNVFDENTVKKYDDFG-------GEVTFRGEFHNPSGLP-IIYKNKNEMDETAGRSDLEDYVNIIDNLEDLISKYTD  221 (416)
+T ss_pred             eEEEEEEcCCcEEEEecCC-------CcEEecceecCCCCCC-EEeEcCCccCCCCCcccHHHHHHHHHHHHHHHHHhhh
+
+
+Q ss_pred             HHHHhhhheeeecCCCCChhhH---hhHhhcccccEEecCCCCCceeeecCCCHHHHHHHHHHHHHHHHHHhCCCCCCcc
+Q Q_9186633_49    267 EVEQFRLAYMLITGVDMEPDDA---KELFKKETGILNIRNPEGKAEFLTKMMPKEFFEYFVGLLEKNIFRFSKSVDVNDE  343 (497)
+Q Consensus       267 ~~~~~~~~~~~~~g~~~~~~~~---~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~p~~~~~  343 (497)
+                      ..+.++.|++++.|........   ..-..-.+.+..++ +++++++++++.+.+.+..+++.+...+..+++.+.++.+
+T Consensus       222 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~-~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~~~~~~~  300 (416)
+T Q0AXD7_SYNWW/2  222 SIYKFVNPIPVVVGQKLGIGKNGEGAIPANLVGSGINLD-DGGSFGFANGQLDYKSFESVWKILYNSLLQISSVPAVSMG  300 (416)
+T ss_pred             hhHhhcCCeEEEeccccCCCCCCCCCCCccccccceecC-CCCceEEeecCCChhHHHHHHHHHHHHHHHHhCCCCcccC
+
+
+Q ss_pred             cccCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCccchhceEEEeeCCCCCCHHHHHHHHHH
+Q Q_9186633_49    344 AFAGGNESGEARKWKLIALEFKANLTESWFEKGLRDMFEGIVAYMRIKQGMNSIVSSNIYADFTRTLPVDLGYLADTLTK  423 (497)
+Q Consensus       344 ~~~~~~~Sg~a~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~i~v~f~~~~~~d~~~~~~~~~~  423 (497)
+                      .+++++.||.|++....++..+++.++..++.++++++++++.+.+..+..  .....++++|.+..|.|..+.++.+.+
+T Consensus       301 ~~~~~~~Sg~al~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~i--~~~~~~~v~f~~~~~~d~~~~~~~~~~  378 (416)
+T Q0AXD7_SYNWW/2  301 VQDVSNLSEVSIKLMFSLADLRAGMNEMYMREGMEFRFKAIESLLKAKGIV--INSDALDVVFEYSRPMNRTDIINDLET  378 (416)
+T ss_pred             CCCCCCchHHHHHHHHHHHHHHHHHhHHHHHHHHHHHHHHHHHHHHhcCCC--CCCCcceeEEecCCCCCHHHHHHHHHH
+
+
+Q ss_pred             hc--CCCCHHHHHhcCCCCCCHHHHHHHHHHHHHHHH
+Q Q_9186633_49    424 LT--TILSERTVLGMIPAIDDVDAEMEQKQREREEKM  458 (497)
+Q Consensus       424 ~~--g~is~~~~~~~l~~~~d~~~e~~~i~~E~~~~~  458 (497)
+                      +.  |++|++++++.++.++|+++|+++|++|.++..
+T Consensus       379 ~~~~g~is~e~~~~~~~~~~d~~~e~~~i~~e~~~~~  415 (416)
+T Q0AXD7_SYNWW/2  379 LRGIGAISLQSTLEQCPMVYDVATELDRIKAEGSNVG  415 (416)
+T ss_pred             HhhCCCcChHHHHHhCCCCCCHHHHHHHHHHhhcccC
+
+
+No 2
+>COG5511 COG5511; Bacteriophage capsid protein  [Mobilome: prophages, transposons]. 
+Probab=99.39  E-value=6.4e-10  Score=113.80  Aligned_cols=391  Identities=10%  Similarity=-0.060  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             ccceecCchHHHHhhhcchhhccCCceeeecC---------CCCccHHHHHHHHHHcC----------CchHHHHHHHHH
+Q Q_9186633_49     74 VWNKIHNSFFNLIVDQKVGYVFGNPISYQIEE---------EVSENEREWVKEYLYNQ----------DVFLKDIETGTQ  134 (497)
+Q Consensus        74 ~~~~~~~n~~~~iv~~~~~~l~~~~~~~~~~~---------~~~~~~~~~l~~~~~~~----------~l~~~~~~~~~~  134 (497)
+                      ...+..+++++.+|+.++..+.+.+..+....         +   ...+.+.++|+..          ++..++..+++.
+T Consensus        59 ~~~~~~~~~~~~~v~~~~~~v~g~~~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  135 (492)
+T COG5511          59 RDLVRNNDIAAGAVDLHEDRIVGARGIISAPQPLGRAGALAR---ALAAEIEAIWADWSAKADVTGKYTFPVLQRLGLRT  135 (492)
+T ss_pred             HHHHHcCHHHHHHHHHHHhceecCCCeecCCCcCCCChHHHH---HHHHHHHHHHHHHHHhCCCcCCCCHHHHHHHHHHH
+
+
+Q ss_pred             HHHhCeEEEEEecCCC-------CCcccccccccccccchheeEEcccCceEEEEEeeecCCCcEEEEEEEeCCeEEEEe
+Q Q_9186633_49    135 QAACGVSYRLLDIQTQ-------LIPSVVETVASLKNVNSWDAYVLGHKEAAIVLSEDYTEKGHTQILTLYTKDLILEYH  207 (497)
+Q Consensus       135 ~~~~G~~~~~v~~~~~-------~~~~~~~~~~~i~~~~p~~~~~~~~~~~~i~~~~~~~~~g~~~~~~~~~~~~~~~~~  207 (497)
+                      .+.+|.+|+.+..+..       +.+.      .+..++|..+.........+.....++..+....+.++.........
+T Consensus       136 ~~~~Ge~~~~~~~~~~~~~~~~~~~~~------~l~~l~~~~~~~~~~~~~~i~~gi~~d~~g~~~~Y~~~~~~~~~~~~  209 (492)
+T COG5511         136 WARDGEIFVQVVPGTPPGLERGFGVPF------RLEALEPDYTPLDTDRSRFLRQGVEFDRWGRPVAYHVYESDPRWTRI  209 (492)
+T ss_pred             HHhcCCEEEEeecCCCCCCCCCcceeE------EEEEcCccCCCCCCCCCCceEceEEECCCCCeEEEEEEcCCcccccC
+
+
+Q ss_pred             eccccccCceeeeecccccccCCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeecCCCCChhh
+Q Q_9186633_49    208 SAASEVNGMIGFDIAGGIINLLGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLAYMLITGVDMEPDD  287 (497)
+Q Consensus       208 ~~~~~~~~~~~~~~~~~~~~~~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~g~~~~~~~  287 (497)
+                      ...       .....+...|.....|.    +..+|.|.+..+...+..++.........+...+.+..++.........
+T Consensus       210 ~~~-------~~~~~~~vih~~~~~~~----~~~rG~s~l~~~~~~i~~~~~~~~~~~~~~~~~a~~~~~i~~~~~~~~~  278 (492)
+T COG5511         210 PRT-------KPVGAEEMIHIFEPVRD----GQTRGASLLASVLERLKMLDEYEDAELQAARIAAMYAAFIEKQDGPLYN  278 (492)
+T ss_pred             Cce-------eeeCHHHceEeecCCCC----CCCCCccHHHHHHHHHHcHHhHHHHHHHHHHHHhheeEEEEeCCCCCCC
+
+
+Q ss_pred             -------HhhHhhcccccEEecCCCCCceeeecCCCHHHHHHHHHHHHHHHHHHhCCCCCCcc-cccCCCchHHHHHHHH
+Q Q_9186633_49    288 -------AKELFKKETGILNIRNPEGKAEFLTKMMPKEFFEYFVGLLEKNIFRFSKSVDVNDE-AFAGGNESGEARKWKL  359 (497)
+Q Consensus       288 -------~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~p~~~~~-~~~~~~~Sg~a~~~~~  359 (497)
+                             .......++.++.++ ++.+++.++++.....+.++++.+...|....|+|....+ ..  +.. ..+.+...
+T Consensus       279 ~~~~~~~~~~~~~~~g~i~~l~-~g~~~~~~~~~~~~~~~~~~~~~~~~~Ia~~~GvP~~~l~g~~--~~~-~ss~~~~~  354 (492)
+T COG5511         279 PDEPSEYDREMVILPVIFDHLN-PGEDIKLQTSQDPNNGLESFRQGQLRAIAAGLGVSYEQLSRDY--AGV-YSSARASL  354 (492)
+T ss_pred             CCCCcccccccccccceeEecC-CCCcceecCCCCCCCchHHHHHHHHHHHHHHhCCCHHHHhhcc--ccC-chHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHhcCCCccc------hhceEEEeeCCCCCCHHHHHHHHHHhc--CCCCH
+Q Q_9186633_49    360 IALEFKANLTESWF-EKGLRDMFEGIVAYMRIKQGMNSIV------SSNIYADFTRTLPVDLGYLADTLTKLT--TILSE  430 (497)
+Q Consensus       360 ~~~~~~~~~~~~~~-~~~l~~~~~~~~~~~~~~~~~~~~~------~~~i~v~f~~~~~~d~~~~~~~~~~~~--g~is~  430 (497)
+                      ..+...++..+..+ ...+..+++.++...-..+.+....      ...+++++......|+.+.+++...+.  |++|.
+T Consensus       355 ~~~~~~~~~~q~~~~~~~l~p~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~D~~~~~~a~~~~~~~G~~t~  434 (492)
+T COG5511         355 NESWRYFMGRQKFFISRLARPVFEAWLKEAVLSGAIRLPFDFDEARSAWADWIGPGMPWIDPLKEVEAWVMQIRAGLSTY  434 (492)
+T ss_pred             HHHHHHHHHHHHHHHHHhhHHHHHHHHHHHHHcCCCCCCCCCchhHHhhcEEeCCCCCCCCHHHHHHHHHHHHHcCCCCH
+
+
+Q ss_pred             HHHHhcCCCCCCHHHHHHHHHHHHHHHHHhcccccCcCCCCCCchhhcccccchhhccCC
+Q Q_9186633_49    431 RTVLGMIPAIDDVDAEMEQKQREREEKMNEMNSFGDFGQVNPNDAEQTGEVLDKEKATDN  490 (497)
+Q Consensus       431 ~~~~~~l~~~~d~~~e~~~i~~E~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  490 (497)
+                      .++++.+|.  ++++.++++.+|.+.......+....+....+++..+..-..+++..+.
+T Consensus       435 ~e~~~~~G~--d~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  492 (492)
+T COG5511         435 SKEIAARGR--DPQDVFRQQVAEIDERRKLGLVFDTDPAATYGGQLAATRRDEPSTTDAA  492 (492)
+T ss_pred             HHHHHHcCC--CHHHHHHHHHHHHHHHHHcCCCCCCChhhccccccccccCCCCCCCcCC
+
+
+No 3
+>PF16510.5 ; P22_portal ; Phage P22-like portal protein
+Probab=99.37  E-value=1.9e-09  Score=114.85  Aligned_cols=411  Identities=9%  Similarity=0.012  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHh--cCCchhcCCC--CCchhccccceecCchHHHHhhhcchhhccCCceeeecCCC---
+Q Q_9186633_49     35 EFIKDFIDIRNERLRKYKQYTT--EKNAIDNREK--PDSDLIKVWNKIHNSFFNLIVDQKVGYVFGNPISYQIEEEV---  107 (497)
+Q Consensus        35 ~~~~~~~~~~~~~~~~~~~yy~--G~~~~~~~~~--~~~~~~~~~~~~~~n~~~~iv~~~~~~l~~~~~~~~~~~~~---  107 (497)
+                      +.........+.++.+..+||.  |.||-.....  ..............|.+..+|+.+.+.+..+.+.+.+.+.+   
+T Consensus         3 ~~a~~~~~~~r~~~~~d~~f~~~~G~QW~~~~~~~~~~~~~~~~r~~~~~N~i~~~v~~~~~~~~~~~p~~~v~p~~~~d   82 (677)
+T C4K6U6_HAMD5/1    3 DRAHSPQEAVREKCLEATRFARVPGGQWEGETAAGSELGKHFEKYPKFEINKISTELNRIVSEYRNNRITVKFRPGDKAA   82 (677)
+T ss_pred             chhcChhHHHHHHHHHHhhhccCCcccCChhhhcchHHHHhhccCCceEcchHHHHHHHHHHHHHhCCCeEEEecCChHH
+
+
+Q ss_pred             ----CccHHHHHHHHHHcCCchHHHHHHHHHHHHhCeEEEEEecCCCCC--cccccccccccccch--heeEEcccC---
+Q Q_9186633_49    108 ----SENEREWVKEYLYNQDVFLKDIETGTQQAACGVSYRLLDIQTQLI--PSVVETVASLKNVNS--WDAYVLGHK---  176 (497)
+Q Consensus       108 ----~~~~~~~l~~~~~~~~l~~~~~~~~~~~~~~G~~~~~v~~~~~~~--~~~~~~~~~i~~~~p--~~~~~~~~~---  176 (497)
+                          .+.....+..+|+.+++...+..++.+++++|.+++.++++....  |......+.+..++|  .++++....   
+T Consensus        83 ~~~~A~~l~~~~~~~~~~~~~~~~~~~a~~d~~~~G~G~~kv~~d~~~~~~p~~~~~~i~~~~I~~p~~~v~~Dp~a~~~  162 (677)
+T C4K6U6_HAMD5/1   83 SEALANKLNGLFRADYEETDGGEACDNAFDDGSTGGFGCFRLTTNLVNALDPMDERQRICLEPIYDPARSVWFDPDAKKY  162 (677)
+T ss_pred             hHHHHHHHHHHHHHHHHhcCHHHHHHHHHHHhccceeeEEEEEEeecCCCCCCCCceeEEEEEccCCcccEEECCCcccC
+
+
+Q ss_pred             ----ceEEEEEeeecCCC----------------------------cEEEEEEEeCCe----------------------
+Q Q_9186633_49    177 ----EAAIVLSEDYTEKG----------------------------HTQILTLYTKDL----------------------  202 (497)
+Q Consensus       177 ----~~~i~~~~~~~~~g----------------------------~~~~~~~~~~~~----------------------  202 (497)
+                          ..+|.+....+...                            ....+++|....                      
+T Consensus       163 d~~Da~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~v~E~y~~~~~~~~~~~~~d~~~g~~~~~~~~  242 (677)
+T C4K6U6_HAMD5/1  163 DKSDAEWAFCMYSLSAEKYKAEYNKDPATLMSGIERSWDYDWYDVDVVYIAKYYEVKKESVDVVSFQNPLTSETVTYDSD  242 (677)
+T ss_pred             ChhHCCEEEEEEEEeHHHHHHHcCCCCcccCCCCcccccccCccCCeEEEEEEEEEEEEEEEEEEEeCCCCcceEEeCHH
+
+
+Q ss_pred             --------------------------EEEEeeccccccCceeeeecccccccCCCCcEEEEeCC-------ccCCCcHHH
+Q Q_9186633_49    203 --------------------------ILEYHSAASEVNGMIGFDIAGGIINLLGVVPVFEFRNN-------QEMHSDFET  249 (497)
+Q Consensus       203 --------------------------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~iP~v~~~~~-------~~G~s~~~~  249 (497)
+                                                ++.+...+       ..++.+..+++.+.+||+.+...       .+|.|.++.
+T Consensus       243 ~~~~~~~~l~~~g~~~~~~~~~~~~~v~~~~~~g-------~~iL~~~~~~~~~~~P~v~~~~~~~~~~~~~~~~g~v~~  315 (677)
+T C4K6U6_HAMD5/1  243 QLELVEDELADIGFIEAARRTIKRRRVYVSVVDG-------EGFLEKAQRIPGEHIPLIPVYGKRWFIDDIERVEGHIAK  315 (677)
+T ss_pred             HHHHHHHHHHhcCCeEeEeEEeeeeEEEEEEEeC-------CceeccCCCCCCCCCCEEEeeCeEEEeCCEEEEEeehhh
+
+
+Q ss_pred             HHHHHHHHHHHHHhhHHHHHHhhhheeeecCCCCChhhHhhHhh----cccccEEecC----------CCCCceeeecCC
+Q Q_9186633_49    250 VEDLNDAYDRMISSGADEVEQFRLAYMLITGVDMEPDDAKELFK----KETGILNIRN----------PEGKAEFLTKMM  315 (497)
+Q Consensus       250 i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~----~~~~v~~~~~----------~~~~~~~~~~~~  315 (497)
+                      +.+.|+.+|...+.+.........+.+++......  +....+.    ..++++.+..          +...+.++.++.
+T Consensus       316 ~~d~Q~~~N~~~s~~~~~~~~~~~~~~~~~~~~i~--~~e~~~~~~~~~~~~~i~~~~~~~~~G~~~~~p~~i~~~~~~~  393 (677)
+T C4K6U6_HAMD5/1  316 AMDAQRLYNLQVSMLADSATQDTGSIPIVGKSQIK--TLEKYWANRNKNRPAFLPLNEIVDKQGNIIAPPTPVGYTQPQP  393 (677)
+T ss_pred             ccCHHHHHHHHHHHHHHHHhhcCCCCCeecHHHhc--cHHHHHHhccCCCCCceeeccccCCCCCeeCCCCCCcCCCCCc
+
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHhCCCCCCcccccCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCC
+Q Q_9186633_49    316 PKEFFEYFVGLLEKNIFRFSKSVDVNDEAFAGGNESGEARKWKLIALEFKANLTESWFEKGLRDMFEGIVAYMRIKQGMN  395 (497)
+Q Consensus       316 ~~~~~~~~~~~l~~~i~~~~~~p~~~~~~~~~~~~Sg~a~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~  395 (497)
+                      .++.+...++.+...|..++|......|..++  .|+.++.........++......++.+++++.++++.+...+....
+T Consensus       394 ~~~~~~~~~~~~~~~i~~itG~~~~~~G~~~~--~s~~ai~~~~~~~~~~~~~~~~n~~~~~~~~~~~~l~li~~~y~~~  471 (677)
+T C4K6U6_HAMD5/1  394 LNQAMAALLQQTGADIQEVTGSSQAMQPMPSN--IAKETVNNLMHRSDMSSFIYLDNMAKSLKRAGEVWLSMAREVYGSD  471 (677)
+T ss_pred             chHHHHHHHHHHHHHHHHHhCCCcccCCCCCc--hHHHHHHHHHHhhcchhHHHHHHHHHHHHHHHHHHHHHHHHhhCCC
+
+
+Q ss_pred             -----------------------------------ccchhceEEEeeCCCCCCHHHHHHHHHHhc---CC------CCHH
+Q Q_9186633_49    396 -----------------------------------SIVSSNIYADFTRTLPVDLGYLADTLTKLT---TI------LSER  431 (497)
+Q Consensus       396 -----------------------------------~~~~~~i~v~f~~~~~~d~~~~~~~~~~~~---g~------is~~  431 (497)
+                                                         ....++|.|+-.+..+....+..+.+..+.   +.      +...
+T Consensus       472 r~iri~g~~g~~~~~i~~~~~nd~~~g~~~~~ndl~~~~~dv~v~~g~~~~~~r~~~~~~l~~l~~~~~~~~~~~~~~~~  551 (677)
+T C4K6U6_HAMD5/1  472 RQVRIVNADGTDDIALMSVVINDNQTGQVVAMNDLSSGRYDVTVDVGPSYTARRDATVSVLTNLLAGMLPQDPMRQVLQG  551 (677)
+T ss_pred             cEEEEECCCCCeeEEEeeeeeecCCCCcEEEEeeCCCCeeEEEEEecCCCcchHHHHHHHHHHHHhcCCCCChHHHHHHH
+
+
+Q ss_pred             HHHhcCCCCCCHHHHHHHHHHHHHHH
+Q Q_9186633_49    432 TVLGMIPAIDDVDAEMEQKQREREEK  457 (497)
+Q Consensus       432 ~~~~~l~~~~d~~~e~~~i~~E~~~~  457 (497)
+                      .+++.++ +.+.++.++++.......
+T Consensus       552 ~~l~~~d-~~~~~~l~~~~~~~~~~~  576 (677)
+T C4K6U6_HAMD5/1  552 IILDNME-GEGLDEFKEYNRKQLLTQ  576 (677)
+T ss_pred             HHHHhcC-CCCHHHHHHHHHHHHHhc
+
+
+No 4
+>PF12236.8 ; Head-tail_con ; Bacteriophage head to tail connecting protein
+Probab=99.19  E-value=4.1e-08  Score=100.47  Aligned_cols=374  Identities=9%  Similarity=-0.046  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhcCCchhcCCCCCc-hhccccceecCchHHHHhhhcchhhc-------cCCceeeecCCCC
+Q Q_9186633_49     37 IKDFIDIRNERLRKYKQYTTEKNAIDNREKPDS-DLIKVWNKIHNSFFNLIVDQKVGYVF-------GNPISYQIEEEVS  108 (497)
+Q Consensus        37 ~~~~~~~~~~~~~~~~~yy~G~~~~~~~~~~~~-~~~~~~~~~~~n~~~~iv~~~~~~l~-------~~~~~~~~~~~~~  108 (497)
+                      ++.....+..+|+.+.+|+...+-.+....... +........+.+.+..+|+.+++.+.       ...+.+...+.  
+T Consensus         2 ~~~~R~~~e~~w~~~~~~~~p~~~~~~~~~~~~~~~~~~~s~~~~~~~~~~v~~~~~~l~~~l~~~~~~~~~~~~~~~--   79 (488)
+T G4Q3X9_ACIIR/3    2 LKAARQGWEARWKAIRDFELPYIGEFEDTADHTNPARRRDTKIAQGVAWMAANVMAAGIMSGLTPPSRQWFKFSFSDE--   79 (488)
+T ss_pred             hHHHHHHHHHHHHHHHHHHchhhccccCCCCCCCCCccccccccCHHHHHHHHHHHHHHHHccCCCCCCCeecccCCH--
+
+
+Q ss_pred             ccH-------------HHHHHHHHHcCCchHHHHHHHHHHHHhCeEEEEEecCCCCCcccccccccccccchheeEEccc
+Q Q_9186633_49    109 ENE-------------REWVKEYLYNQDVFLKDIETGTQQAACGVSYRLLDIQTQLIPSVVETVASLKNVNSWDAYVLGH  175 (497)
+Q Consensus       109 ~~~-------------~~~l~~~~~~~~l~~~~~~~~~~~~~~G~~~~~v~~~~~~~~~~~~~~~~i~~~~p~~~~~~~~  175 (497)
+                       ..             .+.+...+..+++...+.+++++++ +|.+++.+.++..+.+       .+..++|.++++..+
+T Consensus        80 -~~~~~~~~~~~a~~~~~~l~~~~~~~~~~~~~~~~~~d~~-~G~g~~~~~~~~~~~~-------~~~~i~~~~~~~dp~  150 (488)
+T G4Q3X9_ACIIR/3   80 -RLNDMTEALQVLDQRQEIVQAVLAKSNFYNAVHKVYLEIP-FGQGPMVVLRDARTAV-------RFIPLTIGSYFIDVD  150 (488)
+T ss_pred             -HHhcCHHHHHHHHHHHHHHHHHHHhCCHHHHHHHHHhhcc-CCceeEEEEeCCCCCe-------EEEEcCcceEEEEEC
+
+
+Q ss_pred             C---ceEEEEEeeecCCC-------------------------cEEE--EEEEeCCeE---------EEEeeccc--ccc
+Q Q_9186633_49    176 K---EAAIVLSEDYTEKG-------------------------HTQI--LTLYTKDLI---------LEYHSAAS--EVN  214 (497)
+Q Consensus       176 ~---~~~i~~~~~~~~~g-------------------------~~~~--~~~~~~~~~---------~~~~~~~~--~~~  214 (497)
+                      .   ..+|.+....+...                         +...  +.+|.....         ..|....-  ..+
+T Consensus       151 ~~~~~~~v~~~~~~t~~~l~~~~~~~~~~~~i~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~v~~~~~~~  230 (488)
+T G4Q3X9_ACIIR/3  151 GAGKVNTIARRYKLTLSQLVDAFGMDALPQTVRLAAEMGKSSNRKYMVNWLCEPNTEAVPNKLDRLNMPYKSIYWLDESR  230 (488)
+T ss_pred             CCCcccEEEEEecCCHHHHHHHHChhcCCHHHHHHHHcCCCCCcEEEEEEEEEeCCCCCCCCCCccCCceEEEEEEcccc
+
+
+Q ss_pred             CceeeeecccccccCCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeecCCCCChhhHhhHhhc
+Q Q_9186633_49    215 GMIGFDIAGGIINLLGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLAYMLITGVDMEPDDAKELFKK  294 (497)
+Q Consensus       215 ~~~~~~~~~~~~~~~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~  294 (497)
+                      +...........+|+-...+....+..+|.|..+.+.+.++.+|.+.+.+.++....+.|.+.+.........    ...
+T Consensus       231 ~~~il~~~~~~~~P~~~~~~~~~~~~~~G~g~~~~~~~~q~~ln~~~~~~~~~~~~~~~p~~~~~~~~~~~~~----~~~  306 (488)
+T G4Q3X9_ACIIR/3  231 QDEYLYIGGFEEFPAPTARWTVNANDCYAKGPGWFAEADSRALQVMKRDFLTLLELMAKPPMQATTDVMMHGI----NLI  306 (488)
+T ss_pred             CCeEEEecCCCCCCccceeeEecCCCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCEecCcccccCCc----ccc
+
+
+Q ss_pred             ccccEEecCCCCCceeeecCCC-HHHHHHHHHHHHHHHHHHhCCCCCC-cccccCCCchHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_49    295 ETGILNIRNPEGKAEFLTKMMP-KEFFEYFVGLLEKNIFRFSKSVDVN-DEAFAGGNESGEARKWKLIALEFKANLTESW  372 (497)
+Q Consensus       295 ~~~v~~~~~~~~~~~~~~~~~~-~~~~~~~~~~l~~~i~~~~~~p~~~-~~~~~~~~~Sg~a~~~~~~~~~~~~~~~~~~  372 (497)
+                      ||+++.+.+.+..+..+..+.. .......++.+++.+...++.+... .....+...|++++.........++......
+T Consensus       307 pG~v~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~i~~~~g~~~~~~~~~~~~~~~TAtei~~~~~~~~~~~~~~~~~  386 (488)
+T G4Q3X9_ACIIR/3  307 PGGITPTNGQGGVGPLFNTQFGNLQYLTEEIQKTEDRIKRHFNSDLFLMFDNIEAGRLTAREVTVRQQERLQVIGPVVEQ  386 (488)
+T ss_pred             CCCeeccCCCCCccccccccCCcchHHHHHHHHHHHHHHHHcccchHhhhcccCCCCccHHHHHHHHHHHHHHHHhHHHH
+
+
+Q ss_pred             HH-HHHHHHHHHHHHHHHHhcCCCccc-------hhceEEEeeCCC-CCCHHHHHHHHHHhc
+Q Q_9186633_49    373 FE-KGLRDMFEGIVAYMRIKQGMNSIV-------SSNIYADFTRTL-PVDLGYLADTLTKLT  425 (497)
+Q Consensus       373 ~~-~~l~~~~~~~~~~~~~~~~~~~~~-------~~~i~v~f~~~~-~~d~~~~~~~~~~~~  425 (497)
+                      +. .+++.+++.++.++..++.+....       ..++++++..+. .......++.+.++.
+T Consensus       387 ~~~~~~~~~~~~~~~~~~~~~~~~~~p~~l~~~~~~~~~~~~~~~l~~~~k~~~~~~l~~~l  448 (488)
+T G4Q3X9_ACIIR/3  387 LQDEFLTPIIERVYRILDEAGKFPPVPEVLQDLINEDVKVEYISPLAQAQKMSGLVNIEQAV  448 (488)
+T ss_pred             HHHHhHHHHHHHHHHHHHHCCCCCCCChHHHhhcCCccEEEECCHHHHHHHHHcchHHHHHH
+
+
+No 5
+>PF06381.11 ; DUF1073 ; Protein of unknown function (DUF1073)
+Probab=99.15  E-value=4e-08  Score=95.93  Aligned_cols=311  Identities=10%  Similarity=-0.007  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             ccccceecCchHHHHhhhcchhhccCCceeeecCCCCccHHHHHHHHHHcCCchHHHHHHHHHHHHhCeEEEEEecCCC-
+Q Q_9186633_49     72 IKVWNKIHNSFFNLIVDQKVGYVFGNPISYQIEEEVSENEREWVKEYLYNQDVFLKDIETGTQQAACGVSYRLLDIQTQ-  150 (497)
+Q Consensus        72 ~~~~~~~~~n~~~~iv~~~~~~l~~~~~~~~~~~~~~~~~~~~l~~~~~~~~l~~~~~~~~~~~~~~G~~~~~v~~~~~-  150 (497)
+                      .+...+...++++.+|+..+..+++.++.+....+  +...+.++++|+..++...+..++...+++|.+|+.+..+.. 
+T Consensus         2 ~~~~~~~~~~~~~~~v~~~~~~~~~~g~~~~~~~d--~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~G~~~~~~~~~~~~   79 (351)
+T Q9P9S3_XYLFA/5    2 ELEAMYRTNWLARKVVDIPATDMTREWVTLQTCMQ--ADALEPMYRLEQALNVRAKVRDALAWARLYGGAVLFINVHGQD   79 (351)
+T ss_pred             hhHHHHHhChHHHHHccccHHHhhhcCeeeeccCC--HHHHHHHHHHHHHcChHHHHHHHHHHHhhhCCEEEEEEecCCC
+
+
+Q ss_pred             ------------CCcccccccccccccchhee-----EEcccCceEEEEEeeecCCCcEEEEEEEeCCeEEEEeeccccc
+Q Q_9186633_49    151 ------------LIPSVVETVASLKNVNSWDA-----YVLGHKEAAIVLSEDYTEKGHTQILTLYTKDLILEYHSAASEV  213 (497)
+Q Consensus       151 ------------~~~~~~~~~~~i~~~~p~~~-----~~~~~~~~~i~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~  213 (497)
+                                  +.+.      .+.+++|..+     ....++        ..+..+.+.++.+....  ..+...    
+T Consensus        80 ~~~p~~~~~~~~~~~~------~l~~l~~~~i~~~~~~~~~~~--------~~~~~~~~~~y~~~~~~--~~~~~~----  139 (351)
+T Q9P9S3_XYLFA/5   80 PSLPFDPASVMPGSRL------SLTVLDRWRVALGSGQMDQDP--------LSETYGQPRCYQIAGSV--ERVDRS----  139 (351)
+T ss_pred             CCCCCChhhcCCCCee------EEEEecHHHcccCCCcccCCC--------CCCCCCCCeEEEEeCCc--cEEecc----
+
+
+Q ss_pred             cCceeeeecccccccCCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeecCCC-----CCh-hh
+Q Q_9186633_49    214 NGMIGFDIAGGIINLLGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLAYMLITGVD-----MEP-DD  287 (497)
+Q Consensus       214 ~~~~~~~~~~~~~~~~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~g~~-----~~~-~~  287 (497)
+                          ..........+....|.    +..+|.|.+.++...+..+..........+...+..++.+.+..     ... +.
+T Consensus       140 ----~vih~~~~~~~~~~~~~----~~~~G~s~l~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  211 (351)
+T Q9P9S3_XYLFA/5  140 ----RMIAFSGAELPWEAFRG----NGYWHDSVLQAMYNALSRYDTATQGTASMFFEAVVDVLRISGLSDTLSSDQGTQE  211 (351)
+T ss_pred             ----cEEEecCccCCHHHhcc----CCCCCChHHHHHHHHHHHHHHHHHHHHHHHHHhCCeEEecCCHHHHhhCCcchHH
+
+
+Q ss_pred             Hh------hHhhcccccEEecCCCCCceeeecCCCHHHHHHHHHHHHHHHHHHhCCCCC-Ccccc-cCCCchHHHHHHHH
+Q Q_9186633_49    288 AK------ELFKKETGILNIRNPEGKAEFLTKMMPKEFFEYFVGLLEKNIFRFSKSVDV-NDEAF-AGGNESGEARKWKL  359 (497)
+Q Consensus       288 ~~------~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~p~~-~~~~~-~~~~~Sg~a~~~~~  359 (497)
+                      ..      ....++++++.++ ++.+++.++.+..  ++.++.+.+...|...+++|.. ..+.. ++.++|+.+   ..
+T Consensus       212 ~~~~~~~~~~~~~~g~~~~l~-~~~~~~~~~~~~~--~~~~~~~~~~~~iaa~~gvP~~~l~g~~~~g~~as~~~---~~  285 (351)
+T Q9P9S3_XYLFA/5  212 VHKRFQLAAMMKSFNRMLLLD-AKDEYTQKTNHFS--GVKEVIEQFMMDISGAADIPATRLFGQSPKGMNATGDS---DI  285 (351)
+T ss_pred             HHHHHHHHHhcccccceeeec-CCCcceEeecCcc--CHHHHHHHHHHHHHhhhCCCeEEeccCCCCccCCCCch---HH
+
+
+Q ss_pred             HHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHHhcCCCccchhceEEEeeCCCCCCHHHHHHHHHHh
+Q Q_9186633_49    360 IALEFKANLTES-WFEKGLRDMFEGIVAYMRIKQGMNSIVSSNIYADFTRTLPVDLGYLADTLTKL  424 (497)
+Q Consensus       360 ~~~~~~~~~~~~-~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~i~v~f~~~~~~d~~~~~~~~~~~  424 (497)
+                      ..+...++..+. .+.+.++++++.+....  .+.    ....++++|.+....|..+.+++..+.
+T Consensus       286 ~~~~~~i~~~q~~~~~p~l~~i~~~~~~~~--~g~----~~~~~~~~~~~~~~~d~~e~ae~~~~~  345 (351)
+T Q9P9S3_XYLFA/5  286 RNYYDRIKAQQEDELRPVLRVLYAVLFRAS--VGE----CPQDLEIQFNSLWQMSETERASIEKLR  345 (351)
+T ss_pred             HHHHHHHHHHHHHhcHHHHHHHHHHHHHhh--hCC----CCCCeEEEeCCccCCCHHHHHHHHHHH
+
+
+No 6
+>COG3567 COG3567; Uncharacterized protein [Function unknown]. 
+Probab=98.99  E-value=2.8e-07  Score=93.41  Aligned_cols=319  Identities=9%  Similarity=-0.022  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             eecCchHHHHhhhcchhhccCCceeeecCCCCccHHHHHHHHHHcCCchHHHHHHHHHHHHhCeEEEEEecCC-------
+Q Q_9186633_49     77 KIHNSFFNLIVDQKVGYVFGNPISYQIEEEVSENEREWVKEYLYNQDVFLKDIETGTQQAACGVSYRLLDIQT-------  149 (497)
+Q Consensus        77 ~~~~n~~~~iv~~~~~~l~~~~~~~~~~~~~~~~~~~~l~~~~~~~~l~~~~~~~~~~~~~~G~~~~~v~~~~-------  149 (497)
+                      +...++++.+|+..+..+.+.++.+....+  ....+.+..+|+...+...+.++....+++|.+|+.+..+.       
+T Consensus        53 ~~~~~~~~~~V~~~a~~v~~~~~~i~~~~~--~~~~~~l~~~l~~~~~~~~~~~~~~~~~~~G~~~i~i~~~~~~~~~pl  130 (452)
+T COG3567          53 YRTNWIARKVVDIPSEDMVRAWRDLQTCMK--AEALEPIERLERRLKVRAKVRKALAWARLYGGAVLFIGVHGQNPSLPL  130 (452)
+T ss_pred             HHcChhHHHHcccCHHHHHHccccccccCC--HHHHHHHHHHHHHhcHHHHHHHHHHHcchhCCeEEEEEecCCCCCCCC
+
+
+Q ss_pred             ------CCCcccccccccccccchheeE-E----cccCceEEEEEeeecCCCcEEEEEEEeCCeEEE-EeeccccccCce
+Q Q_9186633_49    150 ------QLIPSVVETVASLKNVNSWDAY-V----LGHKEAAIVLSEDYTEKGHTQILTLYTKDLILE-YHSAASEVNGMI  217 (497)
+Q Consensus       150 ------~~~~~~~~~~~~i~~~~p~~~~-~----~~~~~~~i~~~~~~~~~g~~~~~~~~~~~~~~~-~~~~~~~~~~~~  217 (497)
+                            .+.+.      .+.+++|..+. +    ..++        .....+.+..+.+...+.... +....       
+T Consensus       131 ~~~~~~~~~~~------~l~~i~p~~i~~~~~~~~~d~--------~~~~~g~~~~y~i~~~~~~~~~~~~~~-------  189 (452)
+T COG3567         131 DPTSIMPGSLK------SLTVLDRWRVALGSGQMDQDV--------FSETFGQPRCYQITAGTSSVERVHRSR-------  189 (452)
+T ss_pred             ChhhCCCCCcc------eEEEEcchheecCCCCcCCCC--------CCCCCCCcEEEEEeCCCCceeEEecCe-------
+
+
+Q ss_pred             eeeecccccccCCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeecCCCCChhhHh--------
+Q Q_9186633_49    218 GFDIAGGIINLLGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLAYMLITGVDMEPDDAK--------  289 (497)
+Q Consensus       218 ~~~~~~~~~~~~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~g~~~~~~~~~--------  289 (497)
+                      .+.+.......+        ....+|.|.+..+.+.+..++.........+...+.+.+++.+......+..        
+T Consensus       190 vih~~~~~~~~~--------~~~~~G~s~l~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  261 (452)
+T COG3567         190 LIIFQGNELPWE--------RNGYWGDSVLESMYDALKRYDTATANVGSLFFEAKIDVLKISGLSDTLSSDQGNQEAHKR  261 (452)
+T ss_pred             EEEecCCCCChh--------hcCCCCCcHHHHHHHHHHHHHHHHHHHHHHHHHHCceEEeeCCHHHhhcCccccHHHHHH
+
+
+Q ss_pred             ----hHhhcccccEEecCCCCCceeeecCCCHHHHHHHHHHHHHHHHHHhCCCCCCcccccCCCchHHHHHHHHHHHHHH
+Q Q_9186633_49    290 ----ELFKKETGILNIRNPEGKAEFLTKMMPKEFFEYFVGLLEKNIFRFSKSVDVNDEAFAGGNESGEARKWKLIALEFK  365 (497)
+Q Consensus       290 ----~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~p~~~~~~~~~~~~Sg~a~~~~~~~~~~~  365 (497)
+                          ....+.+ ++.++ .+.+++.++.+.....  ++++.+.+.|...+++|.........++.++  .......+...
+T Consensus       262 ~~~~~~~~~~~-~~~l~-~~~~~~~~~~~~~~~~--~~~~~~~~~Ia~~~giP~~~l~g~~~~~~ss--~e~~~~~~~~~  335 (452)
+T COG3567         262 FQLAAMAKAIN-MLLLD-AEEEYTQKSNSFSGLK--DLLDQFMMDVAGAADMPATRLFGQSPKGLNS--GDSDIRNYYDR  335 (452)
+T ss_pred             HHHHHHHHHhc-eeeeC-CcchhheecccccCHH--HHHHHHHHHHHHHcCCCcEEccCCCCCccCC--ChhhHHHHHHH
+
+
+Q ss_pred             HHHHHH-HHHHHHHHHHHHHHHHHHHhcCCCccchhceEEEeeCCCCCCHHHHHH-------HHHHhc--CCCCHHHHHh
+Q Q_9186633_49    366 ANLTES-WFEKGLRDMFEGIVAYMRIKQGMNSIVSSNIYADFTRTLPVDLGYLAD-------TLTKLT--TILSERTVLG  435 (497)
+Q Consensus       366 ~~~~~~-~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~i~v~f~~~~~~d~~~~~~-------~~~~~~--g~is~~~~~~  435 (497)
+                      ++.++. .+.+.++.+.+.+.....      ......+.++|.+....|..+.++       ++..+.  |.+++.++++
+T Consensus       336 ~~~~q~~~l~p~~~~i~~~l~~~~~------~~~~~~~~i~~~~~~~~d~~e~ae~~~~~a~~~~~~~~~gv~t~~e~re  409 (452)
+T COG3567         336 ISAQQEDRLRPVLEVLDALLFRASV------GECPQDWEIEFNPLWQMSEKERASVEKLRAEADQIYIANGVIGPDVPAE  409 (452)
+T ss_pred             HHHHHHHhcHHHHHHHHHHHHHHhh------CCCCCCeEEEeCCccCCCHHHHHHHHHHHHHHHHHHHHcCCCCccHHHH
+
+
+Q ss_pred             cCC
+Q Q_9186633_49    436 MIP  438 (497)
+Q Consensus       436 ~l~  438 (497)
+                      .++
+T Consensus       410 ~~~  412 (452)
+T COG3567         410 LLE  412 (452)
+T ss_pred             HHh
+
+
+No 7
+>COG5518 COG5518; Bacteriophage capsid portal protein  [Mobilome: prophages, transposons]. 
+Probab=98.74  E-value=3.5e-05  Score=79.14  Aligned_cols=341  Identities=9%  Similarity=-0.023  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             ceecCchHHHHhhhcchhhccCCceeeec--------------CCCCccHHHHHHHHHHc----CCchHHHHHHHHHHHH
+Q Q_9186633_49     76 NKIHNSFFNLIVDQKVGYVFGNPISYQIE--------------EEVSENEREWVKEYLYN----QDVFLKDIETGTQQAA  137 (497)
+Q Consensus        76 ~~~~~n~~~~iv~~~~~~l~~~~~~~~~~--------------~~~~~~~~~~l~~~~~~----~~l~~~~~~~~~~~~~  137 (497)
+                      .+...++++.+|+.++..+.+.++.+...              ..  ....+.+..++..    .++...+..+....+.
+T Consensus        49 l~~~~~~v~~~V~~~a~~i~g~g~~i~~~~~~~~~~~~~~~~~~~--~~~~~~l~~~l~~pn~~~~~~~~l~~~~~~~~~  126 (492)
+T COG5518          49 ILERSTILQQCLDAYECNIMGFGYDPEYSFDGNARDVRAAKKHSA--EIEVKRLILFSTFIPHDELSETTFGRLIEDREK  126 (492)
+T ss_pred             HHhhChHHHHHHHHHHhhhcCCCccCcccCCCCccccchhhccch--HHHHHHHHHHHhcCCchhcHHHHHHHHHHHHHH
+
+
+Q ss_pred             hCeEEEEEecCCCCCcccccccccccccchheeEEcccCceEEEEEeeecCCC--------------------cEEEEEE
+Q Q_9186633_49    138 CGVSYRLLDIQTQLIPSVVETVASLKNVNSWDAYVLGHKEAAIVLSEDYTEKG--------------------HTQILTL  197 (497)
+Q Consensus       138 ~G~~~~~v~~~~~~~~~~~~~~~~i~~~~p~~~~~~~~~~~~i~~~~~~~~~g--------------------~~~~~~~  197 (497)
+                      +|.+|+.+..+..+.+.      .+.+++|..+.+..+.. .+...+.++..|                    ...++..
+T Consensus       127 ~G~~~~~i~~~~~g~~~------~l~~l~~~~v~~~~~~~-~~~~g~~~~~~g~~~~~~~~~~~~~y~q~~~~~~~~y~~  199 (492)
+T COG5518         127 TGNGYLEVRRNGLGKPA------GLEYPDAKYVRVCKKTE-PVEVGFTYMEKGEMKNIKRNKRFRKYVQMIDLKTVWFKE  199 (492)
+T ss_pred             hCCEEEEEEeCCCCCcc------EEEeCCcccEEEeeCCC-CeeecEEEccCCceEEeeecccceeeeEEeCCeEEEEee
+
+
+Q ss_pred             EeCCeEEEEeeccccccCceeeeecccccccCCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhh--e
+Q Q_9186633_49    198 YTKDLILEYHSAASEVNGMIGFDIAGGIINLLGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLA--Y  275 (497)
+Q Consensus       198 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~--~  275 (497)
+                      |.....+.+...        .+........+...+-.+...+..+|.|.+..+...+.............+...+.|  +
+T Consensus       200 ~~~~~~~~~~~g--------~~~~~~~~~~~~~evih~~~~~~~~G~s~~~~a~~~i~~~~~~~~~~~~~~~n~~~p~~i  271 (492)
+T COG5518         200 YGDPRPYDFTTG--------NYVSMFHLEEPANEDIHQKIGSGAYGLPRWIGAIVSLYGARKAEELNRMYFKNGRHAPAA  271 (492)
+T ss_pred             cCCCcceeCCCC--------ceecccCCCCCcccceEeecCCCCCCcchHHHHHHHHHHHHHHHHHHHHHHHcCCccCEE
+
+
+Q ss_pred             eeecCCCCChhhHhhHh---------hcccccEEecCCCCC--------------ceeeecC---CCHHHHHHHHHHHHH
+Q Q_9186633_49    276 MLITGVDMEPDDAKELF---------KKETGILNIRNPEGK--------------AEFLTKM---MPKEFFEYFVGLLEK  329 (497)
+Q Consensus       276 ~~~~g~~~~~~~~~~~~---------~~~~~v~~~~~~~~~--------------~~~~~~~---~~~~~~~~~~~~l~~  329 (497)
+                      +.+.+.....++...+.         ...++++.+..++..              +++....   .....+.+..+.+..
+T Consensus       272 i~~~~~~l~~~~~~~~~~~~~~~~g~~n~~~~~~l~~~~~~~~~~~g~~~~~~~~~~~~~l~~~~~~d~~~~~~~~~~~~  351 (492)
+T COG5518         272 IYMTDGALSEEDYNNLREYMKSAKGPENARNFLMYEPNGKKIKNAHGDGNISPVKVQIKSLAEVAQKDAEFLEYDNVSRD  351 (492)
+T ss_pred             EEecCCCCCHHHHHHHHHHHHHccCccccCCeEEEcCCCcccccCCCCCCCCcceEEEEEhhHHhhhchhHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhCCCCCCcccccCCC-chHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCccchhceEEEeeC
+Q Q_9186633_49    330 NIFRFSKSVDVNDEAFAGGN-ESGEARKWKLIALEFKANLTESWFEKGLRDMFEGIVAYMRIKQGMNSIVSSNIYADFTR  408 (497)
+Q Consensus       330 ~i~~~~~~p~~~~~~~~~~~-~Sg~a~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~i~v~f~~  408 (497)
+                      .|....++|....+...+++ .++.+....+.         ...+.+.++.+.+.+...+..     ......+++.|.+
+T Consensus       352 ~I~~~~gVP~~llg~~~~~~~s~~~~~~~~~~---------~~~i~P~~~~i~~~l~~~l~~-----~~~~~~~~~~~~~  417 (492)
+T COG5518         352 KMRSAFRLPPQYTGEAPNYNGATADTARKITE---------EQVFQPERKKLARKLNGLFLE-----VLPIQERRLALKG  417 (492)
+T ss_pred             HHHHHhCCCHHHcCCCCCCCCCcHHHHHHHHH---------HHhchHHHHHHHHHHHHHHhh-----hCCCCeEEEEecC
+
+
+Q ss_pred             CCCCCHHHHHHHHHHhc--CCCCHHHHHhcC----CCCCCHHHHHHH
+Q Q_9186633_49    409 TLPVDLGYLADTLTKLT--TILSERTVLGMI----PAIDDVDAEMEQ  449 (497)
+Q Consensus       409 ~~~~d~~~~~~~~~~~~--g~is~~~~~~~l----~~~~d~~~e~~~  449 (497)
+                      ....|..+.++++..+.  |++|..++++.+    |.  ++++..++
+T Consensus       418 ~~~~d~~~~a~~~~~~~~~G~is~~E~R~~lg~~~g~--~~~~~~~~  462 (492)
+T COG5518         418 PDWIDPEVIAFALYPFITAGAVSPNDLRDLAGRVLGK--TLEEWPEE  462 (492)
+T ss_pred             CCCCCHHHHHHHHHHHHhcCCCCHHHHHHHHHHHhCC--CcccCchh
+
+
+No 8
+>PF13264.6 ; DUF4055 ; Domain of unknown function (DUF4055)
+Probab=98.73  E-value=3.6e-07  Score=75.44  Aligned_cols=136  Identities=13%  Similarity=0.095  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             cHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeecCCCCChhhHhhHhhcccccEEecCCCCCceeeecCCC-HHHHHHHH
+Q Q_9186633_49    246 DFETVEDLNDAYDRMISSGADEVEQFRLAYMLITGVDMEPDDAKELFKKETGILNIRNPEGKAEFLTKMMP-KEFFEYFV  324 (497)
+Q Consensus       246 ~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~v~~~~~~~~~~~~~~~~~~-~~~~~~~~  324 (497)
+                      .+.++..+...+.+..+++....++.++|+++  |...+..+.. +..+++.++.++.++.+++|++++.. .......+
+T Consensus         1 Pl~dla~lnl~hy~~~sd~~~~l~~~~~p~l~--g~~~~~~~~~-~~iG~~~~~~~~~~~~~~~~ve~~~~~~~~~~~~l   77 (137)
+T D5BP61_PUNMI/2    1 PLIDLAWLNLAHWQSASDQRHILHVARVPILF--GRALQAAEGD-IEIGPNRLIMADDPAADLRFVEHSGAAINAGRQDL   77 (137)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHHHhcCCeec--CCcccccCCC-EEECCCccEEeCCCCCceEEEeecHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCCCCcccccCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_49    325 GLLEKNIFRFSKSVDVNDEAFAGGNESGEARKWKLIALEFKANLTESWFEKGLRDMFEGIVAYM  388 (497)
+Q Consensus       325 ~~l~~~i~~~~~~p~~~~~~~~~~~~Sg~a~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~  388 (497)
+                      +.++++|..+++......+    ++.||++.+.........+......++.+++++++++..|+
+T Consensus        78 ~~~~~~m~~lG~~~~~~~~----~~eTa~a~~i~~~~~~s~L~~~a~~~~~a~~~~l~~~a~w~  137 (137)
+T D5BP61_PUNMI/2   78 IDLEDRMAVLGLDMLRRRP----GNETATGRAIDAAEAHAALTGVITTLRDGLQAAFEMAADWL  137 (137)
+T ss_pred             HHHHHHHHHHhHHHhhhCC----CCccHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHHHhC
+
+
+No 9
+>PF04860.12 ; Phage_portal ; Phage portal protein
+Probab=98.66  E-value=1.1e-05  Score=77.97  Aligned_cols=303  Identities=11%  Similarity=0.011  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             chHHHHhhhcchhhccCCceeee----------cCCCCccHHHHHH-HHHHcCCchHHHHHHHHHHHHhCeEEEEEecCC
+Q Q_9186633_49     81 SFFNLIVDQKVGYVFGNPISYQI----------EEEVSENEREWVK-EYLYNQDVFLKDIETGTQQAACGVSYRLLDIQT  149 (497)
+Q Consensus        81 n~~~~iv~~~~~~l~~~~~~~~~----------~~~~~~~~~~~l~-~~~~~~~l~~~~~~~~~~~~~~G~~~~~v~~~~  149 (497)
+                      +.+..+|+.++..+.+.++.+..          ...   ....+++ ..-...++..++..++.+.+.+|.+|+.+..+.
+T Consensus         1 p~v~~~v~~~~~~v~~~~~~~~~~~~~~~~~~~~~~---~~~~~l~~~pn~~~~~~~~~~~~~~~~~~~G~~~~~~~~~~   77 (329)
+T D5AUU0_RHOCB/7    1 ATVVAACTVIAGDLAKLPLGVFQRAGSGREIRLRDH---PLDHLLNAEAAPGVPAHVMRFAIGYAFTLRGRGFAFAPRDG   77 (329)
+T ss_pred             ChHHHHHHHhccchhcCCeeEEEECCCCCeEecCCC---cHHHHHhcCCCCCCCHHHHHHHHHHHHHHhCcEEEEEeeCC
+
+
+Q ss_pred             CCCcccccccccc-cccchheeEEcccCceEEEEEeeecCCCcEEEEEEEeCCeEEEEeeccccccCceeeeeccccccc
+Q Q_9186633_49    150 QLIPSVVETVASL-KNVNSWDAYVLGHKEAAIVLSEDYTEKGHTQILTLYTKDLILEYHSAASEVNGMIGFDIAGGIINL  228 (497)
+Q Consensus       150 ~~~~~~~~~~~~i-~~~~p~~~~~~~~~~~~i~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  228 (497)
+                      .+..       .+ .+++|..+.+...              +....+.+...+....+...             +...|.
+T Consensus        78 ~~~~-------~l~~~l~~~~v~~~~~--------------~~~~~y~~~~~~~~~~~~~~-------------~~v~~~  123 (329)
+T D5AUU0_RHOCB/7   78 AGEV-------TLIEAIRPDHCTVLRA--------------GRERYYEFEDGAQVLRRVSG-------------RVMAHL  123 (329)
+T ss_pred             CCCe-------eeEEEeChhhEEEEEE--------------CCEEEEEEEcCCceEEEEch-------------hhEEEE
+
+
+Q ss_pred             CCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeecCC--CCChhhH----hhHhhcc-----cc
+Q Q_9186633_49    229 LGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLAYMLITGV--DMEPDDA----KELFKKE-----TG  297 (497)
+Q Consensus       229 ~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~g~--~~~~~~~----~~~~~~~-----~~  297 (497)
+                      .. .|.    +..+|.|.+..+...+..+....... ..+...+.+..++.-.  ...+++.    ..+...-     +.
+T Consensus       124 ~~-~~~----~~~~G~s~l~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  197 (329)
+T D5AUU0_RHOCB/7  124 RY-MAE----DGWTGRSPIEVAAETLGIALARQEAA-ARLAGGKGFKAVAKLEDFGADDETWQRARARLKAAMAEDADEG  197 (329)
+T ss_pred             ec-ccC----CCCcCCCHHHHHHHHHHHHHHHHHHH-HHHcCCCcceEEEEecCCCCCHHHHHHHHHHHHHHHHhcCCCC
+
+
+Q ss_pred             cEEecCCCCCceeeecCCCHHHHHHHHHHHHHHHHHHhCCCCCCcccccCCC-chHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_49    298 ILNIRNPEGKAEFLTKMMPKEFFEYFVGLLEKNIFRFSKSVDVNDEAFAGGN-ESGEARKWKLIALEFKANLTESWFEKG  376 (497)
+Q Consensus       298 v~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~p~~~~~~~~~~~-~Sg~a~~~~~~~~~~~~~~~~~~~~~~  376 (497)
+                      ++.++ ++.+++.++.+.....+.+.++.+.+.|....++|....+...+++ .+..+....+..     ......++..
+T Consensus       198 ~~~l~-~~~~i~~l~~~~~~~~~~~~~~~~~~~i~~~~gvp~~~lg~~~~~~~~~~~~~~~~~~~-----~~i~p~~~~i  271 (329)
+T D5AUU0_RHOCB/7  198 VLIIG-QSDDIKSLGLSAADLELLASQKFDREQIAALYRVPPAKLQMLEYGVKANGEQQALDYKA-----ECLTHWGRFL  271 (329)
+T ss_pred             eEEeC-CCceEEEcCCCHHHHHHHHHccCCHHHHHHHhCCCHHHhcchhccCcccHHHHHHHHHH-----hchHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHhcCCCccchhceEEEeeCCCCCCHHHHHHHHHHhc--CCCCHHHHHhcCC
+Q Q_9186633_49    377 LRDMFEGIVAYMRIKQGMNSIVSSNIYADFTRTLPVDLGYLADTLTKLT--TILSERTVLGMIP  438 (497)
+Q Consensus       377 l~~~~~~~~~~~~~~~~~~~~~~~~i~v~f~~~~~~d~~~~~~~~~~~~--g~is~~~~~~~l~  438 (497)
+                      .+.+-..++.......+      ..++++|.+....|+.+.++.+..+.  |.+|..++++.+|
+T Consensus       272 ~~~l~~~l~~~~~~~~~------~~~~~~~~~~~~~d~~~~~~~~~~~~~~G~~t~ne~r~~~G  329 (329)
+T D5AUU0_RHOCB/7  272 ESGLGQGLLSAAERRAG------LFLRHQYDALLMATTKERYEAITKAVGGPILTPNEGRAIEG  329 (329)
+T ss_pred             HHHHHhccCCHHHHhcC------eEEEEehHHhhcCCHHHHHHHHHHHhhCCccCHHHHHHHcC
+
+
+No 10
+>PF05136.13 ; Phage_portal_2 ; Phage portal protein, lambda family
+Probab=98.59  E-value=3.4e-06  Score=82.40  Aligned_cols=268  Identities=10%  Similarity=-0.050  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             ccceecCchHHHHhhhcchhhccCCceeeecCCCCccHHHHHHHHHH----------cCCchHHHHHHHHHHHHhCeEEE
+Q Q_9186633_49     74 VWNKIHNSFFNLIVDQKVGYVFGNPISYQIEEEVSENEREWVKEYLY----------NQDVFLKDIETGTQQAACGVSYR  143 (497)
+Q Consensus        74 ~~~~~~~n~~~~iv~~~~~~l~~~~~~~~~~~~~~~~~~~~l~~~~~----------~~~l~~~~~~~~~~~~~~G~~~~  143 (497)
+                      ...+...++++.+|+.++.++.+.++.+. ....++...+.++++|.          ..++..++..++...+++|.+|+
+T Consensus        31 r~~~~~~p~v~~~v~~~~~~v~g~g~~~~-~~~~d~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Ge~~~  109 (348)
+T A6WZ18_OCHA4/4   31 RELVRNNPHAANAVTQLVTHIVGDGIMPR-AKTGDDAKDKKVNDLFDEWSKKADADGGLDFYGLQTLAIRGMIESGDGII  109 (348)
+T ss_pred             HHHHHhCHHHHHHHHHHHhccccCCeeee-cCCCCHHHHHHHHHHHHHHHHhCCCCCCCCHHHHHHHHHHHHhhcCCEEE
+
+
+Q ss_pred             EEecCC--CC--CcccccccccccccchheeEEcccC----ceEEEEEeeecCCCcEEEEEEEeC-----------CeEE
+Q Q_9186633_49    144 LLDIQT--QL--IPSVVETVASLKNVNSWDAYVLGHK----EAAIVLSEDYTEKGHTQILTLYTK-----------DLIL  204 (497)
+Q Consensus       144 ~v~~~~--~~--~~~~~~~~~~i~~~~p~~~~~~~~~----~~~i~~~~~~~~~g~~~~~~~~~~-----------~~~~  204 (497)
+                      .+..+.  ++  .|.      .+..++|..+....+.    ...+.....++..+++..+.+...           +...
+T Consensus       110 ~~~~~~~~~g~~~~~------~l~~l~p~~v~~~~~~~~~~~~~~~~Gi~~d~~g~~~~y~~~~~~p~~~~~~~~~~~~~  183 (348)
+T A6WZ18_OCHA4/4  110 RRRRRTRKDKLPVPL------QLQVLETDMIDSAKEGPLSAGNIAVQGIEFDAEGRRANYWLFQSHPGNTYLDPRSALIS  183 (348)
+T ss_pred             EEEecCCCCCCCCCe------EEEEEeHHhcCCCCCCCCCCCCeeEeeEEECCCCCEEEEEEeCCCCCCCCCCcccCCee
+
+
+Q ss_pred             EEeeccccccCceeeeecccccccCCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeecCCCCC
+Q Q_9186633_49    205 EYHSAASEVNGMIGFDIAGGIINLLGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLAYMLITGVDME  284 (497)
+Q Consensus       205 ~~~~~~~~~~~~~~~~~~~~~~~~~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~g~~~~  284 (497)
+                      .....             +...|....    ... ..+|.|.+.+++..+..+..............+.+..++......
+T Consensus       184 ~~v~a-------------~~iih~~~~----~~~-~~rG~s~l~~~~~~i~~~~~~~~~~~~~~~~~a~~~~~i~~~~~~  245 (348)
+T A6WZ18_OCHA4/4  184 KPVAA-------------KDIAHVFEK----QRT-QVRGVPWGSPVMSPIHDLGEYEGAEIVRKKIESCMVGILVRKNED  245 (348)
+T ss_pred             EEEEH-------------HHheEeecc----cch-hhCCCCchHHhHhHHHhhcchHHHHHHHHHHhccEEEEEEeCCCC
+
+
+Q ss_pred             hhh--------------------HhhHhhcccccEEecCCCCCceeeecCCCHHHHHHHHHHHHHHHHHHhCCCCCCc-c
+Q Q_9186633_49    285 PDD--------------------AKELFKKETGILNIRNPEGKAEFLTKMMPKEFFEYFVGLLEKNIFRFSKSVDVND-E  343 (497)
+Q Consensus       285 ~~~--------------------~~~~~~~~~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~p~~~~-~  343 (497)
+                      ...                    .......++.++.++ +|.+++.+++. ...++.++.+.+...|....++|.... +
+T Consensus       246 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~i~~l~-~G~~~~~~~~~-~~~~~~~~~~~~~~~i~~~~gvP~~~l~g  323 (348)
+T A6WZ18_OCHA4/4  246 EGLGIPVKADDVVRKPGVYDGSGYPVERFEPGMFAFAE-GADDIKFNTPA-ANSQYEAYKRAMLHTIAAGFRIPYFLLTG  323 (348)
+T ss_pred             CCCCccccccccccCCCccCCCCCceeeecCCcEEECC-CCCeeEecCCC-CCccHHHHHHHHHHHHHHHcCCCHHHHhC
+
+
+Q ss_pred             cccCCCchHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_49    344 AFAGGNESGEARKWKLIALEFKANLTE  370 (497)
+Q Consensus       344 ~~~~~~~Sg~a~~~~~~~~~~~~~~~~  370 (497)
+                      ..  ++.+..+.+.....+...++..|
+T Consensus       324 ~~--~~~nyss~r~~~~~~~~~~~~~q  348 (348)
+T A6WZ18_OCHA4/4  324 DL--SQASYASSKIGIEPFARLVSAVQ  348 (348)
+T ss_pred             Cc--ccCcchHHHHHHHHHHHHHHhhC
+
+
+No 11
+>PF06074.12 ; DUF935 ; Protein of unknown function (DUF935)
+Probab=98.51  E-value=0.00023  Score=74.01  Aligned_cols=316  Identities=11%  Similarity=-0.011  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CchHHHHhhhcchhhccCCceeeecCCC--CccHHHHHHHHHHcCCchHHHHHHHHHHHHhCeEEEEEecCCCCCccccc
+Q Q_9186633_49     80 NSFFNLIVDQKVGYVFGNPISYQIEEEV--SENEREWVKEYLYNQDVFLKDIETGTQQAACGVSYRLLDIQTQLIPSVVE  157 (497)
+Q Consensus        80 ~n~~~~iv~~~~~~l~~~~~~~~~~~~~--~~~~~~~l~~~~~~~~l~~~~~~~~~~~~~~G~~~~~v~~~~~~~~~~~~  157 (497)
+                      .+.+..+++.....+.+.++.+...+++  +....+++++++....+..++..++ .++.+|.++..+.|...+......
+T Consensus        76 D~~v~~~l~~r~~~v~~~~~~i~~~~~~~~~~~~a~~~~~~l~~~~~~~~~~~ll-da~~~G~s~~Eivw~~~~g~~~~~  154 (539)
+T T2GD94_DESGI/3   76 DPHIGHLASIRKRAVSGRSWQMDAADDSPKAAEIAGFCQTVLEALPLRQAFRDAL-DATGKGFAALELYWDVSAGQAVPT  154 (539)
+T ss_pred             CHHHHHHHHHHHHHHhcCCcEEeCCCCCHHHHHHHHHHHHHHHcCCHHHHHHHHH-HHhhcCeEEEEEEEEEeCCEEccc
+
+
+Q ss_pred             ccccccccchheeEEcccCceEEEEEeeecCCCcEEEEEEEeCCe----EEEEeeccccccCceeeeecccccccCCCCc
+Q Q_9186633_49    158 TVASLKNVNSWDAYVLGHKEAAIVLSEDYTEKGHTQILTLYTKDL----ILEYHSAASEVNGMIGFDIAGGIINLLGVVP  233 (497)
+Q Consensus       158 ~~~~i~~~~p~~~~~~~~~~~~i~~~~~~~~~g~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~iP  233 (497)
+                         .+...+|..+              .++.++...+........    -..+...        .|.+.......     
+T Consensus       155 ---~l~~~~~~~f--------------~~~~~~~~~~~~~~~~~~~~~~~~~l~~~--------k~i~~~~~~~~-----  204 (539)
+T T2GD94_DESGI/3  155 ---RLEFVEQRRF--------------GWLRLGNGALELGLAGDGSLREPEPLWPF--------KWLVHRSQARS-----  204 (539)
+T ss_pred             ---eeEEEcchhe--------------EEccCCCcEEEeccCCCCCCCCCeeCCCc--------cEEEEeccccC-----
+
+
+Q ss_pred             EEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeec-CCCCChhhHhhH-----hhcccccEEecCCCCC
+Q Q_9186633_49    234 VFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLAYMLIT-GVDMEPDDAKEL-----FKKETGILNIRNPEGK  307 (497)
+Q Consensus       234 ~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~-g~~~~~~~~~~~-----~~~~~~v~~~~~~~~~  307 (497)
+                           .+++|.|.+..+......-+..+.......+.++.|..+.+ .....+++...+     ..+.++.+.++ .+.+
+T Consensus       205 -----~~p~G~gll~~~~~~~~~K~~~~~~~~~f~e~~G~P~~v~k~~~~~~~~~~~~l~~al~~~~~~~~~vlp-~g~~  278 (539)
+T T2GD94_DESGI/3  205 -----GVPWRGPLYRTLAWLYLFRNYNLAGWARFVESYGIPTRLGRYPAGATETEQNTLLAAAQAISSEAAVIIP-QGMQ  278 (539)
+T ss_pred             -----CCCCcchHHHHHHHHHHHHHHhHHHHHHHHHHHCCCeEEEECCCCCCHHHHHHHHHHHHHHHhcceEEeC-CCCe
+
+
+Q ss_pred             ceeeecCC---CHHHHHHHHHHHHHHHHHHhCCCCCCcccccCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHH
+Q Q_9186633_49    308 AEFLTKMM---PKEFFEYFVGLLEKNIFRFSKSVDVNDEAFAGGNESGEARKWKLIALEFKANLTESWFEKGLR-DMFEG  383 (497)
+Q Consensus       308 ~~~~~~~~---~~~~~~~~~~~l~~~i~~~~~~p~~~~~~~~~~~~Sg~a~~~~~~~~~~~~~~~~~~~~~~l~-~~~~~  383 (497)
+                      +++++...   ....+..+++.+.++|..+......+.+..+++..|.........-....++.....++..++ +++..
+T Consensus       279 ie~le~~~~~~~~~~f~~~i~~~d~~Isk~ilG~tlt~~~~~G~~gs~A~~~~h~~v~~~~~~~d~~~l~~~ln~~li~~  358 (539)
+T T2GD94_DESGI/3  279 LELLETKFSSAAKTPHEGFLDWTTRSISIALIGGTLTTDTASGGGGAYALGEVHNQVRWDLQRDDAEQLCATLNRDLVKP  358 (539)
+T ss_pred             EEEEeccccCCCCchHHHHHHHHHHHHHHHHHccccccCCCCCCCccchHHHHHHHHHHHHHHHHHHHHHHHHHhccHHH
+
+
+Q ss_pred             HHHHHHHhcCCCccchhceEEEeeCCCCCCHHHHHHHHHHhc---CC-CCHHHHHhcCC
+Q Q_9186633_49    384 IVAYMRIKQGMNSIVSSNIYADFTRTLPVDLGYLADTLTKLT---TI-LSERTVLGMIP  438 (497)
+Q Consensus       384 ~~~~~~~~~~~~~~~~~~i~v~f~~~~~~d~~~~~~~~~~~~---g~-is~~~~~~~l~  438 (497)
+                      ++.+-.      +.......+.|....+.|..+.++.+.++.   |. ++.+.+++.+|
+T Consensus       359 l~~~N~------g~~~~~p~f~~~~~~~~D~~~~a~~~~~l~~~gG~~i~~~~vre~~g  411 (539)
+T T2GD94_DESGI/3  359 LVDLNF------GPQPAYPTLAIDVPEPADLQALAQVIATLGQAGYDEIPLWWIRQKFR  411 (539)
+T ss_pred             HHHHhC------CCCCCCCeEEEeCCChhcHHHHHHHHHHHHHCCCccCCHHHHHHHHC
+
+
+No 12
+>COG4695 BeeE; Phage portal protein BeeE [Mobilome: prophages, transposons]. 
+Probab=98.35  E-value=0.00015  Score=72.30  Aligned_cols=315  Identities=9%  Similarity=-0.103  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             ccceecCchHHHHhhhcchhhccCCceeeecCCCC------ccHHHHHH-HHHHcCCchHHHHHHHHHHHHhCeEEEEEe
+Q Q_9186633_49     74 VWNKIHNSFFNLIVDQKVGYVFGNPISYQIEEEVS------ENEREWVK-EYLYNQDVFLKDIETGTQQAACGVSYRLLD  146 (497)
+Q Consensus        74 ~~~~~~~n~~~~iv~~~~~~l~~~~~~~~~~~~~~------~~~~~~l~-~~~~~~~l~~~~~~~~~~~~~~G~~~~~v~  146 (497)
+                      ...+...+.++.+|+.++..+.+.++.+....+..      ....++|. ......++..++..++...+.+|.+|+.+.
+T Consensus        45 ~~~~~~~~~v~~~v~~ia~~i~~~~~~i~~~~~~~~~~~~~~~~~~~l~~~~n~~~~~~~~~~~~~~~~l~~G~~~~~~~  124 (398)
+T COG4695          45 AEGAMRNPAVFSCVRVLSEAVATLPLNLYQRDNEGIERADDHPLSALLSDRPNAWQTPFQFFETMFAHLLLNGNAYALIV  124 (398)
+T ss_pred             HHHHhcCHHHHHHHHHHHhchhcCCeEEEEecCCcceecCcCcHHHHhhcCCCCCCCHHHHHHHHHHHHHHcCCeEEEEE
+
+
+Q ss_pred             cCCCCCcccccccccccccchheeEEcccCceEEEEEeeecCCCcEEEEEEEeCCeEEEEeeccccccCceeeeeccccc
+Q Q_9186633_49    147 IQTQLIPSVVETVASLKNVNSWDAYVLGHKEAAIVLSEDYTEKGHTQILTLYTKDLILEYHSAASEVNGMIGFDIAGGII  226 (497)
+Q Consensus       147 ~~~~~~~~~~~~~~~i~~~~p~~~~~~~~~~~~i~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  226 (497)
+                      ++..|.+       .+.+++|..+.+....           ..+...++.....+....+....       .+.+.....
+T Consensus       125 ~~~~G~~-------~l~~l~~~~i~~~~~~-----------~~~~~~~~~~~~~g~~~~~~~~~-------vi~~~~~~~  179 (398)
+T COG4695         125 RNPRGNV-------ELLPLRPDRVLVADLG-----------EDGWPYAYDRNDDGKTARTLPAE-------VIHLKLFHT  179 (398)
+T ss_pred             eCCCCCe-------EEEEcCccceEEEecC-----------CCCceeEEEECCCCCeEEechhh-------eEEEeccCC
+
+
+Q ss_pred             ccCCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeecCCC-CChhhHhhH----------hhcc
+Q Q_9186633_49    227 NLLGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLAYMLITGVD-MEPDDAKEL----------FKKE  295 (497)
+Q Consensus       227 ~~~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~g~~-~~~~~~~~~----------~~~~  295 (497)
+                      .           ...+|.|.+..+...+.............++..+.|..++.-.. ..+++...+          ..+.
+T Consensus       180 ~-----------~~~~G~s~l~~~~~~i~~~~~~~~~~~~~~~~~~~p~~ii~~~~~~~~~~~~~~~~~~~~~~~~~~~~  248 (398)
+T COG4695         180 L-----------DGLVGISPLEAAREAIGLGLAAQRWSKSLLDNGARPSGVLTVAGTLSLEQTDRLKASLERVYAGKINA  248 (398)
+T ss_pred             C-----------CCcccCcHHHHHHHHHHHHHHHHHHHHHHHHcCCCCeeEEEeCCCCCHHHHHHHHHHHHHHhCCcccC
+
+
+Q ss_pred             cccEEecCCCCCceeeecCCCHHHHHHHHHHHHHHHHHHhCCCCCCcccccCCCchHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_49    296 TGILNIRNPEGKAEFLTKMMPKEFFEYFVGLLEKNIFRFSKSVDVNDEAFAGGNESGEARKWKLIALEFKANLTESWFEK  375 (497)
+Q Consensus       296 ~~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~p~~~~~~~~~~~~Sg~a~~~~~~~~~~~~~~~~~~~~~  375 (497)
+                      ++++.++ .+.+++.+..+.....+.+.++.+.+.|....++|....+...+++-+...            +.....+..
+T Consensus       249 ~~~~~~~-~~~~~~~l~~~~~~~~~~~~~~~~~~~I~~~~gvp~~~l~~~~~~~~s~~~------------~~~~~~~~~  315 (398)
+T COG4695         249 GRPLLLE-GGLDYKQLSISPCDADLLESRKFTRRDIALAFGVPPSLLGDPGDQTYSNYE------------EQMKAFYRM  315 (398)
+T ss_pred             CCcceec-CCCeEEEccCCHHHHHHHHHhhccHHHHHHHHCCCHHHcCCCCCCCCCCHH------------HHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHhcCCCccchhceEEEeeCCCCCCHHHHHHHHHHhc--CCCCHHHHHhcCC
+Q Q_9186633_49    376 GLRDMFEGIVAYMRIKQGMNSIVSSNIYADFTRTLPVDLGYLADTLTKLT--TILSERTVLGMIP  438 (497)
+Q Consensus       376 ~l~~~~~~~~~~~~~~~~~~~~~~~~i~v~f~~~~~~d~~~~~~~~~~~~--g~is~~~~~~~l~  438 (497)
+                      .+..+++.+...+...--........+.+.|......+.. .++.+..+.  |.+|.+++++.+|
+T Consensus       316 ~i~p~~~~i~~~l~~~l~~~~~~~~~~~~~~~~~~~~~~d-~a~~~~~~~~~G~~t~~e~r~~~G  379 (398)
+T COG4695         316 TLNPLLTPNEAELRRKLPPLAGGGLRLQPDLDSLALLSGE-RDALYDRFAAAGFLVPAEVRDLEG  379 (398)
+T ss_pred             chHhhHHHHHHHHHhhCCCccCCCcceeEEecHHHHHhcc-HHHHHHHHHHcCCcCHHHHHHHcC
+
+
+No 13
+>COG4383 gp29; Mu-like prophage protein gp29  [Mobilome: prophages, transposons]. 
+Probab=98.30  E-value=0.0011  Score=68.80  Aligned_cols=321  Identities=10%  Similarity=-0.049  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             cccceecCchHHHHhhhcchhhccCCceeeecCCC---CccHHHHHHHHHHcCC-chHHHHHHHHHHHHhCeEEEEEecC
+Q Q_9186633_49     73 KVWNKIHNSFFNLIVDQKVGYVFGNPISYQIEEEV---SENEREWVKEYLYNQD-VFLKDIETGTQQAACGVSYRLLDIQ  148 (497)
+Q Consensus        73 ~~~~~~~~n~~~~iv~~~~~~l~~~~~~~~~~~~~---~~~~~~~l~~~~~~~~-l~~~~~~~~~~~~~~G~~~~~v~~~  148 (497)
+                      +...+...+.+..+|+..+..+.+.++.+...++.   .....+.+.++++.-+ +..++..+ ..++.+|.+++.+.++
+T Consensus        62 ~~~m~~~d~~v~~~v~~r~~~v~~~~~~v~~~~~~~~~~~~~~~~l~~~L~~~~~~~~~~~~~-~~~~~~G~a~~ei~~~  140 (517)
+T COG4383          62 FADIEEKDTHIFAEMGKRKRAILTLDWRVAPPRNATPEEEKLAEMLYEMLESLPWLEDMIFDL-TDAVGHGFSCLEIEWG  140 (517)
+T ss_pred             HHHHHHhCcchHHHHHHHHHHHhcCCcEEeCCCCCCHHHHHHHHHHHHHHHcCChHHHHHHHH-HHHHhcCceeEEEEEe
+
+
+Q ss_pred             CC-C--CcccccccccccccchheeEEcccCceEEEEEeeecCCCcEEEEEEEeCCeEEEEeeccccccCceeeeecccc
+Q Q_9186633_49    149 TQ-L--IPSVVETVASLKNVNSWDAYVLGHKEAAIVLSEDYTEKGHTQILTLYTKDLILEYHSAASEVNGMIGFDIAGGI  225 (497)
+Q Consensus       149 ~~-~--~~~~~~~~~~i~~~~p~~~~~~~~~~~~i~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  225 (497)
+                      .. +  .+.      .+.+++|..+.+..+....+.+...  .+|     ..+.+.++..+...                
+T Consensus       141 ~~~g~~~~~------~l~~~~p~~~~~~~~~~~~l~~~~~--~~g-----~~~~~~~~iv~~~~----------------  191 (517)
+T COG4383         141 FSGGLYLPR------NFIHRPQGWFKWDKDDGLLLRLRDN--PEG-----EALWPFGWVVHTQR----------------  191 (517)
+T ss_pred             ecCCeeecc------cceeeCcceEEEeCCCCeEEEeecC--CCC-----ccccccccEeecCC----------------
+
+
+Q ss_pred             cccCCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhheeeec-CCCCChhhHhhH-----hhcccccE
+Q Q_9186633_49    226 INLLGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLAYMLIT-GVDMEPDDAKEL-----FKKETGIL  299 (497)
+Q Consensus       226 ~~~~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~~~~~~-g~~~~~~~~~~~-----~~~~~~v~  299 (497)
+                                ....+++|.|.+..+......-..........++.++.|..+++ +....+++...+     ....+.+.
+T Consensus       192 ----------~~~~~~~G~sll~~~~~~~~~k~~~~~~~~~~~e~~g~P~~v~k~~~~~~~~~~~~l~~~l~~~~~~~~~  261 (517)
+T COG4383         192 ----------SRSGYLARNGLVRTLVWPYIFKNYSVRDFAEFLEIYGLPIRLGKYPAGATKEEKNTLLRAVMEIGHNAAG  261 (517)
+T ss_pred             ----------ccCCCccccchHHHhHHHHHHHHHhHHHHHHHHHHhCCCeeEEecCCCCCHHHHHHHHHHHHHHhcCcEE
+
+
+Q ss_pred             EecCCCCCceeeec-CCCHHHHHHHHHHHHHHHHHHhCCCCCCcccccCCCchHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_49    300 NIRNPEGKAEFLTK-MMPKEFFEYFVGLLEKNIFRFSKSVDVNDEAFAGGNESGEARKWKLIALEFKANLTESWFEKGLR  378 (497)
+Q Consensus       300 ~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~i~~~~~~p~~~~~~~~~~~~Sg~a~~~~~~~~~~~~~~~~~~~~~~l~  378 (497)
+                      .++ .+.++++++. +.....+.+.++.+.+.|..+.+++....+.. ++..|..+......-....+......++..+.
+T Consensus       262 vip-~~~~i~~~~~~~~~~~~f~~~~~~~~~~I~~~~~~~~~~~~~~-~~~gs~a~~e~~~~~~~~~l~~~~~~i~~~ln  339 (517)
+T COG4383         262 IIP-EGMEIELHNAANGSSNPFMAMIDWAEKSASKAILGGTLTSGAD-GKTSTNALGNVHNEVRRDLLVSDLKQLAQTIT  339 (517)
+T ss_pred             EcC-CCceEEEEecCCCCChhHHHHHHHHHHHHHHHHhccceecCCC-CCcccchhHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             -HHHHHHHHHHHHhcCCCccchhceEEEeeCCCCCCHHHHHHHHHHhc--CC-CCHHHHHhcCC
+Q Q_9186633_49    379 -DMFEGIVAYMRIKQGMNSIVSSNIYADFTRTLPVDLGYLADTLTKLT--TI-LSERTVLGMIP  438 (497)
+Q Consensus       379 -~~~~~~~~~~~~~~~~~~~~~~~i~v~f~~~~~~d~~~~~~~~~~~~--g~-is~~~~~~~l~  438 (497)
+                       .++..+..+....+.   .....+.+.|....+.|..+.++.+.++.  |. ++...+++.+|
+T Consensus       340 ~~Li~~~~~~n~~~~~---~~~~~~~f~~~~~~~~d~~~~ae~~~~l~~~G~~it~~e~re~~G  400 (517)
+T COG4383         340 RQLIYPLLQLNTKPNI---DPRRLPRFEFDTKEPEDIAVFADAIPKLVDIGVQIPESWVRDKLG  400 (517)
+T ss_pred             HhcHHHHHHhcCCCCC---CcccCCeEEeCCCCcccHHHHHHHHHHHHHcCCCCCHHHHHHHHC
+
+
+No 14
+>PF07230.11 ; Peptidase_S80 ; Bacteriophage T4-like capsid assembly protein (Gp20)
+Probab=97.91  E-value=0.0072  Score=61.97  Aligned_cols=358  Identities=11%  Similarity=0.008  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             cCchHHHHhhhcchhhcc-----CCceeeecCCC-CccHHHHH----HHHHHcCCchHHHHHHHHHHHHhCeEEEEEecC
+Q Q_9186633_49     79 HNSFFNLIVDQKVGYVFG-----NPISYQIEEEV-SENEREWV----KEYLYNQDVFLKDIETGTQQAACGVSYRLLDIQ  148 (497)
+Q Consensus        79 ~~n~~~~iv~~~~~~l~~-----~~~~~~~~~~~-~~~~~~~l----~~~~~~~~l~~~~~~~~~~~~~~G~~~~~v~~~  148 (497)
+                      ..+-+..+|+.+++..++     ..+.+...... .+.+.+.+    +.++...+|...+...++...++|+.|+.+..+
+T Consensus        79 ~~pev~~Ai~~iv~eai~~~~~~~~v~i~~~~~~~s~~ik~~i~~ef~~~l~~l~~~~~~~~~~r~~~vdG~~y~~~vvd  158 (503)
+T PORTL_BPT4/6-5   79 NNYEVDNAVSEIVSDAIVYEDDTEVVALNLDKSKFSPKIKNMMLDEFSDVLNHLSFQRKGSDHFRRWYVDSRIFFHKIID  158 (503)
+T ss_pred             hChHHHHHHHHHHHHhhccCCCCcEEEEEccccCCCHHHHHHHHHHHHHHHhhcchhHHHHHHHHHHHHhccceEEEEeC
+
+
+Q ss_pred             ----CCCCcccccccccccccchheeEEcccCceEEEEEeeecCCCcEEEEEEEeCCeEEEEeec----cccccCceeee
+Q Q_9186633_49    149 ----TQLIPSVVETVASLKNVNSWDAYVLGHKEAAIVLSEDYTEKGHTQILTLYTKDLILEYHSA----ASEVNGMIGFD  220 (497)
+Q Consensus       149 ----~~~~~~~~~~~~~i~~~~p~~~~~~~~~~~~i~~~~~~~~~g~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~  220 (497)
+                          ..|..       .+.+++|..+.....-....-....+..  ...-+.+|.+.........    ..      .-.
+T Consensus       159 ~~~~~~GI~-------~l~~idp~~I~~v~~~~~~~~~G~~~~~--~~~~y~~y~~~~~~~~~~~~~~~~~------~~i  223 (503)
+T PORTL_BPT4/6-5  159 PKRPKEGIK-------ELRRLDPRQVQYVREIITETEAGTKIVK--GYKEYFIYDTAHESYACDGRMYEAG------TKI  223 (503)
+T ss_pred             CCCCCCCee-------EEEEeCHHHceEeeeeeccccCCceeee--ceeeeEEEeCCCCcccCCCccccCC------Cee
+
+
+Q ss_pred             ecccccccCCCCcEEEEeCCccCCCcHHHHHHHHHHHHHHHHhhHHHHHHhhhh---eeeecCCCCChhhHhhHhhcccc
+Q Q_9186633_49    221 IAGGIINLLGVVPVFEFRNNQEMHSDFETVEDLNDAYDRMISSGADEVEQFRLA---YMLITGVDMEPDDAKELFKKETG  297 (497)
+Q Consensus       221 ~~~~~~~~~~~iP~v~~~~~~~G~s~~~~i~~~~~~~~~~~s~~~~~~~~~~~~---~~~~~g~~~~~~~~~~~~~~~~~  297 (497)
+                      ........+...++ .-.+...|.|.++.++...+.+..+...+. ..+....|   ++++...+.+.......-..-..
+T Consensus       224 ~i~~~~i~~~hs~l-~d~~~~~g~S~L~~a~k~~nqL~~~Edalv-i~Ri~RAperrif~Idvg~lp~~kae~y~~~i~~  301 (503)
+T PORTL_BPT4/6-5  224 KIPKAAVVYAHSGL-VDCCGKNIIGYLHRAVKPANQLKLLEDAVV-IYRITRAPDRRVWYVDTGNMPARKAAEHMQHVMN  301 (503)
+T ss_pred             ecCHHheEEEeccc-cCCCCCcchhHHHHhHHHHHHHHHHHHHHH-HHHHHhCCcceEEEEeCCCCCHHHHHHHHHHHHH
+
+
+Q ss_pred             c--------------------------EEecCCCCC----ceeeecCCCHHHHHHHHHHHHHHHHHHhCCCCCCccccc-
+Q Q_9186633_49    298 I--------------------------LNIRNPEGK----AEFLTKMMPKEFFEYFVGLLEKNIFRFSKSVDVNDEAFA-  346 (497)
+Q Consensus       298 v--------------------------~~~~~~~~~----~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~p~~~~~~~~-  346 (497)
+                      .                          +.++..+++    ++.+....+.. -.+.+..+.+.+...+++|....+... 
+T Consensus       302 ~~k~~~~~d~~tG~~~~~~~~~s~~eD~~lp~r~g~~~t~I~tl~G~~nlg-~ieDv~y~~~kL~~aL~VP~s~lg~~~~  380 (503)
+T PORTL_BPT4/6-5  302 TMKNRVVYDASTGKIKNQQHNMSMTEDYWLQRRDGKAVTEVDTLPGADNTG-NMEDIRWFRQALYMALRVPLSRIPQDQQ  380 (503)
+T ss_pred             HHHhcceEeCCCCCeeccccccccceeeEEEeeCCCceeeeeccCCCCCCc-chHHHHHHHHHHHHhcCCCHHHCCcccc
+
+
+Q ss_pred             --CCCchHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCC-ccchhceEEEeeCCCCCCHHHHHHHHHH
+Q Q_9186633_49    347 --GGNESGEARKWKLIALEFKANLTESWFEKGLRDMFEGIVAYMRIKQGMN-SIVSSNIYADFTRTLPVDLGYLADTLTK  423 (497)
+Q Consensus       347 --~~~~Sg~a~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~-~~~~~~i~v~f~~~~~~d~~~~~~~~~~  423 (497)
+                        ++-..+.++......+.+.+.+.|+.|...+.+++++-+.+.+....-. ......++++|.+.......+.++.+..
+T Consensus       381 ~s~~lg~~~~is~~e~kf~r~i~rlq~~~~~~~~~~l~~~L~lkgi~~~~~~~~~~~~~~i~f~~~s~~~e~~~~e~~~~  460 (503)
+T PORTL_BPT4/6-5  381 GGVMFDSGTSITRDELTFAKFIRELQHKFEEVFLDPLKTNLLLKGIITEDEWNDEINNIKIEFHRDSYFAELKEAEILER  460 (503)
+T ss_pred             CCccCCCCCceehHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCCChhhcccccCCeEEEccCCCcHHHHHHHHHHHH
+
+
+Q ss_pred             hc-----------CCCCHHHHHhcCCCCCCHHHHHHHHHHHHHH
+Q Q_9186633_49    424 LT-----------TILSERTVLGMIPAIDDVDAEMEQKQREREE  456 (497)
+Q Consensus       424 ~~-----------g~is~~~~~~~l~~~~d~~~e~~~i~~E~~~  456 (497)
+                      ..           +.+|.+.+++.+-..+  +++++++..+.++
+T Consensus       461 r~~~~~~~~~~~~~~~s~~~v~~~il~~~--deei~~~~~~i~~  502 (503)
+T PORTL_BPT4/6-5  461 RINMLTMAEPFIGKYISHRTAMKDILQMT--DEEIEQEAKQIEE  502 (503)
+T ss_pred             HHHHHHhHHHHhhcCCCHHHHHHHhcCCC--HHHHHHHHHHHHh
+
+

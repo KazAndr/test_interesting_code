@@ -1,0 +1,2874 @@
+Query         Q_9186633_35
+Match_columns 37
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 69205
+Date          Sun May 24 00:21:13 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_35.hhr -oa3m ../results/9186633_35.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF09312.11 ; SurA_N ; SurA N-t  86.1       2 2.9E-05   20.6   2.7   21    7-27      3-23  (118)
+  2 PF13624.6 ; SurA_N_3 ; SurA N-  81.9     3.9 5.6E-05   20.8   2.8   21    8-28     38-58  (147)
+  3 d1m5ya1 a.223.1.2 (A:25-164,A:  78.4     4.9 7.1E-05   21.1   2.6   22    7-28      3-24  (174)
+  4 PF13623.6 ; SurA_N_2 ; SurA N-  71.7     9.4 0.00014   19.3   2.5   21    7-27     40-60  (137)
+  5 PF00250.18 ; Forkhead ; Forkhe  69.0     6.2 8.9E-05   19.6   1.5   14   14-27     20-33  (87)
+  6 cd20020 FH_FOXF; Forkhead (FH)  67.4     8.2 0.00012   16.6   1.6   15   13-27     17-31  (78)
+  7 d4ydpa_ b.36.1.0 (A:) automate  65.9      12 0.00017   17.4   2.1   28    7-34     47-77  (83)
+  8 cd20030 FH_FOXN1-like; Forkhea  65.8     9.1 0.00013   16.4   1.6   15   13-27     18-32  (80)
+  9 d2hdca_ a.4.5.14 (A:) Genesis   65.2     7.9 0.00011   20.1   1.5   14   14-27     20-33  (97)
+ 10 cd20051 FH_FOXJ2; Forkhead (FH  63.6      10 0.00014   16.8   1.5   14   14-27     20-33  (82)
+ 11 d2a07f1 a.4.5.14 (F:503-584) F  63.1     9.3 0.00013   19.4   1.5   14   14-27     20-33  (82)
+ 12 d5ocna_ a.4.5.0 (A:) automated  63.0     9.2 0.00013   19.8   1.5   14   14-27     20-33  (95)
+ 13 d1kq8a_ a.4.5.14 (A:) HFH-1 (H  61.7      10 0.00015   18.5   1.5   14   14-27     14-27  (75)
+ 14 PF05066.13 ; HARE-HTH ; HB1, A  61.4     3.8 5.5E-05   18.7  -0.1   25    3-27      4-28  (66)
+ 15 d1vtnc_ a.4.5.14 (C:) automate  60.9      11 0.00016   19.9   1.6   15   13-27     20-34  (102)
+ 16 cd20032 FH_FOXO; Forkhead (FH)  60.4      12 0.00017   16.9   1.5   14   14-27     18-31  (80)
+ 17 d2c6ya_ a.4.5.14 (A:) automate  58.6      12 0.00018   19.4   1.5   14   14-27     21-34  (98)
+ 18 d1d5va_ a.4.5.14 (A:) Adipocyt  58.4      12 0.00018   19.6   1.5   14   14-27     22-35  (94)
+ 19 cd20033 FH_FOXP; Forkhead (FH)  57.8      16 0.00023   14.9   1.6   15   13-27     14-28  (69)
+ 20 d3l2ca_ a.4.5.14 (A:) Afx (Fox  57.8      13 0.00019   19.1   1.5   14   14-27     23-36  (85)
+ 21 cd20031 FH_FOXN2-like; Forkhea  57.0      17 0.00024   15.5   1.6   15   13-27     18-32  (78)
+ 22 PF06394.13 ; Pepsin-I3 ; Pepsi  56.6      15 0.00022   20.3   1.8   23    9-31     28-53  (74)
+ 23 cd20024 FH_FOXJ2-like; Forkhea  56.3      17 0.00025   15.1   1.6   15   13-27     18-32  (77)
+ 24 cd20021 FH_FOXG; Forkhead (FH)  55.6      18 0.00026   15.3   1.6   15   13-27     18-32  (79)
+ 25 cd20016 FH_FOXB; Forkhead (FH)  53.6      20 0.00029   15.3   1.6   15   13-27     18-32  (79)
+ 26 cd20025 FH_FOXI; Forkhead (FH)  52.9      21  0.0003   15.3   1.6   15   13-27     17-31  (77)
+ 27 d2mbfa_ a.4.5.0 (A:) automated  52.5      17 0.00025   19.4   1.5   14   14-27     21-34  (101)
+ 28 cd20040 FH_FOXA3; Forkhead (FH  51.3      21  0.0003   16.8   1.5   15   13-27     20-34  (102)
+ 29 cd20058 FH_FOXN2; Forkhead (FH  51.3      23 0.00033   15.6   1.6   15   13-27     19-33  (82)
+ 30 cd00059 FH; Forkhead (FH), als  51.3      23 0.00034   15.0   1.6   15   13-27     18-32  (78)
+ 31 cd20052 FH_FOXJ3; Forkhead (FH  50.0      24 0.00034   15.3   1.5   14   14-27     20-33  (79)
+ 32 PF12419.8 ; DUF3670 ; SNF2 Hel  49.3      43 0.00062   19.0   2.9   30    5-34     71-100 (140)
+ 33 d1fc6a3 b.36.1.3 (A:157-248) P  48.9      46 0.00067   16.4   2.8   20    7-26     41-63  (92)
+ 34 cd20026 FH_FOXK; Forkhead (FH)  48.7      25 0.00036   15.0   1.5   14   14-27     19-32  (78)
+ 35 cd20017 FH_FOXC; Forkhead (FH)  48.7      26 0.00038   14.7   1.6   15   13-27     18-32  (77)
+ 36 PF16025.5 ; CALM_bind ; Calciu  48.5      13 0.00019   22.7   0.8   30    5-34      3-37  (107)
+ 37 cd20039 FH_FOXA2; Forkhead (FH  47.6      26 0.00038   16.5   1.6   15   13-27     22-36  (104)
+ 38 d4p0ca_ b.36.1.1 (A:) automate  46.7      39 0.00056   14.9   2.5   23    4-26     44-69  (88)
+ 39 PF13101.6 ; DUF3945 ; Protein   46.3      31 0.00045   17.8   1.9   16   11-27     29-44  (58)
+ 40 cd20022 FH_FOXH; Forkhead (FH)  45.8      30 0.00043   14.7   1.5   14   14-27     19-32  (79)
+ 41 cd20050 FH_FOXF2; Forkhead (FH  45.0      32 0.00046   15.6   1.6   15   13-27     17-31  (93)
+ 42 cd20023 FH_FOXJ1; Forkhead (FH  44.9      33 0.00047   14.7   1.6   15   13-27     18-32  (79)
+ 43 d3jr7a_ c.119.1.0 (A:) automat  44.8      40 0.00057   20.9   2.4   24   12-35     40-63  (281)
+ 44 cd20062 FH_FOXO4; Forkhead (FH  44.7      30 0.00044   15.6   1.5   14   14-27     22-35  (86)
+ 45 cd20055 FH_FOXK2; Forkhead (FH  44.6      30 0.00043   16.1   1.5   14   14-27     21-34  (98)
+ 46 d2q3ga1 b.36.1.0 (A:1-84) auto  44.1      32 0.00047   16.2   1.6   12    7-18     48-59  (84)
+ 47 cd20054 FH_FOXK1; Forkhead (FH  43.0      33 0.00048   15.9   1.5   14   14-27     21-34  (101)
+ 48 cd20048 FH_FOXD4-like; Forkhea  42.9      34 0.00048   15.7   1.5   14   14-27     19-32  (96)
+ 49 d1gkma_ a.127.1.2 (A:) Histidi  42.1      34 0.00049   23.9   2.1   19    8-26      1-19  (509)
+ 50 cd20046 FH_FOXD1_D2-like; Fork  41.6      38 0.00055   15.5   1.6   15   13-27     18-32  (99)
+ 51 cd20029 FH_FOXM; Forkhead (FH)  41.6      41 0.00059   14.3   1.6   15   13-27     18-32  (77)
+ 52 cd20035 FH_FOXQ2-like; Forkhea  41.4      36 0.00052   15.5   1.5   14   14-27     19-32  (95)
+ 53 PF18628.1 ; P2_N ; Viral coat   41.2   1E+02  0.0014   18.3   3.7   29    7-35     42-73  (131)
+ 54 cd20056 FH_FOXN1; Forkhead (FH  40.9      37 0.00053   15.6   1.5   14   14-27     20-33  (97)
+ 55 cd20043 FH_FOXB2; Forkhead (FH  40.8      38 0.00056   16.1   1.6   15   13-27     30-44  (110)
+ 56 PF17726.1 ; DpnI_C ; Dam-repla  40.4      12 0.00017   18.9  -0.3   25    3-27      6-30  (69)
+ 57 d4eada1 a.46.2.1 (A:2-70) Thym  39.8      34 0.00049   16.3   1.3   17   12-28     11-27  (69)
+ 58 cd20037 FH_FOXS1; Forkhead (FH  39.6      40 0.00058   15.4   1.5   14   14-27     20-33  (100)
+ 59 cd16873 ARID_KDM5A; ARID/BRIGH  39.6      60 0.00086   15.0   2.1   17   11-27     26-42  (92)
+ 60 cd20060 FH_FOXO1; Forkhead (FH  39.6      38 0.00055   16.2   1.5   14   14-27     28-41  (99)
+ 61 PF10225.9 ; NEMP ; NEMP family  39.5      25 0.00036   22.6   1.0   28    1-32    190-217 (246)
+ 62 cd20059 FH_FOXN3; Forkhead (FH  39.4      40 0.00058   15.4   1.5   14   14-27     19-32  (90)
+ 63 cd16882 ARID_ARID4A; ARID/BRIG  39.3      50 0.00072   14.5   1.8   17   11-27     25-41  (87)
+ 64 cd20063 FH_FOXO6; Forkhead (FH  39.1      38 0.00055   15.5   1.4   14   14-27     18-31  (88)
+ 65 cd20041 FH_dFKH; Forkhead (FH)  39.0      40 0.00058   15.4   1.5   14   14-27     19-32  (98)
+ 66 PF13464.6 ; DUF4115 ; Domain o  39.0      38 0.00055   16.2   1.4   12    8-19     50-61  (74)
+ 67 cd20061 FH_FOXO3; Forkhead (FH  38.7      42 0.00061   14.9   1.5   14   14-27     19-32  (83)
+ 68 cd20045 FH_FOXC2; Forkhead (FH  38.6      46 0.00067   14.7   1.6   15   13-27     20-34  (90)
+ 69 COG0547 TrpD; Anthranilate pho  38.6      37 0.00054   21.3   1.7   16   13-28     13-28  (338)
+ 70 cd20027 FH_FOXL1; Forkhead (FH  38.6      43 0.00061   15.4   1.5   14   14-27     21-34  (98)
+ 71 d2pa1a1 b.36.1.1 (A:1-86) auto  38.2      64 0.00092   15.0   3.1   28    7-34     47-77  (86)
+ 72 PF18607.1 ; HTH_54 ; ParA heli  38.0      55  0.0008   17.8   2.1   20   13-32     67-86  (92)
+ 73 cd16872 ARID_HMGB9-like; ARID/  37.9      59 0.00085   14.5   2.4   17   11-27     24-40  (86)
+ 74 KOG2131 Uncharacterized conser  37.8      49  0.0007   22.1   2.2   33    1-33     22-54  (427)
+ 75 cd20049 FH_FOXF1; Forkhead (FH  37.1      49 0.00071   15.3   1.6   15   13-27     17-31  (99)
+ 76 d3fysa1 c.119.1.0 (A:1-281) au  37.1      63 0.00091   19.9   2.5   24   12-35     38-61  (281)
+ 77 d1y2ma_ a.127.1.2 (A:) Phenyla  36.7      59 0.00085   24.0   2.6   24    9-32     34-57  (690)
+ 78 PF13342.6 ; Toprim_Crpt ; C-te  36.4      53 0.00077   15.0   1.7   16   12-27     11-26  (63)
+ 79 d4xfja2 d.210.1.0 (A:173-398)   36.2      65 0.00094   20.9   2.5   18   10-27     56-73  (226)
+ 80 cd20066 FH_FOXP3; Forkhead (FH  36.1      53 0.00076   14.3   1.6   15   13-27     18-32  (81)
+ 81 PF09358.10 ; E1_UFD ; Ubiquiti  35.8      66 0.00095   17.0   2.1   17   10-27      4-20  (93)
+ 82 d3h5qa1 a.46.2.0 (A:1-70) auto  35.7      43 0.00062   16.0   1.3   17   12-28     11-27  (70)
+ 83 d3cjrb1 a.4.7.1 (B:71-137) Rib  35.7      50 0.00072   16.7   1.6   13   16-28     28-40  (67)
+ 84 COG0213 DeoA; Thymidine phosph  35.4      28  0.0004   23.4   0.8   18   11-28     11-28  (435)
+ 85 d2pp6a1 b.106.1.2 (A:1-93) Gif  35.4      37 0.00053   19.2   1.2   17    2-18     16-32  (93)
+ 86 d1n7ea_ b.36.1.1 (A:) Glutamat  35.3      70   0.001   14.5   3.0   28    7-34     51-81  (95)
+ 87 cd16871 ARID_Swi1p-like; ARID/  35.1      69 0.00099   14.4   2.3   17   11-27     26-42  (90)
+ 88 cd20015 FH_FOXA; Forkhead (FH)  35.0      53 0.00076   15.1   1.5   15   13-27     18-32  (97)
+ 89 PF00298.19 ; Ribosomal_L11 ; R  34.9      52 0.00075   17.0   1.6   13   16-28     29-41  (69)
+ 90 d2z17a_ b.36.1.0 (A:) automate  34.8      59 0.00085   15.4   1.7   22    7-28     60-81  (94)
+ 91 d2dt8a_ c.119.1.0 (A:) automat  34.8      63 0.00092   19.9   2.2   23   13-35     39-61  (280)
+ 92 PF02645.16 ; DegV ; Uncharacte  34.8      71   0.001   19.7   2.4   24   12-35     38-62  (283)
+ 93 PF18401.1 ; Thioredoxin_13 ; T  34.7      73   0.001   18.1   2.3   21    7-27     73-95  (134)
+ 94 d1khda1 a.46.2.1 (A:12-80) Ant  34.7      46 0.00066   15.8   1.3   17   12-28     10-26  (69)
+ 95 cd16100 ARID; ARID/BRIGHT DNA   34.6      60 0.00087   14.2   1.6   17   11-27     25-41  (87)
+ 96 cd20044 FH_FOXC1; Forkhead (FH  34.5      58 0.00084   14.6   1.6   15   13-27     23-37  (93)
+ 97 d3lupa1 c.119.1.0 (A:1-282) au  33.5      68 0.00098   19.9   2.2   23   13-35     39-61  (282)
+ 98 cd16868 ARID_ARID4; ARID/BRIGH  33.3      72   0.001   14.2   1.8   17   11-27     25-41  (87)
+ 99 PF04784.14 ; DUF547 ; Protein   33.2      98  0.0014   16.9   2.6   20    7-26     48-67  (115)
+100 cd20053 FH_FOXI1; Forkhead (FH  33.2      61 0.00088   15.0   1.6   15   13-27     21-35  (100)
+101 cd01999 Argininosuccinate_Synt  33.2      85  0.0012   19.4   2.6   18   10-27    225-242 (385)
+102 cd20065 FH_FOXP2; Forkhead (FH  33.1      65 0.00094   13.5   1.6   15   13-27     14-28  (77)
+103 cd20057 FH_FOXN4; Forkhead (FH  33.0      58 0.00083   15.6   1.5   14   14-27     24-37  (106)
+104 d2v1wa_ b.36.1.0 (A:) automate  32.8      62 0.00089   15.4   1.6   12    7-18     47-58  (89)
+105 cd20042 FH_FOXB1; Forkhead (FH  32.6      65 0.00095   14.5   1.6   15   13-27     23-37  (92)
+106 PF14060.6 ; DUF4252 ; Domain o  32.4      75  0.0011   17.3   2.1   19    8-27    127-145 (145)
+107 cd16877 ARID_ARID1B; ARID/BRIG  32.2      75  0.0011   14.8   1.8   17   11-27     26-42  (93)
+108 PF17816.1 ; PDZ_4 ; PDZ domain  32.2      98  0.0014   15.6   2.4   20    8-28     34-53  (110)
+109 cd16876 ARID_ARID1A; ARID/BRIG  32.0      84  0.0012   14.5   2.3   17   11-27     26-42  (93)
+110 PF12363.8 ; Phage_TAC_12 ; Pha  31.7      35  0.0005   18.1   0.7   10   10-19      2-11  (108)
+111 cd20034 FH_FOXQ1-like; Forkhea  31.3      71   0.001   13.4   1.6   15   13-27     18-32  (79)
+112 cd16869 ARID_ARID5; ARID/BRIGH  31.3      83  0.0012   14.2   2.3   17   11-27     25-41  (87)
+113 cd20038 FH_FOXA1; Forkhead (FH  31.0      65 0.00094   15.5   1.5   14   14-27     32-45  (112)
+114 KOG3562 Forkhead/HNF-3-related  30.8      54 0.00078   21.9   1.6   14   14-27     31-44  (277)
+115 cd16866 ARID_ARID2; ARID/BRIGH  30.4      86  0.0012   14.1   2.0   16   12-27     26-41  (88)
+116 cd16884 ARID_ARID5A; ARID/BRIG  30.1      84  0.0012   13.9   2.2   17   11-27     25-41  (87)
+117 cd05935 LC_FACS_like; Putative  30.0 1.1E+02  0.0015   17.9   2.5   19    9-27    335-353 (430)
+118 d4x9xa_ c.119.1.0 (A:) automat  29.9      76  0.0011   19.6   2.0   20   13-32     39-58  (278)
+119 d1uoua1 a.46.2.1 (A:33-100) Th  29.8      59 0.00086   15.5   1.3   17   12-28     12-28  (68)
+120 PF14453.6 ; ThiS-like ; ThiS-l  29.7      54 0.00078   14.5   1.1   10   10-19      3-12  (54)
+121 PF03987.15 ; Autophagy_act_C ;  29.6      53 0.00077   16.3   1.1   12   13-24     20-31  (61)
+122 cd16864 ARID_JARID; ARID/BRIGH  29.5      90  0.0013   14.1   2.2   17   11-27     26-42  (87)
+123 d1bf6a_ c.1.9.3 (A:) Phosphotr  29.5      54 0.00079   17.6   1.2   18   19-36    140-157 (291)
+124 d4r2za1 b.36.1.0 (A:375-457) a  29.0      77  0.0011   14.7   1.5   21    7-27     47-67  (83)
+125 d2elca1 a.46.2.1 (A:1-65) Anth  28.9      79  0.0011   14.9   1.6   16   13-28      9-24  (65)
+126 PF02885.17 ; Glycos_trans_3N ;  28.7      71   0.001   14.6   1.4   17   12-28      8-24  (63)
+127 cd20036 FH_FOXR; Forkhead (FH)  28.7      83  0.0012   13.7   1.6   15   13-27     20-34  (89)
+128 d2uzca_ b.36.1.0 (A:) automate  28.6      82  0.0012   14.7   1.6   22    7-28     48-69  (87)
+129 PF13784.6 ; Fic_N ; Fic/DOC fa  28.5      62 0.00089   15.9   1.2   19   11-29     41-59  (81)
+130 d1mmsa1 a.4.7.1 (A:71-140) Rib  28.5      78  0.0011   16.1   1.6   13   16-28     29-41  (70)
+131 cd16875 ARID_KDM5C_5D; ARID/BR  28.5      98  0.0014   14.2   2.3   17   11-27     26-42  (92)
+132 cd20047 FH_FOXD3; Forkhead (FH  28.3      81  0.0012   14.1   1.5   14   14-27     20-33  (97)
+133 cd20018 FH_FOXD; Forkhead (FH)  27.8      82  0.0012   13.0   1.5   15   13-27     18-32  (78)
+134 d2i6va1 b.36.1.5 (A:219-305) G  27.5      92  0.0013   13.6   1.6   12    7-18     41-52  (87)
+135 d5kkxa1 b.181.1.0 (A:380-468)   27.3      61 0.00088   17.6   1.1   12    8-19     25-36  (89)
+136 d1k8ea1 a.46.2.1 (A:1-70) Anth  27.1      73  0.0011   15.1   1.3   17   12-28     11-27  (70)
+137 PF12327.8 ; FtsZ_C ; FtsZ fami  27.1      82  0.0012   16.3   1.6   15   14-28     47-61  (96)
+138 PF01328.17 ; Peroxidase_2 ; Pe  26.8      77  0.0011   19.1   1.6   15   13-27     40-54  (199)
+139 d1hc8a_ a.4.7.1 (A:) Ribosomal  26.5      93  0.0013   15.9   1.7   14   15-28     32-45  (74)
+140 d1brwa1 a.46.2.1 (A:1-70) Pyri  26.3      96  0.0014   14.8   1.7   16   13-28     12-27  (70)
+141 d3hola4 b.181.1.1 (A:295-384)   26.2      65 0.00095   17.5   1.2   12    8-19     23-34  (90)
+142 PF11025.8 ; GP40 ; Glycoprotei  26.2      61 0.00088   22.1   1.2    9   10-18     65-73  (164)
+143 PF13167.6 ; GTP-bdg_N ; GTP-bi  25.9 1.2E+02  0.0017   16.3   2.1   25    8-33     53-77  (88)
+144 KOG1438 Anthranilate phosphori  25.3      69   0.001   21.0   1.3   17   11-27     21-37  (373)
+145 PF03698.13 ; UPF0180 ; Unchara  25.3 1.2E+02  0.0018   15.8   2.1   19    9-27     54-72  (74)
+146 cd16879 ARID_ARID3B; ARID/BRIG  24.9 1.1E+02  0.0016   15.6   1.8   20   11-30     38-57  (126)
+147 PF11521.8 ; TFIIE-A_C ; C-term  24.6      89  0.0013   18.6   1.6   14    9-22     43-56  (87)
+148 d1vq8i1 a.4.7.1 (I:71-140) Rib  24.4   1E+02  0.0015   15.8   1.6   13   16-28     29-41  (70)
+149 d1j20a2 d.210.1.1 (A:171-395)   24.3 1.4E+02   0.002   19.4   2.5   18   10-27     56-73  (225)
+150 cd16874 ARID_KDM5B; ARID/BRIGH  24.3 1.2E+02  0.0017   13.7   2.2   17   11-27     29-45  (90)
+151 COG2104 ThiS; Sulfur carrier p  24.1 1.2E+02  0.0017   13.7   1.7   23   10-32      5-30  (68)
+152 cd17645 A_NRPS_LgrA-like; aden  24.0 1.5E+02  0.0021   17.7   2.4   19    9-27    348-366 (440)
+153 d1nvpc_ b.56.1.1 (C:) Large ch  23.9      81  0.0012   16.2   1.2    9    9-17     28-36  (47)
+154 d1w9ea1 b.36.1.1 (A:113-194) S  23.9 1.1E+02  0.0016   13.2   3.0   27    7-33     44-74  (82)
+155 cd05903 CHC_CoA_lg; Cyclohexan  23.9 1.6E+02  0.0024   17.1   2.5   19    9-27    341-359 (437)
+156 PF12990.7 ; DUF3874 ; Domain o  23.8 1.2E+02  0.0017   15.1   1.7   15   13-27     20-34  (70)
+157 cd05904 4CL; 4-Coumarate-CoA L  23.8 1.7E+02  0.0024   17.7   2.6   19    9-27    412-430 (505)
+158 cd20028 FH_FOXL2; Forkhead (FH  23.7 1.1E+02  0.0016   13.4   1.5   14   14-27     19-32  (89)
+159 COG5339 YdgA; Uncharacterized   23.7 1.2E+02  0.0018   19.5   2.2   18   10-27    458-475 (479)
+160 cd16865 ARID_ARID1A-like; ARID  23.6 1.2E+02  0.0018   13.6   1.9   17   11-27     26-42  (93)
+161 cd16883 ARID_ARID4B; ARID/BRIG  23.5 1.2E+02  0.0017   13.5   1.9   17   11-27     25-41  (92)
+162 d3be7a2 c.1.9.18 (A:57-359) Zn  23.5      80  0.0012   17.2   1.2   18   19-36    150-167 (303)
+163 d2yuya1 b.36.1.0 (A:8-120) aut  23.5 1.5E+02  0.0021   14.5   2.8   28    7-34     76-106 (113)
+164 d1zud2_ d.15.3.2 (2:) Thiamin   23.4 1.2E+02  0.0017   13.4   1.7   16    9-24     32-47  (65)
+165 d3cf5f1 a.4.7.1 (F:72-144) Rib  23.2   1E+02  0.0015   15.9   1.5   13   16-28     27-39  (73)
+166 d3d37a1 b.106.1.1 (A:6-178) Ba  23.0 1.1E+02  0.0016   15.8   1.6   12    7-18      4-15  (173)
+167 cd05971 MACS_like_3; Uncharact  23.0 1.9E+02  0.0028   16.6   2.7   19    9-27    341-359 (439)
+168 d1pzxa_ c.119.1.1 (A:) Hypothe  22.8 1.2E+02  0.0018   18.9   2.0   20   13-32     39-58  (287)
+169 cd06926 RNAP_II_RPB11; RPB11 s  22.8 1.6E+02  0.0023   14.6   2.5   26    9-34     20-45  (93)
+170 d2pkta1 b.36.1.1 (A:1-90) auto  22.7 1.3E+02  0.0018   13.5   1.6   12    7-18     48-59  (90)
+171 PF01388.21 ; ARID ; ARID/BRIGH  22.7 1.5E+02  0.0022   14.3   2.0   17   11-27     25-41  (85)
+172 PF04255.14 ; DUF433 ; Protein   22.6      93  0.0013   14.9   1.2   13   16-28     43-55  (55)
+173 PF17815.1 ; PDZ_3 ; PDZ domain  22.6 1.9E+02  0.0027   16.6   2.6   19    9-27     83-102 (146)
+174 cd05919 BCL_like; Benzoate CoA  22.5 1.9E+02  0.0027   16.9   2.6   19    9-27    339-357 (436)
+175 KOG2294 Transcription factor o  22.4   1E+02  0.0015   20.5   1.7   20   13-32    147-166 (454)
+176 d2kv8a_ b.36.1.0 (A:) automate  22.3   1E+02  0.0014   13.5   1.2   15    4-18     42-56  (83)
+177 d2qami1 a.4.7.1 (I:73-141) Rib  22.0 1.1E+02  0.0017   15.5   1.5   13   16-28     27-39  (69)
+178 d2jqta_ a.23.5.0 (A:) automate  21.9      82  0.0012   17.5   1.0   32    1-32      1-32  (57)
+179 PF02680.14 ; DUF211 ; Uncharac  21.9 1.4E+02   0.002   17.8   2.0   18   10-27     49-66  (89)
+180 d4icgc_ a.23.5.1 (C:) automate  21.8      58 0.00084   18.7   0.4   29    1-29      1-29  (67)
+181 d1fjgi_ d.14.1.1 (I:) Ribosoma  21.8      77  0.0011   18.6   1.0    8   10-17     25-32  (127)
+182 cd05936 FC-FACS_FadD_like; Pro  21.5 1.9E+02  0.0028   17.1   2.5   19    9-27    374-392 (468)
+183 cd17635 FADD10; adenylate form  21.4   2E+02  0.0029   15.2   2.6   21    7-27    247-267 (340)
+184 d1ig6a_ a.4.3.1 (A:) MRF-2 DNA  21.2 1.6E+02  0.0023   14.9   2.0   15   12-26     28-42  (107)
+185 d1f32a_ d.62.1.1 (A:) Pepsin i  21.2 1.8E+02  0.0026   17.7   2.5   21    9-29     18-41  (147)
+186 cd17654 A_NRPS_acs4; acyl-CoA   21.0   2E+02  0.0029   16.4   2.5   21    7-27    361-381 (449)
+187 cd17646 A_NRPS_AB3403-like; Pe  20.9 1.9E+02  0.0028   17.2   2.5   18    9-26    394-411 (488)
+188 d4q3ha_ b.36.1.1 (A:) automate  20.8 1.4E+02  0.0021   13.4   3.2   27    7-33     48-77  (90)
+189 PF16117.5 ; DUF4833 ; Domain o  20.7      26 0.00038   20.9  -1.1   18    6-23     90-107 (137)
+190 cd17630 OSB_MenE-like; O-succi  20.7 2.1E+02   0.003   15.2   2.5   21    7-27    228-248 (325)
+191 cd20019 FH_FOXE; Forkhead (FH)  20.6 1.4E+02   0.002   13.1   1.6   15   13-27     18-32  (94)
+192 cd17651 A_NRPS_VisG_like; simi  20.6   2E+02  0.0029   16.9   2.5   19    9-27    397-415 (491)
+193 KOG3563 Forkhead/HNF-3-related  20.5   1E+02  0.0015   22.9   1.5   14   14-27    191-204 (454)
+194 d2qali1 d.14.1.1 (I:3-129) Rib  20.3      85  0.0012   18.6   0.9    8   10-17     25-32  (127)
+195 d2v90a_ b.36.1.0 (A:) automate  20.3 1.5E+02  0.0021   13.3   1.6   13    6-18     50-62  (95)
+196 cd17644 A_NRPS_ApnA-like; simi  20.3   2E+02  0.0029   17.0   2.4   19    9-27    371-389 (465)
+197 cd05931 FAAL; Fatty acyl-AMP l  20.3 2.2E+02  0.0032   17.1   2.6   21    7-27    439-459 (547)
+198 PF06275.11 ; DUF1031 ; Protein  20.1 1.2E+02  0.0017   18.7   1.5   22   13-34     55-76  (79)
+199 d2he4a1 b.36.1.1 (A:147-230) a  20.1 1.2E+02  0.0017   13.3   1.2   32    4-35     45-76  (84)
+200 d1sota1 b.36.1.4 (A:255-353) S  20.0 1.5E+02  0.0022   13.3   1.6   12    7-18     48-59  (99)
+
+No 1
+>PF09312.11 ; SurA_N ; SurA N-terminal domain
+Probab=86.15  E-value=2  Score=20.61  Aligned_cols=21  Identities=5%  Similarity=0.134  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         7 etvikingkdltltqiyelme   27 (37)
+                      ..+.+|||..+|..++...+.
+T Consensus         3 ~~v~~v~~~~it~~e~~~~~~   23 (118)
+T SURA_METCA/30-    3 RIVAVVDDGVILESELVRKVD   23 (118)
+T ss_pred             ceeEEeCCEEecHHHHHHHHH
+
+
+No 2
+>PF13624.6 ; SurA_N_3 ; SurA N-terminal domain
+Probab=81.90  E-value=3.9  Score=20.75  Aligned_cols=21  Identities=10%  Similarity=0.309  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             eeeEEcCeecchHHHHHHHhh
+Q Q_9186633_35      8 TVIKINGKDLTLTQIYELMEY   28 (37)
+Q Consensus         8 tvikingkdltltqiyelmey   28 (37)
+                      .+.+|||..+|..++...++.
+T Consensus        38 ~va~V~g~~It~~~~~~~~~~   58 (147)
+T Q5F8K6_NEIG1/1   38 YIVQVGDEKISEHSINNAMQN   58 (147)
+T ss_pred             eeEEECCEEeCHHHHHHHHHH
+
+
+No 3
+>d1m5ya1 a.223.1.2 (A:25-164,A:395-427) Porin chaperone SurA, peptide-binding domain {Escherichia coli [TaxId: 562]}
+Probab=78.37  E-value=4.9  Score=21.05  Aligned_cols=22  Identities=14%  Similarity=0.151  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHhh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELMEY   28 (37)
+Q Consensus         7 etvikingkdltltqiyelmey   28 (37)
+                      ..+.+|||+.+|..++...+..
+T Consensus         3 ~~va~V~g~~It~~e~~~~~~~   24 (174)
+T d1m5ya1           3 KVAAVVNNGVVLESDVDGLMQS   24 (174)
+T ss_dssp             CEEEEESSSEEEHHHHHHHHHH
+T ss_pred             cceeEECCeEecHHHHHHHHHH
+
+
+No 4
+>PF13623.6 ; SurA_N_2 ; SurA N-terminal domain
+Probab=71.66  E-value=9.4  Score=19.30  Aligned_cols=21  Identities=14%  Similarity=0.469  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         7 etvikingkdltltqiyelme   27 (37)
+                      ..+.+|||..+|..++.....
+T Consensus        40 ~~va~v~g~~It~~e~~~~~~   60 (137)
+T C6WWC4_METML/2   40 AAIAKVDGSEISVQAYANAMQ   60 (137)
+T ss_pred             CceEEECCEEecHHHHHHHHH
+
+
+No 5
+>PF00250.18 ; Forkhead ; Forkhead domain
+Probab=69.03  E-value=6.2  Score=19.62  Aligned_cols=14  Identities=29%  Similarity=0.634  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.||+.+||+.++
+T Consensus        20 ~~~lt~~eI~~~i~   33 (87)
+T A0A0D2U2Q7_CAP   20 DHRMTLSNIYNWIS   33 (87)
+T ss_pred             CCCcCHHHHHHHHH
+
+
+No 6
+>cd20020 FH_FOXF; Forkhead (FH) domain found in the forkhead box protein F (FOXF) subfamily. The FOXF subfamily includes two winged helix transcription factors, FOXF1 and FOXF2, both of which are probable transcription activators for a number of lung-specific genes.
+Probab=67.37  E-value=8.2  Score=16.60  Aligned_cols=15  Identities=40%  Similarity=0.802  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.++
+T Consensus        17 ~~~~~~~~~i~~~~~   31 (78)
+T cd20020          17 PSKRLTLSEIYQFLQ   31 (78)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 7
+>d4ydpa_ b.36.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=65.87  E-value=12  Score=17.39  Aligned_cols=28  Identities=11%  Similarity=0.208  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             eeeeEEcCeecchH---HHHHHHhhcCCCCc
+Q Q_9186633_35      7 ETVIKINGKDLTLT---QIYELMEYENKPVQ   34 (37)
+Q Consensus         7 etvikingkdltlt---qiyelmeyenkpvq   34 (37)
+                      ..+++|||.+++-.   ++++++.-.+.+++
+T Consensus        47 D~I~~ing~~~~~~~~~~~~~~l~~~~~~~~   77 (83)
+T d4ydpa_          47 DLVVAIDGVNTDTMTHLEAQNKIKSASYNLS   77 (83)
+T ss_dssp             CEEEEETTEECTTCCHHHHHHHHHTCSSSEE
+T ss_pred             CEEEEECCEECCCCCHHHHHHHHHhCCCeEE
+
+
+No 8
+>cd20030 FH_FOXN1-like; Forkhead (FH) domain found in forkhead box protein N1 (FOXN1) and similar proteins.
+Probab=65.79  E-value=9.1  Score=16.44  Aligned_cols=15  Identities=27%  Similarity=0.603  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (80)
+T cd20030          18 KTGSLPVSEIYNFMT   32 (80)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 9
+>d2hdca_ a.4.5.14 (A:) Genesis {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=65.25  E-value=7.9  Score=20.13  Aligned_cols=14  Identities=43%  Similarity=0.608  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.||+.|||+.+.
+T Consensus        20 ~~~ltl~eIy~~i~   33 (97)
+T d2hdca_          20 QKKLTLSGICEFIS   33 (97)
+T ss_dssp             TTCBCHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHH
+
+
+No 10
+>cd20051 FH_FOXJ2; Forkhead (FH) domain found in forkhead box protein J2 (FOXJ2) and similar proteins.
+Probab=63.57  E-value=10  Score=16.76  Aligned_cols=14  Identities=36%  Similarity=0.660  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.+.
+T Consensus        20 ~~~l~~~~i~~~~~   33 (82)
+T cd20051          20 AKKMTLSEIYRWIC   33 (82)
+T ss_pred             CCCcCHHHHHHHHH
+
+
+No 11
+>d2a07f1 a.4.5.14 (F:503-584) Forkhead box protein P2, FOXP2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=63.10  E-value=9.3  Score=19.38  Aligned_cols=14  Identities=36%  Similarity=0.696  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.||+.|||+.+.
+T Consensus        20 ~~~ltl~eI~~~i~   33 (82)
+T d2a07f1          20 DRQLTLNEIYSWFT   33 (82)
+T ss_dssp             TSCBCHHHHHHHHH
+T ss_pred             CCCcCHHHHHHHHH
+
+
+No 12
+>d5ocna_ a.4.5.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=62.96  E-value=9.2  Score=19.81  Aligned_cols=14  Identities=29%  Similarity=0.627  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.||+.|||+.+.
+T Consensus        20 ~~~ltl~eIy~~i~   33 (95)
+T d5ocna_          20 TGSLPVSEIYNFMT   33 (95)
+T ss_dssp             TSEEEHHHHHHHHH
+T ss_pred             CCCcCHHHHHHHHH
+
+
+No 13
+>d1kq8a_ a.4.5.14 (A:) HFH-1 (HNF-3 forkhead homolog-1) {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=61.72  E-value=10  Score=18.54  Aligned_cols=14  Identities=43%  Similarity=0.596  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.+.
+T Consensus        14 ~~~l~~~eIy~~i~   27 (75)
+T d1kq8a_          14 GGRLTLAEINEYLM   27 (75)
+T ss_dssp             SSCBCHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHH
+
+
+No 14
+>PF05066.13 ; HARE-HTH ; HB1, ASXL, restriction endonuclease HTH domain
+Probab=61.41  E-value=3.8  Score=18.67  Aligned_cols=25  Identities=28%  Similarity=0.410  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             HHHceeeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      3 KEEYETVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         3 keeyetvikingkdltltqiyelme   27 (37)
+                      .+....++.-+|+++++.+|++.+.
+T Consensus         4 ~~~~~~vL~~~~~p~~~~eI~~~i~   28 (66)
+T A0A0D2WX84_CAP    4 ADAAITVLRSHGDPLTCREIWCQIE   28 (66)
+T ss_pred             HHHHHHHHHHcCCCCCHHHHHHHHH
+
+
+No 15
+>d1vtnc_ a.4.5.14 (C:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=60.93  E-value=11  Score=19.85  Aligned_cols=15  Identities=47%  Similarity=0.731  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.|++.|||+.+.
+T Consensus        20 ~~~~l~l~eIy~~i~   34 (102)
+T d1vtnc_          20 PGKMLTLSEIYQWIM   34 (102)
+T ss_dssp             TTSCBCHHHHHHHHH
+T ss_pred             CCCCCCHHHHHHHHH
+
+
+No 16
+>cd20032 FH_FOXO; Forkhead (FH) domain found in the forkhead box protein O (FOXO) subfamily. The FOXO subfamily includes several winged helix transcription factors: FOXO1, FOXO3, FOXO4 and FOXO6.
+Probab=60.35  E-value=12  Score=16.87  Aligned_cols=14  Identities=64%  Similarity=0.807  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.++
+T Consensus        18 ~~~l~~~~i~~~i~   31 (80)
+T cd20032          18 EKRLTLSQIYEWMV   31 (80)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 17
+>d2c6ya_ a.4.5.14 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=58.61  E-value=12  Score=19.38  Aligned_cols=14  Identities=43%  Similarity=0.629  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++-||+.|||+.+.
+T Consensus        21 ~~~ltl~eIy~~i~   34 (98)
+T d2c6ya_          21 DKQLTLNGIYTHIT   34 (98)
+T ss_dssp             TSCEEHHHHHHHHH
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 18
+>d1d5va_ a.4.5.14 (A:) Adipocyte-transcription factor FREAC-11 (s12, fkh-14) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=58.45  E-value=12  Score=19.55  Aligned_cols=14  Identities=36%  Similarity=0.660  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.|++.|||+.++
+T Consensus        22 ~~~ltl~eIy~~i~   35 (94)
+T d1d5va_          22 EKKITLNGIYQFIM   35 (94)
+T ss_dssp             SSSBCHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHH
+
+
+No 19
+>cd20033 FH_FOXP; Forkhead (FH) domain found in the forkhead box protein P (FOXP) subfamily. The FOXP subfamily includes four winged helix transcription factors, FOXP1-4.
+Probab=57.84  E-value=16  Score=14.92  Aligned_cols=15  Identities=40%  Similarity=0.636  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        14 ~~~~~~~~~i~~~~~   28 (69)
+T cd20033          14 PEKQLTLNEIYNWFT   28 (69)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 20
+>d3l2ca_ a.4.5.14 (A:) Afx (Foxo4) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=57.77  E-value=13  Score=19.13  Aligned_cols=14  Identities=64%  Similarity=0.786  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.||+.|||+.+.
+T Consensus        23 ~~~ltl~eI~~~i~   36 (85)
+T d3l2ca_          23 EKRLTLAQIYEWMV   36 (85)
+T ss_dssp             TSCBCHHHHHHHHH
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 21
+>cd20031 FH_FOXN2-like; Forkhead (FH) domain found in forkhead box protein N2 (FOXN2) and similar proteins.
+Probab=57.02  E-value=17  Score=15.52  Aligned_cols=15  Identities=27%  Similarity=0.406  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        18 ~~~~l~~~~i~~~~~   32 (78)
+T cd20031          18 PNKCLPVKEIYSWIL   32 (78)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 22
+>PF06394.13 ; Pepsin-I3 ; Pepsin inhibitor-3-like repeated domain
+Probab=56.62  E-value=15  Score=20.25  Aligned_cols=23  Identities=30%  Similarity=0.452  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             eeEEcCe---ecchHHHHHHHhhcCC
+Q Q_9186633_35      9 VIKINGK---DLTLTQIYELMEYENK   31 (37)
+Q Consensus         9 vikingk---dltltqiyelmeyenk   31 (37)
+                      .+-|||+   +||-.|.-||-.|+.+
+T Consensus        28 kLying~~~R~LT~~E~~el~~y~~~   53 (74)
+T A0A1I7VL88_LOA   28 KIYVGRTHVRDLTPEEVKELKTFDAK   53 (74)
+T ss_pred             EEEECCEEccCCCHHHHHHHHHHHHH
+
+
+No 23
+>cd20024 FH_FOXJ2-like; Forkhead (FH) domain found in forkhead box proteins, FOXJ2, FOXJ3 and similar proteins.
+Probab=56.31  E-value=17  Score=15.13  Aligned_cols=15  Identities=33%  Similarity=0.589  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      +++.+++.+||+.++
+T Consensus        18 ~~~~~~~~~~~~~~~   32 (77)
+T cd20024          18 PKKKMTLSEIYQWIC   32 (77)
+T ss_pred             CCCCcCHHHHHHHHH
+
+
+No 24
+>cd20021 FH_FOXG; Forkhead (FH) domain found in the forkhead box protein G (FOXG) subfamily. The FOXG subfamily includes a winged helix transcription factor FOXG1, which is also called brain factor 1 (BF-1), brain factor 2 (BF-2), Forkhead box protein G1A, Forkhead box protein G1B, Forkhead box protein G1C, Forkhead-related protein FKHL1, Forkhead-related protein FKHL2, or Forkhead-related protein FKHL3.
+Probab=55.61  E-value=18  Score=15.35  Aligned_cols=15  Identities=47%  Similarity=0.647  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (79)
+T cd20021          18 PEKRLTLNGIYEFIM   32 (79)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 25
+>cd20016 FH_FOXB; Forkhead (FH) domain found in the forkhead box protein B (FOXB) subfamily. The FOXB subfamily includes two winged helix transcription factors, FOXB1 (also called transcription factor FKH-5) and FOXB2 (also called transcription factor FKH-4).
+Probab=53.56  E-value=20  Score=15.28  Aligned_cols=15  Identities=33%  Similarity=0.558  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.++
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (79)
+T cd20016          18 AEKMLPLSDIYKFIM   32 (79)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 26
+>cd20025 FH_FOXI; Forkhead (FH) domain found in the forkhead box protein I (FOXI) subfamily. The FOXI subfamily includes three human winged helix transcription factors, FOXI1-3, Xenopus laevis FoxI1c, and similar proteins.
+Probab=52.89  E-value=21  Score=15.33  Aligned_cols=15  Identities=40%  Similarity=0.616  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.+.
+T Consensus        17 ~~~~l~~~~i~~~~~   31 (77)
+T cd20025          17 PLRKLTLSQIYQYVA   31 (77)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 27
+>d2mbfa_ a.4.5.0 (A:) automated matches {Nematode (Brugia malayi) [TaxId: 6279]}
+Probab=52.45  E-value=17  Score=19.38  Aligned_cols=14  Identities=21%  Similarity=0.503  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.||+.+||+.++
+T Consensus        21 ~~~ltl~eIy~~i~   34 (101)
+T d2mbfa_          21 DGRMRLNEIYNWFA   34 (101)
+T ss_dssp             TSCEEHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHH
+
+
+No 28
+>cd20040 FH_FOXA3; Forkhead (FH) domain found in forkhead box protein A3 (FOXA3) and similar proteins.
+Probab=51.30  E-value=21  Score=16.75  Aligned_cols=15  Identities=47%  Similarity=0.731  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.++
+T Consensus        20 ~~~~l~~~~i~~~~~   34 (102)
+T cd20040          20 PGKMLTLSEIYQWIM   34 (102)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 29
+>cd20058 FH_FOXN2; Forkhead (FH) domain found in forkhead box protein N2 (FOXN2). FOXN2, also called human T-cell leukemia virus enhancer factor (HTLF), is a potential tumor suppressor that can facilitate replication fork reversal.
+Probab=51.30  E-value=23  Score=15.56  Aligned_cols=15  Identities=27%  Similarity=0.406  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        19 ~~~~l~~~~i~~~~~   33 (82)
+T cd20058          19 PNKCLPVKEIYSWIL   33 (82)
+T ss_pred             CCCccCHHHHHHHHH
+
+
+No 30
+>cd00059 FH; Forkhead (FH), also known as a "winged helix".  FH is named for the Drosophila fork head protein, a transcription factor which promotes terminal rather than segmental development.
+Probab=51.26  E-value=23  Score=15.03  Aligned_cols=15  Identities=60%  Similarity=0.713  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (78)
+T cd00059          18 PEKRLTLAQIYEWMV   32 (81)
+T ss_pred             CCCCcCHHHHHHHHH
+
+
+No 31
+>cd20052 FH_FOXJ3; Forkhead (FH) domain found in forkhead box protein J3 (FOXJ3) and similar proteins.
+Probab=49.97  E-value=24  Score=15.32  Aligned_cols=14  Identities=36%  Similarity=0.653  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.+.
+T Consensus        20 ~~~l~~~~i~~~~~   33 (79)
+T cd20052          20 KKKMTLSEIYQWIC   33 (79)
+T ss_pred             CCCcCHHHHHHHHH
+
+
+No 32
+>PF12419.8 ; DUF3670 ; SNF2 Helicase protein
+Probab=49.25  E-value=43  Score=19.05  Aligned_cols=30  Identities=20%  Similarity=0.303  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             HceeeeEEcCeecchHHHHHHHhhcCCCCc
+Q Q_9186633_35      5 EYETVIKINGKDLTLTQIYELMEYENKPVQ   34 (37)
+Q Consensus         5 eyetvikingkdltltqiyelmeyenkpvq   34 (37)
+                      +|.--+.|+|+.||..++.+|++-...-|+
+T Consensus        71 ~f~W~valGd~~ls~eEf~~L~~~~~~lV~  100 (140)
+T U5QMC9_9CYAN/3   71 DYQYELSIGDQSLSESEWQKLIAAKLPLVQ  100 (140)
+T ss_pred             eEEEEEEECCEeCCHHHHHHHHHcCCCcEE
+
+
+No 33
+>d1fc6a3 b.36.1.3 (A:157-248) Photosystem II D1 C-terminal processing protease {Algae (Scenedesmus obliquus) [TaxId: 3088]}
+Probab=48.86  E-value=46  Score=16.44  Aligned_cols=20  Identities=15%  Similarity=0.629  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eeeeEEcCeec---chHHHHHHH
+Q Q_9186633_35      7 ETVIKINGKDL---TLTQIYELM   26 (37)
+Q Consensus         7 etvikingkdl---tltqiyelm   26 (37)
+                      ..++.|||.++   +..++++++
+T Consensus        41 D~I~~ing~~~~~~~~~~~~~~l   63 (92)
+T d1fc6a3          41 DVIVTVDGTAVKGMSLYDVSDLL   63 (92)
+T ss_dssp             CEEEEETTEECTTCCHHHHHHHH
+T ss_pred             CEEEEECCEECCCCCHHHHHHHh
+
+
+No 34
+>cd20026 FH_FOXK; Forkhead (FH) domain found in the forkhead box protein K (FOXK) subfamily. The FOXK subfamily includes two winged helix transcription factors, FOXK1 and FOXK2.
+Probab=48.69  E-value=25  Score=15.01  Aligned_cols=14  Identities=43%  Similarity=0.629  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.+.
+T Consensus        19 ~~~l~~~~i~~~~~   32 (78)
+T cd20026          19 DKQLTLNGIYTHIT   32 (78)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 35
+>cd20017 FH_FOXC; Forkhead (FH) domain found in the forkhead box protein C (FOXC) subfamily. The FOXC subfamily includes two winged helix transcription factors, FOXC1 (also called Forkhead-related protein FKHL7, or Forkhead-related transcription factor 3) and FOXC2 (also called Forkhead-related protein FKHL14, or Mesenchyme fork head protein 1).
+Probab=48.67  E-value=26  Score=14.73  Aligned_cols=15  Identities=33%  Similarity=0.596  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (77)
+T cd20017          18 PEKKITLNGIYQFIM   32 (77)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 36
+>PF16025.5 ; CALM_bind ; Calcium-dependent calmodulin binding
+Probab=48.52  E-value=13  Score=22.73  Aligned_cols=30  Identities=23%  Similarity=0.452  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             HceeeeEEcCee-----cchHHHHHHHhhcCCCCc
+Q Q_9186633_35      5 EYETVIKINGKD-----LTLTQIYELMEYENKPVQ   34 (37)
+Q Consensus         5 eyetvikingkd-----ltltqiyelmeyenkpvq   34 (37)
+                      +|..+|+|||+.     +|..+--|+.+|..+.++
+T Consensus         3 ~~~S~Ik~~G~PILPPLmt~ekR~EMq~yR~~Ai~   37 (107)
+T B4M373_DROVI/4    3 EYVSQFRIDGQPILPPLMTAEKRHRMQQLRQQAVQ   37 (107)
+T ss_pred             CccceeEECCEECCCCCCCHHHHHHHHHHHHHHHH
+
+
+No 37
+>cd20039 FH_FOXA2; Forkhead (FH) domain found in forkhead box protein A2 (FOXA2) and similar proteins.
+Probab=47.57  E-value=26  Score=16.46  Aligned_cols=15  Identities=40%  Similarity=0.594  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.+.
+T Consensus        22 ~~~~~~~~~i~~~~~   36 (104)
+T cd20039          22 PNKMLTLSEIYQWIM   36 (104)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 38
+>d4p0ca_ b.36.1.1 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=46.75  E-value=39  Score=14.93  Aligned_cols=23  Identities=13%  Similarity=0.367  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             HHceeeeEEcCeecc---hHHHHHHH
+Q Q_9186633_35      4 EEYETVIKINGKDLT---LTQIYELM   26 (37)
+Q Consensus         4 eeyetvikingkdlt---ltqiyelm   26 (37)
+                      .....++.|||.+++   ..+++.++
+T Consensus        44 ~~gd~i~~ing~~~~~~~~~~~~~~~   69 (88)
+T d4p0ca_          44 RAGDRLVEVNGVNVEGETHHQVVQRI   69 (88)
+T ss_dssp             CTTCEEEEETTEECTTCCHHHHHHHH
+T ss_pred             CCCCEEEEECCEECCCCCHHHHHHHH
+
+
+No 39
+>PF13101.6 ; DUF3945 ; Protein of unknown function (DUF3945)
+Probab=46.28  E-value=31  Score=17.80  Aligned_cols=16  Identities=31%  Similarity=0.422  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      +|+|..|+- |.-.|.+
+T Consensus        29 ~i~g~~Ls~-Q~~~L~~   44 (58)
+T D4IL77_9BACT/9   29 RIYGKEIGD-DIEALRS   44 (58)
+T ss_pred             eeCCEEccH-HHHHHHC
+
+
+No 40
+>cd20022 FH_FOXH; Forkhead (FH) domain found in the forkhead box protein H (FOXH) subfamily. The FOXH subfamily includes a winged helix transcription factor, FOXH1, which is also called Forkhead activin signal transducer 1 (Fast-1), or Forkhead activin signal transducer 2 (Fast-2).
+Probab=45.83  E-value=30  Score=14.73  Aligned_cols=14  Identities=29%  Similarity=0.468  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.+.
+T Consensus        19 ~~~~~~~~i~~~~~   32 (79)
+T cd20022          19 SRRLKLAQIIRQVQ   32 (79)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 41
+>cd20050 FH_FOXF2; Forkhead (FH) domain found in forkhead box protein F2 (FOXF2) and similar proteins.
+Probab=44.96  E-value=32  Score=15.57  Aligned_cols=15  Identities=40%  Similarity=0.802  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        17 ~~~~~~~~~i~~~~~   31 (93)
+T cd20050          17 PSKRLTLSEIYQFLQ   31 (93)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 42
+>cd20023 FH_FOXJ1; Forkhead (FH) domain found in forkhead box protein J1 (FOXJ1) and similar proteins.
+Probab=44.87  E-value=33  Score=14.68  Aligned_cols=15  Identities=27%  Similarity=0.605  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (79)
+T cd20023          18 KATKITLSAIYKWIT   32 (79)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 43
+>d3jr7a_ c.119.1.0 (A:) automated matches {Ruminococcus gnavus [TaxId: 411470]}
+Probab=44.77  E-value=40  Score=20.86  Aligned_cols=24  Identities=8%  Similarity=0.090  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             EcCeecchHHHHHHHhhcCCCCcc
+Q Q_9186633_35     12 INGKDLTLTQIYELMEYENKPVQT   35 (37)
+Q Consensus        12 ingkdltltqiyelmeyenkpvqt   35 (37)
+                      .+|.|++..++|+.|.-.++..+|
+T Consensus        40 ~d~~di~~~~~y~~l~~~~~~~~T   63 (281)
+T d3jr7a_          40 TDDDSLKQEELLLKIAESTSCAKT   63 (281)
+T ss_dssp             ECSTTSCHHHHHHHHHHCSSCCEE
+T ss_pred             ecCCCCCHHHHHHHHHhCCCCCcc
+
+
+No 44
+>cd20062 FH_FOXO4; Forkhead (FH) domain found in forkhead box protein O4 (FOXO4) and similar proteins.
+Probab=44.73  E-value=30  Score=15.56  Aligned_cols=14  Identities=64%  Similarity=0.786  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.++
+T Consensus        22 ~~~~~~~~i~~~~~   35 (86)
+T cd20062          22 EKRLTLAQIYEWMV   35 (86)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 45
+>cd20055 FH_FOXK2; Forkhead (FH) domain found in forkhead box protein K2 (FOXK2) and similar proteins.
+Probab=44.62  E-value=30  Score=16.08  Aligned_cols=14  Identities=43%  Similarity=0.629  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.+.
+T Consensus        21 ~~~l~~~~i~~~i~   34 (98)
+T cd20055          21 DKQLTLNGIYTHIT   34 (98)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 46
+>d2q3ga1 b.36.1.0 (A:1-84) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=44.09  E-value=32  Score=16.24  Aligned_cols=12  Identities=25%  Similarity=0.540  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             eeeeEEcCeecc
+Q Q_9186633_35      7 ETVIKINGKDLT   18 (37)
+Q Consensus         7 etvikingkdlt   18 (37)
+                      ..+++|||++++
+T Consensus        48 D~I~~ing~~v~   59 (84)
+T d2q3ga1          48 DWVLSIDGENAG   59 (84)
+T ss_dssp             CEEEEETTEEGG
+T ss_pred             CEEEEECCEECC
+
+
+No 47
+>cd20054 FH_FOXK1; Forkhead (FH) domain found in forkhead box protein K1 (FOXK1) and similar proteins.
+Probab=43.00  E-value=33  Score=15.92  Aligned_cols=14  Identities=36%  Similarity=0.643  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        21 ~~~l~~~~i~~~~~   34 (101)
+T cd20054          21 DRQLTLSGIYAHIT   34 (101)
+T ss_pred             CCCcCHHHHHHHHH
+
+
+No 48
+>cd20048 FH_FOXD4-like; Forkhead (FH) domain found in Forkhead box protein D4 (FOXD4) and similar proteins.
+Probab=42.92  E-value=34  Score=15.66  Aligned_cols=14  Identities=36%  Similarity=0.494  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        19 ~~~l~~~~i~~~~~   32 (96)
+T cd20048          19 HKRLTLSGICAFIS   32 (96)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 49
+>d1gkma_ a.127.1.2 (A:) Histidine ammonia-lyase (HAL) {Pseudomonas putida [TaxId: 303]}
+Probab=42.15  E-value=34  Score=23.94  Aligned_cols=19  Identities=26%  Similarity=0.364  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             eeeEEcCeecchHHHHHHH
+Q Q_9186633_35      8 TVIKINGKDLTLTQIYELM   26 (37)
+Q Consensus         8 tvikingkdltltqiyelm   26 (37)
+                      |.|.++|+.||+.||+...
+T Consensus         1 ~~i~l~g~~Ltl~~v~~va   19 (509)
+T d1gkma_           1 TELTLKPGTLTLAQLRAIH   19 (509)
+T ss_dssp             CEEEECTTCCCHHHHHHHH
+T ss_pred             CeEEeCCCCCCHHHHHHHH
+
+
+No 50
+>cd20046 FH_FOXD1_D2-like; Forkhead (FH) domain found in Forkhead box proteins FOXD1, FOXD2 and similar proteins.
+Probab=41.58  E-value=38  Score=15.50  Aligned_cols=15  Identities=40%  Similarity=0.587  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.+.
+T Consensus        18 ~~~~l~~~~i~~~~~   32 (99)
+T cd20046          18 PKKRLTLSEICEFIS   32 (99)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 51
+>cd20029 FH_FOXM; Forkhead (FH) domain found in the forkhead box protein M (FOXM) subfamily. The FOXM subfamily includes a winged helix transcription factor, FOXM1, which is also called Forkhead-related protein FKHL16, Hepatocyte nuclear factor 3 forkhead homolog 11 (HFH-11), HNF-3/fork-head homolog 11, M-phase phosphoprotein 2, MPM-2 reactive phosphoprotein 2, transcription factor Trident, or Winged-helix factor from INS-1 cells.
+Probab=41.58  E-value=41  Score=14.28  Aligned_cols=15  Identities=40%  Similarity=0.671  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (77)
+T cd20029          18 ERKRMTLKDIYTWIE   32 (77)
+T ss_pred             CCCccCHHHHHHHHH
+
+
+No 52
+>cd20035 FH_FOXQ2-like; Forkhead (FH) domain found in forkhead box protein Q2 (FOXQ2) and similar proteins.
+Probab=41.38  E-value=36  Score=15.53  Aligned_cols=14  Identities=36%  Similarity=0.556  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        19 ~~~l~~~~i~~~~~   32 (95)
+T cd20035          19 EKKLLLCDIYQWIM   32 (95)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 53
+>PF18628.1 ; P2_N ; Viral coat protein P2 N-terminal domain
+Probab=41.18  E-value=1e+02  Score=18.32  Aligned_cols=29  Identities=21%  Similarity=0.268  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             eeeeEEcCe---ecchHHHHHHHhhcCCCCcc
+Q Q_9186633_35      7 ETVIKINGK---DLTLTQIYELMEYENKPVQT   35 (37)
+Q Consensus         7 etvikingk---dltltqiyelmeyenkpvqt   35 (37)
+                      +-.+++||+   ++|-.++..+..|...+...
+T Consensus        42 ~Irv~vNGk~i~~~tg~~L~~~n~y~g~~~~~   73 (131)
+T A0A0B4XND7_9GA   42 MATLWLNGDPIVQMTGQQMVMLERYKKHWEEP   73 (131)
+T ss_pred             EEEEEECCEEEEEeeHHHHHHHHHHhCcCCCC
+
+
+No 54
+>cd20056 FH_FOXN1; Forkhead (FH) domain found in forkhead box protein N1 (FOXN1). FOXN1, also called winged-helix transcription factor nude, acts as a transcriptional regulator which regulates the development, differentiation, and function of thymic epithelial cells (TECs), both in the prenatal and postnatal thymus.
+Probab=40.91  E-value=37  Score=15.56  Aligned_cols=14  Identities=29%  Similarity=0.627  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        20 ~~~~~~~~i~~~~~   33 (97)
+T cd20056          20 TGSLPVSEIYNFMT   33 (97)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 55
+>cd20043 FH_FOXB2; Forkhead (FH) domain found in Forkhead box protein B2 (FOXB2) and similar proteins.
+Probab=40.75  E-value=38  Score=16.13  Aligned_cols=15  Identities=33%  Similarity=0.558  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.++
+T Consensus        30 ~~~~l~~~~i~~~~~   44 (110)
+T cd20043          30 AEKMLPLSDIYKFIM   44 (110)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 56
+>PF17726.1 ; DpnI_C ; Dam-replacing HTH domain
+Probab=40.38  E-value=12  Score=18.86  Aligned_cols=25  Identities=20%  Similarity=0.308  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHceeeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      3 KEEYETVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         3 keeyetvikingkdltltqiyelme   27 (37)
+                      +++...++.=.|...++.+||+.++
+T Consensus         6 ~~~v~~~l~~~gg~a~l~eiy~~i~   30 (69)
+T Q4FVE1_PSYA2/1    6 TLDVLQCIDKLEANFSLNQVYAFAE   30 (69)
+T ss_pred             HHHHHHHHHHhCCCeeHHHHHHHHH
+
+
+No 57
+>d4eada1 a.46.2.1 (A:2-70) Thymidine phosphorylase {Escherichia coli [TaxId: 562]}
+Probab=39.83  E-value=34  Score=16.30  Aligned_cols=17  Identities=18%  Similarity=0.188  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EcCeecchHHHHHHHhh
+Q Q_9186633_35     12 INGKDLTLTQIYELMEY   28 (37)
+Q Consensus        12 ingkdltltqiyelmey   28 (37)
+                      .+|++++..+++++|+.
+T Consensus        11 ~~~~~l~~~e~~~~~~~   27 (69)
+T d4eada1          11 RDGHALSDEEIRFFING   27 (69)
+T ss_dssp             HTTCCCCHHHHHHHHHH
+T ss_pred             HcCCCCCHHHHHHHHHH
+
+
+No 58
+>cd20037 FH_FOXS1; Forkhead (FH) domain found in forkhead box protein S1 (FOXS1). FOXS1, also called Forkhead-like 18 protein or Forkhead-related transcription factor 10 (FREAC-10), is a transcriptional repressor that suppresses transcription from the FASLG, FOXO3, and FOXO4 promoters.
+Probab=39.59  E-value=40  Score=15.44  Aligned_cols=14  Identities=36%  Similarity=0.627  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.|||+.+.
+T Consensus        20 ~~~l~~~~i~~~~~   33 (100)
+T cd20037          20 GQRATLSGIYRYIM   33 (100)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 59
+>cd16873 ARID_KDM5A; ARID/BRIGHT DNA binding domain of lysine-specific demethylase 5A (KDM5A). KDM5A, also called histone demethylase JARID1A, Jumonji/ARID domain-containing protein 1A, or Retinoblastoma-binding protein 2 (RBBP-2 or RBP2), was originally identified as a retinoblastoma protein (Rb)-binding partner.
+Probab=39.56  E-value=60  Score=15.01  Aligned_cols=17  Identities=18%  Similarity=0.259  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.+-++|....
+T Consensus        26 ~i~~~~idl~~l~~~v~   42 (92)
+T cd16873          26 VVERKILDLYALSKIVA   42 (92)
+T ss_pred             eeCCeeeeHHHHHHHHH
+
+
+No 60
+>cd20060 FH_FOXO1; Forkhead (FH) domain found in forkhead box protein O1 (FOXO1). FOXO1, also called Forkhead box protein O1A or Forkhead in rhabdomyosarcoma (FKHR), is a transcription factor that is the main target of insulin signaling and regulates metabolic homeostasis in response to oxidative stress.
+Probab=39.55  E-value=38  Score=16.24  Aligned_cols=14  Identities=64%  Similarity=0.807  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.++
+T Consensus        28 ~~~l~~~~i~~~i~   41 (99)
+T cd20060          28 EKRLTLSQIYEWMV   41 (99)
+T ss_pred             CCcccHHHHHHHHH
+
+
+No 61
+>PF10225.9 ; NEMP ; NEMP family
+Probab=39.51  E-value=25  Score=22.59  Aligned_cols=28  Identities=36%  Similarity=0.498  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCHHHceeeeEEcCeecchHHHHHHHhhcCCC
+Q Q_9186633_35      1 MTKEEYETVIKINGKDLTLTQIYELMEYENKP   32 (37)
+Q Consensus         1 mtkeeyetvikingkdltltqiyelmeyenkp   32 (37)
+                      +|+|||+..    |+.-|-..+-||-+|-+.|
+T Consensus       190 LTeeEy~~q----g~~eT~kaL~~LR~~c~SP  217 (246)
+T T1J4J3_STRMM/1  190 LTEEEYRDQ----ANAETQKAIQELRNYCKSP  217 (246)
+T ss_pred             CCHHHHHHh----chHHHHHHHHHHHHHHcCC
+
+
+No 62
+>cd20059 FH_FOXN3; Forkhead (FH) domain found in forkhead box protein N3 (FOXN3). FOXN3, also called checkpoint suppressor 1 (CHES1), acts as a transcriptional repressor that may be involved in DNA damage-inducible cell cycle arrests (checkpoints).
+Probab=39.36  E-value=40  Score=15.37  Aligned_cols=14  Identities=29%  Similarity=0.487  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        19 ~~~~t~~~i~~~~~   32 (90)
+T cd20059          19 TKRLPVKDIYNWIL   32 (90)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 63
+>cd16882 ARID_ARID4A; ARID/BRIGHT DNA binding domain of AT-rich interactive domain-containing protein 4A (ARID4A) and similar proteins.
+Probab=39.34  E-value=50  Score=14.53  Aligned_cols=17  Identities=29%  Similarity=0.479  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.+-++|..+.
+T Consensus        25 ~~~~~~i~l~~l~~~v~   41 (87)
+T cd16882          25 VLGYKDLNLFKLFRLVY   41 (87)
+T ss_pred             ccCCeeCCHHHHHHHHH
+
+
+No 64
+>cd20063 FH_FOXO6; Forkhead (FH) domain found in forkhead box protein O6 (FOXO6) and similar proteins.
+Probab=39.09  E-value=38  Score=15.54  Aligned_cols=14  Identities=57%  Similarity=0.807  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.++
+T Consensus        18 ~~~l~~~~i~~~i~   31 (88)
+T cd20063          18 DKRLTLSQIYDWMV   31 (88)
+T ss_pred             CCceeHHHHHHHHH
+
+
+No 65
+>cd20041 FH_dFKH; Forkhead (FH) domain found in Drosophila melanogaster protein fork head (dFKH) and similar proteins.
+Probab=39.04  E-value=40  Score=15.37  Aligned_cols=14  Identities=36%  Similarity=0.674  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        19 ~~~l~~~~i~~~~~   32 (98)
+T cd20041          19 TRMLTLSEIYQFIM   32 (98)
+T ss_pred             CCCeeHHHHHHHHH
+
+
+No 66
+>PF13464.6 ; DUF4115 ; Domain of unknown function (DUF4115)
+Probab=38.97  E-value=38  Score=16.16  Aligned_cols=12  Identities=33%  Similarity=0.581  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             eeeEEcCeecch
+Q Q_9186633_35      8 TVIKINGKDLTL   19 (37)
+Q Consensus         8 tvikingkdltl   19 (37)
+                      ..|.+||+++.+
+T Consensus        50 v~i~~nG~~~~~   61 (74)
+T Q3SL71_THIDA/2   50 TRLTYNGRPVDL   61 (74)
+T ss_pred             EEEEECCEEeeC
+
+
+No 67
+>cd20061 FH_FOXO3; Forkhead (FH) domain found in forkhead box protein O3 (FOXO3). FOXO3, also called AF6q21 protein or Forkhead in rhabdomyosarcoma-like 1 (FKHRL1), is a transcriptional activator which triggers apoptosis in the absence of survival factors, including neuronal cell death upon oxidative stress.
+Probab=38.66  E-value=42  Score=14.89  Aligned_cols=14  Identities=64%  Similarity=0.828  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.+.
+T Consensus        19 ~~~l~~~~i~~~~~   32 (83)
+T cd20061          19 DKRLTLSQIYEWMV   32 (83)
+T ss_pred             CCCeeHHHHHHHHH
+
+
+No 68
+>cd20045 FH_FOXC2; Forkhead (FH) domain found in Forkhead box protein C2 (FOXC2) and similar proteins.
+Probab=38.59  E-value=46  Score=14.65  Aligned_cols=15  Identities=33%  Similarity=0.596  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.++
+T Consensus        20 ~~~~~~~~~i~~~~~   34 (90)
+T cd20045          20 PEKKITLNGIYQFIM   34 (90)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 69
+>COG0547 TrpD; Anthranilate phosphoribosyltransferase [Amino acid transport and metabolism]. 
+Probab=38.58  E-value=37  Score=21.30  Aligned_cols=16  Identities=31%  Similarity=0.486  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             cCeecchHHHHHHHhh
+Q Q_9186633_35     13 NGKDLTLTQIYELMEY   28 (37)
+Q Consensus        13 ngkdltltqiyelmey   28 (37)
+                      +|++||..|++++|..
+T Consensus        13 ~g~~Lt~~Ea~~~~~~   28 (338)
+T COG0547          13 RGRDLDREEARELFKA   28 (338)
+T ss_pred             cCCCCCHHHHHHHHHH
+
+
+No 70
+>cd20027 FH_FOXL1; Forkhead (FH) domain found in forkhead box protein L1 (FOXL1) and similar proteins.
+Probab=38.57  E-value=43  Score=15.37  Aligned_cols=14  Identities=29%  Similarity=0.577  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        21 ~~~l~~~~i~~~~~   34 (98)
+T cd20027          21 EQRVTLNGIYQFIM   34 (98)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 71
+>d2pa1a1 b.36.1.1 (A:1-86) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=38.23  E-value=64  Score=14.95  Aligned_cols=28  Identities=14%  Similarity=0.361  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             eeeeEEcCeecc---hHHHHHHHhhcCCCCc
+Q Q_9186633_35      7 ETVIKINGKDLT---LTQIYELMEYENKPVQ   34 (37)
+Q Consensus         7 etvikingkdlt---ltqiyelmeyenkpvq   34 (37)
+                      ..++.|||..++   ..++.+.+.....+++
+T Consensus        47 D~i~~in~~~~~~~~~~~~~~~l~~~~~~~~   77 (86)
+T d2pa1a1          47 DIIVAINGESAEGMLHAEAQSKIRQSPSPLR   77 (86)
+T ss_dssp             CEEEEETTEESTTCCHHHHHHHHHTCCSSEE
+T ss_pred             CEEEEECCEECCCCCHHHHHHHHhcCCCCEE
+
+
+No 72
+>PF18607.1 ; HTH_54 ; ParA helix turn helix domain
+Probab=37.97  E-value=55  Score=17.82  Aligned_cols=20  Identities=15%  Similarity=0.315  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             cCeecchHHHHHHHhhcCCC
+Q Q_9186633_35     13 NGKDLTLTQIYELMEYENKP   32 (37)
+Q Consensus        13 ngkdltltqiyelmeyenkp   32 (37)
+                      +...+|+.+|.+++++-..|
+T Consensus        67 ~~~~~T~~dv~~I~e~~g~p   86 (92)
+T Q71TA9_BPP1/14   67 MKYAMSIQNIIDIYEHRGVP   86 (92)
+T ss_pred             eeeeCCHHHHHHHHHHhCCC
+
+
+No 73
+>cd16872 ARID_HMGB9-like; ARID/BRIGHT DNA binding domain of Arabidopsis thaliana high mobility group B proteins HMGB9, HMGB10, HMGB11, HMGB15 and similar proteins.
+Probab=37.91  E-value=59  Score=14.50  Aligned_cols=17  Identities=35%  Similarity=0.565  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      +++|+.+.+-++|....
+T Consensus        24 ~~~g~~i~l~~l~~~v~   40 (86)
+T cd16872          24 VIGGKELDLHVLYVEVT   40 (86)
+T ss_pred             eECCEEcCHHHHHHHHH
+
+
+No 74
+>KOG2131 Uncharacterized conserved protein, contains JmjC domain [Chromatin structure and dynamics, Signal transduction mechanisms]
+Probab=37.76  E-value=49  Score=22.06  Aligned_cols=33  Identities=15%  Similarity=0.111  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCHHHceeeeEEcCeecchHHHHHHHhhcCCCC
+Q Q_9186633_35      1 MTKEEYETVIKINGKDLTLTQIYELMEYENKPV   33 (37)
+Q Consensus         1 mtkeeyetvikingkdltltqiyelmeyenkpv   33 (37)
+                      |.......+..+++++++..+.++-.-..|+||
+T Consensus        22 ~~~~~~~~i~r~~~~~ls~~eF~~~y~~~n~PV   54 (427)
+T KOG2131          22 MEPQLRPCVLRLIGPTADYGDFAERDTHKRPGV   54 (427)
+T ss_pred             CCCccCCCeEEEeCCCCCHHHHHHHHhccCCcE
+
+
+No 75
+>cd20049 FH_FOXF1; Forkhead (FH) domain found in forkhead box protein F1 (FOXF1) and similar proteins.
+Probab=37.13  E-value=49  Score=15.28  Aligned_cols=15  Identities=40%  Similarity=0.769  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.++
+T Consensus        17 ~~~~~~~~~i~~~~~   31 (99)
+T cd20049          17 PTKRLTLSEIYQFLQ   31 (99)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 76
+>d3fysa1 c.119.1.0 (A:1-281) automated matches {Bacillus subtilis [TaxId: 1423]}
+Probab=37.13  E-value=63  Score=19.91  Aligned_cols=24  Identities=21%  Similarity=0.224  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             EcCeecchHHHHHHHhhcCCCCcc
+Q Q_9186633_35     12 INGKDLTLTQIYELMEYENKPVQT   35 (37)
+Q Consensus        12 ingkdltltqiyelmeyenkpvqt   35 (37)
+                      .+|.|++..++|+.|+-.+..+.|
+T Consensus        38 ~d~~di~~~~~~~~~~~~~~~~~T   61 (281)
+T d3fysa1          38 REEIELDWKSFYEEVKKHNELPTT   61 (281)
+T ss_dssp             EBTTTBCHHHHHHHHHTTTCCCEE
+T ss_pred             EeCCCCCHHHHHHHHHhcCCCCcc
+
+
+No 77
+>d1y2ma_ a.127.1.2 (A:) Phenylalanine ammonia-lyase, PAL {Fungus (Rhodosporidium toruloides) [TaxId: 5286]}
+Probab=36.73  E-value=59  Score=24.04  Aligned_cols=24  Identities=13%  Similarity=0.252  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             eeEEcCeecchHHHHHHHhhcCCC
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELMEYENKP   32 (37)
+Q Consensus         9 vikingkdltltqiyelmeyenkp   32 (37)
+                      .|.|+|.+||+.++.....+..++
+T Consensus        34 ~v~l~G~~Lti~~v~avA~~~~~v   57 (690)
+T d1y2ma_          34 TLELDGYSLNLGDVVSAARKGRPV   57 (690)
+T ss_dssp             CEEECSSCCCHHHHHHHHHSCCCE
+T ss_pred             eEEECCCCCCHHHHHHHHhcCCCe
+
+
+No 78
+>PF13342.6 ; Toprim_Crpt ; C-terminal repeat of topoisomerase
+Probab=36.39  E-value=53  Score=15.00  Aligned_cols=16  Identities=31%  Similarity=0.561  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             EcCeecchHHHHHHHh
+Q Q_9186633_35     12 INGKDLTLTQIYELME   27 (37)
+Q Consensus        12 ingkdltltqiyelme   27 (37)
+                      +.|+.+|..+|-+|+.
+T Consensus        11 ~~g~~it~~~i~~Ll~   26 (63)
+T K4L2S6_9FIRM/7   11 VCGKTLSQAQMKSLLK   26 (63)
+T ss_pred             cCCccCCHHHHHHHHH
+
+
+No 79
+>d4xfja2 d.210.1.0 (A:173-398) automated matches {Mycobacterium thermoresistibile [TaxId: 1078020]}
+Probab=36.17  E-value=65  Score=20.95  Aligned_cols=18  Identities=28%  Similarity=0.475  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             eEEcCeecchHHHHHHHh
+Q Q_9186633_35     10 IKINGKDLTLTQIYELME   27 (37)
+Q Consensus        10 ikingkdltltqiyelme   27 (37)
+                      ++|||+.+++.++.+.+.
+T Consensus        56 v~ing~~~~~~eli~~LN   73 (226)
+T d4xfja2          56 VSIDGRSVTPLQAIEELN   73 (226)
+T ss_dssp             EEETTEECCHHHHHHHHH
+T ss_pred             EEeCCEecCHHHHHHHHH
+
+
+No 80
+>cd20066 FH_FOXP3; Forkhead (FH) domain found in forkhead box protein P3 (FOXP3) and similar proteins.
+Probab=36.09  E-value=53  Score=14.32  Aligned_cols=15  Identities=33%  Similarity=0.488  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .+..+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (81)
+T cd20066          18 PEKQRTLNEIYHWFT   32 (81)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 81
+>PF09358.10 ; E1_UFD ; Ubiquitin fold domain
+Probab=35.78  E-value=66  Score=16.98  Aligned_cols=17  Identities=18%  Similarity=0.544  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eEEcCeecchHHHHHHHh
+Q Q_9186633_35     10 IKINGKDLTLTQIYELME   27 (37)
+Q Consensus        10 ikingkdltltqiyelme   27 (37)
+                      +.|+| ++|+.++.+.++
+T Consensus         4 ~~i~~-~~Tl~eli~~~~   20 (93)
+T R9AFE1_WALI9/9    4 FEVSG-NPTLQEFMDYFQ   20 (93)
+T ss_pred             EEecC-CCcHHHHHHHHH
+
+
+No 82
+>d3h5qa1 a.46.2.0 (A:1-70) automated matches {Staphylococcus aureus [TaxId: 93062]}
+Probab=35.72  E-value=43  Score=15.97  Aligned_cols=17  Identities=24%  Similarity=0.241  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EcCeecchHHHHHHHhh
+Q Q_9186633_35     12 INGKDLTLTQIYELMEY   28 (37)
+Q Consensus        12 ingkdltltqiyelmey   28 (37)
+                      .+|++++..++++.+..
+T Consensus        11 ~~g~~l~~~e~~~~~~~   27 (70)
+T d3h5qa1          11 RDGHTLTTEEINFFIGG   27 (70)
+T ss_dssp             HTTCCCCHHHHHHHHHH
+T ss_pred             HcCCCCCHHHHHHHHHH
+
+
+No 83
+>d3cjrb1 a.4.7.1 (B:71-137) Ribosomal protein L11, C-terminal domain {Thermus thermophilus [TaxId: 274]}
+Probab=35.69  E-value=50  Score=16.73  Aligned_cols=13  Identities=23%  Similarity=0.391  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ecchHHHHHHHhh
+Q Q_9186633_35     16 DLTLTQIYELMEY   28 (37)
+Q Consensus        16 dltltqiyelmey   28 (37)
+                      .+++.||||....
+T Consensus        28 ~it~~~i~eIAk~   40 (67)
+T d3cjrb1          28 RITWEQVLEIAKQ   40 (67)
+T ss_dssp             -CCCSGGGTHHHH
+T ss_pred             ecCHHHHHHHHHH
+
+
+No 84
+>COG0213 DeoA; Thymidine phosphorylase [Nucleotide transport and metabolism]. 
+Probab=35.43  E-value=28  Score=23.40  Aligned_cols=18  Identities=28%  Similarity=0.303  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             EEcCeecchHHHHHHHhh
+Q Q_9186633_35     11 KINGKDLTLTQIYELMEY   28 (37)
+Q Consensus        11 kingkdltltqiyelmey   28 (37)
+                      +.+|++||..|++++|..
+T Consensus        11 ~~~g~~Lt~eE~~~~~~~   28 (435)
+T COG0213          11 KRDGKALSKEEIEFFING   28 (435)
+T ss_pred             HHcCCCCCHHHHHHHHHH
+
+
+No 85
+>d2pp6a1 b.106.1.2 (A:1-93) Gifsy-2 prophage protein STM1035 {Salmonella typhimurium [TaxId: 90371]}
+Probab=35.39  E-value=37  Score=19.25  Aligned_cols=17  Identities=29%  Similarity=0.511  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CHHHceeeeEEcCeecc
+Q Q_9186633_35      2 TKEEYETVIKINGKDLT   18 (37)
+Q Consensus         2 tkeeyetvikingkdlt   18 (37)
+                      +.++.-+.+.|||++++
+T Consensus        16 i~~~mG~~~~InG~~~~   32 (93)
+T d2pp6a1          16 IAERFGMKVNINGTDCI   32 (93)
+T ss_dssp             HHHHHCEEEEETTEEEE
+T ss_pred             HHHHhCCEEEECCEEEE
+
+
+No 86
+>d1n7ea_ b.36.1.1 (A:) Glutamate receptor-interacting protein 1, GRIP1 {Norway rat (Rattus norvegicus) [TaxId: 10116]}
+Probab=35.26  E-value=70  Score=14.54  Aligned_cols=28  Identities=21%  Similarity=0.482  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             eeeeEEcCeecc---hHHHHHHHhhcCCCCc
+Q Q_9186633_35      7 ETVIKINGKDLT---LTQIYELMEYENKPVQ   34 (37)
+Q Consensus         7 etvikingkdlt---ltqiyelmeyenkpvq   34 (37)
+                      ..++.|||.++.   ..++..++.....++.
+T Consensus        51 d~i~~ing~~~~~~~~~~~~~~l~~~~~~~~   81 (95)
+T d1n7ea_          51 DRILAINSSSLKGKPLSEAIHLLQMAGETVT   81 (95)
+T ss_dssp             CEEEEETTEECTTCCHHHHHHHHHTCCSEEE
+T ss_pred             CEEEEECCEECCCCCHHHHHHHHHhcCCeEE
+
+
+No 87
+>cd16871 ARID_Swi1p-like; ARID/BRIGHT DNA binding domain of yeast SWI/SNF chromatin-remodeling complex subunit Swi1p and similar proteins.
+Probab=35.05  E-value=69  Score=14.41  Aligned_cols=17  Identities=24%  Similarity=0.559  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.+-++|....
+T Consensus        26 ~~~g~~i~l~~l~~~v~   42 (90)
+T cd16871          26 EIGNRKINLFYLYMLVQ   42 (84)
+T ss_pred             eeCCEeCCHHHHHHHHH
+
+
+No 88
+>cd20015 FH_FOXA; Forkhead (FH) domain found in the forkhead box protein A (FOXA) subfamily. The FOXA subfamily includes three winged helix transcription factors, FOXA1 (also called hepatocyte nuclear factor 3-alpha or transcription factor 3A), FOXA2 (also called hepatocyte nuclear factor 3-beta or transcription factor 3B), and FOXA3 (also called hepatocyte nuclear factor 3-gamma or transcription factor 3G).
+Probab=35.00  E-value=53  Score=15.10  Aligned_cols=15  Identities=47%  Similarity=0.731  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.++
+T Consensus        18 ~~~~l~~~~i~~~~~   32 (97)
+T cd20015          18 PGKMLTLSEIYQWIM   32 (97)
+T ss_pred             CCCCeeHHHHHHHHH
+
+
+No 89
+>PF00298.19 ; Ribosomal_L11 ; Ribosomal protein L11, RNA binding domain
+Probab=34.95  E-value=52  Score=16.96  Aligned_cols=13  Identities=23%  Similarity=0.424  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             ecchHHHHHHHhh
+Q Q_9186633_35     16 DLTLTQIYELMEY   28 (37)
+Q Consensus        16 dltltqiyelmey   28 (37)
+                      .+|+.||||..+.
+T Consensus        29 ~It~~~i~eIAk~   41 (69)
+T E1ZMN5_CHLVA/7   29 SVTMEQVREIAAI   41 (69)
+T ss_pred             ecCHHHHHHHHHH
+
+
+No 90
+>d2z17a_ b.36.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=34.80  E-value=59  Score=15.41  Aligned_cols=22  Identities=14%  Similarity=0.225  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHhh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELMEY   28 (37)
+Q Consensus         7 etvikingkdltltqiyelmey   28 (37)
+                      ..+++|||.+++-...-+++.+
+T Consensus        60 d~i~~vng~~~~~~~~~~~~~~   81 (94)
+T d2z17a_          60 DVLANINGVSTEGFTYKQVVDL   81 (94)
+T ss_dssp             CBCCEETTEECTTCCHHHHHHH
+T ss_pred             CEEEEECCEEcCCCCHHHHHHH
+
+
+No 91
+>d2dt8a_ c.119.1.0 (A:) automated matches {Thermus thermophilus HB8 [TaxId: 300852]}
+Probab=34.76  E-value=63  Score=19.89  Aligned_cols=23  Identities=17%  Similarity=0.186  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             cCeecchHHHHHHHhhcCCCCcc
+Q Q_9186633_35     13 NGKDLTLTQIYELMEYENKPVQT   35 (37)
+Q Consensus        13 ngkdltltqiyelmeyenkpvqt   35 (37)
+                      +|.|++..++|+.|+-.+...+|
+T Consensus        39 d~~~i~~~~~~~~~~~~~~~~~T   61 (280)
+T d2dt8a_          39 DWEEITPTEIFQKVREGAAFPTT   61 (280)
+T ss_dssp             TTTTCCHHHHHHHHHTTCCCCEE
+T ss_pred             cCCCCCHHHHHHHHHcCCCCCcc
+
+
+No 92
+>PF02645.16 ; DegV ; Uncharacterised protein, DegV family COG1307
+Probab=34.76  E-value=71  Score=19.71  Aligned_cols=24  Identities=8%  Similarity=0.191  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             EcCeec-chHHHHHHHhhcCCCCcc
+Q Q_9186633_35     12 INGKDL-TLTQIYELMEYENKPVQT   35 (37)
+Q Consensus        12 ingkdl-tltqiyelmeyenkpvqt   35 (37)
+                      .+|.|+ +..++|+.|+-.+....|
+T Consensus        38 ~d~~di~~~~~~~~~l~~~~~~~~T   62 (283)
+T Y1468_THEMA/2-   38 PDEREPEEIMNFYKRIREAGSVPKT   62 (283)
+T ss_pred             eCCCCcccHHHHHHHHHHcCCCCcc
+
+
+No 93
+>PF18401.1 ; Thioredoxin_13 ; Thioredoxin-like domain
+Probab=34.71  E-value=73  Score=18.13  Aligned_cols=21  Identities=19%  Similarity=0.379  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eeeeEEcCeecchHH--HHHHHh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQ--IYELME   27 (37)
+Q Consensus         7 etvikingkdltltq--iyelme   27 (37)
+                      ...+.|||..+.+.+  ++.|++
+T Consensus        73 ~~~l~iNG~~i~~~~ld~f~Ll~   95 (134)
+T M7P3H4_PNEMU/2   73 MMLFSINGVEIDPSKINGFSLSK   95 (134)
+T ss_pred             CcceEECCEeCCHHHCCHhHHHH
+
+
+No 94
+>d1khda1 a.46.2.1 (A:12-80) Anthranilate phosphoribosyltransferase (TrpD) {Pectobacterium carotovorum [TaxId: 554]}
+Probab=34.70  E-value=46  Score=15.82  Aligned_cols=17  Identities=12%  Similarity=0.210  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EcCeecchHHHHHHHhh
+Q Q_9186633_35     12 INGKDLTLTQIYELMEY   28 (37)
+Q Consensus        12 ingkdltltqiyelmey   28 (37)
+                      .+|++++..++++.|+.
+T Consensus        10 ~~~~~l~~~e~~~~~~~   26 (69)
+T d1khda1          10 FKSQSMTQEESHQLFAA   26 (69)
+T ss_dssp             HTTCCCCHHHHHHHHHH
+T ss_pred             HcCCCCCHHHHHHHHHH
+
+
+No 95
+>cd16100 ARID; ARID/BRIGHT DNA binding domain family. The AT-rich interaction domain (ARID) family of transcription factors, found in a broad array of organisms from fungi to mammals, is characterized by a highly conserved, helix-turn-helix DNA binding domain that binds to the major groove of DNA.
+Probab=34.56  E-value=60  Score=14.17  Aligned_cols=17  Identities=24%  Similarity=0.362  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      +++|+.+.+-++|....
+T Consensus        25 ~~~g~~i~l~~l~~~v~   41 (87)
+T cd16100          25 IMAKSVLDLYELYNLVI   41 (87)
+T ss_pred             ccCCccCCHHHHHHHHH
+
+
+No 96
+>cd20044 FH_FOXC1; Forkhead (FH) domain found in Forkhead box protein C1 (FOXC1) and similar proteins.
+Probab=34.55  E-value=58  Score=14.58  Aligned_cols=15  Identities=33%  Similarity=0.616  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.+.
+T Consensus        23 ~~~~~~~~~i~~~~~   37 (93)
+T cd20044          23 PDKKITLNGIYQFIM   37 (93)
+T ss_pred             CCCCcCHHHHHHHHH
+
+
+No 97
+>d3lupa1 c.119.1.0 (A:1-282) automated matches {Streptococcus agalactiae [TaxId: 208435]}
+Probab=33.55  E-value=68  Score=19.86  Aligned_cols=23  Identities=30%  Similarity=0.505  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             cCeecchHHHHHHHhhcCCCCcc
+Q Q_9186633_35     13 NGKDLTLTQIYELMEYENKPVQT   35 (37)
+Q Consensus        13 ngkdltltqiyelmeyenkpvqt   35 (37)
+                      +|.|++..++|+.|+-......|
+T Consensus        39 d~~di~~~~~~~~l~~~~~~~~T   61 (282)
+T d3lupa1          39 EGQNLTLDQYYDKLAASKELPKT   61 (282)
+T ss_dssp             BTTTBCHHHHHHHHHHCSSCCEE
+T ss_pred             cCCCCCHHHHHHHHHcCCCCCcc
+
+
+No 98
+>cd16868 ARID_ARID4; ARID/BRIGHT DNA binding domain of AT-rich interactive domain-containing proteins ARID4A, ARID4B and similar proteins.
+Probab=33.30  E-value=72  Score=14.15  Aligned_cols=17  Identities=29%  Similarity=0.479  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.+-++|....
+T Consensus        25 ~~~g~~idl~~l~~~v~   41 (87)
+T cd16868          25 VLGYKDLNLFKLFRLVY   41 (87)
+T ss_pred             ccCCeeCCHHHHHHHHH
+
+
+No 99
+>PF04784.14 ; DUF547 ; Protein of unknown function, DUF547
+Probab=33.22  E-value=98  Score=16.87  Aligned_cols=20  Identities=15%  Similarity=0.325  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             eeeeEEcCeecchHHHHHHH
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELM   26 (37)
+Q Consensus         7 etvikingkdltltqiyelm   26 (37)
+                      ...+.|.|..++|.+|....
+T Consensus        48 ~~~y~Igg~~~SL~dIe~~i   67 (115)
+T Q0VMG6_ALCBS/7   48 QRFFTLLGQKRTLDEVEHTL   67 (115)
+T ss_pred             ceeEEECCEEECHHHHHhHH
+
+
+No 100
+>cd20053 FH_FOXI1; Forkhead (FH) domain found in forkhead box protein I1 (FOXI1) and similar proteins.
+Probab=33.19  E-value=61  Score=14.98  Aligned_cols=15  Identities=47%  Similarity=0.709  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.+.
+T Consensus        21 ~~~~l~~~~i~~~~~   35 (100)
+T cd20053          21 PDKRLTLSQIYQYVA   35 (100)
+T ss_pred             CCCcccHHHHHHHHH
+
+
+No 101
+>cd01999 Argininosuccinate_Synthase; Argininosuccinate synthase. The Argininosuccinate synthase is a urea cycle enzyme that catalyzes the penultimate step in arginine biosynthesis: the ATP-dependent ligation of citrulline to aspartate to form argininosuccinate, AMP and pyrophosphate .
+Probab=33.16  E-value=85  Score=19.40  Aligned_cols=18  Identities=17%  Similarity=0.495  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             eEEcCeecchHHHHHHHh
+Q Q_9186633_35     10 IKINGKDLTLTQIYELME   27 (37)
+Q Consensus        10 ikingkdltltqiyelme   27 (37)
+                      +++||+.+.+-++.+...
+T Consensus       225 v~i~g~~~~~~~~~~~ln  242 (385)
+T cd01999         224 VAVNGERLSPAALLQRLN  241 (384)
+T ss_pred             EEECCEeCCHHHHHHHHH
+
+
+No 102
+>cd20065 FH_FOXP2; Forkhead (FH) domain found in forkhead box protein P2 (FOXP2). FOXP2, also called CAG repeat protein 44, or Trinucleotide repeat-containing gene 10 protein, is a transcriptional repressor that may play a role in the specification and differentiation of lung epithelium.
+Probab=33.10  E-value=65  Score=13.55  Aligned_cols=15  Identities=33%  Similarity=0.669  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        14 ~~~~~~~~~i~~~~~   28 (77)
+T cd20065          14 SDRQLTLNEIYSWFT   28 (77)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 103
+>cd20057 FH_FOXN4; Forkhead (FH) domain found in forkhead box protein N4 (FOXN4). FOXN4 acts as a transcription factor essential for neural and some non-neural tissue development, such as retina and lung, respectively.
+Probab=33.04  E-value=58  Score=15.56  Aligned_cols=14  Identities=29%  Similarity=0.641  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.+++.+||+.+.
+T Consensus        24 ~~~l~~~~i~~~~~   37 (106)
+T cd20057          24 TGSLPVSEIYSFMK   37 (106)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 104
+>d2v1wa_ b.36.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=32.75  E-value=62  Score=15.42  Aligned_cols=12  Identities=25%  Similarity=0.470  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             eeeeEEcCeecc
+Q Q_9186633_35      7 ETVIKINGKDLT   18 (37)
+Q Consensus         7 etvikingkdlt   18 (37)
+                      ..+++|||.+++
+T Consensus        47 D~I~~ing~~~~   58 (89)
+T d2v1wa_          47 DLIQAINGESTE   58 (89)
+T ss_dssp             CEEEEETTEECT
+T ss_pred             CEEEEECCEEcC
+
+
+No 105
+>cd20042 FH_FOXB1; Forkhead (FH) domain found in Forkhead box protein B1 (FOXB1) and similar proteins.
+Probab=32.62  E-value=65  Score=14.46  Aligned_cols=15  Identities=33%  Similarity=0.563  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.++
+T Consensus        23 ~~~~~~~~~i~~~~~   37 (92)
+T cd20042          23 PEKMLPLSEIYKFIM   37 (92)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 106
+>PF14060.6 ; DUF4252 ; Domain of unknown function (DUF4252)
+Probab=32.39  E-value=75  Score=17.32  Aligned_cols=19  Identities=21%  Similarity=0.489  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      8 TVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         8 tvikingkdltltqiyelme   27 (37)
+                      .+|.+.| ++++.+|-.|+.
+T Consensus       127 ~li~i~G-~i~~~~i~~L~~  145 (145)
+T A4AUW2_MARSH/2  127 SFLYFNG-DFDPVKVREMAK  145 (145)
+T ss_pred             EEEEEEe-ccCHHHHHHHhC
+
+
+No 107
+>cd16877 ARID_ARID1B; ARID/BRIGHT DNA binding domain of AT-rich interactive domain-containing protein 1B (ARID1B) and similar proteins.
+Probab=32.25  E-value=75  Score=14.85  Aligned_cols=17  Identities=24%  Similarity=0.428  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.|-++|....
+T Consensus        26 ~i~~~~idl~~l~~~V~   42 (93)
+T cd16877          26 AVGKKPLDLFRLYVCVK   42 (93)
+T ss_pred             ccCCeeCCHHHHHHHHH
+
+
+No 108
+>PF17816.1 ; PDZ_4 ; PDZ domain
+Probab=32.18  E-value=98  Score=15.62  Aligned_cols=20  Identities=10%  Similarity=0.308  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             eeeEEcCeecchHHHHHHHhh
+Q Q_9186633_35      8 TVIKINGKDLTLTQIYELMEY   28 (37)
+Q Consensus         8 tvikingkdltltqiyelmey   28 (37)
+                      .+++|||..+. +-+-+++.+
+T Consensus        34 ~I~~Ing~~i~-~ii~~~~~~   53 (110)
+T Y858_CHLTR/106   34 ELLEVDGAPVQ-DVLATLYGS   53 (110)
+T ss_pred             EEEEECCEEHH-HHHHHHhhh
+
+
+No 109
+>cd16876 ARID_ARID1A; ARID/BRIGHT DNA binding domain of AT-rich interactive domain-containing protein 1A (ARID1A) and similar proteins.
+Probab=31.99  E-value=84  Score=14.52  Aligned_cols=17  Identities=24%  Similarity=0.425  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.|-++|....
+T Consensus        26 ~i~~~~idl~~l~~~V~   42 (93)
+T cd16876          26 AVGRKPLDLYRLYVSVK   42 (93)
+T ss_pred             eeCCeeCCHHHHHHHHH
+
+
+No 110
+>PF12363.8 ; Phage_TAC_12 ; Phage tail assembly chaperone protein, TAC
+Probab=31.68  E-value=35  Score=18.12  Aligned_cols=10  Identities=30%  Similarity=0.634  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             eEEcCeecch
+Q Q_9186633_35     10 IKINGKDLTL   19 (37)
+Q Consensus        10 ikingkdltl   19 (37)
+                      |+||||..++
+T Consensus         2 i~i~gk~y~l   11 (108)
+T Q9A002_STRP1/2    2 LEIKGKTHNV   11 (108)
+T ss_pred             eeeCCEEEEE
+
+
+No 111
+>cd20034 FH_FOXQ1-like; Forkhead (FH) domain found in forkhead box protein Q1 (FOXQ1) and similar proteins.
+Probab=31.29  E-value=71  Score=13.42  Aligned_cols=15  Identities=40%  Similarity=0.550  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (79)
+T cd20034          18 AGGRLTLAEINEYLM   32 (79)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 112
+>cd16869 ARID_ARID5; ARID/BRIGHT DNA binding domain of AT-rich interactive domain-containing proteins ARID5A, ARID5B, and similar proteins.
+Probab=31.29  E-value=83  Score=14.20  Aligned_cols=17  Identities=12%  Similarity=0.255  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.|-++|....
+T Consensus        25 ~i~g~~idl~~l~~~v~   41 (87)
+T cd16869          25 YLGFKQINLWTMFQAAQ   41 (87)
+T ss_pred             eeCCEeecHHHHHHHHH
+
+
+No 113
+>cd20038 FH_FOXA1; Forkhead (FH) domain found in forkhead box protein A1 (FOXA1) and similar proteins.
+Probab=31.04  E-value=65  Score=15.54  Aligned_cols=14  Identities=43%  Similarity=0.657  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        32 ~~~l~~~~i~~~~~   45 (112)
+T cd20038          32 SKMLTLSEIYQWIM   45 (112)
+T ss_pred             ccCccHHHHHHHHH
+
+
+No 114
+>KOG3562 Forkhead/HNF-3-related transcription factor [Transcription]
+Probab=30.84  E-value=54  Score=21.95  Aligned_cols=14  Identities=36%  Similarity=0.624  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.|||.|||+.+.
+T Consensus        31 ~k~LtL~eIY~~i~   44 (277)
+T KOG3562          31 EKMLPLSEIYKFIM   44 (277)
+T ss_pred             CcCcCHHHHHHHHH
+
+
+No 115
+>cd16866 ARID_ARID2; ARID/BRIGHT DNA binding domain of AT-rich interactive domain-containing protein 2 (ARID2) and similar proteins.
+Probab=30.41  E-value=86  Score=14.10  Aligned_cols=16  Identities=31%  Similarity=0.677  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             EcCeecchHHHHHHHh
+Q Q_9186633_35     12 INGKDLTLTQIYELME   27 (37)
+Q Consensus        12 ingkdltltqiyelme   27 (37)
+                      |+|+.+.+-++|....
+T Consensus        26 ~~~~~v~l~~l~~~v~   41 (88)
+T cd16866          26 VGGKELDLHGLYTRVT   41 (88)
+T ss_pred             cCCEeCCHHHHHHHHH
+
+
+No 116
+>cd16884 ARID_ARID5A; ARID/BRIGHT DNA binding domain of AT-rich interactive domain-containing protein 5A (ARID5A) and similar proteins.
+Probab=30.14  E-value=84  Score=13.93  Aligned_cols=17  Identities=29%  Similarity=0.491  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.+-++|....
+T Consensus        25 ~i~g~~idl~~l~~~v~   41 (87)
+T cd16884          25 HLGFKQINLWKIYKAVE   41 (87)
+T ss_pred             eeCCeeecHHHHHHHHH
+
+
+No 117
+>cd05935 LC_FACS_like; Putative long-chain fatty acid CoA ligase. The members of this family are putative long-chain fatty acyl-CoA synthetases, which catalyze the ATP-dependent activation of fatty acids in a two-step reaction.
+Probab=30.00  E-value=1.1e+02  Score=17.95  Aligned_cols=19  Identities=26%  Similarity=0.399  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      +|+++|+.+.+.+|.+.+.
+T Consensus       335 ~i~~~g~~~~~~~ie~~l~  353 (430)
+T cd05935         390 VIKYKGYTIAPFELEALLX  408 (485)
+T ss_pred             cEEeCCEEECHHHHHHHHh
+
+
+No 118
+>d4x9xa_ c.119.1.0 (A:) automated matches {Staphylococcus aureus [TaxId: 196620]}
+Probab=29.87  E-value=76  Score=19.60  Aligned_cols=20  Identities=15%  Similarity=0.257  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             cCeecchHHHHHHHhhcCCC
+Q Q_9186633_35     13 NGKDLTLTQIYELMEYENKP   32 (37)
+Q Consensus        13 ngkdltltqiyelmeyenkp   32 (37)
+                      +|.|++..++|+.|+-.+.|
+T Consensus        39 d~~di~~~~~~~~l~~~~~~   58 (278)
+T d4x9xa_          39 DQVDITSEEFINHIENDEDV   58 (278)
+T ss_dssp             BTTTBCHHHHHHHHHTTCCE
+T ss_pred             cCccCCHHHHHHHHhcCCCC
+
+
+No 119
+>d1uoua1 a.46.2.1 (A:33-100) Thymidine phosphorylase {Human (Homo sapiens) [TaxId: 9606]}
+Probab=29.82  E-value=59  Score=15.53  Aligned_cols=17  Identities=18%  Similarity=0.237  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             EcCeecchHHHHHHHhh
+Q Q_9186633_35     12 INGKDLTLTQIYELMEY   28 (37)
+Q Consensus        12 ingkdltltqiyelmey   28 (37)
+                      ++|.+++..++.+.++.
+T Consensus        12 ~~~~~l~~~~~~~~~~~   28 (68)
+T d1uoua1          12 RDGGRLSEADIRGFVAA   28 (68)
+T ss_dssp             HTTCCCCHHHHHHHHHH
+T ss_pred             HhCCCCCHHHHHHHHHH
+
+
+No 120
+>PF14453.6 ; ThiS-like ; ThiS-like ubiquitin
+Probab=29.75  E-value=54  Score=14.51  Aligned_cols=10  Identities=40%  Similarity=0.730  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eEEcCeecch
+Q Q_9186633_35     10 IKINGKDLTL   19 (37)
+Q Consensus        10 ikingkdltl   19 (37)
+                      |++||+.+.+
+T Consensus         3 i~~n~~~~~~   12 (54)
+T M4YP45_THEXX/1    3 IVLNGKETDV   12 (54)
+T ss_pred             EEECCEEeec
+
+
+No 121
+>PF03987.15 ; Autophagy_act_C ; Autophagocytosis associated protein, active-site domain
+Probab=29.59  E-value=53  Score=16.25  Aligned_cols=12  Identities=17%  Similarity=0.141  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             cCeecchHHHHH
+Q Q_9186633_35     13 NGKDLTLTQIYE   24 (37)
+Q Consensus        13 ngkdltltqiye   24 (37)
+                      ||+.|++.++++
+T Consensus        20 ~g~~l~~~~~~~   31 (61)
+T A9V7Z6_MONBE/2   20 SGEPLQGDEWES   31 (61)
+T ss_pred             CCCcCChHHHHh
+
+
+No 122
+>cd16864 ARID_JARID; ARID/BRIGHT DNA binding domain of JARID proteins. The JARID subfamily within the JmjC protein family includes lysine-specific demethylase KDM5A, KDM5B, KDM5C, KDM5D and a Drosophila homolog, protein little imaginal discs (Lid).
+Probab=29.54  E-value=90  Score=14.07  Aligned_cols=17  Identities=12%  Similarity=0.268  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.+-++|....
+T Consensus        26 ~i~g~~vdl~~l~~~v~   42 (87)
+T cd16864          26 NVERRILDLYSLSKIVV   42 (87)
+T ss_pred             eeCCeeecHHHHHHHHH
+
+
+No 123
+>d1bf6a_ c.1.9.3 (A:) Phosphotriesterase homology protein {Escherichia coli [TaxId: 562]}
+Probab=29.48  E-value=54  Score=17.61  Aligned_cols=18  Identities=17%  Similarity=0.270  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             hHHHHHHHhhcCCCCccC
+Q Q_9186633_35     19 LTQIYELMEYENKPVQTH   36 (37)
+Q Consensus        19 ltqiyelmeyenkpvqth   36 (37)
+                      +..+++++...+.|+..|
+T Consensus       140 l~~~~~~a~~~~~pv~~H  157 (291)
+T d1bf6a_         140 FIAAALAHNQTGRPISTH  157 (291)
+T ss_dssp             HHHHHHHHHHHCCCEEEE
+T ss_pred             HHHHHHHHHHHCCCEEEE
+
+
+No 124
+>d4r2za1 b.36.1.0 (A:375-457) automated matches {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=28.98  E-value=77  Score=14.73  Aligned_cols=21  Identities=19%  Similarity=0.485  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         7 etvikingkdltltqiyelme   27 (37)
+                      ..++.|||..++-....+++.
+T Consensus        47 d~I~~ing~~v~~~~~~~~~~   67 (83)
+T d4r2za1          47 DVIIEVNGENVQEEPYDRVVE   67 (83)
+T ss_dssp             CEEEEETTEECTTSCHHHHHH
+T ss_pred             CEEEEECCEECCCCCHHHHHH
+
+
+No 125
+>d2elca1 a.46.2.1 (A:1-65) Anthranilate phosphoribosyltransferase (TrpD) {Thermus thermophilus [TaxId: 274]}
+Probab=28.88  E-value=79  Score=14.88  Aligned_cols=16  Identities=31%  Similarity=0.407  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             cCeecchHHHHHHHhh
+Q Q_9186633_35     13 NGKDLTLTQIYELMEY   28 (37)
+Q Consensus        13 ngkdltltqiyelmey   28 (37)
+                      +|.+++..++++++..
+T Consensus         9 ~~~~l~~~e~~~~~~~   24 (65)
+T d2elca1           9 LGEVLEEEEAYEVMRA   24 (65)
+T ss_dssp             TTCCCCHHHHHHHHHH
+T ss_pred             hCCCCCHHHHHHHHHH
+
+
+No 126
+>PF02885.17 ; Glycos_trans_3N ; Glycosyl transferase family, helical bundle domain
+Probab=28.75  E-value=71  Score=14.64  Aligned_cols=17  Identities=24%  Similarity=0.323  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EcCeecchHHHHHHHhh
+Q Q_9186633_35     12 INGKDLTLTQIYELMEY   28 (37)
+Q Consensus        12 ingkdltltqiyelmey   28 (37)
+                      ++|++++-.++.++++.
+T Consensus         8 ~~~~~l~~~e~~~~~~~   24 (63)
+T I6YZM2_MELRP/3    8 SGGENLTFLEAQTAMSR   24 (63)
+T ss_pred             HCCCCCCHHHHHHHHHH
+
+
+No 127
+>cd20036 FH_FOXR; Forkhead (FH) domain found in the forkhead box protein R (FOXR) subfamily. The FOXR subfamily includes two winged helix transcription factors, FOXR1-2.
+Probab=28.73  E-value=83  Score=13.69  Aligned_cols=15  Identities=27%  Similarity=0.432  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.+.
+T Consensus        20 ~~~~~~~~~i~~~~~   34 (89)
+T cd20036          20 SPCGLNVQQIYSFTR   34 (89)
+T ss_pred             CCCcccHHHHHHHHH
+
+
+No 128
+>d2uzca_ b.36.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=28.63  E-value=82  Score=14.68  Aligned_cols=22  Identities=18%  Similarity=0.209  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHhh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELMEY   28 (37)
+Q Consensus         7 etvikingkdltltqiyelmey   28 (37)
+                      ..+++|||.++.-....+++..
+T Consensus        48 D~I~~ing~~v~~~~~~~~~~~   69 (87)
+T d2uzca_          48 DVVLSIDGINAQGMTHLEAQNK   69 (87)
+T ss_dssp             CEEEEETTEECTTCCHHHHHHH
+T ss_pred             CEEEEECCEECCCCCHHHHHHH
+
+
+No 129
+>PF13784.6 ; Fic_N ; Fic/DOC family N-terminal
+Probab=28.52  E-value=62  Score=15.92  Aligned_cols=19  Identities=26%  Similarity=0.167  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             EEcCeecchHHHHHHHhhc
+Q Q_9186633_35     11 KINGKDLTLTQIYELMEYE   29 (37)
+Q Consensus        11 kingkdltltqiyelmeye   29 (37)
+                      .|.|..+|+.+++.+...+
+T Consensus        41 ~IEG~~~t~~~v~~~~~~~   59 (81)
+T G8QZV4_OWEHD/2   41 EIENIVTTDDEIYQASIDE   59 (81)
+T ss_pred             hhcCCccCHHHHHHHhcCC
+
+
+No 130
+>d1mmsa1 a.4.7.1 (A:71-140) Ribosomal protein L11, C-terminal domain {Thermotoga maritima [TaxId: 2336]}
+Probab=28.52  E-value=78  Score=16.07  Aligned_cols=13  Identities=31%  Similarity=0.302  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ecchHHHHHHHhh
+Q Q_9186633_35     16 DLTLTQIYELMEY   28 (37)
+Q Consensus        16 dltltqiyelmey   28 (37)
+                      .+++.||||....
+T Consensus        29 ~it~~~i~eIA~~   41 (70)
+T d1mmsa1          29 KVTRKQIEEIAKT   41 (70)
+T ss_dssp             EECHHHHHHHHHH
+T ss_pred             ecCHHHHHHHHHH
+
+
+No 131
+>cd16875 ARID_KDM5C_5D; ARID/BRIGHT DNA binding domain of lysine-specific demethylase KDM5C and KDM5D. This group includes KDM5C and KDM5D, both of which belong to the JARID subfamily within the JmjC proteins.
+Probab=28.48  E-value=98  Score=14.18  Aligned_cols=17  Identities=12%  Similarity=0.268  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+++.+-++|....
+T Consensus        26 ~~~~~~vdl~~l~~~v~   42 (92)
+T cd16875          26 NVERRILDLYSLSKIVV   42 (92)
+T ss_pred             eECCeeecHHHHHHHHH
+
+
+No 132
+>cd20047 FH_FOXD3; Forkhead (FH) domain found in Forkhead box protein D3 (FOXD3) and similar proteins.
+Probab=28.27  E-value=81  Score=14.14  Aligned_cols=14  Identities=43%  Similarity=0.608  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        20 ~~~~~~~~i~~~~~   33 (97)
+T cd20047          20 QKKLTLSGICEFIS   33 (97)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 133
+>cd20018 FH_FOXD; Forkhead (FH) domain found in the forkhead box protein D (FOXD) subfamily. The FOXD subfamily includes four winged helix transcription factors, FOXD1-4.
+Probab=27.81  E-value=82  Score=13.02  Aligned_cols=15  Identities=40%  Similarity=0.547  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      .++.+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (78)
+T cd20018          18 PQKKLTLSGICEFIS   32 (78)
+T ss_pred             CCCCeeHHHHHHHHH
+
+
+No 134
+>d2i6va1 b.36.1.5 (A:219-305) General secretion pathway protein C, EpsC {Vibrio cholerae [TaxId: 666]}
+Probab=27.52  E-value=92  Score=13.56  Aligned_cols=12  Identities=42%  Similarity=0.756  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             eeeeEEcCeecc
+Q Q_9186633_35      7 ETVIKINGKDLT   18 (37)
+Q Consensus         7 etvikingkdlt   18 (37)
+                      ..++.|||+++.
+T Consensus        41 d~i~~ing~~~~   52 (87)
+T d2i6va1          41 DMAVALNGLDLT   52 (87)
+T ss_dssp             CEEEEETTEETT
+T ss_pred             CEEEEECCEECC
+
+
+No 135
+>d5kkxa1 b.181.1.0 (A:380-468) automated matches {Neisseria meningitidis [TaxId: 487]}
+Probab=27.29  E-value=61  Score=17.56  Aligned_cols=12  Identities=17%  Similarity=0.385  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             eeeEEcCeecch
+Q Q_9186633_35      8 TVIKINGKDLTL   19 (37)
+Q Consensus         8 tvikingkdltl   19 (37)
+                      +.|.|||+.++|
+T Consensus        25 ~~l~VdG~~I~L   36 (89)
+T d5kkxa1          25 AQLVVDGIMIDL   36 (89)
+T ss_dssp             TEEEETTEEEEC
+T ss_pred             cEEEECCEEEEc
+
+
+No 136
+>d1k8ea1 a.46.2.1 (A:1-70) Anthranilate phosphoribosyltransferase (TrpD) {Sulfolobus solfataricus [TaxId: 2287]}
+Probab=27.13  E-value=73  Score=15.14  Aligned_cols=17  Identities=35%  Similarity=0.448  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EcCeecchHHHHHHHhh
+Q Q_9186633_35     12 INGKDLTLTQIYELMEY   28 (37)
+Q Consensus        12 ingkdltltqiyelmey   28 (37)
+                      .+|++++..++.+.++.
+T Consensus        11 ~~~~~l~~~e~~~~~~~   27 (70)
+T d1k8ea1          11 INKSDLEINEAEELAKA   27 (70)
+T ss_dssp             HTTCCCCHHHHHHHHHH
+T ss_pred             HcCCCCCHHHHHHHHHH
+
+
+No 137
+>PF12327.8 ; FtsZ_C ; FtsZ family, C-terminal domain
+Probab=27.13  E-value=82  Score=16.27  Aligned_cols=15  Identities=33%  Similarity=0.452  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CeecchHHHHHHHhh
+Q Q_9186633_35     14 GKDLTLTQIYELMEY   28 (37)
+Q Consensus        14 gkdltltqiyelmey   28 (37)
+                      |.++++.++.+.++.
+T Consensus        47 g~~l~l~ei~~i~~~   61 (96)
+T FTSZ_CAUVC/225   47 GMDMTLLEVDEAANA   61 (96)
+T ss_pred             CCCCCHHHHHHHHHH
+
+
+No 138
+>PF01328.17 ; Peroxidase_2 ; Peroxidase, family 2
+Probab=26.79  E-value=77  Score=19.12  Aligned_cols=15  Identities=20%  Similarity=0.454  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ||+.+|+.||.+-|.
+T Consensus        40 ~G~nit~~~l~~al~   54 (199)
+T G4Z2Q9_PHYSP/2   40 DGKNITVKMALAAVR   54 (199)
+T ss_pred             CCCCCCHHHHHHHHH
+
+
+No 139
+>d1hc8a_ a.4.7.1 (A:) Ribosomal protein L11, C-terminal domain {Bacillus stearothermophilus [TaxId: 1422]}
+Probab=26.55  E-value=93  Score=15.94  Aligned_cols=14  Identities=14%  Similarity=0.297  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             eecchHHHHHHHhh
+Q Q_9186633_35     15 KDLTLTQIYELMEY   28 (37)
+Q Consensus        15 kdltltqiyelmey   28 (37)
+                      ..+++.||||....
+T Consensus        32 g~i~~~~i~eIa~~   45 (74)
+T d1hc8a_          32 ATIKRDKVREIAEL   45 (74)
+T ss_dssp             EEECHHHHHHHHHH
+T ss_pred             eeecHHHHHHHHHH
+
+
+No 140
+>d1brwa1 a.46.2.1 (A:1-70) Pyrimidine nucleoside phosphorylase {Bacillus stearothermophilus [TaxId: 1422]}
+Probab=26.29  E-value=96  Score=14.79  Aligned_cols=16  Identities=31%  Similarity=0.325  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             cCeecchHHHHHHHhh
+Q Q_9186633_35     13 NGKDLTLTQIYELMEY   28 (37)
+Q Consensus        13 ngkdltltqiyelmey   28 (37)
+                      +|++++..++++.+++
+T Consensus        12 ~~~~l~~~e~~~~~~~   27 (70)
+T d1brwa1          12 DGKALTKEEIEWIVRG   27 (70)
+T ss_dssp             TTCCCCHHHHHHHHHH
+T ss_pred             cCCCCCHHHHHHHHHH
+
+
+No 141
+>d3hola4 b.181.1.1 (A:295-384) Handle domain of Transferrin binding protein TbpB {Actinobacillus pleuropneumoniae [TaxId: 715]}
+Probab=26.22  E-value=65  Score=17.46  Aligned_cols=12  Identities=42%  Similarity=0.805  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             eeeEEcCeecch
+Q Q_9186633_35      8 TVIKINGKDLTL   19 (37)
+Q Consensus         8 tvikingkdltl   19 (37)
+                      +.|.|||+.++|
+T Consensus        23 ~~L~VdG~~I~L   34 (90)
+T d3hola4          23 SVLIIDGKKIKL   34 (90)
+T ss_dssp             TEEEETTEEEEC
+T ss_pred             cEEEECCEEEEc
+
+
+No 142
+>PF11025.8 ; GP40 ; Glycoprotein GP40 of Cryptosporidium
+Probab=26.16  E-value=61  Score=22.10  Aligned_cols=9  Identities=56%  Similarity=1.125  Sum_probs=0.0  Template_Neff=2.300
+
+Q ss_pred             eEEcCeecc
+Q Q_9186633_35     10 IKINGKDLT   18 (37)
+Q Consensus        10 ikingkdlt   18 (37)
+                      ||||||+++
+T Consensus        65 ikVn~keFs   73 (164)
+T Q5CXH4_CRYPI/1   65 IKVNGQDFS   73 (164)
+T ss_pred             EEECCEEcc
+
+
+No 143
+>PF13167.6 ; GTP-bdg_N ; GTP-binding GTPase N-terminal
+Probab=25.94  E-value=1.2e+02  Score=16.34  Aligned_cols=25  Identities=16%  Similarity=0.145  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             eeeEEcCeecchHHHHHHHhhcCCCC
+Q Q_9186633_35      8 TVIKINGKDLTLTQIYELMEYENKPV   33 (37)
+Q Consensus         8 tvikingkdltltqiyelmeyenkpv   33 (37)
+                      +.+-+| ..|+..|...|.+.-+.||
+T Consensus        53 ~~vi~~-~~L~p~Q~~~Le~~~~~~V   77 (88)
+T R7KHF1_9BURK/3   53 GVVVFD-VALSAAQQRNIERIVGVAV   77 (88)
+T ss_pred             CEEEEC-CCCCHHHHHHHHHHHCCEE
+
+
+No 144
+>KOG1438 Anthranilate phosphoribosyltransferase [Amino acid transport and metabolism]
+Probab=25.32  E-value=69  Score=21.03  Aligned_cols=17  Identities=12%  Similarity=0.131  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      |++|..|+..+|...|+
+T Consensus        21 k~~g~~l~~~e~~~~~~   37 (373)
+T KOG1438          21 GLSGGFSALEALPPALA   37 (373)
+T ss_pred             hccCCcchHHHHHHHHH
+
+
+No 145
+>PF03698.13 ; UPF0180 ; Uncharacterised protein family (UPF0180)
+Probab=25.25  E-value=1.2e+02  Score=15.75  Aligned_cols=19  Identities=21%  Similarity=0.317  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      +.-||...+|..||++..+
+T Consensus        54 ~pvInA~g~t~eEI~~~l~   72 (74)
+T D9QQ75_ACEAZ/7   54 ASVINADGLSAVEVSEELQ   72 (74)
+T ss_pred             CEEEECCCCCHHHHHHHHh
+
+
+No 146
+>cd16879 ARID_ARID3B; ARID/BRIGHT DNA binding domain of AT-rich interactive domain-containing protein 3B (ARID3B) and similar proteins.
+Probab=24.89  E-value=1.1e+02  Score=15.62  Aligned_cols=20  Identities=20%  Similarity=0.301  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             EEcCeecchHHHHHHHhhcC
+Q Q_9186633_35     11 KINGKDLTLTQIYELMEYEN   30 (37)
+Q Consensus        11 kingkdltltqiyelmeyen   30 (37)
+                      .|+|+.+.+-++|......+
+T Consensus        38 ~i~g~~vdl~~L~~~v~~~g   57 (126)
+T cd16879          38 IMAKQILDLYMLYKLVTEKG   57 (126)
+T ss_pred             ccCCCccCHHHHHHHHHHcC
+
+
+No 147
+>PF11521.8 ; TFIIE-A_C ; C-terminal general transcription factor TFIIE alpha
+Probab=24.59  E-value=89  Score=18.57  Aligned_cols=14  Identities=14%  Similarity=0.513  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             eeEEcCeecchHHH
+Q Q_9186633_35      9 VIKINGKDLTLTQI   22 (37)
+Q Consensus         9 vikingkdltltqi   22 (37)
+                      .|.+||+...+.+|
+T Consensus        43 ~V~V~G~~~pl~eV   56 (87)
+T H0ZT21_TAEGU/3   43 TVTVAGRPHSYSQV   56 (87)
+T ss_pred             EEEECCEEEeHHHc
+
+
+No 148
+>d1vq8i1 a.4.7.1 (I:71-140) Ribosomal protein L11, C-terminal domain {Haloarcula marismortui [TaxId: 2238]}
+Probab=24.41  E-value=1e+02  Score=15.83  Aligned_cols=13  Identities=31%  Similarity=0.549  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             ecchHHHHHHHhh
+Q Q_9186633_35     16 DLTLTQIYELMEY   28 (37)
+Q Consensus        16 dltltqiyelmey   28 (37)
+                      .+++.||||....
+T Consensus        29 ~it~~~i~eIAk~   41 (70)
+T d1vq8i1          29 DLSVDQVKQIAEQ   41 (70)
+T ss_dssp             EECHHHHHHHHHH
+T ss_pred             ecCHHHHHHHHHH
+
+
+No 149
+>d1j20a2 d.210.1.1 (A:171-395) Argininosuccinate synthetase, C-terminal domain {Thermus thermophilus [TaxId: 274]}
+Probab=24.26  E-value=1.4e+02  Score=19.35  Aligned_cols=18  Identities=17%  Similarity=0.495  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             eEEcCeecchHHHHHHHh
+Q Q_9186633_35     10 IKINGKDLTLTQIYELME   27 (37)
+Q Consensus        10 ikingkdltltqiyelme   27 (37)
+                      ++|||+.+++.+|.+.+.
+T Consensus        56 v~ing~~~~~~~li~~LN   73 (225)
+T d1j20a2          56 VAVNGERLSPAALLQRLN   73 (225)
+T ss_dssp             EEETTEECCHHHHHHHHH
+T ss_pred             EEECCeeCCHHHHHHHHH
+
+
+No 150
+>cd16874 ARID_KDM5B; ARID/BRIGHT DNA binding domain of lysine-specific demethylase 5B (KDM5B). KDM5B, also called cancer/testis antigen 31 (CT31), histone demethylase JARID1B, Jumonji/ARID domain-containing protein 1B (JARID1B), PLU-1, or retinoblastoma-binding protein 2 homolog 1 (RBP2-H1 or RBBP2H1A), is a member of the JARID subfamily within the JmjC proteins.
+Probab=24.26  E-value=1.2e+02  Score=13.68  Aligned_cols=17  Identities=29%  Similarity=0.388  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.+-++|....
+T Consensus        29 ~i~g~~idl~~l~~~v~   45 (90)
+T cd16874          29 HVERKILDLFQLNKLVA   45 (90)
+T ss_pred             eeCCEEecHHHHHHHHH
+
+
+No 151
+>COG2104 ThiS; Sulfur carrier protein ThiS (thiamine biosynthesis) [Coenzyme transport and metabolism]. 
+Probab=24.08  E-value=1.2e+02  Score=13.70  Aligned_cols=23  Identities=22%  Similarity=0.479  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             eEEcCeecchH---HHHHHHhhcCCC
+Q Q_9186633_35     10 IKINGKDLTLT---QIYELMEYENKP   32 (37)
+Q Consensus        10 ikingkdltlt---qiyelmeyenkp   32 (37)
+                      |.+||+.+.+.   .+.++++.-..+
+T Consensus         5 v~~ng~~~~~~~~~tv~~ll~~l~~~   30 (68)
+T COG2104           5 IQLNGKEVEIAEGTTVADLLAQLGLN   30 (68)
+T ss_pred             EEECCEEEEeCCCCcHHHHHHHcCCC
+
+
+No 152
+>cd17645 A_NRPS_LgrA-like; adenylation (A) domain of linear gramicidin synthetase (LgrA) and similar proteins.
+Probab=23.95  E-value=1.5e+02  Score=17.66  Aligned_cols=19  Identities=21%  Similarity=0.373  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      +|+++|+.+...+|.+.+.
+T Consensus       348 ~i~~~g~~i~~~~ie~~~~  366 (440)
+T cd17645         382 LVKIRGYRIEPGEIEPFLM  400 (474)
+T ss_pred             ceeeCCeeeCHHHHHHHHH
+
+
+No 153
+>d1nvpc_ b.56.1.1 (C:) Large chain TOA1, C-terminal domain {Human (Homo sapiens) [TaxId: 9606]}
+Probab=23.95  E-value=81  Score=16.24  Aligned_cols=9  Identities=33%  Similarity=0.999  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             eeEEcCeec
+Q Q_9186633_35      9 VIKINGKDL   17 (37)
+Q Consensus         9 vikingkdl   17 (37)
+                      ++.|||+|.
+T Consensus        28 i~~i~gkd~   36 (47)
+T d1nvpc_          28 IMNLNGRDY   36 (47)
+T ss_dssp             EEEETTEEE
+T ss_pred             EEEeCCeee
+
+
+No 154
+>d1w9ea1 b.36.1.1 (A:113-194) Syntenin 1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=23.89  E-value=1.1e+02  Score=13.21  Aligned_cols=27  Identities=15%  Similarity=0.410  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeeeEEcCeecc---hHHHHHHHhhc-CCCC
+Q Q_9186633_35      7 ETVIKINGKDLT---LTQIYELMEYE-NKPV   33 (37)
+Q Consensus         7 etvikingkdlt---ltqiyelmeye-nkpv   33 (37)
+                      ..++.|||..+.   ..++..++... ..++
+T Consensus        44 d~i~~vn~~~~~~~~~~~~~~~l~~~~~~~v   74 (82)
+T d1w9ea1          44 DQVLQINGENCAGWSSDKAHKVLKQAFGEKI   74 (82)
+T ss_dssp             CEEEEETTEECTTCCHHHHHHHHHHCCSSEE
+T ss_pred             CEEEEECCEECCCCCHHHHHHHHhhcCCCeE
+
+
+No 155
+>cd05903 CHC_CoA_lg; Cyclohexanecarboxylate-CoA ligase (also called cyclohex-1-ene-1-carboxylate:CoA ligase).
+Probab=23.88  E-value=1.6e+02  Score=17.13  Aligned_cols=19  Identities=21%  Similarity=0.426  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      +|+++|+.+...+|.+...
+T Consensus       341 ~i~~~G~~i~~~~i~~~l~  359 (437)
+T cd05903         390 VIIRGGENIPVVEVEALLY  408 (486)
+T ss_pred             eeEECCEEeCHHHHHHHHh
+
+
+No 156
+>PF12990.7 ; DUF3874 ; Domain of unknonw function from B. Theta Gene description (DUF3874)
+Probab=23.84  E-value=1.2e+02  Score=15.06  Aligned_cols=15  Identities=40%  Similarity=0.572  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      +++-+|.++|++.+.
+T Consensus        20 ~~~~lt~~eI~~~L~   34 (70)
+T A6KXW1_BACV8/3   20 KFQRWTIGQIYEVMK   34 (70)
+T ss_pred             cceeeeHHHHHHHHH
+
+
+No 157
+>cd05904 4CL; 4-Coumarate-CoA Ligase (4CL). 4-Coumarate:coenzyme A ligase is a key enzyme in the phenylpropanoid metabolic pathway for monolignol and flavonoid biosynthesis.
+Probab=23.78  E-value=1.7e+02  Score=17.68  Aligned_cols=19  Identities=21%  Similarity=0.350  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      +|+++|..+...+|.+++.
+T Consensus       412 ~i~~~g~~v~~~~i~~~l~  430 (505)
+T cd05904         419 LIKYKGFQVAPAELEALLI  437 (512)
+T ss_pred             eEEECCEEeCHHHHHHHHH
+
+
+No 158
+>cd20028 FH_FOXL2; Forkhead (FH) domain found in forkhead box protein L2 (FOXL2) and similar proteins.
+Probab=23.74  E-value=1.1e+02  Score=13.42  Aligned_cols=14  Identities=43%  Similarity=0.629  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      .+.+++.+||+.+.
+T Consensus        19 ~~~~~~~~i~~~~~   32 (89)
+T cd20028          19 EKRLTLSGIYQYII   32 (89)
+T ss_pred             CCCccHHHHHHHHH
+
+
+No 159
+>COG5339 YdgA; Uncharacterized conserved protein YdgA, DUF945 family [Function unknown]. 
+Probab=23.70  E-value=1.2e+02  Score=19.47  Aligned_cols=18  Identities=17%  Similarity=0.477  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eEEcCeecchHHHHHHHh
+Q Q_9186633_35     10 IKINGKDLTLTQIYELME   27 (37)
+Q Consensus        10 ikingkdltltqiyelme   27 (37)
+                      +.+||+.+.+.++.....
+T Consensus       458 l~vNG~~~~l~~~~~~~~  475 (479)
+T COG5339         458 LKLNGQKMPEEDFMGMFG  475 (479)
+T ss_pred             EEECCEEeCHHHHHHhhc
+
+
+No 160
+>cd16865 ARID_ARID1A-like; ARID/BRIGHT DNA binding domain found in AT-rich interactive domain-containing proteins ARID1A, ARID1B and similar proteins.
+Probab=23.57  E-value=1.2e+02  Score=13.64  Aligned_cols=17  Identities=24%  Similarity=0.425  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.+-++|.+..
+T Consensus        26 ~~~~~~idl~~l~~~v~   42 (93)
+T cd16865          26 AVGRKPLDLYRLYVSVK   42 (93)
+T ss_pred             ccCCEeCCHHHHHHHHH
+
+
+No 161
+>cd16883 ARID_ARID4B; ARID/BRIGHT DNA binding domain of AT-rich interactive domain-containing protein 4B (ARID4B) and similar proteins.
+Probab=23.54  E-value=1.2e+02  Score=13.49  Aligned_cols=17  Identities=18%  Similarity=0.481  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.+-+++....
+T Consensus        25 ~~~~~~i~l~~l~~~v~   41 (92)
+T cd16883          25 VLGYRNLNLFKLFRLVH   41 (92)
+T ss_pred             ccCCeeCCHHHHHHHHH
+
+
+No 162
+>d3be7a2 c.1.9.18 (A:57-359) Zn-dependent arginine carboxypeptidase {Unidentified organism [TaxId: 32644]}
+Probab=23.52  E-value=80  Score=17.17  Aligned_cols=18  Identities=17%  Similarity=0.231  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             hHHHHHHHhhcCCCCccC
+Q Q_9186633_35     19 LTQIYELMEYENKPVQTH   36 (37)
+Q Consensus        19 ltqiyelmeyenkpvqth   36 (37)
+                      +..++++....+.|+..|
+T Consensus       150 l~~~~~~a~~~g~~v~~H  167 (303)
+T d3be7a2         150 MKAIVDEAHNHGMKVAAH  167 (303)
+T ss_dssp             HHHHHHHHHHTTCEEEEE
+T ss_pred             HHHHHHHHHHCCCeEEEE
+
+
+No 163
+>d2yuya1 b.36.1.0 (A:8-120) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=23.47  E-value=1.5e+02  Score=14.51  Aligned_cols=28  Identities=25%  Similarity=0.617  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             eeeeEEcCeec---chHHHHHHHhhcCCCCc
+Q Q_9186633_35      7 ETVIKINGKDL---TLTQIYELMEYENKPVQ   34 (37)
+Q Consensus         7 etvikingkdl---tltqiyelmeyenkpvq   34 (37)
+                      ..++.|||.++   +..++..++.....+++
+T Consensus        76 d~i~~i~g~~~~~~~~~~~~~~l~~~~~~v~  106 (113)
+T d2yuya1          76 DRIIKVNGESVIGKTYSQVIALIQNSDTTLE  106 (113)
+T ss_dssp             CCCCEETTEECSSCCHHHHHHHHHTCTTEEE
+T ss_pred             CEEEEECCEEcCCCCHHHHHHHHhcCCCEEE
+
+
+No 164
+>d1zud2_ d.15.3.2 (2:) Thiamin biosynthesis sulfur carrier protein ThiS {Escherichia coli [TaxId: 562]}
+Probab=23.39  E-value=1.2e+02  Score=13.43  Aligned_cols=16  Identities=19%  Similarity=0.148  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             eeEEcCeecchHHHHH
+Q Q_9186633_35      9 VIKINGKDLTLTQIYE   24 (37)
+Q Consensus         9 vikingkdltltqiye   24 (37)
+                      .+.+||+.+...+..+
+T Consensus        32 ~v~vNg~~~~~~~~~~   47 (65)
+T d1zud2_          32 ALAINQQIVPREQWAQ   47 (65)
+T ss_dssp             EEEETTEECCGGGTTT
+T ss_pred             EEEECCEEecHHHhcc
+
+
+No 165
+>d3cf5f1 a.4.7.1 (F:72-144) Ribosomal protein L11, C-terminal domain {Deinococcus radiodurans [TaxId: 1299]}
+Probab=23.24  E-value=1e+02  Score=15.85  Aligned_cols=13  Identities=23%  Similarity=0.388  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             ecchHHHHHHHhh
+Q Q_9186633_35     16 DLTLTQIYELMEY   28 (37)
+Q Consensus        16 dltltqiyelmey   28 (37)
+                      .+++.||||+...
+T Consensus        27 ~it~~~i~eIAk~   39 (73)
+T d3cf5f1          27 KLNWDQVLEIAKT   39 (73)
+T ss_dssp             EECSSHHHHHTTT
+T ss_pred             ccCHHHHHHHHHH
+
+
+No 166
+>d3d37a1 b.106.1.1 (A:6-178) Baseplate protein gpP {Neisseria meningitidis [TaxId: 487]}
+Probab=22.98  E-value=1.1e+02  Score=15.81  Aligned_cols=12  Identities=17%  Similarity=0.520  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             eeeeEEcCeecc
+Q Q_9186633_35      7 ETVIKINGKDLT   18 (37)
+Q Consensus         7 etvikingkdlt   18 (37)
+                      +-.|.|||++++
+T Consensus         4 ~~~i~i~g~~~~   15 (173)
+T d3d37a1           4 AVSVRVGGKEHR   15 (173)
+T ss_dssp             CEEEEETTEEEC
+T ss_pred             eEEEEECCEEeC
+
+
+No 167
+>cd05971 MACS_like_3; Uncharacterized subfamily of medium-chain acyl-CoA synthetase (MACS). MACS catalyzes the two-step activation of medium chain fatty acids (containing 4-12 carbons).
+Probab=22.97  E-value=1.9e+02  Score=16.61  Aligned_cols=19  Identities=26%  Similarity=0.300  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      +|+++|+.+...+|.+.+.
+T Consensus       341 ~i~~~G~~i~~~~ie~~l~  359 (439)
+T cd05971         390 VITSSGYRIGPAEIEETLV  408 (487)
+T ss_pred             eEEECCEEeCHHHHHHHHH
+
+
+No 168
+>d1pzxa_ c.119.1.1 (A:) Hypothetical protein apc36103 {Bacillus stearothermophilus [TaxId: 1422]}
+Probab=22.84  E-value=1.2e+02  Score=18.86  Aligned_cols=20  Identities=20%  Similarity=0.401  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             cCeecchHHHHHHHhhcCCC
+Q Q_9186633_35     13 NGKDLTLTQIYELMEYENKP   32 (37)
+Q Consensus        13 ngkdltltqiyelmeyenkp   32 (37)
+                      +|.|++..++|+.|+-...|
+T Consensus        39 d~~di~~~~~~~~l~~~~~~   58 (287)
+T d1pzxa_          39 DGITIEPKQVYDAMRQGHTV   58 (287)
+T ss_dssp             BTTTBCHHHHHHHHTTTCCC
+T ss_pred             cCCccCHHHHHHHHHcCCCC
+
+
+No 169
+>cd06926 RNAP_II_RPB11; RPB11 subunit of Eukaryotic RNA polymerase II. The eukaryotic RPB11 subunit of RNA polymerase (RNAP) II is involved in the assembly of RNAP subunits.
+Probab=22.79  E-value=1.6e+02  Score=14.60  Aligned_cols=26  Identities=23%  Similarity=0.282  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             eeEEcCeecchHHHHHHHhhcCCCCc
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELMEYENKPVQ   34 (37)
+Q Consensus         9 vikingkdltltqiyelmeyenkpvq   34 (37)
+                      .+.|+|.|-|+.-+..-.-.+++.|.
+T Consensus        20 ~~~i~~edhTi~n~l~~~l~~~~~v~   45 (93)
+T cd06926          20 VITFEKEDHTLGNLIRAELLNDRKVL   45 (93)
+T ss_pred             EEEEeCCCchHHHHHHHHHhcCCCeE
+
+
+No 170
+>d2pkta1 b.36.1.1 (A:1-90) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=22.72  E-value=1.3e+02  Score=13.51  Aligned_cols=12  Identities=17%  Similarity=0.590  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             eeeeEEcCeecc
+Q Q_9186633_35      7 ETVIKINGKDLT   18 (37)
+Q Consensus         7 etvikingkdlt   18 (37)
+                      ..++.|||..+.
+T Consensus        48 d~i~~ing~~~~   59 (90)
+T d2pkta1          48 DVITAIDGENTS   59 (90)
+T ss_dssp             CEEEEETTEECT
+T ss_pred             CEEEEECCEECC
+
+
+No 171
+>PF01388.21 ; ARID ; ARID/BRIGHT DNA binding domain
+Probab=22.67  E-value=1.5e+02  Score=14.29  Aligned_cols=17  Identities=24%  Similarity=0.382  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             EEcCeecchHHHHHHHh
+Q Q_9186633_35     11 KINGKDLTLTQIYELME   27 (37)
+Q Consensus        11 kingkdltltqiyelme   27 (37)
+                      .|+|+.+.|-.+|....
+T Consensus        25 ~i~g~~ldL~~L~~~V~   41 (85)
+T A0A0D2X350_CAP   25 TMCGRDVDLYLLAMLVV   41 (85)
+T ss_pred             ccCCEECCHHHHHHHHH
+
+
+No 172
+>PF04255.14 ; DUF433 ; Protein of unknown function (DUF433)
+Probab=22.63  E-value=93  Score=14.86  Aligned_cols=13  Identities=23%  Similarity=0.429  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             ecchHHHHHHHhh
+Q Q_9186633_35     16 DLTLTQIYELMEY   28 (37)
+Q Consensus        16 dltltqiyelmey   28 (37)
+                      +|+..+|++.+.|
+T Consensus        43 ~l~~~~i~~al~y   55 (55)
+T Q01T94_SOLUE/8   43 QLKREDILAAIAY   55 (55)
+T ss_pred             CCCHHHHHHHhcC
+
+
+No 173
+>PF17815.1 ; PDZ_3 ; PDZ domain
+Probab=22.63  E-value=1.9e+02  Score=16.62  Aligned_cols=19  Identities=42%  Similarity=0.744  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             eeEEcCeecc-hHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLT-LTQIYELME   27 (37)
+Q Consensus         9 vikingkdlt-ltqiyelme   27 (37)
+                      |-+|||+.+. |.++.++.+
+T Consensus        83 v~~vNG~~V~~l~~l~~~l~  102 (146)
+T L1IY31_GUITH/4   83 LDTFNGKKVLNLKHLYELVE  102 (146)
+T ss_pred             eEeeCCEEcCCHHHHHHHHh
+
+
+No 174
+>cd05919 BCL_like; Benzoate CoA ligase (BCL) and similar adenylate forming enzymes. This family contains benzoate CoA ligase (BCL) and related ligases that catalyze the acylation of benzoate derivatives, 2-aminobenzoate and 4-hydroxybenzoate.
+Probab=22.46  E-value=1.9e+02  Score=16.89  Aligned_cols=19  Identities=11%  Similarity=0.364  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      +++++|..+.+.+|.++..
+T Consensus       339 ~i~~~g~~i~~~~ie~~l~  357 (436)
+T cd05919         393 MLKVSGQYVSPVEVEMVLV  411 (489)
+T ss_pred             eEEECCEEeCHHHHHHHHh
+
+
+No 175
+>KOG2294 Transcription factor of the Forkhead/HNF3 family [Transcription]
+Probab=22.40  E-value=1e+02  Score=20.49  Aligned_cols=20  Identities=45%  Similarity=0.562  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             cCeecchHHHHHHHhhcCCC
+Q Q_9186633_35     13 NGKDLTLTQIYELMEYENKP   32 (37)
+Q Consensus        13 ngkdltltqiyelmeyenkp   32 (37)
+                      .++.|||.+||+.+.-|+-|
+T Consensus       147 ~~~~ltl~~Iy~~i~~e~~p  166 (454)
+T KOG2294         147 PGKRLTLGGIYFYILLEHFP  166 (454)
+T ss_pred             CCCCcCHHHHHHHHHHhhCc
+
+
+No 176
+>d2kv8a_ b.36.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=22.27  E-value=1e+02  Score=13.54  Aligned_cols=15  Identities=7%  Similarity=0.284  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             HHceeeeEEcCeecc
+Q Q_9186633_35      4 EEYETVIKINGKDLT   18 (37)
+Q Consensus         4 eeyetvikingkdlt   18 (37)
+                      .+...++.|||+.+.
+T Consensus        42 ~~gd~i~~v~~~~~~   56 (83)
+T d2kv8a_          42 RAGDQILAVNEINVK   56 (83)
+T ss_dssp             CTTCEEEEETTEECS
+T ss_pred             CCCCEEEEECCEECC
+
+
+No 177
+>d2qami1 a.4.7.1 (I:73-141) Ribosomal protein L11, C-terminal domain {Escherichia coli [TaxId: 562]}
+Probab=22.04  E-value=1.1e+02  Score=15.54  Aligned_cols=13  Identities=15%  Similarity=0.322  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             ecchHHHHHHHhh
+Q Q_9186633_35     16 DLTLTQIYELMEY   28 (37)
+Q Consensus        16 dltltqiyelmey   28 (37)
+                      .+++.||||+..+
+T Consensus        27 ~i~~~~i~eIAk~   39 (69)
+T d2qami1          27 KISRAQLQEIAQT   39 (69)
+T ss_pred             ccCHHHHHHHHHH
+
+
+No 178
+>d2jqta_ a.23.5.0 (A:) automated matches {Escherichia coli [TaxId: 562]}
+Probab=21.92  E-value=82  Score=17.48  Aligned_cols=32  Identities=19%  Similarity=0.315  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             CCHHHceeeeEEcCeecchHHHHHHHhhcCCC
+Q Q_9186633_35      1 MTKEEYETVIKINGKDLTLTQIYELMEYENKP   32 (37)
+Q Consensus         1 mtkeeyetvikingkdltltqiyelmeyenkp   32 (37)
+                      |||.+|--...=-...=||..++|-+.|.-.+
+T Consensus         1 mtk~d~L~~fRRc~s~eTLEkv~e~~~~~lt~   32 (57)
+T d2jqta_           1 MTVQDYLLKFRKISSLESLEKLYDHLNYTLTD   32 (57)
+T ss_dssp             CCCCCTHHHHHHCCCSHHHHHHHHHHHHHTCS
+T ss_pred             CcHHHHHHHhcCCCChhHHHHHHHHHhccCCc
+
+
+No 179
+>PF02680.14 ; DUF211 ; Uncharacterized ArCR, COG1888
+Probab=21.91  E-value=1.4e+02  Score=17.81  Aligned_cols=18  Identities=33%  Similarity=0.613  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             eEEcCeecchHHHHHHHh
+Q Q_9186633_35     10 IKINGKDLTLTQIYELME   27 (37)
+Q Consensus        10 ikingkdltltqiyelme   27 (37)
+                      +.|.|.++.+.+|.+.++
+T Consensus        49 vtIeG~~id~~~i~~~Ie   66 (89)
+T L0KUQ4_METHD/3   49 ITIEGDDLDYEEIKQSID   66 (89)
+T ss_pred             EEEEeCCCCHHHHHHHHH
+
+
+No 180
+>d4icgc_ a.23.5.1 (C:) automated matches {Salmonella enterica [TaxId: 990282]}
+Probab=21.81  E-value=58  Score=18.69  Aligned_cols=29  Identities=28%  Similarity=0.327  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             CCHHHceeeeEEcCeecchHHHHHHHhhc
+Q Q_9186633_35      1 MTKEEYETVIKINGKDLTLTQIYELMEYE   29 (37)
+Q Consensus         1 mtkeeyetvikingkdltltqiyelmeye   29 (37)
+                      |||.+|--...=-...=||..++|.+.|.
+T Consensus         1 mtk~d~L~kfRrc~s~etLEkv~e~~~~~   29 (67)
+T d4icgc_           1 LTKTDYLMRLRRCQTIDTLERVIEKNKYE   29 (67)
+T ss_dssp             CCHHHHHHHHTTCCTTHHHHHHHHHHHHH
+T ss_pred             CCHHHHHHHhccCCCHHHHHHHHHHhccC
+
+
+No 181
+>d1fjgi_ d.14.1.1 (I:) Ribosomal protein S9 {Thermus thermophilus [TaxId: 274]}
+Probab=21.78  E-value=77  Score=18.63  Aligned_cols=8  Identities=38%  Similarity=1.036  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             eEEcCeec
+Q Q_9186633_35     10 IKINGKDL   17 (37)
+Q Consensus        10 ikingkdl   17 (37)
+                      |.|||+++
+T Consensus        25 i~INg~~l   32 (127)
+T d1fjgi_          25 VTVNGQDF   32 (127)
+T ss_dssp             EEETTEEH
+T ss_pred             EEECCEEH
+
+
+No 182
+>cd05936 FC-FACS_FadD_like; Prokaryotic long-chain fatty acid CoA synthetases similar to Escherichia coli FadD.
+Probab=21.53  E-value=1.9e+02  Score=17.12  Aligned_cols=19  Identities=16%  Similarity=0.279  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      .|+++|+.+.+.+|.+.+.
+T Consensus       374 ~i~~~G~~v~~~~ie~~l~  392 (468)
+T cd05936         425 MIIAGGYNIYPREVEEVLY  443 (521)
+T ss_pred             cEEECCEEeCHHHHHHHHH
+
+
+No 183
+>cd17635 FADD10; adenylate forming domain, fatty acid CoA ligase (FadD10). This family contains long chain fatty acid CoA ligases, including FadD10 which is involved in the synthesis of a virulence-related lipopeptide.
+Probab=21.39  E-value=2e+02  Score=15.25  Aligned_cols=21  Identities=14%  Similarity=0.281  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         7 etvikingkdltltqiyelme   27 (37)
+                      ...++++|..+.+.+|...+.
+T Consensus       247 ~~~i~~~g~~~~~~~ie~~l~  267 (340)
+T cd17635         257 SEXIICGGVNIAPDEVDRIAE  277 (354)
+T ss_pred             cccEEECCEEECHHHHHHHHH
+
+
+No 184
+>d1ig6a_ a.4.3.1 (A:) MRF-2 DNA-binding domain {Human (Homo sapiens) [TaxId: 9606]}
+Probab=21.22  E-value=1.6e+02  Score=14.88  Aligned_cols=15  Identities=13%  Similarity=0.297  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EcCeecchHHHHHHH
+Q Q_9186633_35     12 INGKDLTLTQIYELM   26 (37)
+Q Consensus        12 ingkdltltqiyelm   26 (37)
+                      |+|+.|.|-++|..+
+T Consensus        28 i~g~~ldL~~L~~~V   42 (107)
+T d1ig6a_          28 LGFKQINLWTMFQAA   42 (107)
+T ss_dssp             SSSSSCCHHHHHHHH
+T ss_pred             eCCEecCHHHHHHHH
+
+
+No 185
+>d1f32a_ d.62.1.1 (A:) Pepsin inhibitor-3 {Pig roundworm (Ascaris suum) [TaxId: 6253]}
+Probab=21.19  E-value=1.8e+02  Score=17.69  Aligned_cols=21  Identities=14%  Similarity=0.039  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             eeEEcC---eecchHHHHHHHhhc
+Q Q_9186633_35      9 VIKING---KDLTLTQIYELMEYE   29 (37)
+Q Consensus         9 viking---kdltltqiyelmeye   29 (37)
+                      .+-|||   .+||-.|+.||-+|+
+T Consensus        18 ~Ly~nG~~~r~Lt~~E~~el~~Y~   41 (147)
+T d1f32a_          18 QVFVANLPWTMLEGDDIQVGKEFA   41 (147)
+T ss_dssp             EEEETTEEEEECCGGGHHHHHHHH
+T ss_pred             EEEECCEEeecCCHHHHHHHHHHH
+
+
+No 186
+>cd17654 A_NRPS_acs4; acyl-CoA synthetase family member 4. This family of the adenylation (A) domain of nonribosomal peptide synthases (NRPS) contains acyl-CoA synthethase family member 4, also known as 2-aminoadipic 6-semialdehyde dehydrogenase or aminoadipate-semialdehyde dehydrogenase, most of which are uncharacterized.
+Probab=21.04  E-value=2e+02  Score=16.44  Aligned_cols=21  Identities=29%  Similarity=0.513  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         7 etvikingkdltltqiyelme   27 (37)
+                      ..+|+++|..+...+|.+.+.
+T Consensus       361 ~~~i~~~g~~v~~~~ie~~l~  381 (449)
+T cd17654         362 DSQIKRHGKRLNIALVQQVAE  382 (451)
+T ss_pred             cccEEECCEEeCHHHHHHHHh
+
+
+No 187
+>cd17646 A_NRPS_AB3403-like; Peptide Synthetase. The adenylation (A) domain of NRPS recognizes a specific amino acid or hydroxy acid and activates it as an (amino) acyl adenylate by hydrolysis of ATP.
+Probab=20.89  E-value=1.9e+02  Score=17.23  Aligned_cols=18  Identities=33%  Similarity=0.586  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeEEcCeecchHHHHHHH
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELM   26 (37)
+Q Consensus         9 vikingkdltltqiyelm   26 (37)
+                      +|+++|+.+.+.+|.+..
+T Consensus       394 ~i~~~G~~i~~~~ie~~l  411 (488)
+T cd17646         402 QLKIRGQRIELGEIDRVM  419 (501)
+T ss_pred             eeEECCEEeCHHHHHHHH
+
+
+No 188
+>d4q3ha_ b.36.1.1 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.79  E-value=1.4e+02  Score=13.39  Aligned_cols=27  Identities=7%  Similarity=0.195  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             eeeeEEcCee---cchHHHHHHHhhcCCCC
+Q Q_9186633_35      7 ETVIKINGKD---LTLTQIYELMEYENKPV   33 (37)
+Q Consensus         7 etvikingkd---ltltqiyelmeyenkpv   33 (37)
+                      ..++.|||.+   .+..++..++.....++
+T Consensus        48 d~i~~in~~~~~~~~~~~~~~~~~~~~~~~   77 (90)
+T d4q3ha_          48 DRIVEVNGVCMEGKQHGDVVSAIRAGGDET   77 (90)
+T ss_dssp             CEEEEETTEECTTCCHHHHHHHHHHTTTEE
+T ss_pred             CEEEEECCEEeCCCCHHHHHHHHHhCCCee
+
+
+No 189
+>PF16117.5 ; DUF4833 ; Domain of unknown function (DUF4833)
+Probab=20.70  E-value=26  Score=20.88  Aligned_cols=18  Identities=28%  Similarity=0.447  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             ceeeeEEcCeecchHHHH
+Q Q_9186633_35      6 YETVIKINGKDLTLTQIY   23 (37)
+Q Consensus         6 yetvikingkdltltqiy   23 (37)
+                      +....+|||++.-|..||
+T Consensus        90 ~~~~~~i~g~~~~L~rif  107 (137)
+T F8EFB5_RUNSL/3   90 HMAVTQINSHKAALKKIF  107 (137)
+T ss_pred             EEEEEEECCEEEEEEEEE
+
+
+No 190
+>cd17630 OSB_MenE-like; O-succinylbenzoic acid-CoA ligase. This family contains O-succinylbenzoyl-CoA (OSB-CoA) synthetase (also known as O-succinylbenzoic acid CoA ligase) that belongs to the ANL superfamily and catalyzes the ligation of CoA to o-succinylbenzoate (OSB).
+Probab=20.66  E-value=2.1e+02  Score=15.21  Aligned_cols=21  Identities=5%  Similarity=0.262  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         7 etvikingkdltltqiyelme   27 (37)
+                      ...++++|..+...+|.+.+.
+T Consensus       228 ~~~i~~~g~~~~~~~ie~~l~  248 (325)
+T cd17630         218 DNLFFSGGEGIQPEEVERVIA  238 (313)
+T ss_pred             cccEEECCEEECHHHHHHHHh
+
+
+No 191
+>cd20019 FH_FOXE; Forkhead (FH) domain found in the forkhead box protein E (FOXE) subfamily. The FOXE subfamily includes two winged helix transcription factors, FOXE1 (also known as FOXE2) and FOXE3.
+Probab=20.59  E-value=1.4e+02  Score=13.11  Aligned_cols=15  Identities=33%  Similarity=0.589  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             cCeecchHHHHHHHh
+Q Q_9186633_35     13 NGKDLTLTQIYELME   27 (37)
+Q Consensus        13 ngkdltltqiyelme   27 (37)
+                      ..+.+++.+||+.+.
+T Consensus        18 ~~~~~~~~~i~~~~~   32 (94)
+T cd20019          18 PERRLTLGGIYKFIT   32 (94)
+T ss_pred             CCCCccHHHHHHHHH
+
+
+No 192
+>cd17651 A_NRPS_VisG_like; similar to adenylation domain of virginiamycin S synthetase. This family of the adenylation (A) domain of nonribosomal peptide synthases (NRPS) includes virginiamycin S synthetase (VisG) in Streptomyces virginiae.
+Probab=20.59  E-value=2e+02  Score=16.92  Aligned_cols=19  Identities=21%  Similarity=0.277  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      +|+++|..+...+|.+...
+T Consensus       397 ~i~~~g~~i~~~~ie~~l~  415 (491)
+T cd17651         392 QVSIRGFRVELGEIESALY  410 (487)
+T ss_pred             cEEECCEEeCHHHHHHHHh
+
+
+No 193
+>KOG3563 Forkhead/HNF-3-related transcription factor [Transcription]
+Probab=20.51  E-value=1e+02  Score=22.94  Aligned_cols=14  Identities=43%  Similarity=0.657  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             CeecchHHHHHHHh
+Q Q_9186633_35     14 GKDLTLTQIYELME   27 (37)
+Q Consensus        14 gkdltltqiyelme   27 (37)
+                      ++.|||.|||+.+.
+T Consensus       191 ~k~LTLsEIY~~I~  204 (454)
+T KOG3563         191 SKMLTLSEIYQWIM  204 (454)
+T ss_pred             CcCcCHHHHHHHHH
+
+
+No 194
+>d2qali1 d.14.1.1 (I:3-129) Ribosomal protein S9 {Escherichia coli [TaxId: 562]}
+Probab=20.33  E-value=85  Score=18.59  Aligned_cols=8  Identities=50%  Similarity=0.679  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             eEEcCeec
+Q Q_9186633_35     10 IKINGKDL   17 (37)
+Q Consensus        10 ikingkdl   17 (37)
+                      |.|||+++
+T Consensus        25 i~VNg~~l   32 (127)
+T d2qali1          25 IVINQRSL   32 (127)
+T ss_pred             EEECCEeH
+
+
+No 195
+>d2v90a_ b.36.1.0 (A:) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.32  E-value=1.5e+02  Score=13.34  Aligned_cols=13  Identities=8%  Similarity=0.406  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             ceeeeEEcCeecc
+Q Q_9186633_35      6 YETVIKINGKDLT   18 (37)
+Q Consensus         6 yetvikingkdlt   18 (37)
+                      ...++.|||..+.
+T Consensus        50 gd~i~~in~~~~~   62 (95)
+T d2v90a_          50 GDRLVAVAGESVE   62 (95)
+T ss_dssp             TEEEEEETTEECT
+T ss_pred             CCEEEEECCEEcC
+
+
+No 196
+>cd17644 A_NRPS_ApnA-like; similar to adenylation domain of anabaenopeptin synthetase (ApnA). This family of the adenylation (A) domain of nonribosomal peptide synthases (NRPS) includes Planktothrix agardhii anabaenopeptin synthetase (ApnA A1), which is capable of activating two chemically distinct amino acids (Arg and Tyr).
+Probab=20.29  E-value=2e+02  Score=17.01  Aligned_cols=19  Identities=32%  Similarity=0.438  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             eeEEcCeecchHHHHHHHh
+Q Q_9186633_35      9 VIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         9 vikingkdltltqiyelme   27 (37)
+                      +|+++|+.+...+|.+.+.
+T Consensus       371 ~i~~~g~~v~~~~ie~~l~  389 (465)
+T cd17644         409 QVKINGFRVELGEIETVLL  427 (503)
+T ss_pred             cEEeCcEecCHHHHHHHHH
+
+
+No 197
+>cd05931 FAAL; Fatty acyl-AMP ligase (FAAL). FAAL belongs to the class I adenylate forming enzyme family and is homologous to fatty acyl-coenzyme A (CoA) ligases (FACLs).
+Probab=20.26  E-value=2.2e+02  Score=17.12  Aligned_cols=21  Identities=24%  Similarity=0.199  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             eeeeEEcCeecchHHHHHHHh
+Q Q_9186633_35      7 ETVIKINGKDLTLTQIYELME   27 (37)
+Q Consensus         7 etvikingkdltltqiyelme   27 (37)
+                      ..+|+++|+.+.+.+|-+.+.
+T Consensus       439 ~d~i~~~G~~v~~~~ie~~l~  459 (547)
+T cd05931         440 KDLIIIYGKNHYPQDIEFSLX  460 (549)
+T ss_pred             cceEEECCEEeCHHHHHHHHH
+
+
+No 198
+>PF06275.11 ; DUF1031 ; Protein of unknown function (DUF1031)
+Probab=20.15  E-value=1.2e+02  Score=18.71  Aligned_cols=22  Identities=18%  Similarity=0.389  Sum_probs=0.0  Template_Neff=2.000
+
+Q ss_pred             cCeecchHHHHHHHhhcCCCCc
+Q Q_9186633_35     13 NGKDLTLTQIYELMEYENKPVQ   34 (37)
+Q Consensus        13 ngkdltltqiyelmeyenkpvq   34 (37)
+                      +||+.+..|+|..|+---+.+|
+T Consensus        55 hskqMkW~~Lyk~l~eLt~~~~   76 (79)
+T Q9XJF0_BPTU2/1   55 HSKQMKWGELYKILKELTKDKQ   76 (79)
+T ss_pred             ccccCcHHHHHHHHHHHhhccc
+
+
+No 199
+>d2he4a1 b.36.1.1 (A:147-230) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.15  E-value=1.2e+02  Score=13.34  Aligned_cols=32  Identities=13%  Similarity=0.203  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             HHceeeeEEcCeecchHHHHHHHhhcCCCCcc
+Q Q_9186633_35      4 EEYETVIKINGKDLTLTQIYELMEYENKPVQT   35 (37)
+Q Consensus         4 eeyetvikingkdltltqiyelmeyenkpvqt   35 (37)
+                      +....++.+||..+.--...+++..-.++-++
+T Consensus        45 ~~gd~i~~i~g~~~~~~~~~~~~~~~~~~~~~   76 (84)
+T d2he4a1          45 RAQDRLIEVNGQNVEGLRHAEVVASIKAREDE   76 (84)
+T ss_dssp             CTTCEEEEETTEECTTSCHHHHHHHHTTSSSE
+T ss_pred             CCCCEEEEECCEECCCCCHHHHHHHHHhCCCc
+
+
+No 200
+>d1sota1 b.36.1.4 (A:255-353) Stress sensor protease DegS, C-terminal domain {Escherichia coli [TaxId: 562]}
+Probab=20.05  E-value=1.5e+02  Score=13.35  Aligned_cols=12  Identities=17%  Similarity=0.418  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             eeeeEEcCeecc
+Q Q_9186633_35      7 ETVIKINGKDLT   18 (37)
+Q Consensus         7 etvikingkdlt   18 (37)
+                      ..++.|||+++.
+T Consensus        48 d~i~~ing~~~~   59 (99)
+T d1sota1          48 DLIISVDNKPAI   59 (99)
+T ss_dssp             CEECBSSSSBCC
+T ss_pred             CEEEEECCEEcC
+
+

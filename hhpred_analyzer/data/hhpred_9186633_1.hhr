@@ -1,0 +1,38 @@
+Query         Q_9186633_1
+Match_columns 59
+No_of_seqs    138 out of 1026
+Neff          7.19739
+Searched_HMMs 69205
+Date          Sun May 24 00:17:38 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_1.hhr -oa3m ../results/9186633_1.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF14020.6 ; DUF4236 ; Protein   99.8 3.8E-20 5.5E-25   96.0   6.4   54    3-56      1-54  (54)
+  2 PF18311.1 ; Rrp40_N ; Exosome   20.5      79  0.0011   15.5   0.7   12    7-18      6-17  (48)
+
+No 1
+>PF14020.6 ; DUF4236 ; Protein of unknown function (DUF4236)
+Probab=99.83  E-value=3.8e-20  Score=95.95  Aligned_cols=54  Identities=56%  Similarity=0.934  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             eEEEeEEEecCCeEEeecCCcceeecCCCceEEEeCCCCcEEEeecCCCCceEE
+Q Q_9186633_1       3 FKFRKSIKIAPGVRMNVSKKGVGVSAGVKGARVSTGPSGTRITTSVPGTGLSYE   56 (59)
+Q Consensus         3 ~~frks~kl~pg~rln~sk~G~s~S~g~~~~~~~~~~~g~~~t~~~pg~Glsy~   56 (59)
+                      |+|||+++|+||++||++++|+++|++.+++++++++++.+.++++||+||+|+
+T Consensus         1 ~~fRKs~~~gpg~rlN~sk~G~s~S~g~~g~r~~~~~~g~~~~~~~PGtglsyr   54 (54)
+T N0BEM3_9RHIZ/1    1 FRFRKTFSILPGVRINLSKTGVSSSIGGHGATVNVGKNGPMVTLGVPGTGLSYR   54 (54)
+T ss_pred             CceeeeeeecCCeEEEecCCcceEeecCCcceEEecCCCCEEEeecCCCcceeC
+
+
+No 2
+>PF18311.1 ; Rrp40_N ; Exosome complex exonuclease Rrp40 N-terminal domain
+Probab=20.45  E-value=79  Score=15.46  Aligned_cols=12  Identities=33%  Similarity=0.944  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             eEEEecCCeEEe
+Q Q_9186633_1       7 KSIKIAPGVRMN   18 (59)
+Q Consensus         7 ks~kl~pg~rln   18 (59)
+                      ..++|+||++..
+T Consensus         6 ~~~~lGpGl~~~   17 (48)
+T J4URZ4_BEAB2/1    6 KPLRLGPGLRHD   17 (48)
+T ss_pred             CCceeCCCcEeC
+
+

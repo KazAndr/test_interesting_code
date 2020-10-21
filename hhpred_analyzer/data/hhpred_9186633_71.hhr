@@ -1,0 +1,686 @@
+Query         Q_9186633_71
+Match_columns 163
+No_of_seqs    123 out of 1382
+Neff          9.51582
+Searched_HMMs 69205
+Date          Sun May 24 00:29:03 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_71.hhr -oa3m ../results/9186633_71.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF16793.5 ; RepB_primase ; Rep  99.0   4E-09 5.7E-14   78.4   9.7   93   48-163    27-134 (224)
+  2 cd04860 AE_Prim_S; AE_Prim_S:   98.3 1.4E-05 2.1E-10   59.5   9.3  115   47-163    41-206 (232)
+  3 COG4951 COG4951; Uncharacteriz  97.8  0.0002 2.9E-09   57.3   7.9   64   83-150   124-189 (361)
+  4 cd04861 LigD_Pol_like; LigD_Po  97.4   0.012 1.7E-07   44.1  12.6  115   30-154    50-170 (227)
+  5 cd04863 MtLigD_Pol_like; MtLig  97.4  0.0031 4.5E-08   47.4   9.4   71   81-154    98-174 (231)
+  6 cd04862 PaeLigD_Pol_like; PaeL  97.3   0.023 3.3E-07   42.7  13.1  118   30-157    50-173 (227)
+  7 PF03090.17 ; Replicase ; Repli  97.3  0.0018 2.6E-08   44.6   6.2   70   66-158    14-102 (134)
+  8 COG3285 LigD; Eukaryotic-type   97.2  0.0048   7E-08   48.2   9.1   71   88-161   128-205 (299)
+  9 cd04864 LigD_Pol_like_1; LigD_  97.2   0.004 5.8E-08   46.7   7.9   72   81-154    96-171 (228)
+ 10 cd04866 LigD_Pol_like_3; LigD_  97.2   0.009 1.3E-07   44.7   9.7   68   86-156    94-168 (223)
+ 11 PF08800.10 ; VirE_N ; VirE N-t  97.1  0.0083 1.2E-07   40.0   8.4   94   64-162     7-111 (120)
+ 12 cd04865 LigD_Pol_like_2; LigD_  97.1   0.017 2.4E-07   43.5  10.4  102   44-154    65-171 (228)
+ 13 d1zt2a1 d.264.1.1 (A:3-329) DN  96.8    0.11 1.6E-06   41.4  13.3  147    8-156     6-203 (327)
+ 14 PF01896.19 ; DNA_primase_S ; D  96.3  0.0078 1.1E-07   41.7   3.5   47   90-137     1-64  (153)
+ 15 COG1467 PRI1; Eukaryotic-type   95.4     1.4 2.1E-05   35.4  13.5  123    8-133     7-157 (341)
+ 16 KOG2851 Eukaryotic-type DNA pr  94.3     3.5   5E-05   34.3  13.3  129    3-134     6-174 (412)
+ 17 d1v33a_ d.264.1.1 (A:) DNA pri  94.3    0.58 8.4E-06   37.7   8.3   84   47-134    55-155 (346)
+ 18 d1ro2a_ d.264.1.2 (A:) Bifunct  79.9     4.6 6.7E-05   29.7   3.9   48   86-140    67-116 (210)
+ 19 cd00525 AE_Prim_S_like; AE_Pri  79.1      13 0.00019   24.1   5.6   47   86-135    55-106 (136)
+ 20 d2atza1 d.264.1.3 (A:3-178) Hy  75.2      39 0.00057   24.7   7.6   75   85-163    69-145 (176)
+ 21 PF09250.11 ; Prim-Pol ; Bifunc  64.6      32 0.00046   24.3   5.1   43   86-134    79-123 (179)
+ 22 PF18211.1 ; Csm1_B ; Csm1 subu  63.9      27 0.00039   22.6   4.1   51  107-157    24-75  (94)
+ 23 COG4983 COG4983; Uncharacteriz  53.3      68 0.00098   27.3   5.9   50   86-140    80-134 (495)
+ 24 cd04859 Prim_Pol; Prim_Pol: Pr  52.0      84  0.0012   20.3   5.3   48   86-140    50-100 (152)
+ 25 PF18828.1 ; LPD15 ; Large poly  37.5 1.7E+02  0.0024   19.6   5.7   62   99-162     1-64  (100)
+ 26 d2m1ia1 d.26.1.0 (A:6-97) auto  37.3 1.2E+02  0.0017   18.2   3.9   31  106-136    61-92  (92)
+ 27 d2lj4a_ d.26.1.0 (A:) automate  35.9 1.4E+02   0.002   19.3   4.2   31  106-136    84-115 (115)
+ 28 d2itka2 d.26.1.1 (A:51-163) Mi  29.6 1.9E+02  0.0028   18.4   4.1   31  106-136    82-113 (113)
+ 29 d2jzva1 d.26.1.0 (A:140-245) a  28.8   2E+02  0.0029   17.8   4.5   31  106-136    75-106 (106)
+ 30 d2mnta_ d.26.1.0 (A:) automate  28.8 1.8E+02  0.0025   19.0   3.9   31  106-136    89-120 (120)
+ 31 PF14201.6 ; DUF4318 ; Domain o  28.1   2E+02  0.0029   17.6   4.0   30   86-117     2-31  (73)
+ 32 KOG3259 Peptidyl-prolyl cis-tr  27.9 2.1E+02   0.003   19.6   4.3   31  106-136   132-163 (163)
+ 33 d2kgja1 d.26.1.0 (A:1-94) auto  25.5 2.2E+02  0.0031   17.1   3.9   30  106-136    62-92  (94)
+ 34 PF08496.10 ; Peptidase_S49_N ;  24.1 2.8E+02  0.0041   19.9   4.2   44   86-129    90-135 (146)
+ 35 d3faua1 d.68.8.1 (A:11-89) aut  20.7 2.7E+02  0.0039   16.6   3.6   37   92-130     1-44  (79)
+
+No 1
+>PF16793.5 ; RepB_primase ; RepB DNA-primase from phage plasmid
+Probab=99.03  E-value=4e-09  Score=78.38  Aligned_cols=93  Identities=9%  Similarity=0.035  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             HHHHHHHHHHHHc-------CCCcEEEEecccCCCCCCHHhcceecEEEEEeccccCCCCHHHHHHHHHHHHHcCCCCcC
+Q Q_9186633_71     48 LRDLKHLLKASER-------GLKDVYLSLNAFEHGSRKTADLKQIRNIGVDLDFYKIGLSKEYVIKQLHDFVFSGSLPCP  120 (163)
+Q Consensus        48 ~~~~~~~~~~~~~-------~~~~~y~~i~~~~~~~~~~~~v~~~~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~lp~P  120 (163)
+                      ++....++...+.       .+.++|++++.            .+..+|+|||    ....+...+      ....+ +|
+T Consensus        27 ~~~~~~~l~~~n~~~~~~~~~g~~iY~~~~~------------~~~~~~vDiD----~~~~~~~~~------p~~~~-~P   83 (224)
+T D5X4Y2_THIK1/4   27 AADWLDALKKAGALNRRQPPEGANIYIRPLH------------TASHPWILVD----DIPAQRAQA------LAAQH-AG   83 (224)
+T ss_pred             HHHHHHHHHHHhccccCCCCCCccEEEEEec------------cCCeeEEEeC----CCCHHHHHH------Hhhcc-Cc
+
+
+Q ss_pred             E-EE-EeCCeEEEEEEeCCCCChh-HHHHHHHHH-----HHHHHHHhhhhC
+Q Q_9186633_71    121 N-II-MNGRGVQLVYSISGGAAPQ-MAYLTQIHN-----ESLCKNAYAVRR  163 (163)
+Q Consensus       121 s-iv-~SG~G~h~~w~l~~~~~~~-~~~~~~~i~-----~~~~~d~~r~~r  163 (163)
+                      | ++ +||+|+|+||.++.+.... ++.+++.|.     +..+.|+.|+||
+T Consensus        84 s~vv~tS~gg~q~~w~l~~p~~~~~~~~~~~~L~~~~g~D~~~~d~~r~~R  134 (224)
+T D5X4Y2_THIK1/4   84 IAVQTSDDGNGQFWLLLDKSLPHTARTDIAKALAERLDGDPGAANGSQFGR  134 (224)
+T ss_pred             EEEEEcCCCcEEEEEEECCCCCHHHHHHHHHHHHHHcCCCccCCChhhcee
+
+
+No 2
+>cd04860 AE_Prim_S; AE_Prim_S: primase domain similar to that found in the small subunit of archaeal and eukaryotic (A/E) DNA primases.
+Probab=98.26  E-value=1.4e-05  Score=59.50  Aligned_cols=115  Identities=16%  Similarity=0.171  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             eHHHHHHHHHHHHcCCCcEEEEecccCCCCCCHHhcceecEEEEEeccccCCCC----------------HHHHHHHHHH
+Q Q_9186633_71     47 GLRDLKHLLKASERGLKDVYLSLNAFEHGSRKTADLKQIRNIGVDLDFYKIGLS----------------KEYVIKQLHD  110 (163)
+Q Consensus        47 ~~~~~~~~~~~~~~~~~~~y~~i~~~~~~~~~~~~v~~~~~l~~DiD~~~~~~~----------------~~~~~~~i~~  110 (163)
+                      +.+++.+++...  ...++|.+++.+..+............+++|||.......                ..+....+.+
+T Consensus        41 ~~~~l~~~~~~~--~~~~vy~s~~~~~~p~~~~~~~~~~~~lvfDiD~~~~~~~~~~~~~~~~~~~~~~~~~~~a~~l~~  118 (232)
+T cd04860          44 DIRDLEDYIRAT--APYAVYSSVALYEKPQEM--EGWLGTELVFDIDAKDLPLRRCEHEPGTVCPICLNDAKEIVRDTVI  119 (309)
+T ss_pred             CHHHHHHHHHhc--CCchheecCccccCCCccccCccccceEEEEeCcccccccccccCCcchhHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHH-cCCCCcCEEEEeC-CeEEEEEEeCCC---CChhHHHHHHHHHHH---------....-----------------..
+Q Q_9186633_71    111 FVF-SGSLPCPNIIMNG-RGVQLVYSISGG---AAPQMAYLTQIHNES---------....-----------------..  153 (163)
+Q Consensus       111 ~l~-~~~lp~Psiv~SG-~G~h~~w~l~~~---~~~~~~~~~~~i~~~---------....-----------------..  153 (163)
+                      +|+ ..|++.+.+++|| +|+|+|+.++..   .....+.+.+++...                                
+T Consensus       119 ~L~~~~gi~~~~i~fSG~kG~Hv~v~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~....~~~~~~~~~~~~~~~~~..  192 (232)
+T cd04860         120 ILREELGFNDIHIIYSG-RGYHIRVLDEWALKLDSKSRERILSFVSASEIEDVEEFRklllNKRGWFVLNHGYPRAFRlr  198 (309)
+T ss_pred             HHHHhhCCCceEEEEecCCceEEEEeCHHHhcCCHHHHHHHHHHHHccCCChhhcch....hhhcccCCCCCCcceee..
+
+
+Q ss_pred             .....................................................................----HHHHHhh
+Q Q_9186633_71    154 .....................................................................----LCKNAYA  160 (163)
+Q Consensus       154 .....................................................................----~~~d~~r  160 (163)
+                                                                                               ...|+.|
+T Consensus       193 .....................................................................~D~~v~~d~~r  203 (232)
+T cd04860         199 fgyfilriklphlinagirksiaksilkskeeiyeefvrkailaafpqgvgieslaklfalstrfsksyFDGRVTVDLKR  278 (309)
+T ss_pred             .....................................................................ccHHHhcChhH
+
+
+Q ss_pred             hhC
+Q Q_9186633_71    161 VRR  163 (163)
+Q Consensus       161 ~~r  163 (163)
+                      ++|
+T Consensus       204 l~R  206 (232)
+T cd04860         279 ILR  281 (309)
+T ss_pred             Hhc
+
+
+No 3
+>COG4951 COG4951; Uncharacterized protein [Function unknown]. 
+Probab=97.78  E-value=0.0002  Score=57.30  Aligned_cols=64  Identities=11%  Similarity=0.013  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             ceecEEEEEeccccCCCCHHHHHHHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeCCCCChh-HHHHHHHH
+Q Q_9186633_71     83 KQIRNIGVDLDFYKIGLSKEYVIKQLHDFVFSGSLPCPN-IIMNGRGVQLVYSISGGAAPQ-MAYLTQIH  150 (163)
+Q Consensus        83 ~~~~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~~~~~~~-~~~~~~~i  150 (163)
+                      ..+..+++|+|    ..+..+....+...|+..|+|.+. ...||+|+|+|.+++.+.+.. ++.+.+.|
+T Consensus       124 ~~~~fl~~D~D----~~~~~~d~~~i~~~l~~~gip~~~e~S~SG~G~HiWiFf~epv~a~~ar~~~~~l  189 (361)
+T COG4951         124 DSCYFLAVDFD----EGEWKKDASAFMRSCDELGVPAALEISRSRQGAHVWIFFASRISAREARRLGTAI  189 (361)
+T ss_pred             CeEEEEEEECC----CccHHHHHHHHHHHHHHhCCCeEEEEcCCCCeEEEEEEeCCCcCHHHHHHHHHHH
+
+
+No 4
+>cd04861 LigD_Pol_like; LigD_Pol_like: Polymerase (Pol) domain of bacterial LigD proteins similar to Pseudomonas aeruginosa (Pae) LigD.
+Probab=97.43  E-value=0.012  Score=44.13  Aligned_cols=115  Identities=14%  Similarity=0.123  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             EEEEEECCCCceEEEEEeHHHHHHHHHHHHcCCCcEEEEecccCCCCCCHHhcceecEEEEEeccccCCCCHHHH---HH
+Q Q_9186633_71     30 YVVTIDLSNEQHKQIWYGLRDLKHLLKASERGLKDVYLSLNAFEHGSRKTADLKQIRNIGVDLDFYKIGLSKEYV---IK  106 (163)
+Q Consensus        30 ~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~i~~~~~~~~~~~~v~~~~~l~~DiD~~~~~~~~~~~---~~  106 (163)
+                      ++.............+.-.++..+.+.-.+.+....+...+.+...       .....+++|||... +.+.+.+   ..
+T Consensus        50 ~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~h~~~~~~~~~-------~~~d~lv~DlD~~~-~~~~~~~~~~a~  121 (227)
+T cd04861          50 GIVQLDPALDPGHPPLLQIRSAEALVGAVQMGSIEFHTWNASLANL-------ERPDRFVLDLDPDP-ALPWKRMLEATQ  121 (227)
+T ss_pred             cceEEEeCCCCCeEEEEEECCHHHHHHHHhcCCcEEECcchhCCCC-------CCCCeEEEeCCCCC-CCCHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHcCCCCcCE-EEEeC-CeEEEEEEeCCCCChh-HHHHHHHHHHHH
+Q Q_9186633_71    107 QLHDFVFSGSLPCPN-IIMNG-RGVQLVYSISGGAAPQ-MAYLTQIHNESL  154 (163)
+Q Consensus       107 ~i~~~l~~~~lp~Ps-iv~SG-~G~h~~w~l~~~~~~~-~~~~~~~i~~~~  154 (163)
+                      .+.+.|++.|+  +. +.+|| +|+|++..+....+.. .+.+.+.|+..+
+T Consensus       122 ~l~~~L~~~g~--~~~~~~SG~~G~Hv~vp~~~~~~~~~~~~~~~~ia~~~  170 (227)
+T cd04861         122 LSLTLLDELGL--RAFLKTSGGKGMHLLVPLERRHGWDEVKDFAQAISQHL  170 (227)
+T ss_pred             HHHHHHHHcCC--CeEEEeeCCCcceEEeeCCCCCCHHHHHHHHHHHHHHH
+
+
+No 5
+>cd04863 MtLigD_Pol_like; MtLigD_Pol_like: Polymerase (Pol) domain of bacterial LigD proteins similar to Mycobacterium tuberculosis (Mt)LigD.
+Probab=97.40  E-value=0.0031  Score=47.37  Aligned_cols=71  Identities=15%  Similarity=0.237  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             hcceecEEEEEeccccCCCCHHHH---HHHHHHHHHcCCCCcCE-EEEeC-CeEEEEEEeCCCCChh-HHHHHHHHHHHH
+Q Q_9186633_71     81 DLKQIRNIGVDLDFYKIGLSKEYV---IKQLHDFVFSGSLPCPN-IIMNG-RGVQLVYSISGGAAPQ-MAYLTQIHNESL  154 (163)
+Q Consensus        81 ~v~~~~~l~~DiD~~~~~~~~~~~---~~~i~~~l~~~~lp~Ps-iv~SG-~G~h~~w~l~~~~~~~-~~~~~~~i~~~~  154 (163)
+                      +......+++|+|... +.+.+++   ...+.+.|++.|+  ++ +.+|| +|+|++..+....... .+.+.+.|+..+
+T Consensus        98 ~~~~pd~lv~DlD~~~-~~~~~~~~~~A~~l~~~L~~~gl--~~~~k~SG~~G~Hv~vpl~~~~~~~~~~~~~~~ia~~l  174 (231)
+T cd04863         102 NPGPATRLVFDLDPGE-GVMMAQLAEVARAVRDLLADIGL--VTFPVTSGSKGLHLYTPLDEPVSSRGATVLAKRVAQRL  178 (235)
+T ss_pred             CCCCCCEEEEECCCCC-CCCHHHHHHHHHHHHHHHHHcCC--eeEEEEeCCCCeEEEeeCCCCCCHHHHHHHHHHHHHHH
+
+
+No 6
+>cd04862 PaeLigD_Pol_like; PaeLigD_Pol_like: Polymerase (Pol) domain of bacterial LigD proteins similar to Pseudomonas aeruginosa (Pae) LigD.
+Probab=97.32  E-value=0.023  Score=42.66  Aligned_cols=118  Identities=14%  Similarity=0.120  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             EEEEEECCCCceEEEEEeHHHHHHHHHHHHcCCCcEEEEecccCCCCCCHHhcceecEEEEEeccccCCCCHHHH---HH
+Q Q_9186633_71     30 YVVTIDLSNEQHKQIWYGLRDLKHLLKASERGLKDVYLSLNAFEHGSRKTADLKQIRNIGVDLDFYKIGLSKEYV---IK  106 (163)
+Q Consensus        30 ~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~i~~~~~~~~~~~~v~~~~~l~~DiD~~~~~~~~~~~---~~  106 (163)
+                      ++.............+.-.++..+.+.-.+.+.-..+...+.....       .....+++|||... +.+.+.+   ..
+T Consensus        50 ~v~~~~~~~~~~~~~~~~~~~~~~L~~~~~~g~i~~h~~~s~~~~~-------~~pd~lv~DlD~~~-~~~~~~~~~~a~  121 (227)
+T cd04862          50 GIVQLDPALDPGHPPLLQIRSAEALVGAVQMGSIEFHTWNASLANL-------ERPDRFVLDLDPDP-ALPWKRMLEATQ  121 (227)
+T ss_pred             ceEEEEeCCCCCeEEEEEECCHHHHHHHHHcCCeEEeccccCCCCC-------CCCCeEEEeCCCCC-CCCHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHcCCCCcCE-EEEeC-CeEEEEEEeCCCCChh-HHHHHHHHHHHHHHH
+Q Q_9186633_71    107 QLHDFVFSGSLPCPN-IIMNG-RGVQLVYSISGGAAPQ-MAYLTQIHNESLCKN  157 (163)
+Q Consensus       107 ~i~~~l~~~~lp~Ps-iv~SG-~G~h~~w~l~~~~~~~-~~~~~~~i~~~~~~d  157 (163)
+                      .+.+.|++.|+  +. +.+|| +|+|++..++...... .+.+.+.|+..+...
+T Consensus       122 ~l~~~L~~~gl--~~~v~~SG~~G~Hv~vp~~~~~~~~~~~~~~~~ia~~l~~~  173 (227)
+T cd04862         122 LSLTLLDELGL--RAFLKTSGGKGMHLLVPLERRHGWDEVKDFAQAISQHLARL  173 (227)
+T ss_pred             HHHHHHHHcCC--cEEEEeeCCCCceEEeeCCCCCCHHHHHHHHHHHHHHHHHH
+
+
+No 7
+>PF03090.17 ; Replicase ; Replicase family
+Probab=97.25  E-value=0.0018  Score=44.62  Aligned_cols=70  Identities=20%  Similarity=0.183  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             EEEecccCCCCCCHHhcceecEEEEEeccccCCCCHHHHHHHHHHHHHcCCCCcCE-EEE----eC-Ce---EEEEEEeC
+Q Q_9186633_71     66 YLSLNAFEHGSRKTADLKQIRNIGVDLDFYKIGLSKEYVIKQLHDFVFSGSLPCPN-IIM----NG-RG---VQLVYSIS  136 (163)
+Q Consensus        66 y~~i~~~~~~~~~~~~v~~~~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~lp~Ps-iv~----SG-~G---~h~~w~l~  136 (163)
+                      |+.+|+..          .++.+.+|||..... ..++.           ++|.|+ ++.    ++ +|   .|++|.| 
+T Consensus        14 yIq~n~~~----------~~~~lvvDiD~~~~~-~~~~~-----------~lP~P~~iv~~~~~np~~g~~~~H~~~~L-   70 (134)
+T F5Z415_ALTNA/4   14 HIQVNPIN----------TKCWLIFDLDGTDPF-IWEDK-----------LLPPPNIIVSGQGPKAKLQQISAHLFYAI-   70 (134)
+T ss_pred             ceeeCCcc----------ceEEEEEEccCCChh-hHHhc-----------CCCCCeEEEEecCcCCCcCceeeEEEEEE-
+
+
+Q ss_pred             CCCChh----------HHHHHHHHHHHHHHHH
+Q Q_9186633_71    137 GGAAPQ----------MAYLTQIHNESLCKNA  158 (163)
+Q Consensus       137 ~~~~~~----------~~~~~~~i~~~~~~d~  158 (163)
+                      .+....          .+.+.+.|...+..|+
+T Consensus        71 ~PV~~~~~~r~kpi~~~~~V~~~l~~~LgaD~  102 (134)
+T F5Z415_ALTNA/4   71 QNVPTSRNSRRKPINFLNDIKRKMTSELMADN  102 (134)
+T ss_pred             ecccCCcccccHHHHHHHHHHHHHHHHcCCCC
+
+
+No 8
+>COG3285 LigD; Eukaryotic-type DNA primase  [Replication, recombination and repair]. 
+Probab=97.25  E-value=0.0048  Score=48.24  Aligned_cols=71  Identities=18%  Similarity=0.177  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             EEEEeccccCCCCHHHH---HHHHHHHHHcCCCCcCE-EEEeC-CeEEEEEEeCCCCChh-HHHHHHHHHHHHH-HHHhh
+Q Q_9186633_71     88 IGVDLDFYKIGLSKEYV---IKQLHDFVFSGSLPCPN-IIMNG-RGVQLVYSISGGAAPQ-MAYLTQIHNESLC-KNAYA  160 (163)
+Q Consensus        88 l~~DiD~~~~~~~~~~~---~~~i~~~l~~~~lp~Ps-iv~SG-~G~h~~w~l~~~~~~~-~~~~~~~i~~~~~-~d~~r  160 (163)
+                      +++|+|... +.+.+++   ...+.+.|++.|+  .+ +.+|| .|+|++..+.....-. ++.+.+.++..+. ..|++
+T Consensus       128 lvfDLDP~~-~~~f~~v~~~A~~lr~~L~~lgl--~~~vKtSG~kGlHV~vPl~~~~~~~~~r~~a~~ia~~l~~~~P~~  204 (299)
+T COG3285         128 IVFDLDPGP-GVAFAEVVEAALELRDLLDELGL--VSFPKTSGGKGLHVYVPLAPKATWEEVKQFAKAVAQQLARAAPDL  204 (299)
+T ss_pred             EEEEcCCCC-CCCHHHHHHHHHHHHHHHHHcCC--CeeeEEcCCCeeEEEEEcCCCCCHHHHHHHHHHHHHHHHHHCccc
+
+
+Q ss_pred             h
+Q Q_9186633_71    161 V  161 (163)
+Q Consensus       161 ~  161 (163)
+                      +
+T Consensus       205 ~  205 (299)
+T COG3285         205 F  205 (299)
+T ss_pred             e
+
+
+No 9
+>cd04864 LigD_Pol_like_1; LigD_Pol_like_1: Polymerase (Pol) domain of mostly bacterial LigD proteins similar to Pseudomonas aeruginosa (Pae) LigD, subgroup 1.
+Probab=97.19  E-value=0.004  Score=46.71  Aligned_cols=72  Identities=18%  Similarity=0.231  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             hcceecEEEEEeccccCC-CCHHHHHHHHHHHHHcCCCCcCE-EEEeC-CeEEEEEEeCCCCChh-HHHHHHHHHHHH
+Q Q_9186633_71     81 DLKQIRNIGVDLDFYKIG-LSKEYVIKQLHDFVFSGSLPCPN-IIMNG-RGVQLVYSISGGAAPQ-MAYLTQIHNESL  154 (163)
+Q Consensus        81 ~v~~~~~l~~DiD~~~~~-~~~~~~~~~i~~~l~~~~lp~Ps-iv~SG-~G~h~~w~l~~~~~~~-~~~~~~~i~~~~  154 (163)
+                      +......+++|+|....+ ....+....+.+.|++.|+  +. +.+|| +|+|++..++....-. .+.+.+.|+..+
+T Consensus        96 ~~~~pd~lv~DlD~~~~~~~~~~~~A~~l~~~L~~~gl--~~~~k~SG~~G~Hv~vpl~~~~~~~~~~~~~~~ia~~l  171 (228)
+T cd04864          94 RLDRPDRMVFDLDPAQDDFEAVRAAARLLAGLLDELKL--PSAPMTTGSRGLHVVVPLDGRQDFDDVREFARAVADVL  169 (226)
+T ss_pred             CCCCCCeEEEecCCCCCCHHHHHHHHHHHHHHHHHcCC--ceEEEecCCCCcEEEecCCCCCCHHHHHHHHHHHHHHH
+
+
+No 10
+>cd04866 LigD_Pol_like_3; LigD_Pol_like_3: Polymerase (Pol) domain of bacterial LigD proteins similar to Pseudomonas aeruginosa (Pae) LigD, subgroup 3.
+Probab=97.18  E-value=0.009  Score=44.71  Aligned_cols=68  Identities=15%  Similarity=0.155  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             cEEEEEeccccCCCCHHHH---HHHHHHHHHcCCCCcCE-EEEeC-CeEEEEEEeC-CCCChh-HHHHHHHHHHHHHH
+Q Q_9186633_71     86 RNIGVDLDFYKIGLSKEYV---IKQLHDFVFSGSLPCPN-IIMNG-RGVQLVYSIS-GGAAPQ-MAYLTQIHNESLCK  156 (163)
+Q Consensus        86 ~~l~~DiD~~~~~~~~~~~---~~~i~~~l~~~~lp~Ps-iv~SG-~G~h~~w~l~-~~~~~~-~~~~~~~i~~~~~~  156 (163)
+                      ..+++|+|... +.+.+++   ...+.+.|++.|+  ++ +.+|| +|+|++..++ ...+-. .+.+.+.|+..+..
+T Consensus        94 d~lv~DlDp~~-~~~~~~~~~~A~~l~~~L~~~gl--~~~vk~SG~~G~Hv~vp~~~~~~~~~~~~~~~~~i~~~l~~  168 (223)
+T cd04866          94 SEIVFDLDPPS-RDAFTLAIKAAIMIKEVLDHLNL--TSFVKTSGNKGIQVYIPLPDNAYTYDDTRLFTSFIADYLIS  168 (223)
+T ss_pred             CEEEEECCCCC-cccHHHHHHHHHHHHHHHHHCCC--CeeEEeeCCCceEEEeeCCCCCCCHHHHHHHHHHHHHHHHH
+
+
+No 11
+>PF08800.10 ; VirE_N ; VirE N-terminal domain
+Probab=97.15  E-value=0.0083  Score=40.03  Aligned_cols=94  Identities=13%  Similarity=0.192  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             cEEEEecccCCCCCCHHhcceecEEEEEeccccCCCCHHHHHHHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeCCCCCh-
+Q Q_9186633_71     64 DVYLSLNAFEHGSRKTADLKQIRNIGVDLDFYKIGLSKEYVIKQLHDFVFSGSLPCPN-IIMNGRGVQLVYSISGGAAP-  141 (163)
+Q Consensus        64 ~~y~~i~~~~~~~~~~~~v~~~~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~~~~~~-  141 (163)
+                      ..+..-..|...++..........+.+|||    +... +..+.+.+.+.......-. +.-||+|+|+++.++.+... 
+T Consensus         7 p~~~~~~~f~~~~~~~~~~~~~g~~~lDiD----~~~~-~~~~~~~~~~~~~p~~~~~~~S~sg~G~~i~~~~~~~~~~~   81 (120)
+T F6GD72_LACS5/5    7 QAFTVSGTFSKGRSIDKIDTYSQYVILDID----KLSE-SQLKEVKQTTRLAPYTYASFISPSGKGLKIIVKVSSTKEHH   81 (120)
+T ss_pred             cEEEEEEEecCCCChhhhhccccEEEEEcc----cCCH-HHHHHHHHHHhhCCCEEEEEEcCCCCeEEEEEEcCCCchHH
+
+
+Q ss_pred             --hHHHHHHHHHHHH-------HHHHhhhh
+Q Q_9186633_71    142 --QMAYLTQIHNESL-------CKNAYAVR  162 (163)
+Q Consensus       142 --~~~~~~~~i~~~~-------~~d~~r~~  162 (163)
+                        ..+.+++.+...+       |+|++|..
+T Consensus        82 ~~~y~~~~~~~~~~lg~~~D~~~~d~~r~~  111 (120)
+T F6GD72_LACS5/5   82 KEAYNQVVAYYEQALKIDIDTSGSDICRLC  111 (120)
+T ss_pred             HHHHHHHHHHHHHHhCCCCCCCCCCccccc
+
+
+No 12
+>cd04865 LigD_Pol_like_2; LigD_Pol_like_2: Polymerase (Pol) domain of bacterial LigD proteins similar to Pseudomonas aeruginosa (Pae) LigD, subgroup 2.
+Probab=97.10  E-value=0.017  Score=43.46  Aligned_cols=102  Identities=11%  Similarity=-0.014  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             EEEeHHHHHHHHHHHHcCCCcEEEEecccCCCCCCHHhcceecEEEEEeccc-cCC-CCHHHHHHHHHHHHHcCCCCcCE
+Q Q_9186633_71     44 IWYGLRDLKHLLKASERGLKDVYLSLNAFEHGSRKTADLKQIRNIGVDLDFY-KIG-LSKEYVIKQLHDFVFSGSLPCPN  121 (163)
+Q Consensus        44 ~~~~~~~~~~~~~~~~~~~~~~y~~i~~~~~~~~~~~~v~~~~~l~~DiD~~-~~~-~~~~~~~~~i~~~l~~~~lp~Ps  121 (163)
+                      .+.-.++....+.-.+.+.-..+...+.....       .....+++|||.. ..+ ....+....+.+.|++.|+  +.
+T Consensus        65 ~~~~~~~~~~L~~~~~~~~ie~h~~~~~~~~~-------~~pd~lv~DlDp~~~~~~~~~~~~a~~l~~~L~~~gl--~~  135 (228)
+T cd04865          66 NYVLCNNEETLIWLANQGCIEVHAWLSRAGRL-------EYPDIAVMDLDPSAGATFKDVLDIALLVHQALKEFNL--SG  136 (229)
+T ss_pred             EEEEeCCHHHHHHHHHCCCEEEEcccccCCCC-------CCCcEEEEeCCCCCCCCHHHHHHHHHHHHHHHHHCCC--ee
+
+
+Q ss_pred             -EEEeC-CeEEEEEEeCCCCChh-HHHHHHHHHHHH
+Q Q_9186633_71    122 -IIMNG-RGVQLVYSISGGAAPQ-MAYLTQIHNESL  154 (163)
+Q Consensus       122 -iv~SG-~G~h~~w~l~~~~~~~-~~~~~~~i~~~~  154 (163)
+                       +.+|| +|+|++..++...+-. .+.+.+.|+..+
+T Consensus       136 ~~k~SG~~G~Hv~vpl~~~~~~~~~~~~~~~ia~~l  171 (228)
+T cd04865         137 YPKTSGATGLHIFIPLEPRWTFHQVTAAMGYLARLV  172 (229)
+T ss_pred             eeEecCCCceEEEeeCCCCCCHHHHHHHHHHHHHHH
+
+
+No 13
+>d1zt2a1 d.264.1.1 (A:3-329) DNA primase small subunit PriA {Sulfolobus solfataricus [TaxId: 2287]}
+Probab=96.83  E-value=0.11  Score=41.39  Aligned_cols=147  Identities=12%  Similarity=0.083  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             CcchhHHHHHHHHHhhccCCce-------EEEEEECCCCceEE--EEEeHHHHHHHHHHHHcCCCcEEEEecccCC--CC
+Q Q_9186633_71      8 PQGETFIDSWYECYLSERKKSG-------YVVTIDLSNEQHKQ--IWYGLRDLKHLLKASERGLKDVYLSLNAFEH--GS   76 (163)
+Q Consensus         8 ~~~~~~~~~~~~~~~~~~~~~g-------~~~l~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~y~~i~~~~~--~~   76 (163)
+                      ..+..+++..|..|........       .+.+....++.+..  .+-+.+++..++...+ ...++|.+.+.|..  ..
+T Consensus         6 ~~~~~~l~~~f~~YY~~~~~~~p~~~~~REf~f~~~~~~~~~Rh~sf~s~~el~~~l~~~~-~P~~vy~S~a~Y~~P~~~   84 (327)
+T d1zt2a1           6 QGQTNLIKSFFRNYYLNAELELPKDMELREFALQPFGSDTYVRHLSFSSSEELRDYLVNRN-LPLHLFYSSARYQLPSAR   84 (327)
+T ss_dssp             CCCCCHHHHHHHHHHHHCCCCCCTTGGGSCEEEEETTCSSCCCCBCCSSHHHHHHCCCCCC-CEEEEEEESBCCSCTTCS
+T ss_pred             cchHHHHHHHHHHHHHhCCCCCCcccccceEEEEECCCCcceeeecCCCHHHHHHHHHHcC-CCCceeecchhccChhHc
+
+
+Q ss_pred             CCHHhcceecEEEEEeccccCC---------------------------------------CCHHHHHHHHHHHHHcCCC
+Q Q_9186633_71     77 RKTADLKQIRNIGVDLDFYKIG---------------------------------------LSKEYVIKQLHDFVFSGSL  117 (163)
+Q Consensus        77 ~~~~~v~~~~~l~~DiD~~~~~---------------------------------------~~~~~~~~~i~~~l~~~~l  117 (163)
+                      ...+.--.-.-+++|||.....                                       ...+++...+.-+.+..|+
+T Consensus        85 ~m~~k~w~gadLvFDIDad~~~~~~~~~~C~~c~~~~~c~~c~~~~~~~~~~~~~~~~~l~~ak~~a~~L~~~L~~dfG~  164 (327)
+T d1zt2a1          85 NMEEKAWMGSDLLFDIDADHLCKLRSIRFCPVCGNAVVSEKCERDNVETLEYVEMTSECIKRGLEQTRNLVEILEDDFGL  164 (327)
+T ss_dssp             SHHHHCCCCBCEEEEBCHHHHHCCEEEEECTTTCCBCSSSEETTTTEECEEEEECCHHHHHHHHHHHHHHHHCCCCCTCC
+T ss_pred             chhccccccccEEEEcCchhhhhccceeeCCCCCCceeccccccCCCCchhHHHHHHHHHHHHHHHHHHHHHHHHHHhCC
+
+
+Q ss_pred             CcCEEEEeC-CeEEEEEEeCCCCChhHHHHHHHHHHHHHH
+Q Q_9186633_71    118 PCPNIIMNG-RGVQLVYSISGGAAPQMAYLTQIHNESLCK  156 (163)
+Q Consensus       118 p~Psiv~SG-~G~h~~w~l~~~~~~~~~~~~~~i~~~~~~  156 (163)
+                       .+.+++|| +|+|+++..++.....-....+.|.+....
+T Consensus       165 -~~~i~FSG~RG~Hv~V~~d~~~~~l~~~~Rr~Ivdyi~~  203 (327)
+T d1zt2a1         165 -KPKVYFSGNRGFHVQVDCYGNCALLDSDERKEIAEYVMG  203 (327)
+T ss_dssp             -CCEEEECSSSSEEEEECCCSGGGGCCHHHHHHHHHHHTT
+T ss_pred             -CcEEEEecCCcEEEEEEcCcchhcCCHHHHHHHHHHHHh
+
+
+No 14
+>PF01896.19 ; DNA_primase_S ; DNA primase small subunit
+Probab=96.29  E-value=0.0078  Score=41.68  Aligned_cols=47  Identities=15%  Similarity=0.123  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             EEeccccCC--------------CCHHHHHHHHHHHH-HcCCCCcCE-EEEeC-CeEEEEEEeCC
+Q Q_9186633_71     90 VDLDFYKIG--------------LSKEYVIKQLHDFV-FSGSLPCPN-IIMNG-RGVQLVYSISG  137 (163)
+Q Consensus        90 ~DiD~~~~~--------------~~~~~~~~~i~~~l-~~~~lp~Ps-iv~SG-~G~h~~w~l~~  137 (163)
+                      +|||.....              ....++...+.+.+ +..|++ .. +.+|| +|+|+|+.+++
+T Consensus         1 fDiD~~~~~~~~~~~~~~~~~~~~~~~~a~~~~~~~l~~~~g~~-~~~~~~SG~~G~Hi~v~~~~   64 (153)
+T Q8SRD5_ENCCU/9    1 FDVDLTDYPRECCSEKLVCNRCLVLIKAAVEILNYSLREEFGFK-DVGFVFSGRRGVHCWVFDDE   64 (153)
+T ss_pred             CCCCCccCCccccCCcccchHHHHHHHHHHHHHHHHHHHhhCCC-ceEEEEEcCCcEEEEECcHH
+
+
+No 15
+>COG1467 PRI1; Eukaryotic-type DNA primase, catalytic (small) subunit  [Replication, recombination and repair]. 
+Probab=95.42  E-value=1.4  Score=35.36  Aligned_cols=123  Identities=15%  Similarity=0.153  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CcchhHHHHHHHHHhhccC---------CceEEEEEECCCCceEEEEEe-HHHHHHHHHHHHcCCCcEEEEecccCC--C
+Q Q_9186633_71      8 PQGETFIDSWYECYLSERK---------KSGYVVTIDLSNEQHKQIWYG-LRDLKHLLKASERGLKDVYLSLNAFEH--G   75 (163)
+Q Consensus         8 ~~~~~~~~~~~~~~~~~~~---------~~g~~~l~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~y~~i~~~~~--~   75 (163)
+                      ....++++.+|..++.. .         ...+..+...++.-.+...|. .+++.+++...  ....+|++..-+..  .
+T Consensus         7 ~~~~~~l~~~y~~~y~~-~~~~~~~~~~~re~~~~~~~~~~~~R~~sf~~~~~l~~~l~~~--~p~~i~is~~yy~~P~~   83 (341)
+T COG1467           7 GVTSEELKTLFREYYRF-KEIFLPLDIDEREEFYFPLKGGVYDRHLSFRSERELRDYLRRN--APRHVYSSAAYYEKPKE   83 (341)
+T ss_pred             CCCHHHHHHHHHHHCCc-ccccCCCCcccCeEEEEEecCCceEeeeccCCHHHHHHHHHHH--CCCeEEEeccccCCHHh
+
+
+Q ss_pred             CCCHHhcceecEEEEEeccccCCCCH--------------HHHHHHHHHHHHcCCCCcCE-EEEeCC-eEEEEE
+Q Q_9186633_71     76 SRKTADLKQIRNIGVDLDFYKIGLSK--------------EYVIKQLHDFVFSGSLPCPN-IIMNGR-GVQLVY  133 (163)
+Q Consensus        76 ~~~~~~v~~~~~l~~DiD~~~~~~~~--------------~~~~~~i~~~l~~~~lp~Ps-iv~SG~-G~h~~w  133 (163)
+                      .......-.-.-+++|||........              ..+...+...|.+.-.-... +++||+ |+|++.
+T Consensus        84 ~~~~~k~~~~~eLvfDID~~d~~~~~c~~~~~c~~c~~~~~~a~~ll~~~L~~dfGf~~i~~vfSG~RG~H~~V  157 (341)
+T COG1467          84 RKMEEKGWLGAELVFDIDADHLPERRCDKDSVCKMCLEDKKEAVRLLNDFLREDFGFKDIKIVFSGRRGYHVHV  157 (341)
+T ss_pred             ccccccCccccceEEEecCCCCCccCCCCchHHHHHHHHHHHHHHHHHHHHHHhhCCCeEEEEEecCCceEEEE
+
+
+No 16
+>KOG2851 Eukaryotic-type DNA primase, catalytic (small) subunit [Replication, recombination and repair]
+Probab=94.31  E-value=3.5  Score=34.29  Aligned_cols=129  Identities=8%  Similarity=0.012  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             ccccCCcchhHHHHHHHHHhhc---------------cCCceEEEEEECCCCceEEEEEe-HHHHHHHHHHHHcCCCcEE
+Q Q_9186633_71      3 VAIRKPQGETFIDSWYECYLSE---------------RKKSGYVVTIDLSNEQHKQIWYG-LRDLKHLLKASERGLKDVY   66 (163)
+Q Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~---------------~~~~g~~~l~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~y   66 (163)
+                      .+.......+.++.||..++..               .-..-.+.+...++.-.+...|. .+++.+.+....  ...+|
+T Consensus         6 ~~~~~~~~~~~l~~YY~~~fp~~~~~~WLsy~~~~~~~~~~REfsf~~~~~~yiR~~sF~~~~el~~~l~~~~--P~kid   83 (412)
+T KOG2851           6 SAKLPGVDSQDLPIYYRNLFPVKPFFRWLNYGPVPGDYFNRREFSFTLADDVYIRYLSFNNASEFEKEISSTN--PDKID   83 (412)
+T ss_pred             cccCCCCChHHHHHHHHHhCChHHHHhHhhcCCCCcccccccEEEEEeCCCcEEeccccCCHHHHHHHHHhhC--CCeEE
+
+
+Q ss_pred             EEecccCCCCCCH-----HhcceecEEEEEeccccCCCC----------------HHHHHHHHHHHHHc-CCCCcCE-EE
+Q Q_9186633_71     67 LSLNAFEHGSRKT-----ADLKQIRNIGVDLDFYKIGLS----------------KEYVIKQLHDFVFS-GSLPCPN-II  123 (163)
+Q Consensus        67 ~~i~~~~~~~~~~-----~~v~~~~~l~~DiD~~~~~~~----------------~~~~~~~i~~~l~~-~~lp~Ps-iv  123 (163)
+                      ++..-+..+....     .-...-.=+++|||..+....                ...+.+.+...|.+ .|+ ... ++
+T Consensus        84 igavy~~~P~~~~~~~~~~~~~~erELVFDID~~Dyd~~r~cc~~~~iC~kCw~~~~~a~klld~~L~~dFGf-~~il~v  162 (412)
+T KOG2851          84 IGAVYSHRPRNHKTLRKSDFQAVEKELVFDIDMTDYDDVRTCCSGADVCPKCWKFMTLAVKILDTALREDFGF-KHILWV  162 (412)
+T ss_pred             EEceecCCcccccccccccccccccceEEEcCCCCccccccccCCCcccHHHHHHHHHHHHHHHHHhHHhhCC-CeEEEE
+
+
+Q ss_pred             EeC-CeEEEEEE
+Q Q_9186633_71    124 MNG-RGVQLVYS  134 (163)
+Q Consensus       124 ~SG-~G~h~~w~  134 (163)
+                      +|| +|+|+|..
+T Consensus       163 FSGrRG~H~wV~  174 (412)
+T KOG2851         163 FSGRRGVHCWVC  174 (412)
+T ss_pred             EeCCCceeEEEe
+
+
+No 17
+>d1v33a_ d.264.1.1 (A:) DNA primase {Pyrococcus horikoshii [TaxId: 53953]}
+Probab=94.26  E-value=0.58  Score=37.70  Aligned_cols=84  Identities=19%  Similarity=0.258  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             eHHHHHHHHHHHHcCCCcEEEEecccCCCCCCHHhcceecEEEEEeccccCCCCH----------------HHHHHHHHH
+Q Q_9186633_71     47 GLRDLKHLLKASERGLKDVYLSLNAFEHGSRKTADLKQIRNIGVDLDFYKIGLSK----------------EYVIKQLHD  110 (163)
+Q Consensus        47 ~~~~~~~~~~~~~~~~~~~y~~i~~~~~~~~~~~~v~~~~~l~~DiD~~~~~~~~----------------~~~~~~i~~  110 (163)
+                      +.+++..++...  ....+|.+.+.+..+.  ....-.-.-+++|||........                ......+..
+T Consensus        55 s~~el~~~l~~~--~P~~vy~s~~~y~~p~--~~~~~~~~eLvFDID~~d~~~~~c~~~~~~~c~~c~~~~~~~~~~l~~  130 (346)
+T d1v33a_          55 DIRDLEDYIRAT--APYAVYSSVALYEKPQ--EMEGWLGTELVFDIDAKDLPLRRCEHEPGTVCPICLNDAKEIVRDTVI  130 (346)
+T ss_dssp             SHHHHHHHHHHH--CCSEEEEESEEEEETT--TTEEEEEECEEEEEEGGGCSSCSSCSCTTCCCHHHHHHHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHH--CCcccccCchhhcChh--hhcccccceeEEEccCccCCccccCCCCCccchhHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHH-cCCCCcCEEEEeCCeEEEEEE
+Q Q_9186633_71    111 FVF-SGSLPCPNIIMNGRGVQLVYS  134 (163)
+Q Consensus       111 ~l~-~~~lp~Psiv~SG~G~h~~w~  134 (163)
+                      .|. ..|+....+++||+|+|++..
+T Consensus       131 ~L~~dfGf~~i~~~fSGRG~Hv~V~  155 (346)
+T d1v33a_         131 ILREELGFNDIHIIYSGRGYHIRVL  155 (346)
+T ss_dssp             CCCCCTCCCCEEEEECSSEEEEEEC
+T ss_pred             HHHHHcCCCeeEEEEeCCCcEEEEe
+
+
+No 18
+>d1ro2a_ d.264.1.2 (A:) Bifunctional DNA primase/polymerase N-terminal domain {Sulfolobus islandicus [TaxId: 43080]}
+Probab=79.87  E-value=4.6  Score=29.67  Aligned_cols=48  Identities=8%  Similarity=-0.096  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             cEEEEEeccccCCCCHHHHHHHHHHHHHcCCCCcCE-EEEeC-CeEEEEEEeCCCCC
+Q Q_9186633_71     86 RNIGVDLDFYKIGLSKEYVIKQLHDFVFSGSLPCPN-IIMNG-RGVQLVYSISGGAA  140 (163)
+Q Consensus        86 ~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~lp~Ps-iv~SG-~G~h~~w~l~~~~~  140 (163)
+                      ..+++|+|..       .....+..+........++ .+.|+ +|+|+|+.......
+T Consensus        67 gliviDvD~~-------~~~~~~~~~~~l~~~~~~t~~~~t~~gG~h~~f~~~~~~~  116 (210)
+T d1ro2a_          67 GMVIMDFESK-------EKLKAWIGESALEELCRKTLCTNTVHGGIHIYVLSNDIPP  116 (210)
+T ss_dssp             GEEEEEESCH-------HHHHHHHCHHHHHHHHHHSCEEECTTSCEEEEEECSCCCS
+T ss_pred             CEEEEECCCH-------HHHHHhhchHhHHHHhcccEEEEcCCCcEEEEEEcCCCCC
+
+
+No 19
+>cd00525 AE_Prim_S_like; AE_Prim_S_like: primase domain similar to that found in the small subunit of archaeal and eukaryotic (A/E) DNA primases.
+Probab=79.13  E-value=13  Score=24.14  Aligned_cols=47  Identities=15%  Similarity=0.106  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             cEEEEEeccccCC-..............--CCHHHHHHHHHHHHHcCCCCcCE-EEEeC-CeEEEEEEe...........
+Q Q_9186633_71     86 RNIGVDLDFYKIG-..............--LSKEYVIKQLHDFVFSGSLPCPN-IIMNG-RGVQLVYSI...........  135 (163)
+Q Consensus        86 ~~l~~DiD~~~~~-..............--~~~~~~~~~i~~~l~~~~lp~Ps-iv~SG-~G~h~~w~l...........  135 (163)
+                      ..+++|+|... +                 ....+..+.+...+...+  .++ ...|| +|.|+|+.+           
+T Consensus        55 ~~~~~D~D~~~-~~..............~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~g~h~~~~~...........  106 (136)
+T cd00525          56 TELVFDIDAKD-LPlrrcehepgtvcpiCLNDAKEIVRDTVIILREELgfNDIHIIYSG-RGYHIRVLDewalkldsksr  133 (274)
+T ss_pred             CEEEEEecCCC-CC..............ChHHHHHHHHHHHHHhHHhC--CCCCEEEcCCCceEEEEEE...........
+
+
+Q ss_pred             ................................................................................
+Q Q_9186633_71    136 ................................................................................  135 (163)
+Q Consensus       136 ................................................................................  135 (163)
+                                                                                                      
+T Consensus       107 ................................................................................  106 (136)
+T cd00525         134 erilsfvsaseiedveefrklllnkrgwfvlnhgyprafrlrfgyfilriklphlinagirksiaksilkskeeiyeefv  213 (274)
+T ss_pred             ................................................................................
+
+
+Q ss_pred             ...............................
+Q Q_9186633_71    136 ...............................  135 (163)
+Q Consensus       136 ...............................  135 (163)
+                                                     
+T Consensus       107 ...............................  106 (136)
+T cd00525         214 rkailaafpqgvgieslaklfalstrfsksy  244 (274)
+T ss_pred             ...............................
+
+
+No 20
+>d2atza1 d.264.1.3 (A:3-178) Hypothetical protein HP0184 {Helicobacter pylori [TaxId: 210]}
+Probab=75.24  E-value=39  Score=24.71  Aligned_cols=75  Identities=11%  Similarity=0.017  Sum_probs=0.0  Template_Neff=3.300
+
+Q ss_pred             ecEEEEEeccccCCCCHHHHHHHHHHHHHcCCCCcCE-EEE-eCCeEEEEEEeCCCCChhHHHHHHHHHHHHHHHHhhhh
+Q Q_9186633_71     85 IRNIGVDLDFYKIGLSKEYVIKQLHDFVFSGSLPCPN-IIM-NGRGVQLVYSISGGAAPQMAYLTQIHNESLCKNAYAVR  162 (163)
+Q Consensus        85 ~~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~lp~Ps-iv~-SG~G~h~~w~l~~~~~~~~~~~~~~i~~~~~~d~~r~~  162 (163)
+                      +..+++|-.    |.+++.....+..++.+.|+...+ ... +.+-+|+|.........+...+.+.|...+..-..+-+
+T Consensus        69 venIV~dYn----G~~perFyh~aqlLlr~eg~~nftaY~~Kt~~hlhlyIhk~ht~L~ea~~l~~~lS~~L~~KlpkeW  144 (176)
+T d2atza1          69 VENIVFDYN----GRNPERFYHKAQLLLREEGFMNFTAYNTKTPGHLHLYVHKGHTELGEGERLVKTLSMKLAQGLPKEW  144 (176)
+T ss_dssp             ESCEEEEEC----SSCHHHHHHHHHHHHHHTTCCCEEEEECSSTTCEEEEECCCSEEHHHHHHHHHHHHHHHHTTSCCCE
+T ss_pred             eeEEEEeec----CCCHHHHHHHHHHHHHHcCCceEEEEeCCCCCeEEEEEEcCCcCHHHHHHHHHHHHHHHHcCCCCee
+
+
+Q ss_pred             C
+Q Q_9186633_71    163 R  163 (163)
+Q Consensus       163 r  163 (163)
+                      |
+T Consensus       145 k  145 (176)
+T d2atza1         145 K  145 (176)
+T ss_dssp             E
+T ss_pred             E
+
+
+No 21
+>PF09250.11 ; Prim-Pol ; Bifunctional DNA primase/polymerase, N-terminal
+Probab=64.59  E-value=32  Score=24.30  Aligned_cols=43  Identities=14%  Similarity=0.033  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             cEEEEEeccccCCCCHHHHHHHHHHHHHcCCCCcCE-EEEeC-CeEEEEEE
+Q Q_9186633_71     86 RNIGVDLDFYKIGLSKEYVIKQLHDFVFSGSLPCPN-IIMNG-RGVQLVYS  134 (163)
+Q Consensus        86 ~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~lp~Ps-iv~SG-~G~h~~w~  134 (163)
+                      ..+++|+|      +.+...+.+..++...+..+.+ +..++ +|.|+|+.
+T Consensus        79 ~~~viDiD------~~~~~~~~~~~l~~~~~~~p~~~~~~~~~~g~h~~~~  123 (179)
+T H8N107_CORCM/1   79 GVDVVDAD------AKADGVATLVQLEETRGELPDTVTARTSGGGCHVYFR  123 (179)
+T ss_pred             CEEEEEee------CccchhHHHHHHHHHhCCCCCeEEEEcCCCcEEEEEe
+
+
+No 22
+>PF18211.1 ; Csm1_B ; Csm1 subunit domain B
+Probab=63.93  E-value=27  Score=22.61  Aligned_cols=51  Identities=16%  Similarity=0.181  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             HHHHHHHcCCCCcCE-EEEeCCeEEEEEEeCCCCChhHHHHHHHHHHHHHHH
+Q Q_9186633_71    107 QLHDFVFSGSLPCPN-IIMNGRGVQLVYSISGGAAPQMAYLTQIHNESLCKN  157 (163)
+Q Consensus       107 ~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~~~~~~~~~~~~~~i~~~~~~d  157 (163)
+                      ....++++.+++... +..+||++.+...-.+......+.+.+.+.+.+...
+T Consensus        24 ia~~il~~l~l~~~nii~~~GG~F~illP~~~~~~~~l~~i~~~i~~~l~~~   75 (94)
+T N1ZNV3_9CLOT/2   24 IIDELLCTLSLSRANLLYCGGGHAYMILSNTEKTIKVISDYEKEINDWFLKN   75 (94)
+T ss_pred             HHHHHHHHcCCCHHHEeeeeCCcEEEEecCcHHHHHHHHHHHHHHHHHHHHH
+
+
+No 23
+>COG4983 COG4983; Uncharacterized protein, contains Primase-polymerase (Primpol) domain [Function unknown]. 
+Probab=53.30  E-value=68  Score=27.28  Aligned_cols=50  Identities=18%  Similarity=0.240  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             cEEEEEeccccC---CCCHHHHHHHHHHHHHcCCCCcCE-EEEeCCeEEEEEEe-CCCCC
+Q Q_9186633_71     86 RNIGVDLDFYKI---GLSKEYVIKQLHDFVFSGSLPCPN-IIMNGRGVQLVYSI-SGGAA  140 (163)
+Q Consensus        86 ~~l~~DiD~~~~---~~~~~~~~~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l-~~~~~  140 (163)
+                      ..+.+|+|....   |.....+.+.+..+     ...-+ +.-||.|+|++..- ..+..
+T Consensus        80 ~~~~iDlD~~~~~~~g~~~~~~~~~~~~~-----~~tY~E~S~SG~Glh~~~~g~~~~~~  134 (495)
+T COG4983          80 DDVPIDLDGCRDLDTGELKKSAQEKIRDL-----LNSYTEFSESGTGIHIIGKGEGIPIG  134 (495)
+T ss_pred             CceEEeCcCcccCCCCCCCHHHHHHHHHH-----hcceEEEecCCCeeEEEEEecCCCCC
+
+
+No 24
+>cd04859 Prim_Pol; Prim_Pol: Primase-polymerase (primpol) domain of the type found in bifunctional replicases from archaeal plasmids, including ORF904 protein of the crenarchaeal plasmid pRN1 from Sulfolobus islandicus (pRN1 primpol).
+Probab=51.98  E-value=84  Score=20.28  Aligned_cols=48  Identities=8%  Similarity=-0.048  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             cEEEEEeccccCCCCHHHHHHHHHHHHHcCCCCcC-E-EEEeC-CeEEEEEEeCCCCC
+Q Q_9186633_71     86 RNIGVDLDFYKIGLSKEYVIKQLHDFVFSGSLPCP-N-IIMNG-RGVQLVYSISGGAA  140 (163)
+Q Consensus        86 ~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~lp~P-s-iv~SG-~G~h~~w~l~~~~~  140 (163)
+                      ..+++|+|...      .....+... ...+..++ + ...++ +|.|+++.......
+T Consensus        50 ~~~~id~d~~~------~~~~~~~~~-~~~~~l~~~~~~~~~~~~g~~~~~~~~~~~~  100 (152)
+T cd04859          52 GLVILDFESK-------EKLKAWIGE-SALEELCRKTLCTNTVHGGIHIYVLSNDIPP  101 (158)
+T ss_pred             cEEEEECCCCC------cchHHHHHH-HHhCCCCCCCCEEECCCCceEEEEECCCCCC
+
+
+No 25
+>PF18828.1 ; LPD15 ; Large polyvalent-protein-associated domain 15
+Probab=37.51  E-value=1.7e+02  Score=19.56  Aligned_cols=62  Identities=10%  Similarity=-0.092  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             CCHHHHHHHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeCCCCCh-hHHHHHHHHHHHHHHHHhhhh
+Q Q_9186633_71     99 LSKEYVIKQLHDFVFSGSLPCPN-IIMNGRGVQLVYSISGGAAP-QMAYLTQIHNESLCKNAYAVR  162 (163)
+Q Consensus        99 ~~~~~~~~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~~~~~~-~~~~~~~~i~~~~~~d~~r~~  162 (163)
+                      ++.+++.+.+++-+.. |+ ... +..+|++.|.-......... .-..=.+.+...+-.||.++|
+T Consensus         1 asL~e~a~e~~~elrd-GI-awvi~wkeGRsW~~e~~~l~~d~~~~~~ed~~~l~ei~~~Dp~AVi   64 (100)
+T A0A1C7GRG5_9FI    1 ATLRETASSYANEIRE-GI-AWVVVWKTGRGWNASAFWLSCDTDVFEDDDLPEVRKILEQDPNAVM   64 (100)
+T ss_pred             CcHHHHHHHHHHHHHh-Cc-eEEEEEEcCCceeeEEEEEcCCCCCCChhhHHHHHHHHhhCCCcEE
+
+
+No 26
+>d2m1ia1 d.26.1.0 (A:6-97) automated matches {Cenarchaeum symbiosum [TaxId: 46770]}
+Probab=37.30  E-value=1.2e+02  Score=18.19  Aligned_cols=31  Identities=13%  Similarity=0.166  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeC
+Q Q_9186633_71    106 KQLHDFVFSGSLPCPN-IIMNGRGVQLVYSIS  136 (163)
+Q Consensus       106 ~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~  136 (163)
+                      ..+.+.+........+ .+.+++|+|++.+.+
+T Consensus        61 ~~~~~~l~~l~~g~~s~~i~~~~g~~i~~v~~   92 (92)
+T d2m1ia1          61 KPFEDAAFRLQVGEVSEPVKSEFGYHVIKRLG   92 (92)
+T ss_dssp             HHHHHHHHHTTTCCCCCCEECSSCEEEEEECC
+T ss_pred             HHHHHHHhcCCCCCcCCCEEcCCeEEEEEEcC
+
+
+No 27
+>d2lj4a_ d.26.1.0 (A:) automated matches {Trypanosome (Trypanosoma brucei) [TaxId: 5691]}
+Probab=35.89  E-value=1.4e+02  Score=19.27  Aligned_cols=31  Identities=16%  Similarity=0.267  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeC
+Q Q_9186633_71    106 KQLHDFVFSGSLPCPN-IIMNGRGVQLVYSIS  136 (163)
+Q Consensus       106 ~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~  136 (163)
+                      ..+.+.+........+ .+.++.|+|++.+.+
+T Consensus        84 ~~~~~~l~~l~~g~~s~~i~~~~g~~iv~~~~  115 (115)
+T d2lj4a_          84 KPFEDAVRALKIGDISPIVQTDSGLHIIKRLA  115 (115)
+T ss_dssp             HHHHHHHTTSCBTCBCCCEECSSSEEEEEECC
+T ss_pred             HHHHHHHHcCCCCCeeccEEcCCeEEEEEEcC
+
+
+No 28
+>d2itka2 d.26.1.1 (A:51-163) Mitotic rotamase PIN1, domain 2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=29.63  E-value=1.9e+02  Score=18.39  Aligned_cols=31  Identities=13%  Similarity=0.234  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeC
+Q Q_9186633_71    106 KQLHDFVFSGSLPCPN-IIMNGRGVQLVYSIS  136 (163)
+Q Consensus       106 ~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~  136 (163)
+                      ..+.+.+........+ .+.++.|+|++.+.+
+T Consensus        82 ~~~~~~~~~l~~G~~s~~i~~~~G~~iv~~~~  113 (113)
+T d2itka2          82 KPFEDASFALRTGEMSGPVFTDSGIHIILRTE  113 (113)
+T ss_dssp             HHHHHHHHHSCTTCBCCCEEETTEEEEEEECC
+T ss_pred             HHHHHHHhcCCCCcccCCEEeCCEEEEEEEcC
+
+
+No 29
+>d2jzva1 d.26.1.0 (A:140-245) automated matches {Staphylococcus aureus [TaxId: 1280]}
+Probab=28.84  E-value=2e+02  Score=17.81  Aligned_cols=31  Identities=10%  Similarity=0.116  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeC
+Q Q_9186633_71    106 KQLHDFVFSGSLPCPN-IIMNGRGVQLVYSIS  136 (163)
+Q Consensus       106 ~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~  136 (163)
+                      ..+...+........+ .+.++.|+|++...+
+T Consensus        75 ~~~~~~~~~l~~G~~s~~i~~~~g~~iv~~~~  106 (106)
+T d2jzva1          75 KDFEKALFKLKDGEVSEVVKSSFGYHIIKADK  106 (106)
+T ss_dssp             HHHHHHHHTCCTTCBCCCEEETTEEEEEEECC
+T ss_pred             HHHHHHHHcCCCCCccceEEeCCEEEEEEEcC
+
+
+No 30
+>d2mnta_ d.26.1.0 (A:) automated matches {Trypanosoma brucei [TaxId: 999953]}
+Probab=28.82  E-value=1.8e+02  Score=19.01  Aligned_cols=31  Identities=19%  Similarity=0.274  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             HHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeC
+Q Q_9186633_71    106 KQLHDFVFSGSLPCPN-IIMNGRGVQLVYSIS  136 (163)
+Q Consensus       106 ~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~  136 (163)
+                      ..+.+.+........+ ++.+++|+|++.+.+
+T Consensus        89 ~~~~~~~~~l~~G~~s~~i~~~~g~~ii~v~~  120 (120)
+T d2mnta_          89 EGFDTVAFSLKSGEVSAPVETELGVHLIYRVE  120 (120)
+T ss_dssp             TTTHHHHTTSCBTCBCCCEECSSCEECCBBCC
+T ss_pred             hHHHHHHHcCCCCCcCCCEecCCEEEEEEEcC
+
+
+No 31
+>PF14201.6 ; DUF4318 ; Domain of unknown function (DUF4318)
+Probab=28.10  E-value=2e+02  Score=17.57  Aligned_cols=30  Identities=23%  Similarity=0.207  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             cEEEEEeccccCCCCHHHHHHHHHHHHHcCCC
+Q Q_9186633_71     86 RNIGVDLDFYKIGLSKEYVIKQLHDFVFSGSL  117 (163)
+Q Consensus        86 ~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~l  117 (163)
+                      ..+.+|+|..-.  ++++..++|.+.+.+.|.
+T Consensus         2 k~~~i~ld~~~~--~~~e~~~aI~~y~~~~g~   31 (73)
+T R6N801_9FIRM/1    2 RVMLVDLDECPK--SVEAFCIEIERYCIKNGR   31 (73)
+T ss_pred             ceEEEeCCCCCC--CHHHHHHHHHHHHHHcCC
+
+
+No 32
+>KOG3259 Peptidyl-prolyl cis-trans isomerase [Posttranslational modification, protein turnover, chaperones]
+Probab=27.92  E-value=2.1e+02  Score=19.64  Aligned_cols=31  Identities=23%  Similarity=0.400  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeC
+Q Q_9186633_71    106 KQLHDFVFSGSLPCPN-IIMNGRGVQLVYSIS  136 (163)
+Q Consensus       106 ~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~  136 (163)
+                      ..+.+.+........+ .+.++.|+|++.+.+
+T Consensus       132 ~~~~~~~~~l~~G~is~pi~~~~g~~i~~~~~  163 (163)
+T KOG3259         132 KPFEDAAFALKVGEMSGIVDTDSGVHIIYRTA  163 (163)
+T ss_pred             HHHHHHHhcCCCCCccccEEcCCeEEEEEEeC
+
+
+No 33
+>d2kgja1 d.26.1.0 (A:1-94) automated matches {Escherichia coli [TaxId: 83333]}
+Probab=25.49  E-value=2.2e+02  Score=17.10  Aligned_cols=30  Identities=13%  Similarity=0.083  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHcCCCCcCE-EEEeCCeEEEEEEeC
+Q Q_9186633_71    106 KQLHDFVFSGSLPCPN-IIMNGRGVQLVYSIS  136 (163)
+Q Consensus       106 ~~i~~~l~~~~lp~Ps-iv~SG~G~h~~w~l~  136 (163)
+                      ..+.+.+.. .....+ .+.+++|+|++.+.+
+T Consensus        62 ~~~~~~~~~-~~g~~s~~i~~~~g~~iv~v~~   92 (94)
+T d2kgja1          62 DELKNAGLK-EKGQLSGVIKSSVGFLIVRLDD   92 (94)
+T ss_dssp             HHHHTTCCC-STTCEEEEEEETTEEEEEEEEE
+T ss_pred             HHHHHhhhc-CCCcccccEEeCCeEEEEEEeE
+
+
+No 34
+>PF08496.10 ; Peptidase_S49_N ; Peptidase family S49 N-terminal
+Probab=24.10  E-value=2.8e+02  Score=19.87  Aligned_cols=44  Identities=14%  Similarity=0.084  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             cEEEEEeccccCCCCHHHHHHHHHHHHHcCC-CCcCE-EEEeCCeE
+Q Q_9186633_71     86 RNIGVDLDFYKIGLSKEYVIKQLHDFVFSGS-LPCPN-IIMNGRGV  129 (163)
+Q Consensus        86 ~~l~~DiD~~~~~~~~~~~~~~i~~~l~~~~-lp~Ps-iv~SG~G~  129 (163)
+                      ..+++|++..-.....+.+.++|..+|.... -.+-- ...||||.
+T Consensus        90 rvfVLdF~GDi~AS~v~~LReEItAiL~vA~~~DEVvvrLESpGG~  135 (146)
+T A4VLP8_PSEU5/2   90 RVFVLDFDGDIRASAVENLRHEITALLTMATPQDEVVLRLESGGGM  135 (146)
+T ss_pred             eEEEEEecCCCCHHHHHHHHHHHHHHHhhCCCCCEEEEEEeeCCCc
+
+
+No 35
+>d3faua1 d.68.8.1 (A:11-89) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=20.75  E-value=2.7e+02  Score=16.57  Aligned_cols=37  Identities=24%  Similarity=0.374  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eccccCCCCHHHHHHHHHHHHHcC------CCCcCE-EEEeCCeEE
+Q Q_9186633_71     92 LDFYKIGLSKEYVIKQLHDFVFSG------SLPCPN-IIMNGRGVQ  130 (163)
+Q Consensus        92 iD~~~~~~~~~~~~~~i~~~l~~~------~lp~Ps-iv~SG~G~h  130 (163)
+                      +|..  |.+.+++...+..++...      .-.... .+-+|.|.|
+T Consensus         1 iDLH--g~~~~eA~~~l~~~l~~~~~~~~~~~~~~~~~iItG~G~h   44 (79)
+T d3faua1           1 LDLH--GLHVDEALEHLMRVLEKKTEEFKQNGGKPYLSVITGRGNH   44 (79)
+T ss_dssp             EECT--TSCHHHHHHHHHHHHHHHHHHHHHHCCCCEEEEECCC---
+T ss_pred             CCCC--CCCHHHHHHHHHHHHHHHHHHHHHcCCCCeEEEEeCCCCC
+
+

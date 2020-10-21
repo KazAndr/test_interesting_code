@@ -1,0 +1,3621 @@
+Query         Q_9186633_13
+Match_columns 66
+No_of_seqs    118 out of 1034
+Neff          7.95876
+Searched_HMMs 69205
+Date          Sun May 24 00:19:51 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_13.hhr -oa3m ../results/9186633_13.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 d2dsma1 d.372.1.1 (A:1-64) Hyp  99.7 7.2E-17   1E-21   85.3   6.8   61    1-64      1-63  (64)
+  2 PF11809.8 ; DUF3330 ; Domain o  97.5 0.00049 7.1E-09   37.3   4.5   53   14-66      4-58  (72)
+  3 PF09466.10 ; Yqai ; Hypothetic  97.5  0.0008 1.2E-08   35.6   5.0   52    1-58      1-53  (61)
+  4 PF04570.14 ; zf-FLZ ; zinc-fin  97.4 0.00035   5E-09   35.8   3.1   46    9-55      2-47  (53)
+  5 cd00472 Ribosomal_L24e_L24; Ri  97.1  0.0023 3.4E-08   31.6   4.3   45   20-64      3-50  (54)
+  6 PF09943.9 ; DUF2175 ; Uncharac  97.1  0.0013 1.9E-08   37.9   3.7   35   22-58      4-39  (100)
+  7 PF11494.8 ; Ta0938 ; Ta0938     97.0   0.005 7.2E-08   35.6   5.3   39   17-57     11-50  (105)
+  8 d1vq8u1 g.39.1.6 (U:4-56) Ribo  96.9  0.0037 5.4E-08   31.3   4.0   43   22-64      2-47  (53)
+  9 PF08394.10 ; Arc_trans_TRASH ;  96.9  0.0089 1.3E-07   25.9   4.7   35   23-57      1-36  (37)
+ 10 COG4847 COG4847; Uncharacteriz  96.8  0.0023 3.3E-08   37.1   2.7   34   22-57      8-41  (103)
+ 11 d2dasa1 g.39.1.17 (A:8-56) Zin  96.7  0.0036 5.2E-08   31.7   2.7   39   15-54      8-48  (49)
+ 12 COG3350 COG3350; Uncharacteriz  96.6   0.015 2.1E-07   28.1   4.8   38   20-57      2-42  (53)
+ 13 PF06467.14 ; zf-FCS ; MYM-type  96.6  0.0081 1.2E-07   26.0   3.5   35   19-54      2-37  (37)
+ 14 d2cupa3 g.39.1.3 (A:8-34) Four  96.5   0.004 5.8E-08   26.7   1.8   27   23-51      1-27  (27)
+ 15 d1x4ka2 g.39.1.3 (A:8-34) Four  96.4   0.006 8.7E-08   25.6   2.3   27   23-51      1-27  (27)
+ 16 d1v6ga2 g.39.1.3 (A:42-75) Act  96.3  0.0075 1.1E-07   28.2   2.3   27   22-50      2-28  (34)
+ 17 PF02069.16 ; Metallothio_Pro ;  96.2  0.0093 1.3E-07   30.1   2.5   38   15-54      1-38  (51)
+ 18 COG2075 RPL24A; Ribosomal prot  96.0   0.035 5.1E-07   29.6   4.3   45   20-64      3-50  (66)
+ 19 d1g47a1 g.39.1.3 (A:1-35) Pinc  95.9  0.0059 8.5E-08   28.3   1.0   28   21-50      8-35  (35)
+ 20 PF01246.20 ; Ribosomal_L24e ;   95.5   0.059 8.5E-07   28.6   3.9   45   20-64      3-50  (66)
+ 21 d1imla1 g.39.1.3 (A:1-28) Cyst  95.4   0.011 1.6E-07   25.2   0.8   27   22-51      2-28  (28)
+ 22 KOG1722 60s ribosomal protein   95.2    0.08 1.2E-06   32.8   4.3   44   20-63      3-49  (155)
+ 23 PF04945.13 ; YHS ; YHS domain   95.0    0.17 2.5E-06   22.2   4.9   35   22-56      2-38  (45)
+ 24 d1wyha2 g.39.1.3 (A:8-34) Four  94.7   0.042 6.1E-07   22.1   1.6   27   23-51      1-27  (27)
+ 25 d1zfoa_ g.39.1.4 (A:) LASP-1 {  94.3   0.044 6.4E-07   23.6   1.3   28   21-51      3-30  (30)
+ 26 d2o10a1 g.39.1.0 (A:7-35) auto  94.2   0.032 4.6E-07   24.1   0.7   27   22-51      3-29  (29)
+ 27 d1rutx4 g.39.1.3 (X:114-146) L  94.2    0.11 1.6E-06   21.9   2.5   29   23-53      2-30  (33)
+ 28 d1rutx3 g.39.1.3 (X:83-113) LI  94.1    0.13 1.9E-06   21.5   2.6   29   21-51      3-31  (31)
+ 29 KOG1723 60s ribosomal protein   94.1    0.21 3.1E-06   31.0   4.3   45   20-64      3-50  (162)
+ 30 PF12156.8 ; ATPase-cat_bd ; Pu  94.0    0.12 1.7E-06   28.3   2.9   33   23-56      2-37  (85)
+ 31 PF18716.1 ; VATC ; Vms1-associ  93.9    0.14   2E-06   24.9   2.8   39   18-58      1-39  (43)
+ 32 d1jjda_ g.46.1.1 (A:) Cyanobac  93.9   0.058 8.4E-07   27.6   1.4   28   23-52      7-34  (52)
+ 33 d1x61a2 g.39.1.3 (A:35-66) Thy  93.9    0.25 3.6E-06   20.8   3.4   31   22-55      1-31  (32)
+ 34 PF05573.12 ; NosL ; NosL        93.7    0.27 3.9E-06   28.5   4.1   45   14-58      1-51  (133)
+ 35 d2co8a2 g.39.1.3 (A:8-43) Nedd  93.6   0.092 1.3E-06   24.0   1.7   35   14-51      2-36  (36)
+ 36 COG4314 NosL; Nitrous oxide re  93.4    0.31 4.5E-06   30.2   4.3   46   12-57     27-78  (176)
+ 37 d2d8ya1 g.39.1.3 (A:8-43) Epli  93.3   0.064 9.3E-07   24.5   0.9   32   17-51      5-36  (36)
+ 38 d1wiga2 g.39.1.3 (A:33-67) Act  93.2    0.12 1.7E-06   24.3   1.7   27   22-50      1-27  (35)
+ 39 d2gvia2 g.39.1.18 (A:169-201)   92.9    0.11 1.5E-06   23.8   1.3   27   22-51      5-31  (33)
+ 40 d1x63a1 g.39.1.3 (A:8-44) Four  92.8    0.26 3.8E-06   20.1   2.5   34   16-51      4-37  (37)
+ 41 PF05810.12 ; NinF ; NinF prote  92.8    0.24 3.4E-06   26.1   2.6   35   23-66     20-56  (58)
+ 42 d1x68a1 g.39.1.3 (A:8-36) Four  92.6    0.22 3.2E-06   21.5   2.1   27   23-51      1-29  (29)
+ 43 d1x4la1 g.39.1.3 (A:8-36) Four  92.5    0.19 2.8E-06   21.3   1.8   27   23-51      1-29  (29)
+ 44 d1x62a1 g.39.1.3 (A:43-73) PDZ  92.5    0.18 2.6E-06   22.0   1.8   29   22-53      1-29  (31)
+ 45 d1x68a2 g.39.1.3 (A:37-70) Fou  92.1   0.097 1.4E-06   24.4   0.6   29   22-53      1-29  (34)
+ 46 d1b8ta1 g.39.1.3 (A:1-35) Cyst  92.1   0.099 1.4E-06   23.6   0.6   27   22-51      9-35  (35)
+ 47 PF14471.6 ; DUF4428 ; Domain o  92.1    0.25 3.7E-06   25.7   2.2   29   22-53      1-32  (57)
+ 48 d2d8xa1 g.39.1.3 (A:33-64) Pin  92.0    0.47 6.7E-06   20.0   2.8   29   22-53      1-29  (32)
+ 49 d2dj7a1 g.39.1.3 (A:44-74) Act  91.9    0.57 8.2E-06   18.5   3.4   28   22-53      1-28  (31)
+ 50 PF13719.6 ; zinc_ribbon_5 ; zi  91.7   0.081 1.2E-06   22.8   0.1   28   22-50      4-31  (37)
+ 51 d1x64a2 g.39.1.3 (A:53-83) PDZ  91.2    0.81 1.2E-05   18.9   3.3   29   22-53      1-29  (31)
+ 52 d1x61a1 g.39.1.3 (A:8-34) Thyr  91.2    0.33 4.8E-06   18.9   1.8   27   23-51      1-27  (27)
+ 53 d1rutx2 g.39.1.3 (X:49-82) LIM  91.2    0.86 1.2E-05   19.1   3.4   30   22-53      1-31  (34)
+ 54 d1a7ia2 g.39.1.3 (A:36-67) Cys  91.1    0.68 9.8E-06   19.5   2.9   29   22-53      1-29  (32)
+ 55 d1b8ta3 g.39.1.3 (A:101-143) C  90.9    0.18 2.6E-06   24.0   0.9   27   22-51     17-43  (43)
+ 56 d2lzua1 g.39.1.0 (A:36-68) aut  90.7   0.074 1.1E-06   23.7  -0.6   33   16-51      1-33  (33)
+ 57 PF14446.6 ; Prok-RING_1 ; Prok  90.6    0.76 1.1E-05   23.3   3.1   34   19-54      3-38  (55)
+ 58 PF15279.6 ; SOBP ; Sine oculis  90.6    0.28   4E-06   33.9   1.8   42   22-63      1-44  (334)
+ 59 d1x63a2 g.39.1.3 (A:45-76) Fou  90.2    0.75 1.1E-05   18.8   2.5   29   22-53      1-29  (32)
+ 60 d2cora1 g.39.1.3 (A:43-73) Pin  90.1    0.51 7.3E-06   20.2   1.9   28   22-53      1-28  (31)
+ 61 d1x4ka1 g.39.1.3 (A:35-66) Fou  89.7     1.1 1.6E-05   18.1   3.0   30   22-54      1-30  (32)
+ 62 PF12677.7 ; DUF3797 ; Domain o  89.5    0.43 6.2E-06   24.2   1.6   27   22-50     15-42  (48)
+ 63 d2cupa2 g.39.1.3 (A:35-65) Fou  88.3     1.1 1.6E-05   18.7   2.4   29   22-53      1-29  (31)
+ 64 d1wiga1 g.39.1.3 (A:8-32) Acti  88.1    0.66 9.6E-06   17.3   1.5   25   23-51      1-25  (25)
+ 65 PF10367.9 ; Vps39_2 ; Vacuolar  87.6     0.5 7.3E-06   24.7   1.2   30   22-53     80-109 (109)
+ 66 COG2191 FwdE; Formylmethanofur  87.6     2.4 3.5E-05   26.9   4.4   42    7-51    159-200 (206)
+ 67 d1x4la2 g.39.1.3 (A:37-66) Fou  87.5    0.59 8.5E-06   20.9   1.2   26   22-50      1-26  (30)
+ 68 d1x3ha2 g.39.1.3 (A:43-74) Leu  87.4     1.7 2.5E-05   17.4   3.2   32   22-56      1-32  (32)
+ 69 d2o13a1 g.39.1.0 (A:119-144) a  87.3    0.33 4.7E-06   20.2   0.3   26   22-50      1-26  (26)
+ 70 d1pfva3 g.41.1.1 (A:141-175) M  87.2    0.64 9.2E-06   21.3   1.3   16   19-34      1-16  (35)
+ 71 PF13717.6 ; zinc_ribbon_4 ; zi  86.7    0.33 4.7E-06   20.5   0.1   28   22-50      4-32  (37)
+ 72 PF06689.13 ; zf-C4_ClpX ; ClpX  86.7    0.65 9.4E-06   21.2   1.1   33   22-56      1-33  (37)
+ 73 d1u5sb2 g.39.1.3 (B:103-137) P  86.4       2 2.9E-05   17.2   3.6   29   22-53      2-30  (35)
+ 74 d2o10a2 g.39.1.0 (A:36-66) aut  86.4     1.5 2.2E-05   18.3   2.2   29   22-53      1-29  (31)
+ 75 d1rqga3 g.41.1.1 (A:139-173) M  85.9    0.82 1.2E-05   20.9   1.3   16   19-34      1-16  (35)
+ 76 COG4530 COG4530; Uncharacteriz  85.8    0.57 8.2E-06   28.2   0.9   29   15-50      4-32  (129)
+ 77 d1x64a1 g.39.1.3 (A:8-52) PDZ   85.2     1.8 2.6E-05   20.2   2.3   44    4-51      2-45  (45)
+ 78 d2cu8a2 g.39.1.3 (A:38-70) Cys  85.1     1.7 2.4E-05   18.4   2.1   29   22-53      1-30  (33)
+ 79 d2dj7a2 g.39.1.3 (A:8-43) Acti  85.1     1.8 2.6E-05   18.1   2.2   35   14-51      2-36  (36)
+ 80 d2d8xa2 g.39.1.3 (A:8-32) Pinc  84.8     1.3 1.9E-05   16.7   1.5   25   23-51      1-25  (25)
+ 81 PF09538.10 ; FYDLN_acid ; Prot  84.5    0.78 1.1E-05   26.5   1.0   29   15-50      4-32  (107)
+ 82 d2cura1 g.39.1.3 (A:33-63) Fou  84.4     2.6 3.7E-05   16.7   3.2   29   22-53      1-29  (31)
+ 83 d2dloa2 g.39.1.3 (A:43-75) Thy  84.4     2.8   4E-05   17.0   2.9   29   22-53      1-30  (33)
+ 84 PF01258.17 ; zf-dskA_traR ; Pr  84.3    0.47 6.7E-06   21.4   0.0   34   18-54      1-34  (36)
+ 85 d1x62a2 g.39.1.3 (A:8-42) PDZ   83.9     1.3 1.9E-05   19.1   1.4   33   15-51      3-35  (35)
+ 86 d1g47a2 g.39.1.3 (A:36-70) Pin  83.7     2.7 3.8E-05   16.2   3.4   29   22-53      2-30  (35)
+ 87 d2cora2 g.39.1.3 (A:8-42) Pinc  83.6     1.3 1.9E-05   19.4   1.4   35   13-51      1-35  (35)
+ 88 d2ds5a_ g.39.1.11 (A:) automat  83.3     1.6 2.3E-05   20.5   1.7   37   18-56      1-37  (43)
+ 89 COG4068 COG4068; Predicted nuc  83.2     1.4   2E-05   22.0   1.5   22   15-36      3-24  (64)
+ 90 d2dara2 g.39.1.3 (A:8-52) PDZ   83.1     2.2 3.2E-05   19.8   2.1   41    7-51      5-45  (45)
+ 91 d3ge3a_ a.25.1.2 (A:) automate  83.0     5.1 7.3E-05   28.9   4.7   38   20-57    393-439 (491)
+ 92 PF09889.9 ; DUF2116 ; Uncharac  82.7     1.3 1.9E-05   20.7   1.2   19   18-36      1-19  (58)
+ 93 KOG2063 Vacuolar assembly/sort  82.6     2.4 3.4E-05   31.2   3.0   41   22-64    836-876 (877)
+ 94 d2d8za1 g.39.1.3 (A:8-32) Four  82.4     2.1   3E-05   15.8   1.6   25   23-51      1-25  (25)
+ 95 cd01057 AAMH_A; Aromatic and A  82.4     7.2  0.0001   27.0   5.1   42   16-57    376-425 (465)
+ 96 d2cuqa1 g.39.1.3 (A:43-74) Fou  81.9     3.2 4.7E-05   16.3   2.3   29   22-53      1-29  (32)
+ 97 PF08746.11 ; zf-RING-like ; RI  81.7     4.4 6.4E-05   18.4   2.9   33   23-58      1-33  (41)
+ 98 PF12855.7 ; Ecl1 ; ECL1/2/3 zi  81.6     1.8 2.5E-05   26.4   1.8   28   19-53      4-31  (140)
+ 99 d1x6aa2 g.39.1.3 (A:42-75) Lim  81.2     1.9 2.8E-05   20.2   1.4   27   23-50      3-29  (34)
+100 PF10571.9 ; UPF0547 ; Uncharac  80.9     1.4   2E-05   18.5   0.9   15   22-36      2-16  (25)
+101 d2lzua2 g.39.1.0 (A:69-107) au  80.8       5 7.2E-05   17.5   3.7   30   22-54      1-30  (39)
+102 d1j2oa2 g.39.1.3 (A:31-63) Rho  80.7     4.8   7E-05   17.9   2.7   24   22-45      2-26  (33)
+103 d1x3ha1 g.39.1.3 (A:8-42) Leup  80.6     2.4 3.5E-05   16.8   1.6   26   22-51     10-35  (35)
+104 PF09297.11 ; zf-NADH-PPase ; N  80.0     2.9 4.1E-05   17.3   1.8   23    9-31     10-32  (32)
+105 d1mtyd_ a.25.1.2 (D:) Methane   79.2     9.5 0.00014   27.7   5.0   40   18-57    399-446 (512)
+106 KOG1701 Focal adhesion adaptor  79.0       6 8.6E-05   28.1   3.9   34   22-57    429-465 (468)
+107 COG1813 aMBF1; Archaeal riboso  78.9     3.1 4.5E-05   24.5   2.2   28   22-50      5-32  (165)
+108 PF03119.16 ; DNA_ligase_ZBD ;   78.9     3.1 4.5E-05   17.3   1.7   20   22-41      1-23  (28)
+109 PF02150.16 ; RNA_POL_M_15KD ;   78.8     2.3 3.4E-05   18.2   1.3   19   20-38      1-19  (32)
+110 d1x6aa1 g.39.1.3 (A:8-41) Lim   78.6     2.3 3.4E-05   17.2   1.2   25   22-50     10-34  (34)
+111 PF17915.1 ; zf_Rg ; Reverse gy  78.4     1.6 2.3E-05   22.1   0.7   19   16-34      3-21  (49)
+112 COG4338 COG4338; Uncharacteriz  78.4     2.3 3.4E-05   21.9   1.4   43   10-52      2-44  (54)
+113 d2co8a1 g.39.1.3 (A:44-76) Ned  78.4     4.2 6.1E-05   18.5   2.1   25   22-46      1-25  (33)
+114 PF03966.16 ; Trm112p ; Trm112p  78.1     2.4 3.5E-05   18.5   1.3   23   22-50      9-31  (40)
+115 PF17848.1 ; zf-ACC ; Acetyl-co  77.8       2 2.8E-05   18.2   0.8   10   22-31      3-12  (26)
+116 KOG2034 Vacuolar sorting prote  77.7     4.7 6.8E-05   30.2   3.2   35   22-58    819-853 (911)
+117 d1wyha1 g.39.1.3 (A:35-66) Fou  77.6     4.4 6.3E-05   15.6   2.0   29   22-53      1-29  (32)
+118 PF14803.6 ; Nudix_N_2 ; Nudix   77.6    0.73 1.1E-05   19.2  -0.6   27   22-50      2-28  (33)
+119 d2d8za2 g.39.1.3 (A:33-64) Fou  77.0     5.2 7.5E-05   15.5   3.2   31   22-55      1-31  (32)
+120 PF18439.1 ; zf_UBZ ; Ubiquitin  75.8     2.3 3.3E-05   18.9   0.8    9   22-30      4-12  (32)
+121 d1ak2a2 g.41.2.1 (A:147-176) M  75.4     2.7 3.9E-05   17.7   1.0   15   16-30     13-27  (30)
+122 PF08792.10 ; A2L_zn_ribbon ; A  75.1     1.9 2.7E-05   18.6   0.4   23   22-50      5-27  (33)
+123 PF08274.12 ; PhnA_Zn_Ribbon ;   75.1     3.1 4.4E-05   17.4   1.1   21   19-39      1-21  (30)
+124 d3tlxa1 g.41.2.0 (A:161-188) a  74.9     2.9 4.1E-05   17.4   1.0   15   16-30     11-25  (28)
+125 d1vd4a_ g.41.3.1 (A:) Transcri  74.7     2.6 3.8E-05   21.1   1.0   14   22-35     41-54  (62)
+126 d1twfi1 g.41.3.1 (I:1-49) RBP9  74.3     1.2 1.7E-05   21.0  -0.4   32   17-50      1-32  (49)
+127 PF04423.14 ; Rad50_zn_hook ; R  74.2     2.2 3.1E-05   20.5   0.6   10   21-30     20-29  (52)
+128 cd12870 MqsA; antitoxin MqsA f  73.9     1.9 2.8E-05   20.4   0.3   16   19-34     32-47  (66)
+129 d3n20a_ a.25.1.2 (A:) Toluene,  73.5      18 0.00025   26.3   5.0   42   16-57    389-439 (491)
+130 PF13248.6 ; zf-ribbon_3 ; zinc  73.4     3.4   5E-05   14.7   1.0   15   22-36      4-18  (26)
+131 PF10013.9 ; DUF2256 ; Uncharac  73.3     2.4 3.5E-05   20.1   0.6   36   15-50      2-37  (40)
+132 d1b8ta2 g.39.1.3 (A:36-100) Cy  73.3     6.8 9.8E-05   20.2   2.3   29   22-53      1-29  (65)
+133 d1j2oa1 g.39.1.3 (A:2-30) Rhom  73.1     4.6 6.6E-05   15.5   1.4   26   22-50      4-29  (29)
+134 PF11023.8 ; DUF2614 ; Zinc-rib  72.7     2.7 3.9E-05   23.1   0.8   19   17-35     80-98  (111)
+135 d1u5sb1 g.39.1.3 (B:74-102) Pi  72.0     3.8 5.4E-05   15.8   1.0   29   18-50      1-29  (29)
+136 d1rutx1 g.39.1.3 (X:19-48) LIM  71.7     4.8 6.9E-05   15.3   1.3   29   20-51      2-30  (30)
+137 cd00601 RNA_pol_P_RPB12; Eukar  71.1     4.8 6.9E-05   17.6   1.3   18   17-34     16-33  (42)
+138 d1tjla2 g.39.1.13 (A:111-151)   70.8     3.2 4.6E-05   19.6   0.7   10   21-30      2-11  (41)
+139 PF11781.8 ; zf-RRN7 ; Zinc-fin  70.8     4.8   7E-05   17.0   1.3   17   22-38      6-23  (32)
+140 d1b8ta4 g.39.1.3 (A:144-192) C  70.6      12 0.00017   16.6   2.7   29   22-53      1-29  (49)
+141 PF13240.6 ; zinc_ribbon_2 ; zi  70.3     4.6 6.6E-05   13.3   1.0   15   22-36      1-15  (23)
+142 PF05191.14 ; ADK_lid ; Adenyla  70.0       4 5.7E-05   17.4   0.9   15   17-31     18-32  (36)
+143 PF18508.1 ; zf_C2H2_13 ; Zinc   69.7      10 0.00015   18.7   2.4   28    3-30      2-29  (44)
+144 KOG2066 Vacuolar assembly/sort  69.1     9.1 0.00013   28.2   2.9   32   22-55    786-822 (846)
+145 COG3024 YacG; Endogenous inhib  68.6     9.6 0.00014   20.5   2.3   39   15-57      2-40  (65)
+146 d2o13a2 g.39.1.0 (A:145-176) a  68.5     8.9 0.00013   14.5   2.7   29   22-53      2-30  (32)
+147 d2cuqa2 g.39.1.3 (A:8-42) Four  68.4     8.5 0.00012   15.1   1.8   26   22-51     10-35  (35)
+148 d1vk6a4 g.41.14.1 (A:97-125) N  68.4      10 0.00015   15.2   2.2   24    9-32      6-29  (29)
+149 d4jzka2 g.41.2.1 (A:122-156) M  68.3     4.8 6.9E-05   17.6   1.0   15   16-30     18-32  (35)
+150 d1s3ga2 g.41.2.1 (A:126-160) M  67.8     4.9 7.1E-05   17.5   1.0   15   16-30     18-32  (35)
+151 d2dara1 g.39.1.3 (A:53-84) PDZ  67.8     9.5 0.00014   14.5   3.2   30   22-54      1-30  (32)
+152 d1v6ga1 g.39.1.3 (A:8-41) Acti  67.7       5 7.2E-05   15.7   0.9   25   22-50     10-34  (34)
+153 KOG3507 DNA-directed RNA polym  67.6     9.9 0.00014   19.5   2.2   37    7-50      3-43  (62)
+154 COG1645 COG1645; Uncharacteriz  67.6       6 8.6E-05   23.7   1.5   15   22-36     30-46  (131)
+155 d2dloa1 g.39.1.3 (A:8-42) Thyr  67.4     5.7 8.2E-05   15.9   1.1   26   22-51     10-35  (35)
+156 PF17121.5 ; zf-C3HC4_5 ; Zinc   67.4      16 0.00023   17.0   2.8   33   23-57      4-40  (51)
+157 d1zina2 g.41.2.1 (A:126-160) M  67.2       5 7.3E-05   17.1   0.9   15   16-30     18-32  (35)
+158 cd15802 RING_CBP-p300; atypica  66.6      10 0.00015   20.1   2.2   36   17-53      2-41  (73)
+159 PF07754.11 ; DUF1610 ; Domain   66.6     6.1 8.8E-05   16.3   1.1   12   23-34      1-12  (24)
+160 PF15731.5 ; MqsA_antitoxin ; A  66.4     6.4 9.2E-05   22.0   1.4   28   22-50      2-40  (131)
+161 PF14122.6 ; YokU ; YokU-like p  66.2     3.5 5.1E-05   21.6   0.3   16   19-34     34-49  (87)
+162 KOG1701 Focal adhesion adaptor  65.7       7  0.0001   27.8   1.8   36   14-51    268-303 (468)
+163 PF14149.6 ; YhfH ; YhfH-like p  65.3     5.2 7.5E-05   19.2   0.8   12   19-30     12-23  (37)
+164 PF14255.6 ; Cys_rich_CPXG ; Cy  64.9     4.7 6.8E-05   20.3   0.6    9   22-30      2-10  (50)
+165 COG1734 DksA; RNA polymerase-b  64.6       5 7.2E-05   23.3   0.8   12   20-31     80-91  (120)
+166 PF18319.1 ; PriA_CRR ; PriA DN  64.6     6.9  0.0001   16.2   1.1   22   23-50      1-22  (27)
+167 COG1579 COG1579; Predicted  nu  64.2       7  0.0001   24.4   1.4   19   17-35    218-236 (239)
+168 d1vq8z1 g.41.8.1 (Z:10-82) Rib  63.7     8.9 0.00013   20.5   1.6   30   15-50     22-51  (73)
+169 PF14205.6 ; Cys_rich_KTR ; Cys  63.6       6 8.6E-05   19.5   0.9    9   22-30      5-13  (54)
+170 PF16919.5 ; PknG_rubred ; Prot  63.1     4.1 5.9E-05   24.8   0.2   38   11-50     76-113 (132)
+171 PF08271.12 ; TF_Zn_Ribbon ; TF  62.7      11 0.00016   16.2   1.6   20   15-34     14-33  (43)
+172 d2ak3a2 g.41.2.1 (A:125-161) M  62.6     7.1  0.0001   17.3   1.0   15   16-30     18-32  (37)
+173 PF05883.11 ; Baculo_RING ; Bac  62.1      24 0.00035   21.6   3.3   31   23-55     25-63  (131)
+174 COG4416 Com; Mu-like prophage   62.0     6.8 9.8E-05   20.1   0.9   13   18-30     22-34  (60)
+175 COG1996 RPC10; DNA-directed RN  62.0     9.2 0.00013   17.3   1.3   17   18-34     22-38  (49)
+176 PF06170.12 ; DUF983 ; Protein   61.6     6.8 9.9E-05   21.1   0.9   17   18-34      6-22  (85)
+177 PF00645.18 ; zf-PARP ; Poly(AD  61.5      24 0.00034   18.7   3.0   36   21-58      8-58  (87)
+178 PF18256.1 ; HscB_4_cys ; Co-ch  61.3     6.8 9.8E-05   17.0   0.7   12   21-32      1-12  (27)
+179 d1imla2 g.39.1.3 (A:29-76) Cys  60.7      19 0.00027   16.3   2.3   31   22-55      1-32  (48)
+180 COG4307 COG4307; Uncharacteriz  60.7     7.5 0.00011   27.4   1.2   15   22-36      5-19  (349)
+181 PF17032.5 ; zinc_ribbon_15 ; z  60.5      12 0.00017   19.6   1.7   22   12-33     74-95  (103)
+182 d1dgsa1 a.60.2.2 (A:401-581) N  60.0     9.5 0.00014   22.6   1.4   21   18-38      1-21  (181)
+183 PF01155.19 ; HypA ; Hydrogenas  59.0      11 0.00016   21.1   1.6   20   19-38     82-104 (109)
+184 d1akya2 g.41.2.1 (A:131-168) M  59.0       9 0.00013   17.0   1.0   15   16-30     18-32  (38)
+185 d5aiea1 g.44.1.1 (A:30-82) aut  58.7      26 0.00038   17.1   2.7   32   23-56      4-37  (53)
+186 d1twfl_ g.41.9.2 (L:) RBP12 su  58.4     9.9 0.00014   18.0   1.1   15   17-31     18-32  (46)
+187 COG1998 RPS27AE; Ribosomal pro  57.9     9.3 0.00013   18.4   1.0   13   22-34     21-33  (51)
+188 d2jnea1 g.41.18.1 (A:1-71) Hyp  57.8      17 0.00024   18.8   2.0   18   22-39     53-70  (71)
+189 cd15565 PHD2_NSD; PHD finger 2  57.7      25 0.00036   16.0   3.3   33   22-56      1-37  (51)
+190 d2apob_ g.41.16.1 (B:) Ribosom  57.5     8.2 0.00012   19.7   0.7    9   22-30     18-26  (55)
+191 PF10886.8 ; DUF2685 ; Protein   57.2      28  0.0004   18.1   2.6   33   22-56      3-35  (53)
+192 PF12773.7 ; DZR ; Double zinc   57.2     9.8 0.00014   16.8   0.9   14   23-36      1-14  (44)
+193 d2akla2 g.41.3.5 (A:3-40) Hypo  56.6      11 0.00016   16.6   1.0   13   22-34     22-34  (38)
+194 d1qypa_ g.41.3.1 (A:) RBP9 sub  56.5      15 0.00021   17.9   1.6   17   13-29      8-24  (57)
+195 d2cura2 g.39.1.3 (A:8-32) Four  55.8      15 0.00021   12.7   1.6   25   23-51      1-25  (25)
+196 COG2093 Spt4; RNA polymerase s  55.7      12 0.00018   18.7   1.2   19   18-36      2-20  (64)
+197 PF07295.11 ; DUF1451 ; Zinc-ri  55.7      10 0.00015   22.7   1.1   16   17-32    124-139 (139)
+198 cd13946 LysW; Lysine biosynthe  55.3      11 0.00016   17.0   1.0   13   22-34      2-14  (54)
+199 PF06906.11 ; DUF1272 ; Protein  54.6      29 0.00042   18.4   2.5   30   23-53      8-38  (58)
+200 PF14354.6 ; Lar_restr_allev ;   54.5     9.4 0.00014   19.3   0.7    7   23-29      6-12  (69)
+201 PF17978.1 ; zf-RING_14 ; RING/  54.1      44 0.00063   17.7   3.6   41   15-57      3-43  (91)
+202 PF18279.1 ; zf-WRNIP1_ubi ; We  54.0      11 0.00016   15.0   0.7    8   23-30      5-12  (21)
+203 d2k4xa1 g.41.8.8 (A:1-55) Ribo  53.6      12 0.00017   18.0   0.9   10   22-31     20-29  (55)
+204 cd10508 Zn-ribbon_RPB9; C-term  53.6      19 0.00028   15.2   1.6   17   13-29      2-19  (49)
+205 COG5349 COG5349; Uncharacteriz  53.3      12 0.00018   22.0   1.1   17   18-34     38-54  (126)
+206 cd16493 RING-CH-C4HC3_NSE1; RI  53.1      27 0.00039   15.0   3.2   33   23-57      2-35  (47)
+207 KOG4628 Predicted E3 ubiquitin  52.7      36 0.00052   22.4   3.3   34   23-58    232-266 (348)
+208 d2gmga1 a.4.5.82 (A:10-105) Hy  52.1      18 0.00026   19.8   1.6   20   19-38     74-93  (96)
+209 PF02591.15 ; zf-RING_7 ; C4-ty  51.9      18 0.00026   15.9   1.3   13   18-30     21-33  (33)
+210 PF17981.1 ; ADD_ATRX ; Cystein  51.6      45 0.00065   17.1   3.1   31   22-54     11-45  (54)
+211 COG4640 YvbJ; Uncharacterized   51.6      13 0.00019   26.1   1.2   15   22-36      3-17  (465)
+212 PF01641.18 ; SelR ; SelR domai  51.6      26 0.00037   20.5   2.3   36    3-40     20-55  (118)
+213 PF10005.9 ; zinc-ribbon_6 ; zi  51.5     9.6 0.00014   21.6   0.5   12   22-33      3-14  (91)
+214 PF03604.13 ; DNA_RNApol_7kD ;   51.2      14 0.00021   15.2   0.9   13   22-34      2-14  (32)
+215 COG3357 COG3357; Predicted tra  51.0      20 0.00029   19.2   1.7   21   18-38     74-94  (97)
+216 d1twfi2 g.41.3.1 (I:50-121) RB  50.1      18 0.00026   18.9   1.4   22    7-28     10-31  (72)
+217 d1k3xa3 g.39.1.8 (A:223-262) E  50.0      13 0.00019   16.8   0.7    8   23-30     15-22  (40)
+218 d4c2mi1 g.41.3.1 (I:2-64) RNA   49.6      21  0.0003   17.9   1.5   15   20-34      6-20  (63)
+219 cd02336 ZZ_RSC8; Zinc finger,   49.4      23 0.00033   16.8   1.6   31   22-53      2-32  (45)
+220 d1lv3a_ g.39.1.9 (A:) Hypothet  48.9      20 0.00028   19.3   1.4   15   16-30      2-16  (65)
+221 PF06221.13 ; zf-C2HC5 ; Putati  48.8      15 0.00022   19.0   0.9   13   20-32     35-47  (55)
+222 COG4712 COG4712; Uncharacteriz  48.7     5.6 8.1E-05   26.2  -0.9   34   15-50    197-232 (234)
+223 COG0375 HybF; Hydrogenase matu  48.5      26 0.00037   19.4   1.9   20   19-38     85-107 (115)
+224 KOG4537 Zn-ribbon-containing p  48.2      14 0.00021   23.1   0.9   22   22-50     42-63  (178)
+225 PF04606.12 ; Ogr_Delta ; Ogr/D  47.1      14  0.0002   17.1   0.6    8   22-29      1-8   (47)
+226 COG3813 COG3813; Uncharacteriz  47.0      13 0.00019   21.0   0.6   10   21-30     42-51  (84)
+227 KOG2071 mRNA cleavage and poly  46.4      58 0.00085   24.0   3.8   40   23-65    516-566 (579)
+228 PF10892.8 ; DUF2688 ; Protein   46.4      17 0.00025   19.1   0.9   12   19-30      6-17  (56)
+229 PF14369.6 ; zinc_ribbon_9 ; zi  46.2      19 0.00027   14.8   0.9   14   17-30     15-28  (32)
+230 d1nuia2 g.41.3.2 (A:10-63) Zin  46.0      28 0.00041   18.1   1.6   23   23-50      8-30  (54)
+231 KOG0856 Predicted pilin-like t  45.8      20  0.0003   22.0   1.3   18   20-37     54-71  (146)
+232 d1k82a3 g.39.1.8 (A:225-268) D  45.5      16 0.00024   16.8   0.7    8   23-30     19-26  (44)
+233 COG1202 COG1202; Superfamily I  45.3      44 0.00064   25.3   3.1   37   20-58     95-135 (830)
+234 COG2888 COG2888; Predicted RNA  45.1      25 0.00036   17.6   1.4   18   16-33      5-22  (61)
+235 PF13453.6 ; zf-TFIIB ; Transcr  45.0      16 0.00022   16.2   0.6   17   20-36     19-35  (41)
+236 PF07191.12 ; zinc-ribbons_6 ;   45.0      26 0.00038   17.9   1.5   15   22-37     51-65  (66)
+237 PF13408.6 ; Zn_ribbon_recom ;   44.8      21  0.0003   16.9   1.1   12   20-31      5-16  (65)
+238 d1r2za3 g.39.1.8 (A:229-274) D  44.5      18 0.00026   16.8   0.8    8   23-30     21-28  (46)
+239 COG4393 COG4393; Uncharacteriz  44.5      25 0.00036   24.8   1.7   24   20-50    334-357 (405)
+240 d1wjva1 g.37.1.2 (A:8-35) Cell  44.5      23 0.00033   15.8   1.0   12   19-30      2-13  (28)
+241 COG1675 TFA1; Transcription in  44.4      21  0.0003   20.8   1.2   14   21-34    133-146 (176)
+242 PF11290.8 ; DUF3090 ; Protein   44.3      19 0.00028   22.6   1.0   11   23-33    157-167 (171)
+243 COG4391 COG4391; Uncharacteriz  43.6      27 0.00039   18.1   1.4   23    2-28     34-56  (62)
+244 PF11811.8 ; DUF3331 ; Domain o  43.4      32 0.00047   19.7   1.7   21   17-37     47-67  (90)
+245 d3e0oa_ b.88.1.3 (A:) Peptide   43.4      44 0.00064   20.2   2.5   33    3-37     27-59  (142)
+246 COG2835 YcaR; Uncharacterized   43.3      19 0.00027   17.8   0.8    8   23-30     11-18  (60)
+247 PF03691.14 ; UPF0167 ; Unchara  43.0      66 0.00095   20.1   3.2   53    6-60      2-62  (170)
+248 PF12172.8 ; DUF35_N ; Rubredox  42.6      26 0.00037   14.8   1.1   14   19-32     10-23  (37)
+249 PF14279.6 ; HNH_5 ; HNH endonu  42.2      24 0.00035   16.0   1.0   12   23-34      1-12  (55)
+250 KOG1703 Adaptor protein Enigma  42.0      33 0.00047   23.2   1.9   28   22-51    424-451 (479)
+
+No 1
+>d2dsma1 d.372.1.1 (A:1-64) Hypothetical protein YqaI {Bacillus subtilis [TaxId: 1423]}
+Probab=99.71  E-value=7.2e-17  Score=85.31  Aligned_cols=61  Identities=26%  Similarity=0.272  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             CCCCCccCCCCCCccccccceecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHHHh--cccccc
+Q Q_9186633_13      1 MVENGMLIGNAHDSSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECITQYVKSH--STEKVA   64 (66)
+Q Consensus         1 mienp~~~~~~~~~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~~~--~~~~~~   64 (66)
+                      ||||||++++..+... +....|+.||.+|+.||.++..+|+++|  .+|+.+|+.++  ...++|
+T Consensus         1 miEnPmv~~~~~~~~~-~~~~~~D~cG~EI~~GDey~~~~geiI~--~d~l~~Yl~e~~g~~~~~a   63 (64)
+T d2dsma1           1 MVENPMVINNWHDKLT-ETDVQIDFYGDEVTPVDDYVIDGGEIIL--RENLERYLREQLGFEFKNA   63 (64)
+T ss_dssp             CCCCSSCCCCCCSCCC-CSSCBCCTTSSCBCTTSCEEEETTEEEE--HHHHHHHHHHTCCCEECCC
+T ss_pred             CCCCccccCCCCccCC-CCceeecCCCCeecCCCEEEEeCCeEEE--hhhHHHHHHHHhCCEEEEC
+
+
+No 2
+>PF11809.8 ; DUF3330 ; Domain of unknown function (DUF3330)
+Probab=97.50  E-value=0.00049  Score=37.29  Aligned_cols=53  Identities=13%  Similarity=0.213  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             ccccccceecCCCCCcccCCCeEEEECC--eEEEcChHHHHHHHHHhccccccCC
+Q Q_9186633_13     14 SSARDFIEECAGCNGEIYFGESCLDFGG--DYLHADTECITQYVKSHSTEKVAGE   66 (66)
+Q Consensus        14 ~~~~~~~~~C~~CG~~I~~g~~~~~~~g--~~~~c~~~C~~~~~~~~~~~~~~g~   66 (66)
+                      +........|+.||..|..++.+....+  .+++||.+|...+..........++
+T Consensus         4 ~~~~~~mv~CpvCG~~Vp~~~A~~~~~~G~~~yFCS~~C~~~F~~~~~~~~~~~~   58 (72)
+T Q58AI5_CUPMC/2    4 NASDSTTTSCCVCCKEIPLDAAFTPEGAEYVEHFCGLECYQRFEAQAHRLRPRQQ   58 (72)
+T ss_pred             CCCcCCceeCCCCCCEEchhhCeecccCCeEEEEcCHHHHHHHHHhHHhcCcccc
+
+
+No 3
+>PF09466.10 ; Yqai ; Hypothetical protein Yqai
+Probab=97.49  E-value=0.0008  Score=35.55  Aligned_cols=52  Identities=13%  Similarity=0.091  Sum_probs=0.0  Template_Neff=4.100
+
+Q ss_pred             CCCCCccCCCCCCccccccceecCCCCCcccCCCeEEE-ECCeEEEcChHHHHHHHHHh
+Q Q_9186633_13      1 MVENGMLIGNAHDSSARDFIEECAGCNGEIYFGESCLD-FGGDYLHADTECITQYVKSH   58 (66)
+Q Consensus         1 mienp~~~~~~~~~~~~~~~~~C~~CG~~I~~g~~~~~-~~g~~~~c~~~C~~~~~~~~   58 (66)
+                      |    |+..+..+.|+......=+.||.+|+.||.++. .+|+++.  .+-+.+|+.+.
+T Consensus         1 m----~~~~~~~~~q~e~~~p~~D~fG~EI~~gD~i~i~~dGEvvL--~dNL~~YLie~   53 (61)
+T F2F2I0_SOLSS/1    1 M----NSCNECGRHQCDCEVMMLDQYGTEIVPGEEYILNNFDEVIH--KDNVIRYLIED   53 (61)
+T ss_pred             C----cccccccccCCCCCCcceeCCCCeecCCCeEEECCCCeEEE--ehhHHHHHHHc
+
+
+No 4
+>PF04570.14 ; zf-FLZ ; zinc-finger of the FCS-type, C2-C2
+Probab=97.42  E-value=0.00035  Score=35.79  Aligned_cols=46  Identities=20%  Similarity=0.397  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             CCCCCccccccceecCCCCCcccCCCeEEEECCeEEEcChHHHHHHH
+Q Q_9186633_13      9 GNAHDSSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECITQYV   55 (66)
+Q Consensus         9 ~~~~~~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~   55 (66)
+                      ...........+..|..|++.| .|.++|+.-|+..+||.+|....+
+T Consensus         2 ~~~~~~~~~~FL~~C~~Ckk~L-~~~diymYrg~~aFCs~eCR~~~i   47 (53)
+T F4IE21_ARATH/1    2 ERRVLRDCPDFLTSCCLCKKKL-QGKDIYMYKGDEGFCSKECRSLKI   47 (53)
+T ss_pred             ccccccccccHHhhCccCCCCC-CCCCceeecCCcccCCHHHHHHHh
+
+
+No 5
+>cd00472 Ribosomal_L24e_L24; Ribosomal protein L24e/L24 is a ribosomal protein found in eukaryotes (L24) and in archaea (L24e, distinct from archaeal L24).
+Probab=97.14  E-value=0.0023  Score=31.59  Aligned_cols=45  Identities=16%  Similarity=0.302  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             ceecCCCCCcccCCCeEEEE--CC-eEEEcChHHHHHHHHHhcccccc
+Q Q_9186633_13     20 IEECAGCNGEIYFGESCLDF--GG-DYLHADTECITQYVKSHSTEKVA   64 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~~~~--~g-~~~~c~~~C~~~~~~~~~~~~~~   64 (66)
+                      ...|+.||..|+.+......  +| .+++||..|...+.....-+++.
+T Consensus         3 ~~~dp~cg~~i~~~~~~~~~~~~g~~~~Fcs~kC~~~f~~k~nprk~~   50 (54)
+T cd00472           3 TRECDYCGTDIEPGTGTMFVHKDGATTHFCSSKCENNADLGREARNLE   50 (54)
+T ss_pred             ccccCCCCCEECCCCCeEEEEeCCEEEEEeCHHHHHHHHcCCChhhCC
+
+
+No 6
+>PF09943.9 ; DUF2175 ; Uncharacterized protein conserved in archaea (DUF2175)
+Probab=97.13  E-value=0.0013  Score=37.89  Aligned_cols=35  Identities=23%  Similarity=0.466  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             ecCCCCCcccCCCeEEEE-CCeEEEcChHHHHHHHHHh
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDF-GGDYLHADTECITQYVKSH   58 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~-~g~~~~c~~~C~~~~~~~~   58 (66)
+                      .|..||++|+.|+.+.+. .+..+|  .+|+.+.....
+T Consensus         4 kC~iCg~~I~~Ge~FTFt~kkG~VH--~~Cf~~~~~k~   39 (100)
+T Q4J6F1_SULAC/6    4 NCGLCGKPIYWDELFTFMSNKAVVH--YTCFKEKASST   39 (100)
+T ss_pred             eeeeCCCeEEecceEEEecCCceee--HHHHHHHHhhc
+
+
+No 7
+>PF11494.8 ; Ta0938 ; Ta0938
+Probab=96.99  E-value=0.005  Score=35.64  Aligned_cols=39  Identities=18%  Similarity=0.373  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             cccceecCCCCCcccCCCeEEEECC-eEEEcChHHHHHHHHH
+Q Q_9186633_13     17 RDFIEECAGCNGEIYFGESCLDFGG-DYLHADTECITQYVKS   57 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~~g~~~~~~~g-~~~~c~~~C~~~~~~~   57 (66)
+                      ......||.||..|  +......+| .+++|+..|...+...
+T Consensus        11 ~~~~~~CpvCG~~i--~~i~~~~~Gk~~yFCC~~C~~~F~~~   50 (105)
+T L0A7S6_CALLD/1   11 GTKETGCALCGGTW--GDYYETVEGEKLFFCCNICAKAFINI   50 (105)
+T ss_pred             CCCceecCCCCCEE--ceEEEEECCEEEEEcCHHHHHHHHHH
+
+
+No 8
+>d1vq8u1 g.39.1.6 (U:4-56) Ribosomal protein L24e {Haloarcula marismortui [TaxId: 2238]}
+Probab=96.93  E-value=0.0037  Score=31.33  Aligned_cols=43  Identities=16%  Similarity=0.317  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEE--CC-eEEEcChHHHHHHHHHhcccccc
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDF--GG-DYLHADTECITQYVKSHSTEKVA   64 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~--~g-~~~~c~~~C~~~~~~~~~~~~~~   64 (66)
+                      .|+.||..|+.|......  +| .+++|+..|...+.....-+++.
+T Consensus         2 ~cp~cg~~i~p~~g~~~~~~~g~~~~Fcs~kC~~~f~~k~nPrk~~   47 (53)
+T d1vq8u1           2 ECDYCGTDIEPGTGTMFVHKDGATTHFCSSKCENNADLGREARNLE   47 (53)
+T ss_dssp             BCTTTCCBCCSSCCEEEECTTSCEEEESCHHHHHHHHTTCCGGGCT
+T ss_pred             ccCCCCCEECCCCCeEEEEeCCEEEEECChHHHHHHHccCChhhcc
+
+
+No 9
+>PF08394.10 ; Arc_trans_TRASH ; Archaeal TRASH domain
+Probab=96.89  E-value=0.0089  Score=25.95  Aligned_cols=35  Identities=20%  Similarity=0.397  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             cCCCCCcccCCCeEEEECC-eEEEcChHHHHHHHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGG-DYLHADTECITQYVKS   57 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g-~~~~c~~~C~~~~~~~   57 (66)
+                      |+.||..|......+..+| .+++|+..|...+...
+T Consensus         1 C~~cg~~~~~~~~~~~~~g~~~~fC~~~C~~~~~~~   36 (37)
+T Q6L303_PICTO/1    1 CDYCGSVITGESHTYEHKNRIYYFCCSTCKSQFLKE   36 (37)
+T ss_pred             CCCCCCEecCCCeEEEECCEEEEEcCHHHHHHHHhc
+
+
+No 10
+>COG4847 COG4847; Uncharacterized protein [Function unknown]. 
+Probab=96.78  E-value=0.0023  Score=37.08  Aligned_cols=34  Identities=24%  Similarity=0.451  Sum_probs=0.0  Template_Neff=4.100
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQYVKS   57 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~~   57 (66)
+                      .|..||++|+.|+.+.+.....+|  .+|+.+....
+T Consensus         8 kC~iC~~~I~~Ge~FTFtkkG~VH--~~Cf~~~~~k   41 (103)
+T COG4847           8 KCYVCGGTIIEGQKFTFTKKGSVH--YECLAESKRK   41 (103)
+T ss_pred             eeeecCCeeEeceeeEEecCCcee--HHHHHHHhcC
+
+
+No 11
+>d2dasa1 g.39.1.17 (A:8-56) Zinc finger MYM-type protein 5 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=96.68  E-value=0.0036  Score=31.75  Aligned_cols=39  Identities=18%  Similarity=0.484  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEECC--eEEEcChHHHHHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFGG--DYLHADTECITQY   54 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~g--~~~~c~~~C~~~~   54 (66)
+                      +.......|.+|.+.|..|+..|...|  .+| ||..|+..+
+T Consensus         8 ~~~~~~v~Cs~Ck~vl~kGQtayqrkgs~~lF-CSt~CL~~~   48 (49)
+T d2dasa1           8 LTKPAKITCANCKKPLQKGQTAYQRKGSAHLF-CSTTCLSSF   48 (49)
+T ss_dssp             CSSCSSCBCTTTCCBCCTTSCCEECTTCCCEE-SSHHHHHHH
+T ss_pred             CCCCeEEEeCCCCceeecCCceEEeCCCchhe-echhHhhcC
+
+
+No 12
+>COG3350 COG3350; Uncharacterized conserved protein, YHS domain  [Function unknown]. 
+Probab=96.64  E-value=0.015  Score=28.09  Aligned_cols=38  Identities=18%  Similarity=0.318  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             ceecCCCCCccc--CCCeEEEECC-eEEEcChHHHHHHHHH
+Q Q_9186633_13     20 IEECAGCNGEIY--FGESCLDFGG-DYLHADTECITQYVKS   57 (66)
+Q Consensus        20 ~~~C~~CG~~I~--~g~~~~~~~g-~~~~c~~~C~~~~~~~   57 (66)
+                      ...|+.||..|.  ........+| .+++||..|+..+...
+T Consensus         2 ~~~cpvcg~~i~~~~~~~~~~~~g~~~~Fcs~~C~~~f~~~   42 (53)
+T COG3350           2 DVIDPVCGMKVDNENAEYKSSYGGKTYYFCSEECKEKFKDN   42 (53)
+T ss_pred             cccCCCCCCeecCCCCceEEEECCEEEEECCHHHHHHHHhC
+
+
+No 13
+>PF06467.14 ; zf-FCS ; MYM-type Zinc finger with FCS sequence motif
+Probab=96.62  E-value=0.0081  Score=26.01  Aligned_cols=35  Identities=14%  Similarity=0.309  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             cceecCCCCCcccCCCeEEEECC-eEEEcChHHHHHH
+Q Q_9186633_13     19 FIEECAGCNGEIYFGESCLDFGG-DYLHADTECITQY   54 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~g~~~~~~~g-~~~~c~~~C~~~~   54 (66)
+                      ....|+.||..|..... +..++ ...+|+..|...+
+T Consensus         2 ~~~~c~~C~~~~~~~~~-~~~~~~~~~fC~~~c~~~f   37 (37)
+T ZMYM2_MOUSE/72    2 RCVTCNYCSQLCKKGAT-KELDGVVRDFCSEDCCKKF   37 (37)
+T ss_pred             CcccCCCCCCEecCCCc-EEECCEEEEEcCHHHHHhC
+
+
+No 14
+>d2cupa3 g.39.1.3 (A:8-34) Four and a half LIM domains protein 1, FHL-1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=96.45  E-value=0.004  Score=26.74  Aligned_cols=27  Identities=19%  Similarity=0.559  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|++.|-.++..+...+..+|  .+|+
+T Consensus         1 C~~C~~~I~~~~~~~~~~~~~wH--~~CF   27 (27)
+T d2cupa3           1 CVECRKPIGADSKEVHYKNRFWH--DTCF   27 (27)
+T ss_dssp             CSSSCCBCCSSSCEEEETTEEEE--TTTC
+T ss_pred             CCCCCCccCCCCceEEeCCeeec--cccC
+
+
+No 15
+>d1x4ka2 g.39.1.3 (A:8-34) Four and a half LIM domains protein 2, FHL2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=96.42  E-value=0.006  Score=25.60  Aligned_cols=27  Identities=26%  Similarity=0.709  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|+++|..++......+..+|  .+|+
+T Consensus         1 C~~C~~~i~~~~~~~~~~~~~~H--~~Cf   27 (27)
+T d1x4ka2           1 CQECKKTIMPGTRKMEYKGSSWH--ETCF   27 (27)
+T ss_dssp             BSSSCCCCCSSSCEEEETTEEEE--TTTT
+T ss_pred             CccCCCcccCCCceEEeCCEEeC--hhhC
+
+
+No 16
+>d1v6ga2 g.39.1.3 (A:42-75) Actin-binding LIM protein 2, abLIM2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=96.28  E-value=0.0075  Score=28.24  Aligned_cols=27  Identities=22%  Similarity=0.394  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|..|++++..|+.++..+++.+|  ..|
+T Consensus         2 ~Ca~C~~pF~~G~~vt~~g~e~lC--~~C   28 (34)
+T d1v6ga2           2 VCAVCRLPFPPGDRVTFNGKECMC--QKC   28 (34)
+T ss_dssp             SCSSSCCCCCSSSCEEEETTEEEE--HHH
+T ss_pred             cccCCCCcCCCCCEEEEcCCEEEc--ccc
+
+
+No 17
+>PF02069.16 ; Metallothio_Pro ; Prokaryotic metallothionein
+Probab=96.19  E-value=0.0093  Score=30.10  Aligned_cols=38  Identities=11%  Similarity=0.345  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEECCeEEEcChHHHHHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECITQY   54 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~   54 (66)
+                      ......-.|+.||-.|..++.+.. +|.+| ||..|...+
+T Consensus         1 ~~~~~mv~Cp~Cg~~v~~~~a~~~-~g~yF-Cs~~C~~~~   38 (51)
+T K8GTB8_9CYAN/3    1 TVTQMKCACPDCLCIVNLSDAVMK-DGKAY-CGEACANGH   38 (51)
+T ss_pred             CCCCCeeeCCCCCCEeCHHHceee-CCEEE-CCHHHHHcC
+
+
+No 18
+>COG2075 RPL24A; Ribosomal protein L24E  [Translation, ribosomal structure and biogenesis]. 
+Probab=95.99  E-value=0.035  Score=29.61  Aligned_cols=45  Identities=16%  Similarity=0.336  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             ceecCCCCCcccCCCeEEEE--CC-eEEEcChHHHHHHHHHhcccccc
+Q Q_9186633_13     20 IEECAGCNGEIYFGESCLDF--GG-DYLHADTECITQYVKSHSTEKVA   64 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~~~~--~g-~~~~c~~~C~~~~~~~~~~~~~~   64 (66)
+                      ...|..||.+|+.|.....+  || -+++|+..|...+.....-+++.
+T Consensus         3 ~~~C~fsg~~I~pG~G~~~V~~Dg~~~~F~s~Kc~~~~~~krnPrk~~   50 (66)
+T COG2075           3 VRVCSFCGKKIEPGTGIMYVRNDGKVLRFCSSKCEKLFKLGRNPRKLK   50 (66)
+T ss_pred             eEEecCCCCcCCCCCCeEEEeCCCeEEEEcChHHHHHHHcCCChhhcH
+
+
+No 19
+>d1g47a1 g.39.1.3 (A:1-35) Pinch (particularly interesting new Cys-His) protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=95.93  E-value=0.0059  Score=28.30  Aligned_cols=28  Identities=25%  Similarity=0.674  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             eecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     21 EECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        21 ~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      ..|..|++.+..++.++...++.+|  .+|
+T Consensus         8 ~~C~rC~~~f~~~e~iv~s~~~~wH--~~C   35 (35)
+T d1g47a1           8 ATCERCKGGFAPAEKIVNSNGELYH--EQC   35 (35)
+T ss_dssp             CBCSSSCCBCCSTTTCEEETTEEEC--TTT
+T ss_pred             hhcHHcCCccCCCCcEEecCCeEEe--CCC
+
+
+No 20
+>PF01246.20 ; Ribosomal_L24e ; Ribosomal protein L24e
+Probab=95.47  E-value=0.059  Score=28.55  Aligned_cols=45  Identities=22%  Similarity=0.473  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             ceecCCCCCcccCCCeEEEE--CC-eEEEcChHHHHHHHHHhcccccc
+Q Q_9186633_13     20 IEECAGCNGEIYFGESCLDF--GG-DYLHADTECITQYVKSHSTEKVA   64 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~~~~--~g-~~~~c~~~C~~~~~~~~~~~~~~   64 (66)
+                      ...|..||..|+.|.....+  +| -+.+|+..|...+.....-+++.
+T Consensus         3 ~~~C~f~g~~i~pg~G~~~v~~dg~~~~F~s~Kc~~~~~~kr~prk~~   50 (66)
+T S7WEA5_SPRLO/1    3 IEKCYFCSSSIYPGHGTRFIRGDCTNFFFCRSKCRNAFKKKWNPRKSK   50 (66)
+T ss_pred             ceeccCCCCCCCCCCCeEEEEcCCcceeecChHHHHHHHccCChhhch
+
+
+No 21
+>d1imla1 g.39.1.3 (A:1-28) Cysteine-rich (intestinal) protein, CRP, CRIP {Rat (Rattus rattus) [TaxId: 10117]}
+Probab=95.37  E-value=0.011  Score=25.20  Aligned_cols=27  Identities=33%  Similarity=0.835  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .|+.|++.|+..+. +...+..+|  ..|+
+T Consensus         2 ~C~~C~~~v~~~e~-~~~~~~~~H--~~Cf   28 (28)
+T d1imla1           2 KCPKCDKEVYFAER-VTSLGKDWH--RPCL   28 (28)
+T ss_dssp             BCTTTSSBCCGGGE-EEETTEEEE--TTTC
+T ss_pred             CCCCCCCeechhHe-eeeCCCccC--HhhC
+
+
+No 22
+>KOG1722 60s ribosomal protein L24 [Translation, ribosomal structure and biogenesis]
+Probab=95.18  E-value=0.08  Score=32.81  Aligned_cols=44  Identities=16%  Similarity=0.375  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             ceecCCCCCcccCCCeEEEE--CC-eEEEcChHHHHHHHHHhccccc
+Q Q_9186633_13     20 IEECAGCNGEIYFGESCLDF--GG-DYLHADTECITQYVKSHSTEKV   63 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~~~~--~g-~~~~c~~~C~~~~~~~~~~~~~   63 (66)
+                      ...|.+||..||.|--..++  || -+++|+..|...+.....-+++
+T Consensus         3 ~~~CsFsg~~I~PG~G~~~Vr~Dgkv~~F~ssKc~~~f~~KrnPRk~   49 (155)
+T KOG1722           3 VELCSFSGYKIYPGHGRRFVRGDGKVFRFLNSKCESLFLQRRNPRRL   49 (155)
+T ss_pred             eEEccCCCCCCCCCCCeEEEecCCceEeecCHHHHHHHhcCCCcccc
+
+
+No 23
+>PF04945.13 ; YHS ; YHS domain
+Probab=94.98  E-value=0.17  Score=22.23  Aligned_cols=35  Identities=11%  Similarity=0.301  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             ecCCCCCcccC-CCeEEEECC-eEEEcChHHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYF-GESCLDFGG-DYLHADTECITQYVK   56 (66)
+Q Consensus        22 ~C~~CG~~I~~-g~~~~~~~g-~~~~c~~~C~~~~~~   56 (66)
+                      .|+.||..|.. .......+| .+++|+..|...+..
+T Consensus         2 ~c~~cg~~~~~~~~~~~~~~g~~~~fc~~~c~~~~~~   38 (45)
+T Q9HJ29_THEAC/1    2 IDPVCGMKVDKNAKFKSTYNGKEYYFCSEHCKVEFDR   38 (45)
+T ss_pred             ccCCCCCEeCCCCCEEEEECCEEEEECCHHHHHHHHH
+
+
+No 24
+>d1wyha2 g.39.1.3 (A:8-34) Four and a half LIM domains 3, FHL3 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=94.67  E-value=0.042  Score=22.13  Aligned_cols=27  Identities=30%  Similarity=0.853  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|+..|..++......+..+|  .+|+
+T Consensus         1 c~~C~~~i~~~~~~~~~~~~~~h--~~cf   27 (27)
+T d1wyha2           1 CSACGETVMPGSRKLEYGGQTWH--EHCF   27 (27)
+T ss_dssp             CSSSCCBCCSSSCEECSTTCCEE--TTTC
+T ss_pred             CCCCCCEecCCCcEEEeCCceeC--cccC
+
+
+No 25
+>d1zfoa_ g.39.1.4 (A:) LASP-1 {Pig (Sus scrofa) [TaxId: 9823]}
+Probab=94.32  E-value=0.044  Score=23.62  Aligned_cols=28  Identities=25%  Similarity=0.554  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             eecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     21 EECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        21 ~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      ..|+.|+++|+..+.+. ..+..+|  ..|+
+T Consensus         3 ~~C~~C~~~v~~~e~~~-~~~~~~H--~~Cf   30 (30)
+T d1zfoa_           3 PNCARCGKIVYPTEKVN-CLDKFWH--KACF   30 (30)
+T ss_dssp             CBCSSSCSBCCGGGCCC-SSSSCCC--GGGC
+T ss_pred             CcccCCCCccChhHeEE-eCCCeec--HhhC
+
+
+No 26
+>d2o10a1 g.39.1.0 (A:7-35) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=94.20  E-value=0.032  Score=24.14  Aligned_cols=27  Identities=26%  Similarity=0.794  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .|+.|++.||..+.+ ...+..+|  +.|+
+T Consensus         3 ~C~~C~~~v~~~e~~-~~~~~~~H--k~Cf   29 (29)
+T d2o10a1           3 KCGACEKTVYHAEEI-QCNGRSFH--KTCF   29 (29)
+T ss_dssp             ECSSCSSEECGGGEE-EETTEEEE--TTTC
+T ss_pred             cCCCCCCcccccEEE-EeCCCccC--cccC
+
+
+No 27
+>d1rutx4 g.39.1.3 (X:114-146) LIM only 4 (Lmo4) {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=94.16  E-value=0.11  Score=21.95  Aligned_cols=29  Identities=14%  Similarity=0.342  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      |..|+..|..|+.++..++..+|  ..+...
+T Consensus         2 C~~C~~~l~~g~~f~~~~~~~~C--~~~~~~   30 (33)
+T d1rutx4           2 CSTCRNRLVPGDRFHYINGSLFC--EHDRPT   30 (33)
+T ss_dssp             CTTTCCBCCTTCEEEEETTEEEE--GGGCCT
+T ss_pred             CCCCCCCCCCCCeEEEECCEEec--ccccch
+
+
+No 28
+>d1rutx3 g.39.1.3 (X:83-113) LIM only 4 (Lmo4) {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=94.09  E-value=0.13  Score=21.46  Aligned_cols=29  Identities=24%  Similarity=0.566  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             eecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     21 EECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        21 ~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      ..|..|+..|...+.+....+..+|  ..|+
+T Consensus         3 ~~C~~C~~~i~~~~~~~~a~~~~~h--~~cf   31 (31)
+T d1rutx3           3 GACSACGQSIPASELVMRAQGNVYH--LKCF   31 (31)
+T ss_dssp             EECTTTCCEECTTSEEEEETTEEEC--GGGC
+T ss_pred             cccCCCCCccCCCCeEEEcCCEEEc--HhhC
+
+
+No 29
+>KOG1723 60s ribosomal protein L30 isolog [Translation, ribosomal structure and biogenesis]
+Probab=94.07  E-value=0.21  Score=31.02  Aligned_cols=45  Identities=22%  Similarity=0.473  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             ceecCCCCCcccCCCeEEEE--CC-eEEEcChHHHHHHHHHhcccccc
+Q Q_9186633_13     20 IEECAGCNGEIYFGESCLDF--GG-DYLHADTECITQYVKSHSTEKVA   64 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~~~~--~g-~~~~c~~~C~~~~~~~~~~~~~~   64 (66)
+                      ...|..||.+||.|-...++  ++ -+.+|+..|...+.....-+++.
+T Consensus         3 ~~~C~f~g~~I~PG~G~~fVr~Dgk~~~F~~sKc~~~f~~krnPrk~~   50 (162)
+T KOG1723           3 IEKCYFCSSPIYPGHGIMFVRNDCKVFRFCKSKCHKNFKQKKNPRKVG   50 (162)
+T ss_pred             eEeccCCCCCCCCCCCeEEEecCCeEEEEccHHHHHchhhcCCccccc
+
+
+No 30
+>PF12156.8 ; ATPase-cat_bd ; Putative metal-binding domain of cation transport ATPase
+Probab=94.02  E-value=0.12  Score=28.30  Aligned_cols=33  Identities=12%  Similarity=0.118  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             cCCCCCcccCCCeE---EEECCeEEEcChHHHHHHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESC---LDFGGDYLHADTECITQYVK   56 (66)
+Q Consensus        23 C~~CG~~I~~g~~~---~~~~g~~~~c~~~C~~~~~~   56 (66)
+                      |.+||.+|..+..+   +......||| ..|...+..
+T Consensus         2 C~hCg~~~~~~~~~~~~~~~~~~~fCC-~GC~~v~~~   37 (85)
+T D0L1X3_HALNC/1    2 CFHCGLPVPPGSTFHSHVLGEDRPMCC-PGCQAVADA   37 (85)
+T ss_pred             CCCCCCCCCCCCCceeEECCCCceeCC-HHHHHHHHH
+
+
+No 31
+>PF18716.1 ; VATC ; Vms1-associating treble clef domain
+Probab=93.95  E-value=0.14  Score=24.94  Aligned_cols=39  Identities=15%  Similarity=0.354  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             ccceecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHHHh
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGESCLDFGGDYLHADTECITQYVKSH   58 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~~~   58 (66)
+                      .....|..||..|. |...+...+..+ ||.+|+.......
+T Consensus         1 ~~~~~C~~Cg~~l~-g~~pFe~~~~ky-Cs~~Cl~~Hr~~~   39 (43)
+T A0A1V4K6D6_PAT    1 ANISRCWHCGESLL-GRIPFHYLDFSF-CSTACLQTHRRAQ   39 (43)
+T ss_pred             CCccccccCCcccC-CCCCccccCcee-ecHHHHHHHHHHh
+
+
+No 32
+>d1jjda_ g.46.1.1 (A:) Cyanobacterial metallothionein SmtA {Synechococcus sp., PCC 7942 [TaxId: 1131]}
+Probab=93.93  E-value=0.058  Score=27.59  Aligned_cols=28  Identities=18%  Similarity=0.400  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECIT   52 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~   52 (66)
+                      |++||--|...+.+.. +|.+| ||..|+.
+T Consensus         7 C~~Cg~~vp~~eav~~-~gk~y-Cse~ca~   34 (52)
+T d1jjda_           7 CEPCLCNVDPSKAIDR-NGLYY-CSEACAD   34 (52)
+T ss_dssp             STTCCCCBCTTTSEES-SSCEE-SSHHHHH
+T ss_pred             CCCCccEeCHHHcccc-CCeEE-CCHHHHh
+
+
+No 33
+>d1x61a2 g.39.1.3 (A:35-66) Thyroid receptor interacting protein 6, TRIP6 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=93.89  E-value=0.25  Score=20.79  Aligned_cols=31  Identities=13%  Similarity=0.385  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQYV   55 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~   55 (66)
+                      .|..|+..|. |..++..+|..+|  ..|.....
+T Consensus         1 ~C~~C~~~l~-~~~~~~~~~~~~C--~~c~~~~~   31 (32)
+T d1x61a2           1 VCSTCRAQLR-GQHFYAVERRAYC--EGCYVATL   31 (32)
+T ss_dssp             BCSSSCCBCT-TSCEEESSSCEEE--HHHHHHHH
+T ss_pred             CCCCCCCccC-CCceEEECCEEec--hHHHHhhc
+
+
+No 34
+>PF05573.12 ; NosL ; NosL
+Probab=93.70  E-value=0.27  Score=28.49  Aligned_cols=45  Identities=7%  Similarity=-0.147  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             ccccccceecCCCCCccc----CCCeEEEE--CCeEEEcChHHHHHHHHHh
+Q Q_9186633_13     14 SSARDFIEECAGCNGEIY----FGESCLDF--GGDYLHADTECITQYVKSH   58 (66)
+Q Consensus        14 ~~~~~~~~~C~~CG~~I~----~g~~~~~~--~g~~~~c~~~C~~~~~~~~   58 (66)
+                      |.+......|+.||..|.    ..-.++..  +...++||..|+..+....
+T Consensus         1 ~~~~~~~~~C~~CgM~i~~~~~~~~~i~~~~~g~~~~Fcs~~C~~~~~~~~   51 (133)
+T B0UIB8_METS4/3    1 PAALTADAMGHYCGMNVLEHPGPKGQILLQSRIEPVWFSSARDALAFTMLP   51 (133)
+T ss_pred             CCCCCccCccCCCCCeecCCCCCceEEEECCCCceEEEeCHHHHHHHHhCC
+
+
+No 35
+>d2co8a2 g.39.1.3 (A:8-43) Nedd9 interacting protein with calponin homology, NICAL (MICAL1) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=93.60  E-value=0.092  Score=23.99  Aligned_cols=35  Identities=23%  Similarity=0.493  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             ccccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     14 SSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        14 ~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      +........|+.|++.+|.-+.+ ..++..+|  +.|+
+T Consensus         2 ~~~~~~~~~C~~C~k~Vy~~e~~-~~~~~~~H--k~CF   36 (36)
+T d2co8a2           2 HQEAGAGDLCALCGEHLYVLERL-CVNGHFFH--RSCF   36 (36)
+T ss_dssp             CCCCCSSCBCSSSCCBCCTTTBC-CBTTBCCB--TTTC
+T ss_pred             CCcCCCCCccCCCCCeeEeeEEE-EECCcEec--cccC
+
+
+No 36
+>COG4314 NosL; Nitrous oxide reductase accessory protein NosL [Inorganic ion transport and metabolism]. 
+Probab=93.41  E-value=0.31  Score=30.18  Aligned_cols=46  Identities=7%  Similarity=-0.120  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             CCccccccceecCCCCCcccC----CCeEEEECCe--EEEcChHHHHHHHHH
+Q Q_9186633_13     12 HDSSARDFIEECAGCNGEIYF----GESCLDFGGD--YLHADTECITQYVKS   57 (66)
+Q Consensus        12 ~~~~~~~~~~~C~~CG~~I~~----g~~~~~~~g~--~~~c~~~C~~~~~~~   57 (66)
+                      ..|.+......|+.||-.|..    .-.++..++.  +.+||..|+..+..+
+T Consensus        27 ~~p~~i~~~~~C~vCgM~i~~~~~~~aqi~~~~~g~~~~Fcs~~C~~~~~~~   78 (176)
+T COG4314          27 PLPRQITDRSMGHYCGMNLLEHPGPKGQIILNGKPQPIWFSSTREMFGFTLL   78 (176)
+T ss_pred             CCCCCCCCCCccCCCCCcccCCCCCcEEEEECCCCceEEEeCHHHHHHHHhC
+
+
+No 37
+>d2d8ya1 g.39.1.3 (A:8-43) Eplin, LIMA1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=93.33  E-value=0.064  Score=24.49  Aligned_cols=32  Identities=25%  Similarity=0.499  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             cccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     17 RDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      ......|+.|++.+|..+.+.. ++..+|  +.|+
+T Consensus         5 ~~~~~~C~~C~~~vy~~e~~~~-~~~~~H--k~CF   36 (36)
+T d2d8ya1           5 APARETCVECQKTVYPMERLLA-NQQVFH--ISCF   36 (36)
+T ss_dssp             SSSSCBCTTTCCBCCTTSEEEC-SSSEEE--TTTC
+T ss_pred             CCCCCccCCCCCeehhHeeehh-CCceec--hhhC
+
+
+No 38
+>d1wiga2 g.39.1.3 (A:33-67) Actin-binding LIM protein 2, abLIM2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=93.21  E-value=0.12  Score=24.34  Aligned_cols=27  Identities=26%  Similarity=0.473  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|..|+...-+|++.|..+..+.|  ..|
+T Consensus         1 rC~rC~~~F~eGeemylqg~~vwh--p~C   27 (35)
+T d1wiga2           1 LCVRCGQMFAEGEEMYLQGSSIWH--PAC   27 (35)
+T ss_dssp             CCSSSCCCCCSSCCCEEETTEEEC--TTH
+T ss_pred             CccccCCcccCCceEEEcCCceec--ccc
+
+
+No 39
+>d2gvia2 g.39.1.18 (A:169-201) Uncharacterized protein Ta1109 {Thermoplasma acidophilum [TaxId: 2303]}
+Probab=92.87  E-value=0.11  Score=23.81  Aligned_cols=27  Identities=15%  Similarity=0.218  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .|..||+.|.. ......++..+|  ..|.
+T Consensus         5 ~C~~CGE~i~~-~r~~~~~g~~~C--~~C~   31 (33)
+T d2gvia2           5 RCDVCGEYTYE-ADAKLLNGKPVC--KPDY   31 (33)
+T ss_dssp             ECTTTCCEEEG-GGCEEETTEEEC--HHHH
+T ss_pred             ECCCCCCcccH-HHeEeeCCeeec--cccC
+
+
+No 40
+>d1x63a1 g.39.1.3 (A:8-44) Four and a half LIM domains protein 1, FHL-1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=92.81  E-value=0.26  Score=20.15  Aligned_cols=34  Identities=26%  Similarity=0.689  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             ccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     16 ARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .......|..|+..|..++......+..+|  ..|+
+T Consensus         4 ~~~~~~~c~~c~~~i~~~~~~~~~~~~~~h--~~cf   37 (37)
+T d1x63a1           4 TREDSPKCKGCFKAIVAGDQNVEYKGTVWH--KDCF   37 (37)
+T ss_dssp             SCCCSCBCSSSCCBCCSSSCEEECSSCEEE--TTTC
+T ss_pred             cCCCCccCCcCCCcccCCCceEEeCCeeec--hhcC
+
+
+No 41
+>PF05810.12 ; NinF ; NinF protein
+Probab=92.76  E-value=0.24  Score=26.05  Aligned_cols=35  Identities=26%  Similarity=0.536  Sum_probs=0.0  Template_Neff=3.300
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHHHHHH--HHhccccccCC
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECITQYV--KSHSTEKVAGE   66 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~--~~~~~~~~~g~   66 (66)
+                      |++||++|..++.+.        | ..|...+.  ..-..+...++
+T Consensus        20 CA~C~~~L~~dEvy~--------C-~~C~~e~~~~~DPN~~m~~ed   56 (58)
+T A7MEP2_CROS8/1   20 CAGCSKQLEPDETHC--------C-EECVAQAIYYRDPNHFMAEDE   56 (58)
+T ss_pred             hcccCCCCCCCceee--------c-HHHHHHHHhhcCCCccccccc
+
+
+No 42
+>d1x68a1 g.39.1.3 (A:8-36) Four and a half LIM domains protein 5, FHL-5 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=92.62  E-value=0.22  Score=21.52  Aligned_cols=27  Identities=30%  Similarity=0.656  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             cCCCCCcccC--CCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYF--GESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~--g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|.++|..  +..+....+..+|  .+|+
+T Consensus         1 C~~C~~pI~~~~~~~~~~~~~~~wH--~~cf   29 (29)
+T d1x68a1           1 CVACSKPISGLTGAKFICFQDSQWH--SECF   29 (29)
+T ss_dssp             CTTTCCCCCTTTTCCEEEETTEEEE--GGGC
+T ss_pred             CCCCCCCccccCCCcEEEeCCceeC--hhhC
+
+
+No 43
+>d1x4la1 g.39.1.3 (A:8-36) Four and a half LIM domains protein 2, FHL2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=92.54  E-value=0.19  Score=21.28  Aligned_cols=27  Identities=33%  Similarity=0.779  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             cCCCCCcccC--CCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYF--GESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~--g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|+++|..  ++.+....+..+|  .+|+
+T Consensus         1 C~~C~~~I~~~~~~~~~~~~~~~wh--~~cf   29 (29)
+T d1x4la1           1 CAGCTNPISGLGGTKYISFEERQWH--NDCF   29 (29)
+T ss_dssp             BTTTTBCCCCSSSCSCEECSSCEEC--TTTC
+T ss_pred             CCCCCCcccCCCCCcEEEeCCeeeC--cccC
+
+
+No 44
+>d1x62a1 g.39.1.3 (A:43-73) PDZ and LIM domain protein 1 Elfin {Human (Homo sapiens) [TaxId: 9606]}
+Probab=92.51  E-value=0.18  Score=22.01  Aligned_cols=29  Identities=7%  Similarity=0.198  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+.+| .+..++..+|..+|  ..|...
+T Consensus         1 ~C~~C~~~L-~~~~f~~~~g~~~C--~~~~~~   29 (31)
+T d1x62a1           1 VCTDCGTNL-KQKGHFFVEDQIYC--EKHARE   29 (31)
+T ss_dssp             SCSSSCCCH-HHHCCEESSSCEEC--HHHHHH
+T ss_pred             CCCCCCCcC-CCCCccccCCEECC--hhhhhh
+
+
+No 45
+>d1x68a2 g.39.1.3 (A:37-70) Four and a half LIM domains protein 5, FHL-5 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=92.11  E-value=0.097  Score=24.44  Aligned_cols=29  Identities=17%  Similarity=0.501  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|+.|+.+| .|..++..++.++|  .+|..+
+T Consensus         1 ~C~~C~~sL-~~kgF~~~~~~i~C--~~C~~~   29 (34)
+T d1x68a2           1 NCGKCSVSL-VGKGFLTQNKEIFC--QKCGSG   29 (34)
+T ss_dssp             BCTTTCCBC-SSSCEEEETTEEEE--TTTTCC
+T ss_pred             CCCCCCCCC-CCCCccccCCeeec--Cccccc
+
+
+No 46
+>d1b8ta1 g.39.1.3 (A:1-35) Cysteine-rich (intestinal) protein, CRP, CRIP {Chicken (Gallus gallus) [TaxId: 9031]}
+Probab=92.10  E-value=0.099  Score=23.59  Aligned_cols=27  Identities=30%  Similarity=0.785  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .|+.|++.||..+.+.. .+..+|  +.|+
+T Consensus         9 ~C~~C~~~vy~~e~~~~-~~~~~H--k~Cf   35 (35)
+T d1b8ta1           9 KCGVCQKAVYFAEEVQC-EGSSFH--KSCF   35 (35)
+T ss_dssp             ECTTTCCEECSSCCEEE-TTEEEC--TTTC
+T ss_pred             CCCCCCCcchhhEEEec-CCCccc--hhcC
+
+
+No 47
+>PF14471.6 ; DUF4428 ; Domain of unknown function (DUF4428)
+Probab=92.07  E-value=0.25  Score=25.69  Aligned_cols=29  Identities=17%  Similarity=0.356  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             ecCCCCCcccCCCe---EEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGES---CLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~---~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|+.||++|-.-..   .-..+| ++|  .+|+..
+T Consensus         1 ~C~iCg~~~g~~~~~~~~kl~Dg-~iC--~~C~~k   32 (57)
+T Q02ZJ0_LACLS/5    1 ECPICNKKLTMMTARIKLKKDDI-TVC--KDCLIK   32 (57)
+T ss_pred             CCCCCCCccccccccccccccCC-eeC--HHHHHH
+
+
+No 48
+>d2d8xa1 g.39.1.3 (A:33-64) Pinch (particularly interesting new Cys-His) protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=91.96  E-value=0.47  Score=20.01  Aligned_cols=29  Identities=17%  Similarity=0.361  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..| .+..++..++..+|  ..|...
+T Consensus         1 ~C~~C~~~l-~~~~~~~~~~~~~C--~~c~~~   29 (32)
+T d2d8xa1           1 RCDLCQEVL-ADIGFVKNAGRHLC--RPCHNR   29 (32)
+T ss_dssp             BCSSSCCBC-SSSCCEEETTEEEC--HHHHHH
+T ss_pred             CCCCCCCcc-CCCCceeeCCEEcC--HHHHHh
+
+
+No 49
+>d2dj7a1 g.39.1.3 (A:44-74) Actin-binding LIM protein 3, abLIM-3 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=91.92  E-value=0.57  Score=18.48  Aligned_cols=28  Identities=11%  Similarity=0.163  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|  +..++..++..+|  ..|...
+T Consensus         1 ~C~~C~~~l--~~~~~~~~~~~~c--~~~~~~   28 (31)
+T d2dj7a1           1 KCQTCSVIL--TGEYISKDGVPYC--ESDYHA   28 (31)
+T ss_dssp             BCSSSCCBC--SSCCEEETTEEEC--TTHHCC
+T ss_pred             CCCCCCCcc--CCceEeeCCEEec--HHHHHH
+
+
+No 50
+>PF13719.6 ; zinc_ribbon_5 ; zinc-ribbon domain
+Probab=91.75  E-value=0.081  Score=22.84  Aligned_cols=28  Identities=18%  Similarity=0.538  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|+.||..+.........++..+.| ..|
+T Consensus         4 ~Cp~C~~~~~~~~~~~~~~~~~~~C-~~C   31 (37)
+T A1AJZ4_PELPD/1    4 QCEQCRTKFRLDDSKIKENGVKVRC-AKC   31 (37)
+T ss_pred             ECCCCCCEEEcCHHHcccCCcEEEC-CCC
+
+
+No 51
+>d1x64a2 g.39.1.3 (A:53-83) PDZ and LIM domain protein 3, PDLIM3 {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=91.25  E-value=0.81  Score=18.94  Aligned_cols=29  Identities=17%  Similarity=0.310  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|. +..++..+|..+|  ..|...
+T Consensus         1 ~C~~C~~~l~-~~~~~~~~g~~~C--~~~~~~   29 (31)
+T d1x64a2           1 VCADCNLNLK-QKGYFFVEGELYC--ETHARA   29 (31)
+T ss_dssp             CCSSSCCCTT-TSCCEEETTEEEC--HHHHHH
+T ss_pred             CCCCCCCccC-CCCeEEECCEEEc--hHHHHh
+
+
+No 52
+>d1x61a1 g.39.1.3 (A:8-34) Thyroid receptor interacting protein 6, TRIP6 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=91.21  E-value=0.33  Score=18.93  Aligned_cols=27  Identities=19%  Similarity=0.473  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|+..|...+......+..+|  ..|+
+T Consensus         1 c~~c~~~i~~~~~~~~~~~~~~h--~~cf   27 (27)
+T d1x61a1           1 CGGCGEDVVGDGAGVVALDRVFH--VGCF   27 (27)
+T ss_dssp             CSSSCSCCCSSSCCEECSSSEEC--TTTC
+T ss_pred             CCCCCCccCCCCcEEEeCCcEEc--cccC
+
+
+No 53
+>d1rutx2 g.39.1.3 (X:49-82) LIM only 4 (Lmo4) {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=91.19  E-value=0.86  Score=19.14  Aligned_cols=30  Identities=20%  Similarity=0.358  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             ecCCCCCcccC-CCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYF-GESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~-g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|.. +..++..++..+|  ..|...
+T Consensus         1 ~C~~C~~~l~~~~~~~~~~~~~~~C--~~~~~~   31 (34)
+T d1rutx2           1 KCSSCQAQLGDIGTSSYTKSGMILC--RNDYIR   31 (34)
+T ss_dssp             BCTTTCCBHHHHCSEEEEETTEEEC--HHHHHH
+T ss_pred             CCCCCCCcccCCCCceEeeCCEEec--hHHHHH
+
+
+No 54
+>d1a7ia2 g.39.1.3 (A:36-67) Cysteine-rich (intestinal) protein, CRP, CRIP {Japanese quail (Coturnix coturnix japonica), CRP2 [TaxId: 93934]}
+Probab=91.15  E-value=0.68  Score=19.47  Aligned_cols=29  Identities=10%  Similarity=0.245  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|..+ .++..+|..+|  ..|...
+T Consensus         1 ~C~~C~~~l~~~-~~~~~~g~~~C--~~c~~~   29 (32)
+T d1a7ia2           1 LCMVCRKNLDST-TVAIHDAEVYC--KSCYGK   29 (32)
+T ss_dssp             ECSSSCCEECSS-CCEEETTEEEC--SHHHHH
+T ss_pred             CCCCCCCCCCCC-CeeeeCCEEcc--HHHhhH
+
+
+No 55
+>d1b8ta3 g.39.1.3 (A:101-143) Cysteine-rich (intestinal) protein, CRP, CRIP {Chicken (Gallus gallus) [TaxId: 9031]}
+Probab=90.89  E-value=0.18  Score=24.04  Aligned_cols=27  Identities=26%  Similarity=0.680  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .|+.|++.+|..+.+. ..+..+|  +.|+
+T Consensus        17 ~C~~C~~~Vy~~e~~~-~~~~~~H--k~Cf   43 (43)
+T d1b8ta3          17 GCPRCGQAVYAAEKVI-GAGKSWH--KSCF   43 (43)
+T ss_dssp             ECTTTSCEECSSSCEE-ETTEEEC--TTTC
+T ss_pred             CCCCCCCceehheEEe-cCCCccc--hhhC
+
+
+No 56
+>d2lzua1 g.39.1.0 (A:36-68) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=90.66  E-value=0.074  Score=23.70  Aligned_cols=33  Identities=27%  Similarity=0.485  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             ccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     16 ARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .......|+.|++.+|..+. ....+..+|  +.|+
+T Consensus         1 ~~~~~~~C~~C~~~vy~~e~-~~~~~~~~H--k~Cf   33 (33)
+T d2lzua1           1 RAQVKETCAACQKTVYPMER-LVADKLIFH--NSCF   33 (33)
+T ss_dssp             CCSSCEECSSSCSEECTTTE-EEETTEEEE--TTTC
+T ss_pred             CCCcCCcccCCCCeeHHHHh-hhhCCCccc--hhhC
+
+
+No 57
+>PF14446.6 ; Prok-RING_1 ; Prokaryotic RING finger family 1
+Probab=90.63  E-value=0.76  Score=23.34  Aligned_cols=34  Identities=24%  Similarity=0.341  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             cceecCCCCCcccCCCeEEEEC--CeEEEcChHHHHHH
+Q Q_9186633_13     19 FIEECAGCNGEIYFGESCLDFG--GDYLHADTECITQY   54 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~g~~~~~~~--g~~~~c~~~C~~~~   54 (66)
+                      ....|+.||.+|+.+++++.-.  |..++  ..|+...
+T Consensus         3 ~~~~CP~Cg~~i~~~~~~v~CP~CG~~~~--~~~~~~~   38 (55)
+T R6DEQ5_9CLOT/4    3 KGVSCPVCGQEFKEGDDIVVCPECGAPHH--RSCYKQL   38 (55)
+T ss_pred             cceeCCCCCCEeecCCcEEECCCCCCEEE--chhhhhh
+
+
+No 58
+>PF15279.6 ; SOBP ; Sine oculis-binding protein
+Probab=90.56  E-value=0.28  Score=33.88  Aligned_cols=42  Identities=14%  Similarity=0.166  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEECC--eEEEcChHHHHHHHHHhccccc
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGG--DYLHADTECITQYVKSHSTEKV   63 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g--~~~~c~~~C~~~~~~~~~~~~~   63 (66)
+                      .||+|+.-=+.-+.+-+.+|  .+-+||.+|+..|..+...+-+
+T Consensus         1 ~CDWCkHvrht~~yvdf~dg~~qLqFCS~kClnqYKm~if~~Et   44 (334)
+T E0VHI9_PEDHC/3    1 TCDWCRHIRHTVNYVDFQDGEHQLQFCSDKCLNQYKMNIFCKET   44 (334)
+T ss_pred             CCccccccccccceeeCCCchhhhHhcCHHHHHHHhhhHhhhhh
+
+
+No 59
+>d1x63a2 g.39.1.3 (A:45-76) Four and a half LIM domains protein 1, FHL-1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=90.23  E-value=0.75  Score=18.85  Aligned_cols=29  Identities=24%  Similarity=0.484  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..| .+..++..++..+|  ..|...
+T Consensus         1 ~C~~C~~~l-~~~~~~~~~~~~~C--~~c~~~   29 (32)
+T d1x63a2           1 TCSNCKQVI-GTGSFFPKGEDFYC--VTCHET   29 (32)
+T ss_dssp             CCSSSCCCC-TTSCEEEETTEEEE--HHHHHH
+T ss_pred             CCCCCCCcc-CCCcceeeCCeecC--HHHHhh
+
+
+No 60
+>d2cora1 g.39.1.3 (A:43-73) Pinch (particularly interesting new Cys-His) protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=90.10  E-value=0.51  Score=20.17  Aligned_cols=28  Identities=21%  Similarity=0.557  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|..+.  ...++..+|  ..|...
+T Consensus         1 ~C~~C~~~l~~~~--~e~~g~~~C--~~cy~~   28 (31)
+T d2cora1           1 NCANCGKELTADA--RELKGELYC--LPCHDK   28 (31)
+T ss_dssp             BCSSSCCBCCTTC--EEETTEEEC--HHHHHT
+T ss_pred             CCCCCCCCCCCcc--CccCCeecc--hHHHHh
+
+
+No 61
+>d1x4ka1 g.39.1.3 (A:35-66) Four and a half LIM domains protein 2, FHL2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=89.73  E-value=1.1  Score=18.14  Aligned_cols=30  Identities=17%  Similarity=0.320  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQY   54 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~   54 (66)
+                      .|..|+..|. +..++..++..+|  ..|....
+T Consensus         1 ~C~~C~~~l~-~~~~~~~~~~~~C--~~c~~~~   30 (32)
+T d1x4ka1           1 ICHRCQQPIG-TKSFIPKDNQNFC--VPCYEKQ   30 (32)
+T ss_dssp             CCSSSCCCCC-SSSEEEETTEEEE--HHHHHHH
+T ss_pred             CCCCCCCccC-CCceeccCCEEec--HHHHHHh
+
+
+No 62
+>PF12677.7 ; DUF3797 ; Domain of unknown function (DUF3797)
+Probab=89.51  E-value=0.43  Score=24.18  Aligned_cols=27  Identities=22%  Similarity=0.396  Sum_probs=0.0  Template_Neff=4.100
+
+Q ss_pred             ecCCCCCc-ccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGE-IYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~-I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .||.||+. |-.|+..+.+++..|-  +.|
+T Consensus        15 ~CP~CGn~~igngeg~l~v~d~~f~--rtC   42 (48)
+T Q18AB4_PEPD6/1   15 YCPNCGNDKVGNNEGKLIVEEHTYY--REC   42 (48)
+T ss_pred             cCCCCCCCcccCCCCeEEEecceEE--Eee
+
+
+No 63
+>d2cupa2 g.39.1.3 (A:35-65) Four and a half LIM domains protein 1, FHL-1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=88.28  E-value=1.1  Score=18.67  Aligned_cols=29  Identities=24%  Similarity=0.493  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..| .+..+...++..+|  ..|...
+T Consensus         1 ~C~~C~~~l-~~~~f~~~~~~~~C--~~C~~~   29 (31)
+T d2cupa2           1 RCAKCLHPL-ANETFVAKDNKILC--NKCTTR   29 (31)
+T ss_dssp             CCSSSCCCT-TSSCCEEETTEEEC--HHHHTT
+T ss_pred             CCCCCCCcC-CCCcceeeCCEEcc--hhHhhc
+
+
+No 64
+>d1wiga1 g.39.1.3 (A:8-32) Actin-binding LIM protein 2, abLIM2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=88.10  E-value=0.66  Score=17.31  Aligned_cols=25  Identities=28%  Similarity=0.624  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|++.|.  ..+....+..+|  .+|+
+T Consensus         1 c~~c~~~i~--~~~~~~~~~~~h--~~c~   25 (25)
+T d1wiga1           1 CDSCEKYIT--GRVLEAGEKHYH--PSCA   25 (25)
+T ss_dssp             CSSSCCCCS--SCCBCCSSCCBC--TTTS
+T ss_pred             CCCCCCccc--CceEEeCCceeC--cccC
+
+
+No 65
+>PF10367.9 ; Vps39_2 ; Vacuolar sorting protein 39 domain 2
+Probab=87.65  E-value=0.5  Score=24.75  Aligned_cols=30  Identities=20%  Similarity=0.289  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|+.|++.|.....+...-|..+|  ..|+.+
+T Consensus        80 ~C~~C~~~~~~~~~~~~~cgh~~H--~~C~~~  109 (109)
+T Q4D6I2_TRYCC/8   80 PCAVCGKALGVGVIAVFPNLKATH--FRCFHA  109 (109)
+T ss_pred             cccCCCCcccCceEEEcCCCcEEe--cccccC
+
+
+No 66
+>COG2191 FwdE; Formylmethanofuran dehydrogenase subunit E  [Energy production and conversion]. 
+Probab=87.63  E-value=2.4  Score=26.93  Aligned_cols=42  Identities=10%  Similarity=0.152  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             cCCCCCCccccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13      7 LIGNAHDSSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus         7 ~~~~~~~~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      +......+........|+.||+.+.....+ ..+|..+|  ..|.
+T Consensus       159 v~~~~~~~~~~~~~~~C~~CGE~v~~~~~~-~~~~~~~C--~~C~  200 (206)
+T COG2191         159 VDVEPPEKAKKFGSVRCSKCGELFMEPRAV-VLNGKPVC--KPCA  200 (206)
+T ss_pred             cCCCCCccCCccCceeCCCCCCeeeccceE-EeCCeeee--HhHh
+
+
+No 67
+>d1x4la2 g.39.1.3 (A:37-66) Four and a half LIM domains protein 2, FHL2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=87.54  E-value=0.59  Score=20.88  Aligned_cols=26  Identities=27%  Similarity=0.626  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|..|..+| .|..++..++.++|  .+|
+T Consensus         1 ~C~~C~~sL-~~~gFv~~~~~i~C--~~C   26 (30)
+T d1x4la2           1 NCKKCSLSL-VGRGFLTERDDILC--PDC   26 (30)
+T ss_dssp             BCSSSCCBC-TTSCCEECSSSEEC--HHH
+T ss_pred             CCCCCCCcc-CCCcceecCCcEEc--CCc
+
+
+No 68
+>d1x3ha2 g.39.1.3 (A:43-74) Leupaxin {Human (Homo sapiens) [TaxId: 9606]}
+Probab=87.44  E-value=1.7  Score=17.41  Aligned_cols=32  Identities=16%  Similarity=0.256  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQYVK   56 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~   56 (66)
+                      .|..|+..|..+ .++..++..+|  ..|......
+T Consensus         1 ~C~~C~~~l~~~-~~~~~~~~~~C--~~~~~~~~~   32 (32)
+T d1x3ha2           1 VCGDCFTSFSTG-SFFELDGRPFC--ELHYHHRRG   32 (32)
+T ss_dssp             BCSSSCCBSCSS-CCEESSSCEEC--HHHHHHHHS
+T ss_pred             CCCCCCCcCCCC-CeEeECCEEec--HHHHHHhhC
+
+
+No 69
+>d2o13a1 g.39.1.0 (A:119-144) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=87.33  E-value=0.33  Score=20.23  Aligned_cols=26  Identities=31%  Similarity=0.847  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|+.|++.+|.-+.+.. .+..+|  +.|
+T Consensus         1 ~C~~C~~~vy~~e~~~~-~~~~~H--k~C   26 (26)
+T d2o13a1           1 KCPRCGKSVYAAEKVMG-GGKPWH--KTC   26 (26)
+T ss_dssp             CBTTTTBCCCTTTCEEE-TTEEEC--TTT
+T ss_pred             CCCCCCCeeeeeeEeec-CCCccc--cCC
+
+
+No 70
+>d1pfva3 g.41.1.1 (A:141-175) Methionyl-tRNA synthetase (MetRS), Zn-domain {Escherichia coli [TaxId: 562]}
+Probab=87.23  E-value=0.64  Score=21.29  Aligned_cols=16  Identities=19%  Similarity=0.603  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             cceecCCCCCcccCCC
+Q Q_9186633_13     19 FIEECAGCNGEIYFGE   34 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~g~   34 (66)
+                      +.++|++||.++..++
+T Consensus         1 v~g~CP~Cg~~~~~~~   16 (35)
+T d1pfva3           1 VKGTCPKCKSPDQYGD   16 (35)
+T ss_dssp             EEEECTTTCCSSEETT
+T ss_pred             CcccCCCCCCCCccCC
+
+
+No 71
+>PF13717.6 ; zinc_ribbon_4 ; zinc-ribbon domain
+Probab=86.70  E-value=0.33  Score=20.52  Aligned_cols=28  Identities=21%  Similarity=0.490  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCe-EEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGD-YLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~-~~~c~~~C   50 (66)
+                      .|+.||..+..........+. .+.| ..|
+T Consensus         4 ~Cp~Cg~~~~~~~~~~~~~~~~~~~C-~~C   32 (37)
+T B8FL16_DESAA/1    4 ECSSCHKKYNIPDEKLPKDKSISLKC-PAC   32 (37)
+T ss_pred             eCCCCCCEeeCChhHCCCCCceEEEC-CCC
+
+
+No 72
+>PF06689.13 ; zf-C4_ClpX ; ClpX C4-type zinc finger
+Probab=86.67  E-value=0.65  Score=21.16  Aligned_cols=33  Identities=18%  Similarity=0.260  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQYVK   56 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~   56 (66)
+                      .|..||++-.....++...+..+|  .+|+.....
+T Consensus         1 ~CsFCg~~~~~~~~lv~g~~~~IC--~~Ci~~~~~   33 (37)
+T R7PN65_9FIRM/1    1 VCSFCGRTAEEVDRIIAGPDVYIC--NECIEVCEN   33 (37)
+T ss_pred             CCCCCCCCHHHHHhhccCCCcEec--HHHHHHHHH
+
+
+No 73
+>d1u5sb2 g.39.1.3 (B:103-137) Pinch (particularly interesting new Cys-His) protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=86.37  E-value=2  Score=17.20  Aligned_cols=29  Identities=17%  Similarity=0.159  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..+..+. ++..++..+|  ..|...
+T Consensus         2 ~C~~C~~~l~~~~-~~~~~~~~~C--~~~~~~   30 (35)
+T d1u5sb2           2 VCAKCEKPFLGHR-HYERKGLAYC--ETHYNQ   30 (35)
+T ss_dssp             BCTTTCCBCSSSC-CEEETTEEEC--HHHHHH
+T ss_pred             cCCCCCCccCCCc-eEEECCEEec--HHHHHH
+
+
+No 74
+>d2o10a2 g.39.1.0 (A:36-66) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=86.35  E-value=1.5  Score=18.26  Aligned_cols=29  Identities=10%  Similarity=0.324  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|..+ .+...+|..+|  ..|...
+T Consensus         1 ~C~~C~~~l~~~-~~~~~~g~~yC--~~c~~~   29 (31)
+T d2o10a2           1 HCMACRKALDST-TVAAHESEIYC--KVCYGR   29 (31)
+T ss_dssp             SCSSSCCCCCTT-TCEEETTEEEC--HHHHHH
+T ss_pred             CCCCCCCcCCCC-ceeeeCCEEcc--hhhhhc
+
+
+No 75
+>d1rqga3 g.41.1.1 (A:139-173) Methionyl-tRNA synthetase (MetRS), Zn-domain {Pyrococcus abyssi [TaxId: 29292]}
+Probab=85.95  E-value=0.82  Score=20.87  Aligned_cols=16  Identities=31%  Similarity=0.574  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             cceecCCCCCcccCCC
+Q Q_9186633_13     19 FIEECAGCNGEIYFGE   34 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~g~   34 (66)
+                      +.++|++||.++..++
+T Consensus         1 v~g~Cp~Cg~~~~~~~   16 (35)
+T d1rqga3           1 VIGTCPYCGAEDQKGD   16 (35)
+T ss_dssp             CCSBCSSSCCSCCCTT
+T ss_pred             CcccCCCCCCCCcCCC
+
+
+No 76
+>COG4530 COG4530; Uncharacterized protein [Function unknown]. 
+Probab=85.81  E-value=0.57  Score=28.20  Aligned_cols=29  Identities=7%  Similarity=-0.065  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      ++......|+.||+.++.      .....+.| ..|
+T Consensus         4 ~elg~k~~CP~CG~kf~~------l~~~~ivC-P~C   32 (129)
+T COG4530           4 PELGTKRIDPETGKKFYD------LNRDPIVS-PYT   32 (129)
+T ss_pred             cccCCcEECCCCCCeeee------cCCCCeeC-CCC
+
+
+No 77
+>d1x64a1 g.39.1.3 (A:8-52) PDZ and LIM domain protein 3, PDLIM3 {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=85.18  E-value=1.8  Score=20.24  Aligned_cols=44  Identities=16%  Similarity=0.345  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CCccCCCCCCccccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13      4 NGMLIGNAHDSSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus         4 np~~~~~~~~~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      ++.+...............|..|++.|.  ..++...+..+|  .+|+
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~C~~C~~~I~--~~~~~~~~~~~H--~~cf   45 (45)
+T d1x64a1           2 RAPVTKVHGGAGSAQRMPLCDKCGSGIV--GAVVKARDKYRH--PECF   45 (45)
+T ss_dssp             CCCCCCCCCCCSCCCSCCBCTTTCCBCC--SCCEESSSCEEC--TTTC
+T ss_pred             CCCCCCCCCCCccccCCccccCCCCeec--CeEEEcCCCccC--cccC
+
+
+No 78
+>d2cu8a2 g.39.1.3 (A:38-70) Cysteine-rich (intestinal) protein, CRP, CRIP {Human (Homo sapiens) [TaxId: 9606]}
+Probab=85.14  E-value=1.7  Score=18.41  Aligned_cols=29  Identities=17%  Similarity=0.489  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcCh-HHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADT-ECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~-~C~~~   53 (66)
+                      .|..|++.|..+ .++..+|..+|  . .|...
+T Consensus         1 ~C~~C~~~l~~~-~~~~~~g~~yC--~~~c~~~   30 (33)
+T d2cu8a2           1 KCERCSKTLTPG-GHAEHDGKPFC--HKPCYAT   30 (33)
+T ss_dssp             BCSSSCCBCCTT-SCEEETTEEEC--CCCCCHH
+T ss_pred             CCCCCCCCCCCC-cccccCCEEec--CcchHHH
+
+
+No 79
+>d2dj7a2 g.39.1.3 (A:8-43) Actin-binding LIM protein 3, abLIM-3 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=85.12  E-value=1.8  Score=18.13  Aligned_cols=35  Identities=29%  Similarity=0.409  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             ccccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     14 SSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        14 ~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      +........|..|+..|..+ .+....+..+|  ..|+
+T Consensus         2 ~~~~~~~~~c~~C~~~i~~~-~~~~~~~~~wH--~~cf   36 (36)
+T d2dj7a2           2 PIKIRGPSHCAGCKEEIKHG-QSLLALDKQWH--VSCF   36 (36)
+T ss_dssp             CCCCSSCSCCTTTCCCCSSS-CCEEETTEEEC--TTTC
+T ss_pred             CCCCCCCCcCCCCCCeecCC-CeEEECCceeC--hhcC
+
+
+No 80
+>d2d8xa2 g.39.1.3 (A:8-32) Pinch (particularly interesting new Cys-His) protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=84.83  E-value=1.3  Score=16.67  Aligned_cols=25  Identities=24%  Similarity=0.469  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|+..|  ...+....+..+|  ..|+
+T Consensus         1 C~~C~~~i--~~~~~~~~~~~~h--~~cf   25 (25)
+T d2d8xa2           1 CHQCGEFI--IGRVIKAMNNSWH--PECF   25 (25)
+T ss_dssp             CSSSCCBC--CSCCEEETTEEEC--TTTS
+T ss_pred             CCCCCCee--cCeeEEeCCceeC--cccC
+
+
+No 81
+>PF09538.10 ; FYDLN_acid ; Protein of unknown function (FYDLN_acid)
+Probab=84.55  E-value=0.78  Score=26.53  Aligned_cols=29  Identities=21%  Similarity=0.450  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .+......|+.||+.++.      .....+.| ..|
+T Consensus         4 ~~~g~k~~CP~Cg~~f~~------l~~~~~~C-P~C   32 (107)
+T G8PN34_PSEUV/1    4 PELGTKRLCAACGAKYYD------LNRDPIIC-PKC   32 (107)
+T ss_pred             cccCCeEECCCCCCEEEe------CCCCcEeC-CCC
+
+
+No 82
+>d2cura1 g.39.1.3 (A:33-63) Four and a half LIM domains protein 1, FHL-1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=84.43  E-value=2.6  Score=16.73  Aligned_cols=29  Identities=17%  Similarity=0.557  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..| .+..++..++..+|  ..|...
+T Consensus         1 ~C~~c~~~l-~~~~~~~~~~~~~C--~~c~~~   29 (31)
+T d2cura1           1 VCVTCSKKL-AGQRFTAVEDQYYC--VDCYKN   29 (31)
+T ss_dssp             BCTTTCCBC-TTSCEEECSSCEEE--HHHHHH
+T ss_pred             CCCCCCCcc-CCCceeeeCCEEec--HHHHHh
+
+
+No 83
+>d2dloa2 g.39.1.3 (A:43-75) Thyroid receptor interacting protein 6, TRIP6 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=84.40  E-value=2.8  Score=17.05  Aligned_cols=29  Identities=14%  Similarity=0.142  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEE-CCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDF-GGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~-~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|. +..++.. ++..+|  ..|...
+T Consensus         1 ~C~~C~~~l~-~~~~~~~~~~~~~C--~~~~~~   30 (33)
+T d2dloa2           1 TCVVCHRGLD-GIPFTVDATSQIHC--IEDFHR   30 (33)
+T ss_dssp             BCSSSCCBCT-TSCEECCTTCCCEE--HHHHHH
+T ss_pred             CCccCCCccC-CccEEECCCCCEEe--hHHHHH
+
+
+No 84
+>PF01258.17 ; zf-dskA_traR ; Prokaryotic dksA/traR C4-type zinc finger
+Probab=84.30  E-value=0.47  Score=21.44  Aligned_cols=34  Identities=18%  Similarity=0.277  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             ccceecCCCCCcccCCCeEEEECCeEEEcChHHHHHH
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGESCLDFGGDYLHADTECITQY   54 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~   54 (66)
+                      ...+.|..||++|.. +......+..+|  .+|....
+T Consensus         1 ~~~g~C~~Cge~I~~-~rl~~~p~~~~C--~~C~~~~   34 (36)
+T A5D3H2_PELTS/9    1 GTYGKCDNCGREIPL-ERLEAVPSTVCC--KKCKEAE   34 (36)
+T ss_pred             CCCcccCCCCCccCH-HHHHhCCCCeec--HHHHHHh
+
+
+No 85
+>d1x62a2 g.39.1.3 (A:8-42) PDZ and LIM domain protein 1 Elfin {Human (Homo sapiens) [TaxId: 9606]}
+Probab=83.86  E-value=1.3  Score=19.07  Aligned_cols=33  Identities=18%  Similarity=0.375  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      ........|..|++.|.  ..+....+..+|  .+|+
+T Consensus         3 ~~~~~~~~C~~C~~~i~--~~~~~~~~~~~H--~~cf   35 (35)
+T d1x62a2           3 GNAQKLPMCDKCGTGIV--GVFVKLRDRHRH--PECY   35 (35)
+T ss_dssp             CCCCCCCCCSSSCCCCC--SSCEECSSCEEC--TTTT
+T ss_pred             CCcccCCcCCCCCCeec--CeEEeCCCceeC--cccC
+
+
+No 86
+>d1g47a2 g.39.1.3 (A:36-70) Pinch (particularly interesting new Cys-His) protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=83.66  E-value=2.7  Score=16.25  Aligned_cols=29  Identities=17%  Similarity=0.259  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|. +..++..++..++  ..|...
+T Consensus         2 ~c~~c~~~l~-~~~~~~~~~~~~c--~~~~~~   30 (35)
+T d1g47a2           2 VCAQCFQQFP-EGLFYEFEGRKYC--EHDFQM   30 (35)
+T ss_dssp             CCTTTCCCCG-GGCSEEETTEEEC--HHHHHH
+T ss_pred             cccCCCCcCC-CCceEEECCEEEC--hHHHHH
+
+
+No 87
+>d2cora2 g.39.1.3 (A:8-42) Pinch (particularly interesting new Cys-His) protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=83.61  E-value=1.3  Score=19.42  Aligned_cols=35  Identities=20%  Similarity=0.155  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CccccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     13 DSSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        13 ~~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      +.........|..|+..|...  +....+..+|  .+|+
+T Consensus         1 ~~~~~~~~~~C~~C~~~i~~~--~~~~~~~~~H--~~~f   35 (35)
+T d2cora2           1 EKARGLGKYICQKCHAIIDEQ--PLIFKNDPYH--PDHF   35 (35)
+T ss_dssp             CCCCCCCCCBCTTTCCBCCSC--CCCCSSSCCC--TTTS
+T ss_pred             CcccccCCCcCcCCCCcccCC--CEEeCCceeC--CCcC
+
+
+No 88
+>d2ds5a_ g.39.1.11 (A:) automated matches {Escherichia coli [TaxId: 562]}
+Probab=83.34  E-value=1.6  Score=20.53  Aligned_cols=37  Identities=14%  Similarity=0.156  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             ccceecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHH
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGESCLDFGGDYLHADTECITQYVK   56 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~   56 (66)
+                      .....|..||++......++...+..+|  .+|......
+T Consensus         1 ~~~~~CsfCg~~~~~~~~li~~~~~~IC--~~Ci~~~~~   37 (43)
+T d2ds5a_           1 GKLLYCSFCGKSQHEVRKLIAGPSVYIC--DECVDLCND   37 (43)
+T ss_dssp             CCCCBCTTTCCBTTTSSCEEECSSCEEE--HHHHHHHHH
+T ss_pred             CCCeecCCCCCCHHHHhhccCCCCcEeC--HHHHHHHHH
+
+
+No 89
+>COG4068 COG4068; Predicted nucleic acid-binding protein, contains Zn-ribbon domain [General function prediction only]. 
+Probab=83.20  E-value=1.4  Score=21.96  Aligned_cols=22  Identities=18%  Similarity=0.167  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             cccccceecCCCCCcccCCCeE
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESC   36 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~   36 (66)
+                      .......+|+.||.++..+..+
+T Consensus         3 ~~~~~~~~C~~Cg~~i~~~~~~   24 (64)
+T COG4068           3 PGVVPHRHCVVCGKAIPPDEQV   24 (64)
+T ss_pred             CCCCCCccCCCCCCCCCCCccc
+
+
+No 90
+>d2dara2 g.39.1.3 (A:8-52) PDZ and LIM domain protein 5, Enigma {Human (Homo sapiens) [TaxId: 9606]}
+Probab=83.06  E-value=2.2  Score=19.82  Aligned_cols=41  Identities=29%  Similarity=0.297  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             cCCCCCCccccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13      7 LIGNAHDSSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus         7 ~~~~~~~~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      +...............|..|+..|.  ..+....+..+|  ..|+
+T Consensus         5 ~~~~~~~~~~~~~~~~C~~C~~~i~--~~~~~~~~~~~H--~~cf   45 (45)
+T d2dara2           5 LVQRAEHIPAGKRTPMCAHCNQVIR--GPFLVALGKSWH--PEEF   45 (45)
+T ss_dssp             SCBCCEEECTTTCCCBBSSSCCBCC--SCEEEETTEEEC--TTTC
+T ss_pred             cccccCCCCCCCCCCcccCCCCccc--CCeEEeCCCeeC--cccC
+
+
+No 91
+>d3ge3a_ a.25.1.2 (A:) automated matches {Pseudomonas mendocina [TaxId: 300]}
+Probab=82.98  E-value=5.1  Score=28.93  Aligned_cols=38  Identities=11%  Similarity=-0.010  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ceecCCCCCcccCCC--------eEEEECC-eEEEcChHHHHHHHHH
+Q Q_9186633_13     20 IEECAGCNGEIYFGE--------SCLDFGG-DYLHADTECITQYVKS   57 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~--------~~~~~~g-~~~~c~~~C~~~~~~~   57 (66)
+                      ...|+.||.+|...+        .....+| .+++||..|...+..+
+T Consensus       393 p~~CpVCg~pv~~~~~~~~~~~~~~~e~~G~~y~FCS~~C~~~F~~~  439 (491)
+T d3ge3a_         393 PSVCNMSQIPLVGVPGDDWNIEVFSLEHNGRLYHFGSEVDRWVFQQD  439 (491)
+T ss_dssp             BCBCTTTCSBCBCBCGGGCBCCCEEEEETTEEEEESSHHHHHHHHHC
+T ss_pred             CCccCCCCCcccCCCCCCCCcceEEEEECCEEEEEcChHHHHHHHhC
+
+
+No 92
+>PF09889.9 ; DUF2116 ; Uncharacterized protein containing a Zn-ribbon (DUF2116)
+Probab=82.70  E-value=1.3  Score=20.73  Aligned_cols=19  Identities=16%  Similarity=0.186  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             ccceecCCCCCcccCCCeE
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGESC   36 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~~~   36 (66)
+                      .....|+.||.++..+..+
+T Consensus         1 ~~~~~C~~Cg~~~~~~~~~   19 (58)
+T O29389_ARCFU/5    1 VPHRHCVVCGKAIEPDQQV   19 (58)
+T ss_pred             CCCccCCCCCCCCCCCCcc
+
+
+No 93
+>KOG2063 Vacuolar assembly/sorting proteins VPS39/VAM6/VPS3 [Intracellular trafficking, secretion, and vesicular transport]
+Probab=82.63  E-value=2.4  Score=31.20  Aligned_cols=41  Identities=17%  Similarity=0.207  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHHHhcccccc
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQYVKSHSTEKVA   64 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~~~~~~~~~   64 (66)
+                      .|+.||++|....-+...-|..+|  ..|...........+.+
+T Consensus       836 ~C~~C~~~l~~~~~~vf~cgh~~H--~~C~~~~~~~~~~~~~~  876 (877)
+T KOG2063         836 LCSICEKRIGTSVFVRYPNGILVH--LSCAKDLQGSKAVKNEG  876 (877)
+T ss_pred             cccCCCCeeCCceEEEeCCCeEEE--hhchhHhhcccccCCCC
+
+
+No 94
+>d2d8za1 g.39.1.3 (A:8-32) Four and a half LIM domains protein 2, FHL2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=82.37  E-value=2.1  Score=15.83  Aligned_cols=25  Identities=24%  Similarity=0.587  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|+..|..  .+....+..+|  .+|+
+T Consensus         1 c~~C~~~i~~--~~~~~~~~~~h--~~cf   25 (25)
+T d2d8za1           1 CVQCKKPITT--GGVTYREQPWH--KECF   25 (25)
+T ss_dssp             CSSSCCBCCS--SEEESSSSEEE--TTTS
+T ss_pred             CCCCCCeecC--ceEEECCeeec--cccC
+
+
+No 95
+>cd01057 AAMH_A; Aromatic and Alkene Monooxygenase Hydroxylase, subunit A, ferritin-like diiron-binding domain.
+Probab=82.35  E-value=7.2  Score=26.97  Aligned_cols=42  Identities=7%  Similarity=-0.106  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             ccccceecCCCCCccc-------CCCeEEEECC-eEEEcChHHHHHHHHH
+Q Q_9186633_13     16 ARDFIEECAGCNGEIY-------FGESCLDFGG-DYLHADTECITQYVKS   57 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I~-------~g~~~~~~~g-~~~~c~~~C~~~~~~~   57 (66)
+                      .......|+.||.++.       ........+| ...+||..|...+..+
+T Consensus       376 ~~~~~~~cpvC~~~~~~~~~~~~~~~~~~~~~g~~~~fCs~~C~~~f~~~  425 (465)
+T cd01057         380 NNHPIYIDRVSQVPFCPSLAKGASTLRVHEYNGEMHTFSDQWGERMWLAE  429 (468)
+T ss_pred             CCCCCccCCCCCCccccCCCCCCcCCEEEEECCEEEEECCHHHHHHHHHC
+
+
+No 96
+>d2cuqa1 g.39.1.3 (A:43-74) Four and a half LIM domains 3, FHL3 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=81.87  E-value=3.2  Score=16.31  Aligned_cols=29  Identities=21%  Similarity=0.510  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..| .+..++..++..+|  ..|...
+T Consensus         1 ~C~~c~~~l-~~~~~~~~~~~~~c--~~c~~~   29 (32)
+T d2cuqa1           1 VCTGCQTPL-AGQQFTSRDEDPYC--VACFGE   29 (32)
+T ss_dssp             BCSSSCCBC-TTCCEEECSSSEEE--HHHHHH
+T ss_pred             CCCCCCCCC-CCCcccccCCeecc--HHHHHH
+
+
+No 97
+>PF08746.11 ; zf-RING-like ; RING-like domain
+Probab=81.69  E-value=4.4  Score=18.39  Aligned_cols=33  Identities=30%  Similarity=0.581  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHHHHHHHHh
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECITQYVKSH   58 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~~~   58 (66)
+                      |..|.+.+..|+... .=+..||  ..|+..|....
+T Consensus         1 C~iC~~~~~~g~~c~-~C~~~~H--~~C~~~~~~~~   33 (41)
+T E0VUH9_PEDHC/1    1 CTLCRKIILQGYNCI-NCNVKYH--FFCLKKYVHSQ   33 (41)
+T ss_pred             CCCCcccccCCcEeC-CCCCEEc--HHHHHHHHHhc
+
+
+No 98
+>PF12855.7 ; Ecl1 ; ECL1/2/3 zinc binding proteins
+Probab=81.63  E-value=1.8  Score=26.38  Aligned_cols=28  Identities=18%  Similarity=0.471  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             cceecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     19 FIEECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      ....|+.||+.| .     ..+...| |+..|...
+T Consensus         4 ~~~~C~~C~k~~-~-----~~~~~~y-CSe~Cr~~   31 (140)
+T A0A168HBS5_MUC    4 DTNWCTFCDNAI-S-----PYSDSLY-CSEDCLRQ   31 (140)
+T ss_pred             CCCcCCCCCCcc-C-----CCCCCcc-cCHHHHHh
+
+
+No 99
+>d1x6aa2 g.39.1.3 (A:42-75) Lim domain kinase 2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=81.25  E-value=1.9  Score=20.19  Aligned_cols=27  Identities=22%  Similarity=0.352  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      |..|+.-|..||.+-..+-..+.| ..|
+T Consensus         3 C~~C~~~Igdgd~yaLvers~LyC-g~C   29 (34)
+T d1x6aa2           3 CMSCKVIIEDGDAYALVQHATLYC-GKC   29 (34)
+T ss_dssp             CTTTCCBCCTTSCEEECSSSCEEE-HHH
+T ss_pred             ceeCccEeeCCCeEEeecCCceec-CCc
+
+
+No 100
+>PF10571.9 ; UPF0547 ; Uncharacterised protein family UPF0547
+Probab=80.95  E-value=1.4  Score=18.50  Aligned_cols=15  Identities=13%  Similarity=0.521  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             ecCCCCCcccCCCeE
+Q Q_9186633_13     22 ECAGCNGEIYFGESC   36 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~   36 (66)
+                      .|+.||..|..+...
+T Consensus         2 ~Cp~Cg~~~~~~~~~   16 (25)
+T CP087_BOVIN/14    2 SCPECDQQVPVACKS   16 (25)
+T ss_pred             CCCCCCCcCCcccCc
+
+
+No 101
+>d2lzua2 g.39.1.0 (A:69-107) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=80.81  E-value=5  Score=17.47  Aligned_cols=30  Identities=20%  Similarity=0.500  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQY   54 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~   54 (66)
+                      .|..|+..|..+ .+...++..+|  ..|....
+T Consensus         1 ~C~~C~~~l~~~-~~~~~~g~~yC--~~~~~~~   30 (39)
+T d2lzua2           1 CCKHCHTKLSLG-SYAALHGEFYC--KPHFQQL   30 (39)
+T ss_dssp             BCSSSCCBCTTT-SCEECSSCEEC--HHHCCCC
+T ss_pred             CCCCCCCcCCCC-CEEEeCCEEee--HHHHHHH
+
+
+No 102
+>d1j2oa2 g.39.1.3 (A:31-63) Rhombotin-2 (Lmo2) {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=80.74  E-value=4.8  Score=17.86  Aligned_cols=24  Identities=21%  Similarity=0.268  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             ecCCCCCcc-cCCCeEEEECCeEEE
+Q Q_9186633_13     22 ECAGCNGEI-YFGESCLDFGGDYLH   45 (66)
+Q Consensus        22 ~C~~CG~~I-~~g~~~~~~~g~~~~   45 (66)
+                      .|..|+..| ..++..+..+|.++|
+T Consensus         2 ~C~~C~~~L~~~~~~c~~~~~~~~C   26 (33)
+T d1j2oa2           2 SCDLCGCRLGEVGRRLYYKLGRKLC   26 (33)
+T ss_dssp             CCSSSCSCCCCSSSCCCCBTTBCCC
+T ss_pred             cccCCCCcccccCCceEEECCEEEc
+
+
+No 103
+>d1x3ha1 g.39.1.3 (A:8-42) Leupaxin {Human (Homo sapiens) [TaxId: 9606]}
+Probab=80.64  E-value=2.4  Score=16.75  Aligned_cols=26  Identities=35%  Similarity=0.768  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .|..|+..|.  ..+....+..+|  ..|+
+T Consensus        10 ~c~~c~~~i~--~~~~~~~~~~~h--~~cf   35 (35)
+T d1x3ha1          10 KCGGCNRPVL--ENYLSAMDTVWH--PECF   35 (35)
+T ss_dssp             BCTTTCCBCC--SSCEEETTEEEC--TTTC
+T ss_pred             cCCCCCCccc--cCeEEeCCceeC--hhhC
+
+
+No 104
+>PF09297.11 ; zf-NADH-PPase ; NADH pyrophosphatase zinc ribbon domain
+Probab=80.04  E-value=2.9  Score=17.34  Aligned_cols=23  Identities=22%  Similarity=0.618  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CCCCCccccccceecCCCCCccc
+Q Q_9186633_13      9 GNAHDSSARDFIEECAGCNGEIY   31 (66)
+Q Consensus         9 ~~~~~~~~~~~~~~C~~CG~~I~   31 (66)
+                      +.............|+.||..+|
+T Consensus        10 g~~~~~~~~~~~~~C~~C~~~~~   32 (32)
+T Q98BN0_RHILO/1   10 GTQSEMRAGGYKRHCPNCGTEHF   32 (32)
+T ss_pred             CCcceeecCCcceeCCCCCCeeC
+
+
+No 105
+>d1mtyd_ a.25.1.2 (D:) Methane monooxygenase hydrolase alpha subunit {Methylococcus capsulatus [TaxId: 414]}
+Probab=79.18  E-value=9.5  Score=27.73  Aligned_cols=40  Identities=8%  Similarity=-0.107  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             ccceecCCCCCcccCCC-------eEEEECC-eEEEcChHHHHHHHHH
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGE-------SCLDFGG-DYLHADTECITQYVKS   57 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~-------~~~~~~g-~~~~c~~~C~~~~~~~   57 (66)
+                      .....|+.||-++....       .....+| .+++||..|...+..+
+T Consensus       399 ~~~~~cpVC~~pv~~~~~~~~~~~~~~~~~G~~y~FCS~~C~~~F~~~  446 (512)
+T d1mtyd_         399 HPIYIDRVSQVPFCPSLAKGASTLRVHEYNGEMHTFSDQWGERMWLAE  446 (512)
+T ss_dssp             CCCEECTTTCCEECTTTCSSCCCCEEEEETTEEEEESSHHHHHHHHHC
+T ss_pred             CCCcccCCCCCEeCcccCCCCCccEEEEECCEEEEECCHHHHHHHHHC
+
+
+No 106
+>KOG1701 Focal adhesion adaptor protein Paxillin and related LIM proteins [Signal transduction mechanisms]
+Probab=78.96  E-value=6  Score=28.11  Aligned_cols=34  Identities=21%  Similarity=0.568  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             ecCCCCCccc---CCCeEEEECCeEEEcChHHHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIY---FGESCLDFGGDYLHADTECITQYVKS   57 (66)
+Q Consensus        22 ~C~~CG~~I~---~g~~~~~~~g~~~~c~~~C~~~~~~~   57 (66)
+                      .|..|+..|.   .|+.++..++..+|  ..|.......
+T Consensus       429 ~C~~C~~~L~~~~~~~~~~~~dg~~~C--~~C~~~~~~~  465 (468)
+T KOG1701         429 KCEDCGLLLSSEEEGQGCYPLDGHLLC--KTCHLKRLQA  465 (468)
+T ss_pred             ccCCCCCCCCcccCCCCeEEeCCEEEc--HHHHHHHhhc
+
+
+No 107
+>COG1813 aMBF1; Archaeal ribosome-binding protein aMBF1, putative translation factor, contains Zn-ribbon and HTH domains [Translation, ribosomal structure and biogenesis]. 
+Probab=78.92  E-value=3.1  Score=24.48  Aligned_cols=28  Identities=21%  Similarity=0.320  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|+.||..+.....++..+.....| ..|
+T Consensus         5 ~Cp~Cg~~~~~~~~~~~~~~~~~~C-~~C   32 (165)
+T COG1813           5 GCELCGREIDKPIKVKVEGAELTVC-DDC   32 (165)
+T ss_pred             cCCCCCCccCCCeEEEECCEEeEEC-CCh
+
+
+No 108
+>PF03119.16 ; DNA_ligase_ZBD ; NAD-dependent DNA ligase C4 zinc finger domain
+Probab=78.86  E-value=3.1  Score=17.30  Aligned_cols=20  Identities=25%  Similarity=0.511  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             ecCCCCCccc-C--CCeEEEECC
+Q Q_9186633_13     22 ECAGCNGEIY-F--GESCLDFGG   41 (66)
+Q Consensus        22 ~C~~CG~~I~-~--g~~~~~~~g   41 (66)
+                      .|+.||.+|. .  ++.++.-.+
+T Consensus         1 ~CP~Cg~~~~~~~~~~~~~~C~n   23 (28)
+T D3R1D1_MAGIU/4    1 KCPVCGEKLIRRKENEVDLRCGN   23 (28)
+T ss_pred             CCCCCCCeeEEecCCcceEEeCC
+
+
+No 109
+>PF02150.16 ; RNA_POL_M_15KD ; RNA polymerases M/15 Kd subunit
+Probab=78.82  E-value=2.3  Score=18.16  Aligned_cols=19  Identities=21%  Similarity=0.464  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             ceecCCCCCcccCCCeEEE
+Q Q_9186633_13     20 IEECAGCNGEIYFGESCLD   38 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~~~   38 (66)
+                      ...|+.||..|+..+..+.
+T Consensus         1 ~~~Cp~Cg~~l~~~~~~~~   19 (32)
+T TFS_METJA/2-33    1 VKFCPKCNNLMLPKDGKLK   19 (32)
+T ss_pred             CccCCCCCCeeeccCCcee
+
+
+No 110
+>d1x6aa1 g.39.1.3 (A:8-41) Lim domain kinase 2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=78.58  E-value=2.3  Score=17.19  Aligned_cols=25  Identities=28%  Similarity=0.481  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|..|+..|.  +.+....+..+|  .+|
+T Consensus        10 ~C~~C~~~i~--~~~~~~~~~~~h--~~c   34 (34)
+T d1x6aa1          10 FCHGCSLLMT--GPFMVAGEFKYH--PEC   34 (34)
+T ss_dssp             BCTTTCCBCC--SCCBCCTTCCBC--TTS
+T ss_pred             cCccCCCccC--CCcEEeCCeEeC--CCC
+
+
+No 111
+>PF17915.1 ; zf_Rg ; Reverse gyrase zinc finger
+Probab=78.45  E-value=1.6  Score=22.13  Aligned_cols=19  Identities=26%  Similarity=0.597  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             ccccceecCCCCCcccCCC
+Q Q_9186633_13     16 ARDFIEECAGCNGEIYFGE   34 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I~~g~   34 (66)
+                      .......||.||..|....
+T Consensus         3 ~~iY~~~CPnCgg~I~~~r   21 (49)
+T W0DDL9_9AQUI/1    3 KAIFSKLCPNCGGDISVER   21 (49)
+T ss_pred             cccccccCCCCCCCCchhh
+
+
+No 112
+>COG4338 COG4338; Uncharacterized protein, DUF2256 family [Function unknown]. 
+Probab=78.43  E-value=2.3  Score=21.94  Aligned_cols=43  Identities=12%  Similarity=0.115  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             CCCCccccccceecCCCCCcccCCCeEEEECCeEEEcChHHHH
+Q Q_9186633_13     10 NAHDSSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECIT   52 (66)
+Q Consensus        10 ~~~~~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~   52 (66)
+                      .............|+.||.++..-..--...+..-+||..|..
+T Consensus         2 ~~~~~~~~~~~~~Cp~Cgr~~~~rk~w~~~~~~~~fCS~rCR~   44 (54)
+T COG4338           2 AARRPKATLPDKICPVCQRPFSWRKKWARCWDEVKYCSERCRR   44 (54)
+T ss_pred             CCCCCcCCCCCccCCCCCCeeecchhHHhhCCCCccCcHHHHH
+
+
+No 113
+>d2co8a1 g.39.1.3 (A:44-76) Nedd9 interacting protein with calponin homology, NICAL (MICAL1) {Human (Homo sapiens) [TaxId: 9606]}
+Probab=78.40  E-value=4.2  Score=18.51  Aligned_cols=25  Identities=16%  Similarity=0.357  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEc
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHA   46 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c   46 (66)
+                      +|..|+..|..|...+...+..+.|
+T Consensus         1 rC~~C~~~L~l~~ya~~~~~G~~yC   25 (33)
+T d2co8a1           1 RCHTCEATLWPGGYEQHPGDGHFYC   25 (33)
+T ss_dssp             BCSSSCCBCCTTSEECCTTTCCCEE
+T ss_pred             CCCCCCCccCCCCeeecCCCCEEec
+
+
+No 114
+>PF03966.16 ; Trm112p ; Trm112p-like protein
+Probab=78.12  E-value=2.4  Score=18.49  Aligned_cols=23  Identities=13%  Similarity=0.343  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .||.|+.++.    +...++.++|  ..|
+T Consensus         9 ~CP~C~~~l~----~~~~~~~~~C--~~C   31 (40)
+T Y2800_SHEON/4-    9 ACPVCKGKLE----YDKVAQQLIC--KAD   31 (40)
+T ss_pred             eCCCCCCccE----EecccCEEEc--CCC
+
+
+No 115
+>PF17848.1 ; zf-ACC ; Acetyl-coA carboxylase zinc finger domain
+Probab=77.78  E-value=2  Score=18.23  Aligned_cols=10  Identities=20%  Similarity=0.806  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             ecCCCCCccc
+Q Q_9186633_13     22 ECAGCNGEIY   31 (66)
+Q Consensus        22 ~C~~CG~~I~   31 (66)
+                      +|+.||..|+
+T Consensus         3 ~Cp~C~~~~~   12 (26)
+T E6U768_ETHHY/3    3 QCPRCRAATL   12 (26)
+T ss_pred             eCCCCCCEEe
+
+
+No 116
+>KOG2034 Vacuolar sorting protein PEP3/VPS18 [Intracellular trafficking, secretion, and vesicular transport]
+Probab=77.71  E-value=4.7  Score=30.20  Aligned_cols=35  Identities=20%  Similarity=0.405  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHHHh
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQYVKSH   58 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~~~   58 (66)
+                      .|..||++|....-+++.-|..||  ..|+.......
+T Consensus       819 ~C~~C~~~l~~~~~~vF~CgH~fH--~~Cl~~~~~~~  853 (911)
+T KOG2034         819 SCDHCGRPLLIKPFYVFPCGHCFH--RDCLIRHVLSL  853 (911)
+T ss_pred             ccCCCCCcccCCcEEEcCCCCeeH--HHHHHHHHHHh
+
+
+No 117
+>d1wyha1 g.39.1.3 (A:35-66) Four and a half LIM domains 3, FHL3 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=77.61  E-value=4.4  Score=15.55  Aligned_cols=29  Identities=21%  Similarity=0.379  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|..+ .++...+..++  ..|...
+T Consensus         1 ~c~~c~~~l~~~-~~~~~~~~~~c--~~~~~~   29 (32)
+T d1wyha1           1 LCSGCEQPLGSR-SFVPDKGAHYC--VPCYEN   29 (32)
+T ss_dssp             BCTTTCCBTTTS-CEEEETTEEEE--HHHHHH
+T ss_pred             CCCCCCCCcCCC-CcccCCCeecC--HHHHHh
+
+
+No 118
+>PF14803.6 ; Nudix_N_2 ; Nudix N-terminal
+Probab=77.55  E-value=0.73  Score=19.16  Aligned_cols=27  Identities=15%  Similarity=0.187  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|+.||..+............+.|  ..|
+T Consensus         2 ~Cp~C~~~~~~~~~~~~~~~~~~C--~~C   28 (33)
+T C7RRZ1_ACCPU/2    2 FCSECGEALSLLIPDGDNLARHVC--QSC   28 (33)
+T ss_pred             ccCcCCCeeeEecCCCCccceEEc--CCC
+
+
+No 119
+>d2d8za2 g.39.1.3 (A:33-64) Four and a half LIM domains protein 2, FHL2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=77.03  E-value=5.2  Score=15.50  Aligned_cols=31  Identities=13%  Similarity=0.315  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQYV   55 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~   55 (66)
+                      .|..|+..+ .+..++...+..++  ..|.....
+T Consensus         1 ~C~~c~~~~-~~~~~~~~~~~~~c--~~c~~~~~   31 (32)
+T d2d8za2           1 VCTACRKQL-SGQRFTARDDFAYC--LNCFCDLY   31 (32)
+T ss_dssp             BCSSSCCBC-TTSCCEESSSSEEC--HHHHHHHT
+T ss_pred             CCCCCCCCC-CCCCeEEeCCEEcC--hHHHHHhh
+
+
+No 120
+>PF18439.1 ; zf_UBZ ; Ubiquitin-Binding Zinc Finger
+Probab=75.84  E-value=2.3  Score=18.92  Aligned_cols=9  Identities=33%  Similarity=0.896  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             ecCCCCCcc
+Q Q_9186633_13     22 ECAGCNGEI   30 (66)
+Q Consensus        22 ~C~~CG~~I   30 (66)
+                      .|+.||..|
+T Consensus         4 ~C~~Cg~~i   12 (32)
+T A0A0D1Y7H6_9EU    4 VCDQCHQSI   12 (32)
+T ss_pred             eCCCCCCEe
+
+
+No 121
+>d1ak2a2 g.41.2.1 (A:147-176) Microbial and mitochondrial ADK, insert "zinc finger" domain {Cow (Bos taurus), mitochondrial izozyme-2 [TaxId: 9913]}
+Probab=75.45  E-value=2.7  Score=17.74  Aligned_cols=15  Identities=0%  Similarity=-0.307  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             ccccceecCCCCCcc
+Q Q_9186633_13     16 ARDFIEECAGCNGEI   30 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I   30 (66)
+                      .++....|+.||.+|
+T Consensus        13 ~~~~~~~c~~cg~~L   27 (30)
+T d1ak2a2          13 PPKEPMKDDITGEPL   27 (30)
+T ss_dssp             CCSSTTBCTTTCCBC
+T ss_pred             CCCCCCCCCCCCCcC
+
+
+No 122
+>PF08792.10 ; A2L_zn_ribbon ; A2L zinc ribbon domain
+Probab=75.12  E-value=1.9  Score=18.61  Aligned_cols=23  Identities=22%  Similarity=0.524  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|+.||..+...    ...+.++|  ..|
+T Consensus         5 ~Cp~C~~~~~~~----~~~~~~~C--~~C   27 (33)
+T Q4A276_EHV8U/1    5 KCIKCGGPVLMQ----AARSLLNC--QEC   27 (33)
+T ss_pred             cCCCCCCCceec----cCCCEEEC--CCC
+
+
+No 123
+>PF08274.12 ; PhnA_Zn_Ribbon ; PhnA Zinc-Ribbon
+Probab=75.08  E-value=3.1  Score=17.37  Aligned_cols=21  Identities=14%  Similarity=0.407  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             cceecCCCCCcccCCCeEEEE
+Q Q_9186633_13     19 FIEECAGCNGEIYFGESCLDF   39 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~g~~~~~~   39 (66)
+                      ....|+.||..++..+.....
+T Consensus         1 ~~~~Cp~Cg~~~~~~~~~~~~   21 (30)
+T Q5ZZB4_LEGPH/3    1 QLPNCPKCLSEYCYEDGDVLI   21 (30)
+T ss_pred             CCCCCCCCCCEEEeccCCEEE
+
+
+No 124
+>d3tlxa1 g.41.2.0 (A:161-188) automated matches {Malaria parasite (Plasmodium falciparum) [TaxId: 5833]}
+Probab=74.91  E-value=2.9  Score=17.44  Aligned_cols=15  Identities=7%  Similarity=-0.177  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             ccccceecCCCCCcc
+Q Q_9186633_13     16 ARDFIEECAGCNGEI   30 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I   30 (66)
+                      .+...+.|+.||.+|
+T Consensus        11 ~~~~~~~C~~cg~~L   25 (28)
+T d3tlxa1          11 PPKVPFRDDVTNEPL   25 (28)
+T ss_dssp             CCSSTTBCTTTCCBC
+T ss_pred             CCCCCCCCCCCCCcc
+
+
+No 125
+>d1vd4a_ g.41.3.1 (A:) Transcription initiation factor TFIIE-alpha {Human (Homo sapiens) [TaxId: 9606]}
+Probab=74.71  E-value=2.6  Score=21.06  Aligned_cols=14  Identities=36%  Similarity=0.593  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             ecCCCCCcccCCCe
+Q Q_9186633_13     22 ECAGCNGEIYFGES   35 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~   35 (66)
+                      .|+.||..+...+.
+T Consensus        41 ~Cp~Cg~~~~~~~~   54 (62)
+T d1vd4a_          41 RCTFCHTEVEEDES   54 (62)
+T ss_dssp             BCSSSCCBCEECTT
+T ss_pred             ECCCCCCEeeeCcc
+
+
+No 126
+>d1twfi1 g.41.3.1 (I:1-49) RBP9 subunit of RNA polymerase II {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=74.26  E-value=1.2  Score=21.03  Aligned_cols=32  Identities=19%  Similarity=0.257  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             cccceecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     17 RDFIEECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      ......|+.||..|.....-.......+|  ..|
+T Consensus         1 ~~~~~fCp~Cg~~L~~~~~~~~~~~~~~C--~~C   32 (49)
+T d1twfi1           1 MTTFRFCRDCNNMLYPREDKENNRLLFEC--RTC   32 (49)
+T ss_dssp             CCCCCBCSSSCCBCEEEEETTTTEEEEEC--SSS
+T ss_pred             CCCcccccCCCCcceecccCCCCeEEEEC--CCC
+
+
+No 127
+>PF04423.14 ; Rad50_zn_hook ; Rad50 zinc hook motif
+Probab=74.23  E-value=2.2  Score=20.52  Aligned_cols=10  Identities=30%  Similarity=0.846  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             eecCCCCCcc
+Q Q_9186633_13     21 EECAGCNGEI   30 (66)
+Q Consensus        21 ~~C~~CG~~I   30 (66)
+                      +.||.|+.+|
+T Consensus        20 ~~CP~C~~~l   29 (52)
+T RAD50_THEKO/41   20 GRCPVCGREL   29 (52)
+T ss_pred             CCCCCCCCCC
+
+
+No 128
+>cd12870 MqsA; antitoxin MqsA for MqsR toxin. This family includes domains similar to the antitoxin MqsA that binds motility quorum-sensing regulator MqsR, a toxin that is highly upregulated in persisters (dormant cells found in biofilms that are a source of antibiotic resistance), thus forming a unique toxin:antitoxin (TA) pair.
+Probab=73.88  E-value=1.9  Score=20.44  Aligned_cols=16  Identities=25%  Similarity=0.316  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             cceecCCCCCcccCCC
+Q Q_9186633_13     19 FIEECAGCNGEIYFGE   34 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~g~   34 (66)
+                      +...|+.||+.++..+
+T Consensus        32 ~~~~C~~Cg~~~~~~~   47 (66)
+T cd12870          32 HGLYCVHCEESIMNKE   47 (66)
+T ss_pred             cEEEeCCCCCEEeCHH
+
+
+No 129
+>d3n20a_ a.25.1.2 (A:) Toluene, o-xylene monooxygenase oxygenase subunit TouA {Pseudomonas sp. [TaxId: 320855]}
+Probab=73.51  E-value=18  Score=26.32  Aligned_cols=42  Identities=17%  Similarity=0.177  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ccccceecCCCCCcccCCC--------eEEEECC-eEEEcChHHHHHHHHH
+Q Q_9186633_13     16 ARDFIEECAGCNGEIYFGE--------SCLDFGG-DYLHADTECITQYVKS   57 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I~~g~--------~~~~~~g-~~~~c~~~C~~~~~~~   57 (66)
+                      .......|+.||-+|...+        .....+| .+.+||..|...+..+
+T Consensus       389 ~~~~p~~CpVCgmpv~~~~~~~~~~~~~~~ey~G~~y~FCS~~C~~iFe~~  439 (491)
+T d3n20a_         389 PETLPTICNMCNLPIAHTPGNKWNVKDYQLEYEGRLYHFGSEADRWCFQID  439 (491)
+T ss_dssp             CSSCBCBCTTTCSBCBCCCGGGCCCCCCCEEETTEEECCSSHHHHHHHHTS
+T ss_pred             CCCCCcccCCCCCeecCCCCCCCCcceEEEEECCEEEEEcCHHHHHHHHhC
+
+
+No 130
+>PF13248.6 ; zf-ribbon_3 ; zinc-ribbon domain
+Probab=73.39  E-value=3.4  Score=14.71  Aligned_cols=15  Identities=27%  Similarity=0.829  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             ecCCCCCcccCCCeE
+Q Q_9186633_13     22 ECAGCNGEIYFGESC   36 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~   36 (66)
+                      .|+.||..+..+..+
+T Consensus         4 ~c~~~g~~~~~~~~~   18 (26)
+T Q6AJQ7_DESPS/1    4 SCPACGHLFTTGQPC   18 (26)
+T ss_pred             cCCCCCCcCCCCCCc
+
+
+No 131
+>PF10013.9 ; DUF2256 ; Uncharacterized protein conserved in bacteria (DUF2256)
+Probab=73.31  E-value=2.4  Score=20.14  Aligned_cols=36  Identities=14%  Similarity=0.190  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      ........|+.||..+......-......-+||..|
+T Consensus         2 ~~~~~~~~Cp~Cgr~~~~~~~~~~~~~~~pfCS~rC   37 (40)
+T B6IRJ7_RHOCS/6    2 KADLPTRICARCGRPFTWRKKWARVWEEVRYCSDAC   37 (40)
+T ss_pred             CCCCCCccCCCCCCeeecchhhhhhCccCCCCcHHH
+
+
+No 132
+>d1b8ta2 g.39.1.3 (A:36-100) Cysteine-rich (intestinal) protein, CRP, CRIP {Chicken (Gallus gallus) [TaxId: 9031]}
+Probab=73.26  E-value=6.8  Score=20.22  Aligned_cols=29  Identities=14%  Similarity=0.336  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|++.|..+ .++..++..+|  ..|...
+T Consensus         1 ~C~~C~k~L~~~-~f~~~~g~~yC--~~cy~~   29 (65)
+T d1b8ta2           1 LCMVCKKNLDST-TVAVHGDEIYC--KSCYGK   29 (65)
+T ss_dssp             BCTTTCCBCCSS-SEEEETTEEEE--HHHHHH
+T ss_pred             CCCCCCCcCCCC-CeeEeCCEEEc--CCchhH
+
+
+No 133
+>d1j2oa1 g.39.1.3 (A:2-30) Rhombotin-2 (Lmo2) {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=73.06  E-value=4.6  Score=15.49  Aligned_cols=26  Identities=31%  Similarity=0.681  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|..|+..| .+..++...+..+|  ..|
+T Consensus         4 ~c~~c~~~i-~~~~~~~~~~~~~h--~~c   29 (29)
+T d1j2oa1           4 TCGGCQQNI-GDRYFLKAIDQYWH--EDC   29 (29)
+T ss_dssp             CBSSSCSCB-CSSEEEECSSSEEC--TTT
+T ss_pred             cCCCCCCcc-cCCceEEeCCceeC--CCC
+
+
+No 134
+>PF11023.8 ; DUF2614 ; Zinc-ribbon containing domain
+Probab=72.68  E-value=2.7  Score=23.08  Aligned_cols=19  Identities=16%  Similarity=0.420  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             cccceecCCCCCcccCCCe
+Q Q_9186633_13     17 RDFIEECAGCNGEIYFGES   35 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~~g~~   35 (66)
+                      ......|++||.++...++
+T Consensus        80 ~~~~~~Cp~Cg~~l~~~~~   98 (111)
+T G2TN18_BACCO/3   80 LGRVDICMHCNEPLTLDPE   98 (111)
+T ss_pred             CCCCccCCCCCCccccCHH
+
+
+No 135
+>d1u5sb1 g.39.1.3 (B:74-102) Pinch (particularly interesting new Cys-His) protein {Human (Homo sapiens) [TaxId: 9606]}
+Probab=72.04  E-value=3.8  Score=15.83  Aligned_cols=29  Identities=21%  Similarity=0.300  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             ccceecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .....|..|++.|.  ..+....+..+|  .+|
+T Consensus         1 ~~~~~c~~C~~~i~--~~~~~~~~~~~h--~~c   29 (29)
+T d1u5sb1           1 MGVPICGACRRPIE--GRVVNAMGKQWH--VEH   29 (29)
+T ss_dssp             CCCCEETTTTEECC--SCEECCTTSBEE--TTT
+T ss_pred             CCCCccCCCCCeeC--CCeEEeCCcccC--CCC
+
+
+No 136
+>d1rutx1 g.39.1.3 (X:19-48) LIM only 4 (Lmo4) {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=71.75  E-value=4.8  Score=15.26  Aligned_cols=29  Identities=34%  Similarity=0.726  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             ceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     20 IEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      ...|..|+..| .+..++...+..+|  ..|+
+T Consensus         2 ~~~c~~c~~~i-~~~~~~~~~~~~~h--~~cf   30 (30)
+T d1rutx1           2 WKRCAGCGGKI-ADRFLLYAMDSYWH--SRCL   30 (30)
+T ss_dssp             CCBBTTTCCBC-CCSEEEEETTEEEC--GGGC
+T ss_pred             CcccCCCCCee-cCCeEEEeCCcccC--cccC
+
+
+No 137
+>cd00601 RNA_pol_P_RPB12; Eukaryotic RNA polymerases RPB12 subunit. RNA polymerases are multisubunit enzymes that synthesize RNA from DNA.
+Probab=71.06  E-value=4.8  Score=17.65  Aligned_cols=18  Identities=22%  Similarity=0.462  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             cccceecCCCCCcccCCC
+Q Q_9186633_13     17 RDFIEECAGCNGEIYFGE   34 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~~g~   34 (66)
+                      ......|+.||..+...+
+T Consensus        16 ~~~~~~Cp~Cg~~~~~~~   33 (42)
+T cd00601          16 RTDAVRCKDCGHRILLKA   33 (42)
+T ss_pred             CCCCeeCCCCCCEEEEcc
+
+
+No 138
+>d1tjla2 g.39.1.13 (A:111-151) DnaK suppressor protein DksA, zinc finger domain {Escherichia coli [TaxId: 562]}
+Probab=70.84  E-value=3.2  Score=19.61  Aligned_cols=10  Identities=40%  Similarity=0.820  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             eecCCCCCcc
+Q Q_9186633_13     21 EECAGCNGEI   30 (66)
+Q Consensus        21 ~~C~~CG~~I   30 (66)
+                      +.|..||.+|
+T Consensus         2 G~C~~Cg~~I   11 (41)
+T d1tjla2           2 GYCESCGVEI   11 (41)
+T ss_dssp             SBCSSSSCBC
+T ss_pred             CccCCCCCcc
+
+
+No 139
+>PF11781.8 ; zf-RRN7 ; Zinc-finger of RNA-polymerase I-specific TFIIB, Rrn7
+Probab=70.77  E-value=4.8  Score=17.00  Aligned_cols=17  Identities=18%  Similarity=0.511  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             ecCCCCCcccC-CCeEEE
+Q Q_9186633_13     22 ECAGCNGEIYF-GESCLD   38 (66)
+Q Consensus        22 ~C~~CG~~I~~-g~~~~~   38 (66)
+                      .|+.||..+.. ++..+.
+T Consensus         6 ~Cp~C~~~~~~~~~~~~~   23 (32)
+T G0A9J4_COLFT/1    6 ACPECSSEFTYEDGGLYI   23 (32)
+T ss_pred             CCCCCCCeeEEcCCCEEE
+
+
+No 140
+>d1b8ta4 g.39.1.3 (A:144-192) Cysteine-rich (intestinal) protein, CRP, CRIP {Chicken (Gallus gallus) [TaxId: 9031]}
+Probab=70.57  E-value=12  Score=16.61  Aligned_cols=29  Identities=21%  Similarity=0.463  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..|... .++..++..++  ..|...
+T Consensus         1 ~C~~C~~~l~~~-~~~~~~~~~~c--~~~~~~   29 (49)
+T d1b8ta4           1 RCAKCGKSLEST-TLADKDGEIYC--KGCYAK   29 (49)
+T ss_dssp             BCTTTCCBCCSS-SEEEETTEEEE--HHHHHH
+T ss_pred             CCCCCCCcCccC-ceeCCCCeEEe--hhHHHH
+
+
+No 141
+>PF13240.6 ; zinc_ribbon_2 ; zinc-ribbon domain
+Probab=70.26  E-value=4.6  Score=13.27  Aligned_cols=15  Identities=13%  Similarity=0.483  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             ecCCCCCcccCCCeE
+Q Q_9186633_13     22 ECAGCNGEIYFGESC   36 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~   36 (66)
+                      .|+.||..+..+..+
+T Consensus         1 ~~~~~~~~~~~~~~~   15 (23)
+T Q03I05_PEDPA/3    1 FCTNCGAQLEAEDKF   15 (23)
+T ss_pred             CCCCCCCCCcccCcc
+
+
+No 142
+>PF05191.14 ; ADK_lid ; Adenylate kinase, active site lid
+Probab=69.96  E-value=4  Score=17.40  Aligned_cols=15  Identities=20%  Similarity=0.603  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             cccceecCCCCCccc
+Q Q_9186633_13     17 RDFIEECAGCNGEIY   31 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~   31 (66)
+                      +.....|+.||.+|.
+T Consensus        18 ~~~~~~C~~cg~~l~   32 (36)
+T KAD_ACIC1/127-   18 PTVDGVCDLCGGKLF   32 (36)
+T ss_pred             CCCCCccCCCCCeeE
+
+
+No 143
+>PF18508.1 ; zf_C2H2_13 ; Zinc finger domain
+Probab=69.73  E-value=10  Score=18.70  Aligned_cols=28  Identities=25%  Similarity=0.390  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             CCCccCCCCCCccccccceecCCCCCcc
+Q Q_9186633_13      3 ENGMLIGNAHDSSARDFIEECAGCNGEI   30 (66)
+Q Consensus         3 enp~~~~~~~~~~~~~~~~~C~~CG~~I   30 (66)
+                      +|-+...+......+.....|..||++|
+T Consensus         2 ~n~~~g~~PL~~~~~i~yr~C~~C~kPi   29 (44)
+T S6ECV9_ZYGB2/6    2 SNTHIIENPLEPSASFQYRVCNSCGKPL   29 (44)
+T ss_pred             CCceeccCCCCCCcccCeEEeCCCCCch
+
+
+No 144
+>KOG2066 Vacuolar assembly/sorting protein VPS41 [Intracellular trafficking, secretion, and vesicular transport]
+Probab=69.12  E-value=9.1  Score=28.19  Aligned_cols=32  Identities=25%  Similarity=0.513  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             ecCCCCCcccCC----CeEEEEC-CeEEEcChHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFG----ESCLDFG-GDYLHADTECITQYV   55 (66)
+Q Consensus        22 ~C~~CG~~I~~g----~~~~~~~-g~~~~c~~~C~~~~~   55 (66)
+                      .|+.|+++|...    ..++.+. |..||  ..|+..+.
+T Consensus       786 ~C~~C~~~l~~~~~~~~~~~~f~CgH~~H--~~C~~~~~  822 (846)
+T KOG2066         786 RCSSCFEPNLPSGAAFDSVVVFHCGHMYH--KECLMMES  822 (846)
+T ss_pred             cccccCCcCCCCCCCCCcEEEEeCCCeec--HhHhcHHh
+
+
+No 145
+>COG3024 YacG; Endogenous inhibitor of DNA gyrase, YacG/DUF329 family [Replication, recombination and repair]. 
+Probab=68.61  E-value=9.6  Score=20.50  Aligned_cols=39  Identities=13%  Similarity=0.278  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECITQYVKS   57 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~~   57 (66)
+                      ........|+.||+++....   ...-.-| ||.-|...-+.+
+T Consensus         2 ~~~~~~~~CP~C~k~~~~~~---~~~~rPF-CS~RC~~iDLg~   40 (65)
+T COG3024           2 TSLRITVPCPTCGKPVVWGE---ESPFRPF-CSKRCKLIDLGE   40 (65)
+T ss_pred             CCCCCCccCCCCCCcCccCC---CCCCCCc-CCHHHHhhchHH
+
+
+No 146
+>d2o13a2 g.39.1.0 (A:145-176) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=68.47  E-value=8.9  Score=14.47  Aligned_cols=29  Identities=21%  Similarity=0.463  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..|+..+ .+..++..++..++  ..|...
+T Consensus         2 ~C~~c~~~l-~~~~~~~~~~~~~c--~~~~~~   30 (32)
+T d2o13a2           2 RCAICGKSL-ESTNVTDKDGELYC--KVCYAK   30 (32)
+T ss_dssp             EETTTTEEC-CSCCEEEETTEEEE--HHHHHH
+T ss_pred             ccCCCCCcC-CCCceEccCCEEeC--HHHHhc
+
+
+No 147
+>d2cuqa2 g.39.1.3 (A:8-42) Four and a half LIM domains 3, FHL3 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=68.42  E-value=8.5  Score=15.06  Aligned_cols=26  Identities=27%  Similarity=0.710  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .|..|+..|....  ....+..+|  ..|+
+T Consensus        10 ~c~~c~~~i~~~~--~~~~~~~~h--~~cf   35 (35)
+T d2cuqa2          10 RCARCSKTLTQGG--VTYRDQPWH--RECL   35 (35)
+T ss_dssp             CCTTTCCCCCSCC--EESSSSEEC--TTTC
+T ss_pred             CCCCCCCccccCC--eEeCCeecc--HHhC
+
+
+No 148
+>d1vk6a4 g.41.14.1 (A:97-125) NADH pyrophosphatase intervening domain {Escherichia coli [TaxId: 562]}
+Probab=68.40  E-value=10  Score=15.25  Aligned_cols=24  Identities=21%  Similarity=0.450  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCccccccceecCCCCCcccC
+Q Q_9186633_13      9 GNAHDSSARDFIEECAGCNGEIYF   32 (66)
+Q Consensus         9 ~~~~~~~~~~~~~~C~~CG~~I~~   32 (66)
+                      +......+......|+.||..+|.
+T Consensus         6 G~~~~~~~~~~~~~C~~Cg~~~~p   29 (29)
+T d1vk6a4           6 GHEMYPSKTEWAMLCSHCRERYYP   29 (29)
+T ss_dssp             CCBEEECSSSSCEEESSSSCEECC
+T ss_pred             CCcCccCCCCCCeeCCCCCCEecC
+
+
+No 149
+>d4jzka2 g.41.2.1 (A:122-156) Microbial and mitochondrial ADK, insert "zinc finger" domain {Escherichia coli [TaxId: 1133853]}
+Probab=68.33  E-value=4.8  Score=17.56  Aligned_cols=15  Identities=7%  Similarity=-0.077  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             ccccceecCCCCCcc
+Q Q_9186633_13     16 ARDFIEECAGCNGEI   30 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I   30 (66)
+                      .+.....|+.||.+|
+T Consensus        18 ~~~~~~~C~~cg~~l   32 (35)
+T d4jzka2          18 PPKVEGKDDVTGEEL   32 (35)
+T ss_dssp             CCSBTTBCTTTCCBC
+T ss_pred             CCCCCCCCCCCCCcc
+
+
+No 150
+>d1s3ga2 g.41.2.1 (A:126-160) Microbial and mitochondrial ADK, insert "zinc finger" domain {Bacillus globisporus [TaxId: 1459]}
+Probab=67.78  E-value=4.9  Score=17.48  Aligned_cols=15  Identities=20%  Similarity=0.410  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             ccccceecCCCCCcc
+Q Q_9186633_13     16 ARDFIEECAGCNGEI   30 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I   30 (66)
+                      .+.....|+.||.+|
+T Consensus        18 ~~~~~~~C~~cg~~l   32 (35)
+T d1s3ga2          18 PPQVEGKCDKDGGEL   32 (35)
+T ss_dssp             CCSBTTBCTTTCCBE
+T ss_pred             CCCCCCCCCCCCCee
+
+
+No 151
+>d2dara1 g.39.1.3 (A:53-84) PDZ and LIM domain protein 5, Enigma {Human (Homo sapiens) [TaxId: 9606]}
+Probab=67.77  E-value=9.5  Score=14.52  Aligned_cols=30  Identities=17%  Similarity=0.424  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQY   54 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~   54 (66)
+                      .|..|+..|. +..++..++..++  ..|....
+T Consensus         1 ~C~~c~~~l~-~~~~~~~~~~~~c--~~~~~~~   30 (32)
+T d2dara1           1 NCAHCKNTMA-YIGFVEEKGALYC--ELCYEKF   30 (32)
+T ss_dssp             BCSSSCCBCS-SSCBEESSSCEEC--HHHHHHH
+T ss_pred             CCCCCCCccC-CCceeeeCCeEec--HHHHHhh
+
+
+No 152
+>d1v6ga1 g.39.1.3 (A:8-41) Actin-binding LIM protein 2, abLIM2 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=67.66  E-value=5  Score=15.71  Aligned_cols=25  Identities=24%  Similarity=0.470  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|..|+..|...  +....+..+|  .+|
+T Consensus        10 ~c~~C~~~i~~~--~~~~~~~~~h--~~c   34 (34)
+T d1v6ga1          10 RCFSCDQFIEGE--VVSALGKTYH--PDC   34 (34)
+T ss_dssp             BCTTTCCBCCSC--CEEETTEEEC--TTT
+T ss_pred             CCcCCCCeeCCe--eEEeCCcccC--CCC
+
+
+No 153
+>KOG3507 DNA-directed RNA polymerase, subunit RPB7.0 [Transcription]
+Probab=67.64  E-value=9.9  Score=19.52  Aligned_cols=37  Identities=22%  Similarity=0.363  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             cCCCCCCc----cccccceecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13      7 LIGNAHDS----SARDFIEECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus         7 ~~~~~~~~----~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      +...-.++    ........|+.||..+....     ...+.|  ..|
+T Consensus         3 ~~~~~~~~~~~~~~~~~~y~Cp~Cg~~~~~~~-----~~~~~C--P~C   43 (62)
+T KOG3507           3 IPTSLGDPAAGPRTATMIYICGDCGQENTLKR-----GDVIRC--REC   43 (62)
+T ss_pred             CCcCCCCcCCCCCCcceEEECCCCCCEEEecC-----CCEEEC--CCC
+
+
+No 154
+>COG1645 COG1645; Uncharacterized Zn-finger containing protein, UPF0148 family  [General function prediction only]. 
+Probab=67.63  E-value=6  Score=23.74  Aligned_cols=15  Identities=27%  Similarity=0.578  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             ecCCCCCcc--cCCCeE
+Q Q_9186633_13     22 ECAGCNGEI--YFGESC   36 (66)
+Q Consensus        22 ~C~~CG~~I--~~g~~~   36 (66)
+                      .|+.||.++  ..|..+
+T Consensus        30 ~Cp~CG~plf~~~g~~~   46 (131)
+T COG1645          30 HCPKCGTPLFRKDGEVF   46 (131)
+T ss_pred             cCCCCCCCCccCCCCee
+
+
+No 155
+>d2dloa1 g.39.1.3 (A:8-42) Thyroid receptor interacting protein 6, TRIP6 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=67.38  E-value=5.7  Score=15.91  Aligned_cols=26  Identities=31%  Similarity=0.597  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .|..|+..|  ...+....+..+|  ..|+
+T Consensus        10 ~c~~c~~~i--~~~~~~~~~~~~h--~~cf   35 (35)
+T d2dloa1          10 KCATCSQPI--LDRILRAMGKAYH--PGCF   35 (35)
+T ss_dssp             BCTTTCCBC--CSCCEEETTEEEC--TTTC
+T ss_pred             cCCCCCCcc--ccceEEeCCceeC--cCcC
+
+
+No 156
+>PF17121.5 ; zf-C3HC4_5 ; Zinc finger, C3HC4 type (RING finger)
+Probab=67.37  E-value=16  Score=16.99  Aligned_cols=33  Identities=12%  Similarity=0.316  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             cCCCCCcccCCCeEEE----ECCeEEEcChHHHHHHHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLD----FGGDYLHADTECITQYVKS   57 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~----~~g~~~~c~~~C~~~~~~~   57 (66)
+                      |+.|...+..+..+..    .=+..||  ..|+..+...
+T Consensus         4 C~iC~~~~~~~~~~~~~~~~~C~H~~c--~~C~~~~~~~   40 (51)
+T TFB3_SCHPO/10-    4 CPLCQADRYLNPNMKLLINPECYHKMC--ESCVDRIFTT   40 (51)
+T ss_pred             CCCCCCcCcCCCCcEEEeCCCCCCccc--HHHHHHHHHh
+
+
+No 157
+>d1zina2 g.41.2.1 (A:126-160) Microbial and mitochondrial ADK, insert "zinc finger" domain {Bacillus stearothermophilus [TaxId: 1422]}
+Probab=67.19  E-value=5  Score=17.14  Aligned_cols=15  Identities=27%  Similarity=0.567  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             ccccceecCCCCCcc
+Q Q_9186633_13     16 ARDFIEECAGCNGEI   30 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I   30 (66)
+                      .+.....|+.||..|
+T Consensus        18 ~~~~~~~C~~cg~~l   32 (35)
+T d1zina2          18 PPAKPGVCDKCGGEL   32 (35)
+T ss_dssp             CCSSTTBCTTTCCBE
+T ss_pred             CCCCCCCCCCCCCee
+
+
+No 158
+>cd15802 RING_CBP-p300; atypical RING domain found in CREB-binding protein and p300 histone acetyltransferases.
+Probab=66.64  E-value=10  Score=20.07  Aligned_cols=36  Identities=14%  Similarity=0.331  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             cccceecCC-..CCCcccCCCeEEEEC---CeEEEcChHHHHH
+Q Q_9186633_13     17 RDFIEECAG-..CNGEIYFGESCLDFG---GDYLHADTECITQ   53 (66)
+Q Consensus        17 ~~~~~~C~~-..CG~~I~~g~~~~~~~---g~~~~c~~~C~~~   53 (66)
+                      ..+.-+|..   |+..|-.+..+|...   +....| ..|...
+T Consensus         2 ~p~~lyC~~~..C~~~i~r~~~Yy~~~~~~~~~~~C-~~C~~~   41 (73)
+T cd15802           2 SPQTLCCYGKqlCTIPRD--ATYYSYQ---NRYHFC-EKCFNE   38 (73)
+T ss_pred             CCCCEEccCC..CCCcccCCCeEEECCCCCCeEEEE-Cccccc
+
+
+No 159
+>PF07754.11 ; DUF1610 ; Domain of unknown function (DUF1610)
+Probab=66.57  E-value=6.1  Score=16.28  Aligned_cols=12  Identities=33%  Similarity=0.600  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             cCCCCCcccCCC
+Q Q_9186633_13     23 CAGCNGEIYFGE   34 (66)
+Q Consensus        23 C~~CG~~I~~g~   34 (66)
+                      |+.||.++...+
+T Consensus         1 Cp~Cg~~~~~~~   12 (24)
+T Q976H9_SULTO/1    1 CSSCGKLIHPRE   12 (24)
+T ss_pred             CCCCCCccccCC
+
+
+No 160
+>PF15731.5 ; MqsA_antitoxin ; Antitoxin component of bacterial toxin-antitoxin system, MqsA
+Probab=66.37  E-value=6.4  Score=22.01  Aligned_cols=28  Identities=21%  Similarity=0.353  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             ecCCCCCcc-----------cCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEI-----------YFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I-----------~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|+.||.+.           +.|..+...+-....| ..|
+T Consensus         2 ~C~~Cg~~~~~~~~~~~~~~~~g~~v~v~~~~~~~C-~~C   40 (131)
+T Q7VY40_BORPE/1    2 KCPVCGAAALARDTRDVPYSYKGETITIAAVTGDWC-PAC   40 (131)
+T ss_pred             CCCCCCCcceEEeeEEeEEEECCEEEEEcceeceeC-CCC
+
+
+No 161
+>PF14122.6 ; YokU ; YokU-like protein, putative antitoxin
+Probab=66.16  E-value=3.5  Score=21.57  Aligned_cols=16  Identities=19%  Similarity=0.206  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             cceecCCCCCcccCCC
+Q Q_9186633_13     19 FIEECAGCNGEIYFGE   34 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~g~   34 (66)
+                      +...|+.||..++..+
+T Consensus        34 p~~~C~~Cge~~~~~~   49 (87)
+T U5LCD8_9BACI/2   34 PCIVCSGCGMVYHEEK   49 (87)
+T ss_pred             eeEEcCCCCCeeeCHH
+
+
+No 162
+>KOG1701 Focal adhesion adaptor protein Paxillin and related LIM proteins [Signal transduction mechanisms]
+Probab=65.71  E-value=7  Score=27.76  Aligned_cols=36  Identities=17%  Similarity=0.400  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             ccccccceecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     14 SSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        14 ~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      +........|..|++.|..++......+..+|  ..|+
+T Consensus       268 ~~~~~~~~~C~~C~~~I~~~~~~v~a~~~~~H--~~Cf  303 (468)
+T KOG1701         268 EPVEDYFGICAFCHKTVSGQGLAVEAMDQLFH--VQCF  303 (468)
+T ss_pred             CCchhhccccccCCCeecCCCeEEEeCCceEc--cCcC
+
+
+No 163
+>PF14149.6 ; YhfH ; YhfH-like protein
+Probab=65.25  E-value=5.2  Score=19.21  Aligned_cols=12  Identities=25%  Similarity=0.739  Sum_probs=0.0  Template_Neff=4.100
+
+Q ss_pred             cceecCCCCCcc
+Q Q_9186633_13     19 FIEECAGCNGEI   30 (66)
+Q Consensus        19 ~~~~C~~CG~~I   30 (66)
+                      +.-.|+.||..|
+T Consensus        12 p~K~C~~CG~~i   23 (37)
+T U5L7D9_9BACI/2   12 PAKQCSECGSSI   23 (37)
+T ss_pred             CCCccCCCCCch
+
+
+No 164
+>PF14255.6 ; Cys_rich_CPXG ; Cysteine-rich CPXCG
+Probab=64.85  E-value=4.7  Score=20.26  Aligned_cols=9  Identities=33%  Similarity=0.907  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             ecCCCCCcc
+Q Q_9186633_13     22 ECAGCNGEI   30 (66)
+Q Consensus        22 ~C~~CG~~I   30 (66)
+                      .||+||..+
+T Consensus         2 ~CP~Cge~~   10 (50)
+T G4T1E1_META2/1    2 QCPYCGETI   10 (50)
+T ss_pred             cCCCCCCEE
+
+
+No 165
+>COG1734 DksA; RNA polymerase-binding transcription factor DksA [Translation, ribosomal structure and biogenesis]. 
+Probab=64.62  E-value=5  Score=23.28  Aligned_cols=12  Identities=25%  Similarity=0.501  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ceecCCCCCccc
+Q Q_9186633_13     20 IEECAGCNGEIY   31 (66)
+Q Consensus        20 ~~~C~~CG~~I~   31 (66)
+                      .+.|..||.+|.
+T Consensus        80 YG~C~~Cg~~I~   91 (120)
+T COG1734          80 YGICEECGEPIP   91 (120)
+T ss_pred             CcccCCCCCCCC
+
+
+No 166
+>PF18319.1 ; PriA_CRR ; PriA DNA helicase Cys-rich region (CRR) domain
+Probab=64.62  E-value=6.9  Score=16.20  Aligned_cols=22  Identities=18%  Similarity=0.357  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      |+.||.++    .+....+.++|  ..|
+T Consensus         1 Cp~C~~~l----~~~~~~~~l~C--~~C   22 (27)
+T U4KN26_9MOLU/5    1 CEHCQISL----SYHKKEHRLKC--HHC   22 (27)
+T ss_pred             CCCCCCee----EEEcCCCEEEC--CCC
+
+
+No 167
+>COG1579 COG1579; Predicted  nucleic acid-binding protein, contains Zn-ribbon domain [General function prediction only]. 
+Probab=64.20  E-value=7  Score=24.38  Aligned_cols=19  Identities=37%  Similarity=0.690  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             cccceecCCCCCcccCCCe
+Q Q_9186633_13     17 RDFIEECAGCNGEIYFGES   35 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~~g~~   35 (66)
+                      +..+..|+.||.-||..+.
+T Consensus       218 ~~~~~~C~~Cgril~~~~~  236 (239)
+T COG1579         218 KDEIVFCPYCGRILYYDES  236 (239)
+T ss_pred             CCceEECCCCCcEEecccc
+
+
+No 168
+>d1vq8z1 g.41.8.1 (Z:10-82) Ribosomal protein L37ae {Haloarcula marismortui [TaxId: 2238]}
+Probab=63.67  E-value=8.9  Score=20.51  Aligned_cols=30  Identities=17%  Similarity=0.340  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      ........||.||..     .++......+.| ..|
+T Consensus        22 ~~~~~~~~CP~CG~~-----~~~~~~~~~~~C-~~C   51 (73)
+T d1vq8z1          22 SEMNEDHACPNCGED-----RVDRQGTGIWQC-SYC   51 (73)
+T ss_dssp             HHHHSCEECSSSCCE-----EEEEEETTEEEE-TTT
+T ss_pred             HHhhcceeCCCCCCc-----eEEeCCCceEEc-CCC
+
+
+No 169
+>PF14205.6 ; Cys_rich_KTR ; Cysteine-rich KTR
+Probab=63.63  E-value=6  Score=19.53  Aligned_cols=9  Identities=11%  Similarity=0.242  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             ecCCCCCcc
+Q Q_9186633_13     22 ECAGCNGEI   30 (66)
+Q Consensus        22 ~C~~CG~~I   30 (66)
+                      .||.||..+
+T Consensus         5 ~CP~Cg~~~   13 (54)
+T G4KUP2_OSCVS/3    5 ISPICKSKT   13 (54)
+T ss_pred             ECCCCCCEE
+
+
+No 170
+>PF16919.5 ; PknG_rubred ; Protein kinase G rubredoxin domain
+Probab=63.10  E-value=4.1  Score=24.76  Aligned_cols=38  Identities=11%  Similarity=0.137  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             CCCccccccceecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     11 AHDSSARDFIEECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        11 ~~~~~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      ..++..+....+|+.||.++.....-.......+|  ..|
+T Consensus        76 ~~dp~vpe~~RfCp~CG~~vgr~~~~~~g~~~g~C--p~C  113 (132)
+T F5YZV5_MYCSD/2   76 MPDPVVAEAKRFCWNCGRPVGRSTGDVKGASEGWC--PHC  113 (132)
+T ss_pred             CCCCccccccccCCCCCCcceeccCCCCCccceeC--CCC
+
+
+No 171
+>PF08271.12 ; TF_Zn_Ribbon ; TFIIB zinc-binding
+Probab=62.74  E-value=11  Score=16.18  Aligned_cols=20  Identities=15%  Similarity=-0.012  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             cccccceecCCCCCcccCCC
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGE   34 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~   34 (66)
+                      ........|+.||..+....
+T Consensus        14 ~~~~~~~~C~~Cg~~~~~~~   33 (43)
+T TF2B_CAEEL/5-4   14 DHRAGDLVCPACGLVVGDRL   33 (43)
+T ss_pred             ccCCCeEECCCCCCEEcccc
+
+
+No 172
+>d2ak3a2 g.41.2.1 (A:125-161) Microbial and mitochondrial ADK, insert "zinc finger" domain {Cow (Bos taurus), mitochondrial izozyme-3 [TaxId: 9913]}
+Probab=62.58  E-value=7.1  Score=17.26  Aligned_cols=15  Identities=0%  Similarity=-0.215  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             ccccceecCCCCCcc
+Q Q_9186633_13     16 ARDFIEECAGCNGEI   30 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I   30 (66)
+                      .+.....|+.||.+|
+T Consensus        18 ~~~~~~~C~~cg~~l   32 (37)
+T d2ak3a2          18 PPKTMGIDDLTGEPL   32 (37)
+T ss_dssp             CCSSTTBCTTTCCBC
+T ss_pred             CCCCCCCCCCCCCcc
+
+
+No 173
+>PF05883.11 ; Baculo_RING ; Baculovirus U-box/Ring-like domain
+Probab=62.11  E-value=24  Score=21.63  Aligned_cols=31  Identities=23%  Similarity=0.454  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             cCCCCCcccC-CCeEEEEC-C------eEEEcChHHHHHHH
+Q Q_9186633_13     23 CAGCNGEIYF-GESCLDFG-G------DYLHADTECITQYV   55 (66)
+Q Consensus        23 C~~CG~~I~~-g~~~~~~~-g------~~~~c~~~C~~~~~   55 (66)
+                      |.-|-.+|.. ++.++... +      .+||  .+|+..|.
+T Consensus        25 C~ICld~i~~~~~gvv~i~c~g~anleh~FH--~~Cl~rW~   63 (131)
+T Q91ES1_GVCPM/3   25 CAICLNDINDTNRGVVYITCGGAADLERVMC--KECDKRFE   63 (131)
+T ss_pred             ccccccccccCCCeEEEecCCccccccceec--HHHHHHHH
+
+
+No 174
+>COG4416 Com; Mu-like prophage FluMu protein Com [Mobilome: prophages, transposons]. 
+Probab=62.04  E-value=6.8  Score=20.08  Aligned_cols=13  Identities=15%  Similarity=0.424  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             ccceecCCCCCcc
+Q Q_9186633_13     18 DFIEECAGCNGEI   30 (66)
+Q Consensus        18 ~~~~~C~~CG~~I   30 (66)
+                      .....||.||..+
+T Consensus        22 ~~~~~CP~Cg~~~   34 (60)
+T COG4416          22 YLEKKCPRCKEVN   34 (60)
+T ss_pred             ccCccCCCCCCee
+
+
+No 175
+>COG1996 RPC10; DNA-directed RNA polymerase, subunit RPC12/RpoP, contains C4-type Zn-finger [Transcription]. 
+Probab=62.02  E-value=9.2  Score=17.27  Aligned_cols=17  Identities=24%  Similarity=0.337  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             ccceecCCCCCcccCCC
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGE   34 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~   34 (66)
+                      .....|+.||..+....
+T Consensus        22 ~~~~~Cp~Cg~~~~~~~   38 (49)
+T COG1996          22 TRGIRCPYCGSRILVKE   38 (49)
+T ss_pred             cCCEECCCCCCEEEEcC
+
+
+No 176
+>PF06170.12 ; DUF983 ; Protein of unknown function (DUF983)
+Probab=61.58  E-value=6.8  Score=21.14  Aligned_cols=17  Identities=12%  Similarity=0.427  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             ccceecCCCCCcccCCC
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGE   34 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~   34 (66)
+                      +....|+.||.+....+
+T Consensus         6 ~~~~~C~~Cg~~f~r~~   22 (85)
+T B4REX3_PHEZH/2    6 AVAPRCDACGYDLAKAD   22 (85)
+T ss_pred             ccCCCCcCCCCCccccc
+
+
+No 177
+>PF00645.18 ; zf-PARP ; Poly(ADP-ribose) polymerase and DNA-Ligase Zn-finger region
+Probab=61.48  E-value=24  Score=18.72  Aligned_cols=36  Identities=31%  Similarity=0.481  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eecCCCCCcccCCCeEEEEC---------------CeEEEcChHHHHHHHHHh
+Q Q_9186633_13     21 EECAGCNGEIYFGESCLDFG---------------GDYLHADTECITQYVKSH   58 (66)
+Q Consensus        21 ~~C~~CG~~I~~g~~~~~~~---------------g~~~~c~~~C~~~~~~~~   58 (66)
+                      ..|..|+..|..|+.-+-..               ..++|  ..|+.......
+T Consensus         8 a~C~~C~~~I~kg~lRig~~~~~~~~~~~~~~~~~~~w~H--~~C~~~~~~~~   58 (87)
+T A8HM84_CHLRE/8    8 AMCKGCNKPIADKALRLSVQSTKEPEEGAKDHRRFTNNRH--IECLTKTVVAN   58 (87)
+T ss_pred             CCCCCCCCccCCCCeEEEEeeeCCCCccccCCceeeeEEe--ccchhHHHHHc
+
+
+No 178
+>PF18256.1 ; HscB_4_cys ; Co-chaperone HscB tetracysteine metal binding motif
+Probab=61.25  E-value=6.8  Score=16.96  Aligned_cols=12  Identities=17%  Similarity=0.130  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             eecCCCCCcccC
+Q Q_9186633_13     21 EECAGCNGEIYF   32 (66)
+Q Consensus        21 ~~C~~CG~~I~~   32 (66)
+                      ..|..||..+|.
+T Consensus         1 ~~Cw~Cg~~~yd   12 (27)
+T G1T125_RABIT/3    1 PGCWNCGVPGAP   12 (27)
+T ss_pred             CCCCCCCCCCCC
+
+
+No 179
+>d1imla2 g.39.1.3 (A:29-76) Cysteine-rich (intestinal) protein, CRP, CRIP {Rat (Rattus rattus) [TaxId: 10117]}
+Probab=60.74  E-value=19  Score=16.27  Aligned_cols=31  Identities=16%  Similarity=0.446  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcCh-HHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADT-ECITQYV   55 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~-~C~~~~~   55 (66)
+                      .|..|++.|..+ .++..++..+|  . .|.....
+T Consensus         1 ~C~~C~~~l~~~-~~~~~~~~~~C--~~~~~~~~~   32 (48)
+T d1imla2           1 KCEKCGKTLTSG-GHAEHEGKPYC--NHPCYSAMF   32 (48)
+T ss_dssp             BCTTTCCBCCTT-TEEEETTEEEE--TTTHHHHHS
+T ss_pred             CCCCCCCCCCCC-CccccCCEEcc--CchHHHHHh
+
+
+No 180
+>COG4307 COG4307; Uncharacterized protein, DUF2248 family [Function unknown]. 
+Probab=60.69  E-value=7.5  Score=27.36  Aligned_cols=15  Identities=27%  Similarity=0.769  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             ecCCCCCcccCCCeE
+Q Q_9186633_13     22 ECAGCNGEIYFGESC   36 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~   36 (66)
+                      .|+.||++|+.+..+
+T Consensus         5 ~CpnCG~~V~FeN~f   19 (349)
+T COG4307           5 HCPNCGQRVAFENSA   19 (349)
+T ss_pred             eCCCCCCccccCCcc
+
+
+No 181
+>PF17032.5 ; zinc_ribbon_15 ; zinc-ribbon family
+Probab=60.48  E-value=12  Score=19.57  Aligned_cols=22  Identities=9%  Similarity=0.157  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCccccccceecCCCCCcccCC
+Q Q_9186633_13     12 HDSSARDFIEECAGCNGEIYFG   33 (66)
+Q Consensus        12 ~~~~~~~~~~~C~~CG~~I~~g   33 (66)
+                      ..+........|+.||.+|..+
+T Consensus        74 ~~~~~~~~~~~C~~Cg~~~~~~   95 (103)
+T R6ZFB9_9CLOT/2   74 RGAGNLAGEGSCPDCGCRLSED   95 (103)
+T ss_pred             cCCccCCCCccCCCCCCccCCC
+
+
+No 182
+>d1dgsa1 a.60.2.2 (A:401-581) NAD+-dependent DNA ligase, domain 3 {Thermus filiformis [TaxId: 276]}
+Probab=60.02  E-value=9.5  Score=22.62  Aligned_cols=21  Identities=14%  Similarity=0.333  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ccceecCCCCCcccCCCeEEE
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGESCLD   38 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~~~~~   38 (66)
+                      .....||.||.+|......+.
+T Consensus         1 ~~~~~c~~c~~~~~~~~~~~~   21 (181)
+T d1dgsa1           1 RWPEACPECGHRLVKEGKVHR   21 (181)
+T ss_dssp             CCCSBCTTTCCBCEEETTEEE
+T ss_pred             CCCcCCCCCCCeeEEcCceEE
+
+
+No 183
+>PF01155.19 ; HypA ; Hydrogenase/urease nickel incorporation, metallochaperone, hypA
+Probab=58.99  E-value=11  Score=21.11  Aligned_cols=20  Identities=25%  Similarity=0.413  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             cceecCCCCCc---ccCCCeEEE
+Q Q_9186633_13     19 FIEECAGCNGE---IYFGESCLD   38 (66)
+Q Consensus        19 ~~~~C~~CG~~---I~~g~~~~~   38 (66)
+                      ....||.||..   |-.|++++.
+T Consensus        82 ~~~~CP~CG~~~~~i~~G~e~~i  104 (109)
+T D3F8K5_CONWI/1   82 PAFRCPACAGGDVEVLSGEELEV  104 (109)
+T ss_pred             CCCCCCCCCCCCeEEEcCCCeEE
+
+
+No 184
+>d1akya2 g.41.2.1 (A:131-168) Microbial and mitochondrial ADK, insert "zinc finger" domain {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=58.96  E-value=9  Score=17.03  Aligned_cols=15  Identities=0%  Similarity=-0.296  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             ccccceecCCCCCcc
+Q Q_9186633_13     16 ARDFIEECAGCNGEI   30 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I   30 (66)
+                      .+.....|+.||.+|
+T Consensus        18 ~~~~~~~c~~cg~~l   32 (38)
+T d1akya2          18 PPKEDMKDDVTGEAL   32 (38)
+T ss_dssp             CCSSTTBCTTTCCBC
+T ss_pred             CCCCCCCCCCCCCcc
+
+
+No 185
+>d5aiea1 g.44.1.1 (A:30-82) automated matches {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 559292]}
+Probab=58.70  E-value=26  Score=17.08  Aligned_cols=32  Identities=13%  Similarity=0.185  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             cCCCCCcccCCCeEEE--ECCeEEEcChHHHHHHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLD--FGGDYLHADTECITQYVK   56 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~--~~g~~~~c~~~C~~~~~~   56 (66)
+                      |+.|...+...+..+.  .=|..||  ..|+..+..
+T Consensus         4 CpIC~e~~~~~~~~~~~~~Cgh~~C--~~C~~~~~~   37 (53)
+T d5aiea1           4 CPLCIEPMDITDKNFFPCPCGYQIC--QFCYNNIRQ   37 (53)
+T ss_dssp             CTTTCCBCCTTTTTCCSSTTCCCCC--HHHHHHHHH
+T ss_pred             CCCCCCcCCCCCCCceeCCCCCEEc--HHHHHHHhh
+
+
+No 186
+>d1twfl_ g.41.9.2 (L:) RBP12 subunit of RNA polymerase II {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=58.38  E-value=9.9  Score=18.00  Aligned_cols=15  Identities=27%  Similarity=0.534  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             cccceecCCCCCccc
+Q Q_9186633_13     17 RDFIEECAGCNGEIY   31 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~   31 (66)
+                      ......|+.||..+.
+T Consensus        18 ~~~~~~Cp~Cg~~~~   32 (46)
+T d1twfl_          18 RTDAVRCKDCGHRIL   32 (46)
+T ss_dssp             TTSTTCCSSSCCCCC
+T ss_pred             CCCCccCCCCCCcce
+
+
+No 187
+>COG1998 RPS27AE; Ribosomal protein S27AE  [Translation, ribosomal structure and biogenesis]. 
+Probab=57.88  E-value=9.3  Score=18.44  Aligned_cols=13  Identities=15%  Similarity=0.754  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             ecCCCCCcccCCC
+Q Q_9186633_13     22 ECAGCNGEIYFGE   34 (66)
+Q Consensus        22 ~C~~CG~~I~~g~   34 (66)
+                      .|+.||..+....
+T Consensus        21 ~Cp~CG~~~~~~~   33 (51)
+T COG1998          21 FCPRCGPGVFMAD   33 (51)
+T ss_pred             eCCCCCCCceecc
+
+
+No 188
+>d2jnea1 g.41.18.1 (A:1-71) Hypothetical protein YfgJ {Escherichia coli [TaxId: 562]}
+Probab=57.79  E-value=17  Score=18.78  Aligned_cols=18  Identities=17%  Similarity=0.080  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             ecCCCCCcccCCCeEEEE
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDF   39 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~   39 (66)
+                      +|+.||.+|......+..
+T Consensus        53 ~C~~Cg~~~~~~~~~~~~   70 (71)
+T d2jnea1          53 FCQHGHGLISKKRVEFVL   70 (71)
+T ss_dssp             EETTTTEEECTTTSEEEE
+T ss_pred             ecCCCCCeeecceeEEEe
+
+
+No 189
+>cd15565 PHD2_NSD; PHD finger 2 found in nuclear receptor-binding SET domain-containing (NSD) proteins.
+Probab=57.75  E-value=25  Score=15.98  Aligned_cols=33  Identities=15%  Similarity=0.507  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             ecCCCCCcccCCCeEEEEC----CeEEEcChHHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFG----GDYLHADTECITQYVK   56 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~----g~~~~c~~~C~~~~~~   56 (66)
+                      .|..|+.....++.++...    +..+|  ..|+..+..
+T Consensus         1 ~C~iC~~~~~~~~~~~~c~~~~C~~~~H--~~C~~~~~~   37 (51)
+T cd15565           1 PCFSCKVSG---KDVKRCSVGACGKFYH--EACVRKFPT   34 (47)
+T ss_pred             CCCCCCCCCCCccCeeEecCCCCCCEeC--HHHHHHHHH
+
+
+No 190
+>d2apob_ g.41.16.1 (B:) Ribosome biogenesis protein Nop10 {Methanococcus jannaschii [TaxId: 2190]}
+Probab=57.52  E-value=8.2  Score=19.69  Aligned_cols=9  Identities=22%  Similarity=0.730  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             ecCCCCCcc
+Q Q_9186633_13     22 ECAGCNGEI   30 (66)
+Q Consensus        22 ~C~~CG~~I   30 (66)
+                      .|+.||.++
+T Consensus        18 ~Cp~CG~~~   26 (55)
+T d2apob_          18 ICPKCGEKT   26 (55)
+T ss_dssp             BCSSSCSBC
+T ss_pred             cCCCCCCcc
+
+
+No 191
+>PF10886.8 ; DUF2685 ; Protein of unknown function (DUF2685)
+Probab=57.24  E-value=28  Score=18.10  Aligned_cols=33  Identities=12%  Similarity=0.172  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQYVK   56 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~   56 (66)
+                      +|..|.++|..... +..++..+ +..-|..-+..
+T Consensus         3 ~CvVCKqpI~~~~~-v~t~~GpV-H~g~C~~y~~e   35 (53)
+T Y11A_BPT4/3-55    3 ICVVCKTPIDSALV-VETDKGPV-HPGPCYNYIKE   35 (53)
+T ss_pred             eEEecCCccCcccE-EEcCCccc-ccchHHHHHHh
+
+
+No 192
+>PF12773.7 ; DZR ; Double zinc ribbon
+Probab=57.18  E-value=9.8  Score=16.82  Aligned_cols=14  Identities=14%  Similarity=0.413  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             cCCCCCcccCCCeE
+Q Q_9186633_13     23 CAGCNGEIYFGESC   36 (66)
+Q Consensus        23 C~~CG~~I~~g~~~   36 (66)
+                      |+.||..+..+..+
+T Consensus         1 C~~C~~~~~~~~~~   14 (44)
+T GXCJ_DICDI/30-    1 CKNCQTDTPKCNKV   14 (44)
+T ss_pred             CCCCCCCCcccCCc
+
+
+No 193
+>d2akla2 g.41.3.5 (A:3-40) Hypothetical protein PA0128, N-terminal domain {Pseudomonas aeruginosa [TaxId: 287]}
+Probab=56.64  E-value=11  Score=16.59  Aligned_cols=13  Identities=31%  Similarity=0.488  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             ecCCCCCcccCCC
+Q Q_9186633_13     22 ECAGCNGEIYFGE   34 (66)
+Q Consensus        22 ~C~~CG~~I~~g~   34 (66)
+                      .|+.||.....+.
+T Consensus        22 ~C~~Cg~~~~~~~   34 (38)
+T d2akla2          22 VCPECAHEWSPNE   34 (38)
+T ss_dssp             EETTTTEEECTTT
+T ss_pred             ECCCCCCeeccch
+
+
+No 194
+>d1qypa_ g.41.3.1 (A:) RBP9 subunit of RNA polymerase II {Thermococcus celer [TaxId: 2264]}
+Probab=56.49  E-value=15  Score=17.90  Aligned_cols=17  Identities=12%  Similarity=0.278  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CccccccceecCCCCCc
+Q Q_9186633_13     13 DSSARDFIEECAGCNGE   29 (66)
+Q Consensus        13 ~~~~~~~~~~C~~CG~~   29 (66)
+                      ++..+.....|+.||..
+T Consensus         8 ~~t~~~~~~~Cp~Cg~~   24 (57)
+T d1qypa_           8 LKTLPTTKITCPKCGND   24 (57)
+T ss_dssp             CSSSCEEECCCTTTCCS
+T ss_pred             cCCCCCCeEECCCCCCC
+
+
+No 195
+>d2cura2 g.39.1.3 (A:8-32) Four and a half LIM domains protein 1, FHL-1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=55.84  E-value=15  Score=12.67  Aligned_cols=25  Identities=28%  Similarity=0.743  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      |..|+..|...-  ....+..++  ..|+
+T Consensus         1 c~~c~~~i~~~~--~~~~~~~~h--~~c~   25 (25)
+T d2cura2           1 CVKCNKAITSGG--ITYQDQPWH--ADCF   25 (25)
+T ss_dssp             CSSSCCCCCTTC--EEETTEEEC--TTTT
+T ss_pred             CCCCCCeeeCCc--EEECCeeec--cccC
+
+
+No 196
+>COG2093 Spt4; RNA polymerase subunit RPABC4/transcription elongation factor Spt4 [Transcription]. 
+Probab=55.73  E-value=12  Score=18.66  Aligned_cols=19  Identities=11%  Similarity=0.148  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             ccceecCCCCCcccCCCeE
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGESC   36 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~~~   36 (66)
+                      .....|+.||.++..+..+
+T Consensus         2 ~~~~~C~~Cg~~~~~~~~~   20 (64)
+T COG2093           2 STEKACKNCKRLTPEDTEI   20 (64)
+T ss_pred             CCcccCCCCCCCCCCCCCc
+
+
+No 197
+>PF07295.11 ; DUF1451 ; Zinc-ribbon containing domain
+Probab=55.69  E-value=10  Score=22.72  Aligned_cols=16  Identities=25%  Similarity=0.627  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             cccceecCCCCCcccC
+Q Q_9186633_13     17 RDFIEECAGCNGEIYF   32 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~~   32 (66)
+                      ...+..||.||..+|.
+T Consensus       124 ~~~~~~Cp~Cg~~~f~  139 (139)
+T S6B5K9_9PROT/4  124 TTKIPPCPSCHGTEFR  139 (139)
+T ss_pred             CCCCCCCCCCCCCccC
+
+
+No 198
+>cd13946 LysW; Lysine biosynthesis protein LysW. LysW functions as a carrier protein in the biosynthesis pathway of lysine.
+Probab=55.32  E-value=11  Score=16.97  Aligned_cols=13  Identities=31%  Similarity=0.953  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             ecCCCCCcccCCC
+Q Q_9186633_13     22 ECAGCNGEIYFGE   34 (66)
+Q Consensus        22 ~C~~CG~~I~~g~   34 (66)
+                      .|+.||..+....
+T Consensus         2 ~Cp~C~~~~~~~~   14 (54)
+T cd13946           2 KCPVCNGDVNVPD   14 (53)
+T ss_pred             cCCCCCCEeeCCC
+
+
+No 199
+>PF06906.11 ; DUF1272 ; Protein of unknown function (DUF1272)
+Probab=54.57  E-value=29  Score=18.36  Aligned_cols=30  Identities=10%  Similarity=0.366  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             cCCCCCcccCCC-eEEEECCeEEEcChHHHHH
+Q Q_9186633_13     23 CAGCNGEIYFGE-SCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        23 C~~CG~~I~~g~-~~~~~~g~~~~c~~~C~~~   53 (66)
+                      |..|+..|..+. ..|+-.-+-.+| .+|...
+T Consensus         8 Ce~C~~~L~~~~~~A~ICS~ECTFC-~~Ca~~   38 (58)
+T A6VRM5_MARMS/1    8 CECCDKDLPPSAEDAMICSFECTFC-LDCVDT   38 (58)
+T ss_pred             CCCCCCCCCCCCCCCeEEeccCeee-HHHHHH
+
+
+No 200
+>PF14354.6 ; Lar_restr_allev ; Restriction alleviation protein Lar
+Probab=54.46  E-value=9.4  Score=19.29  Aligned_cols=7  Identities=29%  Similarity=0.866  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             cCCCCCc
+Q Q_9186633_13     23 CAGCNGE   29 (66)
+Q Consensus        23 C~~CG~~   29 (66)
+                      ||+||..
+T Consensus         6 CPFCG~~   12 (69)
+T A9BW19_DELAS/8    6 CPFCGAG   12 (69)
+T ss_pred             CCCCCCC
+
+
+No 201
+>PF17978.1 ; zf-RING_14 ; RING/Ubox like zinc-binding domain
+Probab=54.13  E-value=44  Score=17.69  Aligned_cols=41  Identities=12%  Similarity=0.143  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEECCeEEEcChHHHHHHHHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFGGDYLHADTECITQYVKS   57 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~~~~~   57 (66)
+                      ........|+.|-..+.....+...-+..+|  .+|+..|+..
+T Consensus         3 ~~~~~~~~C~iC~~~~~~~~~~~~~C~H~~C--~~C~~~~~~~   43 (91)
+T W4YQE2_STRPU/1    3 KTNTRRVICITCADILTSVLVFPCSASHVMC--LDCFRQYCRL   43 (91)
+T ss_pred             CCCCCceEecCcccccCccEEecCCCCCeec--HHHHHHHHHH
+
+
+No 202
+>PF18279.1 ; zf-WRNIP1_ubi ; Werner helicase-interacting protein 1 ubiquitin-binding domain
+Probab=54.00  E-value=11  Score=14.99  Aligned_cols=8  Identities=25%  Similarity=0.841  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             cCCCCCcc
+Q Q_9186633_13     23 CAGCNGEI   30 (66)
+Q Consensus        23 C~~CG~~I   30 (66)
+                      ||.|++.+
+T Consensus         5 CPiC~~~~   12 (21)
+T G3TDI9_LOXAF/1    5 CPVCQQMM   12 (21)
+T ss_pred             CCCCCCcc
+
+
+No 203
+>d2k4xa1 g.41.8.8 (A:1-55) Ribosomal protein S27ae {Thermoplasma acidophilum [TaxId: 2303]}
+Probab=53.60  E-value=12  Score=17.99  Aligned_cols=10  Identities=20%  Similarity=0.820  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             ecCCCCCccc
+Q Q_9186633_13     22 ECAGCNGEIY   31 (66)
+Q Consensus        22 ~C~~CG~~I~   31 (66)
+                      .|+.||..+.
+T Consensus        20 ~Cp~CG~~~~   29 (55)
+T d2k4xa1          20 FCPRCGPGVF   29 (55)
+T ss_dssp             CCTTTTTTCC
+T ss_pred             eCCCCCCCcE
+
+
+No 204
+>cd10508 Zn-ribbon_RPB9; C-terminal zinc ribbon domain of RPB9 subunit of RNA polymerase II. The C-terminal zinc ribbon domain (C-ribbon) of subunit B9 (Zn-ribbon_RPB9) in RNA polymerase (Pol) II is involved in intrinsic transcript cleavage.
+Probab=53.59  E-value=19  Score=15.22  Aligned_cols=17  Identities=24%  Similarity=0.507  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             Cccccccc-eecCCCCCc
+Q Q_9186633_13     13 DSSARDFI-EECAGCNGE   29 (66)
+Q Consensus        13 ~~~~~~~~-~~C~~CG~~   29 (66)
+                      ||..+... ..|+.||..
+T Consensus         2 dpt~~~t~~~~C~~C~~~   19 (49)
+T cd10508           2 DPTLPRSD-RECPKCHSR   18 (48)
+T ss_pred             CCCCCccCCeeCCCCCCc
+
+
+No 205
+>COG5349 COG5349; Uncharacterized conserved protein, DUF983 family [Function unknown]. 
+Probab=53.28  E-value=12  Score=21.97  Aligned_cols=17  Identities=18%  Similarity=0.606  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             ccceecCCCCCcccCCC
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGE   34 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~   34 (66)
+                      +....|++||.++...+
+T Consensus        38 ~~~~~Cp~CG~~~~~~~   54 (126)
+T COG5349          38 KVVPACEACGLDYGFAD   54 (126)
+T ss_pred             cCCCCCCCCCCcccccC
+
+
+No 206
+>cd16493 RING-CH-C4HC3_NSE1; RING-CH finger, H2 subclass (C4HC3-type), found in non-structural maintenance of chromosomes element 1 homolog (NSE1) and similar proteins.
+Probab=53.13  E-value=27  Score=14.97  Aligned_cols=33  Identities=30%  Similarity=0.727  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             cCCCCCcccCCCeEEEEC-CeEEEcChHHHHHHHHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFG-GDYLHADTECITQYVKS   57 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~-g~~~~c~~~C~~~~~~~   57 (66)
+                      |..|.+.+..|....... +..+|  ..|+..+...
+T Consensus         2 C~iC~~~~~~g~~~~~~~c~~~~h--~~c~~~~~~~   35 (47)
+T cd16493           2 CNICHSLLIQGQSCET--CGIRMH--LPCVAKYFQS   33 (45)
+T ss_pred             CcccCCcccCCCeeecCCCCCEEC--HHHHHHHHhh
+
+
+No 207
+>KOG4628 Predicted E3 ubiquitin ligase [Posttranslational modification, protein turnover, chaperones]
+Probab=52.68  E-value=36  Score=22.39  Aligned_cols=34  Identities=21%  Similarity=0.434  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             cCCCCCcccCCCeEEEEC-CeEEEcChHHHHHHHHHh
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFG-GDYLHADTECITQYVKSH   58 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~-g~~~~c~~~C~~~~~~~~   58 (66)
+                      |+.|-+....++.+.... +..||  ..|+..|....
+T Consensus       232 C~ICl~~~~~~~~~~~l~C~H~fh--~~Ci~~wl~~~  266 (348)
+T KOG4628         232 CAICLEDYEKGDKLRILPCSHKFH--VNCIDPWLTQT  266 (348)
+T ss_pred             CceeCccccCCCEEEEcCCCCEEE--HHhHHHHHhcC
+
+
+No 208
+>d2gmga1 a.4.5.82 (A:10-105) Hypothetical protein PF0610 {Pyrococcus furiosus [TaxId: 2261]}
+Probab=52.11  E-value=18  Score=19.76  Aligned_cols=20  Identities=15%  Similarity=0.189  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             cceecCCCCCcccCCCeEEE
+Q Q_9186633_13     19 FIEECAGCNGEIYFGESCLD   38 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~g~~~~~   38 (66)
+                      ....||.||..+..-..+..
+T Consensus        74 ~~~~CP~CGs~~~~~~~~~~   93 (96)
+T d2gmga1          74 IPSRCPKCKSEWIEEPRFKL   93 (96)
+T ss_dssp             CCSSCSSSCCCCBCCCCEEE
+T ss_pred             CCCCCCCCCCCceeCCceEe
+
+
+No 209
+>PF02591.15 ; zf-RING_7 ; C4-type zinc ribbon domain
+Probab=51.88  E-value=18  Score=15.85  Aligned_cols=13  Identities=23%  Similarity=0.493  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ccceecCCCCCcc
+Q Q_9186633_13     18 DFIEECAGCNGEI   30 (66)
+Q Consensus        18 ~~~~~C~~CG~~I   30 (66)
+                      ..+..|+.||.-|
+T Consensus        21 ~~~~~C~~CgriL   33 (33)
+T Q1IH82_KORVE/1   21 NEIIYCDQCQRVL   33 (33)
+T ss_pred             CCcEECCCCCccC
+
+
+No 210
+>PF17981.1 ; ADD_ATRX ; Cysteine Rich ADD domain
+Probab=51.65  E-value=45  Score=17.11  Aligned_cols=31  Identities=19%  Similarity=0.534  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             ecCCCCCcc--cCCCeEEEEC--CeEEEcChHHHHHH
+Q Q_9186633_13     22 ECAGCNGEI--YFGESCLDFG--GDYLHADTECITQY   54 (66)
+Q Consensus        22 ~C~~CG~~I--~~g~~~~~~~--g~~~~c~~~C~~~~   54 (66)
+                      .|..|+..|  +....++...  +-++|  ..|...|
+T Consensus        11 ~CTaC~~~i~~~~~~~~~~HP~L~VliC--k~C~~fy   45 (54)
+T A0A0N8K1I9_9TE   11 TCTACGQQVNHFQKESLYQHPVLKVLIC--KSCFKYY   45 (54)
+T ss_pred             EEccCCCccCccccccceeCCcccEEEe--hhHHHHH
+
+
+No 211
+>COG4640 YvbJ; Uncharacterized membrane protein YvbJ [Function unknown]. 
+Probab=51.58  E-value=13  Score=26.14  Aligned_cols=15  Identities=13%  Similarity=0.268  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             ecCCCCCcccCCCeE
+Q Q_9186633_13     22 ECAGCNGEIYFGESC   36 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~   36 (66)
+                      .|+.||.+|..+..+
+T Consensus         3 fC~~CG~~l~~~~~f   17 (465)
+T COG4640           3 FCPKCGSQKAEDDVQ   17 (465)
+T ss_pred             cCCCCCCCCCCCCcc
+
+
+No 212
+>PF01641.18 ; SelR ; SelR domain
+Probab=51.58  E-value=26  Score=20.45  Aligned_cols=36  Identities=17%  Similarity=0.123  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCCccCCCCCCccccccceecCCCCCcccCCCeEEEEC
+Q Q_9186633_13      3 ENGMLIGNAHDSSARDFIEECAGCNGEIYFGESCLDFG   40 (66)
+Q Consensus         3 enp~~~~~~~~~~~~~~~~~C~~CG~~I~~g~~~~~~~   40 (66)
+                      |.|.........  ..-...|..||.+||..+.-+..+
+T Consensus        20 E~pfs~~~~~~~--~~G~Y~C~~Cg~~Lf~s~~Kf~s~   55 (118)
+T E6W787_DESIS/1   20 ERPGSGRYLLHH--EEGTYTCACCGAPLFHSIWKYDSG   55 (118)
+T ss_pred             CCCCCCCCcccc--CCcEEEcCCCCCeeecchhhccCC
+
+
+No 213
+>PF10005.9 ; zinc-ribbon_6 ; zinc-ribbon domain
+Probab=51.53  E-value=9.6  Score=21.58  Aligned_cols=12  Identities=42%  Similarity=1.212  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             ecCCCCCcccCC
+Q Q_9186633_13     22 ECAGCNGEIYFG   33 (66)
+Q Consensus        22 ~C~~CG~~I~~g   33 (66)
+                      .|+.||++||..
+T Consensus         3 ~C~~Cg~~v~Fe   14 (91)
+T A3HU95_9BACT/3    3 ECGNCEQPLYFE   14 (91)
+T ss_pred             cCCCCCCEEEEe
+
+
+No 214
+>PF03604.13 ; DNA_RNApol_7kD ; DNA directed RNA polymerase, 7 kDa subunit
+Probab=51.25  E-value=14  Score=15.22  Aligned_cols=13  Identities=15%  Similarity=0.769  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             ecCCCCCcccCCC
+Q Q_9186633_13     22 ECAGCNGEIYFGE   34 (66)
+Q Consensus        22 ~C~~CG~~I~~g~   34 (66)
+                      .|+.||..+...+
+T Consensus         2 ~C~~C~~~~~~~~   14 (32)
+T Q0ULZ1_PHANO/2    2 KCGDCDQDVPLKR   14 (32)
+T ss_pred             cCCCCCCEEecCC
+
+
+No 215
+>COG3357 COG3357; Predicted transcriptional regulator containing an HTH domain fused to a Zn-ribbon  [Transcription]. 
+Probab=50.99  E-value=20  Score=19.23  Aligned_cols=21  Identities=14%  Similarity=0.184  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             ccceecCCCCCcccCCCeEEE
+Q Q_9186633_13     18 DFIEECAGCNGEIYFGESCLD   38 (66)
+Q Consensus        18 ~~~~~C~~CG~~I~~g~~~~~   38 (66)
+                      .....||.||..+...-.+.+
+T Consensus        74 ~~~~~CP~Cgs~~~~~~~~~~   94 (97)
+T COG3357          74 KKPSRCPKCKSEWIEEPRFVI   94 (97)
+T ss_pred             CCCCcCCCCCCcceeCCeeee
+
+
+No 216
+>d1twfi2 g.41.3.1 (I:50-121) RBP9 subunit of RNA polymerase II {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=50.13  E-value=18  Score=18.91  Aligned_cols=22  Identities=18%  Similarity=0.348  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             cCCCCCCccccccceecCCCCC
+Q Q_9186633_13      7 LIGNAHDSSARDFIEECAGCNG   28 (66)
+Q Consensus         7 ~~~~~~~~~~~~~~~~C~~CG~   28 (66)
+                      +.+...+|..++....|+.||.
+T Consensus        10 ~~d~~~dptlp~~~~~Cp~Cg~   31 (72)
+T d1twfi2          10 VQDIGSDPTLPRSDRECPKCHS   31 (72)
+T ss_dssp             CTTGGGCTTSCCCCCCCTTTCC
+T ss_pred             ccchhcCCCCCccCccCCCCCC
+
+
+No 217
+>d1k3xa3 g.39.1.8 (A:223-262) Endonuclease VIII {Escherichia coli [TaxId: 562]}
+Probab=50.02  E-value=13  Score=16.84  Aligned_cols=8  Identities=38%  Similarity=1.003  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             cCCCCCcc
+Q Q_9186633_13     23 CAGCNGEI   30 (66)
+Q Consensus        23 C~~CG~~I   30 (66)
+                      |+.||.+|
+T Consensus        15 Cp~Cg~~i   22 (40)
+T d1k3xa3          15 CERCGSII   22 (40)
+T ss_dssp             CTTTCCBC
+T ss_pred             CCCCCCee
+
+
+No 218
+>d4c2mi1 g.41.3.1 (I:2-64) RNA polymerase I subunit A12.2 {Baker's yeast (Saccharomyces cerevisiae) [TaxId: 4932]}
+Probab=49.59  E-value=21  Score=17.89  Aligned_cols=15  Identities=13%  Similarity=0.271  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             ceecCCCCCcccCCC
+Q Q_9186633_13     20 IEECAGCNGEIYFGE   34 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~   34 (66)
+                      ...|+.||..|...+
+T Consensus         6 ~~fCp~CG~~l~~~~   20 (63)
+T d4c2mi1           6 LIFCLDCGDLLENPN   20 (63)
+T ss_dssp             EEBCSSSCCBCCCGG
+T ss_pred             ceeCCCCCCcCcCCC
+
+
+No 219
+>cd02336 ZZ_RSC8; Zinc finger, ZZ type. Zinc finger present in RSC8 and related proteins. RSC8 is a component of the RSC complex, which is closely related to the SWI/SNF complex and is involved in remodeling chromatin structure.
+Probab=49.45  E-value=23  Score=16.80  Aligned_cols=31  Identities=16%  Similarity=0.162  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECITQ   53 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~~~   53 (66)
+                      .|..||.........-.....+..| ..|..+
+T Consensus         2 ~C~~Cg~~c~~~~y~~~k~~~~~lC-~~Cf~~   32 (45)
+T cd02336           2 ICHTCGNESINVRYHNLRARDTNLC-SRCFQE   32 (45)
+T ss_pred             cCCCCCCcccccEEEcCCCCCCeeC-hHHHHc
+
+
+No 220
+>d1lv3a_ g.39.1.9 (A:) Hypothetical zinc finger protein YacG {Escherichia coli [TaxId: 562]}
+Probab=48.94  E-value=20  Score=19.29  Aligned_cols=15  Identities=13%  Similarity=0.565  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             ccccceecCCCCCcc
+Q Q_9186633_13     16 ARDFIEECAGCNGEI   30 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I   30 (66)
+                      .......|+.||+++
+T Consensus         2 ~~~~~~~CP~C~k~~   16 (65)
+T d1lv3a_           2 SETITVNCPTCGKTV   16 (65)
+T ss_dssp             CCCCEEECTTTCCEE
+T ss_pred             CCCCeeeCCCCCCcc
+
+
+No 221
+>PF06221.13 ; zf-C2HC5 ; Putative zinc finger motif, C2HC5-type
+Probab=48.76  E-value=15  Score=19.04  Aligned_cols=13  Identities=15%  Similarity=0.521  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             ceecCCCCCcccC
+Q Q_9186633_13     20 IEECAGCNGEIYF   32 (66)
+Q Consensus        20 ~~~C~~CG~~I~~   32 (66)
+                      .+.|++||.+|..
+T Consensus        35 ~~~C~~C~~~l~s   47 (55)
+T Q754Y5_ASHGO/1   35 MDSCSYCGTLLIP   47 (55)
+T ss_pred             CCcCCCCCCcCCC
+
+
+No 222
+>COG4712 COG4712; Uncharacterized protein [Function unknown]. 
+Probab=48.66  E-value=5.6  Score=26.19  Aligned_cols=34  Identities=18%  Similarity=0.197  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             cccccceecCCCCCcccCCCeEEEEC--CeEEEcChHH
+Q Q_9186633_13     15 SARDFIEECAGCNGEIYFGESCLDFG--GDYLHADTEC   50 (66)
+Q Consensus        15 ~~~~~~~~C~~CG~~I~~g~~~~~~~--g~~~~c~~~C   50 (66)
+                      ........|..||.+|......|...  |..+|  .+|
+T Consensus       197 ~~~~~~~~c~~cg~~i~~~v~~ys~~~fg~~lc--~~c  232 (234)
+T COG4712         197 KPNSNTYKCAVCGKSVPEKVASYSKSKFGKVLC--MEH  232 (234)
+T ss_pred             CCCCCCccccCCCCcCCHHHHHHcHHHhCcccc--Hhh
+
+
+No 223
+>COG0375 HybF; Hydrogenase maturation metallochaperone HypA/HybF, involved in Ni insertion [Posttranslational modification, protein turnover, chaperones]. 
+Probab=48.51  E-value=26  Score=19.44  Aligned_cols=20  Identities=20%  Similarity=0.408  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             cceecCCCCC---cccCCCeEEE
+Q Q_9186633_13     19 FIEECAGCNG---EIYFGESCLD   38 (66)
+Q Consensus        19 ~~~~C~~CG~---~I~~g~~~~~   38 (66)
+                      ....||.||.   .+..|+++..
+T Consensus        85 ~~~~CP~Cg~~~~~~~~g~~~~i  107 (115)
+T COG0375          85 LDYRCPKCGSINLRIIGGDELII  107 (115)
+T ss_pred             CceeCCCCCCeeeEEEcCcceEE
+
+
+No 224
+>KOG4537 Zn-ribbon-containing protein implicated in mitosis [Cell cycle control, cell division, chromosome partitioning, Defense mechanisms]
+Probab=48.17  E-value=14  Score=23.10  Aligned_cols=22  Identities=14%  Similarity=0.433  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .|+.||.+|+...     +|..+|  ..|
+T Consensus        42 ~C~~C~~~l~~~~-----~~~~~C--~~C   63 (178)
+T KOG4537          42 ICPKCEKILMRDR-----DNPMFC--VSC   63 (178)
+T ss_pred             hCCCCCCEEEeCC-----CCCEEE--cCC
+
+
+No 225
+>PF04606.12 ; Ogr_Delta ; Ogr/Delta-like zinc finger
+Probab=47.05  E-value=14  Score=17.06  Aligned_cols=8  Identities=25%  Similarity=1.016  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             ecCCCCCc
+Q Q_9186633_13     22 ECAGCNGE   29 (66)
+Q Consensus        22 ~C~~CG~~   29 (66)
+                      .||.||..
+T Consensus         1 ~CP~Cg~~    8 (47)
+T A1VSI8_POLNA/3    1 TCPNCESP    8 (47)
+T ss_pred             CCCCCCCc
+
+
+No 226
+>COG3813 COG3813; Uncharacterized protein [Function unknown]. 
+Probab=46.96  E-value=13  Score=21.05  Aligned_cols=10  Identities=40%  Similarity=1.115  Sum_probs=0.0  Template_Neff=3.200
+
+Q ss_pred             eecCCCCCcc
+Q Q_9186633_13     21 EECAGCNGEI   30 (66)
+Q Consensus        21 ~~C~~CG~~I   30 (66)
+                      +.||+||.+|
+T Consensus        42 ~vCPNCgGel   51 (84)
+T COG3813          42 GLCPNCGGEL   51 (84)
+T ss_pred             CCCCCCCCcc
+
+
+No 227
+>KOG2071 mRNA cleavage and polyadenylation factor I/II complex, subunit Pcf11 [RNA processing and modification]
+Probab=46.42  E-value=58  Score=24.01  Aligned_cols=40  Identities=15%  Similarity=0.341  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             cCCCCCcccC------CCeEEE----EC-CeEEEcChHHHHHHHHHhccccccC
+Q Q_9186633_13     23 CAGCNGEIYF------GESCLD----FG-GDYLHADTECITQYVKSHSTEKVAG   65 (66)
+Q Consensus        23 C~~CG~~I~~------g~~~~~----~~-g~~~~c~~~C~~~~~~~~~~~~~~g   65 (66)
+                      |+.|++.+..      ++++|.    .+ |.+||  ..|..+.... -.....+
+T Consensus       516 C~IC~E~Fe~~~~ee~eeW~~~~av~~~~~~i~H--~~C~~e~~~~-~~~~~~~  566 (579)
+T KOG2071         516 CPICQEKFEVVFDQEEDLWMYKDAVYLEFGRIFH--SKCLSEKRAQ-LREGIRI  566 (579)
+T ss_pred             CcccCCceeeEEEccCCeEEEeceEEecCCceee--hhHHHHHHHH-hhccccc
+
+
+No 228
+>PF10892.8 ; DUF2688 ; Protein of unknown function (DUF2688)
+Probab=46.37  E-value=17  Score=19.09  Aligned_cols=12  Identities=17%  Similarity=0.695  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             cceecCCCCCcc
+Q Q_9186633_13     19 FIEECAGCNGEI   30 (66)
+Q Consensus        19 ~~~~C~~CG~~I   30 (66)
+                      +...|..||++|
+T Consensus         6 v~t~CkRCGk~i   17 (56)
+T F6DTB6_DESRL/4    6 VTTQCKRCGKSL   17 (56)
+T ss_pred             EEeeCCCCCCch
+
+
+No 229
+>PF14369.6 ; zinc_ribbon_9 ; zinc-ribbon
+Probab=46.18  E-value=19  Score=14.84  Aligned_cols=14  Identities=14%  Similarity=0.321  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             cccceecCCCCCcc
+Q Q_9186633_13     17 RDFIEECAGCNGEI   30 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I   30 (66)
+                      ......|+.||...
+T Consensus        15 ~~~~~~Cp~C~~~~   28 (32)
+T C3YQ01_BRAFL/1   15 KLPDYTCPRCDSGF   28 (32)
+T ss_pred             CCCCCCCCCCCCcc
+
+
+No 230
+>d1nuia2 g.41.3.2 (A:10-63) Zinc-binding domain of primase-helicase {Bacteriophage T7 [TaxId: 10760]}
+Probab=46.00  E-value=28  Score=18.07  Aligned_cols=23  Identities=22%  Similarity=0.460  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             cCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     23 CAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        23 C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      |+.||.   .+--.++.+|..+|  ..|
+T Consensus         8 Cp~CGS---sD~lavy~DGh~yC--fsC   30 (54)
+T d1nuia2           8 CDNCGS---SDGNSLFSDGHTFC--YVC   30 (54)
+T ss_dssp             CSSSCC---SSCEEEETTSCEEE--TTT
+T ss_pred             CCCCCC---CCCeeEecCCCeEe--cCC
+
+
+No 231
+>KOG0856 Predicted pilin-like transcription factor [Posttranslational modification, protein turnover, chaperones]
+Probab=45.82  E-value=20  Score=22.04  Aligned_cols=18  Identities=28%  Similarity=0.696  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             ceecCCCCCcccCCCeEE
+Q Q_9186633_13     20 IEECAGCNGEIYFGESCL   37 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~~   37 (66)
+                      +..|..||.+||..+.-|
+T Consensus        54 ~Y~C~~C~~pLFsS~~Kf   71 (146)
+T KOG0856          54 VYVCAGCGTPLYKSTTKF   71 (146)
+T ss_pred             EEEeCCCCCccccccccc
+
+
+No 232
+>d1k82a3 g.39.1.8 (A:225-268) DNA repair protein MutM (Fpg) {Escherichia coli [TaxId: 562]}
+Probab=45.53  E-value=16  Score=16.77  Aligned_cols=8  Identities=38%  Similarity=0.912  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             cCCCCCcc
+Q Q_9186633_13     23 CAGCNGEI   30 (66)
+Q Consensus        23 C~~CG~~I   30 (66)
+                      |+.||.+|
+T Consensus        19 Cp~cg~~i   26 (44)
+T d1k82a3          19 CRVCGTPI   26 (44)
+T ss_dssp             CTTTCCBC
+T ss_pred             CCCCCCee
+
+
+No 233
+>COG1202 COG1202; Superfamily II helicase, archaea-specific [Replication, recombination and repair]. 
+Probab=45.33  E-value=44  Score=25.33  Aligned_cols=37  Identities=19%  Similarity=0.432  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             ceecCCCCCcccCC----CeEEEECCeEEEcChHHHHHHHHHh
+Q Q_9186633_13     20 IEECAGCNGEIYFG----ESCLDFGGDYLHADTECITQYVKSH   58 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g----~~~~~~~g~~~~c~~~C~~~~~~~~   58 (66)
+                      ...|++|+.++...    ...+..++.++|  ..|+.+-....
+T Consensus        95 ~~~C~~C~~~~~~~~~~~~~~~~~~~~~~C--~~C~~~~~~~e  135 (830)
+T COG1202          95 ARLCRHCLLEGRYTVLTEGNRIKYGGEEIC--ERCAEEELKRE  135 (830)
+T ss_pred             eeecccccccCCeecccCCCceeeCCceec--HHHHHHHHHHH
+
+
+No 234
+>COG2888 COG2888; Predicted RNA-binding protein involved in translation, contains  Zn-ribbon domain, DUF1610 family [General function prediction only]. 
+Probab=45.09  E-value=25  Score=17.56  Aligned_cols=18  Identities=28%  Similarity=0.388  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             ccccceecCCCCCcccCC
+Q Q_9186633_13     16 ARDFIEECAGCNGEIYFG   33 (66)
+Q Consensus        16 ~~~~~~~C~~CG~~I~~g   33 (66)
+                      +......|+.||..|..+
+T Consensus         5 ~~~~~~~C~~Cg~~~~~~   22 (61)
+T COG2888           5 EMKDPPVCTSCGREIAPG   22 (61)
+T ss_pred             CCCCCCcCCCCCCcCCCC
+
+
+No 235
+>PF13453.6 ; zf-TFIIB ; Transcription factor zinc-finger
+Probab=45.01  E-value=16  Score=16.24  Aligned_cols=17  Identities=24%  Similarity=0.505  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             ceecCCCCCcccCCCeE
+Q Q_9186633_13     20 IEECAGCNGEIYFGESC   36 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~   36 (66)
+                      ...|+.|+..++..+.+
+T Consensus        19 ~~~C~~C~g~~~~~~~~   35 (41)
+T B8FGW1_DESAA/2   19 IFQCPKCKGGWFDPGEL   35 (41)
+T ss_pred             EEECCCCCcEEEChhhH
+
+
+No 236
+>PF07191.12 ; zinc-ribbons_6 ; zinc-ribbons
+Probab=45.01  E-value=26  Score=17.92  Aligned_cols=15  Identities=20%  Similarity=0.333  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             ecCCCCCcccCCCeEE
+Q Q_9186633_13     22 ECAGCNGEIYFGESCL   37 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~   37 (66)
+                      .|+ ||..|.....+|
+T Consensus        51 fC~-Cg~~~~~~~~~~   65 (66)
+T X2GWX6_9GAMM/1   51 ICQ-TDGLISSSKVIF   65 (66)
+T ss_pred             eCC-CCCcccccceee
+
+
+No 237
+>PF13408.6 ; Zn_ribbon_recom ; Recombinase zinc beta ribbon domain
+Probab=44.76  E-value=21  Score=16.90  Aligned_cols=12  Identities=17%  Similarity=0.448  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             ceecCCCCCccc
+Q Q_9186633_13     20 IEECAGCNGEIY   31 (66)
+Q Consensus        20 ~~~C~~CG~~I~   31 (66)
+                      ...|..||..+.
+T Consensus         5 ~i~C~~Cg~~~~   16 (65)
+T A9WCX4_CHLAA/2    5 RIRCGICGNRMS   16 (65)
+T ss_pred             cEecCCCCCeeE
+
+
+No 238
+>d1r2za3 g.39.1.8 (A:229-274) DNA repair protein MutM (Fpg) {Bacillus stearothermophilus [TaxId: 1422]}
+Probab=44.55  E-value=18  Score=16.82  Aligned_cols=8  Identities=38%  Similarity=1.016  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             cCCCCCcc
+Q Q_9186633_13     23 CAGCNGEI   30 (66)
+Q Consensus        23 C~~CG~~I   30 (66)
+                      |+.||.+|
+T Consensus        21 Cp~Cg~~i   28 (46)
+T d1r2za3          21 CKRCGTPI   28 (46)
+T ss_dssp             CTTTCCBC
+T ss_pred             CCCCCCcc
+
+
+No 239
+>COG4393 COG4393; Uncharacterized membrane protein  [Function unknown]. 
+Probab=44.46  E-value=25  Score=24.81  Aligned_cols=24  Identities=17%  Similarity=0.540  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             ceecCCCCCcccCCCeEEEECCeEEEcChHH
+Q Q_9186633_13     20 IEECAGCNGEIYFGESCLDFGGDYLHADTEC   50 (66)
+Q Consensus        20 ~~~C~~CG~~I~~g~~~~~~~g~~~~c~~~C   50 (66)
+                      .+.|+-||     +..++..+|..+|  ..|
+T Consensus       334 ~daC~~C~-----~~gy~~~g~~~vC--~~C  357 (405)
+T COG4393         334 FDACDICG-----DQGYVMEGDQVIC--VRC  357 (405)
+T ss_pred             EEcCcccc-----CcceEEECCEEEe--CCC
+
+
+No 240
+>d1wjva1 g.37.1.2 (A:8-35) Cell growth regulating nucleolar protein LyaR {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=44.46  E-value=23  Score=15.77  Aligned_cols=12  Identities=17%  Similarity=0.645  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             cceecCCCCCcc
+Q Q_9186633_13     19 FIEECAGCNGEI   30 (66)
+Q Consensus        19 ~~~~C~~CG~~I   30 (66)
+                      +...|..||..|
+T Consensus         2 v~F~c~~Cge~l   13 (28)
+T d1wjva1           2 VFFTCNACGESV   13 (28)
+T ss_dssp             CEEEESSSCCEE
+T ss_pred             ceeeCCCCCCEe
+
+
+No 241
+>COG1675 TFA1; Transcription initiation factor IIE, alpha subunit  [Transcription]. 
+Probab=44.39  E-value=21  Score=20.76  Aligned_cols=14  Identities=14%  Similarity=0.368  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             eecCCCCCcccCCC
+Q Q_9186633_13     21 EECAGCNGEIYFGE   34 (66)
+Q Consensus        21 ~~C~~CG~~I~~g~   34 (66)
+                      ..|+.||.+|...+
+T Consensus       133 ~~C~~C~~~l~~~~  146 (176)
+T COG1675         133 FTCPKCGEDLEEYD  146 (176)
+T ss_pred             eeCCCCCCcceeCC
+
+
+No 242
+>PF11290.8 ; DUF3090 ; Protein of unknown function (DUF3090)
+Probab=44.27  E-value=19  Score=22.57  Aligned_cols=11  Identities=27%  Similarity=0.615  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             cCCCCCcccCC
+Q Q_9186633_13     23 CAGCNGEIYFG   33 (66)
+Q Consensus        23 C~~CG~~I~~g   33 (66)
+                      |+.||.+|..+
+T Consensus       157 CplCg~Pidp~  167 (171)
+T A6W931_KINRD/4  157 CPFCSGPLDPQ  167 (171)
+T ss_pred             CCCCCCCCCCC
+
+
+No 243
+>COG4391 COG4391; Uncharacterized conserved protein, contains Zn-finger domain  [Function unknown]. 
+Probab=43.62  E-value=27  Score=18.15  Aligned_cols=23  Identities=13%  Similarity=0.135  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCCCccCCCCCCccccccceecCCCCC
+Q Q_9186633_13      2 VENGMLIGNAHDSSARDFIEECAGCNG   28 (66)
+Q Consensus         2 ienp~~~~~~~~~~~~~~~~~C~~CG~   28 (66)
+                      ..||.++-+....    ....|+.||.
+T Consensus        34 ~~HP~vyl~l~~~----~~~~CpyCg~   56 (62)
+T COG4391          34 NDHPRVFLDMGDE----GEVVCPYCST   56 (62)
+T ss_pred             CCCCeEEEECCCC----CcEECCCCCc
+
+
+No 244
+>PF11811.8 ; DUF3331 ; Domain of unknown function (DUF3331)
+Probab=43.39  E-value=32  Score=19.71  Aligned_cols=21  Identities=19%  Similarity=0.151  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             cccceecCCCCCcccCCCeEE
+Q Q_9186633_13     17 RDFIEECAGCNGEIYFGESCL   37 (66)
+Q Consensus        17 ~~~~~~C~~CG~~I~~g~~~~   37 (66)
+                      .+..+.|..=|..|..||.+|
+T Consensus        47 Ar~~G~CaLSG~~I~~GD~Vy   67 (90)
+T G8MGQ4_9BURK/3   47 ARRRGRCAMSGESIAAGDFVY   67 (90)
+T ss_pred             eccCCeeecCCCcccCCCeeE
+
+
+No 245
+>d3e0oa_ b.88.1.3 (A:) Peptide methionine sulfoxide reductase MsrB {Bacillus subtilis [TaxId: 1423]}
+Probab=43.38  E-value=44  Score=20.23  Aligned_cols=33  Identities=3%  Similarity=-0.117  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCccCCCCCCccccccceecCCCCCcccCCCeEE
+Q Q_9186633_13      3 ENGMLIGNAHDSSARDFIEECAGCNGEIYFGESCL   37 (66)
+Q Consensus         3 enp~~~~~~~~~~~~~~~~~C~~CG~~I~~g~~~~   37 (66)
+                      |.|.........  ..-...|..||.+||....-+
+T Consensus        27 E~pfs~~~~~~~--~~G~Y~C~~Cg~pLF~S~~kf   59 (142)
+T d3e0oa_          27 EPPFQNEYWDHK--EEGLYVDIVSGKPLFTSKDKF   59 (142)
+T ss_dssp             CCTTCSTTSSCC--CSEEEEETTTCCEEEETTTBC
+T ss_pred             CCCCCCCCcccc--cCeEEEeCCCCCcccCCCCcc
+
+
+No 246
+>COG2835 YcaR; Uncharacterized conserved protein YbaR, Trm112 family [Function unknown]. 
+Probab=43.35  E-value=19  Score=17.82  Aligned_cols=8  Identities=38%  Similarity=1.236  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             cCCCCCcc
+Q Q_9186633_13     23 CAGCNGEI   30 (66)
+Q Consensus        23 C~~CG~~I   30 (66)
+                      ||.||..|
+T Consensus        11 CP~C~~~l   18 (60)
+T COG2835          11 CPVCKGPL   18 (60)
+T ss_pred             CCCCCCcc
+
+
+No 247
+>PF03691.14 ; UPF0167 ; Uncharacterised protein family (UPF0167)
+Probab=42.99  E-value=66  Score=20.05  Aligned_cols=53  Identities=15%  Similarity=0.221  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ccCCCCCCcccccccee-----cCCCCCc---ccCCCeEEEECCeEEEcChHHHHHHHHHhcc
+Q Q_9186633_13      6 MLIGNAHDSSARDFIEE-----CAGCNGE---IYFGESCLDFGGDYLHADTECITQYVKSHST   60 (66)
+Q Consensus         6 ~~~~~~~~~~~~~~~~~-----C~~CG~~---I~~g~~~~~~~g~~~~c~~~C~~~~~~~~~~   60 (66)
+                      ..++.+++|.....+..     |..||+.   +|.|--+-..+-..+|  ..|+.+-......
+T Consensus         2 p~FkY~pdp~~~g~~~~~~~~~C~~Cg~~~~~~y~g~~y~~~~~~~iC--p~CIa~G~aa~~~   62 (170)
+T D6GTX0_FILAD/1    2 SHFRYHPDPLETGAFEEGEEKVCPCCGKKSTVYFSSIPYCVDNVEYIC--STCIANGEAARKF   62 (170)
+T ss_pred             CCCCCCCChhhcCceecCCCccCCCCCCccceeeccCccccCCcceec--HhHHHhChHhHhc
+
+
+No 248
+>PF12172.8 ; DUF35_N ; Rubredoxin-like zinc ribbon domain (DUF35_N)
+Probab=42.59  E-value=26  Score=14.85  Aligned_cols=14  Identities=36%  Similarity=0.638  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             cceecCCCCCcccC
+Q Q_9186633_13     19 FIEECAGCNGEIYF   32 (66)
+Q Consensus        19 ~~~~C~~CG~~I~~   32 (66)
+                      ...+|+.||..++.
+T Consensus        10 ~~~~C~~Cg~~~~p   23 (37)
+T A0R1N2_MYCS2/2   10 RIQECRSCDALIHP   23 (37)
+T ss_pred             EEEecCCCCCEEeC
+
+
+No 249
+>PF14279.6 ; HNH_5 ; HNH endonuclease
+Probab=42.21  E-value=24  Score=16.05  Aligned_cols=12  Identities=25%  Similarity=0.326  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             cCCCCCcccCCC
+Q Q_9186633_13     23 CAGCNGEIYFGE   34 (66)
+Q Consensus        23 C~~CG~~I~~g~   34 (66)
+                      |+.||.++...+
+T Consensus         1 C~~C~~~~~~~~   12 (55)
+T H8MG87_CORCM/5    1 CALCDKGKGEAT   12 (55)
+T ss_pred             CCCCCCCCCccc
+
+
+No 250
+>KOG1703 Adaptor protein Enigma and related PDZ-LIM proteins [Signal transduction mechanisms, Cytoskeleton]
+Probab=42.01  E-value=33  Score=23.22  Aligned_cols=28  Identities=25%  Similarity=0.716  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             ecCCCCCcccCCCeEEEECCeEEEcChHHH
+Q Q_9186633_13     22 ECAGCNGEIYFGESCLDFGGDYLHADTECI   51 (66)
+Q Consensus        22 ~C~~CG~~I~~g~~~~~~~g~~~~c~~~C~   51 (66)
+                      .|..|++.|..+.......+..+|  .+|+
+T Consensus       424 ~C~~C~~~~~~~~~~~~~~~~~~h--~~cf  451 (479)
+T KOG1703         424 KCDYCKKPVEFGSRQIEADGSPFH--GDCF  451 (479)
+T ss_pred             ccccCCCceeeCCeEEEeCCeeec--Ccce
+
+

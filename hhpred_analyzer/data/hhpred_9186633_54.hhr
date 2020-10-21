@@ -1,0 +1,416 @@
+Query         Q_9186633_54
+Match_columns 113
+No_of_seqs    122 out of 1417
+Neff          9.29315
+Searched_HMMs 69205
+Date          Sun May 24 00:25:40 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_54.hhr -oa3m ../results/9186633_54.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 d1xn8a_ a.229.1.1 (A:) Hypothe  99.6 2.9E-14 4.3E-19   89.3  12.1  106    1-112     5-126 (131)
+  2 cd08055 gp15; Head-Tail Connec  99.6 1.7E-14 2.5E-19   85.0  10.1   92    3-94      1-95  (95)
+  3 PF11436.8 ; DUF3199 ; Protein   99.5 4.8E-13 6.9E-18   83.6  10.2   95    1-95      3-113 (127)
+  4 cd08051 gp6_gp15_like; Head-Ta  99.5 2.6E-13 3.7E-18   80.1   8.1   87    3-92      1-94  (94)
+  5 PF05135.13 ; Phage_connect_1 ;  99.4 6.1E-12 8.8E-17   74.3   9.0   82    1-92      3-94  (94)
+  6 cd08054 gp6; Head-Tail Connect  99.3 3.4E-11 4.9E-16   70.2   8.9   82    1-92      1-91  (91)
+  7 cd08053 Yqbg; Putative Head-Ta  97.9  0.0014   2E-08   40.4  11.2  100    2-109     6-121 (121)
+  8 PF09355.10 ; Phage_Gp19 ; Phag  94.5    0.29 4.2E-06   30.2   5.7   64   13-76      6-84  (116)
+  9 PF07030.12 ; DUF1320 ; Protein  90.1     2.5 3.6E-05   26.5   5.7   44   16-59     30-79  (124)
+ 10 COG4387 gp436; Mu-like prophag  88.8     6.2 8.9E-05   25.4   7.7   58    3-60     16-81  (139)
+ 11 PF13262.6 ; DUF4054 ; Protein   86.9     4.6 6.7E-05   25.2   5.4   57   16-76     14-89  (118)
+ 12 PF09691.10 ; T2SS_PulS_OutS ;   62.9      33 0.00048   21.7   4.2   31   24-54     37-69  (114)
+ 13 COG1698 COG1698; Uncharacteriz  40.8 1.1E+02  0.0017   18.7   4.6   44   21-64     12-55  (93)
+ 14 PF05924.11 ; SAMP ; SAMP Motif  28.1      91  0.0013   13.7   2.0   16   12-27      1-16  (22)
+ 15 d1vola1 a.74.1.2 (A:113-207) T  26.8 1.7E+02  0.0025   16.5   4.6   40   24-63      2-41  (95)
+ 16 cd20605 CYCLIN_RBL1; cyclin bo  25.1 2.5E+02  0.0036   17.7   5.4   41   19-59     11-51  (133)
+ 17 d2qsba1 a.29.14.1 (A:2-86) Unc  24.3 2.3E+02  0.0033   17.0   5.4   41   21-61      5-45  (85)
+ 18 cd20601 CYCLIN_AtRBR_like; cyc  24.2 2.6E+02  0.0037   17.6   5.4   43   17-59      2-44  (132)
+ 19 d2pv4a1 a.286.1.1 (A:1-144) Un  24.0 3.1E+02  0.0044   18.3   5.0   61   21-91      6-70  (144)
+ 20 PF06786.12 ; UPF0253 ; Unchara  23.7 2.1E+02   0.003   16.3   5.4   54    3-56      6-59  (64)
+ 21 PF05926.11 ; Phage_GPL ; Phage  23.2   3E+02  0.0043   17.9   4.6   34    2-35     12-45  (139)
+ 22 d1st6a5 a.24.9.1 (A:489-646) V  20.9 3.4E+02  0.0049   17.7   5.1   52    2-55      9-60  (158)
+ 23 d1aisb1 a.74.1.2 (B:1108-1205)  20.0 2.6E+02  0.0037   16.0   4.9   40   24-63      2-41  (98)
+ 24 PF10147.9 ; CR6_interact ; Gro  20.0 1.7E+02  0.0024   20.6   2.4   26    1-26    148-173 (203)
+
+No 1
+>d1xn8a_ a.229.1.1 (A:) Hypothetical protein YqbG {Bacillus subtilis [TaxId: 1423]}
+Probab=99.62  E-value=2.9e-14  Score=89.33  Aligned_cols=106  Identities=14%  Similarity=0.071  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             ChHHHHHHhCCCCch--hHHHHHHHHHHHHHHHHHHhCCC-------CCChhHHHHHHHHHHHHHHhc----CCCCCeee
+Q Q_9186633_54      1 MLQRIKIRLGITDTA--QDDLLNELITSIRDVISLRVGVI-------TFPKVLESIAVEVVISSYNRR----GSEGASSE   67 (113)
+Q Consensus         1 ~l~~vk~~l~~~~~~--~D~~l~~~i~~a~~~I~~~~~~~-------~~p~~~~~a~~~~~~~~~~~~----~~~g~~s~   67 (113)
+                      .++++|.++++..++  +|..++.+|..|..+|..+|++.       .+|+.++.|+++++.++|...    ...+.++.
+T Consensus         5 tl~~~k~~~~~~~~~~~~d~~l~~~i~~A~~~I~~~~~~~~~~~~~~~ip~~l~~A~~~la~~~~~~~~~~~~~~g~~S~   84 (131)
+T d1xn8a_           5 TPDELKSYSVFESVKTRPDELLKQDILEATADIILKVGHDFSDAEYIPLPETVRLALLKLSQFYALINGDESIIKGYTTE   84 (131)
+T ss_dssp             CHHHHHHHCCCHHHHHSCHHHHHHHHHHHHHHHHHHHTCCCCCTTSCCCCHHHHHHHHHHHHHHHHTTSSSSCCCCTTSC
+T ss_pred             CHHHHHHHhccccccCCCHHHHHHHHHHHHHHHHHHHCCCCCCCCCCCCCHHHHHHHHHHHHHHHHHcCCcccccCceEE
+
+
+Q ss_pred             eecceeeehhhc---cchHHHHHHHHHHhhcccCCcCCCCCcccceee
+Q Q_9186633_54     68 AVDVISTSYITN---LLEPYTEQLENFKKGLTQGTEDATGTGRSGVKF  112 (113)
+Q Consensus        68 ~~~~~s~~~~~~---~~~~v~~~L~~yr~~~~~~~~~~~~~~~~~~~~  112 (113)
+                      +.|+++++|...   .++.+..+|.+|+.....+      +++|.++|
+T Consensus        85 s~g~~S~sy~~~~~~~~~~v~~~l~~yl~~~g~~------~~~~~~~~  126 (131)
+T d1xn8a_          85 KIGDYSYTLGDGSSLQKPDVYALIKDYVKPADPD------LEGIEAKV  126 (131)
+T ss_dssp             SCCSSCCBCSSCCBCCCCCCHHHHTTSSCCCCCT------TSSCSSHH
+T ss_pred             EECCEEEEecCCCCCCCccHHHHHHHHhccCCcC------cCCceeEE
+
+
+No 2
+>cd08055 gp15; Head-Tail Connector Protein gp15 of Bacteriophage SPP1 and similar proteins. The bacteriophage SPP1 gp15 protein is critical in the assembly of the connector, a specialized structure that serves as an interface for head and tail attachment, as well as a point at which DNA exits the head during infection by the bacteriophage.
+Probab=99.62  E-value=1.7e-14  Score=84.96  Aligned_cols=92  Identities=18%  Similarity=0.234  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             HHHHHHhCCCCc--hhHHHHHHHHHHHHHHHHHHhCCCCCCh...hHHHHHHHHHHHHHHhcCCCCCe.-eeeecceeee
+Q Q_9186633_54      3 QRIKIRLGITDT--AQDDLLNELITSIRDVISLRVGVITFPK...VLESIAVEVVISSYNRRGSEGAS.-SEAVDVISTS   75 (113)
+Q Consensus         3 ~~vk~~l~~~~~--~~D~~l~~~i~~a~~~I~~~~~~~~~p~...~~~~a~~~~~~~~~~~~~~~g~~.-s~~~~~~s~~   75 (113)
+                      +++|.+|++..+  .+|..|..+|+.|...|.++||+..+|+   .+..+++.++..+|.++...|..  +.+.|+++++
+T Consensus         1 ~~~k~~l~i~~~~~~~d~~L~~~i~~a~~~I~~~~~~~~~~~...~~~~~~~~~~~~~~~~~~~~~~~.~s~~~g~~s~~   76 (95)
+T cd08055           1 QRVKRLLSITND--KHDEYLTEMVPLLVEFAKDECHNPFIDKdgnESIPSGVLIFVAKAAQFYMTNAGlTGRSMDTVSYN   78 (97)
+T ss_pred             ChHHHHcCCCCCCCCchHHHHHHHHHHHHHHHHHcCCCCCch...hhHHHHHHHHHHHHHhCCCCCCe.eeeeeCCEEee
+
+
+Q ss_pred             hhhccchHHHHHHHHHHhh
+Q Q_9186633_54     76 YITNLLEPYTEQLENFKKG   94 (113)
+Q Consensus        76 ~~~~~~~~v~~~L~~yr~~   94 (113)
+                      |..++|..+..+|++||+.
+T Consensus        77 ~~~~~p~~~~~~L~~yr~~   95 (95)
+T cd08055          79 FATEIPSTILKKLNPYRKM   97 (97)
+T ss_pred             cCCCCCHHHHHHHHhhcCC
+
+
+No 3
+>PF11436.8 ; DUF3199 ; Protein of unknown function (DUF3199)
+Probab=99.51  E-value=4.8e-13  Score=83.56  Aligned_cols=95  Identities=18%  Similarity=0.154  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             ChHHHHHHhCCCC--chhHHHHHHHHHHHHHHHHHHhCC-------CCCChhHHHHHHHHHHHH--HHhc--CCCCCeee
+Q Q_9186633_54      1 MLQRIKIRLGITD--TAQDDLLNELITSIRDVISLRVGV-------ITFPKVLESIAVEVVISS--YNRR--GSEGASSE   67 (113)
+Q Consensus         1 ~l~~vk~~l~~~~--~~~D~~l~~~i~~a~~~I~~~~~~-------~~~p~~~~~a~~~~~~~~--~~~~--~~~g~~s~   67 (113)
+                      .++++|.+|+++.  +.+|+.++.++..|.++|..+|++       ..+|+.++.|+++++.++  ++++  ...+.+|.
+T Consensus         3 tle~vk~~l~i~~~~~~~d~~l~~~i~~A~~~I~~~t~~~~~~~~~~~~p~~v~~Av~~la~~~~~~~~~~~~~~~v~Se   82 (127)
+T YQBG_BACSU/3-1    3 TPDELKSYSVFESVKTRPDELLKQDILEATADIILKVGHDFSDAEYIPLPETVRLALLKLSQFYALINGDESIIKGYTTE   82 (127)
+T ss_pred             CHHHHHhhhcCccccCCCHHHHHHHHHHHHHHHHHHhCCCCCccccCCCCHHHHHHHHHHHHHHHHHcCCccccccceeE
+
+
+Q ss_pred             eecceeeehhhc---cchHHHHHHHHHHhhc
+Q Q_9186633_54     68 AVDVISTSYITN---LLEPYTEQLENFKKGL   95 (113)
+Q Consensus        68 ~~~~~s~~~~~~---~~~~v~~~L~~yr~~~   95 (113)
+                      +.|++|++|.+.   .+..+..+|.+|+...
+T Consensus        83 siG~~S~ty~~~~~~~~~~~~~~l~~Y~~~~  113 (127)
+T YQBG_BACSU/3-1   83 KIGDYSYTLGDGSSLQKPDVYALIKDYVKPA  113 (127)
+T ss_pred             EECceEEEeCCCCcCCCccHHHHHHHHcCcC
+
+
+No 4
+>cd08051 gp6_gp15_like; Head-Tail Connector Proteins gp6 and gp15, and similar proteins. Members of this family include the proteins gp6 and gp15 from bacteriophage HK97 and SPP1, respectively.
+Probab=99.51  E-value=2.6e-13  Score=80.06  Aligned_cols=87  Identities=9%  Similarity=0.088  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHhCCCCchhHHHHHHHHHHHHHHHHHHhCCC-------CCChhHHHHHHHHHHHHHHhcCCCCCeeeeecceeee
+Q Q_9186633_54      3 QRIKIRLGITDTAQDDLLNELITSIRDVISLRVGVI-------TFPKVLESIAVEVVISSYNRRGSEGASSEAVDVISTS   75 (113)
+Q Consensus         3 ~~vk~~l~~~~~~~D~~l~~~i~~a~~~I~~~~~~~-------~~p~~~~~a~~~~~~~~~~~~~~~g~~s~~~~~~s~~   75 (113)
+                      +++|.+|+++++++|..|+.+|+.|..+|+++|++.       .+|+.++.++++++.++|++++..   +.+.++++..
+T Consensus         1 ~~~k~~l~i~~~~~d~~l~~~i~~A~~~i~~~~~~~~~~~~~~~~p~~~~~av~~lv~~~~~~r~~~---~~~~~~~~~~   77 (94)
+T cd08051           1 SLFKQQIEFEEDDRDELITLYAQAAFDYCXRWCDEPAWK-VAADIPAAVKGAVLLVFADXFEHRTAQ---S--------E   68 (85)
+T ss_pred             ChHHHHcCCCCCchhHHHHHHHHHHHHHHHHHHCCCCCCCCcCCCCHHHHHHHHHHHHHHHHccccc---ccccCCcccc
+
+
+Q ss_pred             hhhccchHHHHHHHHHH
+Q Q_9186633_54     76 YITNLLEPYTEQLENFK   92 (113)
+Q Consensus        76 ~~~~~~~~v~~~L~~yr   92 (113)
+                      +...+|+.+..+|.+||
+T Consensus        78 ~~~~~p~~v~~~L~~~r   94 (94)
+T cd08051          69 VQLYENAAAERXXFIHR   85 (85)
+T ss_pred             ccccCCHHHHHHHhhcC
+
+
+No 5
+>PF05135.13 ; Phage_connect_1 ; Phage gp6-like head-tail connector protein
+Probab=99.40  E-value=6.1e-12  Score=74.30  Aligned_cols=82  Identities=16%  Similarity=0.263  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             ChHHHHHHhCCCCc--hhHHHHHHHHHHHHHHHHHHhCCCC--------CChhHHHHHHHHHHHHHHhcCCCCCeeeeec
+Q Q_9186633_54      1 MLQRIKIRLGITDT--AQDDLLNELITSIRDVISLRVGVIT--------FPKVLESIAVEVVISSYNRRGSEGASSEAVD   70 (113)
+Q Consensus         1 ~l~~vk~~l~~~~~--~~D~~l~~~i~~a~~~I~~~~~~~~--------~p~~~~~a~~~~~~~~~~~~~~~g~~s~~~~   70 (113)
+                      .++++|.+|++.++  .+|..|+.+|.+|.++|+++|++..        +|+.++.++++++.++|+++....       
+T Consensus         3 ~l~~~k~~l~i~~~~~~~d~~l~~~i~~A~~~i~~~~~~~~~~~~~~~~~p~~~~~ai~~lv~~~y~~r~~~~-------   75 (94)
+T F9D300_PREDD/2    3 TLEEAKKHLNIDESFKDDDVYISSLVQVAEDAVEKNVGIVLSKMSDGGSLPPSVKQSILLLIGNLYTNREATT-------   75 (94)
+T ss_pred             CHHHHHHHcCCCCCcccchHHHHHHHHHHHHHHHHHHCCCcccCCCCCCCCHHHHHHHHHHHHHHHHccCccc-------
+
+
+Q ss_pred             ceeeehhhccchHHHHHHHHHH
+Q Q_9186633_54     71 VISTSYITNLLEPYTEQLENFK   92 (113)
+Q Consensus        71 ~~s~~~~~~~~~~v~~~L~~yr   92 (113)
+                      +.+.++   +|..+..+|.+||
+T Consensus        76 ~~~~~~---~p~~~~~ll~~~R   94 (94)
+T F9D300_PREDD/2   76 YGTISE---VPYTFKYLINLNR   94 (94)
+T ss_pred             CCCccc---CCHHHHHHHhhcC
+
+
+No 6
+>cd08054 gp6; Head-Tail Connector Protein gp6 of Bacteriophage HK97 and similar proteins. The bacteriophage HK97 gp6 protein is critical in the assembly of the connector, a specialized structure that serves as an interface for head and tail attachment, as well as a point at which DNA exits the head during infection by the bacteriophage.
+Probab=99.33  E-value=3.4e-11  Score=70.16  Aligned_cols=82  Identities=10%  Similarity=0.097  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             ChHHHHHHhCCCCchhHHHHHHHHHHHHHHHHHHhCCC---------CCChhHHHHHHHHHHHHHHhcCCCCCeeeeecc
+Q Q_9186633_54      1 MLQRIKIRLGITDTAQDDLLNELITSIRDVISLRVGVI---------TFPKVLESIAVEVVISSYNRRGSEGASSEAVDV   71 (113)
+Q Consensus         1 ~l~~vk~~l~~~~~~~D~~l~~~i~~a~~~I~~~~~~~---------~~p~~~~~a~~~~~~~~~~~~~~~g~~s~~~~~   71 (113)
+                      .++++|.+|++.++++|..|+.++.+|.++|+++|++.         .+|+.++.++++++.++|++++..+.       
+T Consensus         1 tl~~~k~~l~~~~~~~d~~l~~~i~~A~~~i~~~~~~~~~~~~~~~~~~p~~~~~a~~~~v~~~~~~r~~~~~-------   73 (91)
+T cd08054           1 SLSLFKQQIEFEEDDRDELITLYAQAAFDYCXRWCDEPAWK---VAADIPAAVKGAVLLVFADXFEHRTAQS--------   69 (87)
+T ss_pred             CHHHHHHHcCCCCCcchHHHHHHHHHHHHHHHHHHCCCcccCCCCcccCCHHHHHHHHHHHHHHHHcccccCC-------
+
+
+Q ss_pred             eeeehhhccchHHHHHHHHHH
+Q Q_9186633_54     72 ISTSYITNLLEPYTEQLENFK   92 (113)
+Q Consensus        72 ~s~~~~~~~~~~v~~~L~~yr   92 (113)
+                         .+...+|..+..+|.+|+
+T Consensus        74 ---~~~~~~~~~v~~ll~~~r   91 (91)
+T cd08054          70 ---EVQLYENAAAERXXFIHR   87 (87)
+T ss_pred             ---CCcccCCHHHHHHhhccC
+
+
+No 7
+>cd08053 Yqbg; Putative Head-Tail Connector Protein Yqbg from Bacillus subtilis and similar proteins.
+Probab=97.88  E-value=0.0014  Score=40.35  Aligned_cols=100  Identities=16%  Similarity=0.169  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             hHHHHHHhCCCCchhHHHHHHHHHHHHHHHHHHhCC-------CCCChhHHHHHHHHHHHHHHhcCC----CCCeeeeec
+Q Q_9186633_54      2 LQRIKIRLGITDTAQDDLLNELITSIRDVISLRVGV-------ITFPKVLESIAVEVVISSYNRRGS----EGASSEAVD   70 (113)
+Q Consensus         2 l~~vk~~l~~~~~~~D~~l~~~i~~a~~~I~~~~~~-------~~~p~~~~~a~~~~~~~~~~~~~~----~g~~s~~~~   70 (113)
+                      .++.+.+.....- .+..++.++..|...|..++..       +.+|+.++.|+|+++.+++.....    .+.++.+.|
+T Consensus         6 ~~~y~~~~~g~~~-~~~~~~~~l~~A~~~i~~~t~~~~~~~~~~~~~~~vk~A~c~~a~~~~~~~~~~~~~~~v~S~sig   84 (121)
+T cd08053           6 LKSYSVFESVKTR-PDELLKQDILEATADIILKVGHDFSDAEYIPLPETVRLALLKLSQFYALINGDESIIKGYTTEKIG   84 (124)
+T ss_pred             HHHHHHhhCCCCC-CHHHHHHHHHHHHHHHHHHhcCccCCCCCCcccHHHHHHHHHHHHHHHHcCCCCCCCCCcceEEeC
+
+
+Q ss_pred             ceeeehhhc-----cchHHHHHHHHHHhh.....cccCCcCCCCCcccc
+Q Q_9186633_54     71 VISTSYITN-----LLEPYTEQLENFKKG.....LTQGTEDATGTGRSG  109 (113)
+Q Consensus        71 ~~s~~~~~~-----~~~~v~~~L~~yr~~.....~~~~~~~~~~~~~~~  109 (113)
+                      +.+++|...     ....+..++.+|-..     ...       -.||+
+T Consensus        85 ~~Svsy~~~~~~~~~~~~~~~~~~~~L~~.....~gL-------l~~g~  121 (121)
+T cd08053          85 DYSYTLGD--GSSLQKPDVYALIKDYVKPadpdlEGI-------EAKVR  124 (124)
+T ss_pred             CeEEeccCCCCchhhhhccHHHHHHHHhh.....cCC-------ccCCC
+
+
+No 8
+>PF09355.10 ; Phage_Gp19 ; Phage protein Gp19/Gp15/Gp42
+Probab=94.54  E-value=0.29  Score=30.22  Aligned_cols=64  Identities=19%  Similarity=0.151  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CchhHHHHHHHHHHHHHHHHHHhCCCC------------CChhHHHHHHHHHHHHHHh---cCCCCCeeeeecceeeeh
+Q Q_9186633_54     13 DTAQDDLLNELITSIRDVISLRVGVIT------------FPKVLESIAVEVVISSYNR---RGSEGASSEAVDVISTSY   76 (113)
+Q Consensus        13 ~~~~D~~l~~~i~~a~~~I~~~~~~~~------------~p~~~~~a~~~~~~~~~~~---~~~~g~~s~~~~~~s~~~   76 (113)
+                      .+.+...++.+|+.|...|..++.+..            .|..++.+++.++...+..   ++..+..+.+.|..+.++
+T Consensus         6 t~~e~~~~~~lL~~As~~ir~~~~~~~~~~~~~~~~~~~~~~~v~~Vv~~~V~R~l~~~~~~np~~~~se~~g~~s~s~   84 (116)
+T R5JB67_9FIRM/1    6 TMGEQDRAYALLEVVSDNLREEAIKVGKDIDKMVAERASYATVVKSVVVDIVARTLMTATSGEPMIQSSESAMGYSWSG   84 (116)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHcchhhHHHHHHHHHHHHHHHhccCCCCCCceEEEEEEcCceEee
+
+
+No 9
+>PF07030.12 ; DUF1320 ; Protein of unknown function (DUF1320)
+Probab=90.10  E-value=2.5  Score=26.52  Aligned_cols=44  Identities=14%  Similarity=0.172  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHhCC------CCCChhHHHHHHHHHHHHHHhc
+Q Q_9186633_54     16 QDDLLNELITSIRDVISLRVGV------ITFPKVLESIAVEVVISSYNRR   59 (113)
+Q Consensus        16 ~D~~l~~~i~~a~~~I~~~~~~------~~~p~~~~~a~~~~~~~~~~~~   59 (113)
+                      ++..++..|+.|...|..|+..      .+.|+.++.+++.++.+.+..+
+T Consensus        30 d~~~i~~ai~~A~~~id~yL~~rY~~p~~~~p~~l~~~~~diA~y~L~~~   79 (124)
+T GPJ_BPMU/3-126   30 DDAVAEQALADASAFIDGYLAARFVLPLTVVPSLLKRQCCVVAWFYLNES   79 (124)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHhCCCCCCCCCHHHHHHHHHHHHHHHhhC
+
+
+No 10
+>COG4387 gp436; Mu-like prophage protein gp36  [Mobilome: prophages, transposons]. 
+Probab=88.78  E-value=6.2  Score=25.39  Aligned_cols=58  Identities=12%  Similarity=0.132  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             HHHHHHhCCC--CchhHHHHHHHHHHHHHHHHHHhCC------CCCChhHHHHHHHHHHHHHHhcC
+Q Q_9186633_54      3 QRIKIRLGIT--DTAQDDLLNELITSIRDVISLRVGV------ITFPKVLESIAVEVVISSYNRRG   60 (113)
+Q Consensus         3 ~~vk~~l~~~--~~~~D~~l~~~i~~a~~~I~~~~~~------~~~p~~~~~a~~~~~~~~~~~~~   60 (113)
+                      .++.+.....  ...++..++..|..|...|..|+..      .+.|+.++..++.++.+.+..+.
+T Consensus        16 ~~l~~l~~~~~~~~~d~~~i~~ai~~A~~~Id~yL~~rY~~p~~~~p~~l~~~~~diA~y~L~~~~   81 (139)
+T COG4387          16 KVLEQLTDLPRAGSLDEAKAQEALEDASAEIDSYLGGRYTLPLETVPAVLVRHCCDIARYRLCKNR   81 (139)
+T ss_pred             HHHHHHhCCCCCCCCCHHHHHHHHHHHHHHHHHHHcccCCCCcccCCHHHHHHHHHHHHHHHhhcC
+
+
+No 11
+>PF13262.6 ; DUF4054 ; Protein of unknown function (DUF4054)
+Probab=86.88  E-value=4.6  Score=25.20  Aligned_cols=57  Identities=16%  Similarity=0.063  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHHhCCCCCChhHHHHHHHHHHHHH-----------------HhcCC--CCCeeeeecceeeeh
+Q Q_9186633_54     16 QDDLLNELITSIRDVISLRVGVITFPKVLESIAVEVVISSY-----------------NRRGS--EGASSEAVDVISTSY   76 (113)
+Q Consensus        16 ~D~~l~~~i~~a~~~I~~~~~~~~~p~~~~~a~~~~~~~~~-----------------~~~~~--~g~~s~~~~~~s~~~   76 (113)
+                      .|+.|+.+|+.|...|..    ...++....++..++.|+.                 .....  ..+++.++|+++++|
+T Consensus        14 ~d~~i~~~l~~A~~~v~~----~~~~~~~~~a~~l~~AH~ltl~~~~~~~~~~~~~~~~~~~~~~g~vtS~~~G~vSvsy   89 (118)
+T F4F0V0_SELS3/3   14 PGVVLAAWLNMAHASIHK----NRYHDAWEICMGLYIAHWLTLYMESAVSADDPLQKKIAAGLAKGLQNSKSAGDISVSY   89 (118)
+T ss_pred             CHHHHHHHHHHHHHHcCc----ccchhHHHHHHHHHHHHHHHHHHhhhccCCchhhhcccccccccceeeeeECceEEEe
+
+
+No 12
+>PF09691.10 ; T2SS_PulS_OutS ; Type II secretion system pilotin lipoprotein (PulS_OutS)
+Probab=62.86  E-value=33  Score=21.72  Aligned_cols=31  Identities=10%  Similarity=0.231  Sum_probs=0.0  Template_Neff=5.100
+
+Q ss_pred             HHHHHHHHHHHhCCCCCChh--HHHHHHHHHHH
+Q Q_9186633_54     24 ITSIRDVISLRVGVITFPKV--LESIAVEVVIS   54 (113)
+Q Consensus        24 i~~a~~~I~~~~~~~~~p~~--~~~a~~~~~~~   54 (113)
+                      +-++..|+...||+.++|.+  +..+++.++..
+T Consensus        37 LtA~~~YLK~~Cgr~dlP~~~~I~~aAi~~A~~   69 (114)
+T Q6D2I1_PECAS/1   37 LVAATRYLKSKCNRSDLPDDATIANVALTVAKQ   69 (114)
+T ss_pred             HHHHHHHHHHHcCcccCCCHHHHHHHHHHHHHH
+
+
+No 13
+>COG1698 COG1698; Uncharacterized protein, UPF0147 family [Function unknown]. 
+Probab=40.82  E-value=1.1e+02  Score=18.66  Aligned_cols=44  Identities=18%  Similarity=0.175  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             HHHHHHHHHHHHHHhCCCCCChhHHHHHHHHHHHHHHhcCCCCC
+Q Q_9186633_54     21 NELITSIRDVISLRVGVITFPKVLESIAVEVVISSYNRRGSEGA   64 (113)
+Q Consensus        21 ~~~i~~a~~~I~~~~~~~~~p~~~~~a~~~~~~~~~~~~~~~g~   64 (113)
+                      +..++.+.+.+....+...+|..+|.++-+....+.+.....++
+T Consensus        12 ~~~i~~~~~~L~~i~~D~sVPRNIRr~a~~a~~~L~~~~~~~~V   55 (93)
+T COG1698          12 EEKINQVMQLLDEIIQDTTVPRNIRRAAEEAKEALNNEGESPAV   55 (93)
+T ss_pred             HHHHHHHHHHHHHHHhCCCcCHHHHHHHHHHHHHHhcCCCCHHH
+
+
+No 14
+>PF05924.11 ; SAMP ; SAMP Motif
+Probab=28.05  E-value=91  Score=13.67  Aligned_cols=16  Identities=31%  Similarity=0.403  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             CCchhHHHHHHHHHHH
+Q Q_9186633_54     12 TDTAQDDLLNELITSI   27 (113)
+Q Consensus        12 ~~~~~D~~l~~~i~~a   27 (113)
+                      ..++++++|+.+|..|
+T Consensus         1 s~~~d~elL~~Ci~sA   16 (22)
+T G3WIX5_SARHA/1    1 SLNSDEDLLQRCIGSA   16 (22)
+T ss_pred             CCccHHHHHHHHHHHh
+
+
+No 15
+>d1vola1 a.74.1.2 (A:113-207) Transcription factor IIB (TFIIB), core domain {Human (Homo sapiens) [TaxId: 9606]}
+Probab=26.79  E-value=1.7e+02  Score=16.49  Aligned_cols=40  Identities=13%  Similarity=0.218  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHhCCCCCChhHHHHHHHHHHHHHHhcCCCC
+Q Q_9186633_54     24 ITSIRDVISLRVGVITFPKVLESIAVEVVISSYNRRGSEG   63 (113)
+Q Consensus        24 i~~a~~~I~~~~~~~~~p~~~~~a~~~~~~~~~~~~~~~g   63 (113)
+                      +..+...|...++.-.+|..+...+..+....+......|
+T Consensus         2 ~~~~~~~i~~~~~~l~l~~~v~~~a~~l~~~~~~~~~~~~   41 (95)
+T d1vola1           2 MMNAFKEITTMADRINLPRNKVDRTNNLFRQAYEQKSLKG   41 (95)
+T ss_dssp             CHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHHTCCCTT
+T ss_pred             hHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHcCCCCC
+
+
+No 16
+>cd20605 CYCLIN_RBL1; cyclin box found in retinoblastoma-like protein 1 (RBL1) and similar proteins. RBL1, also called 107 kDa retinoblastoma-associated protein (p107), retinoblastoma-related protein 1 (RBR-1), or pRb1, is a key regulator of entry into cell division.
+Probab=25.07  E-value=2.5e+02  Score=17.66  Aligned_cols=41  Identities=2%  Similarity=-0.162  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHHHHHhCCCCCChhHHHHHHHHHHHHHHhc
+Q Q_9186633_54     19 LLNELITSIRDVISLRVGVITFPKVLESIAVEVVISSYNRR   59 (113)
+Q Consensus        19 ~l~~~i~~a~~~I~~~~~~~~~p~~~~~a~~~~~~~~~~~~   59 (113)
+                      .+..++..|...|...|..-.+|+.++..+..+........
+T Consensus        11 f~~k~l~~a~~~i~~l~~~L~Lp~~v~e~a~~l~~~~~~~~   51 (133)
+T cd20605          11 FYRKVYHLASVRLRDLCLKLDVSNELRRKIWTCFEFTLVHC   51 (133)
+T ss_pred             HHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHC
+
+
+No 17
+>d2qsba1 a.29.14.1 (A:2-86) Uncharacterized protein Ta0600 {Thermoplasma acidophilum [TaxId: 2303]}
+Probab=24.26  E-value=2.3e+02  Score=17.04  Aligned_cols=41  Identities=17%  Similarity=0.170  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             HHHHHHHHHHHHHHhCCCCCChhHHHHHHHHHHHHHHhcCC
+Q Q_9186633_54     21 NELITSIRDVISLRVGVITFPKVLESIAVEVVISSYNRRGS   61 (113)
+Q Consensus        21 ~~~i~~a~~~I~~~~~~~~~p~~~~~a~~~~~~~~~~~~~~   61 (113)
+                      +..++.+.+.+....+...+|..++.++.+....+-+....
+T Consensus         5 ~e~i~~i~~~L~~i~~D~sVPRNIR~~a~~a~~~L~~~~~~   45 (85)
+T d2qsba1           5 QNLFNEVMYLLDELSQDITVPKNVRKVAQDSKAKLSQENES   45 (85)
+T ss_dssp             HHHHHHHHHHHHHHHTCTTSCHHHHHHHHHHHHHHTCTTSC
+T ss_pred             HHHHHHHHHHHHHHHhCCCCCHHHHHHHHHHHHHHhcCCCC
+
+
+No 18
+>cd20601 CYCLIN_AtRBR_like; cyclin box found in Arabidopsis thaliana retinoblastoma-related protein 1 (AtRBR1) and similar proteins.
+Probab=24.20  E-value=2.6e+02  Score=17.58  Aligned_cols=43  Identities=7%  Similarity=0.010  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHhCCCCCChhHHHHHHHHHHHHHHhc
+Q Q_9186633_54     17 DDLLNELITSIRDVISLRVGVITFPKVLESIAVEVVISSYNRR   59 (113)
+Q Consensus        17 D~~l~~~i~~a~~~I~~~~~~~~~p~~~~~a~~~~~~~~~~~~   59 (113)
+                      ...+..++..|...+.+.|.+-.+|+.++..+..+..+.....
+T Consensus         2 ~~f~~k~l~~a~~~i~~l~~~L~Lp~~v~e~a~~l~~~~~~~~   44 (132)
+T cd20601           2 NIFFTKINKLAAVRINGMVERLQLSQQIRESVYCFFQHVLAQR   44 (132)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHHcC
+
+
+No 19
+>d2pv4a1 a.286.1.1 (A:1-144) Uncharacterized protein Sama2622 {Shewanella amazonensis [TaxId: 60478]}
+Probab=23.97  E-value=3.1e+02  Score=18.32  Aligned_cols=61  Identities=11%  Similarity=0.112  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             HHHHHHHHHHHHHHhCC----CCCChhHHHHHHHHHHHHHHhcCCCCCeeeeecceeeehhhccchHHHHHHHHH
+Q Q_9186633_54     21 NELITSIRDVISLRVGV----ITFPKVLESIAVEVVISSYNRRGSEGASSEAVDVISTSYITNLLEPYTEQLENF   91 (113)
+Q Consensus        21 ~~~i~~a~~~I~~~~~~----~~~p~~~~~a~~~~~~~~~~~~~~~g~~s~~~~~~s~~~~~~~~~~v~~~L~~y   91 (113)
+                      ..|-+.|.+.-.+.|+.    +.+|+.+..+...+...+...+.         +.+...| +.+|.....+|..+
+T Consensus         6 ~~y~~~a~~~~~nv~~qVi~~d~vPe~l~~~~~sl~~~ll~dse---------~~~r~aW-d~LPaSAqnvld~f   70 (144)
+T d2pv4a1           6 ANYRALAQQVADKVAGRVIALDRLPESLLTAYRSLCDELLADRD---------GRFTRAW-DQLPDSASSLFERC   70 (144)
+T ss_dssp             HHHHHHHHHHHHHHHHTTSCGGGSCHHHHHHHHHHHHHHHHTTT---------CHHHHHH-HHSCHHHHTSSCHH
+T ss_pred             HHHHHHHHHHHHHHhhhhccHhhCCHHHHHHHHHHHHHHHhccc---------hHHHHHH-HhCCHHHHHHHhhh
+
+
+No 20
+>PF06786.12 ; UPF0253 ; Uncharacterised protein family (UPF0253)
+Probab=23.69  E-value=2.1e+02  Score=16.27  Aligned_cols=54  Identities=11%  Similarity=0.130  Sum_probs=0.0  Template_Neff=2.500
+
+Q ss_pred             HHHHHHhCCCCchhHHHHHHHHHHHHHHHHHHhCCCCCChhHHHHHHHHHHHHH
+Q Q_9186633_54      3 QRIKIRLGITDTAQDDLLNELITSIRDVISLRVGVITFPKVLESIAVEVVISSY   56 (113)
+Q Consensus         3 ~~vk~~l~~~~~~~D~~l~~~i~~a~~~I~~~~~~~~~p~~~~~a~~~~~~~~~   56 (113)
+                      +.+++....-...+-..+...|..+...+........+|.++|.-+.--+..++
+T Consensus         6 eliR~~YaqIgSgd~gYip~Ai~c~lk~Ln~iA~d~~lp~~vRe~AAfAAANLL   59 (64)
+T X2H3K7_9GAMM/1    6 ELIREKYAQIGSNELGYIEDALGAVMLVLNEVVDCEQVPQELKDKAAYAAANLL   59 (64)
+T ss_pred             HHHHHHHHHHcCCccccHHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHHHHHh
+
+
+No 21
+>PF05926.11 ; Phage_GPL ; Phage head completion protein (GPL)
+Probab=23.16  E-value=3e+02  Score=17.90  Aligned_cols=34  Identities=12%  Similarity=0.143  Sum_probs=0.0  Template_Neff=6.800
+
+Q ss_pred             hHHHHHHhCCCCchhHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_54      2 LQRIKIRLGITDTAQDDLLNELITSIRDVISLRV   35 (113)
+Q Consensus         2 l~~vk~~l~~~~~~~D~~l~~~i~~a~~~I~~~~   35 (113)
+                      +.++++.++++.+-.++.|...+..|...|...+
+T Consensus        12 ~~~fr~~~Ri~~~v~~~rl~~al~~Am~~vN~eL   45 (139)
+T C5BEN1_EDWI9/1   12 TQHLRAAQRLDGTITNERLREALLIALASVNDDL   45 (139)
+T ss_pred             HHHHHHHcCCCCCCCHHHHHHHHHHHHHHHHHHH
+
+
+No 22
+>d1st6a5 a.24.9.1 (A:489-646) Vinculin {Chicken (Gallus gallus) [TaxId: 9031]}
+Probab=20.90  E-value=3.4e+02  Score=17.69  Aligned_cols=52  Identities=4%  Similarity=-0.086  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             hHHHHHHhCCCCchhHHHHHHHHHHHHHHHHHHhCCCCCChhHHHHHHHHHHHH
+Q Q_9186633_54      2 LQRIKIRLGITDTAQDDLLNELITSIRDVISLRVGVITFPKVLESIAVEVVISS   55 (113)
+Q Consensus         2 l~~vk~~l~~~~~~~D~~l~~~i~~a~~~I~~~~~~~~~p~~~~~a~~~~~~~~   55 (113)
+                      +..++.+|..+.......++..++.........+.. -.|.. +..++.++...
+T Consensus         9 ~~qa~~wL~~p~~~~~~~~~~al~~iv~~a~~~ads-~~~~~-r~~I~~~c~~l   60 (158)
+T d1st6a5           9 IEQAQRWIDNPTVDDRGVGQAAIRGLVAEGRRLANV-MMGPY-RQDLLAKCDRV   60 (158)
+T ss_dssp             HHHHHHHHHSCCCCCCSCSHHHHHHHHHHHHHHHHT-SCHHH-HHHHHHHHHHH
+T ss_pred             HHHHHHHHHCCCCCCCchHHHHHHHHHHHHHHHHHH-cChHH-HHHHHHHHHHH
+
+
+No 23
+>d1aisb1 a.74.1.2 (B:1108-1205) Transcription factor IIB (TFIIB), core domain {Pyrococcus woesei [TaxId: 2262]}
+Probab=20.04  E-value=2.6e+02  Score=15.97  Aligned_cols=40  Identities=10%  Similarity=0.120  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             HHHHHHHHHHHhCCCCCChhHHHHHHHHHHHHHHhcCCCC
+Q Q_9186633_54     24 ITSIRDVISLRVGVITFPKVLESIAVEVVISSYNRRGSEG   63 (113)
+Q Consensus        24 i~~a~~~I~~~~~~~~~p~~~~~a~~~~~~~~~~~~~~~g   63 (113)
+                      ++.+...|.+++..-.+|..+...+..+...++......+
+T Consensus         2 ~~~~~~~i~~~~~~l~l~~~v~~~a~~l~~~~~~~~~~~~   41 (98)
+T d1aisb1           2 LAFALSELDRITAQLKLPRHVEEEAARLYREAVRKGLIRG   41 (98)
+T ss_dssp             HHHHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHTTTTTTT
+T ss_pred             HHHHHHHHHHHHHhCCCCHHHHHHHHHHHHHHHHcCCCCC
+
+
+No 24
+>PF10147.9 ; CR6_interact ; Growth arrest and DNA-damage-inducible proteins-interacting protein 1
+Probab=20.03  E-value=1.7e+02  Score=20.64  Aligned_cols=26  Identities=12%  Similarity=0.474  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             ChHHHHHHhCCCCchhHHHHHHHHHH
+Q Q_9186633_54      1 MLQRIKIRLGITDTAQDDLLNELITS   26 (113)
+Q Consensus         1 ~l~~vk~~l~~~~~~~D~~l~~~i~~   26 (113)
+                      ++++++.|++..-+..|..+..++..
+T Consensus       148 lieEvre~fGY~iDprDprFkemle~  173 (203)
+T Q9VP13_DROME/2  148 LVEEVRRHFGFKVDTRDERFKEMLEQ  173 (203)
+T ss_pred             HHHHHHHHhCCCCCCCCHHHHHHHHH
+
+

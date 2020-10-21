@@ -1,0 +1,274 @@
+Query         Q_9186633_58
+Match_columns 175
+No_of_seqs    132 out of 1056
+Neff          7.02982
+Searched_HMMs 69205
+Date          Sun May 24 00:26:13 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_58.hhr -oa3m ../results/9186633_58.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 COG5437 COG5437; Predicted sec  99.7 2.4E-15 3.5E-20  112.0  16.5  135   10-167     1-137 (138)
+  2 PF06199.11 ; Phage_tail_2 ; Ph  99.7 1.1E-14 1.6E-19  107.3  14.9  129   12-164     1-131 (131)
+  3 PF16463.5 ; Phage_TTP_13 ; Pha  99.6 3.6E-13 5.3E-18  101.3  15.1  129   14-167     2-137 (137)
+  4 PF16461.5 ; Phage_TTP_12 ; Lam  99.5 1.5E-12 2.2E-17   97.3  14.8  128   16-165     4-135 (135)
+  5 PF08813.11 ; Phage_tail_3 ; Ph  99.4 1.8E-11 2.7E-16   95.2  14.8  116   28-167    43-161 (161)
+  6 PF16460.5 ; Phage_TTP_11 ; Pha  99.3 3.6E-10 5.2E-15   84.9  13.4  108   36-166     1-127 (127)
+  7 PF09393.10 ; DUF2001 ; Phage t  81.3      28  0.0004   26.3  12.3  119   12-160     8-134 (139)
+  8 PF06995.11 ; Phage_P2_GpU ; Ph  53.6 1.1E+02  0.0015   22.0  10.1   96   37-159    13-116 (120)
+  9 COG4718 COG4718; Phage-related  49.5 1.4E+02   0.002   22.2   8.2   78   77-157    28-107 (111)
+ 10 d2guja1 b.106.1.3 (A:5-143) Ph  49.2 1.5E+02  0.0022   22.4  11.7  119   12-160     4-132 (139)
+ 11 COG3499 COG3499; Phage protein  42.2   2E+02  0.0028   21.7   8.6   98   37-159    18-121 (147)
+
+No 1
+>COG5437 COG5437; Predicted secreted protein  [Function unknown]. 
+Probab=99.70  E-value=2.4e-15  Score=111.95  Aligned_cols=135  Identities=25%  Similarity=0.360  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             hheeceeeEEEEEEeCCCCcEEEEeeeEeecccCCCcccccccccc-cccchHHHHhhcCCcCCCCcccCCceeEeceec
+Q Q_9186633_58     10 ISSYLGVKKIVRIFDLSTGKVLAIGGQKEHTMNRTADTIDVSTKIG-GIQNMEEIMNKMGVTDWKPKEYNDYKEYIQGQK   88 (175)
+Q Consensus        10 ~~~~~G~~~~l~i~~~~~~~~~~i~~~~~~~~~~~~~~~d~t~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~   88 (175)
+                      |....|++++|++.......|..++++++++++.+.+.+|.+.+++ .                      +++++++|.+
+T Consensus         1 m~~~~g~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~d~t~~~~~~----------------------~~~~~~~g~~   58 (138)
+T COG5437           1 MKAQAGKDILLKIFNAAGDTLLTVAGLRGLTINRNADSIDITDKDTAG----------------------RWRELLAGMG   58 (138)
+T ss_pred             CCccccceEEEEeecCCCcceEEEcceeccccccccceeeccCCCCCC----------------------cceeeccccc
+
+
+Q ss_pred             eEEEEEEE-EeCCCcHHHHHHHHHHHcCCcEEEEEEeCCCCeeEEEEEEEEecCCCCCCCCeeEEEEEEEEecCcEEeec
+Q Q_9186633_58     89 EWSVDVSG-ALPASDAAYDILEAAYENGTPVGVSELDLGRMKEKVGIAIPTELSEEAPIDDLAGYSLSLTGTGPQVSRTY  167 (175)
+Q Consensus        89 ~~t~s~~g-~~~~~d~~~~~L~~~~~~~~~~~~~~~~~~~~~~~~g~~~vt~~~~~~~~~~~~~~s~t~~~~G~~~~~~~  167 (175)
+                      ++++++++ .+.+++++++.|++++..+..+.+++..+++ ..+.|.++|++++.+++.++..+++++|+++|.++++++
+T Consensus        59 ~~~~s~~~~~~~~~~~~~~~l~~~~~~~~~~~~~i~~~~~-~~~~g~~~i~~~~~~~~~~~~~~~s~tl~~~G~~~~~~~  137 (138)
+T COG5437          59 VWSIANDGSGYFADAASDALLRKAFFDDSIVCWKVVNPDF-GLFGGPFIVAALEYEGPHDGEVTFSISLESAGLVDFTIL  137 (138)
+T ss_pred             eeeEEeeeeeEeCChHHHHHHHHHHhCCCEEEEEEEeCCC-CEEEEEEEEEEcccccccCCeEEEEEEEEEecCeEEEEc
+
+
+No 2
+>PF06199.11 ; Phage_tail_2 ; Phage tail tube protein
+Probab=99.65  E-value=1.1e-14  Score=107.31  Aligned_cols=129  Identities=19%  Similarity=0.251  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             eeceeeEEEEEEeCCCCcEEEEeeeEeecccCCCcccccccccccccchHHHHhhcCCcCCCCcccCCceeEe--ceece
+Q Q_9186633_58     12 SYLGVKKIVRIFDLSTGKVLAIGGQKEHTMNRTADTIDVSTKIGGIQNMEEIMNKMGVTDWKPKEYNDYKEYI--QGQKE   89 (175)
+Q Consensus        12 ~~~G~~~~l~i~~~~~~~~~~i~~~~~~~~~~~~~~~d~t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--~g~~~   89 (175)
+                      ...|++.+|+|...+++ |..|+++++++++.+.+..|.+.+++.                     +.|+++.  .|.+.
+T Consensus         1 ~~~G~~~~l~i~~~~~~-~~~i~~~~~~~~~~~~~~~d~t~~~~~---------------------~~~~~~~~~~g~~~   58 (131)
+T C5AYR0_METEA/3    1 AQRGRDLLVRVSNGSAG-FVAVAGLRARQLAFNAETVDVTNADSA---------------------GRWRELLAGAGVRR   58 (131)
+T ss_pred             CCCcccEEEEeecCCCC-ceEEeeEEeceEEeccceEecccCCCC---------------------CceeEeeecccccE
+
+
+Q ss_pred             EEEEEEEEeCCCcHHHHHHHHHHHcCCcEEEEEEeCCCCeeEEEEEEEEecCCCCCCCCeeEEEEEEEEecCcEE
+Q Q_9186633_58     90 WSVDVSGALPASDAAYDILEAAYENGTPVGVSELDLGRMKEKVGIAIPTELSEEAPIDDLAGYSLSLTGTGPQVS  164 (175)
+Q Consensus        90 ~t~s~~g~~~~~d~~~~~L~~~~~~~~~~~~~~~~~~~~~~~~g~~~vt~~~~~~~~~~~~~~s~t~~~~G~~~~  164 (175)
+                      +++++++.++ .+++++.|++++.++..+.+++.++++ ..+.|.++|+++..+++.++..+++++|++.|.+++
+T Consensus        59 ~~~s~~~~~~-~~~~~~~l~~a~~~~~~~~~~i~~~~~-~~~~g~~~vt~~~~~~~~~~~~t~s~tl~~~g~~~~  131 (131)
+T C5AYR0_METEA/3   59 AAVAGSGVFR-DEASDARLRQMFFDGVIGVFQIVVPDF-GTIEGLFQITSLEYRGEHAGEVTFDMALDSAGPLSF  131 (131)
+T ss_pred             EEEEEeeEeC-CchHHHHHHHHHhcCCEEEEEEEeCCC-CEEEEEEEEEEeEEecCcCCEEEEEEEEEEeCCCCC
+
+
+No 3
+>PF16463.5 ; Phage_TTP_13 ; Phage tail tube protein family
+Probab=99.56  E-value=3.6e-13  Score=101.26  Aligned_cols=129  Identities=12%  Similarity=0.042  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             ceeeEEEEEEeCC--CCcEEEEeeeEeec-ccCCCcccccccccccccchHHHHhhcCCcCCCCcccCCceeEeceece-
+Q Q_9186633_58     14 LGVKKIVRIFDLS--TGKVLAIGGQKEHT-MNRTADTIDVSTKIGGIQNMEEIMNKMGVTDWKPKEYNDYKEYIQGQKE-   89 (175)
+Q Consensus        14 ~G~~~~l~i~~~~--~~~~~~i~~~~~~~-~~~~~~~~d~t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~-   89 (175)
+                      .|.+.+|++...+  ..+|+.|++++++. ++.+.+.+|.+++++                       .++++++|.++ 
+T Consensus         2 ~g~gt~l~~~~~~~~~~~~~~i~~v~~~~~~~~~~~~id~t~l~~-----------------------~~~~~~~G~~~~   58 (137)
+T D3UXN1_XENBS/9    2 LPAGTLVKFGKPGDSVEQMKPLINCKALGATGLTGSFVDCTTLMD-----------------------TNKQFISDMPEG   58 (137)
+T ss_pred             CCCCeEEEEcCCCCCccccEEeeceeeecCCCCCcceEecccccc-----------------------CceEEecCCCCC
+
+
+Q ss_pred             EEEEEEEEeCCCcHHHHHHHHHHHcCCcEEEEEEeCCCCeeEEEEEEEEecCC---CCCCCCeeEEEEEEEEecCcEEee
+Q Q_9186633_58     90 WSVDVSGALPASDAAYDILEAAYENGTPVGVSELDLGRMKEKVGIAIPTELSE---EAPIDDLAGYSLSLTGTGPQVSRT  166 (175)
+Q Consensus        90 ~t~s~~g~~~~~d~~~~~L~~~~~~~~~~~~~~~~~~~~~~~~g~~~vt~~~~---~~~~~~~~~~s~t~~~~G~~~~~~  166 (175)
+                      .++++++.++++++.+.+|++++..+..+.|++..+++ ..+.+.|+++++..   +.+.++..+++++|+.+| +++..
+T Consensus        59 g~~s~~~~~~~~~~~~~~l~~a~~~~~~~~f~i~~p~g-~~~~~~~~v~~~~~~~~~~~~~~~~~~t~t~~~~g-~~~~~  136 (137)
+T D3UXN1_XENBS/9   59 PEKSLGFIDDPENSDFVSFLNAAEKRDTVQFYIALPNK-RTATMVLALSGWEMNDINAPASEVIQITVKGKQNN-LVWGI  136 (137)
+T ss_pred             CceEEEEEeCCCCccHHHHHHHHhcCCEEEEEEEcCCC-CEEEEEEEEecccccCCCCCcCCcEEEEEEEEEec-eeeee
+
+
+Q ss_pred             c
+Q Q_9186633_58    167 Y  167 (175)
+Q Consensus       167 ~  167 (175)
+                      +
+T Consensus       137 ~  137 (137)
+T D3UXN1_XENBS/9  137 A  137 (137)
+T ss_pred             C
+
+
+No 4
+>PF16461.5 ; Phage_TTP_12 ; Lambda phage tail tube protein, TTP
+Probab=99.51  E-value=1.5e-12  Score=97.31  Aligned_cols=128  Identities=14%  Similarity=0.029  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             eeEEEEEEeCCCC-cEEEEeeeEeec-ccCCCcccccccccccccchHHHHhhcCCcCCCCcccC-CceeEeceece-EE
+Q Q_9186633_58     16 VKKIVRIFDLSTG-KVLAIGGQKEHT-MNRTADTIDVSTKIGGIQNMEEIMNKMGVTDWKPKEYN-DYKEYIQGQKE-WS   91 (175)
+Q Consensus        16 ~~~~l~i~~~~~~-~~~~i~~~~~~~-~~~~~~~~d~t~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~g~~~-~t   91 (175)
+                      +..-+.+.....+ +|..|+++++++ ++.+.+..|.+.+++.                     + +|+++++|.++ ++
+T Consensus         4 ~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~d~t~~~~~---------------------~~~~~~~~~g~~~~~~   62 (135)
+T A0A0B8XVC4_9SP    4 KGSGDPYANPLSDVDWSRLAKVKDLTPGELTAESYDDSYLDDE---------------------DADWTATGQGQKSAGD   62 (135)
+T ss_pred             ccccCcccCCCCccceEEeecEEEcCCCccccceEecCccCCC---------------------CcccceecccccCCeE
+
+
+Q ss_pred             EEEEEEeCCCcHHHHHHHHHHHcCCcEEEEEEeCCCCeeEEEEEEEEecCCCCCCCCeeEEEEEEEEecCcEEe
+Q Q_9186633_58     92 VDVSGALPASDAAYDILEAAYENGTPVGVSELDLGRMKEKVGIAIPTELSEEAPIDDLAGYSLSLTGTGPQVSR  165 (175)
+Q Consensus        92 ~s~~g~~~~~d~~~~~L~~~~~~~~~~~~~~~~~~~~~~~~g~~~vt~~~~~~~~~~~~~~s~t~~~~G~~~~~  165 (175)
+                      +++++.+.++++++..|++++.++..+.+++.++++ ..+.+.++|+++....+.++.++++++|+.+|.++++
+T Consensus        63 ~s~~~~~~~~d~~~~~l~~~~~~~~~~~~~~~~~~g-~~~~~~~~v~~~~~~~~~~~~~~~s~t~~~~G~~~~~  135 (135)
+T A0A0B8XVC4_9SP   63 TSFTLAWMPGEQGQQALLAWFNEGDTRAYKIRFPNG-TVDVFRGWVSSIGKAVTAKEVITRTVKVTNVGRPSMA  135 (135)
+T ss_pred             EEEEEEeCCCcHHHHHHHHHHhcCCcEEEEEEeCCC-cEEEEEEEEEEcCCcccCCCcEEEEEEEEEeccceeC
+
+
+No 5
+>PF08813.11 ; Phage_tail_3 ; Phage tail tube protein, TTP
+Probab=99.41  E-value=1.8e-11  Score=95.23  Aligned_cols=116  Identities=12%  Similarity=-0.057  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CcEEEEeeeEeec-ccCCCcccccccccccccchHHHHhhcCCcCCCCcccCCceeEeceeceE-EEEEEEEeCCCcHHH
+Q Q_9186633_58     28 GKVLAIGGQKEHT-MNRTADTIDVSTKIGGIQNMEEIMNKMGVTDWKPKEYNDYKEYIQGQKEW-SVDVSGALPASDAAY  105 (175)
+Q Consensus        28 ~~~~~i~~~~~~~-~~~~~~~~d~t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~-t~s~~g~~~~~d~~~  105 (175)
+                      .+|+.|+++++++ ++.+.+.+|.+.+++                       +|+++++|.+++ ++++++++++++++|
+T Consensus        43 ~~~~~I~~v~s~~~~~~~~~~vd~T~l~s-----------------------~~~~~~~G~~~~g~~s~~~~~~~~d~~~   99 (161)
+T Q6LHS9_PHOPR/5   43 SDWQQITQVLSSETSGGDQQFTTYSFLEN-----------------------DFETQIPTRKSPVVLTLSIADDDSLPGY   99 (161)
+T ss_pred             CCcEEeeeeEecCCCCCceeeEEEecccc-----------------------ceEEecCCCcCCceEEEEEEeCCCCHHH
+
+
+Q ss_pred             HHHHHHHHcCCcEEEEEEeCCCCeeEEEEEEEEec-CCCCCCCCeeEEEEEEEEecCcEEeec
+Q Q_9186633_58    106 DILEAAYENGTPVGVSELDLGRMKEKVGIAIPTEL-SEEAPIDDLAGYSLSLTGTGPQVSRTY  167 (175)
+Q Consensus       106 ~~L~~~~~~~~~~~~~~~~~~~~~~~~g~~~vt~~-~~~~~~~~~~~~s~t~~~~G~~~~~~~  167 (175)
+                      +.|++++..+..+.+++..+++ ..+.+.++|+.+ ....+.++.++++++|+.+|.+++.++
+T Consensus       100 ~~L~~a~~~~~~~~~~i~~p~g-~~~~~~g~v~~~~~~~~~~~~~~t~s~tl~~~G~~~~~~~  161 (161)
+T Q6LHS9_PHOPR/5  100 IALKKASDAKETGVVRATLPNG-ATLYYHAYVSVNETPSMTKDQVMAIAVTISLIVRPTRYAK  161 (161)
+T ss_pred             HHHHHHHhcCCeEEEEEEcCCC-CEEEEEEEEEecCCCCCCCCceeEEEEEEEEecCcEEecC
+
+
+No 6
+>PF16460.5 ; Phage_TTP_11 ; Phage tail tube, TTP, lambda-like
+Probab=99.26  E-value=3.6e-10  Score=84.95  Aligned_cols=108  Identities=11%  Similarity=0.009  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eEeec-ccCCCcccccccccccccchHHHHhhcCCcCCCCcccCCceeEeceeceE-EEEEEEEeCCCcHHHHHHHHHHH
+Q Q_9186633_58     36 QKEHT-MNRTADTIDVSTKIGGIQNMEEIMNKMGVTDWKPKEYNDYKEYIQGQKEW-SVDVSGALPASDAAYDILEAAYE  113 (175)
+Q Consensus        36 ~~~~~-~~~~~~~~d~t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~-t~s~~g~~~~~d~~~~~L~~~~~  113 (175)
+                      ++++. ++.+.+.+|++.+++                       .|++++.|.+++ ++++++.+++++++|.+|++++.
+T Consensus         1 v~~i~~~~~~~~~~d~t~~~~-----------------------~~~~~~~G~~~~g~~s~~~~~~~~d~~~~~L~~a~~   57 (127)
+T Q8ED15_SHEON/2    1 VTSIDGIDSPVEPIETTPLEA-----------------------MAREFVAGLKSPGAATFGINIDPRIASHLRLHQIKT   57 (127)
+T ss_pred             CeeeCCCCCCCcccccCchhh-----------------------cceEEecCCCCCCeEEEEEEeCCCChHHHHHHHHHH
+
+
+Q ss_pred             cCCcEEEEEEeCCCCe-----------------eEEEEEEEEecCCCCCCCCeeEEEEEEEEecCcEEee
+Q Q_9186633_58    114 NGTPVGVSELDLGRMK-----------------EKVGIAIPTELSEEAPIDDLAGYSLSLTGTGPQVSRT  166 (175)
+Q Consensus       114 ~~~~~~~~~~~~~~~~-----------------~~~g~~~vt~~~~~~~~~~~~~~s~t~~~~G~~~~~~  166 (175)
+                      ++..+.+++..+++..                 .+.+.|+|+++..+.+.++.++++++|+.+|.+++.+
+T Consensus        58 ~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~a~vt~~~~~~~~~~~~~~s~t~~~~g~~~~~~  127 (127)
+T Q8ED15_SHEON/2   58 AGTTIKWAIGFSDAVGTAPTVTTKNFTLPTTRTWITFEGFMTAYPFTFGQNDVVKSTIGIQVSGDPVLVP  127 (127)
+T ss_pred             hCCeEEEEEEeCCCCCCCCceeccceecCCCCeEEEEEEEEeeCCceecCCCeEEEEEEEEEecCcEECC
+
+
+No 7
+>PF09393.10 ; DUF2001 ; Phage tail tube protein
+Probab=81.31  E-value=28  Score=26.31  Aligned_cols=119  Identities=8%  Similarity=-0.102  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             eeceeeEEEEEEeCCCCcEEEEeeeEeecccCCCcccccccccccccchHHHHhhcCCcCCCCcccCCceeEeceeceEE
+Q Q_9186633_58     12 SYLGVKKIVRIFDLSTGKVLAIGGQKEHTMNRTADTIDVSTKIGGIQNMEEIMNKMGVTDWKPKEYNDYKEYIQGQKEWS   91 (175)
+Q Consensus        12 ~~~G~~~~l~i~~~~~~~~~~i~~~~~~~~~~~~~~~d~t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~t   91 (175)
+                      .+.|+.-.+++..      ..+.+++++....+.+..+....+.                       ....+..+..+.+
+T Consensus         8 ~~~G~~g~~~~~g------~~l~~v~~~e~~~~~~~e~~~~~G~-----------------------~~~~~k~~~~~~t   58 (139)
+T Q24LI3_BPPCD/3    8 VINGTFGECWLNE------VQIAECKALKAEIKLDKAEIVRPRK-----------------------MIKGQKVIGASAE   58 (139)
+T ss_pred             ceecCeEEEEECC------EEEEEEEEEEEEEEeceeeeecccc-----------------------eeeeEEEeeEEEE
+
+
+Q ss_pred             EEEEEEeCCCcHHHHHHHHHHHcCC--cEEEEEEeCCC-----CeeEEEEEEEEecCC-CCCCCCeeEEEEEEEEec
+Q Q_9186633_58     92 VDVSGALPASDAAYDILEAAYENGT--PVGVSELDLGR-----MKEKVGIAIPTELSE-EAPIDDLAGYSLSLTGTG  160 (175)
+Q Consensus        92 ~s~~g~~~~~d~~~~~L~~~~~~~~--~~~~~~~~~~~-----~~~~~g~~~vt~~~~-~~~~~~~~~~s~t~~~~G  160 (175)
+                      .+++.... .......|......+.  .+.+.+...+.     .....-.|.+.++.. ....++..+.++.|...+
+T Consensus        59 Gsit~~~~-~~~~~~~~~~~~~~g~~p~f~I~~~~~d~~~~~~~~~~~~~v~f~~~~~~~~~~g~~~~~e~~f~~~~  134 (139)
+T Q24LI3_BPPCD/3   59 GSITLYHV-DSNMLKYITQIIKEGREPKFTIISKLADPDAKGVERISLTGVSFDGLSIIDWENGKEGEIEASFTFED  134 (139)
+T ss_pred             EEEEEEEe-ChHHHHHHHHHHHhCCCCeEEEEEEEeCCCCCCeeEEEEEceEECCceEEeecCCCceEEEEeceeec
+
+
+No 8
+>PF06995.11 ; Phage_P2_GpU ; Phage P2 GpU
+Probab=53.57  E-value=1.1e+02  Score=21.99  Aligned_cols=96  Identities=16%  Similarity=0.112  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             EeecccCCCcccccccccccccchHHHHhhcCCcCCCCcccCCceeEeceeceEEEEEEEEeCC----CcHHHHHHHHHH
+Q Q_9186633_58     37 KEHTMNRTADTIDVSTKIGGIQNMEEIMNKMGVTDWKPKEYNDYKEYIQGQKEWSVDVSGALPA----SDAAYDILEAAY  112 (175)
+Q Consensus        37 ~~~~~~~~~~~~d~t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~t~s~~g~~~~----~d~~~~~L~~~~  112 (175)
+                      .+++.+.+.........+.                       .-.....|...-++++++.+..    .....+.|+++.
+T Consensus        13 ~~~~~~~~~~~~~~~~~g~-----------------------~~~~q~~g~~~~~isl~~~l~~~~~~~~~~~~~l~~~~   69 (120)
+T Q9P9T8_XYLFA/3   13 QELARVNEYRWAAIERYGQ-----------------------RDARQYTGPGEESIELPGIAYPDWQGQRASLDELRALA   69 (120)
+T ss_pred             ceeEEEeecccccceecCC-----------------------CCCchhcCCCCceEEEEEEEehhHhCChHHHHHHHHHH
+
+
+Q ss_pred             HcCCcEEEEEEeCCCCeeEEEEEEEEecCCC----CCCCCeeEEEEEEEEe
+Q Q_9186633_58    113 ENGTPVGVSELDLGRMKEKVGIAIPTELSEE----APIDDLAGYSLSLTGT  159 (175)
+Q Consensus       113 ~~~~~~~~~~~~~~~~~~~~g~~~vt~~~~~----~~~~~~~~~s~t~~~~  159 (175)
+                      ..+.++.+.+    +...+.+.+.|.+++..    ...+....+.++++..
+T Consensus        70 ~~~~p~~~~~----g~~~~~~~~vI~s~~~~~~~~~~~G~~~~~~~~i~L~  116 (120)
+T Q9P9T8_XYLFA/3   70 AQGNPLQLID----SNGVIHGWYVIERIEERQSNHHPNGTPRRIEFTLALQ  116 (120)
+T ss_pred             HcCCCEEEEe----cCCeEeeeEEEEEEEeeeceeCCCCCeEEEEEEEEEE
+
+
+No 9
+>COG4718 COG4718; Phage-related protein  [Mobilome: prophages, transposons]. 
+Probab=49.52  E-value=1.4e+02  Score=22.18  Aligned_cols=78  Identities=10%  Similarity=-0.056  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             cCCceeEeceece-EEEEEEEEeCCCcHHHHHHHHHHHc-CCcEEEEEEeCCCCeeEEEEEEEEecCCCCCCCCeeEEEE
+Q Q_9186633_58     77 YNDYKEYIQGQKE-WSVDVSGALPASDAAYDILEAAYEN-GTPVGVSELDLGRMKEKVGIAIPTELSEEAPIDDLAGYSL  154 (175)
+Q Consensus        77 ~~~~~~~~~g~~~-~t~s~~g~~~~~d~~~~~L~~~~~~-~~~~~~~~~~~~~~~~~~g~~~vt~~~~~~~~~~~~~~s~  154 (175)
+                      +++|....+.... ..-+.++.+.......+.|++-+.. +....+.+.++.+.......|  .+++.. ...+..++++
+T Consensus        28 GDGY~Q~~~~GiN~~~r~~~l~~~~~~~~~~~i~~FL~~~~g~~~F~wt~P~~~~~~~v~c--~~ws~~-~~~~~~~ls~  104 (111)
+T COG4718          28 GDGYEQRRAAGLNNDLKTWSVTFRVTKEEIRPLEAFLSRHGGVKAFLWTPPYGWRQIRVVC--RKWSVR-VGGLVVTFSA  104 (111)
+T ss_pred             CCCeEEEecCCcCCCceEEEEEEEccHHHHHHHHHHHHHcCCcccEEEeCCCCCcceEEEE--eeceEE-ecCEEEEEEE
+
+
+Q ss_pred             EEE
+Q Q_9186633_58    155 SLT  157 (175)
+Q Consensus       155 t~~  157 (175)
+                      +|+
+T Consensus       105 tFe  107 (111)
+T COG4718         105 TFE  107 (111)
+T ss_pred             EEE
+
+
+No 10
+>d2guja1 b.106.1.3 (A:5-143) Phage-like element PBSX protein XkdM {Bacillus subtilis [TaxId: 1423]}
+Probab=49.21  E-value=1.5e+02  Score=22.44  Aligned_cols=119  Identities=7%  Similarity=-0.118  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             eeceeeEEEEEEeCCCCcEEEEeeeEeecccCCCcccccccccccccchHHHHhhcCCcCCCCcccCCceeEeceeceEE
+Q Q_9186633_58     12 SYLGVKKIVRIFDLSTGKVLAIGGQKEHTMNRTADTIDVSTKIGGIQNMEEIMNKMGVTDWKPKEYNDYKEYIQGQKEWS   91 (175)
+Q Consensus        12 ~~~G~~~~l~i~~~~~~~~~~i~~~~~~~~~~~~~~~d~t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~t   91 (175)
+                      ...|+.-.+++..      ..+.+++++....+.+..+....+.                       ..+.+..+..+++
+T Consensus         4 ~~~G~~g~v~~~G------~~~~~v~~ie~k~~~~~e~v~~~G~-----------------------~~~~~k~~~~~~t   54 (139)
+T d2guja1           4 TISGKEGRLFLDG------EEMAHIKTFEANVEKNKSEVNIMGR-----------------------RMTGHKTTGANGT   54 (139)
+T ss_dssp             EEEEEEEEEEETT------EECCCEEEEEEEECCCSSCTTTTHH-----------------------HHTSCCCSCCCEE
+T ss_pred             eeecCEEEEEECC------EEEEEEEEEEEEEeeccceeecCce-----------------------eeeeEEeeeEEEE
+
+
+Q ss_pred             EEEEEEeCCCcHHHHHHHHHHHcCCcEEEEEEe----CC---C-CeeEEEEEEEEecCC-CCCCC-CeeEEEEEEEEec
+Q Q_9186633_58     92 VDVSGALPASDAAYDILEAAYENGTPVGVSELD----LG---R-MKEKVGIAIPTELSE-EAPID-DLAGYSLSLTGTG  160 (175)
+Q Consensus        92 ~s~~g~~~~~d~~~~~L~~~~~~~~~~~~~~~~----~~---~-~~~~~g~~~vt~~~~-~~~~~-~~~~~s~t~~~~G  160 (175)
+                      .++++..... .....+.+.+..+....+.+..    +.   + .....-.|.+++... ....+ +..+.++.|...+
+T Consensus        55 Gsit~~~~~~-~~~~~~~~~~~~G~~~~f~i~~~~~dp~~~~~~~~v~l~~~~f~~~~l~~~~~g~~~~e~e~~F~~~~  132 (139)
+T d2guja1          55 GTATFYKVTS-KFVLLMMDYVKKGSDPYFTLQAVLDDQSSGRGTERVTLYDVNFDSAKIASLDVDSEALEEEVPFTFED  132 (139)
+T ss_dssp             EEEEESCCCH-HHHHHHHHHHHTTCCCCEEEEEEECCTTCSSSCCEEEEEEECCCHHHHHTTC------CCEEEECCSE
+T ss_pred             EEEEEEEEch-HHHHHHHHHHHhCCCCeEEEEEEEccCCCCCCEEEEEEECEEeCCCeeEEEeCCCCceEEEEcceEec
+
+
+No 11
+>COG3499 COG3499; Phage protein U  [Mobilome: prophages, transposons]. 
+Probab=42.19  E-value=2e+02  Score=21.71  Aligned_cols=98  Identities=15%  Similarity=0.083  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             EeecccCCCcccccccccccccchHHHHhhcCCcCCCCcccCCceeEeceeceEEEEEEEEeCC--CcHHHHHHHHHHHc
+Q Q_9186633_58     37 KEHTMNRTADTIDVSTKIGGIQNMEEIMNKMGVTDWKPKEYNDYKEYIQGQKEWSVDVSGALPA--SDAAYDILEAAYEN  114 (175)
+Q Consensus        37 ~~~~~~~~~~~~d~t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~t~s~~g~~~~--~d~~~~~L~~~~~~  114 (175)
+                      .+++.+.+.........+..                     +.....-.+...+++++......  .....+.|+++...
+T Consensus        18 ~~is~~~~~~~~~~~~~~~~---------------------~~~q~~g~~~~~ls~~~~~~~~~~~~~~~~~~l~~~~~~   76 (147)
+T COG3499          18 QELQRNVSWRWVANERVGRR---------------------PARQYTGPGEDSITLSGVLYPEETGGESSLDALRALAET   76 (147)
+T ss_pred             hhceeeeeeeccccccccCC---------------------CcceecCCCCCeEEEEEEEehhHhCccchHHHHHHHHHh
+
+
+Q ss_pred             CCcEEEEEEeCCCCeeEEEEEEEEecCCCCCC----CCeeEEEEEEEEe
+Q Q_9186633_58    115 GTPVGVSELDLGRMKEKVGIAIPTELSEEAPI----DDLAGYSLSLTGT  159 (175)
+Q Consensus       115 ~~~~~~~~~~~~~~~~~~g~~~vt~~~~~~~~----~~~~~~s~t~~~~  159 (175)
+                      +.++.+.+..    ..+.+.+.|.++......    +....+.++++..
+T Consensus        77 ~~p~~li~g~----~~~~~~~vI~s~~~~~~~~~~~G~~~~~~~si~L~  121 (147)
+T COG3499          77 GTPLPLIDGD----GAIYGMFVIESIEETRSYFFRNGAARRIEFTLTLK  121 (147)
+T ss_pred             CCCEEEEeCC----CceeeeEEEEEceeeeeEEcCCCeEEEEEEEEEEE
+
+

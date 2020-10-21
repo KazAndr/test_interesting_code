@@ -1,0 +1,4 @@
+5	PF16339.5; ; DUF4969 ; Domain of unknown function (DUF4969)(98.07/6.20e-05)$COG5510; COG5510; Predicted small secreted protein [Function unknown].(97.78/9.70e-05)$PF07172.11; ; GRP ; Glycine rich protein family(97.37/9.90e-04)
+6	
+7	COG1395; COG1395; Predicted transcriptional regulator [Transcription].(98.82/3.10e-08)$COG5606; COG5606; Predicted DNA-binding protein, XRE-type HTH domain [General function prediction only].(98.73/2.80e-07)$d2icta_; a.35.1.3 (A:) Antitoxin HigA {Escherichia coli [TaxId: 562]}(98.76/8.30e-07)
+8	COG5606; COG5606; Predicted DNA-binding protein, XRE-type HTH domain [General function prediction only].(98.99/7.30e-09)$COG3655; YozG; DNA-binding transcriptional regulator, XRE family [Transcription].(98.95/6.00e-08)$d2icta_; a.35.1.3 (A:) Antitoxin HigA {Escherichia coli [TaxId: 562]}(98.99/6.30e-08)

@@ -1,0 +1,1460 @@
+Query         Q_9186633_26
+Match_columns 151
+No_of_seqs    124 out of 1385
+Neff          9.26614
+Searched_HMMs 69205
+Date          Sun May 24 00:22:14 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_26.hhr -oa3m ../results/9186633_26.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 d5ie9a_ a.204.1.2 (A:) automat  99.5 8.3E-12 1.2E-16   80.1  12.8  103   28-138     1-103 (103)
+  2 d2q4pa_ a.204.1.2 (A:) XTP3-tr  99.3   2E-10 2.9E-15   75.2  11.6  106   24-140     1-113 (113)
+  3 d2q73a_ a.204.1.0 (A:) automat  99.2 2.6E-10 3.7E-15   71.6  10.3   90   31-133     1-90  (90)
+  4 d3obca1 a.204.1.0 (A:1-100) au  99.1 9.3E-10 1.3E-14   70.4   9.5   94   33-137     1-100 (100)
+  5 cd11536 NTP-PPase_iMazG; Nucle  99.1 2.6E-09 3.8E-14   66.6  10.3   90   33-135     1-90  (90)
+  6 d1vmga_ a.204.1.2 (A:) Hypothe  99.1   3E-09 4.3E-14   66.0   9.7   82   30-130     2-83  (83)
+  7 cd11541 NTP-PPase_u4; Nucleosi  99.1 1.5E-08 2.2E-13   63.5  11.8   91   35-135     1-91  (91)
+  8 cd11542 NTP-PPase_u5; Nucleosi  99.0 2.5E-08 3.6E-13   63.4  10.3   95   33-136     1-99  (99)
+  9 cd11531 NTP-PPase_BsYpjD; Nucl  98.9 3.4E-08   5E-13   61.8   8.9   92   35-135     2-93  (93)
+ 10 cd11538 NTP-PPase_u1; Nucleosi  98.8 9.4E-08 1.4E-12   60.7   9.4   89   32-131     3-97  (97)
+ 11 PF12643.7 ; MazG-like ; MazG-l  98.8 1.1E-08 1.6E-13   63.2   4.8   77   59-146     1-77  (81)
+ 12 cd11543 NTP-PPase_u6; Nucleosi  98.7 5.7E-07 8.2E-12   55.8  10.0   82   33-125     3-86  (87)
+ 13 COG1694 MazG; NTP pyrophosphat  98.7   2E-06 2.8E-11   55.3  12.7   92   31-140     1-101 (102)
+ 14 PF03819.17 ; MazG ; MazG nucle  98.7 9.9E-07 1.4E-11   54.1   9.6   70   52-139     1-76  (76)
+ 15 cd11527 NTP-PPase_dUTPase; Nuc  98.6   2E-06 2.9E-11   54.3  10.4   91   33-139     1-94  (94)
+ 16 COG0140 HisI2; Phosphoribosyl-  98.6 2.3E-06 3.4E-11   54.6  10.1   83   33-133     1-90  (92)
+ 17 cd11533 NTP-PPase_Af0060_like;  98.6 1.7E-06 2.4E-11   52.1   9.1   74   32-116     1-75  (75)
+ 18 COG3956 YabN; Uncharacterized   98.6 7.8E-07 1.1E-11   72.8   9.6  106    8-135   340-454 (488)
+ 19 COG3956 YabN; Uncharacterized   98.6 1.2E-06 1.7E-11   71.7  10.5  101   32-150   233-340 (488)
+ 20 cd11537 NTP-PPase_RS21-C6_like  98.6 1.6E-06 2.3E-11   53.9   8.8   76   37-131     1-90  (90)
+ 21 cd11535 NTP-PPase_SsMazG; Nucl  98.5 3.1E-06 4.4E-11   50.8   8.8   75   36-128     1-75  (76)
+ 22 cd11528 NTP-PPase_MazG_Nterm;   98.4 1.4E-05   2E-10   52.5  11.3   88   35-140     2-96  (114)
+ 23 cd11540 NTP-PPase_u3; Nucleosi  98.4 6.2E-06   9E-11   49.5   8.9   74   35-126     1-75  (76)
+ 24 cd11539 NTP-PPase_u2; Nucleosi  98.4 1.3E-05 1.9E-10   49.5  10.3   82   37-135     1-85  (85)
+ 25 cd11529 NTP-PPase_MazG_Cterm;   98.4 8.3E-06 1.2E-10   53.5   9.9   87   28-136     1-87  (116)
+ 26 d4dk2a_ a.204.1.0 (A:) automat  98.3 5.9E-06 8.5E-11   63.1   8.3   92   24-124     1-92  (279)
+ 27 d1yvwa1 a.204.1.4 (A:4-95) Pho  98.3   4E-05 5.8E-10   48.9  10.6   81   33-131     2-89  (92)
+ 28 cd11530 NTP-PPase_DR2231_like;  98.3 5.5E-05 7.9E-10   46.7  11.1   82   35-134     2-88  (88)
+ 29 cd11544 NTP-PPase_DR2231; Nucl  98.3 2.6E-05 3.7E-10   51.4   9.5   67   52-136    26-92  (116)
+ 30 COG4508 Dut2; Dimeric dUTPase,  98.2 2.7E-05   4E-10   54.4   8.3   84   28-120     1-86  (161)
+ 31 d2a7wa1 a.204.1.4 (A:4-94) Pho  98.1 0.00024 3.4E-09   45.3  11.0   81   33-131     3-90  (91)
+ 32 PF08761.11 ; dUTPase_2 ; dUTPa  98.1   3E-05 4.3E-10   54.1   7.3   86   29-123     1-88  (160)
+ 33 d1y6xa1 a.204.1.4 (A:7-93) Pho  98.0 0.00031 4.5E-09   44.4  10.6   79   30-126     1-86  (87)
+ 34 PF04447.12 ; DUF550 ; Protein   98.0 7.1E-05   1E-09   48.3   7.7   80   34-142     3-85  (97)
+ 35 COG4696 COG4696; Predicted pho  97.9  0.0002 2.9E-09   51.5   9.4   91   26-136     2-133 (180)
+ 36 PF01503.17 ; PRA-PH ; Phosphor  97.9 0.00018 2.6E-09   47.9   8.3   62   52-131    22-116 (116)
+ 37 d1yxba1 a.204.1.4 (A:4-90) Pho  97.9  0.0007   1E-08   42.8  10.4   77   32-126     2-86  (87)
+ 38 cd11532 NTP-PPase_COG4997; Nuc  97.9 0.00045 6.4E-09   44.4   9.5   67   52-140    29-95  (95)
+ 39 cd11547 NTP-PPase_HisE; Nucleo  97.9 0.00079 1.1E-08   42.3  10.2   77   32-126     2-85  (86)
+ 40 d1ogla_ a.204.1.1 (A:) Type II  97.7 0.00032 4.6E-09   53.5   7.7   93   26-127     3-95  (270)
+ 41 cd11534 NTP-PPase_HisIE_like;   97.7 0.00078 1.1E-08   42.2   8.4   76   33-126     1-83  (84)
+ 42 cd11545 NTP-PPase_YP_001813558  97.7  0.0015 2.1E-08   43.6   9.9   80   32-136     1-85  (115)
+ 43 cd11546 NTP-PPase_His4; Nucleo  97.6  0.0023 3.3E-08   39.9   9.3   77   32-130     1-84  (84)
+ 44 cd11523 NTP-PPase; Nucleoside   97.5  0.0016 2.3E-08   38.2   7.4   71   37-116     1-72  (72)
+ 45 d2p06a1 a.204.1.3 (A:1-84) Hyp  97.5  0.0023 3.3E-08   40.3   7.8   71   31-119    14-84  (84)
+ 46 KOG4311 Histidinol dehydrogena  97.3   0.004 5.8E-08   49.4   9.4   84   33-138   245-335 (359)
+ 47 d1w2ya_ a.204.1.1 (A:) Type II  97.1  0.0037 5.3E-08   46.7   7.2   87   24-119     1-92  (229)
+ 48 COG4997 COG4997; Predicted hou  97.0   0.016 2.3E-07   37.4   8.3   64   52-140    32-95  (95)
+ 49 d2yaya_ a.204.1.0 (A:) automat  96.1   0.062 8.9E-07   41.0   7.7   77   32-119     9-87  (257)
+ 50 PF08761.11 ; dUTPase_2 ; dUTPa  66.2      22 0.00031   24.7   4.4   38  100-137   118-155 (160)
+ 51 PF00509.18 ; Hemagglutinin ; H  57.2 1.7E+02  0.0025   25.6   8.4   88   32-138   381-473 (567)
+ 52 PF08418.10 ; Pol_alpha_B_N ; D  55.7      38 0.00055   25.6   4.4   31  104-134     2-32  (244)
+ 53 PF11020.8 ; DUF2610 ; Domain o  52.0      80  0.0012   20.1   4.8   31  100-130    48-78  (81)
+ 54 d1w2ya_ a.204.1.1 (A:) Type II  43.6      90  0.0013   23.5   4.7   34  102-135   147-180 (229)
+ 55 COG4508 Dut2; Dimeric dUTPase,  40.1 1.1E+02  0.0016   21.2   4.5   39   99-137   118-156 (161)
+ 56 d1irqa_ a.43.1.4 (A:) Omega tr  32.4 1.1E+02  0.0016   16.0   4.8   35  104-138    12-46  (48)
+ 57 PF10723.9 ; RepB-RCR_reg ; Rep  32.1 1.8E+02  0.0025   18.2   4.9   31  104-134    49-79  (81)
+ 58 d2gpea_ a.43.1.11 (A:) automat  31.2 1.1E+02  0.0016   15.6   4.8   36  104-139    12-47  (47)
+ 59 PF12644.7 ; DUF3782 ; Protein   28.8   2E+02   0.003   17.9   8.1   58   58-134     3-60  (82)
+ 60 COG3612 COG3612; Uncharacteriz  28.7 2.1E+02  0.0031   20.6   4.3   38   96-133   116-155 (157)
+ 61 PF12651.7 ; RHH_3 ; Ribbon-hel  27.2 1.2E+02  0.0017   14.7   5.1   33  104-136    12-44  (44)
+ 62 d1nvma1 a.5.7.1 (A:291-341) 4-  26.7 1.7E+02  0.0025   16.4   3.5   28  103-130     2-29  (51)
+ 63 d2cpga_ a.43.1.3 (A:) Transcri  25.0 1.3E+02  0.0019   14.5   4.6   32  104-135    12-43  (43)
+ 64 KOG4302 Microtubule-associated  24.2 6.8E+02  0.0098   22.4   7.7   74   32-120    15-88  (660)
+ 65 d4lrsa2 a.5.7.0 (A:295-346) au  23.3 2.1E+02   0.003   16.1   3.5   28  103-130     2-29  (52)
+ 66 PF00816.21 ; Histone_HNS ; H-N  21.5 2.8E+02   0.004   17.0   6.3   42   61-124     2-43  (84)
+ 67 d2yaya_ a.204.1.0 (A:) automat  21.4 3.6E+02  0.0052   20.9   4.8   47   96-142   141-187 (257)
+
+No 1
+>d5ie9a_ a.204.1.2 (A:) automated matches {Bacillus cereus [TaxId: 1396]}
+Probab=99.45  E-value=8.3e-12  Score=80.15  Aligned_cols=103  Identities=19%  Similarity=0.162  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             ccccCHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHH
+Q Q_9186633_26     28 NQICELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILY  107 (151)
+Q Consensus        28 ~~~~~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~  107 (151)
+                      +..|++.++|+.+.......+.....+...+..+.+|+||+.+++.+..........        .....+.+++||+|+
+T Consensus         1 m~~~~l~~lq~~~~~~~~~~~~~~~~~~~~~~~l~eE~gEl~~~~~~~~~~~~~~~~--------~~~~~i~~ElaDvl~   72 (103)
+T d5ie9a_           1 MEAKTMKDMQKEVDAYIGQFKEGYFSPLAMMARLTEEMGELAREVNHYYGEKPKKTT--------EKERSIEEELGDVLF   72 (103)
+T ss_dssp             CCCCBHHHHHHHHHHHHHTSSSCSCCHHHHHHHHHHHHHHHHHHHHHHHCC-----------------HHHHHHHHHHHH
+T ss_pred             CccccHHHHHHHHHHHHHHcCCCCCCHHHHHHHHHHHHHHHHHHHHHHhCCCCCCCc--------hhHhhHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHhCCCHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_26    108 YISIMSHEMGYTLEDIAQMNIAKLAKRYPDG  138 (151)
+Q Consensus       108 ~l~~la~~~~id~~~~~~~~~~k~~~r~~~~  138 (151)
+                      +++.+|..+|+|+++++.....++..|++.+
+T Consensus        73 ~l~~la~~~gid~e~~~~~~~~~~~~r~~~~  103 (103)
+T d5ie9a_          73 VMICMANSLNIDLETAHNIVMNKFNTRDKDR  103 (103)
+T ss_dssp             HHHHHHHHTTCCHHHHHHHHHHHHCCSCTTC
+T ss_pred             HHHHHHHHcCCCHHHHHHHHHHHHHhhccCC
+
+
+No 2
+>d2q4pa_ a.204.1.2 (A:) XTP3-transactivated gene A protein homolog RS21-C6 {Mouse (Mus musculus) [TaxId: 10090]}
+Probab=99.28  E-value=2e-10  Score=75.16  Aligned_cols=106  Identities=19%  Similarity=0.173  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             ccccccccCHHHHHHHHHHHhccCccc-chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCC------CcccCCCCccccHH
+Q Q_9186633_26     24 VMNNNQICELDQYQEAALRTWNTNQDF-GGRVLNAALGLSGESGEVADIVKKAIFHGHGF------DPAHCPGEEEGNTH   96 (151)
+Q Consensus        24 ~~~~~~~~~l~e~q~~~~~~~~~~~~~-~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~------~~~~~~~~~~~~~~   96 (151)
+                      .+.....+++.++|+.+..+....... ...+...+..|.+|+||+++++.+........      ..           .
+T Consensus         1 ~~~~~~~~~l~~lq~~~~~~~~~~~~~~~~~~~~~~~~l~eE~gEl~~~~~~~~~~~~~~~~~~~~~~-----------~   69 (113)
+T d2q4pa_           1 PFRFSPEPTLEDIRRLHAEFAAERDWEQFHQPRNLLLALVGEVGELAELFQWKSDTEPGPQAWPPKER-----------A   69 (113)
+T ss_dssp             CCCCCSCSCHHHHHHHHHHHHHTSCHHHHHCHHHHHHHHHHHHHHHHHTTTTSCSSSSCGGGSCHHHH-----------H
+T ss_pred             CCCCCCCCCHHHHHHHHHHHHHHcChhhhcCHHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCHHHH-----------H
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCCCCCC
+Q Q_9186633_26     97 KIALELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKRYPDGFS  140 (151)
+Q Consensus        97 ~l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~~~~~  140 (151)
+                      .+.+++||++++++.+|..+|+|+++++...+.++..|++...+
+T Consensus        70 ~~~~El~Dvl~~l~~la~~~gid~~~~~~~~~~~~~~r~~~~~~  113 (113)
+T d2q4pa_          70 ALQEELSDVLIYLVALAARCHVDLPQAVISKMDTNRQRYPVHLS  113 (113)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHSCCCCC
+T ss_pred             HHHHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHhCCCccC
+
+
+No 3
+>d2q73a_ a.204.1.0 (A:) automated matches {Vibrio sp. [TaxId: 344879]}
+Probab=99.25  E-value=2.6e-10  Score=71.61  Aligned_cols=90  Identities=20%  Similarity=0.220  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             cCHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHH
+Q Q_9186633_26     31 CELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYIS  110 (151)
+Q Consensus        31 ~~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~  110 (151)
+                      |++.++|+.+..+......    ....+..+.+|+||+.+++.+..........         ....+.+++||+|++++
+T Consensus         1 m~l~~~~~~~~~~~~~~~~----~~~~~~~l~eE~gEl~~~~~~~~~~~~~~~~---------~~~~l~~ElgD~l~~l~   67 (90)
+T d2q73a_           1 MKLSELQSHIKEFDYAPEQ----SEHYFFKLIEEVGELSESIRKGKSGQPTLDE---------LKGSVAEELYDVLYYVC   67 (90)
+T ss_dssp             CCHHHHHHHHHHHCCCGGG----HHHHHHHHHHHHHHHHHHHHTTCCSCCCGGG---------CTTCHHHHHHHHHHHHH
+T ss_pred             CcHHHHHHHHHHHhcCCcc----chhHHHHHHHHHHHHHHHHHHhccCCCChHH---------HHHhHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhCCCHHHHHHHHHHHHHH
+Q Q_9186633_26    111 IMSHEMGYTLEDIAQMNIAKLAK  133 (151)
+Q Consensus       111 ~la~~~~id~~~~~~~~~~k~~~  133 (151)
+                      .+|..+|+|+++++...+.++..
+T Consensus        68 ~la~~~gid~e~~~~~~~~~n~~   90 (90)
+T d2q73a_          68 ALANIHGVNLEKTHELKEVLNKV   90 (90)
+T ss_dssp             HHHHHTTCCHHHHHHHHHHHHTC
+T ss_pred             HHHHHHCCCHHHHHHHHHHHhcC
+
+
+No 4
+>d3obca1 a.204.1.0 (A:1-100) automated matches {Archaeoglobus fulgidus [TaxId: 2234]}
+Probab=99.15  E-value=9.3e-10  Score=70.42  Aligned_cols=94  Identities=14%  Similarity=0.174  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHhccCcccch-hHHHHHHHHHHHHHHHHHHHHHHHHcC-----CCCCcccCCCCccccHHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQDFGG-RVLNAALGLSGESGEVADIVKKAIFHG-----HGFDPAHCPGEEEGNTHKIALELGDIL  106 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~~~~-~~~~~~~~L~eE~gEl~~~i~~~~~~~-----~~~~~~~~~~~~~~~~~~l~~elgDvl  106 (151)
+                      +.++++.+..+....+.... ++...+..|.+|+||+++++.+.....     .....           ..+.+++||++
+T Consensus         1 ~~~l~~~~~~~~~~~~~~~~~~~~~~~~~l~eE~gEl~~~~~~~~~~~~~~~~~~~~~-----------~~l~~El~Dvl   69 (100)
+T d3obca1           1 MEELLDILREFRDSRGWLKYHTPKNLAVSISIEVAELLEIFQWTRSSDEEFEVLERRK-----------GEVEEEIADVL   69 (100)
+T ss_dssp             HHHHHHHHHHHHHHTTCGGGCCHHHHHHHHHHHHHHHHHHTTTCCSHHHHHHHHHHTH-----------HHHHHHHHHHH
+T ss_pred             CHHHHHHHHHHHHHCCCcccCCHHHHHHHHHHHHHHHHHHHhhcCCCchhhhhhHHHH-----------HHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhCCCHHHHHHHHHHHHHHHCCC
+Q Q_9186633_26    107 YYISIMSHEMGYTLEDIAQMNIAKLAKRYPD  137 (151)
+Q Consensus       107 ~~l~~la~~~~id~~~~~~~~~~k~~~r~~~  137 (151)
+                      ++++.+|..+|+|+++++...+.++..|++.
+T Consensus        70 ~~l~~la~~~~idle~~~~~~~~~~~~r~~~  100 (100)
+T d3obca1          70 IYLLFLCDVAEINPIEAVKRKMEKNERKYPK  100 (100)
+T ss_dssp             HHHHHHHHHHTCCHHHHHHHHHHHHHHHSCC
+T ss_pred             HHHHHHHHHhCCCHHHHHHHHHHHHHHHCCC
+
+
+No 5
+>cd11536 NTP-PPase_iMazG; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in integron-associated MazG (iMazG) proteins.
+Probab=99.12  E-value=2.6e-09  Score=66.56  Aligned_cols=90  Identities=21%  Similarity=0.257  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIM  112 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~l  112 (151)
+                      +.++++.+..++..+..    +...+..+.+|+||+.+++.+..........         ....+..++||+++.++.+
+T Consensus         1 l~~~~~~~~~~~~~~~~----~~~~~~~l~~e~~el~~~~~~~~~~~~~~~~---------~~~~~~~el~D~l~~~~~l   67 (90)
+T cd11536           1 LSELQSHIKEFDYAPEQ----SEHYFFKLIEEVGELSESIRKGKSGQPTLDE---------LKGSVAEELYDVLYYVCAL   67 (90)
+T ss_pred             CHHHHHHHHHHhhCCCc----hhHHHHHHHHHHHHHHHHHHHhcCCCCCHHH---------HHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHhCCCHHHHHHHHHHHHHHHC
+Q Q_9186633_26    113 SHEMGYTLEDIAQMNIAKLAKRY  135 (151)
+Q Consensus       113 a~~~~id~~~~~~~~~~k~~~r~  135 (151)
+                      |..+|+|+++++.....++..|+
+T Consensus        68 a~~~~id~e~~~~~~~~~~~~r~   90 (90)
+T cd11536          68 ANIHGVNLEKTHELKEVLNKVKY   90 (90)
+T ss_pred             HHHHCCCHHHHHHHHHHHHhhcC
+
+
+No 6
+>d1vmga_ a.204.1.2 (A:) Hypothetical protein SSo12199 (SSo3215) {Sulfolobus solfataricus [TaxId: 2287]}
+Probab=99.09  E-value=3e-09  Score=65.98  Aligned_cols=82  Identities=18%  Similarity=0.208  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             ccCHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHH
+Q Q_9186633_26     30 ICELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYI  109 (151)
+Q Consensus        30 ~~~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l  109 (151)
+                      .|++.++++.+.++...++... .+...+..+.+|+||+.+++...                  +...+.+++||+++++
+T Consensus         2 ~~~~~~l~~~~~~~~~~~~~~~-~~~~~~~~l~eE~~El~~a~~~~------------------~~~~~~~ElgD~l~~l   62 (83)
+T d1vmga_           2 DLELKELQSKMKEMYFEKDSQR-GIYATFTWLVEEVGELAEALLSN------------------NLDSIQEELADVIAWT   62 (83)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHHH-CHHHHHHHHHHHHHHHHHHHHHT------------------CHHHHHHHHHHHHHHH
+T ss_pred             CCcHHHHHHHHHHHHHhcchhc-CHHHHHHHHHHHHHHHHHHHHhC------------------CHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHhCCCHHHHHHHHHHH
+Q Q_9186633_26    110 SIMSHEMGYTLEDIAQMNIAK  130 (151)
+Q Consensus       110 ~~la~~~~id~~~~~~~~~~k  130 (151)
+                      +.+|..+|+|+++++...+.+
+T Consensus        63 ~~la~~~~id~e~~l~~~~~~   83 (83)
+T d1vmga_          63 VSIANLEGIDIEEALKKKYKL   83 (83)
+T ss_dssp             HHHHHHHTCCHHHHHHHHSCC
+T ss_pred             HHHHHHHCCCHHHHHHHHhcC
+
+
+No 7
+>cd11541 NTP-PPase_u4; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in a group of uncharacterized proteins from bacteria and archaea.
+Probab=99.05  E-value=1.5e-08  Score=63.46  Aligned_cols=91  Identities=41%  Similarity=0.649  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_26     35 QYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSH  114 (151)
+Q Consensus        35 e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~  114 (151)
+                      +||+.+.......+.....+...+..|.+|+|++.+++.+..........          ...+.+++||++++++.+|.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~l~~e~~el~~~~~~~~~~~~~~~~----------~~~~~~el~D~l~~~~~l~~   70 (91)
+T cd11541           1 EYQILANRTAATH---EQALTNYGLGITGEAGEVADLIKKYAFHGH-DLD----------KESLTKELGDVLWYVSQIAK   66 (87)
+T ss_pred             CHHHHHHHHHhhCCCCcccHHHHHHHHHHHHHHHHHHHHHHHhcCCCHHh----------HHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HhCCCHHHHHHHHHHHHHHHC
+Q Q_9186633_26    115 EMGYTLEDIAQMNIAKLAKRY  135 (151)
+Q Consensus       115 ~~~id~~~~~~~~~~k~~~r~  135 (151)
+                      .+++|+++++...+.++..|+
+T Consensus        71 ~~~id~~~~~~~~~~k~~~r~   91 (91)
+T cd11541          67 WADISMETVAELNIEKLKRRY   87 (87)
+T ss_pred             HHCCCHHHHHHHHHHHHHHhC
+
+
+No 8
+>cd11542 NTP-PPase_u5; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in a group of uncharacterized proteins from bacteria and archaea.
+Probab=98.96  E-value=2.5e-08  Score=63.45  Aligned_cols=95  Identities=12%  Similarity=-0.004  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHHHhccCcccchhHH----HHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQDFGGRVL----NAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYY  108 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~~~~~~~----~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~  108 (151)
+                      +.+++..+.+.....+. .....    ..+..+.+++||+.+++............        .....+.+++||++++
+T Consensus         1 ~~e~~~~v~~~~~~~g~-~~~~~~~~~~~~~~l~~e~~el~~~~~~~~~~~~~~~~--------~~~~~~~~el~Dvl~~   71 (99)
+T cd11542           1 INSLQKEIHKNAVSHGW-WDSKR----EFGTLIALCHSELSEALEENRKGIPINQTyytes---GKMEGVPSELADTVIR   72 (100)
+T ss_pred             CHHHHHHHHHHHHHcCC-CCCCCcchhHHHHHHHHHHHHHHHHHHHHcCCCCCCcH--------HHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHhCCCHHHHHHHHHHHHHHHCC
+Q Q_9186633_26    109 ISIMSHEMGYTLEDIAQMNIAKLAKRYP  136 (151)
+Q Consensus       109 l~~la~~~~id~~~~~~~~~~k~~~r~~  136 (151)
+                      ++.+|..+|+|+++++...+.++..|.+
+T Consensus        72 l~~la~~~~id~e~~l~~~~~~~~~r~~   99 (99)
+T cd11542          73 IMDICEYYGIDLEKVILEKHEYNKNREF  100 (100)
+T ss_pred             HHHHHHHHCCCHHHHHHHHHHHHhhcCC
+
+
+No 9
+>cd11531 NTP-PPase_BsYpjD; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain putative pyrophosphatase YpjD from Bacillus subtilis and its bacterial homologs.
+Probab=98.89  E-value=3.4e-08  Score=61.79  Aligned_cols=92  Identities=18%  Similarity=0.173  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCC.CCcccCCCCccccHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_26     35 QYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHG.FDPAHCPGEEEGNTHKIALELGDILYYISIMS  113 (151)
+Q Consensus        35 e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~.~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la  113 (151)
+                      ++|+.+.++....+.........+..|.+|+||+..++......... ...         +...+..++||+++.++.+|
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~l~~e~~el~~~~~~~~~~~~~.~~~---------~~~~~~~el~dil~~l~~l~   71 (93)
+T cd11531           2 DIQAEVDRYIGQFKEGYFSPLAXXARLTEELGELAREVNHRYGEKPKkATE---------DDKSXEEEIGDVLFVLVCLA   72 (94)
+T ss_pred             hHHHHHHHHHHHhccCcCCcchHHcHHHHHHHHHHHHHHHHcCCCCC.CCC---------cccCHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHhCCCHHHHHHHHHHHHHHHC
+Q Q_9186633_26    114 HEMGYTLEDIAQMNIAKLAKRY  135 (151)
+Q Consensus       114 ~~~~id~~~~~~~~~~k~~~r~  135 (151)
+                      ..+|+|+++++.....++..|+
+T Consensus        72 ~~~~id~~~~~~~~~~~~~~r~   93 (93)
+T cd11531          73 NSLDISLEEAHDRVXHKFNTRD   94 (94)
+T ss_pred             HHCCCCHHHHHHHHHHHHhcCC
+
+
+No 10
+>cd11538 NTP-PPase_u1; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in a group of uncharacterized proteins from bacteria.
+Probab=98.83  E-value=9.4e-08  Score=60.69  Aligned_cols=89  Identities=18%  Similarity=0.114  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCC------CcccCCCCccccHHHHHHHHHHH
+Q Q_9186633_26     32 ELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGF------DPAHCPGEEEGNTHKIALELGDI  105 (151)
+Q Consensus        32 ~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~------~~~~~~~~~~~~~~~l~~elgDv  105 (151)
+                      .+.+.+..+...+.........+...+..+.+|+||+.+++..........      ..           ..+..++||+
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~eE~gel~~~~~~~~~~~~~~~~~~~~~~-----------~~l~~el~D~   71 (97)
+T cd11538           3 DMMPRFEEASQKYAAENGIFRDPDWYMLKLQEEVGEVTQAWNRLTGRGRIKGRSKEEMK-----------RDLADETADL   71 (97)
+T ss_pred             hhHHHHHHHHHHHHHHhCCCCChhHHHHHHHHHHHHHHHHHHHHHCCCCcCCCCHHHHH-----------HHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCHHHHHHHHHHHH
+Q Q_9186633_26    106 LYYISIMSHEMGYTLEDIAQMNIAKL  131 (151)
+Q Consensus       106 l~~l~~la~~~~id~~~~~~~~~~k~  131 (151)
+                      +++++.+|..+|+|+++++...+.++
+T Consensus        72 l~~l~~la~~~~id~e~~l~~~~~~~   97 (97)
+T cd11538          72 LGHVLLLAHYNGLDIEGAIERKWRFA   97 (97)
+T ss_pred             HHHHHHHHHHcCCCHHHHHHHHHhcC
+
+
+No 11
+>PF12643.7 ; MazG-like ; MazG-like family
+Probab=98.82  E-value=1.1e-08  Score=63.24  Aligned_cols=77  Identities=19%  Similarity=0.356  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_26     59 LGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKRYPDG  138 (151)
+Q Consensus        59 ~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~~~  138 (151)
+                      ..+.+|+||+.+++.+..........           ..+.+++||++++++.+|..+|+|+++++...+.++..|++..
+T Consensus         1 i~l~~E~gEl~~~~~~~~~~~~~~~~-----------~~i~~el~D~l~~~~~l~~~~gid~e~~l~~~~~~~~~r~~~~   69 (81)
+T C9AA85_ENTCA/3    1 ISISIEAAELLEIFQWKTPEEATQDF-----------EHLKEEIADVLIYSYMLADNLGLDIDEIIKEKLEKNNMKYPVK   69 (81)
+T ss_pred             CcHHHHHHHHHHHhcCCCHHHHhhcH-----------HHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHhCChh
+
+
+Q ss_pred             CCHHHHHh
+Q Q_9186633_26    139 FSREASQA  146 (151)
+Q Consensus       139 ~~~~~~~~  146 (151)
+                      ...+..++
+T Consensus        70 ~~~~~~~~   77 (81)
+T C9AA85_ENTCA/3   70 ESKDSKKK   77 (81)
+T ss_pred             hcCccccc
+
+
+No 12
+>cd11543 NTP-PPase_u6; Nucleoside Triphosphate Pyrophosphohydrolase EC 3.6.1.8) MazG-like domain found in a group of uncharacterized proteins from bacteria and archaea.
+Probab=98.71  E-value=5.7e-07  Score=55.84  Aligned_cols=82  Identities=13%  Similarity=0.113  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCC-.CcccCCCCccccHHHHHHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGF-.DPAHCPGEEEGNTHKIALELGDILYYIS  110 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~-.~~~~~~~~~~~~~~~l~~elgDvl~~l~  110 (151)
+                      ..++++.+.++..........+...+..+.+|+||+.+++....+.....  ..           ..+..++||++++++
+T Consensus         3 a~~l~~~~~~~~~~~~~~~~~~~~~~~~l~~e~gel~~~~~~~~~~~~~~~.~~-----------~~~~~el~d~l~~l~   70 (87)
+T cd11543           3 SVQIRKRYHLLERELHGKEWSVEEDALAFLTDAGLVGRLTMSQQGRWPTDGeTM-----------PELEHKLGECIWWLA   71 (91)
+T ss_pred             HHHHHHHHHHHHHHHcCCCCCHHHHHHHHHHHHHHHHHHHHHHcCCCCCCC.Ch-----------HHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhCCC-...HHHHHH
+Q Q_9186633_26    111 IMSHEMGYT-...LEDIAQ  125 (151)
+Q Consensus       111 ~la~~~~id-...~~~~~~  125 (151)
+                      .+|..+|+|    +++++.
+T Consensus        71 ~la~~~gid~...~e~~l~   86 (87)
+T cd11543          72 VLAERMEINIneaLENFLT   90 (91)
+T ss_pred             HHHHHcCCch...HHHHhc
+
+
+No 13
+>COG1694 MazG; NTP pyrophosphatase, house-cleaning of non-canonical NTPs [Defense mechanisms]. 
+Probab=98.71  E-value=2e-06  Score=55.33  Aligned_cols=92  Identities=22%  Similarity=0.313  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             cCHHHHHHHHHHHhccCccc----chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccc-cHHHHHHHHHHH
+Q Q_9186633_26     31 CELDQYQEAALRTWNTNQDF----GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEG-NTHKIALELGDI  105 (151)
+Q Consensus        31 ~~l~e~q~~~~~~~~~~~~~----~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~-~~~~l~~elgDv  105 (151)
+                      |.+..+.+.+..........    ..++...+..+.+|++|+.+++.                  .. +...+.+++||+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~eE~~El~~a~~------------------~~~~~~~~~~El~D~   62 (102)
+T COG1694           1 MDLEKLLDIMAQLRDPEGGCPWDEEQTPESLLLYLVEEAGEVAEAIR------------------KEEDLEDLKEELGDV   62 (102)
+T ss_pred             ChHHHHHHHHHHHhCCCCCCCCCccCCHHHHHHHHHHHHHHHHHHHH------------------cCCCHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCHHHHHHHHHH----HHHHHCCCCCC
+Q Q_9186633_26    106 LYYISIMSHEMGYTLEDIAQMNIA----KLAKRYPDGFS  140 (151)
+Q Consensus       106 l~~l~~la~~~~id~~~~~~~~~~----k~~~r~~~~~~  140 (151)
+                      +++++.+|...|+++..++...+.    ++.+|.+..+.
+T Consensus        63 l~~l~~l~~~~~i~~~~~l~~~~~~~~~k~~~r~~~~~~  101 (102)
+T COG1694          63 LADVLFLANLLDIDLEFALEEVVRKIAEKLERRHPHVFG  101 (102)
+T ss_pred             HHHHHHHHHHcCCChHHHHHHHHHHHHHHHHHhCccccC
+
+
+No 14
+>PF03819.17 ; MazG ; MazG nucleotide pyrophosphohydrolase domain
+Probab=98.65  E-value=9.9e-07  Score=54.14  Aligned_cols=70  Identities=21%  Similarity=0.319  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHH------hCCCHHHHHH
+Q Q_9186633_26     52 GRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHE------MGYTLEDIAQ  125 (151)
+Q Consensus        52 ~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~------~~id~~~~~~  125 (151)
+                      .++..++..+.+|++|+.+++...                  +...+.+++||+++.++.++..      .|+|++.++.
+T Consensus         1 ~~~~~~~~~l~eE~~El~~a~~~~------------------~~~~~~eelgDll~~~~~l~~~~~~~~~~gid~e~~l~   62 (76)
+T Q9F2P9_STRCO/1    1 RTHEGLAKYAIEEAYELVEAIEDG------------------DRDELREELGDVLLQVVFHARIAEEDPDAPFSVDDVAG   62 (76)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHcC------------------CHHHHHHHHHHHHHHHHHHHHHHhhCCCCCCCHHHHHH
+
+
+Q ss_pred             HHHHHHHHHCCCCC
+Q Q_9186633_26    126 MNIAKLAKRYPDGF  139 (151)
+Q Consensus       126 ~~~~k~~~r~~~~~  139 (151)
+                      ....++..|++..+
+T Consensus        63 ~~~~k~~~r~~~~~   76 (76)
+T Q9F2P9_STRCO/1   63 TIVDKLVHRHPHVF   76 (76)
+T ss_pred             HHHHHHHHhCCCCC
+
+
+No 15
+>cd11527 NTP-PPase_dUTPase; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in dimeric 2-Deoxyuridine 5'-triphosphate nucleotidohydrolase and similar proteins.
+Probab=98.61  E-value=2e-06  Score=54.34  Aligned_cols=91  Identities=14%  Similarity=0.012  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             HHHHHHHHHHHhccCcc---..cchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCcccc.HHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQD---..FGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGN.THKIALELGDIL  106 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~---..~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~.~~~l~~elgDvl  106 (151)
+                      +.++|+.+.........     ....+...+..+.+|+||+++.+............         + ...+.+|++|++
+T Consensus         1 l~~~Q~~~~~~~~~~~~~~~..~~~~~~~~~~~l~~E~gEl~~~~~~~k~~~~~~~~---------~.~~~l~~El~Dvl   68 (94)
+T cd11527           1 MLKLQQKLNDETNGLNWENGytKEGKLISWRRCIYMECAELIDSFT-WKHWKNISSL---------TnWENVRIEIVDIW   70 (178)
+T ss_pred             ChHHHHHHHHHHHHhCCccC..CCCCHHHHHHHHHHHHHHHHHHHHHhcCccCCcHH---------H.HHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhCCCHHHH...............................................................
+Q Q_9186633_26    107 YYISIMSHEMGYTLEDI...............................................................  123 (151)
+Q Consensus       107 ~~l~~la~~~~id~~~~...............................................................  123 (151)
+                      ++++.+|..+                                                                      
+T Consensus        69 ~~~~~la~~~-------...............................................................   78 (94)
+T cd11527          71 HFILSLLLEEyrdknnkdfkaiatevnavsvfqdfckeeeypnegdiygilndieliihkcsgfgfnlgellstyftlai  150 (178)
+T ss_pred             HHHHHHHHHH-------...............................................................
+
+
+Q ss_pred             ............HHHHHHHHHHHCCCCC
+Q Q_9186633_26    124 ............AQMNIAKLAKRYPDGF  139 (151)
+Q Consensus       124 ............~~~~~~k~~~r~~~~~  139 (151)
+                                  +.....++..|++..+
+T Consensus        79 ............~~~K~~~~~~R~~~~~   94 (94)
+T cd11527         151 kcglnleilyktYIGKNVLNIFRQNNGY  178 (178)
+T ss_pred             ............HHHHHHHHHhhCCCCC
+
+
+No 16
+>COG0140 HisI2; Phosphoribosyl-ATP pyrophosphohydrolase [Amino acid transport and metabolism]. 
+Probab=98.58  E-value=2.3e-06  Score=54.57  Aligned_cols=83  Identities=19%  Similarity=0.227  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             HHHHHHHHHHHhccCccc-------chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQDF-------GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDI  105 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~~-------~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDv  105 (151)
+                      +.++...+...+...+..       ...+..++..+.+|++|+..++...                  +...+..|+||+
+T Consensus         1 ~~~l~~~~~~~~~~~~~~s~~~~~~~~~~~~l~~kl~eE~~El~~a~~~~------------------~~~~~~~ElgDl   62 (92)
+T COG0140           1 LSELEAVIADRKNARPEGSYTAKLLAKGIDKIAKKVGEEAVEVILAAKDE------------------DKEELVSEAADL   62 (92)
+T ss_pred             ChHHHHHHHHHHHhCCCCCHHHHHhhcCHHHHHHHHHHHHHHHHHHHhcC------------------CHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCHHHHHHHHHHHHHH
+Q Q_9186633_26    106 LYYISIMSHEMGYTLEDIAQMNIAKLAK  133 (151)
+Q Consensus       106 l~~l~~la~~~~id~~~~~~~~~~k~~~  133 (151)
+                      +++++.+|..+|+++++++.....++.+
+T Consensus        63 l~~l~~la~~~gi~~eevl~~~~~k~~~   90 (92)
+T COG0140          63 LYHLLVLLAAQGLSLEDVLRELERRHGK   90 (92)
+T ss_pred             HHHHHHHHHHCCCCHHHHHHHHHHHhhc
+
+
+No 17
+>cd11533 NTP-PPase_Af0060_like; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in uncharacterized protein from Archaeoglobus fulgidus (Af0060) and its bacterial homologs.
+Probab=98.58  E-value=1.7e-06  Score=52.07  Aligned_cols=74  Identities=18%  Similarity=0.129  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CHHHHHHHHHHHhccCcc.cchhHHHHHHHHHHHHHHHHHHHHHHHHcCCC-CCcccCCCCccccHHHHHHHHHHHHHHH
+Q Q_9186633_26     32 ELDQYQEAALRTWNTNQD.FGGRVLNAALGLSGESGEVADIVKKAIFHGHG-FDPAHCPGEEEGNTHKIALELGDILYYI  109 (151)
+Q Consensus        32 ~l~e~q~~~~~~~~~~~~.~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~-~~~~~~~~~~~~~~~~l~~elgDvl~~l  109 (151)
+                      .+.++|+.+.+....+   ...++...+..|.+|+||+.+++.+....... ...         ....+.+++||+++++
+T Consensus         1 ~l~~~q~~~~~~~~~~--.~~~~~~~~~~~l~eE~gEl~~~~~~~~~~~~~~~~~---------~~~~l~~El~Dvl~~~   68 (75)
+T cd11533           1 XHAKYXKRVSRPGNTPrpwFDFSEERLLSRLFEEXDELREAVEKED-------------------WENLRDELLDVANFC   61 (68)
+T ss_pred             CHHHHHHHHHHHHHhc--.CcCCHHHHHHHHHHHHHHHHHHHHHHhCCCCCCChH---------HHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHh
+Q Q_9186633_26    110 SIMSHEM  116 (151)
+Q Consensus       110 ~~la~~~  116 (151)
+                      +.+|..+
+T Consensus        69 ~~la~~~   75 (75)
+T cd11533          62 XYLWGKL   68 (68)
+T ss_pred             HHHHhhC
+
+
+No 18
+>COG3956 YabN; Uncharacterized conserved protein YabN, contains tetrapyrrole methylase and MazG-like pyrophosphatase domain [General function prediction only]. 
+Probab=98.56  E-value=7.8e-07  Score=72.77  Aligned_cols=106  Identities=19%  Similarity=0.166  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             ccchhhccchhhcc---------hhccccccccCHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHc
+Q Q_9186633_26      8 VFGVTKLISKSKAG---------QAVMNNNQICELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFH   78 (151)
+Q Consensus         8 ~~~~~~~~~~~~~~---------~~~~~~~~~~~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~   78 (151)
+                      |...|..++...++         .-...++..+....+|+++.+..-.+..    ....+..+.+|++|+.+++.     
+T Consensus       340 ~~~~w~~~k~~e~~~~~~~~~~~~~~~~~pal~~a~ki~~~a~~~gf~~~~----~~~~~~~~~ee~~el~~~~~-----  410 (488)
+T COG3956         340 VLEKWDEIKKAEKDLQSYTSELKKIPKILPALILAEKLQKKAAKVGFDWAN----VEEAWDKVLEEMREVKEVYK-----  410 (488)
+T ss_pred             HHHHHHHHHHHHhccccCCchhhcCcccchHHHHHHHHHHHHHHcCCCccc----HHHHHHHHHHHHHHHHHHHh-----
+
+
+Q ss_pred             CCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHC
+Q Q_9186633_26     79 GHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKRY  135 (151)
+Q Consensus        79 ~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r~  135 (151)
+                                   ..+...+.+|+||+|+.++.+|..+|+|++.+++..+.++.+|+
+T Consensus       411 -------------~~~~~~~~eElGD~Lf~lv~~a~~~gid~E~aL~~a~~k~~~R~  454 (488)
+T COG3956         411 -------------GIHRDRIAEEFGDLLFSLVNIARFYDIDSEEALNYTNDKFIRRF  454 (488)
+T ss_pred             -------------cCChHHhHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHH
+
+
+No 19
+>COG3956 YabN; Uncharacterized conserved protein YabN, contains tetrapyrrole methylase and MazG-like pyrophosphatase domain [General function prediction only]. 
+Probab=98.56  E-value=1.2e-06  Score=71.70  Aligned_cols=101  Identities=18%  Similarity=0.252  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CHHHHHHHHHHHh---ccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHH
+Q Q_9186633_26     32 ELDQYQEAALRTW---NTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYY  108 (151)
+Q Consensus        32 ~l~e~q~~~~~~~---~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~  108 (151)
+                      .+..+...+....   ..+++...++..+...+.+|++|+.+++...                  +...+.+||||+||+
+T Consensus       233 ~~~~l~~~~~~l~~~~~cpwd~~qt~~sl~~~~~ee~~e~~~ai~~~------------------~~~~l~eelgD~l~~  294 (488)
+T COG3956         233 DFYTLRNIIETLRGENGCPWDKKQTHQTLKRYLIEECYELLEAIDEE------------------DDDHMVEELGDVLLQ  294 (488)
+T ss_pred             hHHHHHHHHHHHhcCCCCCccccCCHHHHHHHHHHHHHHHHHHHHhC------------------CHHHHHHHHHHHHHH
+
+
+Q ss_pred             H---HHHHHHhC-CCHHHHHHHHHHHHHHHCCCCCCHHHHHhhccC
+Q Q_9186633_26    109 I---SIMSHEMG-YTLEDIAQMNIAKLAKRYPDGFSREASQARVDV  150 (151)
+Q Consensus       109 l---~~la~~~~-id~~~~~~~~~~k~~~r~~~~~~~~~~~~~~~~  150 (151)
+                      +   ..+|...| +++++++...+.|+.+|++..+......+..+.
+T Consensus       295 ~~~~~~i~~~~~~f~~~~v~~~~~~Kl~~r~p~~f~~~~~~~~~~~  340 (488)
+T COG3956         295 VLLHAQIGKDEGYFNINDVISGISEKMIRRHPHVFKDEQVEDSTDV  340 (488)
+T ss_pred             HHHHHHHHhhcCCCCHHHHHHHHHHHHHHhCCCccCccCCCChHHH
+
+
+No 20
+>cd11537 NTP-PPase_RS21-C6_like; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in mouse RS21-C6 protein and its homologs.
+Probab=98.55  E-value=1.6e-06  Score=53.91  Aligned_cols=76  Identities=14%  Similarity=0.116  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHhccCccc-chhHHHHHHHHHHHHHHHHHHHHH-------------HHHcCCCCCcccCCCCccccHHHHHHHH
+Q Q_9186633_26     37 QEAALRTWNTNQDF-GGRVLNAALGLSGESGEVADIVKK-------------AIFHGHGFDPAHCPGEEEGNTHKIALEL  102 (151)
+Q Consensus        37 q~~~~~~~~~~~~~-~~~~~~~~~~L~eE~gEl~~~i~~-------------~~~~~~~~~~~~~~~~~~~~~~~l~~el  102 (151)
+                      |+.+.......... ...+...+..+.+|++|+.+++.+             ..                   ..+.+++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~l~~e~~el~~~~~~~~~~~~~~~~~~~~~-------------------~~i~~el   61 (90)
+T cd11537           1 LDILREFRDSRGWLKYHTPKNLAVSISIEVAELLEIFQWTRSSDEEFEVLERRK-------------------GEVEEEI   61 (90)
+T ss_pred             CHHHHHHHHHcCchhcCCHHHHHHHHHHHHHHHHHHHhccCCchHHHHHHHHHH-------------------HHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHhCCCHHHHHHHHHHHH
+Q Q_9186633_26    103 GDILYYISIMSHEMGYTLEDIAQMNIAKL  131 (151)
+Q Consensus       103 gDvl~~l~~la~~~~id~~~~~~~~~~k~  131 (151)
+                      ||++++++.+|..+|+|+++++...+.++
+T Consensus        62 ~D~l~~l~~la~~~~id~~~~l~~~~~~n   90 (90)
+T cd11537          62 ADVLIYLLFLCDVAEINPIEAVKRKXEKN   90 (90)
+T ss_pred             HHHHHHHHHHHHHcCCCHHHHHHHHHhhC
+
+
+No 21
+>cd11535 NTP-PPase_SsMazG; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in Sulfolobus solfataricus (Ss) and its homologs from archaea and bacteria.
+Probab=98.50  E-value=3.1e-06  Score=50.82  Aligned_cols=75  Identities=17%  Similarity=0.231  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             HHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_26     36 YQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHE  115 (151)
+Q Consensus        36 ~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~  115 (151)
+                      +|..+.+.....+.....+...+..+.++++++..++...                  +...+.+++||++++++.+|..
+T Consensus         1 ~q~~~~~~~~~~~~~~~~~~~~~~~l~~e~~el~~~~~~~------------------~~~~~~~el~d~l~~l~~l~~~   62 (76)
+T cd11535           1 LQSKXKEXYFEKDS-QRGIYATFTWLVEEVGELAEALLSN------------------NLDSIQEELADVIAWTVSIANL   61 (75)
+T ss_pred             CHHHHHHHHHHcCCCCCCHHHHHHHHHHHHHHHHHHHHhC------------------CHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             hCCCHHHHHHHHH
+Q Q_9186633_26    116 MGYTLEDIAQMNI  128 (151)
+Q Consensus       116 ~~id~~~~~~~~~  128 (151)
+                      +|+|+++++...+
+T Consensus        63 ~~id~~~~l~~~~   75 (76)
+T cd11535          62 EGIDIEEALKKKY   74 (75)
+T ss_pred             HCCCHHHHHHhhC
+
+
+No 22
+>cd11528 NTP-PPase_MazG_Nterm; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) N-terminal tandem-domain of MazG proteins from Escherichia coli and bacterial homologs.
+Probab=98.44  E-value=1.4e-05  Score=52.45  Aligned_cols=88  Identities=22%  Similarity=0.248  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             HHHHHHHHHhcc.Ccccch---hHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHH
+Q Q_9186633_26     35 QYQEAALRTWNT.NQDFGG---RVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYIS  110 (151)
+Q Consensus        35 e~q~~~~~~~~~.~~~~~~---~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~  110 (151)
+                      ++++.+..+... ......   .+...+..+.++++++..++...                  +...+..++||++++++
+T Consensus         2 ~l~~~~~~~~~~.~~~~~~~~~~~~~~~~~l~~e~~el~~~~~~~------------------~~~~~~~el~d~l~~l~   62 (114)
+T cd11528           2 RLLTIMQRLRDPeNGCPWDKEQTFATIAPYTLEETYEVLDAIARE------------------DFDDLRGELGDLLFQVV   63 (115)
+T ss_pred             hHHHHHHHHhCC.CCCCCCcCCCHHHHHHHHHHHHHHHHHHHHcC------------------CHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHh----CCCHHHHHHHHHHHHHHHCCCCCC
+Q Q_9186633_26    111 IMSHEM----GYTLEDIAQMNIAKLAKRYPDGFS  140 (151)
+Q Consensus       111 ~la~~~----~id~~~~~~~~~~k~~~r~~~~~~  140 (151)
+                      .+|..+    |+|+++++.....++..++.....
+T Consensus        63 ~l~~~~~~~~~id~e~~l~~~~~~~~~r~~~~~~   96 (114)
+T cd11528          64 FYAQMAQEEGRFDFNDICAAISDKLERRHPHVFA   97 (115)
+T ss_pred             HHHHHHHHcCCCCHHHHHHHHHHHHHHhChhhcC
+
+
+No 23
+>cd11540 NTP-PPase_u3; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in a group of uncharacterized proteins from bacteria and archaea.
+Probab=98.43  E-value=6.2e-06  Score=49.53  Aligned_cols=74  Identities=19%  Similarity=0.162  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHHhccCcccc-hhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_26     35 QYQEAALRTWNTNQDFG-GRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMS  113 (151)
+Q Consensus        35 e~q~~~~~~~~~~~~~~-~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la  113 (151)
+                      +++..+.+.....+... ..+...+..+.++++++..++...                  +...+.+++||++++++.+|
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~e~~el~~~~~~~------------------~~~~~~~el~d~l~~l~~la   62 (76)
+T cd11540           1 QLIKNIEQWAEDRNLIEGSTPQKQFIKLMEEFGELCSGVAKN------------------KPDVIKDSIGDCFVVMVILA   62 (146)
+T ss_pred             ChHHHHHHHHHHCCCCCCCCHHHHHHHHHHHHHHHHHHHHcC------------------CHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHh......................................................................CCCHHHH
+Q Q_9186633_26    114 HEM......................................................................GYTLEDI  123 (151)
+Q Consensus       114 ~~~......................................................................~id~~~~  123 (151)
+                      ..+                                                                      |+|++++
+T Consensus        63 ~~~......................................................................~id~e~~   72 (76)
+T cd11540          63 KQNhidsvletisnldsfqpvfkldveeiiaetvvslgmlaselmgqnleiptkvdaifgcpclslklisrkyNLMLTDC  142 (146)
+T ss_pred             HHC......................................................................CCCHHHH
+
+
+Q ss_pred             HHH
+Q Q_9186633_26    124 AQM  126 (151)
+Q Consensus       124 ~~~  126 (151)
+                      +..
+T Consensus        73 l~~   75 (76)
+T cd11540         143 VQA  145 (146)
+T ss_pred             HHh
+
+
+No 24
+>cd11539 NTP-PPase_u2; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in a group of uncharacterized proteins from bacteria and archaea.
+Probab=98.42  E-value=1.3e-05  Score=49.45  Aligned_cols=82  Identities=22%  Similarity=0.142  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_26     37 QEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHEM  116 (151)
+Q Consensus        37 q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~~  116 (151)
+                      +..+.+.+.....    +...+..+.+|++++.+++.+....+  .+.           ..+..+++|+++.++.++..+
+T Consensus         1 ~~~~~~~~~~~~~----~~~~~~~l~ee~~el~~~~~~~~~~~--~~~-----------~~~~~e~~d~l~~l~~l~~~~   63 (85)
+T cd11539           1 RTALYRLALQRFG----PDAQALKLTEEAAELAASAARNLNGQ--GSE-----------SDLAAELADVEIMTEQLRLQG   63 (83)
+T ss_pred             ChHHHHHHHHHhC----HHHHHHHHHHHHHHHHHHHHHHhcCC--CcH-----------HHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             CCCHHH---HHHHHHHHHHHHC
+Q Q_9186633_26    117 GYTLED---IAQMNIAKLAKRY  135 (151)
+Q Consensus       117 ~id~~~---~~~~~~~k~~~r~  135 (151)
+                      |+|+++   ++...+.++.+|+
+T Consensus        64 ~id~~~i~~~~~~~~~~~~~r~   85 (85)
+T cd11539          64 MDRLID--FHKQKKLERLAARL   83 (83)
+T ss_pred             CCCHHHHHHHHHHHHHHHHhcC
+
+
+No 25
+>cd11529 NTP-PPase_MazG_Cterm; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) C-terminal tandem-domain of MazG proteins from Escherichia coli and bacterial homologs'.
+Probab=98.41  E-value=8.3e-06  Score=53.46  Aligned_cols=87  Identities=17%  Similarity=0.177  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             ccccCHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHH
+Q Q_9186633_26     28 NQICELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILY  107 (151)
+Q Consensus        28 ~~~~~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~  107 (151)
+                      +..+....++++.......+..    ....+..+.++++++..++...                  +...+.+++||+|+
+T Consensus         1 Pal~~a~k~~~~~~~~g~~~~~----~~~~~~~l~~e~~el~~~~~~~------------------~~~~~~~elgd~l~   58 (116)
+T cd11529           1 PALMRAQKIQKRCANVGFDWTT----LGPVVDKVYEEIDEVMYEARQAvv----------------DQAKLEEEMGDLLF   60 (118)
+T ss_pred             CHHHHHHHHHHHHHHcCCCCCC----hHHHHHHHHHHHHHHHHHHHhc------------------CHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHhCCCHHHHHHHHHHHHHHHCC
+Q Q_9186633_26    108 YISIMSHEMGYTLEDIAQMNIAKLAKRYP  136 (151)
+Q Consensus       108 ~l~~la~~~~id~~~~~~~~~~k~~~r~~  136 (151)
+                      +++.++..+|+|+++++...+.++..++.
+T Consensus        59 ~l~~la~~~~id~e~~l~~~~~~~~~r~~   87 (116)
+T cd11529          61 ATVNLARHLGTKAEIALQKANEKFERRFR   89 (118)
+T ss_pred             HHHHHHHHhCCCHHHHHHHHHHHHHHHHH
+
+
+No 26
+>d4dk2a_ a.204.1.0 (A:) automated matches {Trypanosome (Trypanosoma brucei) [TaxId: 5691]}
+Probab=98.32  E-value=5.9e-06  Score=63.14  Aligned_cols=92  Identities=15%  Similarity=0.117  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             ccccccccCHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHH
+Q Q_9186633_26     24 VMNNNQICELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELG  103 (151)
+Q Consensus        24 ~~~~~~~~~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elg  103 (151)
+                      .++....+++.++|+.+.......+.....+...+.+|..|+||+++.+.+..........         +...+..|++
+T Consensus         1 ~l~~~~l~~L~elQ~~Ln~~i~~~w~~~~~~~~~~lAL~vE~gELan~~~wK~Wk~~~~~~---------d~e~l~eELa   71 (279)
+T d4dk2a_           1 SLSPLILRSLAELQDGLNTVVDKNWRQLRRPGDWSLAITMEAAELLDSYPWKWWKNVKAQP---------DLQNVKIELT   71 (279)
+T ss_dssp             CCCHHHHHHHHHHHHHHHHHHCTTHHHHCCHHHHHHHHHHHHHHHHHHSCCCTTSCCCCCC---------CHHHHHHHHH
+T ss_pred             CCChHHHhhHHHHHHHHHHHHhcChhhcCChHHHHHHHHHHHHHHHHHccccchhhcCCcc---------cHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHH
+Q Q_9186633_26    104 DILYYISIMSHEMGYTLEDIA  124 (151)
+Q Consensus       104 Dvl~~l~~la~~~~id~~~~~  124 (151)
+                      |++++++++|..+++++..++
+T Consensus        72 DiLhFlLSia~~~~id~~~~~   92 (279)
+T d4dk2a_          72 DILHFSLSGAMQVSDENSGAV   92 (279)
+T ss_dssp             HHHHHHHHHHHTCC-------
+T ss_pred             HHHHHHHHHHHHhCCCchHHH
+
+
+No 27
+>d1yvwa1 a.204.1.4 (A:4-95) Phosphoribosyl-ATP pyrophosphatase HisE {Bacillus cereus [TaxId: 1396]}
+Probab=98.30  E-value=4e-05  Score=48.92  Aligned_cols=81  Identities=14%  Similarity=0.099  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             HHHHHHHHHHHhccCccc-------chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQDF-------GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDI  105 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~~-------~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDv  105 (151)
+                      +.++.+.+..........       ......++.++.+|++|+..++...                  +...+..|+||+
+T Consensus         2 ~~~l~klvrdr~~~~~~~s~t~~ll~~~~~~l~~Kl~EEa~El~~a~~~~------------------~~~~~~~ElaDl   63 (92)
+T d1yvwa1           2 FKLLYKTIEERKGSPLPESYTNYLFSKGEDKILKKIGEECAEVIIACKNN------------------DKEEVVKEMVDV   63 (92)
+T ss_dssp             HHHHHHHHHHHHHSCCTTSHHHHHHHHCHHHHHHHHHHHHHHHHHHHHTT------------------CHHHHHHHHHHH
+T ss_pred             hHHHHHHHHHhcCCCCCCChhhhhhcccHHHHHHHHHHHHHHHHHHHHcC------------------CHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCHHHHHHHHHHHH
+Q Q_9186633_26    106 LYYISIMSHEMGYTLEDIAQMNIAKL  131 (151)
+Q Consensus       106 l~~l~~la~~~~id~~~~~~~~~~k~  131 (151)
+                      ++.++.++..+|+++++++.....+.
+T Consensus        64 l~~l~~l~~~~gi~~~~v~~~~~~r~   89 (92)
+T d1yvwa1          64 FYHCFVLLAEKNIALEDVMREVKERN   89 (92)
+T ss_dssp             HHHHHHHHHHTTCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHCCCCHHHHHHHHHHHh
+
+
+No 28
+>cd11530 NTP-PPase_DR2231_like; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in Deinococcus radiodurans DR2231 protein and its bacterial homologs.
+Probab=98.30  E-value=5.5e-05  Score=46.67  Aligned_cols=82  Identities=16%  Similarity=0.061  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHHhccCcccc--.---hhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCcccc.............H
+Q Q_9186633_26     35 QYQEAALRTWNTNQDFG--.---GRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGN.............T   95 (151)
+Q Consensus        35 e~q~~~~~~~~~~~~~~--.---~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~.............~   95 (151)
+                      +.+..............      ..+...+..+.+|++++.+++...                  +             .
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~.~~~~~~~~~~~~l~ee~~el~~~~~~~------------------~.............~   49 (88)
+T cd11530           2 ERLHEFHRAIGAATPERPTpPPPELLRLRQTLLDEESAEVRAEIDHL------------------LarqaagealsagdL   63 (102)
+T ss_pred             HHHHHHHHHHCCCCCCCCC.CCHHHHHHHHHHHHHHHHHHHHHHHcc------------------C.............H
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHH
+Q Q_9186633_26     96 HKIALELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKR  134 (151)
+Q Consensus        96 ~~l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r  134 (151)
+                      ..+.++++|+++.++.++...|+|+++++.....++..+
+T Consensus        50 ~~~~~~l~d~l~~~~~~~~~~~id~e~~l~~~~~~~~~k   88 (88)
+T cd11530          64 APLAHELADLLYVTYGALDQLGIDADAVFAEVHRANLSK  102 (102)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHhcC
+
+
+No 29
+>cd11544 NTP-PPase_DR2231; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in Deinococcus radiodurans DR2231 protein and its bacterial homologs.
+Probab=98.26  E-value=2.6e-05  Score=51.35  Aligned_cols=67  Identities=18%  Similarity=0.134  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHH.............HHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHHhCC
+Q Q_9186633_26     52 GRVLNAALGLSGESGEVADIVKK.............AIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHEMGY  118 (151)
+Q Consensus        52 ~~~~~~~~~L~eE~gEl~~~i~~.............~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~~~i  118 (151)
+                      ..+...+..+.+|++|+.+++..             .                  +...+.++++|+++.++.++..+|+
+T Consensus        26 ~~~~~~~~~l~eE~~El~~a~~~.............~------------------~~~~~~~el~D~l~~~~~l~~~~gi   74 (116)
+T cd11544          26 ELLRLRQTLLDEESAEVRAEIDHllarqaagealsaG------------------DLAPLAHELADLLYVTYGALDQLGI   87 (129)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHh.............C------------------CHHHHHHHHHHHHHHHHHHHHHcCC
+
+
+Q ss_pred             CHHHHHHHHHHHHHHHCC
+Q Q_9186633_26    119 TLEDIAQMNIAKLAKRYP  136 (151)
+Q Consensus       119 d~~~~~~~~~~k~~~r~~  136 (151)
+                      |+++++.....++..++.
+T Consensus        75 d~e~~l~~~~~~~~~r~~   92 (116)
+T cd11544          88 DADAVFAEVHRANLSKAS  105 (129)
+T ss_pred             CHHHHHHHHHHHHHHhcC
+
+
+No 30
+>COG4508 Dut2; Dimeric dUTPase, all-alpha-NTP-PPase (MazG) superfamily [Nucleotide transport and metabolism]. 
+Probab=98.15  E-value=2.7e-05  Score=54.42  Aligned_cols=84  Identities=20%  Similarity=0.027  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             ccccCHHHHHHHHHHHhc--cCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHH
+Q Q_9186633_26     28 NQICELDQYQEAALRTWN--TNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDI  105 (151)
+Q Consensus        28 ~~~~~l~e~q~~~~~~~~--~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDv  105 (151)
+                      +...++.++|+.+.....  ........+...+..|.+|+||+++.+............         +...+.+|++|+
+T Consensus         1 m~l~~l~~~Q~~l~~~~~~~~~~~~~~~~~~~~laL~~ElgEla~~~~~~k~w~~~~~~---------~~~~l~eEl~Dv   71 (161)
+T COG4508           1 MNLNKLFRLQEKLDNLILKKCNLLNFELVQKVALALLVEVGELANETRCFKYWKLSKPI---------DLAKILEEYSDG   71 (161)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHcCCCChHHHHHHHHHHHHHHHHHHHHHcccccccCCCCC---------CHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCH
+Q Q_9186633_26    106 LYYISIMSHEMGYTL  120 (151)
+Q Consensus       106 l~~l~~la~~~~id~  120 (151)
+                      +++++.+|..+|+++
+T Consensus        72 L~~~l~ia~~~~~~~   86 (161)
+T COG4508          72 LHFLLSIGLYYQLSD   86 (161)
+T ss_pred             HHHHHHHHHHcCccc
+
+
+No 31
+>d2a7wa1 a.204.1.4 (A:4-94) Phosphoribosyl-ATP pyrophosphatase HisE {Chromobacterium violaceum [TaxId: 536]}
+Probab=98.09  E-value=0.00024  Score=45.31  Aligned_cols=81  Identities=11%  Similarity=0.071  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             HHHHHHHHHHHhccCccc-------chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQDF-------GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDI  105 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~~-------~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDv  105 (151)
+                      +.++.+.+.......+..       ......++.++.+|++|+..+..                  ..+...+..|++|+
+T Consensus         3 l~~l~klvrdr~~~~~~~s~t~~ll~~~~~~l~~Kl~EEa~E~~~A~~------------------~~~~~~~~~E~aDl   64 (91)
+T d2a7wa1           3 LKNIADTLEARREAAPQSSYVASLFHKGEDAILKKVAEEAAETLMASK------------------DKDKLHLVREVADL   64 (91)
+T ss_dssp             HHHHHHHHHHGGGSCTTTCHHHHHHHHCHHHHHHHHHHHHHHHHHHHH------------------TTCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHhhCCCCCceeeeccccHHHHHHHHHHHHHHHHHHhc------------------cCChHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCHHHHHHHHHHHH
+Q Q_9186633_26    106 LYYISIMSHEMGYTLEDIAQMNIAKL  131 (151)
+Q Consensus       106 l~~l~~la~~~~id~~~~~~~~~~k~  131 (151)
+                      ++++..++..+|+++++++.....+.
+T Consensus        65 l~~~~~l~~~~gi~~~ev~~~~~~R~   90 (91)
+T d2a7wa1          65 WFHTMVLLTYHGLRPEDVVMELHRRE   90 (91)
+T ss_dssp             HHHHHHHHHHTTCCHHHHHHHHHHHC
+T ss_pred             HHHHHHHHHHCCCCHHHHHHHHHHHh
+
+
+No 32
+>PF08761.11 ; dUTPase_2 ; dUTPase
+Probab=98.09  E-value=3e-05  Score=54.10  Aligned_cols=86  Identities=19%  Similarity=0.105  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             cccCHHHHHHHHHHHhccCcccc--hhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHH
+Q Q_9186633_26     29 QICELDQYQEAALRTWNTNQDFG--GRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDIL  106 (151)
+Q Consensus        29 ~~~~l~e~q~~~~~~~~~~~~~~--~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl  106 (151)
+                      ....+.++|+.+.......+...  ..+...+..+.+|+||+++.+............         +...+.+|++|++
+T Consensus         1 ~l~~l~~~Q~~l~~~~~~~~~~~~~~~~~~~~~~l~~E~gEl~~~~~~~k~w~~~~~~---------~~~~l~~El~Dvl   71 (160)
+T Q5KWD7_GEOKA/2    1 NWPLLYDMQRMLDRRIETEHGLMEEDLFARKQLAFLVELGELANETRCFKFWSIKPPA---------PAERVLEEYVDGL   71 (160)
+T ss_pred             CHHHHHHHHHHHHHHHHHHhCCCchhHHHHHHHHHHHHHHHHHHHHcccccccCCCCC---------ChHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhCCCHHHH
+Q Q_9186633_26    107 YYISIMSHEMGYTLEDI  123 (151)
+Q Consensus       107 ~~l~~la~~~~id~~~~  123 (151)
+                      ++++.+|..+++++..+
+T Consensus        72 ~~~l~l~~~~~~~~~~~   88 (160)
+T Q5KWD7_GEOKA/2   72 HFLLSLGLECGLFYEEN   88 (160)
+T ss_pred             HHHHHHHHHcCCCcccc
+
+
+No 33
+>d1y6xa1 a.204.1.4 (A:7-93) Phosphoribosyl-ATP pyrophosphatase HisE {Mycobacterium tuberculosis [TaxId: 1773]}
+Probab=98.04  E-value=0.00031  Score=44.37  Aligned_cols=79  Identities=19%  Similarity=0.245  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ccCHHHHHHHHHHHhccCccc-------chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHH
+Q Q_9186633_26     30 ICELDQYQEAALRTWNTNQDF-------GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALEL  102 (151)
+Q Consensus        30 ~~~l~e~q~~~~~~~~~~~~~-------~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~el  102 (151)
+                      ...+.++...++.........       ......++.++.+|++|+..++.                  ..+...+..|+
+T Consensus         1 ~~~l~~l~~li~dr~~~~~~~s~t~~ll~~~~~~l~~Kl~EEa~E~~~a~~------------------~~~~~~~~~E~   62 (87)
+T d1y6xa1           1 VKTFEDLFAELGDRARTRPADSTTVAALDGGVHALGKKLLEEAGEVWLAAE------------------HESNDALAEEI   62 (87)
+T ss_dssp             CCSHHHHHHHHHHHHHHCCTTCHHHHHHHTCHHHHHHHHHHHHHHHHHHHH------------------HSCHHHHHHHH
+T ss_pred             CchHHHHHHHHHHHhhcCCCCCcceehhcchHHHHHHHHHHHHHHHHHHHh------------------cCChHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHhCCCHHHHHHH
+Q Q_9186633_26    103 GDILYYISIMSHEMGYTLEDIAQM  126 (151)
+Q Consensus       103 gDvl~~l~~la~~~~id~~~~~~~  126 (151)
+                      +|+++++..++..+|+++++++..
+T Consensus        63 aDll~~~~~l~~~~gi~~~ev~~e   86 (87)
+T d1y6xa1          63 SQLLYWTQVLMISRGLSLDDVYRK   86 (87)
+T ss_dssp             HHHHHHHHHHHHHHTCCHHHHHTT
+T ss_pred             HHHHHHHHHHHHHcCCCHHHHHhh
+
+
+No 34
+>PF04447.12 ; DUF550 ; Protein of unknown function (DUF550)
+Probab=98.03  E-value=7.1e-05  Score=48.32  Aligned_cols=80  Identities=18%  Similarity=0.007  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             HHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_26     34 DQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMS  113 (151)
+Q Consensus        34 ~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la  113 (151)
+                      ....+|.........     +...+..+.+|++|+..+                        .....|++|++++++.+|
+T Consensus         3 ~~~~~W~~~~fg~~~-----~~~~~~~l~~E~~El~~~------------------------~~~~~E~aDv~i~l~~~~   53 (97)
+T A6T891_KLEP7/6    3 REHAEWSHATFGNVG-----PAGPLKHLSIEALEAAAE------------------------PNDHSEWADIQFLMWDAQ   53 (97)
+T ss_pred             hHHHHHHHhhhCCCC-----chHHHHHHHHHHHHHHhC------------------------CCCHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHhCCC---HHHHHHHHHHHHHHHCCCCCCHH
+Q Q_9186633_26    114 HEMGYT---LEDIAQMNIAKLAKRYPDGFSRE  142 (151)
+Q Consensus       114 ~~~~id---~~~~~~~~~~k~~~r~~~~~~~~  142 (151)
+                      ..+|+|   +.+++...+.++..|.......+
+T Consensus        54 ~~~gid~e~l~~a~~~K~~~n~~R~~~~~~~~   85 (97)
+T A6T891_KLEP7/6   54 RRAGITDEQITQAMIDKLAVNKARQWPEPKDG   85 (97)
+T ss_pred             HHCCCCHHHHHHHHHHHHHHHhcCCCCCCCCC
+
+
+No 35
+>COG4696 COG4696; Predicted phosphohydrolase, Cof family, HAD superfamily [General function prediction only]. 
+Probab=97.94  E-value=0.0002  Score=51.50  Aligned_cols=91  Identities=12%  Similarity=-0.093  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             ccccccCHHHHHHHHHHHhccCcc---------cchhHHHHHHHHHHHHHHHHHHHH-----------------------
+Q Q_9186633_26     26 NNNQICELDQYQEAALRTWNTNQD---------FGGRVLNAALGLSGESGEVADIVK-----------------------   73 (151)
+Q Consensus        26 ~~~~~~~l~e~q~~~~~~~~~~~~---------~~~~~~~~~~~L~eE~gEl~~~i~-----------------------   73 (151)
+                      .+....++..++..+..+...++.         ........+..+.||++|++.++.                       
+T Consensus         2 ~~~~~~~~~~~~~~V~eFh~~fg~p~~~~P~~~~~e~~~~R~~ll~EEl~El~~Ai~~~~~~~~~~~~~~~~~~~~~~~~   81 (180)
+T COG4696           2 SEKDFVSRDTNFNKVKDFHRLMDAATQERPRAPPPEEARLRAGFKVEEIVEFLYAASPGEQDFTQAVEILHQAVDQAANK   81 (180)
+T ss_pred             ccccccccccHHHHHHHHHHHcCCccCCCCCCCCHHHHHHHHHHHHHHHHHHHHHhCCCCcchHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---------HHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCC
+Q Q_9186633_26     74 ---------KAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKRYP  136 (151)
+Q Consensus        74 ---------~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~  136 (151)
+                               ..                    ..+.++|+|+++.++..+..+|+|++.+|......+..+..
+T Consensus        82 ~~~~~~~~~dl--------------------~e~aDaL~Diiyv~~G~~~~~Gid~d~~f~eVh~sNmsKl~  133 (180)
+T COG4696          82 VLSKGHAEQDL--------------------IGQVDALADLLYFTYGSLVLMGIDPDAIFAAVHRANMGKIF  133 (180)
+T ss_pred             HHccCcccccH--------------------HHHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHhhcccC
+
+
+No 36
+>PF01503.17 ; PRA-PH ; Phosphoribosyl-ATP pyrophosphohydrolase
+Probab=97.92  E-value=0.00018  Score=47.85  Aligned_cols=62  Identities=21%  Similarity=-0.013  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccc---------------------------------cHHHH
+Q Q_9186633_26     52 GRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEG---------------------------------NTHKI   98 (151)
+Q Consensus        52 ~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~---------------------------------~~~~l   98 (151)
+                      ......+..+.+|++|+..++.                  ..                                 +...+
+T Consensus        22 ~~~~~~~~~i~EE~~El~~a~~------------------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   83 (116)
+T Q5HMX0_STAEQ/8   22 ERAVQRADYLVEELVEFLWSSV------------------AGNEHETEKLVDELIHSIHKAKNKCFNKGEFPKEEILLNQ   83 (116)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHhh------------------cCCHHHHHHHHHHHHHHHHHhhhhcccCCCCCcHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHH
+Q Q_9186633_26     99 ALELGDILYYISIMSHEMGYTLEDIAQMNIAKL  131 (151)
+Q Consensus        99 ~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~  131 (151)
+                      .+++||+++.++.++..+|+|++.++......+
+T Consensus        84 ~delgDll~~~~~~a~~~gid~e~~l~~v~~~n  116 (116)
+T Q5HMX0_STAEQ/8   84 TDALNDINYINYGSIVETGVNPKPIFEIIQKAN  116 (116)
+T ss_pred             HHHHHHHHHHHHHHHHHhCCChHHHHHHHHHhC
+
+
+No 37
+>d1yxba1 a.204.1.4 (A:4-90) Phosphoribosyl-ATP pyrophosphatase HisE {Streptomyces coelicolor [TaxId: 1902]}
+Probab=97.90  E-value=0.0007  Score=42.83  Aligned_cols=77  Identities=16%  Similarity=0.172  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             CHHHHHHHHHHHhccCccc--------chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHH
+Q Q_9186633_26     32 ELDQYQEAALRTWNTNQDF--------GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELG  103 (151)
+Q Consensus        32 ~l~e~q~~~~~~~~~~~~~--------~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elg  103 (151)
+                      .+.++...+..........        ......+..++.+|++|+..++...                  +...+..|++
+T Consensus         2 ~l~~l~~~i~~r~~~~~~~~s~t~~ll~~~~~~L~~Kl~EEa~E~~~a~~~~------------------~~~~~~~E~a   63 (87)
+T d1yxba1           2 TFEELFTELQHKAANGDPATSRTAELVDKGVHAIGKKVVEEAAEVWMAAEYE------------------GKDAAAEEIS   63 (87)
+T ss_dssp             CHHHHHHHHHHHTCC----CCSSCCHHHHCHHHHHHHHHHHHHHHHHHHHHS------------------CHHHHHHHHH
+T ss_pred             hHHHHHHHHHHHHHcCCCCCChheehhhhhHHHHHHHHHHHHHHHHHHHHhc------------------CHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHH
+Q Q_9186633_26    104 DILYYISIMSHEMGYTLEDIAQM  126 (151)
+Q Consensus       104 Dvl~~l~~la~~~~id~~~~~~~  126 (151)
+                      |+++.+..++..+|++++++...
+T Consensus        64 Dll~~~~~l~~~~gi~~~~v~~e   86 (87)
+T d1yxba1          64 QLLYHVQVMMVARGISLDDVYAH   86 (87)
+T ss_dssp             HHHHHHHHHHHHTTCCHHHHHHH
+T ss_pred             HHHHHHHHHHHHCCCCHHHHHhh
+
+
+No 38
+>cd11532 NTP-PPase_COG4997; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in a group of uncharacterized proteins from archaea and bacteria.
+Probab=97.89  E-value=0.00045  Score=44.44  Aligned_cols=67  Identities=19%  Similarity=0.134  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHH
+Q Q_9186633_26     52 GRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHEMGYTLEDIAQMNIAKL  131 (151)
+Q Consensus        52 ~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~  131 (151)
+                      .+...+..+|.+|+.|+..+                     .+. .+..|++|++..+..++..+|++++++......+.
+T Consensus        29 e~~~~L~~KL~EEa~E~~~a---------------------~~~-~~~~ElADllevl~~l~~~~gi~~~ev~~~~~~k~   86 (95)
+T cd11532          29 EFLLELERKLEEELAEYLES---------------------K----EAEELADLLEVIYRIAELRGFSKEALESVRLKKR   83 (92)
+T ss_pred             HHHHHHHHHHHHHHHHHHHc---------------------CCH-HHHHHHHHHHHHHHHHHHHCCCCHHHHHHHHHHHH
+
+
+Q ss_pred             HHHCCCCCC
+Q Q_9186633_26    132 AKRYPDGFS  140 (151)
+Q Consensus       132 ~~r~~~~~~  140 (151)
+                      ..+.....+
+T Consensus        87 ~~rG~f~~~   95 (95)
+T cd11532          84 KESGGFEKN   92 (92)
+T ss_pred             HHcCCcccC
+
+
+No 39
+>cd11547 NTP-PPase_HisE; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in Mycobacterium tuberculosis phosphoribosyl-ATP pyrophosphohydrolase (HisE or PRATP-PH) and its bacterial homologs.
+Probab=97.86  E-value=0.00079  Score=42.34  Aligned_cols=77  Identities=19%  Similarity=0.254  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CHHHHHHHHHHHhccCccc-------chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHH
+Q Q_9186633_26     32 ELDQYQEAALRTWNTNQDF-------GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGD  104 (151)
+Q Consensus        32 ~l~e~q~~~~~~~~~~~~~-------~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgD  104 (151)
+                      .+..+...+.......+..       ......++.++.+|+.|+..++...                  +...+..|++|
+T Consensus         2 ~l~~l~~~i~~r~~~~~~~s~~~~ll~~~~~~l~~Kl~EEa~E~~~a~~~~------------------~~~~~i~E~aD   63 (86)
+T cd11547           2 TFEDLFAELGDRARTRPADSTTVAALDGGVHALGKKLLEEAGEVWLAAEHE------------------SNDALAEEISQ   63 (86)
+T ss_pred             cHHHHHHHHHHHHhhCCCCCcceehhchhHHHHHHHHHHHHHHHHHHHhhC------------------ChHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHhCCCHHHHHHH
+Q Q_9186633_26    105 ILYYISIMSHEMGYTLEDIAQM  126 (151)
+Q Consensus       105 vl~~l~~la~~~~id~~~~~~~  126 (151)
+                      +++++..++..+|+++.+++..
+T Consensus        64 ll~~l~~l~~~~gi~~~~v~~e   85 (86)
+T cd11547          64 LLYWTQVLMISRGLSLDDVYRK   85 (86)
+T ss_pred             HHHHHHHHHHHcCCCHHHHHHh
+
+
+No 40
+>d1ogla_ a.204.1.1 (A:) Type II deoxyuridine triphosphatase {Trypanosoma cruzi [TaxId: 5693]}
+Probab=97.71  E-value=0.00032  Score=53.49  Aligned_cols=93  Identities=17%  Similarity=0.082  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             ccccccCHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHH
+Q Q_9186633_26     26 NNNQICELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDI  105 (151)
+Q Consensus        26 ~~~~~~~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDv  105 (151)
+                      +.....+|.++|+.+.......+.....+......+..|++|+++.+.+..........         +...+..|++|+
+T Consensus         3 ~~d~L~~MlelQ~~Ln~~i~~~W~~~~~l~~~~~AI~vElaEL~d~~~WK~WK~~~~~~---------d~~~i~eELVDI   73 (270)
+T d1ogla_           3 PARVLNSLAHLQDGLNIFMDPDWRQIRHVDDWALAITMESAELIDSYPWKWWKNVKAQT---------DMHNVRIEIADI   73 (270)
+T ss_dssp             CHHHHHHHHHHHHHHHHHHCTTHHHHCCHHHHHHHHHHHHHHHHHTSCCCTTSCCCSCC---------CHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHHhcCCchhhcCCHHHHHHHHHHHHHHHHHHcCCcchHhccccc---------chHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCHHHHHHHH
+Q Q_9186633_26    106 LYYISIMSHEMGYTLEDIAQMN  127 (151)
+Q Consensus       106 l~~l~~la~~~~id~~~~~~~~  127 (151)
+                      ++++++++...+++...++...
+T Consensus        74 LHFlLSlal~~~id~~~~~~~~   95 (270)
+T d1ogla_          74 LHFSLSGEIQKRTQDEKGADDV   95 (270)
+T ss_dssp             HHHHHHHHHHHHTTC----CHH
+T ss_pred             HHHHHHHHHHcCCCchHHHHHH
+
+
+No 41
+>cd11534 NTP-PPase_HisIE_like; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in Escherichia coli phosphoribosyl-ATP pyrophosphohydrolase (HisIE or PRATP-PH) and its homologs.
+Probab=97.71  E-value=0.00078  Score=42.16  Aligned_cols=76  Identities=12%  Similarity=0.118  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHHhccCccc-------chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQDF-------GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDI  105 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~~-------~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDv  105 (151)
+                      +.++...+..........       ......+..++.+|+.|+..++...                  +...+..|++|+
+T Consensus         1 l~~l~~~i~~r~~~~~~~s~~~~l~~~~~~~l~~Kl~EEa~E~~~a~~~~------------------~~~~~~~E~aDl   62 (84)
+T cd11534           1 LKNIADTLEARREAAPQSSYVASLFHKGEDAILKKVAEEAAETLXASKDK------------------DKLHLVREVADL   62 (84)
+T ss_pred             ChHHHHHHHHHHHhCCCCCceeecccccHHHHHHHHHHHHHHHHHhhccC------------------CHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCHHHHHHH
+Q Q_9186633_26    106 LYYISIMSHEMGYTLEDIAQM  126 (151)
+Q Consensus       106 l~~l~~la~~~~id~~~~~~~  126 (151)
+                      ++++..++...|+++++++..
+T Consensus        63 l~~l~~l~~~~gi~~~~v~~e   83 (84)
+T cd11534          63 WFHTXVLLTYHGLRPEDVVXE   83 (84)
+T ss_pred             HHHHHHHHHHcCCCHHHHhhc
+
+
+No 42
+>cd11545 NTP-PPase_YP_001813558; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in Exiguobacterium sibiricum YP_001813558.
+Probab=97.70  E-value=0.0015  Score=43.58  Aligned_cols=80  Identities=15%  Similarity=0.037  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             CHHHHHHHHHHHhccCccc-----chhHHHHHHHHHHHH.HHHHHHHHHHHHcCCCCCcccCCCCccccHHH........
+Q Q_9186633_26     32 ELDQYQEAALRTWNTNQDF-----GGRVLNAALGLSGES.GEVADIVKKAIFHGHGFDPAHCPGEEEGNTHK........   97 (151)
+Q Consensus        32 ~l~e~q~~~~~~~~~~~~~-----~~~~~~~~~~L~eE~.gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~........   97 (151)
+                      .+.........+.......     .......+..+.+|+ +|+.+++                                 
+T Consensus         1 ~~~~V~~F~~~~~~~~~~~p~~~~~~~~~~~~~ll~EE~.~El~~a~-------------------------........   46 (115)
+T cd11545           1 YYQDVKQFHQTFHHPGADQPTAIPLDRGVKRATWTAEEAvVEFLHQSsqneteflaaietfkagldqavkkslketypvt   80 (156)
+T ss_pred             ChHHHHHHHHHhCCCCCCCCCCCChHHHHHHHHHHHHHH.HHHHHHH-------------------------........
+
+
+Q ss_pred             .......HHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCC
+Q Q_9186633_26     98 .......IALELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKRYP  136 (151)
+Q Consensus        98 .......l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~  136 (151)
+                             +.++++|+++.++.++..+|+|++.++....+++..+..
+T Consensus        47 .......~~d~l~Di~~v~~G~~~~~Gid~~~~~~~V~~sNmsK~~   85 (115)
+T cd11545          81 everlvgQGDALTDALYFIXGSFVEAGLEPGPLFEIVQQANXAKLG  126 (156)
+T ss_pred             .......HHHHHHHHHHHHHhHHHHcCCCchHHHHHHHHHcccccC
+
+
+No 43
+>cd11546 NTP-PPase_His4; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain found in His4-like fungal histidine biosynthesis trifunctional proteins and their homologs.
+Probab=97.61  E-value=0.0023  Score=39.85  Aligned_cols=77  Identities=13%  Similarity=0.134  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CHHHHHHHHHHHhccCccc-------chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHH
+Q Q_9186633_26     32 ELDQYQEAALRTWNTNQDF-------GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGD  104 (151)
+Q Consensus        32 ~l~e~q~~~~~~~~~~~~~-------~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgD  104 (151)
+                      ++..+...+..........       ... ..++.++.+|++|+..+-..                     ..+..+++|
+T Consensus         1 ~l~~l~~~i~~r~~~~~~~s~~~~ll~~~-~~l~~kl~EE~~El~~a~~~---------------------~~~~~E~aD   58 (84)
+T cd11546           1 GLVGLESLLKQRLQDAPEESYTRRLFNDS-ALLDAKIKEEAEELTEAKGK---------------------KELSWEAAD   58 (84)
+T ss_pred             ChHHHHHHHHHHHhcCCCCccceeccCCH-HHHHHHHHHHHHHHHHhcCH---------------------HHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHhCCCHHHHHHHHHHH
+Q Q_9186633_26    105 ILYYISIMSHEMGYTLEDIAQMNIAK  130 (151)
+Q Consensus       105 vl~~l~~la~~~~id~~~~~~~~~~k  130 (151)
+                      +++.++.++..+|+++++++.....+
+T Consensus        59 ~l~~~~~l~~~~gi~~e~v~~~~~~r   84 (84)
+T cd11546          59 LFYFALAKLVANDVSLKDVENNLNMK   84 (84)
+T ss_pred             HHHHHHHHHHHCCCCHHHHHHHHhcC
+
+
+No 44
+>cd11523 NTP-PPase; Nucleoside Triphosphate Pyrophosphohydrolase (EC 3.6.1.8) MazG-like domain superfamily.
+Probab=97.51  E-value=0.0016  Score=38.25  Aligned_cols=71  Identities=18%  Similarity=0.194  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             HHHHHHHhccCccc-chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_26     37 QEAALRTWNTNQDF-GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHE  115 (151)
+Q Consensus        37 q~~~~~~~~~~~~~-~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~  115 (151)
+                      |.++.......... ...+...+..+.++++++...+.+..........         +...+.+++||+++.++.+|..
+T Consensus         1 q~~v~~~~~~~~~~~~~~~~~~~~~l~~e~~el~~~~~~~~~~~~~~~~---------~~~~l~~elgd~l~~l~~la~~   71 (72)
+T cd11523           1 QKIQKRCANVGFD--WTTLGPVVDKVYEEIDEVMYEARQAVV----------------DQAKLEEEMGDLLFATVNLARH   62 (63)
+T ss_pred             CHHHHHHHHHcCCcccCCHHHHHHHHHHHHHHHHHHHHHHccCCCCCHH---------HHHHHHHHHHHHHHHHHHHHHh
+
+
+Q ss_pred             h
+Q Q_9186633_26    116 M  116 (151)
+Q Consensus       116 ~  116 (151)
+                      +
+T Consensus        72 ~   72 (72)
+T cd11523          63 L   63 (63)
+T ss_pred             C
+
+
+No 45
+>d2p06a1 a.204.1.3 (A:1-84) Hypothetical protein AF0060 {Archaeoglobus fulgidus [TaxId: 2234]}
+Probab=97.46  E-value=0.0023  Score=40.33  Aligned_cols=71  Identities=13%  Similarity=0.033  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             cCHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHH
+Q Q_9186633_26     31 CELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYIS  110 (151)
+Q Consensus        31 ~~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~  110 (151)
+                      |.......++.......++....+..++..+.+|++||.+++.+.                  +...+..+++||..+++
+T Consensus        14 ~~a~~Me~~Lr~n~~k~gW~~~~~~~L~~~l~~E~~EL~~a~~~~------------------d~~~i~~E~ADVANfaM   75 (84)
+T d2p06a1          14 MHAKYMKRVSRPGNTPRPWFDFSEERLLSRLFEEMDELREAVEKE------------------DWENLRDELLDVANFCM   75 (84)
+T ss_dssp             HHHHHHHHHTSTTCCSCHHHHSCHHHHHHHHHHHHHHHHHHHHTT------------------CHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHhhcCCCCChhcCCHHHHHHHHHHHHHHHHHHHHcC------------------CHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhCCC
+Q Q_9186633_26    111 IMSHEMGYT  119 (151)
+Q Consensus       111 ~la~~~~id  119 (151)
+                      .+|..+++.
+T Consensus        76 Mlad~~~~~   84 (84)
+T d2p06a1          76 YLWGKLSVK   84 (84)
+T ss_dssp             HHHHHHHHC
+T ss_pred             HHHHHhCCC
+
+
+No 46
+>KOG4311 Histidinol dehydrogenase [Amino acid transport and metabolism]
+Probab=97.33  E-value=0.004  Score=49.36  Aligned_cols=84  Identities=18%  Similarity=0.212  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             HHHHHHHHHHHhccCccc-------chhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHH
+Q Q_9186633_26     33 LDQYQEAALRTWNTNQDF-------GGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDI  105 (151)
+Q Consensus        33 l~e~q~~~~~~~~~~~~~-------~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDv  105 (151)
+                      +.++...+.......+..       .. ...+..++.||+.|++.+...                     +++..|++|+
+T Consensus       245 L~~L~~~I~~Rk~~~p~~SYt~rLl~~-~~~L~kKl~EEA~El~~A~~~---------------------ee~~~ElADL  302 (359)
+T KOG4311         245 LYSLESILSKRKETAPEESYTRRLFTD-DALLCAKIREEAEELCRALEK---------------------NETPWEMADL  302 (359)
+T ss_pred             hHHHHHHHHHHHHcCCCCcceEEEcCC-HHHHHHHHHHHHHHHHHHhcC---------------------CCCHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhCCCHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_26    106 LYYISIMSHEMGYTLEDIAQMNIAKLAKRYPDG  138 (151)
+Q Consensus       106 l~~l~~la~~~~id~~~~~~~~~~k~~~r~~~~  138 (151)
+                      +++++.++...|++++++....-.|..+|....
+T Consensus       303 Lyhllvll~~~GIs~~dV~~~L~~K~~kr~~~~  335 (359)
+T KOG4311         303 LYFAMVLLVKRGVSLEDVLEVLNMKHRKVTRRK  335 (359)
+T ss_pred             HHHHHHHHHHcCCCHHHHHHHHhHHhHHHhcCC
+
+
+No 47
+>d1w2ya_ a.204.1.1 (A:) Type II deoxyuridine triphosphatase {Campylobacter jejuni [TaxId: 197]}
+Probab=97.13  E-value=0.0037  Score=46.67  Aligned_cols=87  Identities=15%  Similarity=0.027  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             ccccccccCHHHHHHHHHHHhccCcccchh-----HHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHH
+Q Q_9186633_26     24 VMNNNQICELDQYQEAALRTWNTNQDFGGR-----VLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKI   98 (151)
+Q Consensus        24 ~~~~~~~~~l~e~q~~~~~~~~~~~~~~~~-----~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l   98 (151)
+                      |++......+.++|+.+.............     +......+..|++|+++...+..........         +...+
+T Consensus         1 ~~~~~~L~~l~~lQ~~Ld~~i~~~~w~~~~~~~~~~~~~~~al~vEl~El~n~~~~K~Wk~~~~~~---------~~~~i   71 (229)
+T d1w2ya_           1 MTNIEILENMLKLQQKLNDETNGLNWENGYTKEGKLISWRRCIYMECAELIDSFTWKHWKNISSLT---------NWENV   71 (229)
+T ss_dssp             CCHHHHHHHHHHHHHHHHHHHHCTTGGGSBCTTCCBCCHHHHHHHHHHHHHTTSCCCSSSSTTCCC---------CHHHH
+T ss_pred             CchHHHHHHHHHHHHHHHHHHccCCcccCCCcCCCchHHHHHHHHHHHHHHHHhcccChhhcCCcc---------chHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCC
+Q Q_9186633_26     99 ALELGDILYYISIMSHEMGYT  119 (151)
+Q Consensus        99 ~~elgDvl~~l~~la~~~~id  119 (151)
+                      .+|++|+++++++++...+++
+T Consensus        72 leEl~DvlhF~lsi~~~~~~~   92 (229)
+T d1w2ya_          72 RIEIVDIWHFILSLLLEEYRD   92 (229)
+T ss_dssp             HHHHHHHHHHHHHHHHHHC--
+T ss_pred             HHHHHHHHHHHHHHHHHhCCC
+
+
+No 48
+>COG4997 COG4997; Predicted house-cleaning noncanonical NTP pyrophosphatase, all-alpha NTP-PPase (MazG) superfamily  [General function prediction only]. 
+Probab=97.02  E-value=0.016  Score=37.40  Aligned_cols=64  Identities=20%  Similarity=0.143  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHH
+Q Q_9186633_26     52 GRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHEMGYTLEDIAQMNIAKL  131 (151)
+Q Consensus        52 ~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~  131 (151)
+                      .+...+..+|.+|+.|+.+                         ....+||+|++-.+..++...|++.+++......|.
+T Consensus        32 ey~~~L~~KL~EE~~E~~~-------------------------~~~~eELADvlEVi~al~~~~gi~~~el~~~r~~K~   86 (95)
+T COG4997          32 EYKELLENKLLEEVEEFLE-------------------------DKNLEELADLLEVISRIAEARGFSKENLEALRLQKK   86 (95)
+T ss_pred             HHHHHHHHHHHHHHHHHHH-------------------------ccChHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHH
+
+
+Q ss_pred             HHHCCCCCC
+Q Q_9186633_26    132 AKRYPDGFS  140 (151)
+Q Consensus       132 ~~r~~~~~~  140 (151)
+                      ..|-+...+
+T Consensus        87 ~~rGgF~~~   95 (95)
+T COG4997          87 LEKGGFEKN   95 (95)
+T ss_pred             HHhCCCCCC
+
+
+No 49
+>d2yaya_ a.204.1.0 (A:) automated matches {Leishmania major [TaxId: 5664]}
+Probab=96.09  E-value=0.062  Score=41.01  Aligned_cols=77  Identities=21%  Similarity=0.121  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCC--CCCcccCCCCccccHHHHHHHHHHHHHHH
+Q Q_9186633_26     32 ELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGH--GFDPAHCPGEEEGNTHKIALELGDILYYI  109 (151)
+Q Consensus        32 ~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~--~~~~~~~~~~~~~~~~~l~~elgDvl~~l  109 (151)
+                      .|.++|+.+...................++..|++|+++...+.+.+..  ..+.           ..+..|+.|++.++
+T Consensus         9 ~Ml~lQ~~Ln~~I~~~~~~~~~l~~~~~Al~vElaEl~n~~~wKwWK~~~~~~D~-----------~~vleElVDilHF~   77 (257)
+T d2yaya_           9 SLAELQDGLNAMIDPSWRAVRSLDNWALAITMESTELLDSYPWKWWKNLNATPDL-----------ANVRIELVDIFHFS   77 (257)
+T ss_dssp             HHHHHHHHHHHHHCTTHHHHCCHHHHHHHHHHHHHHHHTTSCCCSSSSTTCCCCH-----------HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhcchhhcchhhHHHHHHHHHHHHHHHHHhcCccchhcCCCCCCh-----------HHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHhCCC
+Q Q_9186633_26    110 SIMSHEMGYT  119 (151)
+Q Consensus       110 ~~la~~~~id  119 (151)
+                      ++++...+++
+T Consensus        78 LSi~l~~~~~   87 (257)
+T d2yaya_          78 LSGAMQMRST   87 (257)
+T ss_dssp             HHHHHHHHTS
+T ss_pred             HHHHHHcCCC
+
+
+No 50
+>PF08761.11 ; dUTPase_2 ; dUTPase
+Probab=66.17  E-value=22  Score=24.69  Aligned_cols=38  Identities=13%  Similarity=0.085  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCCC
+Q Q_9186633_26    100 LELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKRYPD  137 (151)
+Q Consensus       100 ~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~~  137 (151)
+                      ..+-+++..++.++..+|+|.++++.....|+..++.+
+T Consensus       118 ~~~~~~~~~~~~l~~~lg~s~~ei~~aY~~K~~~N~~R  155 (160)
+T Q5KWD7_GEOKA/2  118 GEYDALFAEYWRLGVALGFSSDDIEAAYRRKNEVNHKR  155 (160)
+T ss_pred             HHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHH
+
+
+No 51
+>PF00509.18 ; Hemagglutinin ; Haemagglutinin
+Probab=57.23  E-value=1.7e+02  Score=25.59  Aligned_cols=88  Identities=18%  Similarity=0.071  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             CHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHH---
+Q Q_9186633_26     32 ELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYY---  108 (151)
+Q Consensus        32 ~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~---  108 (151)
+                      ++..-|+.+.++.......-+-....+..+-.|+.++-+.|....                   ..+.+...|++.+   
+T Consensus       381 D~kSTQ~Aid~It~klN~liek~N~~~e~i~~ef~e~E~~I~nL~-------------------k~vdD~~~d~ws~naE  441 (567)
+T HEMA_INBLE/18-  381 DLKSTQEAINKITKNLNYLSELEVKNLQRLSGAMNELHDEILELD-------------------EKVDDLRADTISSQIE  441 (567)
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-------------------HHHHHHHHHHHHhhhH
+
+
+Q ss_pred             -HHHHHHHhCCCH-HHHHHHHHHHHHHHCCCC
+Q Q_9186633_26    109 -ISIMSHEMGYTL-EDIAQMNIAKLAKRYPDG  138 (151)
+Q Consensus       109 -l~~la~~~~id~-~~~~~~~~~k~~~r~~~~  138 (151)
+                       ++.+.+..-+|+ ++-+....++.+++....
+T Consensus       442 LlvlleN~~tid~~ds~~~~L~ekvk~~L~~n  473 (567)
+T HEMA_INBLE/18-  442 LAVLLSNEGIINSEDEHLLALERKLKKMLGPS  473 (567)
+T ss_pred             HHHHHhccCcCCCchHHHHHHHHHHHHHHhch
+
+
+No 52
+>PF08418.10 ; Pol_alpha_B_N ; DNA polymerase alpha subunit B N-terminal
+Probab=55.71  E-value=38  Score=25.61  Aligned_cols=31  Identities=13%  Similarity=0.118  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHH
+Q Q_9186633_26    104 DILYYISIMSHEMGYTLEDIAQMNIAKLAKR  134 (151)
+Q Consensus       104 Dvl~~l~~la~~~~id~~~~~~~~~~k~~~r  134 (151)
+                      |++--|+.||..|+++.++++.+.......+
+T Consensus         2 ~vl~kc~slc~~y~ls~edL~~kWeaf~~~~   32 (244)
+T F0XCA0_GROCL/2    2 DVVMQLQSIMKMHGLPVQELFYKWEAYCIKM   32 (244)
+T ss_pred             cHHHHHHHHHHHhCCCHHHHHHHHHHHHHhc
+
+
+No 53
+>PF11020.8 ; DUF2610 ; Domain of unknown function (DUF2610)
+Probab=51.97  E-value=80  Score=20.06  Aligned_cols=31  Identities=10%  Similarity=0.192  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHhCCCHHHHHHHHHHH
+Q Q_9186633_26    100 LELGDILYYISIMSHEMGYTLEDIAQMNIAK  130 (151)
+Q Consensus       100 ~elgDvl~~l~~la~~~~id~~~~~~~~~~k  130 (151)
+                      .++-|.|.-|..+|...++++++.+.-.+..
+T Consensus        48 ~~V~dSl~kL~~lA~eN~vsf~dL~~yal~~   78 (81)
+T F7XUD1_MIDMI/1   48 PQIVESLIKIQKLAADNSVEFEELCYYALEA   78 (81)
+T ss_pred             HHHHHHHHHHHHHHHHcCCCHHHHHHHHHHH
+
+
+No 54
+>d1w2ya_ a.204.1.1 (A:) Type II deoxyuridine triphosphatase {Campylobacter jejuni [TaxId: 197]}
+Probab=43.57  E-value=90  Score=23.55  Aligned_cols=34  Identities=24%  Similarity=0.271  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             HHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHC
+Q Q_9186633_26    102 LGDILYYISIMSHEMGYTLEDIAQMNIAKLAKRY  135 (151)
+Q Consensus       102 lgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r~  135 (151)
+                      +.+++..++.++..+|++.++++.....|+..++
+T Consensus       147 ~~~l~~~fl~l~~~lGft~deI~~aY~~Kn~~N~  180 (229)
+T d1w2ya_         147 LGELLSTYFTLAIKCGLNLEILYKTYIGKNVLNI  180 (229)
+T ss_dssp             HHHHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHCCCCHHHHHHHHHHHHHHHH
+
+
+No 55
+>COG4508 Dut2; Dimeric dUTPase, all-alpha-NTP-PPase (MazG) superfamily [Nucleotide transport and metabolism]. 
+Probab=40.14  E-value=1.1e+02  Score=21.24  Aligned_cols=39  Identities=8%  Similarity=0.037  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCCC
+Q Q_9186633_26     99 ALELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKRYPD  137 (151)
+Q Consensus        99 ~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~~  137 (151)
+                      ...+..++..++.++..+|++.+++......|+..++.+
+T Consensus       118 ~~~~~~~~~~~l~lg~~lg~s~~eI~~~y~~K~~~N~~R  156 (161)
+T COG4508         118 KESILTLFSLYIGLGKLLNFSNEEIEKSYFEKNLINQQR  156 (161)
+T ss_pred             HHHHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHH
+
+
+No 56
+>d1irqa_ a.43.1.4 (A:) Omega transcriptional repressor {Streptococcus pyogenes [TaxId: 1314]}
+Probab=32.39  E-value=1.1e+02  Score=16.00  Aligned_cols=35  Identities=14%  Similarity=0.314  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCCCC
+Q Q_9186633_26    104 DILYYISIMSHEMGYTLEDIAQMNIAKLAKRYPDG  138 (151)
+Q Consensus       104 Dvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~~~  138 (151)
+                      ++...+-.+|...|.++.+.+...+..+..+....
+T Consensus        12 ~l~~~l~~~A~~~~~s~~~~i~~al~~~l~~~~~~   46 (48)
+T d1irqa_          12 DLHHIIKIETAKNGGNVKEVMDQALEEYIRKYLPD   46 (48)
+T ss_dssp             HHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHHSTT
+T ss_pred             HHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHCcc
+
+
+No 57
+>PF10723.9 ; RepB-RCR_reg ; Replication regulatory protein RepB
+Probab=32.07  E-value=1.8e+02  Score=18.22  Aligned_cols=31  Identities=13%  Similarity=0.109  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHH
+Q Q_9186633_26    104 DILYYISIMSHEMGYTLEDIAQMNIAKLAKR  134 (151)
+Q Consensus       104 Dvl~~l~~la~~~~id~~~~~~~~~~k~~~r  134 (151)
+                      ++...|-.+|...|++..++++..+.....+
+T Consensus        49 e~~~~L~~l~~~~G~T~sevIE~LI~~~~~~   79 (81)
+T Q93GS8_SALTY/8   49 IHKESLQQLCEETGTTQAQMIELLIEREMAK   79 (81)
+T ss_pred             HHHHHHHHHHHHHCCCHHHHHHHHHHHHHHh
+
+
+No 58
+>d2gpea_ a.43.1.11 (A:) automated matches {Escherichia coli [TaxId: 562]}
+Probab=31.18  E-value=1.1e+02  Score=15.57  Aligned_cols=36  Identities=8%  Similarity=-0.048  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCCCCC
+Q Q_9186633_26    104 DILYYISIMSHEMGYTLEDIAQMNIAKLAKRYPDGF  139 (151)
+Q Consensus       104 Dvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~~~~  139 (151)
+                      ++.-.+-.+|...|++..+++...+..+.......+
+T Consensus        12 ~~~~~l~~~a~~~~~s~s~~i~~~l~~~~~~~~~~~   47 (47)
+T d2gpea_          12 ATRERIKSAATRIDRTPHWLIKQAIFSYLEQLENSD   47 (47)
+T ss_dssp             HHHHHHHHHHHHTTCCHHHHHHHHHHHHHHHHHSCC
+T ss_pred             HHHHHHHHHHHhcCCCHHHHHHHHHHHHHHHHhcCC
+
+
+No 59
+>PF12644.7 ; DUF3782 ; Protein of unknown function (DUF3782)
+Probab=28.79  E-value=2e+02  Score=17.95  Aligned_cols=58  Identities=9%  Similarity=0.054  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHH
+Q Q_9186633_26     58 ALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKR  134 (151)
+Q Consensus        58 ~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r  134 (151)
+                      +.++.++...+.+.+.+..                   ..+...+..+-..+..+....|+++++++...+..+...
+T Consensus         3 ~~kl~e~~~~~~~~~~~~~-------------------~~l~~~~~~l~~~lg~Lg~r~G~~~E~~~r~~l~~~L~~   60 (82)
+T I3YAZ8_THIV6/9    3 NRQWREDQAAAREEFRLVH-------------------EEIMAQAKKFDRSIGALGARWGLQSEKAFRDALAGILED   60 (82)
+T ss_pred             hhHHHHHHHHHHHHHHHHH-------------------HHHHHHHHHHHHHHhHHHHHHhHHhHHHHHHHHHHHHHH
+
+
+No 60
+>COG3612 COG3612; Uncharacterized protein [Function unknown]. 
+Probab=28.68  E-value=2.1e+02  Score=20.56  Aligned_cols=38  Identities=13%  Similarity=0.191  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHH--HHHHHHHHHHHHhCCCHHHHHHHHHHHHHH
+Q Q_9186633_26     96 HKIALELG--DILYYISIMSHEMGYTLEDIAQMNIAKLAK  133 (151)
+Q Consensus        96 ~~l~~elg--Dvl~~l~~la~~~~id~~~~~~~~~~k~~~  133 (151)
+                      ...+++++  +.-..++.+|..+|+|+.+.+.+....+..
+T Consensus       116 n~~q~~l~~v~~E~AAllvAre~Gvdv~~~~~~~~~~~~~  155 (157)
+T COG3612         116 NSLQENLGLVTFQTAALIVAKEFGIDISGFIEEVEERVLF  155 (157)
+T ss_pred             HHHHHHhCCCCHHHHHHHHHHHhCCChhHHHHHHHHHHhc
+
+
+No 61
+>PF12651.7 ; RHH_3 ; Ribbon-helix-helix domain
+Probab=27.20  E-value=1.2e+02  Score=14.73  Aligned_cols=33  Identities=15%  Similarity=0.284  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCC
+Q Q_9186633_26    104 DILYYISIMSHEMGYTLEDIAQMNIAKLAKRYP  136 (151)
+Q Consensus       104 Dvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~  136 (151)
+                      ++...+-.+|...|++..+.+...+..+.....
+T Consensus        12 ~~~~~l~~~a~~~~~s~~~~i~~~l~~~~~~~~   44 (44)
+T Q9YEP4_AERPE/2   12 DLAQRLDEASRRLGVERSRLVEKAVEALLEDYR   44 (44)
+T ss_pred             HHHHHHHHHHHHHCCCHHHHHHHHHHHHHHhcC
+
+
+No 62
+>d1nvma1 a.5.7.1 (A:291-341) 4-hydroxy-2-oxovalerate aldolase DmpG, communication domain {Pseudomonas sp. [TaxId: 306]}
+Probab=26.74  E-value=1.7e+02  Score=16.38  Aligned_cols=28  Identities=14%  Similarity=0.011  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             HHHHHHHHHHHHHhCCCHHHHHHHHHHH
+Q Q_9186633_26    103 GDILYYISIMSHEMGYTLEDIAQMNIAK  130 (151)
+Q Consensus       103 gDvl~~l~~la~~~~id~~~~~~~~~~k  130 (151)
+                      +..+..+-.+|..||+|+.+++.+....
+T Consensus         2 Ssf~~~i~~~a~~~gvd~r~li~e~~~~   29 (51)
+T d1nvma1           2 SSFLRHAEIAAAKYNLKTLDILVELGHR   29 (51)
+T ss_dssp             TTHHHHHHHHHHHHTCCHHHHHHHHHHH
+T ss_pred             CchHHHHHHHHHHhCCCHHHHHHHHHhh
+
+
+No 63
+>d2cpga_ a.43.1.3 (A:) Transcriptional repressor CopG {Streptococcus agalactiae [TaxId: 1311]}
+Probab=25.04  E-value=1.3e+02  Score=14.55  Aligned_cols=32  Identities=19%  Similarity=0.325  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHC
+Q Q_9186633_26    104 DILYYISIMSHEMGYTLEDIAQMNIAKLAKRY  135 (151)
+Q Consensus       104 Dvl~~l~~la~~~~id~~~~~~~~~~k~~~r~  135 (151)
+                      ++.-.+-.+|...|++..+.+...+..+....
+T Consensus        12 ~~~~~l~~~a~~~~~s~~~~i~~~l~~~~~~~   43 (43)
+T d2cpga_          12 SVLENLEKMAREMGLSKSAMISVALENYKKGQ   43 (43)
+T ss_dssp             HHHHHHHHHHHHHTCCHHHHHHHHHHHHHHCC
+T ss_pred             HHHHHHHHHHHHhCCCHHHHHHHHHHHHHhcC
+
+
+No 64
+>KOG4302 Microtubule-associated protein essential for anaphase spindle elongation [Cell cycle control, cell division, chromosome partitioning, Cytoskeleton]
+Probab=24.21  E-value=6.8e+02  Score=22.42  Aligned_cols=74  Identities=11%  Similarity=0.070  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CHHHHHHHHHHHhccCcccchhHHHHHHHHHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHH
+Q Q_9186633_26     32 ELDQYQEAALRTWNTNQDFGGRVLNAALGLSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISI  111 (151)
+Q Consensus        32 ~l~e~q~~~~~~~~~~~~~~~~~~~~~~~L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~  111 (151)
+                      +...+...+..+|..-+..+......+..|..++.++............               ..+...|.+....+..
+T Consensus        15 ~~~~~l~~L~~iW~eiG~~~~er~~~~~~l~~~~~~~~~~~v~e~~~~k---------------~~l~q~I~~~~~el~~   79 (660)
+T KOG4302          15 TCGNLLNELQKIWDEIGESETERDKKLLRLEQECLEIYKRKVEEASESK---------------ARLLQEIAVIEAELND   79 (660)
+T ss_pred             HHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH---------------HHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHhCCCH
+Q Q_9186633_26    112 MSHEMGYTL  120 (151)
+Q Consensus       112 la~~~~id~  120 (151)
+                      ++..+|.+.
+T Consensus        80 L~~~Lg~~~   88 (660)
+T KOG4302          80 LCSALGEPS   88 (660)
+T ss_pred             HHHHhCCCc
+
+
+No 65
+>d4lrsa2 a.5.7.0 (A:295-346) automated matches {Thermomonospora curvata [TaxId: 471852]}
+Probab=23.31  E-value=2.1e+02  Score=16.10  Aligned_cols=28  Identities=14%  Similarity=0.072  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             HHHHHHHHHHHHHhCCCHHHHHHHHHHH
+Q Q_9186633_26    103 GDILYYISIMSHEMGYTLEDIAQMNIAK  130 (151)
+Q Consensus       103 gDvl~~l~~la~~~~id~~~~~~~~~~k  130 (151)
+                      +..+..+-.+|..||+|+.+++......
+T Consensus         2 Ssf~~~i~~~a~~~~vd~r~li~e~~~~   29 (52)
+T d4lrsa2           2 SSFLLHAERAAERYGVPAHEILQRVGEA   29 (52)
+T ss_dssp             TTHHHHHHHHHHHHTSCHHHHHHHHHHH
+T ss_pred             chhHHHHHHHHHHHCCCHHHHHHHHHhc
+
+
+No 66
+>PF00816.21 ; Histone_HNS ; H-NS histone family
+Probab=21.55  E-value=2.8e+02  Score=16.98  Aligned_cols=42  Identities=19%  Similarity=0.317  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHcCCCCCcccCCCCccccHHHHHHHHHHHHHHHHHHHHHhCCCHHHHH
+Q Q_9186633_26     61 LSGESGEVADIVKKAIFHGHGFDPAHCPGEEEGNTHKIALELGDILYYISIMSHEMGYTLEDIA  124 (151)
+Q Consensus        61 L~eE~gEl~~~i~~~~~~~~~~~~~~~~~~~~~~~~~l~~elgDvl~~l~~la~~~~id~~~~~  124 (151)
+                      |...+.++-..+.                      .....+...++-.+..++..+|+++++++
+T Consensus         2 l~~~~~~~~~~~~----------------------~~~~~~~~~~~~~i~~~~~~~gis~~dl~   43 (84)
+T Q8XSY2_RALSO/6    2 LVAQKAKLEEQIE----------------------AARSKELEAVIQQVRQTVAEYGLTAEDLG   43 (84)
+T ss_pred             hHHHHHHHHHHHH----------------------HHHHHHHHHHHHHHHHHHHHcCCCHHHHc
+
+
+No 67
+>d2yaya_ a.204.1.0 (A:) automated matches {Leishmania major [TaxId: 5664]}
+Probab=21.43  E-value=3.6e+02  Score=20.88  Aligned_cols=47  Identities=15%  Similarity=0.152  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHCCCCCCHH
+Q Q_9186633_26     96 HKIALELGDILYYISIMSHEMGYTLEDIAQMNIAKLAKRYPDGFSRE  142 (151)
+Q Consensus        96 ~~l~~elgDvl~~l~~la~~~~id~~~~~~~~~~k~~~r~~~~~~~~  142 (151)
+                      ......+..++..++.++..+|+++..++......+..|.....+.|
+T Consensus       141 ~~~~~~f~~~~~~~l~l~~~Lgf~I~~aY~~Kn~lN~~RQ~~GYk~g  187 (257)
+T d2yaya_         141 LANAYRFDVIIECIIYAAEDLGFNLVAYYIAKHTLNCIRQLSGYKDG  187 (257)
+T ss_dssp             HHHTTCHHHHHHHHHHHHHHHTCCHHHHHHHHHHHHHHHHHTTTTTT
+T ss_pred             HHHhccHHHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHcCCCCC
+
+

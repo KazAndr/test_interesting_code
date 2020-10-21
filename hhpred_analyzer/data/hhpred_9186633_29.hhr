@@ -1,0 +1,1741 @@
+Query         Q_9186633_29
+Match_columns 200
+No_of_seqs    69 out of 71
+Neff          5.33494
+Searched_HMMs 69205
+Date          Sun May 24 00:21:33 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_29.hhr -oa3m ../results/9186633_29.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 COG2433 COG2433; Possible nucl  80.9      44 0.00064   34.7  12.3  166   17-198   300-511 (652)
+  2 KOG2150 CCR4-NOT transcription  75.9      73  0.0011   32.6  12.0  128   56-190     9-155 (575)
+  3 PF08317.11 ; Spc7 ; Spc7 kinet  74.9      88  0.0013   28.6  15.7  159   11-198     2-182 (328)
+  4 d2q1sa_ c.2.1.0 (A:) automated  74.3      32 0.00046   29.1   7.9   98    2-104   253-350 (351)
+  5 d3ko8a_ c.2.1.0 (A:) automated  71.4      13 0.00019   30.0   4.8   86    3-88    226-311 (311)
+  6 PF07544.13 ; Med9 ; RNA polyme  65.8      39 0.00057   24.9   5.9   45   54-107    32-79  (80)
+  7 d4bkpa1 c.2.1.0 (A:8-320) auto  64.8      28  0.0004   28.8   5.5   82    2-89    230-311 (313)
+  8 d4zrma_ c.2.1.0 (A:) automated  62.9      35 0.00051   27.7   5.7   80    2-87    229-308 (308)
+  9 d3ruaa_ c.2.1.2 (A:) automated  61.6      32 0.00047   29.0   5.5   85    2-87    256-340 (341)
+ 10 COG5665 COG5665; CCR4-NOT tran  61.0 2.6E+02  0.0038   28.8  14.6  129   71-200    10-159 (548)
+ 11 PF13132.6 ; DUF3950 ; Domain o  60.1      11 0.00015   23.7   1.7   15   12-26     12-26  (30)
+ 12 PF07303.13 ; Occludin_ELL ; Oc  55.0 1.2E+02  0.0018   23.1   8.6   68   67-134     1-70  (103)
+ 13 d5uzha_ c.2.1.2 (A:) automated  54.6      71   0.001   27.3   6.4   87    2-89    243-345 (345)
+ 14 d2z1ma_ c.2.1.2 (A:) automated  53.8      60 0.00086   27.6   5.8   87    2-89    236-338 (338)
+ 15 PF04321.17 ; RmlD_sub_bind ; R  53.6      71   0.001   25.9   6.0   81    3-85    207-291 (291)
+ 16 PF03978.13 ; Borrelia_REV ; Bo  51.8 2.2E+02  0.0032   25.1   8.9   86   53-138    66-171 (174)
+ 17 KOG3366 Mitochondrial F1F0-ATP  50.1 2.1E+02   0.003   24.3   8.5   61   53-113    64-126 (172)
+ 18 PF14916.6 ; CCDC92 ; Coiled-co  46.3      55 0.00079   23.4   3.7   30  160-189     1-37  (57)
+ 19 d4lisa_ c.2.1.0 (A:) automated  46.2      52 0.00075   28.5   4.3   84    2-91    274-357 (364)
+ 20 PF15967.5 ; Nucleoporin_FG2 ;   45.8 4.7E+02  0.0069   27.2  16.1  119   58-186   251-375 (605)
+ 21 d4lw8a_ c.2.1.0 (A:) automated  45.8      92  0.0013   25.3   5.5   80    2-85    228-307 (308)
+ 22 PF08598.11 ; Sds3 ; Sds3-like   45.5 3.5E+02   0.005   25.5  10.3   98   52-185    19-116 (304)
+ 23 PF17335.2 ; IES5 ; Ino80 compl  44.1      99  0.0014   25.4   5.3   34   80-113     2-35  (113)
+ 24 d3ehea1 c.2.1.0 (A:4-305) auto  44.1 1.4E+02   0.002   24.2   6.2   84    2-89    219-302 (302)
+ 25 PF01777.18 ; Ribosomal_L27e ;   42.7      13 0.00019   28.1   0.1   15    1-15     30-44  (85)
+ 26 cd05253 UDP_GE_SDE_e; UDP gluc  42.0   1E+02  0.0015   26.4   5.5   77    3-85    255-331 (332)
+ 27 d2pk3a_ c.2.1.0 (A:) automated  41.5 1.3E+02  0.0019   24.2   5.7   79    3-85    230-308 (309)
+ 28 KOG4796 RNA polymerase II elon  37.5 6.1E+02  0.0089   26.1  11.6  109   64-180   491-600 (604)
+ 29 d2q1wa_ c.2.1.0 (A:) automated  36.7 1.8E+02  0.0026   23.7   5.9   74    9-86    225-298 (300)
+ 30 d1sb8a_ c.2.1.2 (A:) UDP-N-ace  36.3 1.9E+02  0.0027   24.4   6.1   84    2-87    256-340 (341)
+ 31 cd05234 UDP_G4E_2_SDR_e; UDP-g  35.5 1.3E+02  0.0019   24.3   4.9   71    9-83    234-304 (305)
+ 32 d2c20a_ c.2.1.0 (A:) automated  34.8 1.6E+02  0.0023   24.7   5.4   77    3-85    245-322 (329)
+ 33 cd05257 Arna_like_SDR_e; Arna   34.3 1.7E+02  0.0025   23.8   5.4   82    3-85    233-315 (316)
+ 34 PF15066.6 ; CAGE1 ; Cancer-ass  33.5 2.1E+02  0.0031   29.0   6.6   58   54-111   458-515 (515)
+ 35 PF08621.10 ; RPAP1_N ; RPAP1-l  32.8 2.1E+02   0.003   19.3   5.4   41   61-101     5-45  (46)
+ 36 PF07704.11 ; PSK_trans_fac ; R  32.6 2.5E+02  0.0037   20.2   7.9   62   55-119     6-67  (80)
+ 37 d1r66a_ c.2.1.2 (A:) dTDP-gluc  31.9 1.8E+02  0.0026   23.9   5.2   80    2-86    235-314 (322)
+ 38 d1oc2a_ c.2.1.2 (A:) dTDP-gluc  30.9 4.2E+02  0.0061   22.3   7.7  102    2-112   243-346 (346)
+ 39 d3m2pa1 c.2.1.0 (A:2-293) auto  30.7 2.1E+02   0.003   24.2   5.6   77    2-84    215-291 (292)
+ 40 PF12189.8 ; VirE1 ; Single-str  29.8      22 0.00032   26.1  -0.4   21    2-24     34-54  (63)
+ 41 d1n7ha_ c.2.1.2 (A:) GDP-manno  29.3 1.2E+02  0.0018   25.7   4.0   92    2-95    245-336 (339)
+ 42 cd05246 dTDP_GD_SDR_e; dTDP-D-  29.2 2.6E+02  0.0037   23.0   5.7   79    2-85    234-312 (315)
+ 43 PF02719.15 ; Polysacc_synt_2 ;  29.0   1E+02  0.0015   25.4   3.4   40    2-41    219-258 (295)
+ 44 PF15967.5 ; Nucleoporin_FG2 ;   28.6 4.8E+02  0.0069   27.2   8.5   59   53-111   362-426 (605)
+ 45 d6bi4a1 c.2.1.0 (A:2-321) auto  28.3 1.6E+02  0.0023   24.6   4.4   87    2-93    233-319 (320)
+ 46 cd05230 UGD_SDR_e; UDP-glucuro  28.1 1.5E+02  0.0021   24.3   4.0   70    9-84    236-305 (305)
+ 47 d1orra1 c.2.1.2 (A:3-339) CDP-  27.8 1.6E+02  0.0023   24.8   4.3   78    2-85    257-336 (337)
+ 48 d2jdii_ a.137.8.1 (I:) automat  27.5      91  0.0013   18.7   2.0   15   12-28      8-22  (25)
+ 49 KOG1510 RNA polymerase II holo  26.8 4.6E+02  0.0067   21.4   9.9   80  115-198    49-128 (139)
+ 50 COG4423 COG4423; Uncharacteriz  25.7 3.6E+02  0.0053   19.8   7.3   67   55-128     8-74  (81)
+ 51 d1rkxa_ c.2.1.2 (A:) CDP-gluco  25.6   2E+02  0.0028   24.9   4.6   96    2-102   256-351 (356)
+ 52 PF11221.8 ; Med21 ; Subunit 21  25.4 4.7E+02  0.0068   21.0  10.5   82  115-200    56-137 (137)
+ 53 cd05247 UDP_G4E_1_SDR_e; UDP-g  25.2 1.5E+02  0.0021   24.3   3.6   77    2-84    247-323 (323)
+ 54 PF08681.11 ; DUF1778 ; Protein  25.1 3.3E+02  0.0047   19.1   7.3   70   55-130     8-77  (80)
+ 55 d2b69a1 c.2.1.2 (A:4-315) UDP-  25.1   4E+02  0.0058   22.2   6.2   83    2-90    229-311 (312)
+ 56 cd05237 UDP_invert_4-6DH_SDR_e  24.9 1.5E+02  0.0022   23.9   3.6   49    3-51    220-274 (287)
+ 57 PF14591.6 ; AF0941-like ; AF09  24.5 5.4E+02  0.0078   21.3   8.6   70   51-134     2-75  (114)
+ 58 d2c5aa1 c.2.1.2 (A:13-375) GDP  24.4 4.4E+02  0.0064   23.1   6.6   84    2-92    250-333 (363)
+ 59 cd05260 GDP_MD_SDR_e; GDP-mann  24.2 2.1E+02   0.003   23.6   4.3   71    9-85    242-316 (316)
+ 60 PF15463.6 ; ECM11 ; Extracellu  23.9 5.4E+02  0.0078   21.1  11.4   99   37-135    23-126 (131)
+ 61 cd05255 SQD1_like_SDR_e; UDP_s  23.8 2.3E+02  0.0033   24.8   4.7   89    2-92    282-372 (382)
+ 62 cd05252 CDP_GD_SDR_e; CDP-D-gl  23.8 2.2E+02  0.0032   23.8   4.4   83    2-89    250-334 (336)
+ 63 PF13019.6 ; Sde2_N_Ubi ; Silen  23.7 5.9E+02  0.0085   21.6   7.0   56   57-112   114-176 (177)
+ 64 d1rpna_ c.2.1.2 (A:) GDP-manno  23.6 2.2E+02  0.0032   24.0   4.5   86    2-89    235-320 (321)
+ 65 d1k1fa_ a.147.1.1 (A:) Bcr-Abl  23.6 4.3E+02  0.0062   19.9   5.7   41  144-184    15-56  (67)
+ 66 d3sxpa_ c.2.1.0 (A:) automated  23.2   2E+02   0.003   23.7   4.1   78    2-85    246-323 (324)
+ 67 d1vl0a1 c.2.1.2 (A:1-280) DTDP  23.2 2.4E+02  0.0035   23.0   4.5   82    2-85    199-280 (280)
+ 68 d3enka_ c.2.1.0 (A:) automated  23.2   3E+02  0.0043   23.0   5.1   78    2-85    257-334 (340)
+ 69 PF02996.17 ; Prefoldin ; Prefo  23.0 4.4E+02  0.0064   19.8   6.9   44   70-113    70-113 (117)
+ 70 COG1087 GalE; UDP-glucose 4-ep  22.5 2.2E+02  0.0032   23.8   4.2   75    9-89    252-327 (329)
+ 71 PF07511.11 ; DUF1525 ; Protein  22.4 5.6E+02   0.008   20.7   6.9   73   40-112     9-86  (122)
+ 72 d1db3a_ c.2.1.2 (A:) GDP-manno  22.4 3.8E+02  0.0054   23.1   5.7   89    2-90    243-356 (357)
+ 73 cd05254 dTDP_HR_like_SDR_e; dT  22.3 2.2E+02  0.0032   22.8   4.0   72    2-75    206-278 (280)
+ 74 PF07166.11 ; DUF1398 ; Protein  22.2      96  0.0014   24.7   1.9   17   10-27     75-91  (118)
+ 75 cd05256 UDP_AE_SDR_e; UDP-N-ac  21.9 2.3E+02  0.0033   22.9   4.1   76    2-83    229-304 (304)
+ 76 d1udca_ c.2.1.2 (A:) Uridine d  21.6 2.5E+02  0.0036   23.4   4.3   78    2-85    254-331 (338)
+ 77 KOG1429 dTDP-glucose 4-6-dehyd  21.6 5.9E+02  0.0086   22.0   6.8   85    2-92    255-339 (350)
+ 78 PF17253.2 ; DUF5320 ; Family o  21.6 2.3E+02  0.0033   20.8   3.7   24  156-179    59-82  (83)
+ 79 d2p90a1 c.56.8.1 (A:6-274) Hyp  21.2 6.4E+02  0.0093   22.6   7.1   68   41-109   194-266 (269)
+ 80 PF10168.9 ; Nup88 ; Nuclear po  21.1 1.2E+03   0.017   23.9  10.3   77   54-131   623-706 (725)
+ 81 COG1089 Gmd; GDP-D-mannose deh  20.8 5.2E+02  0.0075   21.9   6.2   81    9-89    249-344 (345)
+ 82 cd05261 CAPF_like_SDR_e; capsu  20.6 1.7E+02  0.0024   22.7   2.9   46    2-47    190-235 (248)
+ 83 PF13376.6 ; OmdA ; Bacteriocin  20.4 3.8E+02  0.0054   18.0   5.0   59   40-113     1-59  (60)
+ 84 PF06569.11 ; DUF1128 ; Protein  20.3 3.8E+02  0.0055   20.2   4.5   35   47-81     28-65  (70)
+
+No 1
+>COG2433 COG2433; Possible nuclease of RNase H fold, RuvC/YqgF family [General function prediction only]. 
+Probab=80.86  E-value=44  Score=34.71  Aligned_cols=166  Identities=17%  Similarity=0.181  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             HHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCcc--------------------------CHHHHHHHHHHHHH----
+Q Q_9186633_29     17 GKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSY--------------------------HLESIKQDEEQLKN----   66 (200)
+Q Consensus        17 f~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y--------------------------~~~~l~~a~~~l~~----   66 (200)
+                      +++|+.+.|++|||.+.-.+..+  ++-+.-+   |                          |..++++..+.+..    
+T Consensus       300 ~P~~VeKia~~f~A~ly~P~~dL--sveEK~~---~~~~~~~~~~ndHERDALAAAlkAy~~yk~Kf~~Iekk~~~~~~~  374 (652)
+T COG2433         300 APETVKKIAASFNAVLYTPDRDL--SVEEKQE---ALRTLKISVSDDHERDALAAAYKAYLAYKPKLEKVERKLPELGIW  374 (652)
+T ss_pred             CcHHHHHHHHHcCCEEecCCCCC--CHHHHHH---HHHhcCCCCCChHHHHHHHHHHHHHHHhHHHHHHHHHHhhhcCCC
+
+
+Q ss_pred             ----------HhcCCHHHHHHHHHHHHHH------HHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCchhhHHHHHHHHH
+Q Q_9186633_29     67 ----------YRNMSLEEAEKQAENDYLL------SVSNAHEQRKRALEMKARYEKTLNEVKAWSIPSSEHKELKEFAIK  130 (200)
+Q Consensus        67 ----------~~~ms~~e~e~~~~~~y~~------~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~pPT~eH~~lKeFmi~  130 (200)
+                                +++.|+++|-....+.-..      . +..........+...+++.+++..++-+--=..-..-++=-++
+T Consensus       375 ~d~d~Vka~VIrG~sI~eaIe~~~~~~~~~~~~~~~-~~~~~~~~~~~~~i~~l~~~I~~L~~~~~~L~~el~e~~~~I~  453 (652)
+T COG2433         375 KDVERIKALVIRGYPLAEALSKVKEEERPREKEGTE-EEERREITVYEKRIKKLEETVERLEEENSELKRELEELKREIE  453 (652)
+T ss_pred             cCHHHHHHHHhCCCCHHHHHHhhhhhcCccccCCCc-hhhhhchhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHhhccccccCCCCCccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_29    131 QLEESIQWDCNLKFCDPDSVVKLSPEEWLERKIAMCEKNIKYHREEHEKELERVNLRNKWIKQLRDSL  198 (200)
+Q Consensus       131 QL~~Si~~Dc~~~y~~~~~p~~~~~~~w~~~~i~~~~~~i~y~~k~~~eEv~rt~~rN~Wi~~L~~SL  198 (200)
+                      +|+.-++.--.    +.      .-+.|+...|..++..|...+++..++-++.+.-..=|..|+.-+
+T Consensus       454 ~Le~~l~~~~~----e~------~~e~~~drei~~l~~~i~~L~~~l~~~~~~~~~L~~~l~~Lk~~~  511 (652)
+T COG2433         454 KLESELERFRR----EV------RDKVRKDREIRARDRRIERLEKELEEKKKRVEELERKLAELRKMR  511 (652)
+T ss_pred             HHHHHHHHHHH----HH------HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 2
+>KOG2150 CCR4-NOT transcriptional regulation complex, NOT5 subunit [Transcription]
+Probab=75.86  E-value=73  Score=32.61  Aligned_cols=128  Identities=17%  Similarity=0.263  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             HHHHHHHHHHHHhcCCHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCC--------CchhhHHHHH
+Q Q_9186633_29     56 SIKQDEEQLKNYRNMSLEEAEKQAENDYL-LSVSNAHEQRKRALEMKARYEKTLNEVKAWSI--------PSSEHKELKE  126 (200)
+Q Consensus        56 ~l~~a~~~l~~~~~ms~~e~e~~~~~~y~-~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~p--------PT~eH~~lKe  126 (200)
+                      .|++.-+++.+    ++++-+...++.+. ..-...+++-.+.+...+|.+...++|+.|..        +=.++..+-|
+T Consensus         9 Eidr~lkkv~E----g~~~fd~~~~k~~~~~~~~qkeK~E~dLkkeiKKLQR~RdqiK~w~~~~~ikdk~~L~e~rk~IE   84 (575)
+T KOG2150           9 EIDRCLKKVDE----GVEIFDEIYEKLHSANNVSQKEKLESDLKKEIKKLQRLRDQIKTWQSSSDIKDKDSLLDNRRLIE   84 (575)
+T ss_pred             HHHHHHHHHHH----HHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhCcccCChHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHH----------HHHHhhccccccCCCCCccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29    127 FAIKQLE----------ESIQWDCNLKFCDPDSVVKLSPEEWLERKIAMCEKNIKYHREEHEKELERVNLRNKW  190 (200)
+Q Consensus       127 Fmi~QL~----------~Si~~Dc~~~y~~~~~p~~~~~~~w~~~~i~~~~~~i~y~~k~~~eEv~rt~~rN~W  190 (200)
+                      ...++.+          .|-+--....-.++....+....+|+...|+.|+++|+-++-   ++++..-+|+.|
+T Consensus        85 ~~ME~fK~~Ek~~K~K~~SkegL~~~~~~~p~e~~k~e~~~wl~~~i~~L~~q~e~~e~---~~l~~~~~rhk~  155 (575)
+T KOG2150          85 QRMERFKAVEKEMKTKAFSKEGLSAAEKLDPKEKEKRDTMDWISNQIDELERQVDSFEA---EELERFIERHRW  155 (575)
+T ss_pred             HHHHHHHHHHHHhcccccchhhHhhhhcCCHhHHHHHHHHHHHHHHHHHHHHHHHHHHH---HHHHHHHHHHHH
+
+
+No 3
+>PF08317.11 ; Spc7 ; Spc7 kinetochore protein
+Probab=74.93  E-value=88  Score=28.61  Aligned_cols=159  Identities=12%  Similarity=0.106  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             cCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCccc-----------CCCccCHHHHHHHHH-HHHHHhcCCHHHHHHH
+Q Q_9186633_29     11 KGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDEL-----------KPTSYHLESIKQDEE-QLKNYRNMSLEEAEKQ   78 (200)
+Q Consensus        11 dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~f-----------eps~Y~~~~l~~a~~-~l~~~~~ms~~e~e~~   78 (200)
+                      +...+|+.+|+-.+.=-|--.+....-+...|.+..-           .+.......+-.|.. .+-.+.          
+T Consensus         2 ~~~~isl~eFL~~~gi~F~d~~~~~rR~t~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~~a~~~~~P~le----------   71 (328)
+T G3XZH3_ASPNA/9    2 QFEPIQLQDFLNMTNIHFMELTTTKRRHTTAPDSATKRAMRLSTESETKSSASDFEACVAAGFCTVPMLE----------   71 (328)
+T ss_pred             CCCCCcHHHHHHHcCCccccCCCCCCccCCCCcccchhhhhccccccccCCCCCHHHHHHHHHhhhHHHH----------
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCchhhHHHHHH----------HHHHHHHHHHhhccccccCCC
+Q Q_9186633_29     79 AENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKAWSIPSSEHKELKEF----------AIKQLEESIQWDCNLKFCDPD  148 (200)
+Q Consensus        79 ~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~pPT~eH~~lKeF----------mi~QL~~Si~~Dc~~~y~~~~  148 (200)
+                         .|...+..+.+.+.+....-+.++.-+...   +|+     -+++|          |..||+.. +.-|     .. 
+T Consensus        72 ---~y~~~c~eL~~~i~~~k~~~~~~E~~~~~~---nP~-----lf~ey~~a~~~~r~~m~~~lk~l-K~~~-----r~-  133 (328)
+T G3XZH3_ASPNA/9   72 ---LYQHSCRELKSYISEGRQIIRSIETETYAE---NPP-----LFREYMTAPPDIRLLMDNQFRNV-KTHA-----RL-  133 (328)
+T ss_pred             ---HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH---CCH-----HHHHHhhCCHHHHHHHHHHHHHH-HHHH-----HH-
+
+
+Q ss_pred             CCccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_29    149 SVVKLSPEEWLERKIAMCEKNIKYHREEHEKELERVNLRNKWIKQLRDSL  198 (200)
+Q Consensus       149 ~p~~~~~~~w~~~~i~~~~~~i~y~~k~~~eEv~rt~~rN~Wi~~L~~SL  198 (200)
+                       -.+..--+|+...+..+...+..+......+...+.+...=+..++..|
+T Consensus       134 -~Ak~~Wy~WR~~~~~~l~~~l~~~~~~L~~D~~~l~~~~~~l~~~~~~l  182 (328)
+T G3XZH3_ASPNA/9  134 -QSKATWYEWRMKLLEGLKDGLDRHVQEMKADGDILSKHEALLAGVVPGL  182 (328)
+T ss_pred             -HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhHHH
+
+
+No 4
+>d2q1sa_ c.2.1.0 (A:) automated matches {Bordetella bronchiseptica [TaxId: 518]}
+Probab=74.27  E-value=32  Score=29.15  Aligned_cols=98  Identities=14%  Similarity=0.145  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      ..|=+-.|.+|..+|..+++..+++.+|..+....-|.     ..+.+..+..-...+++..|.--...++++.-.....
+T Consensus       253 ~~~~~~~~~~~~~~s~~e~~~~i~~~~~~~~~~~~~~~-----~~~~~~~~~~~~~~k~~~~lg~~p~~~~~~~l~~~~~  327 (351)
+T d2q1sa_         253 TPGGVYNIASGKETSIADLATKINEITGNNTELDRLPK-----RPWDNSGKRFGSPEKARRELGFSADVSIDDGLRKTIE  327 (351)
+T ss_dssp             CTTEEEECCCCCCEEHHHHHHHHHHHHTCCSCCCCCCC-----CGGGCC-CCCCCCHHHHHHHCCCCCCCHHHHHHHHHH
+T ss_pred             CCCceEecCCCCeEeHHHHHHHHHHHHCCCceeeeCCC-----CCCCCCCccccChHHHHHHhCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     82 DYLLSVSNAHEQRKRALEMKARY  104 (200)
+Q Consensus        82 ~y~~~~~~~~~~~~~~~~lr~RY  104 (200)
+                      .|+..........+......+.|
+T Consensus       328 ~~~~~~~~~~~~~~~~~~~~~~~  350 (351)
+T d2q1sa_         328 WTKANLAVIEQIMRKHDSALATY  350 (351)
+T ss_dssp             HHHHTHHHHHHHHHTTHHHHHHC
+T ss_pred             HHHHCHHHHHHHHhHhHHHHHhh
+
+
+No 5
+>d3ko8a_ c.2.1.0 (A:) automated matches {Pyrobaculum calidifontis [TaxId: 410359]}
+Probab=71.41  E-value=13  Score=29.97  Aligned_cols=86  Identities=14%  Similarity=0.010  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHHH
+Q Q_9186633_29      3 TGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEND   82 (200)
+Q Consensus         3 TgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~   82 (200)
+                      .++.-.+..|..+|+.+|+..+++.+|..+.+...|.............+..-...++++.+.--...++++.-....+.
+T Consensus       226 ~~~~~~~~~~~~~t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lg~~~~~~~~~~~~~~~~~  305 (311)
+T d3ko8a_         226 PFLALNVGNVDAVRVLDIAQIVAEVLGLRPEIRLVPSTPDGRGWPGDVKYMTLAVTKLMKLTGWRPTMTSAEAVKKTAED  305 (311)
+T ss_dssp             SEEEEEESCSSCEEHHHHHHHHHHHHTCCCEEEEC----------CCCSEECBCCHHHHHHHCCCCSSCHHHHHHHHHHH
+T ss_pred             CceEEEeeCCCeEeHHHHHHHHHHHhCCCCcEEEcCCCCCCCCCCCCcceEEecHHHHHHHhCCCCCCCHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHH
+Q Q_9186633_29     83 YLLSVS   88 (200)
+Q Consensus        83 y~~~~~   88 (200)
+                      |...++
+T Consensus       306 ~~~~~~  311 (311)
+T d3ko8a_         306 LAKELW  311 (311)
+T ss_dssp             HHHHHC
+T ss_pred             HHHhcC
+
+
+No 6
+>PF07544.13 ; Med9 ; RNA polymerase II transcription mediator complex subunit 9
+Probab=65.77  E-value=39  Score=24.86  Aligned_cols=45  Identities=11%  Similarity=0.116  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             HHHHHHHHHHHHHHhcC--CHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     54 LESIKQDEEQLKNYRNM--SLEEAEKQAENDYL-LSVSNAHEQRKRALEMKARYEKT  107 (200)
+Q Consensus        54 ~~~l~~a~~~l~~~~~m--s~~e~e~~~~~~y~-~~~~~~~~~~~~~~~lr~RY~~m  107 (200)
+                      ..+|.+|+.-+..+.++  |+++         + +.++.+++.++...++-.+|..+
+T Consensus        32 k~kl~~ar~~l~~lpg~~~s~ee---------Q~~~i~~Le~~l~~k~~~L~~~~~~   79 (80)
+T A0A0D2X0R7_CAP   32 NAKIAQCRQVLDALAGAQYTQEQ---------QEQLIKHYEDALVHKRDLIRQYQAL   79 (80)
+T ss_pred             HHHHHHHHHHHHhCCCcCCCHHH---------HHHHHHHHHHHHHHHHHHHHHHHhc
+
+
+No 7
+>d4bkpa1 c.2.1.0 (A:8-320) automated matches {Human (Homo sapiens) [TaxId: 9606]}
+Probab=64.80  E-value=28  Score=28.75  Aligned_cols=82  Identities=11%  Similarity=0.010  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      +.+++-.|..|..+|+.|++-..++.+|......-.|.....+..+..+.      .++++.|.-....|++++-+...+
+T Consensus       230 ~~~~~~~i~~~~~~s~~ei~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~l~~~~~~~~~~~i~~~~~  303 (313)
+T d4bkpa1         230 VEPIILSVGEEDEVSIKEAAEAVVEAMDFHGEVTFDTTKSDGQFKKTASN------SKLRTYLPDFRFTPFKQAVKETCA  303 (313)
+T ss_dssp             SSCEEECCCGGGCEEHHHHHHHHHHHTTCCSCEEEETTSCCCCSCCCBCC------HHHHHHCTTCCCCCHHHHHHHHHH
+T ss_pred             CCCeEEEecCCCceeHHHHHHHHHHHcCCCCCeEEcCCCCCCceeeecCh------HHHHHHCCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHH
+Q Q_9186633_29     82 DYLLSVSN   89 (200)
+Q Consensus        82 ~y~~~~~~   89 (200)
+                      .|.+...+
+T Consensus       304 ~~~~~~~~  311 (313)
+T d4bkpa1         304 WFTDNYEQ  311 (313)
+T ss_dssp             HHHHTTTT
+T ss_pred             HHHHhhhh
+
+
+No 8
+>d4zrma_ c.2.1.0 (A:) automated matches {Thermotoga maritima [TaxId: 243274]}
+Probab=62.92  E-value=35  Score=27.71  Aligned_cols=80  Identities=14%  Similarity=0.006  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      |.|-.-.+..|..+|..+|+..+++.+|..+.....|.....+..+..+.      .++++.|.--...++++.-....+
+T Consensus       229 ~~~~~~~~~~~~~~t~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~lg~~~~~~~~~~i~~~~~  302 (308)
+T d4zrma_         229 GDNEVFNIGTGRGTTVNQLFKLLKEITGYDKEPVYKPPRKGDVRKSILDY------TKAKEKLGWEPKVSLEEGLKLTVE  302 (308)
+T ss_dssp             CTTEEEEESCSCCEEHHHHHHHHHHHHTCCCCCEEECCCTTCCSBCCBCC------HHHHHHHCCCCCSCHHHHHHHHHH
+T ss_pred             CCCceEEecCCCcccHHHHHHHHHHHHCCCCCCccCCCCCCCCcceeeeh------HHHHHHhCCCcccCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHH
+Q Q_9186633_29     82 DYLLSV   87 (200)
+Q Consensus        82 ~y~~~~   87 (200)
+                      .|.+.+
+T Consensus       303 ~~~~~l  308 (308)
+T d4zrma_         303 YFRKTL  308 (308)
+T ss_dssp             HHHHHC
+T ss_pred             HHHHhC
+
+
+No 9
+>d3ruaa_ c.2.1.2 (A:) automated matches {Plesiomonas shigelloides [TaxId: 703]}
+Probab=61.61  E-value=32  Score=29.04  Aligned_cols=85  Identities=7%  Similarity=0.016  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      ++|-+-.|.+|..+|+.|++-.+++.+|.......-+. ..-+.......+..-...++++.|.--...++++.-....+
+T Consensus       256 ~~~~~~~i~~~~~~s~~e~~~~i~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~lg~~p~~~~~~~l~~~~~  334 (341)
+T d3ruaa_         256 AKDNIYNVAVGDRTTLNELSGYIYDELNLIHHIDKLSI-KYREFRSGDVRHSQADVTKAIDLLKYRPNIKIREGLRLSMP  334 (341)
+T ss_dssp             GCSEEEEESCSCCEEHHHHHHHHHHHHHTTCCC------EEECCCTTCCSBCCBCCHHHHHHHCCCCCCCHHHHHHHHHH
+T ss_pred             cCCCEEEcCCCCceeHHHHHHHHHHHhccccccccccc-eeeccCCCCCcceeechHHHHHHhCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHH
+Q Q_9186633_29     82 DYLLSV   87 (200)
+Q Consensus        82 ~y~~~~   87 (200)
+                      .|...+
+T Consensus       335 ~~~~~~  340 (341)
+T d3ruaa_         335 WYVRFL  340 (341)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhc
+
+
+No 10
+>COG5665 COG5665; CCR4-NOT transcriptional regulation complex, NOT5 subunit  [Transcription]. 
+Probab=60.96  E-value=2.6e+02  Score=28.78  Aligned_cols=129  Identities=13%  Similarity=0.185  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             CHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCC--------CchhhHHHHHHHHHHHHHHHHhhcc
+Q Q_9186633_29     71 SLEEAEKQAENDYL-LSVSNAHEQRKRALEMKARYEKTLNEVKAWSI--------PSSEHKELKEFAIKQLEESIQWDCN  141 (200)
+Q Consensus        71 s~~e~e~~~~~~y~-~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~p--------PT~eH~~lKeFmi~QL~~Si~~Dc~  141 (200)
+                      ++++-+..-++.+. ..-...+++-.+.+...+|.+...++|+.|..        +-.++..+-|...++.+.. +-.-.
+T Consensus        10 G~~~Fd~i~~K~~~~~n~~qkEK~E~dLKkEIKKLQR~RdqIK~W~~~~diKdk~~L~e~Rk~IE~~MErFK~~-Eke~K   88 (548)
+T COG5665          10 GIEDFDDIYEKFQSTDNSSHREKLESDLKREIKKLQKHRDQIKTWLSKEDVKDKQVLMTNRRLIENGMERFKSV-EKLMK   88 (548)
+T ss_pred             HHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcchhhCCHHHHHHHHHHHHHHHHHHHHH-HHHHc
+
+
+Q ss_pred             cc-ccCCC--CCccCCHH--------HHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHhcC
+Q Q_9186633_29    142 LK-FCDPD--SVVKLSPE--------EWLERKIAMCEKNIKYHREE-HEKELERVNLRNKWIKQLRDSLEN  200 (200)
+Q Consensus       142 ~~-y~~~~--~p~~~~~~--------~w~~~~i~~~~~~i~y~~k~-~~eEv~rt~~rN~Wi~~L~~SL~~  200 (200)
+                      .. |....  .+..++|.        +|+...|+.|+++|+-++-+ ++.-|+|.+---.=|..++..|.+
+T Consensus        89 tK~fSkegL~~~~~~dp~e~ek~e~~~wl~~~i~~L~~QiE~~EaE~l~~~ierhk~Hi~kLE~iLR~l~N  159 (548)
+T COG5665          89 TKQFSKEALTNPDIIDPKELKKRDQVLFIHDCLDELQKQLEQYEAQENEEQTERHEFHIANLENILKKLQN  159 (548)
+T ss_pred             cCcCchhHhcCcccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHc
+
+
+No 11
+>PF13132.6 ; DUF3950 ; Domain of unknown function (DUF3950)
+Probab=60.08  E-value=11  Score=23.66  Aligned_cols=15  Identities=13%  Similarity=0.133  Sum_probs=0.0  Template_Neff=4.600
+
+Q ss_pred             CceeeHHHHHHHHHH
+Q Q_9186633_29     12 GQEVSGKDFVLKCAR   26 (200)
+Q Consensus        12 G~~~tf~~fal~CAR   26 (200)
+                      |+.+||..|+++|+|
+T Consensus        12 ~~~~sFS~~ViqaC~   26 (30)
+T Q7CQS6_SALTY/2   12 EKTRNFSAWVKEACR   26 (30)
+T ss_pred             CCCCCHHHHHHHHHH
+
+
+No 12
+>PF07303.13 ; Occludin_ELL ; Occludin homology domain
+Probab=54.97  E-value=1.2e+02  Score=23.08  Aligned_cols=68  Identities=10%  Similarity=0.189  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             HhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCch--hhHHHHHHHHHHHHH
+Q Q_9186633_29     67 YRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKAWSIPSS--EHKELKEFAIKQLEE  134 (200)
+Q Consensus        67 ~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~pPT~--eH~~lKeFmi~QL~~  134 (200)
+                      +..++..+-......+|.....++.....+.....+++..+=.++..-.+++.  ++..+.+-+......
+T Consensus         1 y~~I~s~eQr~~Yk~~F~~~Y~eY~~L~~~l~~v~~~F~~L~~~l~~~~~~s~~~e~~~i~~~i~~~y~~   70 (103)
+T E2B3A6_HARSA/5    1 YTTITNLEQRRRYKIAFHAHYEEYRRVHAMVAAVSQRFSQLYQRMTEQATRGNSDECQRLKQQIMAEYQE   70 (103)
+T ss_pred             CCCCCCHHHHHHHHHHHHHhhHHHHHHHHHHHHHHHHHHHHHHHHHhccCCCChHHHHHHHHHHHHHHHH
+
+
+No 13
+>d5uzha_ c.2.1.2 (A:) automated matches {Naegleria fowleri [TaxId: 5763]}
+Probab=54.60  E-value=71  Score=27.30  Aligned_cols=87  Identities=16%  Similarity=0.093  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCC----------------CCCCCcccCCCccCHHHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPL----------------NTPIPDELKPTSYHLESIKQDEEQLK   65 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~----------------~a~iPe~feps~Y~~~~l~~a~~~l~   65 (200)
+                      |.|-+-.|.+|..+|..||+-.+++.+|..+.....|.                ....+..+.+.... -....+++.|.
+T Consensus       243 ~~~~~~~i~~~~~~s~~e~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~lg  321 (345)
+T d5uzha_         243 EQPRDFCVATGEKHSVREFVEKAFACIGQTVEWKGERGTVEEHGVVDGVVRVRVDPRYFRPTEVDQLL-GDPTLAETVLG  321 (345)
+T ss_dssp             SSCCCEEECCSCCEEHHHHHHHHHHTTTCCCEEESSTTSTTCEEEETTEEEEEECGGGCCSSCCCBCC-BCCHHCCCCCC
+T ss_pred             CCCCcEEECCCcceeHHHHHHHHHHHhCCCCcccCcCCcccccceecCeEEEEECccccCCCcccccc-cCcHHHHHHHC
+
+
+Q ss_pred             HHhcCCHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     66 NYRNMSLEEAEKQAENDYLLSVSN   89 (200)
+Q Consensus        66 ~~~~ms~~e~e~~~~~~y~~~~~~   89 (200)
+                      --...|++++-+..-+.|.+.+.+
+T Consensus       322 ~~p~~~l~~~l~~~~~~~~~~~~~  345 (345)
+T d5uzha_         322 WKRKVSFEELVRGMVEGDIELLQS  345 (345)
+T ss_dssp             CCCCSCHHHHHHHHHHHHHHHHHC
+T ss_pred             CCcCCCHHHHHHHHHHHHHHHHhC
+
+
+No 14
+>d2z1ma_ c.2.1.2 (A:) automated matches {Aquifex aeolicus [TaxId: 224324]}
+Probab=53.80  E-value=60  Score=27.58  Aligned_cols=87  Identities=16%  Similarity=0.114  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCC----------------CCCcccCCCccCHHHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNT----------------PIPDELKPTSYHLESIKQDEEQLK   65 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a----------------~iPe~feps~Y~~~~l~~a~~~l~   65 (200)
+                      |.+=+-.|..|+.+|+.+++-.+++.+|..+.+.-.|...                +....+.++.+. -..+++++.|.
+T Consensus       236 ~~~~~~~i~~~~~~s~~e~~~~i~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~k~~~~lg  314 (338)
+T d2z1ma_         236 PEPDDYVIATGETHTVREFVEKAAKIAGFDIEWVGEGINEKGIDRNTGKVIVEVSEEFFRPAEVDILV-GNPEKAMKKLG  314 (338)
+T ss_dssp             SSCCCEEECCSCCEEHHHHHHHHHHHTTCCEEEESCGGGCEEEETTTCCEEEEECGGGSCSSCCCBCC-BCCHHHHHHHC
+T ss_pred             CCCCcEEECCCCeeeHHHHHHHHHHHhCCChhhccccccccCcCCCCCceEEEecCcccChhcccEEE-eCHHHHHHHHC
+
+
+Q ss_pred             HHhcCCHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     66 NYRNMSLEEAEKQAENDYLLSVSN   89 (200)
+Q Consensus        66 ~~~~ms~~e~e~~~~~~y~~~~~~   89 (200)
+                      --...+++++-...-+.|....++
+T Consensus       315 w~p~~~~~~~i~~~~~~~~~~~~~  338 (338)
+T d2z1ma_         315 WKPRTTFDELVEIMMEADLKRVRD  338 (338)
+T ss_dssp             CCCCSCHHHHHHHHHHHHHHHHHC
+T ss_pred             CCCCCCHHHHHHHHHHHHHHHhcC
+
+
+No 15
+>PF04321.17 ; RmlD_sub_bind ; RmlD substrate binding domain
+Probab=53.59  E-value=71  Score=25.94  Aligned_cols=81  Identities=12%  Similarity=0.001  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             CCcccccccCceeeHHHHHHHHHHHhCCHh----hCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHH
+Q Q_9186633_29      3 TGYTSDIYKGQEVSGKDFVLKCARAFGALV----QMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQ   78 (200)
+Q Consensus         3 TgYT~~I~dG~~~tf~~fal~CARafGAli----~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~   78 (200)
+                      .|=+-.|.+|..+|+.||+..+++.+|...    .....|.+.-....+.+.... -.-.++++.| .++-.+.+|.-..
+T Consensus       207 ~~~~~~~~~~~~~t~~e~~~~i~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~l-g~~~~~~~e~~~~  284 (291)
+T Q9A954_CAUVC/5  207 PNGVYHFVNSGEASWADLAREIFRLSHAHGGVHAEVEGIPSSEYPTPARRPRNSR-LLTNRIAADY-AIHPRPWTEAVAD  284 (291)
+T ss_pred             CCceEEEccCCcccHHHHHHHHHHHhcccCCcccccccCCcccCCCCCCCCCCcc-chhHHHHHHh-CCCCCcHHHHHHH
+
+
+Q ss_pred             HHHHHHH
+Q Q_9186633_29     79 AENDYLL   85 (200)
+Q Consensus        79 ~~~~y~~   85 (200)
+                      .-+.|.+
+T Consensus       285 ~~~~~~~  291 (291)
+T Q9A954_CAUVC/5  285 IIADLRV  291 (291)
+T ss_pred             HHHHhhC
+
+
+No 16
+>PF03978.13 ; Borrelia_REV ; Borrelia burgdorferi REV protein
+Probab=51.85  E-value=2.2e+02  Score=25.10  Aligned_cols=86  Identities=21%  Similarity=0.197  Sum_probs=0.0  Template_Neff=2.800
+
+Q ss_pred             CHHHHHHHHHHHHHHhcC-CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------HHHhCC----------
+Q Q_9186633_29     53 HLESIKQDEEQLKNYRNM-SLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLN------EVKAWS----------  115 (200)
+Q Consensus        53 ~~~~l~~a~~~l~~~~~m-s~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~------~V~aW~----------  115 (200)
+                      |.+.|.+.++.|....+- -+++--...++.++..++.+.+.+++.++--+.|..-..      +.++|.          
+T Consensus        66 YeekIkkLkE~LKdk~na~eLeekL~~Le~slkdK~e~RkkALeeAKqKfEefk~qv~s~g~qaK~qaW~~Ak~lGl~vs  145 (174)
+T O50973_BORBU/1   66 CREKISLLKEDLKYATNAKEFEEKFLNLQKLFQEKLTSKLNALKAVRVDIQRFNANDNDDLEKNKLKIRSIALSAGVNTS  145 (174)
+T ss_pred             HHHHHHHHHHHHhhccCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccHHHHHHHHHHHHHHHhCCCCC
+
+
+Q ss_pred             ---CCchhhHHHHHHHHHHHHHHHHh
+Q Q_9186633_29    116 ---IPSSEHKELKEFAIKQLEESIQW  138 (200)
+Q Consensus       116 ---pPT~eH~~lKeFmi~QL~~Si~~  138 (200)
+                         ..+.+-..|-+=+|+||...|+|
+T Consensus       146 yS~n~~~nt~emSk~vIe~i~~iik~  171 (174)
+T O50973_BORBU/1  146 PIALHAINIKELSEDVVAHIDSIIKY  171 (174)
+T ss_pred             cccccCCchHHHHHHHHHHHHHHHHH
+
+
+No 17
+>KOG3366 Mitochondrial F1F0-ATP synthase, subunit d/ATP7 [Energy production and conversion]
+Probab=50.05  E-value=2.1e+02  Score=24.33  Aligned_cols=61  Identities=15%  Similarity=0.187  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CHHHHHHHHHHHHHHh--cCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_29     53 HLESIKQDEEQLKNYR--NMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKA  113 (200)
+Q Consensus        53 ~~~~l~~a~~~l~~~~--~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~a  113 (200)
+                      +..-+++.++.++.++  ....+..-.++++......++.++..++.....+.+++.|+.++.
+T Consensus        64 ~~~lVd~~ek~y~s~k~vp~~~d~~~~~id~~~~~~~~~~~~~~~~s~~~i~el~~el~~i~~  126 (172)
+T KOG3366          64 NAGLVDKYEKKYDSLKPVPVDEDKYLKEVDAEEKAAVKEIKEYESLSKKRIQELEKELEKVKS  126 (172)
+T ss_pred             ChhHHHHHHHHHhcCCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 18
+>PF14916.6 ; CCDC92 ; Coiled-coil domain of unknown function
+Probab=46.34  E-value=55  Score=23.36  Aligned_cols=30  Identities=37%  Similarity=0.640  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHH-------HHHHHHHHHHH
+Q Q_9186633_29    160 ERKIAMCEKNIKYHREEHE-------KELERVNLRNK  189 (200)
+Q Consensus       160 ~~~i~~~~~~i~y~~k~~~-------eEv~rt~~rN~  189 (200)
+                      +.+|..++++|.+..+++.       .||+|+..+|.
+T Consensus         1 ~~~i~~le~~i~FLQ~qH~~~L~~LH~EIe~L~~~~~   37 (57)
+T B3S4F8_TRIAD/7    1 EQRIRHLDKSIEFLKEQHADILKGLHKEIEGLQSENK   37 (57)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCh
+
+
+No 19
+>d4lisa_ c.2.1.0 (A:) automated matches {Aspergillus nidulans [TaxId: 227321]}
+Probab=46.22  E-value=52  Score=28.47  Aligned_cols=84  Identities=12%  Similarity=0.018  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      +.|=+-.|..|+.+|..+++..+++.+|..+.....|.....+..+.++.      .++++.|---...++++.-...-+
+T Consensus       274 ~~~~~~nv~~~~~~s~~e~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~------~k~~~~lg~~p~~~l~~~l~~~~~  347 (364)
+T d4lisa_         274 PGVRAWNLGTGRGSTVYEMIRAFSKAVGRDLPYEVAPRRAGDVLNLTSNP------TRANTELGWKAQRTLEQACEDLWL  347 (364)
+T ss_dssp             CCEEEEEECCSCCEEHHHHHHHHHHHHSSCCCEEEECCCTTCCSEECBCT------HHCCCCCCCCCCSCHHHHHHHHHH
+T ss_pred             CCceeEEeCCCCCccHHHHHHHHHHHhCCCCCcEecCCCCCCccccccCh------HHHHHHhCCCceecHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHH
+Q Q_9186633_29     82 DYLLSVSNAH   91 (200)
+Q Consensus        82 ~y~~~~~~~~   91 (200)
+                      .|.+......
+T Consensus       348 ~~~~~~~~~~  357 (364)
+T d4lisa_         348 WTKNNPQGYR  357 (364)
+T ss_dssp             HHHHCTTGGG
+T ss_pred             HHHhCccccc
+
+
+No 20
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=45.82  E-value=4.7e+02  Score=27.20  Aligned_cols=119  Identities=9%  Similarity=0.131  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             HHHHHHHHHHhcC--CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCchhhHHHHHHHHHHHHH-
+Q Q_9186633_29     58 KQDEEQLKNYRNM--SLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKAWSIPSSEHKELKEFAIKQLEE-  134 (200)
+Q Consensus        58 ~~a~~~l~~~~~m--s~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~pPT~eH~~lKeFmi~QL~~-  134 (200)
+                      ++.++.|+.++++  ...+...++.....+.+.+...-+++...+...-...|..-..      ....||+-+.+.|+. 
+T Consensus       251 ~eI~~~Ve~lkkfIK~Qk~isdEI~r~s~~~i~kV~eDI~~L~q~L~~vss~L~rd~~------ai~~LK~ev~qdl~~A  324 (605)
+T H2LRF1_ORYLA/3  251 PVICQDVENFQKFVKEQKQVQEEISRMSSKAISKVQDDIKNLKQLLSVNASGLQRQAL------AIDKLKQETAQELKNA  324 (605)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhcHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH------HHHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---HHHhhccccccCCCCCccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29    135 ---SIQWDCNLKFCDPDSVVKLSPEEWLERKIAMCEKNIKYHREEHEKELERVNL  186 (200)
+Q Consensus       135 ---Si~~Dc~~~y~~~~~p~~~~~~~w~~~~i~~~~~~i~y~~k~~~eEv~rt~~  186 (200)
+                         ...+|....+...    ...+.+|..++++.++.+|..++++.++=...++.
+T Consensus       325 E~A~Rt~~~p~~lq~~----n~~p~~YF~~LveefE~rL~~yrqqIeeLE~~L~S  375 (605)
+T H2LRF1_ORYLA/3  325 DIALRTQKTPPGLQHE----NTAPSDYFRSLVEQFEVQLQQYRQQIEELENHLTT  375 (605)
+T ss_pred             HHHHHHhcCCCCCCCC----CCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhh
+
+
+No 21
+>d4lw8a_ c.2.1.0 (A:) automated matches {Burkholderia cenocepacia [TaxId: 216591]}
+Probab=45.79  E-value=92  Score=25.28  Aligned_cols=80  Identities=16%  Similarity=0.149  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      .+|-+-.|.+|+.+|+.+++..+++.+|..+.....+. ...|....+.....   .+++..|......++++.-+...+
+T Consensus       228 ~~~~~~~~~~~~~~s~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~---~~~~~~lg~~~~~~~~~~i~~~~~  303 (308)
+T d4lw8a_         228 PAGETFNVCSERAYSLKEVLAMLSRIAGYVIDVTIDPR-FVRHNEVKSLSGSR---DKLRRAVGELPVTPLDETLRWMVD  303 (308)
+T ss_dssp             CTTCEEEECCSCEEEHHHHHHHHHHHHTSCCEEEECGG-GCCTTCCSEEEECC---HHHHHHHCCCCCCCHHHHHHHHHH
+T ss_pred             CCCCeEEeCCCCcccHHHHHHHHHHHHCCCCccccCch-hcCcchhhccccCH---HHHHHHhCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q Q_9186633_29     82 DYLL   85 (200)
+Q Consensus        82 ~y~~   85 (200)
+                      .|++
+T Consensus       304 ~~~~  307 (308)
+T d4lw8a_         304 AMRA  307 (308)
+T ss_dssp             HHHH
+T ss_pred             HHHh
+
+
+No 22
+>PF08598.11 ; Sds3 ; Sds3-like
+Probab=45.50  E-value=3.5e+02  Score=25.53  Aligned_cols=98  Identities=11%  Similarity=0.110  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             cCHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCchhhHHHHHHHHHH
+Q Q_9186633_29     52 YHLESIKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKAWSIPSSEHKELKEFAIKQ  131 (200)
+Q Consensus        52 Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~pPT~eH~~lKeFmi~Q  131 (200)
+                      +|.++|.+.+.+|..+..-+                  +-++++...+|..+++..|..++.|          .+|.++.
+T Consensus        19 lY~ekL~~Lq~EL~~L~~Gt------------------hPEyl~~l~~Lee~Rd~~L~~a~l~----------~eyqv~~   70 (304)
+T G8BQJ0_TETPH/2   19 YYKDRLTTLQTNLTTLHQGN------------------NQFYVRSIRDLEEERDAELIRLRLY----------EEYRISR   70 (304)
+T ss_pred             HHHHHHHHHHHHHHHHHcCC------------------CHHHHHHHHHHHHHHHHHHHHHHHH----------HHHHHHH
+
+
+Q ss_pred             HHHHHHhhccccccCCCCCccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29    132 LEESIQWDCNLKFCDPDSVVKLSPEEWLERKIAMCEKNIKYHREEHEKELERVN  185 (200)
+Q Consensus       132 L~~Si~~Dc~~~y~~~~~p~~~~~~~w~~~~i~~~~~~i~y~~k~~~eEv~rt~  185 (200)
+                      ++..-+.+..        -.......=+....+++-..|....+++.+|.....
+T Consensus        71 ie~ey~ae~~--------~a~~ey~~~~~~LrekLl~~le~k~krLkeER~~lD  116 (304)
+T G8BQJ0_TETPH/2   71 SSVEFQEDIE--------KGKSEYEDLVKLCKEKLYESIENKMKNLKEERLLMD  116 (304)
+T ss_pred             HHHHHHHHHH--------HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcc
+
+
+No 23
+>PF17335.2 ; IES5 ; Ino80 complex subunit 5
+Probab=44.13  E-value=99  Score=25.38  Aligned_cols=34  Identities=21%  Similarity=0.309  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_29     80 ENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKA  113 (200)
+Q Consensus        80 ~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~a  113 (200)
+                      +++|+..+.+.++.++....|++-|..||.+|..
+T Consensus         2 eKey~KL~sR~dEL~KQe~tLkkEYTTLLRK~sS   35 (113)
+T G0V940_NAUCC/7    2 EKDLSKLTSKNDELTKQDASLRKEYTTLLRKMTS   35 (113)
+T ss_pred             hHHHHHHHHhHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 24
+>d3ehea1 c.2.1.0 (A:4-305) automated matches {Archaeoglobus fulgidus [TaxId: 2234]}
+Probab=44.08  E-value=1.4e+02  Score=24.23  Aligned_cols=84  Identities=14%  Similarity=0.082  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      +.+-+-.|.+|..+|+.+|+-.+++.+|..+.....+.....+..........+.+.    .|---...+.++.-....+
+T Consensus       219 ~~~~~~~i~~~~~~s~~e~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~lg~~~~~~~~~~l~~~~~  294 (302)
+T d3ehea1         219 ERVNIFNIGSEDQIKVKRIAEIVCEELGLSPRFRFTGGDRGWKGDVPVMLLSIEKLK----RLGWKPRYNSEEAVRMAVR  294 (302)
+T ss_dssp             SSEEEEECCCSCCEEHHHHHHHHHHHTTCCCEEEEC------------CCBCCHHHH----HHTCCCSCCHHHHHHHHHH
+T ss_pred             CCCceEEcCCCCceeHHHHHHHHHHHhCCCCcceecCCCCCCCCCccceeecHHHHH----HcCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHH
+Q Q_9186633_29     82 DYLLSVSN   89 (200)
+Q Consensus        82 ~y~~~~~~   89 (200)
+                      .|.+.+++
+T Consensus       295 ~~~~~~~~  302 (302)
+T d3ehea1         295 DLVEDLDE  302 (302)
+T ss_dssp             HHHHHHHC
+T ss_pred             HHHHhhhC
+
+
+No 25
+>PF01777.18 ; Ribosomal_L27e ; Ribosomal L27e protein family
+Probab=42.70  E-value=13  Score=28.07  Aligned_cols=15  Identities=27%  Similarity=0.401  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCCCcccccccCcee
+Q Q_9186633_29      1 MPTGYTSDIYKGQEV   15 (200)
+Q Consensus         1 MPTgYT~~I~dG~~~   15 (200)
+                      |||.||.++.+.+.+
+T Consensus        30 mPTRY~~d~~~~k~~   44 (85)
+T A8PYF3_MALGO/5   30 FPTRYALDLEGLKST   44 (85)
+T ss_pred             eecceeecccchhhc
+
+
+No 26
+>cd05253 UDP_GE_SDE_e; UDP glucuronic acid epimerase, extended (e) SDRs. This subgroup contains UDP-D-glucuronic acid 4-epimerase, an extended SDR, which catalyzes the conversion of UDP-alpha-D-glucuronic acid to UDP-alpha-D-galacturonic acid.
+Probab=42.03  E-value=1e+02  Score=26.41  Aligned_cols=77  Identities=17%  Similarity=0.032  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHHH
+Q Q_9186633_29      3 TGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEND   82 (200)
+Q Consensus         3 TgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~   82 (200)
+                      .|-+-.|..|..+|..+|+...++.+|..+.....|+...-+...-++      ..++.+.|.-....+++|+-..+.+.
+T Consensus       255 ~~~~~~i~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~d------~~~~~~~lg~~p~~~~~e~~~~~~~~  328 (332)
+T cd05253         236 SLGVFNLGNHRPVELLYFVLLLEKELGIEAHKIWLPMQSGDVVATFAD------IQESTKQLGFQPKISIEEGLCRFVKW  309 (313)
+T ss_pred             CCCEEEeCCCCceeHHHHHHHHHHHhCCCCCceecCCCCCCCCeEEEc------hHHHHHHHCCCCCCCHHHHHHHHHHH
+
+
+Q ss_pred             HHH
+Q Q_9186633_29     83 YLL   85 (200)
+Q Consensus        83 y~~   85 (200)
+                      |++
+T Consensus       329 ~~~  331 (332)
+T cd05253         310 YKN  312 (313)
+T ss_pred             HHh
+
+
+No 27
+>d2pk3a_ c.2.1.0 (A:) automated matches {Aneurinibacillus thermoaerophilus [TaxId: 143495]}
+Probab=41.48  E-value=1.3e+02  Score=24.20  Aligned_cols=79  Identities=15%  Similarity=0.083  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             CCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHHH
+Q Q_9186633_29      3 TGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEND   82 (200)
+Q Consensus         3 TgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~   82 (200)
+                      +|-+-.|.+|..+|+.+|+-.+++.+|..+.-.-.|. ...|..+......   ..+++..|---...++++.-....+.
+T Consensus       230 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~---~~~~~~~lg~~~~~~~~~~l~~~~~~  305 (309)
+T d2pk3a_         230 TGDVYNVCSGIGTRIQDVLDLLLAMANVKIDTELNPL-QLRPSEVPTLIGS---NKRLKDSTGWKPRIPLEKSLFEILQS  305 (309)
+T ss_dssp             TTCEEEESCSCEEEHHHHHHHHHHHSSSCCEEEECGG-GCCSSCCSBCCBC---CHHHHHHHCCCCCSCHHHHHHHHHHH
+T ss_pred             CCCeEEccCCCCCCHHHHHHHHHHHhCCCCCeeeccc-cCCCCCCCceEeC---hHHHHHHhCCCCCCCHHHHHHHHHHH
+
+
+Q ss_pred             HHH
+Q Q_9186633_29     83 YLL   85 (200)
+Q Consensus        83 y~~   85 (200)
+                      |.+
+T Consensus       306 ~~~  308 (309)
+T d2pk3a_         306 YRQ  308 (309)
+T ss_dssp             HHT
+T ss_pred             Hhh
+
+
+No 28
+>KOG4796 RNA polymerase II elongation factor [Transcription]
+Probab=37.53  E-value=6.1e+02  Score=26.11  Aligned_cols=109  Identities=17%  Similarity=0.244  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             HHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-hCCCCchhhHHHHHHHHHHHHHHHHhhccc
+Q Q_9186633_29     64 LKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVK-AWSIPSSEHKELKEFAIKQLEESIQWDCNL  142 (200)
+Q Consensus        64 l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~-aW~pPT~eH~~lKeFmi~QL~~Si~~Dc~~  142 (200)
+                      +..|..++..+-.....++|.....+|.....+.....+++..+=.+.+ .=.+-+.++..+.+=++..-...-.   ++
+T Consensus       491 ~~~y~~I~s~eqr~~Yk~~F~~~y~eY~~L~~~l~~v~~~F~~L~~~l~~~~~~~s~ey~~i~~~I~~eY~~~k~---~~  567 (604)
+T KOG4796         491 LLQYGAISSLEQRQRYKKDFEAEYDEYRELHARVETVSRRFRQLEAQLKSRLSPGSPEYKQIEKQILQEYEKIRK---DP  567 (604)
+T ss_pred             HHhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHcc---Cc
+
+
+Q ss_pred             cccCCCCCccCCHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29    143 KFCDPDSVVKLSPEEWLERKIAMCEKNIKYHREEHEKE  180 (200)
+Q Consensus       143 ~y~~~~~p~~~~~~~w~~~~i~~~~~~i~y~~k~~~eE  180 (200)
+                      .|.+.  ..+   .+|+-.++.-+++.|.-+.+....+
+T Consensus       568 ~~~~~--k~r---~~yLh~KL~hIK~li~~yd~~~~~~  600 (604)
+T KOG4796         568 NYMEE--KQR---CEYLHSKLAHIKTLIGEFDKQQRSS  600 (604)
+T ss_pred             hHHHH--HHH---HHHHHHHHHHHHHHHHHHHHHHhhh
+
+
+No 29
+>d2q1wa_ c.2.1.0 (A:) automated matches {Bordetella bronchiseptica [TaxId: 518]}
+Probab=36.67  E-value=1.8e+02  Score=23.67  Aligned_cols=74  Identities=12%  Similarity=0.006  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             cccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHH
+Q Q_9186633_29      9 IYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAENDYLLS   86 (200)
+Q Consensus         9 I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~   86 (200)
+                      +.+|..+|+.|++..+++.+|.    ...+.....+..........-...+++..|......+++++-....+.|...
+T Consensus       225 ~~~~~~~s~~e~~~~~~~~~g~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lg~~~~~~~~~~l~~~~~~~~~~  298 (300)
+T d2q1wa_         225 FSSGTDVAIKELYDAVVEAMAL----PSYPEPEIRELGPDDAPSILLDPSRTIQDFGKIEFTPLKETVAAAVAYFREY  298 (300)
+T ss_dssp             CSCSCCEEHHHHHHHHHHHTTC----SSCCCCEEEECCTTSCCCCCBCCHHHHHHHCCCCCCCHHHHHHHHHHHHHHH
+T ss_pred             ecCCCceeHHHHHHHHHHHcCC----CCCCCcccccCCCCCCCceeccchHHHHHhCCCCCCCHHHHHHHHHHHHHHc
+
+
+No 30
+>d1sb8a_ c.2.1.2 (A:) UDP-N-acetylglucosamine 4-epimerase WbpP {Pseudomonas aeruginosa [TaxId: 287]}
+Probab=36.33  E-value=1.9e+02  Score=24.40  Aligned_cols=84  Identities=12%  Similarity=0.095  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCH-hhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGAL-VQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAE   80 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAl-i~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~   80 (200)
+                      +.|-+-.|.+|..+|+.|++...++.+|.. +.....+...+... ..+..+. -...++++.|.--...++++.-+...
+T Consensus       256 ~~~~~~~~~~~~~~t~~el~~~i~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~-~~~~~~~~~lg~~p~~~~~~~~~~~~  333 (341)
+T d1sb8a_         256 ARNQVYNIAVGGRTSLNQLFFALRDGLAENGVSYHREPVYRDFRE-GDVRHSL-ADISKAAKLLGYAPKYDVSAGVALAM  333 (341)
+T ss_dssp             GCSEEEEESCSCCEEHHHHHHHHHHHHHHTTCCCCCCCEEECCCT-TCCSBCC-BCCHHHHHHTCCCCCCCHHHHHHHHH
+T ss_pred             cCCcEEEeCCCCceeHHHHHHHHHHHhhhCCCcccCCCccCCCCC-cccccce-ecHHHHHHHhCCCCCCCHHHHHHHHH
+
+
+Q ss_pred             HHHHHHH
+Q Q_9186633_29     81 NDYLLSV   87 (200)
+Q Consensus        81 ~~y~~~~   87 (200)
+                      +.|.+.+
+T Consensus       334 ~~~~~~~  340 (341)
+T d1sb8a_         334 PWYIMFL  340 (341)
+T ss_dssp             HHHHHHT
+T ss_pred             HHHHHhh
+
+
+No 31
+>cd05234 UDP_G4E_2_SDR_e; UDP-glucose 4 epimerase, subgroup 2, extended (e) SDRs. UDP-glucose 4 epimerase (aka UDP-galactose-4-epimerase), is a homodimeric extended SDR.
+Probab=35.48  E-value=1.3e+02  Score=24.27  Aligned_cols=71  Identities=15%  Similarity=0.105  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             cccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHHHH
+Q Q_9186633_29      9 IYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAENDY   83 (200)
+Q Consensus         9 I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~y   83 (200)
+                      |..|..+|+.+|+..+++.+|..+...-.|....++..+....+...++    ..+.--...+.++.-...-+.+
+T Consensus       234 ~~~~~~~s~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~g~~~~~~~~~~l~~~~~~~  304 (305)
+T cd05234         227 IGSEDQIKVKRIAEIVCEELGLSPRFRFTGGDRGWKGDVPVMLLSIEKL----KRLGWKPRYNSEEAVRMAVRDL  297 (298)
+T ss_pred             ecCCCCccHHHHHHHHHHHhCCCCceEEcCccCCCCCCCCeEEEcHHHH----HHhCCccCCCHHHHHHHHHHHh
+
+
+No 32
+>d2c20a_ c.2.1.0 (A:) automated matches {Bacillus anthracis [TaxId: 198094]}
+Probab=34.81  E-value=1.6e+02  Score=24.72  Aligned_cols=77  Identities=16%  Similarity=0.048  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcC-CHHHHHHHHHH
+Q Q_9186633_29      3 TGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNM-SLEEAEKQAEN   81 (200)
+Q Consensus         3 TgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~m-s~~e~e~~~~~   81 (200)
+                      ++.+-.|.+|..+|+.+|+-.+++.+|..+.....|.....+..+-.      ...++++.|.--... ++++.-..+.+
+T Consensus       245 ~~~~~~i~~~~~~s~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~~~lg~~p~~~~~~~~i~~~~~  318 (329)
+T d2c20a_         245 ESDFYNLGNGNGFSVKEIVDAVREVTNHEIPAEVAPRRAGDPARLVA------SSQKAKEKLGWDPRYVNVKTIIEHAWN  318 (329)
+T ss_dssp             CCEEEECCCTTCBCHHHHHHHHHHHTTSCCCEEEECCCSSCCSEECB------CCHHHHHHHCCCCSCCCHHHHHHHHHH
+T ss_pred             CcceEEECCCCCeeHHHHHHHHHHHhCCCCCcccCCCCCCCcceeEE------chHHHHHHhCCCCccccHHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q Q_9186633_29     82 DYLL   85 (200)
+Q Consensus        82 ~y~~   85 (200)
+                      .++.
+T Consensus       319 ~~~~  322 (329)
+T d2c20a_         319 WHQK  322 (329)
+T ss_dssp             HHHH
+T ss_pred             HHHh
+
+
+No 33
+>cd05257 Arna_like_SDR_e; Arna decarboxylase_like, extended (e) SDRs. Decarboxylase domain of ArnA. ArnA, is an enzyme involved in the modification of outer membrane protein lipid A of gram-negative bacteria.
+Probab=34.26  E-value=1.7e+02  Score=23.80  Aligned_cols=82  Identities=10%  Similarity=-0.021  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCcccccc....cCceeeHHH-HHHHHHHHhCCHhhCCCCCCCC..................CCCcccCCCccCHHHHHH
+Q Q_9186633_29      3 TGYTSDIY....KGQEVSGKD-FVLKCARAFGALVQMRDEPLNT..................PIPDELKPTSYHLESIKQ   59 (200)
+Q Consensus         3 TgYT~~I~....dG~~~tf~~-fal~CARafGAli~MRDeP~~a..................~iPe~feps~Y~~~~l~~   59 (200)
+                      +|-+-.+.    +|..+|..+ ++..+++.+|..+.....|...                  -.+..-....+. -...+
+T Consensus       233 ~g~~~~~~....~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~..................~~~~~~~~~~~~-~~~~~  289 (316)
+T cd05257         231 LYRIIENAgnrcDGEIINIGNPENEASIEELGEMLLASFEKHPLrhhfppfagfrvvesssyYGKGYQDVEHRK-PSIRN  309 (336)
+T ss_pred             cCCcEEec....CCCceeHHHHHHHHHHHHhCCCCCccCCChhH..................hCCCCCCCCceE-EcHHH
+
+
+Q ss_pred             HHHHHHHHhcCCHHHHHHHHHHHHHH
+Q Q_9186633_29     60 DEEQLKNYRNMSLEEAEKQAENDYLL   85 (200)
+Q Consensus        60 a~~~l~~~~~ms~~e~e~~~~~~y~~   85 (200)
+                      +++.|.-....|+++.-+..-+.|+.
+T Consensus       290 ~~~~lg~~p~~~~~~~l~~~~~~~~~  315 (316)
+T cd05257         310 AHRCLDWEPKIDMQETIDETLDFFLR  335 (336)
+T ss_pred             HHHHHCCCCCCCHHHHHHHHHHHHHh
+
+
+No 34
+>PF15066.6 ; CAGE1 ; Cancer-associated gene protein 1 family
+Probab=33.53  E-value=2.1e+02  Score=29.05  Aligned_cols=58  Identities=14%  Similarity=0.188  Sum_probs=0.0  Template_Neff=2.600
+
+Q ss_pred             HHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     54 LESIKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEV  111 (200)
+Q Consensus        54 ~~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V  111 (200)
+                      ..+|...+.+|+....-.++-..++-+..=++-...-++.++++..|+.||++++++|
+T Consensus       458 ierLq~lkgelEkat~SALdlLkrEKE~~eqefQk~eke~l~ERqkLksr~eKLvaqv  515 (515)
+T L9LAQ4_TUPCH/1  458 VARLQRLKEELEKATTSALDLLKRERKVQEQEFQKYEKNNLEETQKLKSRLEKLVVQV  515 (515)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcHHHHHHHHHHHHHHhhcC
+
+
+No 35
+>PF08621.10 ; RPAP1_N ; RPAP1-like, N-terminal
+Probab=32.81  E-value=2.1e+02  Score=19.35  Aligned_cols=41  Identities=15%  Similarity=-0.041  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             HHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     61 EEQLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMK  101 (200)
+Q Consensus        61 ~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr  101 (200)
+                      .+....+.+||.+|.+.+-++-+...--..-..+.....-+
+T Consensus         5 ~EN~~~l~~Ms~eEi~~e~~eL~~~l~P~ll~~L~~r~~~k   45 (46)
+T D8RAH0_SELML/1    5 AENRARISSMSSQEISDAHRELLERLGPEKIKMLQRRGMEK   45 (46)
+T ss_pred             HHHHHHHHcCCHHHHHHHHHHHHHHHCHHHHHHHHHHHhhc
+
+
+No 36
+>PF07704.11 ; PSK_trans_fac ; Rv0623-like transcription factor
+Probab=32.61  E-value=2.5e+02  Score=20.20  Aligned_cols=62  Identities=15%  Similarity=0.084  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             HHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCch
+Q Q_9186633_29     55 ESIKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKAWSIPSS  119 (200)
+Q Consensus        55 ~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~pPT~  119 (200)
+                      ..++..-.+|+...+.|..++-..|-+...........   ....+..+...+++.+.+..+|+.
+T Consensus         6 ~ev~~la~~lA~~~G~s~teaV~~AL~~~l~~~~~~~~---~~~~~~~~l~~~~~~~~~~~~~~~   67 (80)
+T Q2JGF8_FRACC/9    6 EEAQRLSRELAELTGETVTTAVLVAVRERLERMRADRD---EGEQRAARIVALGRQTAAAVPPPG   67 (80)
+T ss_pred             HHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHhccc---chhhHHHHHHHHHHHHHhcCCCCC
+
+
+No 37
+>d1r66a_ c.2.1.2 (A:) dTDP-glucose 4,6-dehydratase (RmlB) {Streptomyces venezuelae [TaxId: 54571]}
+Probab=31.88  E-value=1.8e+02  Score=23.86  Aligned_cols=80  Identities=15%  Similarity=0.074  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      ++|-+-.+.+|..+|+.+++-.+++.+|..............+.    ..|. -...++++.|.-....++++.-....+
+T Consensus       235 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~-~~~~~~~~~lg~~~~~~~~~~l~~~~~  309 (322)
+T d1r66a_         235 RAGEIYHIGGGLELTNRELTGILLDSLGADWSSVRKVADRKGHD----LRYS-LDGGKIERELGYRPQVSFADGLARTVR  309 (322)
+T ss_dssp             CTTCEEEECCCEEEEHHHHHHHHHHHTTCCGGGEEEECCCTTCC----CBCC-BCCHHHHHHHCCCCCCCHHHHHHHHHH
+T ss_pred             CCCcEEEcCCCCcccHHHHHHHHHHHHCCCHHhceeecCCCCCc----ceee-echHHHHHHhCCCcccCHHHHHHHHHH
+
+
+Q ss_pred             HHHHH
+Q Q_9186633_29     82 DYLLS   86 (200)
+Q Consensus        82 ~y~~~   86 (200)
+                      .|.+.
+T Consensus       310 ~~~~~  314 (322)
+T d1r66a_         310 WYREN  314 (322)
+T ss_dssp             HHHHC
+T ss_pred             HHHHh
+
+
+No 38
+>d1oc2a_ c.2.1.2 (A:) dTDP-glucose 4,6-dehydratase (RmlB) {Streptococcus suis, serotype 2 [TaxId: 1307]}
+Probab=30.93  E-value=4.2e+02  Score=22.28  Aligned_cols=102  Identities=17%  Similarity=0.097  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCH--HHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSL--EEAEKQA   79 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~--~e~e~~~   79 (200)
+                      +.|-+-.|.+|..+|..+|+..+++.+|..+..-..+........         ...-.-.++...-++++  ...+...
+T Consensus       243 ~~~~~~~~~~~~~~t~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~---------~~~~~~~k~~~~lg~~p~~~~~~~~l  313 (346)
+T d1oc2a_         243 RMGETYLIGADGEKNNKEVLELILEKMGQPKDAYDHVTDRAGHDL---------RYAIDASKLRDELGWTPQFTDFSEGL  313 (346)
+T ss_dssp             CTTCEEEECCSCEEEHHHHHHHHHHHTTCCTTCSEEECCCTTCCC---------BCCBCCHHHHHHHCCCCSCCCHHHHH
+T ss_pred             CCCceEEecCCCcccHHHHHHHHHHHhCCCccccccCCCCCCCcc---------ceeechHHHHHHhCCCCCccCHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     80 ENDYLLSVSNAHEQRKRALEMKARYEKTLNEVK  112 (200)
+Q Consensus        80 ~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~  112 (200)
+                      ..-.++......-...+.+....-|.++...++
+T Consensus       314 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  346 (346)
+T d1oc2a_         314 EETIQWYTDNQDWWKAEKEAVEANYAKTQEVIK  346 (346)
+T ss_dssp             HHHHHHHHHTHHHHHHHHHHHHHHHHTTCCBCC
+T ss_pred             HHHHHHHHHChHHHHhhHHHHHHHHHHHHHhhC
+
+
+No 39
+>d3m2pa1 c.2.1.0 (A:2-293) automated matches {Bacillus cereus [TaxId: 226900]}
+Probab=30.69  E-value=2.1e+02  Score=24.20  Aligned_cols=77  Identities=16%  Similarity=0.153  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      +.| +-.|.+|..+|..+++..+++.+|     ..-+.....|..........-...++++.|.--...|++++-....+
+T Consensus       215 ~~~-~~~i~~~~~~s~~~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~k~~~~lg~~~~~~~~~~l~~~~~  288 (292)
+T d3m2pa1         215 VSG-TFNIGSGDALTNYEVANTINNAFG-----NKDNLLVKNPNANEGIHSSYMDSSKAKELLDFSTDYNFATAVEEIHL  288 (292)
+T ss_dssp             CCE-EEEECCSCEECHHHHHHHHHHHTT-----CTTCEEECSSSBCCSCCCBCBCCHHHHHHSCCCCSCCHHHHHHHHHH
+T ss_pred             CCC-eEEecCCCceeHHHHHHHHHHHhC-----CCCceeecCCCCCCCCcccccchHHHHHHhCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHH
+Q Q_9186633_29     82 DYL   84 (200)
+Q Consensus        82 ~y~   84 (200)
+                      .+.
+T Consensus       289 ~~~  291 (292)
+T d3m2pa1         289 LMR  291 (292)
+T ss_dssp             HHC
+T ss_pred             Hhc
+
+
+No 40
+>PF12189.8 ; VirE1 ; Single-strand DNA-binding protein
+Probab=29.82  E-value=22  Score=26.10  Aligned_cols=21  Identities=33%  Similarity=0.572  Sum_probs=0.0  Template_Neff=2.400
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKC   24 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~C   24 (200)
+                      |+|+|+-=-+=  |-..+|+++|
+T Consensus        34 ~~gFTsLDL~M--IeLEnFvl~c   54 (63)
+T VIRE1_AGRFC/1-   34 SNGFTSLDLEM--IELENFVLHC   54 (63)
+T ss_pred             CCCcchhcHHH--HHHHhHHHcC
+
+
+No 41
+>d1n7ha_ c.2.1.2 (A:) GDP-mannose 4,6-dehydratase {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+Probab=29.30  E-value=1.2e+02  Score=25.71  Aligned_cols=92  Identities=9%  Similarity=-0.062  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      |.|=+-.|.+|..+|..||+..+++.+|......-.+.....+. ..+.... -...++++.|.--...++++.-....+
+T Consensus       245 ~~~~~~~~~~~~~~s~~e~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~-~~~~~~~~~lg~~p~~~l~~~l~~~~~  322 (339)
+T d1n7ha_         245 EKPDDYVVATEEGHTVEEFLDVSFGYLGLNWKDYVEIDQRYFRP-AEVDNLQ-GDASKAKEVLGWKPQVGFEKLVKMMVD  322 (339)
+T ss_dssp             SSCCEEEECCSCEEEHHHHHHHHHHHTTCCGGGTEEECGGGSCS-SCCCBCC-BCCHHCCCCCCCCCCSCHHHHHHHHHH
+T ss_pred             CCCCcEEECCCCCeeHHHHHHHHHHHhCCChHhceeeccccCCH-hhcCCeE-EChHHHHHHHCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHH
+Q Q_9186633_29     82 DYLLSVSNAHEQRK   95 (200)
+Q Consensus        82 ~y~~~~~~~~~~~~   95 (200)
+                      .+.......+..++
+T Consensus       323 ~~~~~~~~~~~~~~  336 (339)
+T d1n7ha_         323 EDLELAKREKVLVD  336 (339)
+T ss_dssp             HHHHHHHHHHHHHH
+T ss_pred             HHHHHHHhcCceec
+
+
+No 42
+>cd05246 dTDP_GD_SDR_e; dTDP-D-glucose 4,6-dehydratase, extended (e) SDRs. This subgroup contains dTDP-D-glucose 4,6-dehydratase and related proteins, members of the extended-SDR family, with the characteristic Rossmann fold core region, active site tetrad and NAD(P)-binding motif.
+Probab=29.17  E-value=2.6e+02  Score=22.96  Aligned_cols=79  Identities=18%  Similarity=0.084  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCC......CCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRD......EPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEA   75 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRD......eP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~   75 (200)
+                      .+|=+-.|.+|..+|+.+++..+++.+|..           .+.-..++........+.-.-.++.+.|.--...+++++
+T Consensus       234 ~~~~~~~i~~~~~~s~~~~~~~~~~~~~~~-----......~~~~~~~~~~~~~~~~~~~~~~~~~~~lg~~~~~~~~~~  302 (315)
+T cd05246         243 KVGETYNIGGHNERKNLDVVETICELLEELapnkphgvahyRDLITFVADRPGHDLRYAIDASKIARELGCVPQETFESG  322 (335)
+T ss_pred             ccCCceecCCCCceeHHHHHHHHHHHhCCC-----......CcceeecCCCCCCCcceeeChHHHHHHHCCCCCCCHHHH
+
+
+Q ss_pred             HHHHHHHHHH
+Q Q_9186633_29     76 EKQAENDYLL   85 (200)
+Q Consensus        76 e~~~~~~y~~   85 (200)
+                      -.+.-+.|.+
+T Consensus       303 l~~~~~~~~~  312 (315)
+T cd05246         323 MRKTVQWYLA  332 (335)
+T ss_pred             HHHHHHHHHh
+
+
+No 43
+>PF02719.15 ; Polysacc_synt_2 ; Polysaccharide biosynthesis protein
+Probab=28.95  E-value=1e+02  Score=25.44  Aligned_cols=40  Identities=20%  Similarity=0.150  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCC
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNT   41 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a   41 (200)
+                      +.|-+-.|..|..+|..+|+..+++.+|..+...+-|.+.
+T Consensus       219 ~~~~~~~i~~~~~~s~~e~~~~~~~~~g~~~~~~~~~~~~  258 (295)
+T Q7MY79_PHOLL/2  219 NNGDVFVLDMGESVKIYDLARKMIHLSGLTVKDETNPHGD  258 (295)
+T ss_pred             CCCCEEEecCCCceeHHHHHHHHHHHhCCCceeccCCCCC
+
+
+No 44
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=28.62  E-value=4.8e+02  Score=27.16  Aligned_cols=59  Identities=10%  Similarity=0.131  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             CHHHHHHHHHHHHHHh---cCCHHHHHHHHHHHHH---HHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     53 HLESIKQDEEQLKNYR---NMSLEEAEKQAENDYL---LSVSNAHEQRKRALEMKARYEKTLNEV  111 (200)
+Q Consensus        53 ~~~~l~~a~~~l~~~~---~ms~~e~e~~~~~~y~---~~~~~~~~~~~~~~~lr~RY~~mL~~V  111 (200)
+                      +...|++.+..|..+.   .++++|......+.|+   ....+.....++.++|+++|......+
+T Consensus       362 yrqqIeeLE~~L~Sl~~~~~~TpqdL~~~Lrk~~etF~aLAaqL~~LHe~Ve~LKeqyL~~rR~~  426 (605)
+T H2LRF1_ORYLA/3  362 YRQQIEELENHLTTQSSGSHITPQDLTMAMQKLYQTFVAQAAQLQSVHENVKILKQQYLSYRRAF  426 (605)
+T ss_pred             HHHHHHHHHHHHhhccCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 45
+>d6bi4a1 c.2.1.0 (A:2-321) automated matches {Bacillus anthracis [TaxId: 198094]}
+Probab=28.30  E-value=1.6e+02  Score=24.57  Aligned_cols=87  Identities=10%  Similarity=0.032  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      +.|=+-.|.+|..+|..+++...++.+|     ...+.-...+..+.......-...++++.|.--...++++.-...-+
+T Consensus       233 ~~~~~~~~~~~~~~s~~e~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lg~~~~~~~~~~l~~~~~  307 (320)
+T d6bi4a1         233 RVGEVYNIGGNNEKTNVEVVEQIITLLG-----KTKKDIEYVTDRLGHDRRYAINAEKMKNEFDWEPKYTFEQGLQETVQ  307 (320)
+T ss_dssp             CTTCEEEECCSCCEEHHHHHHHHHHHTT-----CCGGGEEECCC--CCCSBCCBCCHHHHHHHCCCCSCCHHHHHHHHHH
+T ss_pred             CCCceEEECCCCeeeHHHHHHHHHHHHC-----CCcccceeeccccCCcceeEecchHHHHHhCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHH
+Q Q_9186633_29     82 DYLLSVSNAHEQ   93 (200)
+Q Consensus        82 ~y~~~~~~~~~~   93 (200)
+                      .|......+.++
+T Consensus       308 ~~~~~~~~~~~~  319 (320)
+T d6bi4a1         308 WYEKNEEWWKPL  319 (320)
+T ss_dssp             HHHHCHHHHGGG
+T ss_pred             HHHhCHHHhccC
+
+
+No 46
+>cd05230 UGD_SDR_e; UDP-glucuronate decarboxylase (UGD) and related proteins, extended (e) SDRs. UGD catalyzes the formation of UDP-xylose from UDP-glucuronate.
+Probab=28.06  E-value=1.5e+02  Score=24.34  Aligned_cols=70  Identities=19%  Similarity=0.130  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             cccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHH
+Q Q_9186633_29      9 IYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAENDYL   84 (200)
+Q Consensus         9 I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~   84 (200)
+                      |..|..+|..+++...++.||..+....-|.....+....+      ...++++.+.-....+.+++-...-+.|+
+T Consensus       236 i~~~~~~t~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~~~~g~~~~~~~~~~~~~~~~~~~  305 (305)
+T cd05230         235 LGNPEEHTILEFAQLIKNLVGSGSEIQFLSEAQDDPQKRKP------DIKKAKLXLGWEPVVPLEEGLNKAIHYFR  304 (304)
+T ss_pred             ecCCCCccHHHHHHHHHHHHCCCCCcEEecCCccCCCcCcc------CcHHHHHHHCCCcccCHHHHHHHHHHHhC
+
+
+No 47
+>d1orra1 c.2.1.2 (A:3-339) CDP-tyvelose-2-epimerase {Salmonella typhi [TaxId: 90370]}
+Probab=27.78  E-value=1.6e+02  Score=24.78  Aligned_cols=78  Identities=8%  Similarity=-0.034  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CCCcccccccC--ceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKG--QEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQA   79 (200)
+Q Consensus         2 PTgYT~~I~dG--~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~   79 (200)
+                      +.|.+-.|.+|  ..+|+.+++...++.+|..+....-|.....+..+.++.      ++++..|.--...++++.-+..
+T Consensus       257 ~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~lg~~~~~~~~~~l~~~  330 (337)
+T d1orra1         257 IRGNAFNIGGTIVNSLSLLELFKLLEDYCNIDMRFTNLPVRESDQRVFVADI------KKITNAIDWSPKVSAKDGVQKM  330 (337)
+T ss_dssp             HTTCEEEESSCGGGEEEHHHHHHHHHHHHTCCCCEEEECCCSSCCSEECBCC------HHHHHHHCCCCCSCHHHHHHHH
+T ss_pred             cCCceEEeCCCccccccHHHHHHHHHHHhCCCCceeccCCCcccCceEEEcH------HHHHHhhCCCCCccHHHHHHHH
+
+
+Q ss_pred             HHHHHH
+Q Q_9186633_29     80 ENDYLL   85 (200)
+Q Consensus        80 ~~~y~~   85 (200)
+                      .+.|+.
+T Consensus       331 ~~~~~~  336 (337)
+T d1orra1         331 YDWTSS  336 (337)
+T ss_dssp             HHHHHH
+T ss_pred             HHHHhc
+
+
+No 48
+>d2jdii_ a.137.8.1 (I:) automated matches {Cow (Bos taurus) [TaxId: 9913]}
+Probab=27.54  E-value=91  Score=18.73  Aligned_cols=15  Identities=33%  Similarity=0.527  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             CceeeHHHHHHHHHHHh
+Q Q_9186633_29     12 GQEVSGKDFVLKCARAF   28 (200)
+Q Consensus        12 G~~~tf~~fal~CARaf   28 (200)
+                      |  +|+..|+-.|||+.
+T Consensus         8 g--~sY~kY~~i~Ar~v   22 (25)
+T d2jdii_           8 G--LSYIRYSQICAKAV   22 (25)
+T ss_dssp             S--CCHHHHHHHHHHHH
+T ss_pred             C--ccHHHHHHHHHHHH
+
+
+No 49
+>KOG1510 RNA polymerase II holoenzyme and mediator subcomplex, subunit SURB7/SRB7 [Transcription]
+Probab=26.78  E-value=4.6e+02  Score=21.37  Aligned_cols=80  Identities=13%  Similarity=-0.012  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCCchhhHHHHHHHHHHHHHHHHhhccccccCCCCCccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29    115 SIPSSEHKELKEFAIKQLEESIQWDCNLKFCDPDSVVKLSPEEWLERKIAMCEKNIKYHREEHEKELERVNLRNKWIKQL  194 (200)
+Q Consensus       115 ~pPT~eH~~lKeFmi~QL~~Si~~Dc~~~y~~~~~p~~~~~~~w~~~~i~~~~~~i~y~~k~~~eEv~rt~~rN~Wi~~L  194 (200)
+                      .||..--..+++|+.+-+..+-..|-   ..+.. |.....++=....|..|+++..-...++.+.+...+..-..|+.+
+T Consensus        49 ~~~~~~~~~~~ela~dlv~~aKqIe~---LI~sL-P~~~~se~~Q~~~i~~Le~E~~~a~~el~~~v~e~e~ll~~v~~~  124 (139)
+T KOG1510          49 IPAEPFEEYAQLLAADIAKKAKQIDT---LIDSL-PGEEGSAEAQLEKIKKLQEENEEVALELEELVSKGEKLLEQVQSL  124 (139)
+T ss_pred             CCCcchHHHHHHHHHHHHHHHHHHHH---HHHcC-CCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHh
+Q Q_9186633_29    195 RDSL  198 (200)
+Q Consensus       195 ~~SL  198 (200)
+                      ...+
+T Consensus       125 l~~i  128 (139)
+T KOG1510         125 LEDI  128 (139)
+T ss_pred             HHHH
+
+
+No 50
+>COG4423 COG4423; Uncharacterized protein [Function unknown]. 
+Probab=25.69  E-value=3.6e+02  Score=19.81  Aligned_cols=67  Identities=16%  Similarity=0.256  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             HHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCchhhHHHHHHH
+Q Q_9186633_29     55 ESIKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKAWSIPSSEHKELKEFA  128 (200)
+Q Consensus        55 ~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~pPT~eH~~lKeFm  128 (200)
+                      ...+..-.+|+...+.|..+|-..|-...-.......      ..+..+...+...+.+.-+|+..-.. |.|+
+T Consensus         8 ~ev~~La~elA~~~G~s~teaV~~AL~~~l~~~~~~~------~~~~~~l~~~~~~~~~~~~~~~~~~d-~~~~   74 (81)
+T COG4423           8 PEVDRLARELAARTGESKTDAVRDALKERLARLRARE------IPLRERLAAILRRLRALPSPDSKRLD-KILG   74 (81)
+T ss_pred             HHHHHHHHHHHHHHCCCHHHHHHHHHHHHHHHHHHcC------CcHHHHHHHHHHHHHcCCCCCCccch-hHhc
+
+
+No 51
+>d1rkxa_ c.2.1.2 (A:) CDP-glucose-4,6-dehydratase {Yersinia pseudotuberculosis [TaxId: 633]}
+Probab=25.59  E-value=2e+02  Score=24.87  Aligned_cols=96  Identities=11%  Similarity=0.029  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      ..+|.-.+.+|..+|..|++..+++.+|..+.-.-.+.  ..|........+   ..++++.|.--...+++++-....+
+T Consensus       256 ~~~~~~~~~~~~~~s~~e~~~~i~~~~~~~~~~~~~~~--~~~~~~~~~~~~---~~k~~~~lg~~p~~~~~e~l~~~~~  330 (356)
+T d1rkxa_         256 AEGWNFGPNDADATPVKNIVEQMVKYWGEGASWQLDGN--AHPHEAHYLKLD---CSKAKMQLGWHPRWNLNTTLEYIVG  330 (356)
+T ss_dssp             CSEEECCCCGGGCEEHHHHHHHHHHHHCTTCCEEC---------CCCCCCBC---CHHCCCCCCCCCCCCHHHHHHHHHH
+T ss_pred             ccceecCCCCCCceeHHHHHHHHHHHhCCCCcceecCC--CChhhcceeEEC---hHHHHHHHCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     82 DYLLSVSNAHEQRKRALEMKA  102 (200)
+Q Consensus        82 ~y~~~~~~~~~~~~~~~~lr~  102 (200)
+                      .|................+..
+T Consensus       331 ~~~~~~~~~~~~~~~~~~~~~  351 (356)
+T d1rkxa_         331 WHKNWLSGTDMHEYSITEINN  351 (356)
+T ss_dssp             HHHHHHTTCCHHHHHHHHHHH
+T ss_pred             HHHHhcCCCccccccHHHHHH
+
+
+No 52
+>PF11221.8 ; Med21 ; Subunit 21 of Mediator complex
+Probab=25.43  E-value=4.7e+02  Score=21.00  Aligned_cols=82  Identities=12%  Similarity=0.083  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             CCCchhhHHHHHHHHHHHHHHHHhhccccccCCCCCccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29    115 SIPSSEHKELKEFAIKQLEESIQWDCNLKFCDPDSVVKLSPEEWLERKIAMCEKNIKYHREEHEKELERVNLRNKWIKQL  194 (200)
+Q Consensus       115 ~pPT~eH~~lKeFmi~QL~~Si~~Dc~~~y~~~~~p~~~~~~~w~~~~i~~~~~~i~y~~k~~~eEv~rt~~rN~Wi~~L  194 (200)
+                      .++..--...++|+.+-+..+-..|-   ..+..|....+.++ ....|..|+.+..-..+++.+.+.+++..-..|+.+
+T Consensus        56 ~~~~~~~~~~~~lA~di~~~ak~Ie~---LIdsLP~~~~se~~-q~~~l~~L~~e~~~a~~el~~~v~~ae~ll~~v~~~  131 (137)
+T R8BAN9_TOGMI/1   56 LPPDVFKAGQIELARDLVIKEQQIEL---LVSSLPGLENSERD-QQQNIKELEDELKVAEAQRQDAIREKDEVLAKLDQV  131 (137)
+T ss_pred             CChHHHHHHHHHHHHHHHHHHHHHHH---HHHcCCCCCCCHHH-HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHhcC
+Q Q_9186633_29    195 RDSLEN  200 (200)
+Q Consensus       195 ~~SL~~  200 (200)
+                      ...+..
+T Consensus       132 l~~ia~  137 (137)
+T R8BAN9_TOGMI/1  132 IRSIRR  137 (137)
+T ss_pred             HHHHhC
+
+
+No 53
+>cd05247 UDP_G4E_1_SDR_e; UDP-glucose 4 epimerase, subgroup 1, extended (e) SDRs. UDP-glucose 4 epimerase (aka UDP-galactose-4-epimerase), is a homodimeric extended SDR.
+Probab=25.23  E-value=1.5e+02  Score=24.28  Aligned_cols=77  Identities=10%  Similarity=-0.066  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      ++|-+-.+..|..+|..+|+..+++.+|..+.-...|.....|...-.      .-+++.+.|.--...++++.-+..-+
+T Consensus       247 ~~~~~~~~~~~~~~s~~e~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~------~~~~~~~~lg~~p~~~~~~~~~~~~~  320 (323)
+T cd05247         259 CGCRIYNLGTGTGYSVLQMVQAMEKASGKKIPYKVVARREGDVAACYA------NPSLAQEELGWTAALGLDRMCEDLWR  332 (335)
+T ss_pred             cCceEEEeCCCCCCcHHHHHHHHHHHhCCCCCeEEccCCCCCCceEEe------CHHHHHHHhCCcccccHHHHHHHHHH
+
+
+Q ss_pred             HHH
+Q Q_9186633_29     82 DYL   84 (200)
+Q Consensus        82 ~y~   84 (200)
+                      .|+
+T Consensus       321 ~~~  323 (323)
+T cd05247         333 WQK  335 (335)
+T ss_pred             hhC
+
+
+No 54
+>PF08681.11 ; DUF1778 ; Protein of unknown function (DUF1778)
+Probab=25.14  E-value=3.3e+02  Score=19.07  Aligned_cols=70  Identities=11%  Similarity=-0.009  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             HHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCchhhHHHHHHHHH
+Q Q_9186633_29     55 ESIKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKAWSIPSSEHKELKEFAIK  130 (200)
+Q Consensus        55 ~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~pPT~eH~~lKeFmi~  130 (200)
+                      ..+.+.-...+...|+|+.+.-..+-..+............-..+....|...|.     .||.+ ...|++.+..
+T Consensus         8 ~e~~~~l~~~A~~~g~s~s~~i~~a~~~~~~~~~~~~~~~~l~~~~~~~~~~~l~-----~p~~~-~~~l~~~~~~   77 (80)
+T Y420_HAEIN/9-8    8 IDIYELLKQAAAITGRTLTDFVVSVAYEEAKKTISEHQVLRLAVNDQALLIESLS-----KPFEP-NPSMKNALDV   77 (80)
+T ss_pred             HHHHHHHHHHHHHhCCCHHHHHHHHHHHHHHHHHhhcCeeecCHHHHHHHHHHHh-----CCCCC-CHHHHHHHHH
+
+
+No 55
+>d2b69a1 c.2.1.2 (A:4-315) UDP-glucuronate decarboxylase 1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=25.07  E-value=4e+02  Score=22.22  Aligned_cols=83  Identities=16%  Similarity=0.095  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      +.+-.-.|..|..+|..+++-.+++.+|..+....-+....-+....+      ....++..|.--...++++.-++.-.
+T Consensus       229 ~~~~~~~i~~~~~~s~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~~~lg~~~~~~~~~~l~~~~~  302 (312)
+T d2b69a1         229 NVSSPVNLGNPEEHTILEFAQLIKNLVGSGSEIQFLSEAQDDPQKRKP------DIKKAKLMLGWEPVVPLEEGLNKAIH  302 (312)
+T ss_dssp             SCCSCEEESCCCEEEHHHHHHHHHHHHTCCCCEEEECCCTTCCCCCCB------CCHHHHHHHCCCCCSCHHHHHHHHHH
+T ss_pred             CCCCCEEccCCCceeHHHHHHHHHHHHCCCCceeecCCCCCCCCccCC------ChHHHHHHhCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHH
+Q Q_9186633_29     82 DYLLSVSNA   90 (200)
+Q Consensus        82 ~y~~~~~~~   90 (200)
+                      .|......+
+T Consensus       303 ~~~~~~~~~  311 (312)
+T d2b69a1         303 YFRKELEYQ  311 (312)
+T ss_dssp             HHHHHHHHH
+T ss_pred             HHHHhhhhc
+
+
+No 56
+>cd05237 UDP_invert_4-6DH_SDR_e; UDP-Glcnac (UDP-linked N-acetylglucosamine) inverting 4,6-dehydratase, extended (e) SDRs.
+Probab=24.89  E-value=1.5e+02  Score=23.94  Aligned_cols=49  Identities=10%  Similarity=0.017  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             CCcccccccCceeeHHHHHHHHHHHhC------CHhhCCCCCCCCCCCcccCCCc
+Q Q_9186633_29      3 TGYTSDIYKGQEVSGKDFVLKCARAFG------ALVQMRDEPLNTPIPDELKPTS   51 (200)
+Q Consensus         3 TgYT~~I~dG~~~tf~~fal~CARafG------Ali~MRDeP~~a~iPe~feps~   51 (200)
+                      +|-+-.+..|..+|..+|+..+++.+|      ..+...+.+.+..+.+.+....
+T Consensus       220 ~~~~~~~~~~~~~t~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  274 (287)
+T cd05237         217 HGGEIFVPKIPSMKMTDLAKALAPN--------TPTKIIGIRPGEKLHEVMIPKD  263 (277)
+T ss_pred             CCCeEEeCCCCceeHHHHHHHHHHHHCCCCCCcccceeecCCCCcceeeeccCCC
+
+
+No 57
+>PF14591.6 ; AF0941-like ; AF0941-like
+Probab=24.46  E-value=5.4e+02  Score=21.35  Aligned_cols=70  Identities=19%  Similarity=0.172  Sum_probs=0.0  Template_Neff=3.200
+
+Q ss_pred             ccCHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhCCCCchhhH----HHHH
+Q Q_9186633_29     51 SYHLESIKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKAWSIPSSEHK----ELKE  126 (200)
+Q Consensus        51 ~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~aW~pPT~eH~----~lKe  126 (200)
+                      .|--..+++.+.-|.      ..+.+..+..-|.      ++.+++.  ++.-+..||..+.+=.--..+-.    .||-
+T Consensus         2 ~Y~ns~~eKLkeLL~------ipDiE~~iDELFe------KEeleEm--mr~d~~~iL~di~~geidEEEa~~~l~~Lkv   67 (114)
+T Y941_ARCFU/1-1    2 LYINSFLDRMGEIIR------GEKSVEEADKLLD------QKNIFEM--FRSDCEEILNLYKSGKAEKEEVQRNFYLLKT   67 (114)
+T ss_pred             cccchhHHHHHHHhh------chhHHHHHHHHhc------HHhHHHH--hHHHHHHHHHHHHCCCCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHH
+Q Q_9186633_29    127 FAIKQLEE  134 (200)
+Q Consensus       127 Fmi~QL~~  134 (200)
+                      |+++||..
+T Consensus        68 y~~sql~~   75 (114)
+T Y941_ARCFU/1-1   68 YVVSQLSI   75 (114)
+T ss_pred             HHHHHHHH
+
+
+No 58
+>d2c5aa1 c.2.1.2 (A:13-375) GDP-mannose-3', 5'-epimerase {Thale cress (Arabidopsis thaliana) [TaxId: 3702]}
+Probab=24.43  E-value=4.4e+02  Score=23.12  Aligned_cols=84  Identities=12%  Similarity=-0.040  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      |.|-.-.|..|..+|+.||+-..++.+|..+....-|.....+...-       ....+++.|.--..+++++.-+..-.
+T Consensus       250 ~~~~~~~i~~~~~~s~~e~~~~i~~~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~~~lg~~p~~~l~e~i~~~~~  322 (363)
+T d2c5aa1         250 DFREPVNIGSDEMVSMNEMAEMVLSFEEKKLPIHHIPGPEGVRGRNS-------DNNLIKEKLGWAPNMRLKEGLRITYF  322 (363)
+T ss_dssp             SCCSCEEECCCCCEEHHHHHHHHHHTTTCCCCEEEECCCCCCSBCEE-------CCHHHHHHHSCCCCCCHHHHHHHHHH
+T ss_pred             CCCCcEEecCCCeeeHHHHHHHHHHHcCCCCCeeecCCCCCCccccC-------ChHHHHHHHCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHH
+Q Q_9186633_29     82 DYLLSVSNAHE   92 (200)
+Q Consensus        82 ~y~~~~~~~~~   92 (200)
+                      .|.........
+T Consensus       323 ~~~~~~~~~~~  333 (363)
+T d2c5aa1         323 WIKEQIEKEKA  333 (363)
+T ss_dssp             HHHHHHHHHHH
+T ss_pred             HHHHHHHHHcc
+
+
+No 59
+>cd05260 GDP_MD_SDR_e; GDP-mannose 4,6 dehydratase, extended (e) SDRs. GDP-mannose 4,6 dehydratase, a homodimeric SDR, catalyzes the NADP(H)-dependent conversion of GDP-(D)-mannose to GDP-4-keto, 6-deoxy-(D)-mannose in the fucose biosynthesis pathway.
+Probab=24.20  E-value=2.1e+02  Score=23.55  Aligned_cols=71  Identities=18%  Similarity=0.214  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             cccCceeeHHHHHHHHHHHhC...........................----CHhhCCCCCCCCCCCcccCCCccCHHHH
+Q Q_9186633_29      9 IYKGQEVSGKDFVLKCARAFG...........................----ALVQMRDEPLNTPIPDELKPTSYHLESI   57 (200)
+Q Consensus         9 I~dG~~~tf~~fal~CARafG...........................----Ali~MRDeP~~a~iPe~feps~Y~~~~l   57 (200)
+                      |.+|+.+|..+|+..+++.+|                               ..+.....+....-+..+..+.      
+T Consensus       242 ~~~~~~~~~~e~~~~~~~~~~...........................~~~~~~~~~~~~~~~~~~~~~~~~~~------  288 (316)
+T cd05260         248 IATGVQYSVRQFVEMAAAQLGiklrfegtgveekgivvsvtghdapgvKPGDVIIAVDPRYFRPAEVETLLGDP------  321 (349)
+T ss_pred             ecCCCcccHHHHHHHHHHHhC...........................CCCCeEeeCCccccCCCcceEEeeCh------
+
+
+Q ss_pred             HHHHHHHHHHhcCCHHHHHHHHHHHHHH
+Q Q_9186633_29     58 KQDEEQLKNYRNMSLEEAEKQAENDYLL   85 (200)
+Q Consensus        58 ~~a~~~l~~~~~ms~~e~e~~~~~~y~~   85 (200)
+                      .++.+.+.--...+.++.-....+.|.+
+T Consensus       289 ~~~~~~lg~~~~~~~~~~l~~~~~~~~~  316 (316)
+T cd05260         322 TKAHEKLGWKPEITLREMVSEMVANDLE  349 (349)
+T ss_pred             hHHHHHhCCCcccCHHHHHHHHHHHHhC
+
+
+No 60
+>PF15463.6 ; ECM11 ; Extracellular mutant protein 11
+Probab=23.90  E-value=5.4e+02  Score=21.14  Aligned_cols=99  Identities=14%  Similarity=0.015  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CCCCCCCCcccCCCccCHHHHHHHHH-----HHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     37 EPLNTPIPDELKPTSYHLESIKQDEE-----QLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEV  111 (200)
+Q Consensus        37 eP~~a~iPe~feps~Y~~~~l~~a~~-----~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V  111 (200)
+                      .|...+++..-.++..-.++|.....     ...-+.+||.+|++....--....-.-..+..+.+.++|......-.+|
+T Consensus        23 ~P~~~~~~~~~~~~~~l~ekl~~~~~~~~~~q~~ff~sls~deWeeaGdwfl~~f~~l~~klk~aR~~kR~~a~~fE~eI  102 (131)
+T L8G2W7_PSED2/2   23 DPNQAENPSLTGLPKSLDARMKLFKYAPAENQLAFLATLSIDEWEEAGEWLMKQFGTVMDKFADARRERRKIATGFEDRL  102 (131)
+T ss_pred             CCCCCCCCCCCCCCCCHHHHHHHHhcCCHHHHHHHHHcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HhCCCCchhhHHHHHHHHHHHHHH
+Q Q_9186633_29    112 KAWSIPSSEHKELKEFAIKQLEES  135 (200)
+Q Consensus       112 ~aW~pPT~eH~~lKeFmi~QL~~S  135 (200)
+                      ....---..+...-+=.++.++..
+T Consensus       103 ~~R~~av~~k~~~id~kL~~mk~~  126 (131)
+T L8G2W7_PSED2/2  103 AARDAEVREKTDGVTAALKDFKKG  126 (131)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 61
+>cd05255 SQD1_like_SDR_e; UDP_sulfoquinovose_synthase (Arabidopsis thaliana SQD1 and related proteins), extended (e) SDRs.
+Probab=23.78  E-value=2.3e+02  Score=24.82  Aligned_cols=89  Identities=9%  Similarity=0.021  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCCccccccc--CceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYK--GQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQA   79 (200)
+Q Consensus         2 PTgYT~~I~d--G~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~   79 (200)
+                      .+|=+-.|.+  |..+|..+|+..+++ +|..+.+.-.....+.|..........-...++++ |.--...++++.-...
+T Consensus       282 ~~~~~~~i~~~~~~~~s~~e~~~~i~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~~k~~~-lg~~~~~~~~~~~~~~  359 (382)
+T cd05255         282 AKAGEFRVFNQFTEQFSVNELASLVTK-AGSKLGLDVKKMTVPNPRVEAEEHYYNAKHTKLME-LGLEPHYLSDSLLDSL  359 (382)
+T ss_pred             ccCCeEEeecCCCCeeeHHHHHHHHHH-hccccCCcccccccCCCCcccchhceeeccHHHHH-cCCCCCCCHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHH
+Q Q_9186633_29     80 ENDYLLSVSNAHE   92 (200)
+Q Consensus        80 ~~~y~~~~~~~~~   92 (200)
+                      .+.|........+
+T Consensus       360 ~~~~~~~~~~~~~  372 (382)
+T cd05255         360 LNFAVQFKDRVDT  372 (382)
+T ss_pred             HHHHHHchhccch
+
+
+No 62
+>cd05252 CDP_GD_SDR_e; CDP-D-glucose 4,6-dehydratase, extended (e) SDRs. This subgroup contains CDP-D-glucose 4,6-dehydratase, an extended SDR, which catalyzes the conversion of CDP-D-glucose to CDP-4-keto-6-deoxy-D-glucose.
+Probab=23.78  E-value=2.2e+02  Score=23.75  Aligned_cols=83  Identities=10%  Similarity=-0.063  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CCCccccccc--CceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYK--GQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQA   79 (200)
+Q Consensus         2 PTgYT~~I~d--G~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~   79 (200)
+                      .+|-+-.|..  |..+|+.+|+-.+++.+|..+.....|.     ..-....+..-...++++.|---...++++.-+..
+T Consensus       250 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~lg~~p~~~~~~~l~~~  324 (336)
+T cd05252         250 EYAEGWNFGPNDADATPVKNIVEQMVKYWGEGASWQLDGN-----AHPHEAHYLKLDCSKAKMQLGWHPRWNLNTTLEYI  324 (336)
+T ss_pred             ccccceecCCCCCCCCcHHHHHHHHHHHHcCCCcceecCC-----CCcccceEeEEehHHHHHHhCCCCCCCHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHH
+Q Q_9186633_29     80 ENDYLLSVSN   89 (200)
+Q Consensus        80 ~~~y~~~~~~   89 (200)
+                      .+.|.+...+
+T Consensus       325 ~~~~~~~~~~  334 (336)
+T cd05252         325 VGWHKNWLSG  334 (336)
+T ss_pred             HHHHHHHhcC
+
+
+No 63
+>PF13019.6 ; Sde2_N_Ubi ; Silencing defective 2 N-terminal ubiquitin domain
+Probab=23.68  E-value=5.9e+02  Score=21.63  Aligned_cols=56  Identities=16%  Similarity=0.130  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             HHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHH------HHHHHH-HHHHHHHHHHHHHH
+Q Q_9186633_29     57 IKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNAHE------QRKRAL-EMKARYEKTLNEVK  112 (200)
+Q Consensus        57 l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~------~~~~~~-~lr~RY~~mL~~V~  112 (200)
+                      +.++++--+.+...+..+-++.+++.+........+      ..++.. ..++++++.++.|.
+T Consensus       114 ~~~~~~l~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  176 (177)
+T Q8LHF3_ORYSJ/7  114 VNAERRLEEWKAEAADRQLEKLAEDFIKKKAKEAGRGGVKAAEVDKYLEKYRKDAESCVNAVE  176 (177)
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhcCCCchHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 64
+>d1rpna_ c.2.1.2 (A:) GDP-mannose 4,6-dehydratase {Pseudomonas aeruginosa [TaxId: 287]}
+Probab=23.62  E-value=2.2e+02  Score=24.01  Aligned_cols=86  Identities=14%  Similarity=-0.032  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      |.+=+..|..|..+|+.|++..+++.+|......-...  +.+..........-..+++++.|---...|+++.-....+
+T Consensus       235 ~~~~~~~i~~~~~~s~~e~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~k~~~~lg~~p~~~~~~~i~~~~~  312 (321)
+T d1rpna_         235 DKADDYVVATGVTTTVRDMCQIAFEHVGLDYRDFLKID--PAFFRPAEVDVLLGNPAKAQRVLGWKPRTSLDELIRMMVE  312 (321)
+T ss_dssp             SSCCCEEECCSCEEEHHHHHHHHHHTTTCCGGGTEEEC--GGGCCSSCCCBCCBCTHHCCCCCCCCCCSCHHHHHHHHHH
+T ss_pred             CCCCeEEECCCcceeHHHHHHHHHHHhCCChhhccccC--hhhcCcccccEEEeChHHHHHHhCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHH
+Q Q_9186633_29     82 DYLLSVSN   89 (200)
+Q Consensus        82 ~y~~~~~~   89 (200)
+                      .|.....+
+T Consensus       313 ~~~~~~~~  320 (321)
+T d1rpna_         313 ADLRRVSR  320 (321)
+T ss_dssp             HHHHHHHH
+T ss_pred             HHHhhccC
+
+
+No 65
+>d1k1fa_ a.147.1.1 (A:) Bcr-Abl oncoprotein oligomerization domain {Human (Homo sapiens) [TaxId: 9606]}
+Probab=23.56  E-value=4.3e+02  Score=19.90  Aligned_cols=41  Identities=20%  Similarity=0.233  Sum_probs=0.0  Template_Neff=2.500
+
+Q ss_pred             ccCCCCCcc-CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29    144 FCDPDSVVK-LSPEEWLERKIAMCEKNIKYHREEHEKELERV  184 (200)
+Q Consensus       144 y~~~~~p~~-~~~~~w~~~~i~~~~~~i~y~~k~~~eEv~rt  184 (200)
+                      |.+.++|.. +.--.-.+..+++++..|.+.++...+|.=|+
+T Consensus        15 FP~~e~P~m~l~sv~diE~ELe~Ck~~ir~Le~~l~~ErFk~   56 (67)
+T d1k1fa_          15 FPDSEPPRMELRSVGDIEQELERAKASIRRLEQEVNQERFRM   56 (67)
+T ss_dssp             CTTSCCCCCCCSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCCCCCCceecccHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 66
+>d3sxpa_ c.2.1.0 (A:) automated matches {Helicobacter pylori [TaxId: 563041]}
+Probab=23.23  E-value=2e+02  Score=23.65  Aligned_cols=78  Identities=13%  Similarity=-0.034  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      |.+=+-.|.+|..+|+.+++-.+++.+|.     ..+.-.+.|..+....+. -....+...+.--...+++++-...-+
+T Consensus       246 ~~~~~~~~~~~~~~s~~e~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~-~~~~~~~~~~g~~~~~~l~~~l~~~~~  319 (324)
+T d3sxpa_         246 QKSGVYNVGYSQARSYNEIVSILKEHLGD-----FKVTYIKNPYAFFQKHTQ-AHIEPTILDLDYTPLYDLESGIKDYLP  319 (324)
+T ss_dssp             SSCEEEEESCSCEEEHHHHHHHHHHHHCC-----CEEECCC-------CCCC-BCCHHHHHHHCCCCCCCHHHHHHHHHH
+T ss_pred             CCCCeEEeCCCCceeHHHHHHHHHHHHCC-----CeeEEecCchHHhccccc-cCcHHHHHHcCCCCCCChHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q Q_9186633_29     82 DYLL   85 (200)
+Q Consensus        82 ~y~~   85 (200)
+                      .+..
+T Consensus       320 ~~~~  323 (324)
+T d3sxpa_         320 HIHA  323 (324)
+T ss_dssp             HHTC
+T ss_pred             HHhh
+
+
+No 67
+>d1vl0a1 c.2.1.2 (A:1-280) DTDP-4-dehydrorhamnose reductase RfbD {Clostridium acetobutylicum [TaxId: 1488]}
+Probab=23.19  E-value=2.4e+02  Score=22.99  Aligned_cols=82  Identities=16%  Similarity=-0.008  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      |.+=+-.+..|..+|+.+++-.+++++|-.+...-.|. ...+.......+....-......+.. ..-+.++.-.....
+T Consensus       199 ~~~~~~~~~~~~~~t~~el~~~~~~~~g~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~l~~~~~  276 (280)
+T d1vl0a1         199 KNYGTFHCTCKGICSWYDFAVEIFRLTGIDVKVTPCTT-EEFPRPAKRPKYSVLRNYMLELTTGD-ITREWKESLKEYID  276 (280)
+T ss_dssp             TCCEEEECCCBSCEEHHHHHHHHHHHHCCCCEEEEECS-TTSCCSSCCCSBCCBCCHHHHHTTCC-CCCBHHHHHHHHHH
+T ss_pred             cCCceEEeecCcCcCHHHHHHHHHHHhCCCCceeeCCh-hhCCCCCCCCCCcccchHhHHhhhCC-CCccHHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q Q_9186633_29     82 DYLL   85 (200)
+Q Consensus        82 ~y~~   85 (200)
+                      .+++
+T Consensus       277 ~~~~  280 (280)
+T d1vl0a1         277 LLQM  280 (280)
+T ss_dssp             HHTC
+T ss_pred             HhcC
+
+
+No 68
+>d3enka_ c.2.1.0 (A:) automated matches {Burkholderia pseudomallei [TaxId: 320372]}
+Probab=23.19  E-value=3e+02  Score=23.03  Aligned_cols=78  Identities=13%  Similarity=-0.025  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      +.|-+-.|..|..+|+.||+-.+++.||.     +-+....-+..+.+.... -.-..++..+---...++++.-...-+
+T Consensus       257 ~~~~~~~i~~~~~~t~~~~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~-~~~~~~~~~lg~~p~~~~~~~i~~~~~  330 (340)
+T d3enka_         257 DASLTVNLGTGRGYSVLEVVRAFEKASGR-----AVPYELVARRPGDVAECY-ANPAAAAETIGWKAERDLERMCADHWR  330 (340)
+T ss_dssp             TSCEEEEESCSCCEEHHHHHHHHHHHHCS-----CCCEEEECCCTTCCSEEC-BCCHHHHHHHCCCCCCCHHHHHHHHHH
+T ss_pred             CCcEEEEcCCCCceeHHHHHHHHHHHHCC-----CCCceeecCCCCChhHhc-cChHHHHHhhCCcceeeHHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q Q_9186633_29     82 DYLL   85 (200)
+Q Consensus        82 ~y~~   85 (200)
+                      .|.+
+T Consensus       331 ~~~~  334 (340)
+T d3enka_         331 WQEN  334 (340)
+T ss_dssp             HHHH
+T ss_pred             HHHh
+
+
+No 69
+>PF02996.17 ; Prefoldin ; Prefoldin subunit
+Probab=23.02  E-value=4.4e+02  Score=19.84  Aligned_cols=44  Identities=5%  Similarity=0.035  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_29     70 MSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKA  113 (200)
+Q Consensus        70 ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~a  113 (200)
+                      +|.++|....++.-.......++..++...+..++..+...+..
+T Consensus        70 ~t~~eA~~~l~~r~~~l~~~~~~l~~~~~~~~~~~~~l~~~l~~  113 (117)
+T PFDA_HALSA/21-   70 QDSDAAASVLDEKKATIDGRIDDVQAEIADLSEEAEQLEQQAQQ  113 (117)
+T ss_pred             ecHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 70
+>COG1087 GalE; UDP-glucose 4-epimerase [Cell wall/membrane/envelope biogenesis]. 
+Probab=22.50  E-value=2.2e+02  Score=23.77  Aligned_cols=75  Identities=15%  Similarity=0.070  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             cccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcC-CHHHHHHHHHHHHHHHH
+Q Q_9186633_29      9 IYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNM-SLEEAEKQAENDYLLSV   87 (200)
+Q Consensus         9 I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~m-s~~e~e~~~~~~y~~~~   87 (200)
+                      |.+|..+|+.+++-.+++.+|..+.....|....-+..+..+      ..+++..|.--... ++++.-....+.|..+.
+T Consensus       252 i~~~~~~s~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~~lg~~~~~~~~~~~~~~~~~~~~~~~  325 (329)
+T COG1087         252 LGSGNGFSVLEVIEAAKKVTGRDIPVEIAPRRAGDPAILVAD------SSKARQILGWQPTYDDLEDIIKDAWDWHQQRH  325 (329)
+T ss_pred             cCCCCcccHHHHHHHHHHHHCCCCCeEecCCCCCCCcEEEec------hHHHHHHHCCCCCcCCHHHHHHHHHHHHHhcc
+
+
+Q ss_pred             HH
+Q Q_9186633_29     88 SN   89 (200)
+Q Consensus        88 ~~   89 (200)
+                      ..
+T Consensus       326 ~~  327 (329)
+T COG1087         326 GD  327 (329)
+T ss_pred             CC
+
+
+No 71
+>PF07511.11 ; DUF1525 ; Protein of unknown function (DUF1525)
+Probab=22.38  E-value=5.6e+02  Score=20.75  Aligned_cols=73  Identities=14%  Similarity=0.168  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHHH--HHHHHHHHHHHHH---HHHHHHHHHHHHHHHHH
+Q Q_9186633_29     40 NTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEND--YLLSVSNAHEQRK---RALEMKARYEKTLNEVK  112 (200)
+Q Consensus        40 ~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~--y~~~~~~~~~~~~---~~~~lr~RY~~mL~~V~  112 (200)
+                      |...|..+...-|+++..+.+.+.|..--.-.+.+|++.+...  |+.+..+.-...+   -..++..-|+.+....+
+T Consensus         9 d~~~p~~~~~~v~~LD~~~~~~~~l~~~Lp~~~~~a~~~~~~~~~~~~a~~~~~~s~~~~~~~~~l~~a~~~~~~a~~   86 (122)
+T A1U886_MARHV/3    9 DVSLPPGLPVEVYELDASQRATEELNRQVRSRLQEDLNLQTYEDAHRRAFSDLLNSPDWGGVYQQIEVGSRAIEAAVR   86 (122)
+T ss_pred             cCCCCCCCCcEEEECChHHHHHHHHHhhcccCHHHHHHHHHHHHHHHHHHHHHhcCCChHHHHHHHHHHHHHHHHHHH
+
+
+No 72
+>d1db3a_ c.2.1.2 (A:) GDP-mannose 4,6-dehydratase {Escherichia coli [TaxId: 562]}
+Probab=22.35  E-value=3.8e+02  Score=23.08  Aligned_cols=89  Identities=17%  Similarity=0.126  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhC----------------CCCCCCCCCCcccCCCccCHH---------H
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQM----------------RDEPLNTPIPDELKPTSYHLE---------S   56 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~M----------------RDeP~~a~iPe~feps~Y~~~---------~   56 (200)
+                      |.|=+-.|.+|..+|..||+-.+++.+|..+..                ...|.-.+....+.....+..         .
+T Consensus       243 ~~~~~~ni~~~~~~s~~e~~~~i~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~d  322 (357)
+T d1db3a_         243 EQPEDFVIATGVQYSVRQFVEMAAAQLGIKLRFEGTGVEEKGIVVSVTGHDAPGVKPGDVIIAVDPRYFRPAEVETLLGD  322 (357)
+T ss_dssp             SSCCCEEECCCCCEEHHHHHHHHHHTTTEEEEEESCGGGCEEEEEEECSSSCTTCCTTCEEEEECGGGCCCCC-CCCCBC
+T ss_pred             CCCCcEEEcccceEeHHHHHHHHHHHhCCceEEeCCCcccccEEEEecCCCCCCCCCCCeEEEeccccccccchhhhccC
+
+
+Q ss_pred             HHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     57 IKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNA   90 (200)
+Q Consensus        57 l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~   90 (200)
+                      .+++++.|---...++++.-...-+.|...-.++
+T Consensus       323 ~~k~~~~lgw~p~~~~~~~l~~~~~~~~~~~~~~  356 (357)
+T d1db3a_         323 PTKAHEKLGWKPEITLREMVSEMVANDLEAAKKH  356 (357)
+T ss_dssp             CHHCCCCCCCCCCSCHHHHHHHHHHHHHHHHHTT
+T ss_pred             hHHHHHHHCCCCcccHHHHHHHHHHHHHHHHHhc
+
+
+No 73
+>cd05254 dTDP_HR_like_SDR_e; dTDP-6-deoxy-L-lyxo-4-hexulose reductase and related proteins, extended (e) SDRs.
+Probab=22.32  E-value=2.2e+02  Score=22.85  Aligned_cols=72  Identities=10%  Similarity=0.056  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhC.....-CHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFG.....-ALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEA   75 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafG.....-Ali~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~   75 (200)
+                      +.|=+-.|.+|..+|+.|++...++.+|      -.+.+...|..........+..+. -.-.++++.+ .+.-.+++|+
+T Consensus       206 ~~~~~~~i~~~~~~t~~e~~~~l~~~~g.....~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~-~~~~~~~~e~  278 (280)
+T cd05254         207 EVAGLYHLVAGGTTTWHDYAALVFDEARkagitLALTELNAVPTSAYPTPASRPGNSR-LNTEKFQRNF-DLILPQWELG  284 (286)
+T ss_pred             ccCCcEEecCCCcccHHHHHHHHHHHhC.....CCCCCceeCChhhCCCCCCCCCcce-echHHHHHHH-CCCCCchhhh
+
+
+No 74
+>PF07166.11 ; DUF1398 ; Protein of unknown function (DUF1398)
+Probab=22.21  E-value=96  Score=24.68  Aligned_cols=17  Identities=29%  Similarity=0.512  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             ccCceeeHHHHHHHHHHH
+Q Q_9186633_29     10 YKGQEVSGKDFVLKCARA   27 (200)
+Q Consensus        10 ~dG~~~tf~~fal~CARa   27 (200)
+                      +.|+ +||.+|..+||+|
+T Consensus        75 Q~G~-~~y~~F~~~~a~A   91 (118)
+T F2IGB2_FLUTR/8   75 QQGQ-TDYYTFCKDCAKT   91 (118)
+T ss_pred             HcCC-CCHHHHHHHHHHh
+
+
+No 75
+>cd05256 UDP_AE_SDR_e; UDP-N-acetylglucosamine 4-epimerase, extended (e) SDRs. This subgroup contains UDP-N-acetylglucosamine 4-epimerase of Pseudomonas aeruginosa, WbpP,  an extended SDR, that catalyzes the NAD+ dependent conversion of UDP-GlcNAc and UDPGalNA to UDP-Glc and UDP-Gal.
+Probab=21.90  E-value=2.3e+02  Score=22.91  Aligned_cols=76  Identities=8%  Similarity=-0.052  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhC.....CHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFG.....ALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAE   76 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafG.....Ali~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e   76 (200)
+                      .+|-+-.+.+|..+|..+|+..+++.+|     ..+.....|.....+.....+.      .++++.|.--...++++.-
+T Consensus       229 ~~~~~~~~~~~~~~~~~e~~~~~~~~~g.....~~~~~~~~~~~~~~~~~~~~~~------~~~~~~lg~~~~~~~~~~l  297 (304)
+T cd05256         239 ARNQVYNIAVGGRTSLNQLFFALRDGLAengvsYHREPVYRDFREGDVRHSLADI------SKAAKLLGYAPKYDVSAGV  312 (319)
+T ss_pred             cccccEEecCCCceeHHHHHHHHHHHcc.....cCCCCeecCCCCCCCccccccH------HHHHHHhCCCCCCChhHHH
+
+
+Q ss_pred             HHHHHHH
+Q Q_9186633_29     77 KQAENDY   83 (200)
+Q Consensus        77 ~~~~~~y   83 (200)
+                      ..+-+.|
+T Consensus       298 ~~~~~~~  304 (304)
+T cd05256         313 ALAMPWY  319 (319)
+T ss_pred             HHhcccC
+
+
+No 76
+>d1udca_ c.2.1.2 (A:) Uridine diphosphogalactose-4-epimerase (UDP-galactose 4-epimerase) {Escherichia coli [TaxId: 562]}
+Probab=21.64  E-value=2.5e+02  Score=23.44  Aligned_cols=78  Identities=15%  Similarity=0.044  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      +.|=.-.|..|..+|+.+++-.+++.+|..+.....|.....+..+      .-...++++.|---...++++.-...-+
+T Consensus       254 ~~~~~~~i~~~~~~t~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~~~~~lg~~~~~~~~~~l~~~~~  327 (338)
+T d1udca_         254 PGVHIYNLGAGVGNSVLDVVNAFSKACGKPVNYHFAPRREGDLPAY------WADASKADRELNWRVTRTLDEMAQDTWH  327 (338)
+T ss_dssp             CEEEEEEESCSSCEEHHHHHHHHHHHHTSCCCEEEECCCTTCCSBC------CBCCHHHHHHHCCCCCCCHHHHHHHHHH
+T ss_pred             CCceeEEecCCCCChHHHHHHHHHHHhCCCcceEecCCCCCCCCcc------ccCchHHHHhhCCcccccHHHHHHHHcH
+
+
+Q ss_pred             HHHH
+Q Q_9186633_29     82 DYLL   85 (200)
+Q Consensus        82 ~y~~   85 (200)
+                      .|+.
+T Consensus       328 ~~~~  331 (338)
+T d1udca_         328 WQSR  331 (338)
+T ss_dssp             HHHH
+T ss_pred             HHHh
+
+
+No 77
+>KOG1429 dTDP-glucose 4-6-dehydratase/UDP-glucuronic acid decarboxylase [Carbohydrate transport and metabolism, Cell wall/membrane/envelope biogenesis]
+Probab=21.59  E-value=5.9e+02  Score=22.00  Aligned_cols=85  Identities=15%  Similarity=0.107  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHH
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAEN   81 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~   81 (200)
+                      |.+-.-.|.+|..+|+.+++-.+++.+|......-.|.....+.....+      ..++++.|.-....+.++.-....+
+T Consensus       255 ~~~~~~~~~~~~~~s~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~~lg~~~~~~~~e~l~~~~~  328 (350)
+T KOG1429         255 DYRGPVNIGNPGEFTMLELAEMVKELIGPVSEIEFVENGPDDPRKRKPD------ITKAKEQLGWEPKVSLREGLPLTVT  328 (350)
+T ss_pred             CCCCCeeecCCCceeHHHHHHHHHHHHCCCCceEEecCCCCCccccccC------hHHHHHHHCCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHH
+Q Q_9186633_29     82 DYLLSVSNAHE   92 (200)
+Q Consensus        82 ~y~~~~~~~~~   92 (200)
+                      .|........+
+T Consensus       329 ~~~~~~~~~~~  339 (350)
+T KOG1429         329 YFRERIAREKK  339 (350)
+T ss_pred             HHHHHHHHHhh
+
+
+No 78
+>PF17253.2 ; DUF5320 ; Family of unknown function (DUF5320)
+Probab=21.56  E-value=2.3e+02  Score=20.83  Aligned_cols=24  Identities=25%  Similarity=0.328  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29    156 EEWLERKIAMCEKNIKYHREEHEK  179 (200)
+Q Consensus       156 ~~w~~~~i~~~~~~i~y~~k~~~e  179 (200)
+                      .++++++++.|+++|+..++.+.+
+T Consensus        59 ~~~L~~q~~~Le~eL~~i~~rl~e   82 (83)
+T A0A0G0MK00_9BA   59 TEFLQQKALALEEEIKNVKVRLSE   82 (83)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHhc
+
+
+No 79
+>d2p90a1 c.56.8.1 (A:6-274) Hypothetical protein Cgl1923 {Corynebacterium glutamicum [TaxId: 1718]}
+Probab=21.24  E-value=6.4e+02  Score=22.60  Aligned_cols=68  Identities=10%  Similarity=0.276  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCCCcccCCCccCHHHHHHHHHHHHHHhcC-----CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_29     41 TPIPDELKPTSYHLESIKQDEEQLKNYRNM-----SLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLN  109 (200)
+Q Consensus        41 a~iPe~feps~Y~~~~l~~a~~~l~~~~~m-----s~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~  109 (200)
+                      +++|..+....+. +.-..+-+.|..+-++     .+++...+.++..++..+...+..+-...|.+.|+.-|+
+T Consensus       194 ~~~p~y~~~~pdp-~AA~~ll~~l~~l~~l~id~~~L~~~a~~~~~~i~~~~~~~~~~~~~i~~le~~~d~~~~  266 (269)
+T d2p90a1         194 VHVPHYVSASPYP-AATLKLLQSIADSADLNLPLLALERDAEKVHRQLMEQTEESSEIQRVVGALEQQYDSELE  266 (269)
+T ss_dssp             EEEEGGGTTSCCH-HHHHHHHHHHHHHHTCCCCCHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHH
+T ss_pred             EeCccHhcCCCCH-HHHHHHHHHHHHHcCCCCChHHHHHHHHHHHHHHHHHHhcCHHHHHHHHHHHHHHHHHHh
+
+
+No 80
+>PF10168.9 ; Nup88 ; Nuclear pore component
+Probab=21.11  E-value=1.2e+03  Score=23.95  Aligned_cols=77  Identities=16%  Similarity=0.238  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             HHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-------hCCCCchhhHHHHH
+Q Q_9186633_29     54 LESIKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVK-------AWSIPSSEHKELKE  126 (200)
+Q Consensus        54 ~~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~-------aW~pPT~eH~~lKe  126 (200)
+                      .+++......+.. .+..+.++|++..++.+...+.......+..+++++.+.+..++.       ...-+..+...||+
+T Consensus       623 ~~Rl~~ll~~l~~-~~~~LS~aE~~~~~eL~~~~~~l~~l~~~l~~l~~~~~~~~~~~~~~~~~~~~~~l~~~q~~~i~~  701 (725)
+T C3Z4B2_BRAFL/8  623 LRRVENVLKNLQA-RLPVLSDAEVSMKKELESLQEKLKHLKNSTQQVKTKWDYQKRQVTQQARQSSSPALSQSQSKHMKE  701 (725)
+T ss_pred             HHHHHHHHHHHHH-cCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhccCCCCCCHHHHHHHHH
+
+
+Q ss_pred             HHHHH
+Q Q_9186633_29    127 FAIKQ  131 (200)
+Q Consensus       127 Fmi~Q  131 (200)
+                      .+-.|
+T Consensus       702 ~L~~~  706 (725)
+T C3Z4B2_BRAFL/8  702 LLKQE  706 (725)
+T ss_pred             HHHHH
+
+
+No 81
+>COG1089 Gmd; GDP-D-mannose dehydratase [Cell wall/membrane/envelope biogenesis]. 
+Probab=20.79  E-value=5.2e+02  Score=21.94  Aligned_cols=81  Identities=20%  Similarity=0.245  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             cccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCC--------CCcccCCCccCHHHH-------HHHHHHHHHHhcCCHH
+Q Q_9186633_29      9 IYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTP--------IPDELKPTSYHLESI-------KQDEEQLKNYRNMSLE   73 (200)
+Q Consensus         9 I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~--------iPe~feps~Y~~~~l-------~~a~~~l~~~~~ms~~   73 (200)
+                      |.+|+.+|..+|+-.+++.+|..+.-..-++...        .+..+.+..+....+       .+++..|.--...+.+
+T Consensus       249 i~~~~~~s~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~lg~~~~~~~~  328 (345)
+T COG1089         249 IATGETHSVREFVELAFEMVGIDLEWEGTGVDEKGVDAKTGKIIVEIDPRYFRPAEVDLLLGDPTKAKEKLGWRPEVSLE  328 (345)
+T ss_pred             ECCCCcccHHHHHHHHHHHhCCCccccCCCcCCCCccCCCCcEEEEeccccCChhhcccccCChHHHHHHHCCCCCCCHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHH
+Q Q_9186633_29     74 EAEKQAENDYLLSVSN   89 (200)
+Q Consensus        74 e~e~~~~~~y~~~~~~   89 (200)
+                      +.-+..-+.|.+...+
+T Consensus       329 ~~i~~~~~~~~~~~~~  344 (345)
+T COG1089         329 ELVREMVEADLEAARR  344 (345)
+T ss_pred             HHHHHHHHHHHHHHhh
+
+
+No 82
+>cd05261 CAPF_like_SDR_e; capsular polysaccharide assembling protein (CAPF) like, extended (e) SDRs. This subgroup of extended SDRs, includes some members which have been identified as capsular polysaccharide assembling proteins, such as Staphylococcus aureus Cap5F which is involved in the biosynthesis of N-acetyl-l-fucosamine, a constituent of surface polysaccharide structures of S.
+Probab=20.62  E-value=1.7e+02  Score=22.69  Aligned_cols=46  Identities=9%  Similarity=-0.072  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CCCcccccccCceeeHHHHHHHHHHHhCCHhhCCCCCCCCCCCccc
+Q Q_9186633_29      2 PTGYTSDIYKGQEVSGKDFVLKCARAFGALVQMRDEPLNTPIPDEL   47 (200)
+Q Consensus         2 PTgYT~~I~dG~~~tf~~fal~CARafGAli~MRDeP~~a~iPe~f   47 (200)
+                      +.|-+-.+.+|..+|..+++..+++.+|....+...|.+......+
+T Consensus       190 ~~~~~~~~~~~~~~s~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~  235 (248)
+T cd05261         190 IENGVPTVPNVFKVTLGEIVDLLYKFKQSRLDRTLPKLDNLFEKDL  235 (248)
+T ss_pred             cCCCcccCCCCccccHHHHHHHHHHHccccchhhcccccccchhhH
+
+
+No 83
+>PF13376.6 ; OmdA ; Bacteriocin-protection, YdeI or OmpD-Associated
+Probab=20.37  E-value=3.8e+02  Score=18.02  Aligned_cols=59  Identities=12%  Similarity=0.214  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCCCCcccCCCccCHHHHHHHHHHHHHHhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_29     40 NTPIPDELKPTSYHLESIKQDEEQLKNYRNMSLEEAEKQAENDYLLSVSNAHEQRKRALEMKARYEKTLNEVKA  113 (200)
+Q Consensus        40 ~a~iPe~feps~Y~~~~l~~a~~~l~~~~~ms~~e~e~~~~~~y~~~~~~~~~~~~~~~~lr~RY~~mL~~V~a  113 (200)
+                      ..++|+.|.      ..|......++.+.+||+..         +...-..-..........+|-.++++.+..
+T Consensus         1 ~~~~P~~l~------~~L~~~~~a~~~f~~l~~~~---------q~~~~~~i~~ak~~etr~kri~~~i~~l~~   59 (60)
+T Q01NS1_SOLUE/1    1 PTEVPAYIQ------KALRARPAARRNFENLPPSH---------RRQYVAWVDSAKQEATKLRRLDQALVMLES   59 (60)
+T ss_pred             CCCCCHHHH------HHHHhCHHHHHHHHcCCHHH---------HHHHHHHHHhCCCHHHHHHHHHHHHHHHHc
+
+
+No 84
+>PF06569.11 ; DUF1128 ; Protein of unknown function (DUF1128)
+Probab=20.33  E-value=3.8e+02  Score=20.22  Aligned_cols=35  Identities=9%  Similarity=0.009  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             cCCCccCHHHHHHHHHHHHHHhcC---CHHHHHHHHHH
+Q Q_9186633_29     47 LKPTSYHLESIKQDEEQLKNYRNM---SLEEAEKQAEN   81 (200)
+Q Consensus        47 feps~Y~~~~l~~a~~~l~~~~~m---s~~e~e~~~~~   81 (200)
+                      +.|+.|+.+.++..+.-.+.+.+-   |+.|.++.+++
+T Consensus        28 i~pe~f~~~~yedl~diy~~V~~k~~fS~sE~~Aiv~E   65 (70)
+T Y2298_BACSK/1-   28 ITSDSVSPAKHDDLIALHAHVMRSPSFSISEMDEIVQE   65 (70)
+T ss_pred             cChhhCCHHHHHHHHHHHHHHHcCCCCCHHHHHHHHHH
+
+

@@ -1,0 +1,3512 @@
+Query         Q_9186633_5
+Match_columns 50
+No_of_seqs    109 out of 1145
+Neff          10.9646
+Searched_HMMs 69205
+Date          Sun May 24 00:18:43 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_5.hhr -oa3m ../results/9186633_5.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF16339.5 ; DUF4969 ; Domain o  98.1 6.2E-05 8.9E-10   30.7   5.2   45    1-45      1-47  (79)
+  2 COG5510 COG5510; Predicted sma  97.8 9.7E-05 1.4E-09   27.8   3.1   31    1-31      1-31  (44)
+  3 PF07172.11 ; GRP ; Glycine ric  97.4 0.00099 1.4E-08   30.7   3.8   36    1-36      1-36  (131)
+  4 COG5567 YifL; Predicted small   97.3  0.0017 2.4E-08   26.0   3.7   35    2-36      1-35  (58)
+  5 PF16408.5 ; DUF5016 ; Domain o  97.2   0.003 4.4E-08   27.5   4.3   39    1-39      1-39  (123)
+  6 PF16342.5 ; DUF4972 ; Domain o  96.7  0.0091 1.3E-07   26.8   3.6   30    1-30      1-34  (124)
+  7 PF16390.5 ; DUF4999 ; Domain o  96.5   0.012 1.7E-07   24.7   3.2   28    1-28      1-30  (77)
+  8 PF02402.16 ; Lysis_col ; Lysis  96.5   0.012 1.8E-07   22.8   3.0   25    1-25      1-25  (49)
+  9 COG3895 MliC; Membrane-bound i  96.2   0.037 5.4E-07   24.4   4.1   37    1-39      1-37  (112)
+ 10 COG2913 BamE; Outer membrane p  96.0   0.016 2.3E-07   26.3   2.4   23    1-23      3-25  (147)
+ 11 COG2834 LolA; Outer membrane l  95.9   0.027 3.9E-07   26.4   3.2   25    1-25      1-25  (211)
+ 12 COG4880 COG4880; Secreted prot  95.9   0.044 6.4E-07   30.4   4.1   34    1-34      1-34  (603)
+ 13 H9L4C6_SALTY/1-64               95.8    0.06 8.7E-07   22.2   3.5   35    1-35      1-37  (64)
+ 14 COG4134 YnjB; ABC-type unchara  95.7   0.026 3.8E-07   28.8   2.7   44    2-45      1-44  (384)
+ 15 COG5353 YpmB; Uncharacterized   95.6   0.043 6.3E-07   25.2   3.2   23    1-23      1-23  (161)
+ 16 COG3065 Slp; Starvation-induci  95.6   0.038 5.5E-07   26.9   3.0   39    1-39      3-41  (191)
+ 17 COG4238 Lpp; Outer membrane mu  95.4   0.059 8.5E-07   22.0   3.0   22    2-23      1-22  (78)
+ 18 COG2182 MalE; Maltose-binding   95.4    0.14   2E-06   26.4   4.7   42    1-42      3-48  (420)
+ 19 COG3221 PhnD; ABC-type phospha  95.4    0.17 2.4E-06   24.4   5.4   49    1-49      1-49  (299)
+ 20 COG4808 YehR; Uncharacterized   95.2    0.06 8.6E-07   25.0   2.8   23    2-24      1-25  (152)
+ 21 PF03157.13 ; Glutenin_hmw ; Hi  95.1   0.061 8.8E-07   30.5   3.0   21    1-21      1-21  (648)
+ 22 PF16397.5 ; DUF5006 ; Domain o  95.0    0.12 1.7E-06   25.2   3.7   37    3-39      1-37  (263)
+ 23 PF16383.5 ; DUF4992 ; Domain o  95.0    0.12 1.8E-06   24.2   3.5   30    1-30      1-35  (174)
+ 24 COG4875 COG4875; Uncharacteriz  94.8    0.14   2E-06   22.2   3.4   35    1-35      1-35  (156)
+ 25 COG3015 CutF; Uncharacterized   94.7   0.099 1.4E-06   24.8   3.0   28    1-31      1-28  (178)
+ 26 PF11337.8 ; DUF3139 ; Protein   94.7    0.14   2E-06   21.3   3.1   21    1-21      1-21  (83)
+ 27 PF12389.8 ; Peptidase_M73 ; Ca  94.6    0.13 1.9E-06   24.4   3.2   22    1-22      2-23  (193)
+ 28 COG4939 Tpp15; Major membrane   94.5    0.28   4E-06   22.4   5.0   45    1-48      1-45  (147)
+ 29 COG3678 CpxP; Periplasmic prot  94.3    0.18 2.6E-06   23.3   3.2   23    1-23      1-23  (160)
+ 30 cd02251 Peptidase_C10 Peptidas  94.3    0.15 2.2E-06   26.9   3.3   23    1-23      1-23  (398)
+ 31 COG4259 COG4259; Uncharacteriz  94.2    0.23 3.3E-06   20.2   3.5   29    1-29      1-29  (121)
+ 32 PF05736.11 ; OprF ; OprF membr  94.2    0.21   3E-06   22.4   3.3   27    1-27      1-27  (186)
+ 33 COG4166 OppA; ABC-type oligope  94.1    0.38 5.5E-06   26.3   4.6   46    1-47      4-50  (562)
+ 34 COG5294 YxeA; Uncharacterized   94.0    0.22 3.1E-06   22.1   3.1   21    1-21      1-21  (113)
+ 35 COG3544 COG3544; Uncharacteriz  93.7    0.31 4.5E-06   23.5   3.5   34    1-34      1-34  (190)
+ 36 COG2984 COG2984; ABC-type unch  93.7    0.29 4.1E-06   24.2   3.5   29    1-29      2-30  (322)
+ 37 PF13956.6 ; Ibs_toxin ; Toxin   93.5    0.15 2.2E-06   15.8   1.6   13    1-13      1-13  (18)
+ 38 COG3867 GanB; Arabinogalactan   93.4    0.49 7.1E-06   24.2   4.1   41    1-41      1-41  (403)
+ 39 COG4594 FecB; ABC-type Fe3+-ci  93.4    0.46 6.7E-06   24.2   3.9   33    1-33      1-33  (310)
+ 40 PF12930.7 ; DUF3836 ; Family o  93.3    0.35   5E-06   22.1   3.2   27    1-27      1-27  (126)
+ 41 COG5455 RcnB; Periplasmic regu  93.3    0.39 5.7E-06   22.3   3.3   27    1-27      1-27  (129)
+ 42 PF14466.6 ; PLCC ; PLAT/LH2 an  93.2    0.49 7.1E-06   21.4   3.5   40   10-50      2-43  (127)
+ 43 PF16434.5 ; DUF5031 ; Domain o  93.1    0.96 1.4E-05   24.7   4.9   44    1-45      1-49  (362)
+ 44 COG3026 RseB; Negative regulat  93.1    0.28   4E-06   24.9   2.9   21    1-21      1-21  (320)
+ 45 PF12273.8 ; RCR ; Chitin synth  93.1    0.31 4.5E-06   22.8   2.8   20    3-22      1-20  (133)
+ 46 COG3017 LolB; Outer membrane l  92.7    0.55   8E-06   22.3   3.5   27    1-27      1-27  (206)
+ 47 COG1462 CsgG; Curli biogenesis  92.3    0.45 6.4E-06   23.4   3.0   22    1-22      1-22  (252)
+ 48 COG1613 Sbp; ABC-type sulfate   91.9     1.3 1.9E-05   22.6   5.3   43    1-44      1-47  (348)
+ 49 PF13978.6 ; DUF4223 ; Protein   91.9     0.6 8.7E-06   18.8   3.1   32    1-32      1-33  (57)
+ 50 PF16341.5 ; DUF4971 ; Domain o  91.5       1 1.5E-05   20.5   4.8   48    1-48      1-48  (140)
+ 51 PF04202.13 ; Mfp-3 ; Foot prot  91.3    0.48 6.9E-06   20.0   2.1   20    1-20      1-20  (71)
+ 52 PF01456.17 ; Mucin ; Mucin-lik  91.3     1.1 1.6E-05   22.7   3.6   48    1-49      3-50  (207)
+ 53 COG1580 FliL; Flagellar basal   91.2    0.78 1.1E-05   21.5   3.0   23    1-23     13-35  (159)
+ 54 COG2372 CopC; Copper-binding p  91.2    0.89 1.3E-05   20.5   3.1   23    1-23      1-23  (127)
+ 55 COG5633 YcfL; Uncharacterized   91.1    0.62   9E-06   20.6   2.6   22    1-27      1-22  (123)
+ 56 COG1744 Med; Basic membrane li  90.8     1.7 2.5E-05   22.0   5.0   50    1-50      1-50  (345)
+ 57 COG3117 YrbK; Lipopolysacchari  90.6     1.5 2.1E-05   20.8   4.1   36    1-36      2-37  (188)
+ 58 COG1729 YbgF; Periplasmic TolA  90.6    0.59 8.5E-06   22.6   2.4   20    1-20      1-20  (262)
+ 59 PF03264.14 ; Cytochrom_NNT ; N  90.1     1.2 1.7E-05   20.2   3.1   22    1-22      1-22  (174)
+ 60 PF07437.11 ; YfaZ ; YfaZ precu  90.1     1.1 1.7E-05   20.0   3.0   23    1-23      1-23  (180)
+ 61 COG5416 YrvD; Uncharacterized   90.0     1.4   2E-05   19.5   3.3   27    1-27     20-47  (98)
+ 62 PF16386.5 ; DUF4995 ; Domain o  90.0     1.2 1.7E-05   18.9   2.6   28    1-28      1-28  (75)
+ 63 PF06316.11 ; Ail_Lom ; Enterob  89.9    0.72   1E-05   20.8   2.3   28    1-28      1-28  (199)
+ 64 PF06873.11 ; SerH ; Cell surfa  89.8     1.3 1.8E-05   24.8   3.3   27    1-27      1-27  (436)
+ 65 COG3417 LpoB; Outer membrane l  89.6    0.75 1.1E-05   22.0   2.3   21    1-21      1-21  (200)
+ 66 COG3056 YajG; Uncharacterized   89.6     1.1 1.6E-05   21.5   2.8   25    1-25     10-34  (204)
+ 67 COG5468 COG5468; Predicted sec  89.2    0.91 1.3E-05   21.1   2.4   21    1-21      1-21  (172)
+ 68 COG2143 SoxW; Thioredoxin-rela  89.2    0.98 1.4E-05   20.6   2.5   21    1-21      1-21  (182)
+ 69 PF11685.8 ; DUF3281 ; Protein   89.0    0.79 1.1E-05   24.0   2.2   28    3-30      1-28  (267)
+ 70 PF03058.14 ; Sar8_2 ; Sar8.2 f  88.9     1.6 2.3E-05   19.9   2.8   36    1-36      1-37  (106)
+ 71 PF10913.8 ; DUF2706 ; Protein   88.8     1.4   2E-05   18.0   2.7   31    1-31      1-31  (59)
+ 72 COG4150 CysP; ABC-type sulfate  88.5     1.8 2.6E-05   22.0   3.3   31    1-31      2-32  (341)
+ 73 COG3047 OmpW; Outer membrane p  88.4     1.4   2E-05   20.2   2.7   21    1-21      1-21  (213)
+ 74 PF03032.15 ; FSAP_sig_propep ;  88.4     1.4   2E-05   17.4   2.5   19    1-19      3-21  (50)
+ 75 PF07312.11 ; DUF1459 ; Protein  88.3     1.5 2.2E-05   19.0   2.5   17    1-17      1-17  (81)
+ 76 cd09622 CBM9_like_HisKa; DOMON  88.2       2 2.9E-05   21.1   3.3   23    1-23      1-23  (265)
+ 77 COG5584 COG5584; Predicted sma  88.0       2 2.9E-05   18.8   3.1   21    1-21      1-21  (103)
+ 78 PF02030.15 ; Lipoprotein_8 ; H  87.9     1.8 2.6E-05   23.3   3.1   23    1-23      1-24  (484)
+ 79 COG2825 HlpA; Periplasmic chap  87.8     2.6 3.8E-05   20.0   3.4   26    1-26      1-26  (170)
+ 80 PF06788.13 ; UPF0257 ; Unchara  87.7    0.89 1.3E-05   22.3   1.9   17    1-17      1-17  (236)
+ 81 PF05968.11 ; Bacillus_PapR ; B  87.7     1.5 2.1E-05   16.9   2.5   21    1-21      1-21  (45)
+ 82 COG3637 LomR; Opacity protein   87.5     2.1 3.1E-05   19.6   3.0   21    1-21      1-21  (199)
+ 83 COG3111 YdeI; Predicted peripl  87.5     2.5 3.6E-05   19.3   3.9   34    1-34      1-34  (128)
+ 84 COG3591 eMpr; V8-like Glu-spec  87.2     2.7 3.8E-05   20.0   3.3   35    1-35      1-35  (251)
+ 85 COG3133 SlyB; Outer membrane l  86.8     2.2 3.2E-05   20.3   2.8   22    1-25      1-22  (154)
+ 86 COG3745 CpaB; Flp pilus assemb  86.4     2.3 3.3E-05   21.8   3.0   20    1-20      1-20  (276)
+ 87 PF14855.6 ; PapJ ; Pilus-assem  85.6     2.7 3.9E-05   20.6   2.9   20    1-20      2-21  (193)
+ 88 COG3746 OprP; Phosphate-select  85.1     2.6 3.7E-05   22.6   2.8   20    1-20      1-20  (426)
+ 89 COG3063 PilF; Tfp pilus assemb  84.7     2.6 3.7E-05   19.6   2.6   32    1-32      1-32  (250)
+ 90 KOG4063 Major epididymal secre  84.5     3.9 5.7E-05   18.8   3.4   26    1-26      1-26  (158)
+ 91 COG1653 UgpB; ABC-type glycero  84.4     5.7 8.2E-05   20.6   4.6   41    1-45      1-41  (433)
+ 92 COG3187 HslJ; Heat shock prote  84.3     3.7 5.4E-05   18.4   3.2   37    1-42      1-37  (142)
+ 93 PF17431.2 ; YpmT ; Uncharacter  84.1       3 4.3E-05   17.2   3.1   21    1-21      1-21  (62)
+ 94 PF11471.8 ; Sugarporin_N ; Mal  84.1     2.7 3.9E-05   16.7   3.1   25    1-25      1-25  (54)
+ 95 COG5520 XynC; O-Glycosyl hydro  84.0     6.5 9.3E-05   20.9   4.1   38    1-39      1-38  (433)
+ 96 COG4086 YpuA; Uncharacterized   83.9     6.7 9.7E-05   21.1   4.8   44    1-44      1-44  (299)
+ 97 COG4105 BamD; Outer membrane p  83.9       4 5.8E-05   18.9   3.0   33    3-35      1-33  (254)
+ 98 PF08139.12 ; LPAM_1 ; Prokaryo  83.8     1.4   2E-05   13.1   2.2   16    1-16      1-16  (18)
+ 99 PF10880.8 ; DUF2673 ; Protein   83.6     3.1 4.5E-05   17.8   2.2   34    1-34      1-34  (82)
+100 COG5462 COG5462; Predicted sec  83.6     4.5 6.5E-05   18.9   3.0   20    1-20      1-20  (138)
+101 d2noca1 d.230.6.1 (A:1-91) Put  83.4     3.8 5.5E-05   17.9   3.0   23    1-23      1-23  (91)
+102 COG1732 OsmF; Periplasmic glyc  83.4     5.3 7.7E-05   19.5   3.4   34    1-34      1-34  (300)
+103 COG3014 COG3014; Uncharacteriz  83.3     3.7 5.4E-05   22.1   3.0   21    1-21      1-21  (449)
+104 COG3771 YciS; Uncharacterized   83.3     3.7 5.4E-05   17.7   3.6   27    1-27      1-27  (97)
+105 PF10836.8 ; DUF2574 ; Protein   83.3     3.8 5.6E-05   17.8   3.4   26    1-26      1-26  (93)
+106 d2jnaa1 d.230.6.1 (A:1-96) Hyp  83.2       4 5.7E-05   17.9   3.0   22    1-22      1-22  (96)
+107 PF03687.13 ; UPF0164 ; Unchara  82.7     3.6 5.2E-05   21.3   2.7   21    1-21      1-21  (356)
+108 PF10717.9 ; ODV-E18 ; Occlusio  82.4     4.4 6.3E-05   17.8   3.2   39    1-39     27-65  (87)
+109 COG3103 YgiM; Uncharacterized   81.6     3.6 5.3E-05   19.4   2.4   17    1-17      1-17  (205)
+110 COG4729 COG4729; Uncharacteriz  81.5       6 8.6E-05   18.9   3.1   21    1-21      1-21  (156)
+111 PF17428.2 ; DUF5412 ; Family o  81.5       5 7.3E-05   17.9   3.1   21    1-21      1-21  (119)
+112 COG4932 COG4932; Uncharacteriz  81.3     4.7 6.8E-05   25.2   3.1   23    1-23      1-23  (1531)
+113 PF14055.6 ; NVEALA ; NVEALA pr  81.3     3.9 5.7E-05   16.5   3.1   28    3-30      1-28  (63)
+114 PF05984.12 ; Cytomega_UL20A ;   81.0       5 7.3E-05   17.6   3.3   38    1-38      1-38  (103)
+115 COG2113 ProX; ABC-type proline  80.8     6.6 9.5E-05   19.3   3.2   23    1-23      1-23  (302)
+116 COG4380 COG4380; Uncharacteriz  80.5     3.5   5E-05   19.6   2.2   19    1-24      1-19  (216)
+117 PF07263.11 ; DMP1 ; Dentin mat  80.3     7.2  0.0001   22.4   3.4   26    1-26      1-27  (500)
+118 cd19640 beta16_ChiP; Porin Chi  80.3     5.7 8.3E-05   20.4   3.0   27    1-27      1-27  (358)
+119 COG4929 COG4929; Uncharacteriz  80.2     4.4 6.3E-05   19.7   2.4   21    1-21      2-22  (190)
+120 COG0687 PotD; Spermidine/putre  80.1     4.7 6.8E-05   20.9   2.6   23    1-23      1-23  (363)
+121 PF07116.11 ; DUF1372 ; Protein  80.1       6 8.6E-05   17.9   5.2   47    2-49      4-50  (97)
+122 PF13623.6 ; SurA_N_2 ; SurA N-  80.0     5.6 8.1E-05   17.5   2.8   24    1-24      8-31  (137)
+123 COG3521 COG3521; Predicted com  79.7     7.3  0.0001   18.7   4.8   41    2-46      1-41  (159)
+124 COG3883 CwlO1; Uncharacterized  79.7     5.1 7.4E-05   20.4   2.6   18    1-18      1-18  (265)
+125 COG4143 TbpA; ABC-type thiamin  79.5     8.8 0.00013   19.5   4.3   35    1-44      1-35  (336)
+126 COG4764 COG4764; Uncharacteriz  79.4     4.3 6.2E-05   19.6   2.3   22    1-22      1-22  (197)
+127 COG4509 SrtB; class B sortase   79.3     7.1  0.0001   19.7   3.1   21    1-21      2-22  (244)
+128 PF05538.11 ; Campylo_MOMP ; Ca  79.3     5.8 8.3E-05   20.8   2.8   21    1-21      1-21  (414)
+129 KOG3526 Subtilisin-like propro  79.1      13 0.00019   21.3   5.1   43    1-48      1-43  (629)
+130 PF11106.8 ; YjbE ; Exopolysacc  79.0     5.9 8.5E-05   17.2   2.7   21    1-21      1-21  (79)
+131 COG2854 MlaC; ABC-type transpo  79.0     8.5 0.00012   19.0   3.6   29    1-29      1-29  (202)
+132 PF05887.11 ; Trypan_PARP ; Pro  78.9     6.6 9.6E-05   17.7   3.2   23    1-23      1-23  (123)
+133 COG2980 LptE; Outer membrane l  78.6     5.1 7.4E-05   19.0   2.4   20    2-21      1-20  (178)
+134 COG2332 CcmE; Cytochrome c-typ  78.3     6.2   9E-05   19.0   2.6   20    1-20      5-24  (153)
+135 COG1559 YceG; Cell division pr  78.3     7.6 0.00011   20.9   3.1   22    1-22      4-25  (342)
+136 PF03100.15 ; CcmE ; CcmE        78.3     6.9  0.0001   17.6   3.1   22    1-22      1-22  (126)
+137 COG4454 COG4454; Uncharacteriz  78.1     7.1  0.0001   17.6   3.1   36    1-36      1-36  (158)
+138 COG3126 YbaY; Uncharacterized   78.1     8.4 0.00012   18.5   3.1   29    1-32      1-29  (158)
+139 COG3898 COG3898; Uncharacteriz  78.0     9.9 0.00014   20.4   3.5   26    1-26      1-26  (531)
+140 PF15581.6 ; Imm58 ; Immunity p  77.8     7.4 0.00011   17.7   3.1   20    1-20      1-20  (109)
+141 COG1464 NlpA; ABC-type metal i  77.8     8.1 0.00012   18.5   2.9   21    1-21      1-21  (268)
+142 PF12354.8 ; Internalin_N ; Bac  77.7     5.4 7.7E-05   16.0   3.4   28    1-28      1-28  (56)
+143 COG4571 OmpT; Outer membrane p  77.6       6 8.7E-05   20.3   2.6   20    1-20      1-20  (314)
+144 COG3107 LpoA; Outer membrane l  77.4     7.8 0.00011   21.3   3.0   32    1-32      6-37  (604)
+145 PF16956.5 ; Porin_7 ; Putative  77.1     9.1 0.00013   19.2   3.1   27    1-27      1-27  (267)
+146 PF03978.13 ; Borrelia_REV ; Bo  76.9     9.8 0.00014   18.9   2.9   22    1-22      1-22  (174)
+147 PF05423.13 ; Mycobact_memb ; M  76.9     7.1  0.0001   18.1   2.5   20    1-20      1-20  (138)
+148 PF12869.7 ; tRNA_anti-like ; t  76.7      10 0.00015   18.7   4.0   36    1-36      1-38  (183)
+149 COG2853 VacJ; ABC-type transpo  76.4      11 0.00016   19.8   3.2   38    1-38      1-38  (250)
+150 COG2133 YliI; Glucose/arabinos  76.2     6.8 9.8E-05   20.1   2.5   36    1-36      1-36  (399)
+151 PF12092.8 ; DUF3568 ; Protein   75.8     5.2 7.4E-05   17.9   1.9   17    6-22      2-18  (126)
+152 COG3470 Tpd; Uncharacterized p  75.7     6.9  0.0001   19.5   2.4   29    1-29      1-29  (179)
+153 COG4851 CamS; Protein involved  75.6     6.2   9E-05   21.9   2.4   20    2-21      1-20  (382)
+154 COG4652 COG4652; Uncharacteriz  75.1      18 0.00025   20.6   4.9   45    1-45      1-45  (657)
+155 KOG3970 Predicted E3 ubiquitin  74.7     6.9  0.0001   20.7   2.4   20    1-20    249-268 (299)
+156 PF06692.11 ; MNSV_P7B ; Melon   74.4     7.2  0.0001   15.9   3.7   44    5-48     18-61  (61)
+157 PF10831.8 ; DUF2556 ; Protein   74.4     6.7 9.7E-05   15.5   2.7   18    1-18      1-18  (53)
+158 COG3245 CytC5; Cytochrome c5    74.1     8.5 0.00012   16.7   2.3   32    1-32      1-32  (126)
+159 PF10829.8 ; DUF2554 ; Protein   74.1     8.5 0.00012   16.6   2.4   17    1-17      1-17  (76)
+160 COG0715 TauA; ABC-type nitrate  74.0      13 0.00019   18.7   3.4   26    1-26      1-26  (335)
+161 PF14481.6 ; Fimbrial_PilY2 ; T  74.0     9.2 0.00013   16.9   3.1   28    1-28      1-28  (99)
+162 COG4447 COG4447; Uncharacteriz  73.8      12 0.00018   18.9   3.1   34    1-34      3-36  (339)
+163 COG4814 COG4814; Uncharacteriz  73.8      13 0.00018   18.4   4.4   46    1-47      1-57  (288)
+164 PF16475.5 ; DUF5052 ; Domain o  73.6       9 0.00013   19.6   2.5   20    4-23      1-20  (204)
+165 COG3889 COG3889; Predicted per  73.5      24 0.00034   21.4   4.8   47    1-47      1-47  (872)
+166 COG4461 LprI; Uncharacterized   73.4     7.8 0.00011   18.6   2.3   23    1-23      1-23  (185)
+167 COG3764 SrtA; Sortase (surface  72.9      13 0.00019   18.4   3.0   20    1-20      1-20  (210)
+168 PF03207.13 ; OspD ; Borrelia o  72.4      15 0.00021   18.6   4.2   47    2-49      1-47  (254)
+169 PF06286.11 ; Coleoptericin ; C  72.3     9.6 0.00014   18.4   2.3   19    1-19      1-19  (142)
+170 COG5314 COG5314; Conjugal tran  72.1     8.3 0.00012   19.7   2.2   22    1-22      6-27  (252)
+171 COG3071 HemY; Uncharacterized   71.3      16 0.00023   18.6   3.4   26    1-26      1-26  (400)
+172 COG1930 CbiN; ABC-type cobalt   71.3      12 0.00017   16.9   3.2   22    1-22      1-22  (97)
+173 COG3700 AphA; Acid phosphatase  71.0      15 0.00021   17.9   4.0   33    1-33      1-33  (237)
+174 PF05454.11 ; DAG1 ; Dystroglyc  71.0      12 0.00017   20.0   2.7   17    6-22    153-169 (290)
+175 COG4785 NlpI; Lipoprotein NlpI  70.9     9.4 0.00014   18.5   2.3   25    2-26      1-25  (297)
+176 PF09976.9 ; TPR_21 ; Tetratric  70.8      12 0.00018   17.0   2.9   22    1-22      4-25  (195)
+177 COG2993 CcoO; Cbb3-type cytoch  70.3      16 0.00023   18.1   3.0   22    1-22      6-27  (227)
+178 KOG4065 Uncharacterized conser  70.1      12 0.00018   16.6   3.6   35    2-36      1-35  (144)
+179 KOG4391 Predicted alpha/beta h  69.9      16 0.00023   18.0   3.2   22    1-22      1-22  (300)
+180 PF10731.9 ; Anophelin ; Thromb  69.8      10 0.00015   15.7   3.5   34    3-36      4-37  (65)
+181 COG2991 COG2991; Uncharacteriz  69.7      12 0.00017   16.3   3.1   21    1-21      1-21  (77)
+182 PF16410.5 ; DUF5018 ; Domain o  69.6      15 0.00022   19.7   3.0   33    8-40      1-33  (354)
+183 KOG3662 Cell division control   69.3      22 0.00031   19.2   4.9   45    1-45      1-57  (410)
+184 PF06092.12 ; DUF943 ; Enteroba  69.3      16 0.00023   17.7   2.9   20    1-20      2-21  (151)
+185 PF11714.8 ; Inhibitor_I53 ; Th  69.2      11 0.00016   15.9   2.1   35    1-35      1-35  (78)
+186 PF11336.8 ; DUF3138 ; Protein   68.7      16 0.00023   20.4   3.0   21    1-21      1-21  (532)
+187 COG4863 YycH; Two-component si  68.5      17 0.00024   20.0   3.0   20    1-20      1-20  (439)
+188 COG3019 COG3019; Uncharacteriz  68.5      12 0.00017   17.1   2.2   17    1-17      1-17  (149)
+189 COG3767 COG3767; Uncharacteriz  68.4      14  0.0002   16.5   3.1   30    1-30      1-30  (95)
+190 COG5309 Scw11; Exo-beta-1,3-gl  68.3      18 0.00027   18.0   3.1   23    1-23      1-23  (305)
+191 PF16941.5 ; CymA ; Putative cy  68.2      17 0.00025   19.9   2.9   32    1-33      1-32  (341)
+192 PF15724.5 ; TMEM119 ; TMEM119   68.1      21 0.00031   18.7   3.1   20    3-22     56-75  (234)
+193 COG3054 YtfJ; Predicted transc  67.9      15 0.00021   16.7   3.6   31    1-31      1-31  (184)
+194 COG3317 NlpB; Uncharacterized   67.8      16 0.00023   19.6   2.8   22    2-24      1-22  (342)
+195 PF05170.14 ; AsmA ; AsmA famil  67.7      19 0.00028   20.5   3.2   21    1-21      1-21  (711)
+196 COG3088 NrfF; Cytochrome c-typ  67.7      18 0.00025   17.5   3.4   28    1-28      1-28  (153)
+197 KOG1520 Predicted alkaloid syn  67.3      21  0.0003   18.3   3.3   25    1-25      1-25  (376)
+198 KOG2183 Prolylcarboxypeptidase  67.2      14  0.0002   20.4   2.5   21    1-21      1-21  (492)
+199 KOG2182 Hydrolytic enzymes of   67.0      16 0.00023   20.4   2.8   21    1-21      1-21  (514)
+200 PF08999.10 ; SP_C-Propep ; Sur  66.9      15 0.00022   16.6   3.1   20    3-22     37-56  (96)
+201 PF02433.15 ; FixO ; Cytochrome  66.7      20 0.00029   17.9   2.9   22    1-22      4-25  (227)
+202 PF13627.6 ; LPAM_2 ; Prokaryot  66.6     7.2  0.0001   12.7   1.8   19    9-27      1-19  (23)
+203 COG3509 LpqC; Poly(3-hydroxybu  66.6      20 0.00029   17.8   4.9   45    1-46      1-45  (312)
+204 KOG4389 Acetylcholinesterase/B  66.1      26 0.00038   20.0   3.5   31    1-31      1-31  (601)
+205 COG4233 COG4233; Thiol-disulfi  65.8      18 0.00025   19.0   2.6   31    1-31      1-31  (273)
+206 COG4287 PqaA; PhoPQ-activated   65.5      18 0.00026   20.0   2.8   22    1-22     21-42  (507)
+207 COG3966 DltD; Poly D-alanine t  65.3      18 0.00025   20.0   2.7   20    1-20      1-20  (415)
+208 COG1876 LdcB; LD-carboxypeptid  65.3      13 0.00019   18.8   2.1   18    1-18      1-18  (241)
+209 PF15240.6 ; Pro-rich ; Proline  65.2     4.6 6.7E-05   21.6   0.6   27    5-31      1-27  (281)
+210 COG0725 ModA; ABC-type molybda  65.1      19 0.00027   16.9   3.2   31    1-31      1-31  (258)
+211 PF12988.7 ; DUF3872 ; Domain o  64.9      19 0.00027   16.9   3.0   28    6-33      2-29  (133)
+212 PF15050.6 ; SCIMP ; SCIMP prot  64.6      20 0.00029   17.2   2.9   20    2-21      5-24  (132)
+213 COG4521 TauA; ABC-type taurine  64.4      24 0.00034   17.9   3.4   28    1-28      3-30  (334)
+214 COG3755 YecT; Uncharacterized   64.3      17 0.00025   16.2   2.4   27    1-27      1-27  (127)
+215 PF10907.8 ; DUF2749 ; Protein   64.2      15 0.00022   15.6   3.0   21    1-21      1-21  (72)
+216 COG3248 Tsx; Nucleoside-specif  63.2      28  0.0004   18.5   3.1   26    1-26      1-26  (284)
+217 KOG4440 NMDA selective glutama  63.2      33 0.00047   20.8   3.6   46    1-46      1-46  (993)
+218 COG0760 SurA; Parvulin-like pe  63.1      25 0.00036   17.7   3.7   39    1-39      1-39  (320)
+219 COG0803 ZnuA; ABC-type Zn upta  62.7      22 0.00032   18.5   2.7   21    1-21      1-21  (303)
+220 COG0834 HisJ; ABC-type amino a  62.6      22 0.00032   16.9   3.1   21    1-21      1-21  (275)
+221 COG5010 TadD; Flp pilus assemb  62.3      22 0.00031   16.7   3.6   34    1-34      2-35  (257)
+222 COG5266 COG5266; Uncharacteriz  62.3      25 0.00036   17.8   2.8   20    1-20      1-20  (264)
+223 PF02950.17 ; Conotoxin ; Conot  61.6      17 0.00024   15.2   3.5   31    1-31      1-31  (78)
+224 PF15106.6 ; TMEM156 ; TMEM156   61.2      21 0.00031   18.6   2.4   20    1-20    173-192 (226)
+225 PF17259.2 ; DUF5325 ; Family o  61.2      16 0.00024   15.0   3.2   23    1-23      1-23  (61)
+226 COG3218 COG3218; ABC-type unch  61.1      25 0.00036   17.0   2.7   21    2-22      6-26  (205)
+227 cd02962 TMX2; TMX2 family; com  61.0      18 0.00027   15.5   3.6   32    1-32      1-32  (152)
+228 KOG0809 SNARE protein TLG2/Syn  60.6      27 0.00039   18.1   2.8   19    2-20    281-299 (305)
+229 PF09680.10 ; YjcZ_2 ; Family o  60.3      11 0.00015   12.5   2.4   18    5-22      6-23  (23)
+230 PF11153.8 ; DUF2931 ; Protein   60.3      26 0.00038   17.5   2.6   33   10-43      2-36  (214)
+231 KOG0228 Beta-fructofuranosidas  60.3      29 0.00042   19.8   3.0   21    1-21      1-21  (571)
+232 PF10956.8 ; DUF2756 ; Protein   60.0      23 0.00034   16.3   2.4   17    2-18      1-17  (105)
+233 PF10794.9 ; DUF2606 ; Protein   60.0      22 0.00031   15.9   2.3   19    1-19     11-29  (130)
+234 COG3495 COG3495; Uncharacteriz  59.8      27  0.0004   17.1   3.3   27    1-27      1-27  (166)
+235 PF11912.8 ; DUF3430 ; Protein   59.3      27 0.00039   17.7   2.6   18    2-19      1-20  (226)
+236 PF17424.2 ; DUF5411 ; Family o  59.1      27 0.00039   16.8   3.2   22    1-22      1-22  (136)
+237 COG3266 DamX; Cell division pr  58.7      28  0.0004   18.8   2.6   20    1-20     11-30  (292)
+238 COG5608 COG5608; LEA14-like de  58.6      23 0.00033   16.7   2.2   19    4-22      8-26  (161)
+239 PF15621.6 ; PROL5-SMR ; Prolin  58.4      24 0.00034   16.5   2.1   23    1-23      1-23  (112)
+240 KOG3202 SNARE protein TLG1/Syn  58.2      30 0.00043   17.0   2.8   19    2-20    212-230 (235)
+241 COG1638 DctP; TRAP-type C4-dic  57.8      34 0.00049   17.5   3.4   29    1-29      1-29  (332)
+242 COG4758 LiaF; Predicted membra  57.6      32 0.00047   17.2   2.7   20    1-20      1-20  (235)
+243 PF09581.10 ; Spore_III_AF ; St  57.6      28 0.00041   16.6   3.1   20    2-21     18-37  (171)
+244 COG5337 CotH; Spore coat prote  57.4      34 0.00048   19.3   2.9   23    1-23      1-23  (473)
+245 COG3227 LasB; Zn-dependent met  57.4      18 0.00027   20.3   2.0   34    1-34      1-34  (507)
+246 PF09610.10 ; Myco_arth_vir_N ;  57.3      14  0.0002   12.9   3.0   21    2-22      8-28  (32)
+247 PF13721.6 ; SecD-TM1 ; SecD ex  57.1      22 0.00032   15.1   2.4   20    1-20      1-20  (103)
+248 COG5339 YdgA; Uncharacterized   56.6      32 0.00047   19.2   2.8   20    2-21      1-20  (479)
+249 COG3009 YmbA; Uncharacterized   56.5      24 0.00034   16.9   2.1   17    1-23      1-17  (190)
+250 PF08194.12 ; DIM ; DIM protein  56.5      16 0.00024   13.5   2.1   20    2-21      1-20  (36)
+
+No 1
+>PF16339.5 ; DUF4969 ; Domain of unknown function (DUF4969)
+Probab=98.07  E-value=6.2e-05  Score=30.66  Aligned_cols=45  Identities=13%  Similarity=0.116  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccc--ccCccCceEEEeecCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEV--SQQSQTPIEYRMMADP   45 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~   45 (50)
+                      ||||+++++++++++++++++|+......  .........+.+...+
+T Consensus         1 mmkk~~~~~~~~~~~~~~l~aC~~~~~~~~~~~~~~~~~~~~~~~~~   47 (79)
+T Q8Y460_LISMO/1    1 MKKRGLLLVSVLMLFIFLTVACGSSEDNEESGEISTKEIELTVDDPI   47 (79)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHhCCCcCccccCCcccceEEEEeCCCc
+
+
+No 2
+>COG5510 COG5510; Predicted small secreted protein  [Function unknown]. 
+Probab=97.78  E-value=9.7e-05  Score=27.82  Aligned_cols=31  Identities=10%  Similarity=-0.050  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      ||||++.++++++++.+.+++|........+
+T Consensus         1 mMkk~~~~~~~~~~~~~~lsaC~t~~~~g~d   31 (44)
+T COG5510           1 MMKKTILLIALVLLASTLLAACNTMRGAGKD   31 (44)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHhhhhhccCChH
+
+
+No 3
+>PF07172.11 ; GRP ; Glycine rich protein family
+Probab=97.37  E-value=0.00099  Score=30.69  Aligned_cols=36  Identities=8%  Similarity=0.013  Sum_probs=0.0  Template_Neff=4.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTP   36 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (50)
+                      |..|.++++.++++++++.++.....+..+.+++++
+T Consensus         1 MasKalLLL~lLLA~vLLISSeVAArel~e~~k~e~   36 (131)
+T Q39754_FAGSY/1    1 MNSRAFIFLALLFASVLLISSAVATKTSKDEEKPEE   36 (131)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHHhhccCCCCCCCc
+
+
+No 4
+>COG5567 YifL; Predicted small periplasmic lipoprotein YifL (function unknown0 [Function unknown]. 
+Probab=97.31  E-value=0.0017  Score=25.96  Aligned_cols=35  Identities=9%  Similarity=0.040  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhhhcCccccccCccCc
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTP   36 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (50)
+                      |||++.+++++++++.+.+|...............
+T Consensus         1 MKk~~~~ll~~~~~l~LaaCG~kg~l~~~~~~~~~   35 (58)
+T COG5567           1 MKNVFKSLLALATLFSLAGCGLKGPLYFPPADKNA   35 (58)
+T ss_pred             ChHHHHHHHHHHHHHHHHhcCccCccCCCCCCCCC
+
+
+No 5
+>PF16408.5 ; DUF5016 ; Domain of unknown function (DUF5016)
+Probab=97.19  E-value=0.003  Score=27.45  Aligned_cols=39  Identities=5%  Similarity=-0.135  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEE
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEY   39 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (50)
+                      |||+++++++++++++++.+|.....+............
+T Consensus         1 Mk~~~~~~~~~~~~~~~~~sC~~~~~~~~~~~~~p~v~i   39 (123)
+T R6U353_9BACE/1    1 MNKILKTMALLAVPATVAVSCKDDGMDVKFTDKGPEMTI   39 (123)
+T ss_pred             CchHHHHHHHHHHHHHHHHcccccCCCCCCCCCCCeeEE
+
+
+No 6
+>PF16342.5 ; DUF4972 ; Domain of unknown function (DUF4972)
+Probab=96.65  E-value=0.0091  Score=26.81  Aligned_cols=30  Identities=20%  Similarity=0.263  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CchH----HHHHHHHHHHHHHHHHhhhcCccccc
+Q Q_9186633_5       1 MKLK----AIKVVIAAAIIACVGFTPVHNDKEVS   30 (50)
+Q Consensus         1 m~k~----~~~~~~~~~~~~~~~~~~~~~~~~~~   30 (50)
+                      |||+    ++.++++++++.+.+++|....+...
+T Consensus         1 Mkk~~~~~~~~~~~~~~~~~~~~~SCs~d~~~~~   34 (124)
+T Q8A111_BACTN/1    1 MKNRYSIRLLVIVFLSAFAMGICYSCSDDDGEGV   34 (124)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCc
+
+
+No 7
+>PF16390.5 ; DUF4999 ; Domain of unknown function
+Probab=96.52  E-value=0.012  Score=24.65  Aligned_cols=28  Identities=18%  Similarity=0.113  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             Cch--HHHHHHHHHHHHHHHHHhhhcCccc
+Q Q_9186633_5       1 MKL--KAIKVVIAAAIIACVGFTPVHNDKE   28 (50)
+Q Consensus         1 m~k--~~~~~~~~~~~~~~~~~~~~~~~~~   28 (50)
+                      |||  ++++++++++++.+.+++|.+.++.
+T Consensus         1 MKk~~~~~~~~~~~~~~~~~~~sCsddd~~   30 (77)
+T R6MW70_9BACE/1    1 MKITYQLIWMIFLLAGISSGLSSCKDDESS   30 (77)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHhcCCCCCCC
+
+
+No 8
+>PF02402.16 ; Lysis_col ; Lysis protein
+Probab=96.49  E-value=0.012  Score=22.85  Aligned_cols=25  Identities=12%  Similarity=0.005  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHN   25 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~   25 (50)
+                      |||.+..+++++++.++.+++|+..
+T Consensus         1 MkK~~~~~~l~~~~~~l~LaGCSS~   25 (49)
+T A8ARS6_CITK8/1    1 MKKVKVVFLFILIFSGFLLVACQAN   25 (49)
+T ss_pred             CchhHHHHHHHHHHHHHHHhccCCc
+
+
+No 9
+>COG3895 MliC; Membrane-bound inhibitor of C-type lysozyme [Cell wall/membrane/envelope biogenesis]. 
+Probab=96.21  E-value=0.037  Score=24.35  Aligned_cols=37  Identities=5%  Similarity=-0.107  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEE
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEY   39 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (50)
+                      |++|+++++  ++++++++++|................|
+T Consensus         1 ~~~~~~~~~--~~~~~~~l~aC~~~~~~~~~~~~~~~~Y   37 (112)
+T COG3895           1 APMAYSFAL--GRAAKGVAADLTILLPADPAVDTRTLTY   37 (112)
+T ss_pred             CChhHHHHH--HHHHHHHHHhhhhcCCCCCCCCceeEEE
+
+
+No 10
+>COG2913 BamE; Outer membrane protein assembly factor BamE, lipoprotein component of the BamABCDE complex [Cell wall/membrane/envelope biogenesis]. 
+Probab=95.95  E-value=0.016  Score=26.29  Aligned_cols=23  Identities=17%  Similarity=0.024  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |||+++++++++++++++..|+.
+T Consensus         3 ~~~~~~~~~~~~~~~l~l~gC~~   25 (147)
+T COG2913           3 LMATAILAIAALLGAAALSGCST   25 (147)
+T ss_pred             hHHHHHHHHHHHHHHHHHhcccc
+
+
+No 11
+>COG2834 LolA; Outer membrane lipoprotein-sorting protein [Cell wall/membrane/envelope biogenesis]. 
+Probab=95.94  E-value=0.027  Score=26.41  Aligned_cols=25  Identities=20%  Similarity=0.199  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHN   25 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~   25 (50)
+                      |+++++.+++++++++++.++|...
+T Consensus         1 ~~~~~~~~~~~~~~~~l~l~~c~~~   25 (211)
+T COG2834           1 MMLMMMKLLLALALLLLFLSACAQA   25 (211)
+T ss_pred             CchhHHHHHHHHHHHHHHHHhhccc
+
+
+No 12
+>COG4880 COG4880; Secreted protein containing C-terminal beta-propeller domain distantly related to WD-40 repeats  [General function prediction only]. 
+Probab=95.86  E-value=0.044  Score=30.40  Aligned_cols=34  Identities=12%  Similarity=0.184  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQ   34 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (50)
+                      ||||.+++.++++++.+++++|....+.......
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~   34 (603)
+T COG4880           1 MKKKLVAIALAFTALILLFWISSQAPPQTAEPVS   34 (603)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHhcCCCCCCCCCCC
+
+
+No 13
+>H9L4C6_SALTY/1-64
+Probab=95.81  E-value=0.06  Score=22.15  Aligned_cols=35  Identities=11%  Similarity=0.078  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             Cc--hHHHHHHHHHHHHHHHHHhhhcCccccccCccC
+Q Q_9186633_5       1 MK--LKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQT   35 (50)
+Q Consensus         1 m~--k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   35 (50)
+                      ||  |.+++++++++..+.+.+..-..++.+....++
+T Consensus         1 Mk~~K~ifl~L~faLsAa~FSaSAMAas~~~~~~~~~   37 (64)
+T H9L4C6_SALTY/1    1 MKHVKSVFLAMVLILPSSLYPALTIAADSQDHKKEET   37 (64)
+T ss_pred             ChhHHHHHHHHHHHHHHhhhHHHHHHhccCCCCCccc
+
+
+No 14
+>COG4134 YnjB; ABC-type uncharacterized transport system YnjBCD, periplasmic component [General function prediction only]. 
+Probab=95.68  E-value=0.026  Score=28.76  Aligned_cols=44  Identities=5%  Similarity=0.046  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCC
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADP   45 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   45 (50)
+                      |||++.+++++++++.++.|+.............++.+..|...
+T Consensus         1 Mkk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~   44 (384)
+T COG4134           1 MKRHLGTLAALLLAFSLATHASDWDEVKAKAKGQTVYFNAWGGS   44 (384)
+T ss_pred             ChhHHHHHHHHHHHHHHHhcCCCHHHHHHHHCCCEEEEEEecCC
+
+
+No 15
+>COG5353 YpmB; Uncharacterized protein YpmB, contains C-terminal PepSY domain [Function unknown]. 
+Probab=95.64  E-value=0.043  Score=25.23  Aligned_cols=23  Identities=17%  Similarity=0.255  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |++++++.++++++++++.+++.
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~   23 (161)
+T COG5353           1 MRKKHLIIIIIILVIFLAIILSI   23 (161)
+T ss_pred             CChhHHHHHHHHHHHHHHHHHHH
+
+
+No 16
+>COG3065 Slp; Starvation-inducible outer membrane lipoprotein [Cell wall/membrane/envelope biogenesis]. 
+Probab=95.63  E-value=0.038  Score=26.89  Aligned_cols=39  Identities=3%  Similarity=-0.068  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEE
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEY   39 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (50)
+                      +|||++.+++++++++++++|+................+
+T Consensus         3 ~mkk~~~~~l~l~~~l~LagCa~~p~~~~~~~~~~~~~~   41 (191)
+T COG3065           3 SQMNMKKGALIGTLAFLLSGCVTIPKALKGESPTSQQSL   41 (191)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHhcCCChhhCCCCCCCcccH
+
+
+No 17
+>COG4238 Lpp; Outer membrane murein-binding lipoprotein Lpp [Cell wall/membrane/envelope biogenesis]. 
+Probab=95.43  E-value=0.059  Score=21.95  Aligned_cols=22  Identities=5%  Similarity=-0.279  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |||.+.+++++++++++.++|.
+T Consensus         1 Mkk~~~~~~~~~~~~~~~~~C~   22 (78)
+T COG4238           1 MKTTKMTLGAVVLGSLLLAGCS   22 (78)
+T ss_pred             ChhHHHHHHHHHHHHHHHHhhc
+
+
+No 18
+>COG2182 MalE; Maltose-binding periplasmic protein MalE [Carbohydrate transport and metabolism]. 
+Probab=95.41  E-value=0.14  Score=26.43  Aligned_cols=42  Identities=7%  Similarity=0.004  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccc----ccCccCceEEEee
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEV----SQQSQTPIEYRMM   42 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~   42 (50)
+                      ++||.++++++++++++++++|+......    .......+.++.+
+T Consensus         3 ~~~k~~~~~~~~~~~~~~l~gC~~~~~~~~~~~~~~~~~~l~v~~~   48 (420)
+T COG2182           3 KLKKVLILAVVAVLALSALAACTSSSSTTKSLSSTIAEKKLTVWVD   48 (420)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHhcCCCCCCcccCCCCCceEEEEEEc
+
+
+No 19
+>COG3221 PhnD; ABC-type phosphate/phosphonate transport system, periplasmic component [Inorganic ion transport and metabolism]. 
+Probab=95.39  E-value=0.17  Score=24.40  Aligned_cols=49  Identities=16%  Similarity=0.228  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGAGG   49 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~   49 (50)
+                      |+|+.+++++++++++++.+|..............++.+.....+..+.
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~v~~~~~~~~~~   49 (299)
+T COG3221           1 MKKKKLLLASAAAVLALAGCCGSSESDAPAAEDPKELRVGIVPTENPTN   49 (299)
+T ss_pred             CchHHHHHHHHHHHHHHHhcccccCCCCCcccCCCcEEEEEecCCCccc
+
+
+No 20
+>COG4808 YehR; Uncharacterized lipoprotein YehR, DUF1307 family [Function unknown]. 
+Probab=95.18  E-value=0.06  Score=25.02  Aligned_cols=23  Identities=4%  Similarity=-0.142  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             chHH--HHHHHHHHHHHHHHHhhhc
+Q Q_9186633_5       2 KLKA--IKVVIAAAIIACVGFTPVH   24 (50)
+Q Consensus         2 ~k~~--~~~~~~~~~~~~~~~~~~~   24 (50)
+                      ||++  ++++++++++++++++|+.
+T Consensus         1 mkk~~k~~~~~~~~~~~~~l~gC~~   25 (152)
+T COG4808           1 MKALNKLFSLVVALVLVFSLAGCGD   25 (152)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHccCC
+
+
+No 21
+>PF03157.13 ; Glutenin_hmw ; High molecular weight glutenin subunit
+Probab=95.09  E-value=0.061  Score=30.55  Aligned_cols=21  Identities=5%  Similarity=0.078  Sum_probs=0.0  Template_Neff=2.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |.||+++++++++++++++.+
+T Consensus         1 MAKkLVLfAAvLAALVALAaA   21 (648)
+T GLT0_WHEAT/1-6    1 MAKRLVLFAAVVIALVALTTA   21 (648)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHh
+
+
+No 22
+>PF16397.5 ; DUF5006 ; Domain of unknown function (DUF5006)
+Probab=95.02  E-value=0.12  Score=25.21  Aligned_cols=37  Identities=11%  Similarity=0.084  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEE
+Q Q_9186633_5       3 LKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEY   39 (50)
+Q Consensus         3 k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (50)
+                      ||++.++++++++++++.+|................+
+T Consensus         1 k~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~~~   37 (263)
+T R6SDA6_9BACE/4    1 KNILYACLPLGIWAMLLTGCKDDDQIAPLPKPVPLTL   37 (263)
+T ss_pred             CcHHHHHHHHHHHHHHHhccCCCCCCCCCCCCCceEE
+
+
+No 23
+>PF16383.5 ; DUF4992 ; Domain of unknown function
+Probab=94.95  E-value=0.12  Score=24.20  Aligned_cols=30  Identities=10%  Similarity=-0.051  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             Cch-----HHHHHHHHHHHHHHHHHhhhcCccccc
+Q Q_9186633_5       1 MKL-----KAIKVVIAAAIIACVGFTPVHNDKEVS   30 (50)
+Q Consensus         1 m~k-----~~~~~~~~~~~~~~~~~~~~~~~~~~~   30 (50)
+                      ||+     ++++++++++++++++.+|....+.+.
+T Consensus         1 mk~~~~~~~~~~~~~~~~~~~~~l~sC~~~~~~~~   35 (174)
+T R6S3I9_9BACE/1    1 MKSKMKIKIKLVESLWLLAMALFIVSCAKGVDDSE   35 (174)
+T ss_pred             CcchhHHHHHHHHHHHHHHHHHHHHHhhcCCCCCc
+
+
+No 24
+>COG4875 COG4875; Uncharacterized protein [Function unknown]. 
+Probab=94.85  E-value=0.14  Score=22.19  Aligned_cols=35  Identities=9%  Similarity=-0.086  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQT   35 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   35 (50)
+                      ||+..++++++++++......+.............
+T Consensus         1 Mk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   35 (156)
+T COG4875           1 YRILLSLSLSFFAFPVFAGNVKCYKGSAPLISNVT   35 (156)
+T ss_pred             ChHHHHHHHHHHHHHHHHhcCcCCCCCCccCCCcc
+
+
+No 25
+>COG3015 CutF; Uncharacterized lipoprotein NlpE involved in copper resistance [Cell wall/membrane/envelope biogenesis, Defense mechanisms]. 
+Probab=94.72  E-value=0.099  Score=24.82  Aligned_cols=28  Identities=14%  Similarity=-0.016  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      ||||.+++   ++++++++++|+.....+..
+T Consensus         1 ~Mkk~~~~---~~~~~l~l~~C~~~~~~~~~   28 (178)
+T COG3015           1 MVKKAIVT---LMAVILTLMGCNNRAEKDGT   28 (178)
+T ss_pred             CchHHHHH---HHHHHHHHHhcccccccCCc
+
+
+No 26
+>PF11337.8 ; DUF3139 ; Protein of unknown function (DUF3139)
+Probab=94.68  E-value=0.14  Score=21.34  Aligned_cols=21  Identities=19%  Similarity=0.085  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||..++++++++++++....
+T Consensus         1 mkk~~~i~~~ii~i~~~~~~~   21 (83)
+T B1YMS2_EXIS2/1    1 MKNKTIIYFMVILFLGIGLIG   21 (83)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHH
+
+
+No 27
+>PF12389.8 ; Peptidase_M73 ; Camelysin metallo-endopeptidase
+Probab=94.59  E-value=0.13  Score=24.38  Aligned_cols=22  Identities=18%  Similarity=-0.082  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      ||||+++.++++++++++..+.
+T Consensus         2 m~k~~~~~~~~~~~~~~~~~~~   23 (193)
+T Q81TI4_BACAN/2    2 LKKKLGMGIASAVLGAALVGGG   23 (193)
+T ss_pred             chHHHHHHHHHHHHHHHHHHHH
+
+
+No 28
+>COG4939 Tpp15; Major membrane immunogen, membrane-anchored lipoprotein  [Function unknown]. 
+Probab=94.49  E-value=0.28  Score=22.40  Aligned_cols=45  Identities=7%  Similarity=-0.108  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGAG   48 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~   48 (50)
+                      |||.   ++++++++++++++|................-......+.|
+T Consensus         1 mkk~---~~~~~~~~~~~l~~C~~~~~~~~~~~~G~y~~~~~~~~~~g   45 (147)
+T COG4939           1 MVKY---GLVGMIVALSLLTACGKSDFSKMTFNDGTYQGHYESFDDHG   45 (147)
+T ss_pred             ChhH---HHHHHHHHHHHHHhcCCCCccCcccCCceEEEEEeccCCCc
+
+
+No 29
+>COG3678 CpxP; Periplasmic protein refolding chaperone Spy/CpxP family [Posttranslational modification, protein turnover, chaperones]. 
+Probab=94.32  E-value=0.18  Score=23.28  Aligned_cols=23  Identities=22%  Similarity=-0.023  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |||+++.+++++.+++.+++.+.
+T Consensus         1 ~mkk~~~~~~~~sL~~n~~~~~~   23 (160)
+T COG3678           1 NMRKVTAAVGAAALALTASALAH   23 (160)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHH
+
+
+No 30
+>cd02251 Peptidase_C10 Peptidase C10 family.
+Probab=94.30  E-value=0.15  Score=26.89  Aligned_cols=23  Identities=9%  Similarity=-0.036  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |||+++.+.+++++++++...|.
+T Consensus         1 Mk~~~~~~~~~~ll~l~~~~~~~   23 (398)
+T cd02251           1 MNKKKLGIRLLSLLALGGFVLAN   23 (398)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHh
+
+
+No 31
+>COG4259 COG4259; Uncharacterized protein [Function unknown]. 
+Probab=94.19  E-value=0.23  Score=20.25  Aligned_cols=29  Identities=10%  Similarity=-0.125  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEV   29 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~   29 (50)
+                      |+++...+.+++++++++..+|.......
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~   29 (121)
+T COG4259           1 MSKLKTLSRLALLLAVAALAGCGGGPKSL   29 (121)
+T ss_pred             CcHHHHHHHHHHHHHHHHHHhhcCCCCch
+
+
+No 32
+>PF05736.11 ; OprF ; OprF membrane domain
+Probab=94.18  E-value=0.21  Score=22.37  Aligned_cols=27  Identities=30%  Similarity=0.363  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      |||++++++++++++............
+T Consensus         1 Mk~~~~~~~~~~~~~~~~~~~~~~~~~   27 (186)
+T PORF_PSEFL/1-1    1 MKLKNTLGFAIGSIIAATSFGALAQGQ   27 (186)
+T ss_pred             CchHHHHHHHHHHHHHHhhhhHhccCC
+
+
+No 33
+>COG4166 OppA; ABC-type oligopeptide transport system, periplasmic component [Amino acid transport and metabolism]. 
+Probab=94.14  E-value=0.38  Score=26.27  Aligned_cols=46  Identities=9%  Similarity=-0.059  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CchHHHHHHHHHHH-HHHHHHhhhcCccccccCccCceEEEeecCCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAI-IACVGFTPVHNDKEVSQQSQTPIEYRMMADPGA   47 (50)
+Q Consensus         1 m~k~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~   47 (50)
+                      |||+++++++++++ ++++.++|..+........ ..........+.+
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~-~~~~~~~~~~~~~   50 (562)
+T COG4166           4 MRKLLKALAALALSLAALALAACAPSHGTSLAGK-QVLYVNNFSHPDS   50 (562)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHcccccCcccCcc-eeEEEecCCCCCc
+
+
+No 34
+>COG5294 YxeA; Uncharacterized protein YxeA, DUF1093 family [Function unknown]. 
+Probab=94.00  E-value=0.22  Score=22.10  Aligned_cols=21  Identities=29%  Similarity=0.205  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||.+++++++++++++.++.
+T Consensus         1 MKk~~~~~~~~v~i~~~~~~~   21 (113)
+T COG5294           1 MKKILIGILALLLIIIGALFI   21 (113)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHH
+
+
+No 35
+>COG3544 COG3544; Uncharacterized conserved protein, DUF305 family [Function unknown]. 
+Probab=93.71  E-value=0.31  Score=23.49  Aligned_cols=34  Identities=12%  Similarity=-0.012  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQ   34 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (50)
+                      |++++..+.++++++....++.....+.....++
+T Consensus         1 ~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~   34 (190)
+T COG3544           1 MKNSFAALGLAGLLLSGSAAGVTAVLTNQSPPPN   34 (190)
+T ss_pred             CchHHHHHHHHHHHHHHHHHhhHHhhCCCCCCCC
+
+
+No 36
+>COG2984 COG2984; ABC-type uncharacterized transport system, periplasmic component  [General function prediction only]. 
+Probab=93.70  E-value=0.29  Score=24.18  Aligned_cols=29  Identities=10%  Similarity=-0.104  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEV   29 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~   29 (50)
+                      |+|+++..++++++++....+|.......
+T Consensus         2 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~   30 (322)
+T COG2984           2 MLRSLSFYLFFAALALAFLSSAGSAAADQ   30 (322)
+T ss_pred             chHHHHHHHHHHHHHHHHHHHHccccccc
+
+
+No 37
+>PF13956.6 ; Ibs_toxin ; Toxin Ibs, type I toxin-antitoxin system
+Probab=93.48  E-value=0.15  Score=15.78  Aligned_cols=13  Identities=31%  Similarity=0.184  Sum_probs=0.0  Template_Neff=1.900
+
+Q ss_pred             CchHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAA   13 (50)
+Q Consensus         1 m~k~~~~~~~~~~   13 (50)
+                      |||..++++++++
+T Consensus         1 MMk~vIiivLL~i   13 (18)
+T IBSB_ECOLI/1-1    1 MMKLLIIVVLLVI   13 (18)
+T ss_pred             CchHHHHhHHHHh
+
+
+No 38
+>COG3867 GanB; Arabinogalactan endo-1,4-beta-galactosidase  [Carbohydrate transport and metabolism]. 
+Probab=93.43  E-value=0.49  Score=24.19  Aligned_cols=41  Identities=12%  Similarity=0.083  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEe
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRM   41 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   41 (50)
+                      |||+++.+++++++++.....+................+..
+T Consensus         1 mmk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   41 (403)
+T COG3867           1 MMKFVIAIISLMCLSTGLIVNSAAEDFFVFPVENSPNDFIK   41 (403)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHHhcccccccccCCCCCCCeee
+
+
+No 39
+>COG4594 FecB; ABC-type Fe3+-citrate transport system, periplasmic component [Inorganic ion transport and metabolism]. 
+Probab=93.40  E-value=0.46  Score=24.16  Aligned_cols=33  Identities=9%  Similarity=0.212  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQS   33 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   33 (50)
+                      |.++..++++.++++++++++|....+......
+T Consensus         1 ~~~~~~~~~~~~~~~~~~l~gC~~~~~~~~~~~   33 (310)
+T COG4594           1 MHMKKTAIILTLLLLLLLVAACSSSDNNQKSKA   33 (310)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHhcCCCCCCCCcc
+
+
+No 40
+>PF12930.7 ; DUF3836 ; Family of unknown function (DUF3836)
+Probab=93.33  E-value=0.35  Score=22.05  Aligned_cols=27  Identities=19%  Similarity=0.057  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      ||+.++...+++++++++.++......
+T Consensus         1 MKt~~~~~~~~~~~~~~~~~~~~~a~~   27 (126)
+T E6SMX2_BACT6/1    1 MKTKVSLKTMIVSALLLVCGLSTYADN   27 (126)
+T ss_pred             CcchHHHHHHHHHHHHHHHHHHhhccC
+
+
+No 41
+>COG5455 RcnB; Periplasmic regulator RcnB of Ni and Co efflux [Inorganic ion transport and metabolism]. 
+Probab=93.30  E-value=0.39  Score=22.27  Aligned_cols=27  Identities=7%  Similarity=0.078  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      ||||+++.++++.+++...+....+..
+T Consensus         1 ~mkk~~~~~~a~s~~a~p~a~aq~~~~   27 (129)
+T COG5455           1 NMKRLVSALLAVSSVAAPMALAQQDGE   27 (129)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHhhccc
+
+
+No 42
+>PF14466.6 ; PLCC ; PLAT/LH2 and C2-like Ca2+-binding lipoprotein
+Probab=93.18  E-value=0.49  Score=21.40  Aligned_cols=40  Identities=8%  Similarity=0.023  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             HHHHHHHHHHHhhhcCcccc--ccCccCceEEEeecCCCCCCC
+Q Q_9186633_5      10 IAAAIIACVGFTPVHNDKEV--SQQSQTPIEYRMMADPGAGGG   50 (50)
+Q Consensus        10 ~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~g~~~~   50 (50)
+                      ++++++++++++|....+..  .........+ .|.-.|.+..
+T Consensus         2 ~~~~~~~~~~~sCskd~~~~~~~~~~~~~~~V-tyevtg~~~~   43 (127)
+T R5NTY5_9BACT/1    2 IMVLCLSLALVSCGDDDHKNDHHGMRTGIHKI-VVEQSGNTED   43 (127)
+T ss_pred             hHHHHHHHHHhccCCCCCCCCCccCCCeEEEE-EEEEeCCCCc
+
+
+No 43
+>PF16434.5 ; DUF5031 ; Domain of unknown function (DUF5031)
+Probab=93.13  E-value=0.96  Score=24.68  Aligned_cols=44  Identities=18%  Similarity=0.135  Sum_probs=0.0  Template_Neff=4.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHH-HhhhcCcccc----ccCccCceEEEeecCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVG-FTPVHNDKEV----SQQSQTPIEYRMMADP   45 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~-~~~~~~~~~~----~~~~~~~~~~~~~~~~   45 (50)
+                      ||++...++++++++++.+ ++|.......    ..+..-.+.. .|.++
+T Consensus         1 MK~~~~~~~l~l~~~~~~llaAC~~~~~~~~~p~~~~~~~sv~l-~~~~~   49 (362)
+T R5UWA2_9BACT/1    1 MKTIQYISRISILLIVGSIASSCVKEEVVTPIPALAPEGMPVAI-NFKDP   49 (362)
+T ss_pred             CcchHHHHHHHHHHHHHHHHHhcCCCCccCCCCccCCCCcceeE-EeCCC
+
+
+No 44
+>COG3026 RseB; Negative regulator of sigma E activity [Signal transduction mechanisms]. 
+Probab=93.12  E-value=0.28  Score=24.89  Aligned_cols=21  Identities=10%  Similarity=0.033  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||+++.++++++++++.++.
+T Consensus         1 mk~~~~~~~~l~~~~~l~gc~   21 (320)
+T COG3026           1 MKQLWFSLLLLLGSLLLSAAA   21 (320)
+T ss_pred             ChhHHHHHHHHHHHHHHHHhc
+
+
+No 45
+>PF12273.8 ; RCR ; Chitin synthesis regulation, resistance to Congo red
+Probab=93.11  E-value=0.31  Score=22.81  Aligned_cols=20  Identities=5%  Similarity=-0.134  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       3 LKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         3 k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |.+++.+++++++++++.++
+T Consensus         1 RWvl~~vii~~~ll~l~~~~   20 (133)
+T T5AF15_OPHSC/3    1 RWIVLGVLLLVVLLVAFSCS   20 (133)
+T ss_pred             CHHHHHHHHHHHHHHHHHHH
+
+
+No 46
+>COG3017 LolB; Outer membrane lipoprotein LolB, involved in outer membrane biogenesis [Cell wall/membrane/envelope biogenesis]. 
+Probab=92.70  E-value=0.55  Score=22.26  Aligned_cols=27  Identities=7%  Similarity=-0.027  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      |+.......++++++++++++|.....
+T Consensus         1 ~~~m~~~~~~~~~~~~lll~gC~~~~~   27 (206)
+T COG3017           1 MPMMKRLLFLLLALASLLLTACTLTAS   27 (206)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHhcCCCC
+
+
+No 47
+>COG1462 CsgG; Curli biogenesis system outer membrane secretion channel CsgG [Cell wall/membrane/envelope biogenesis]. 
+Probab=92.34  E-value=0.45  Score=23.37  Aligned_cols=22  Identities=32%  Similarity=0.267  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |||...+++++++++++.+++.
+T Consensus         1 m~~~~~~~~~~l~~~~l~gC~~   22 (252)
+T COG1462           1 MKKLLLAVVAALALAALAACAT   22 (252)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHhh
+
+
+No 48
+>COG1613 Sbp; ABC-type sulfate transport system, periplasmic component [Inorganic ion transport and metabolism]. 
+Probab=91.94  E-value=1.3  Score=22.63  Aligned_cols=43  Identities=9%  Similarity=-0.154  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CchHHHHH----HHHHHHHHHHHHhhhcCccccccCccCceEEEeecC
+Q Q_9186633_5       1 MKLKAIKV----VIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMAD   44 (50)
+Q Consensus         1 m~k~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   44 (50)
+                      |+++.+.+    +++++++++++++|...... ......++.++.+..
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~l~gC~~~~~~-~~~~~~~l~v~~~~~   47 (348)
+T COG1613           1 MNRWAHSYVAGVLLALVAGIGALGACSDVVRA-APAKDTTLLNVSYDP   47 (348)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHHhccCCCCC-CCCCCCcEEEEEeCc
+
+
+No 49
+>PF13978.6 ; DUF4223 ; Protein of unknown function (DUF4223)
+Probab=91.92  E-value=0.6  Score=18.79  Aligned_cols=32  Identities=13%  Similarity=-0.077  Sum_probs=0.0  Template_Neff=2.500
+
+Q ss_pred             CchHHHHHHHHHHHH-HHHHHhhhcCccccccC
+Q Q_9186633_5       1 MKLKAIKVVIAAAII-ACVGFTPVHNDKEVSQQ   32 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~   32 (50)
+                      |+|.+.+.+++.++. ...+++|......++++
+T Consensus         1 Mkk~~K~~~~~~vla~~~~Ls~CTG~v~Nk~kn   33 (57)
+T Q88NG0_PSEPK/1    1 MKKLFKATVAVAVVSGVALLSGCTGQVYNQPKN   33 (57)
+T ss_pred             ChHHHHHHHHHHHHhhHHHHHcccceeeCCCCc
+
+
+No 50
+>PF16341.5 ; DUF4971 ; Domain of unknown function (DUF4971)
+Probab=91.49  E-value=1  Score=20.48  Aligned_cols=48  Identities=15%  Similarity=0.098  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGAG   48 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~   48 (50)
+                      |||++++++++++++....-................+..+.....+..
+T Consensus         1 Mk~~~~~~~~~~~~l~sC~~~~~~~~~~~~~~~~~~i~sf~~~~~~~~   48 (140)
+T Q8A3Y0_BACTN/1    1 MKRKILLILNMAIIGFSTAACSDDETNYITPEKKYPLTDFAVAVNNVS   48 (140)
+T ss_pred             ChhHHHHHHHHHHHHHHhhcCCCCCcCCCCcccCCCeEEEEEEECCcc
+
+
+No 51
+>PF04202.13 ; Mfp-3 ; Foot protein 3
+Probab=91.35  E-value=0.48  Score=20.00  Aligned_cols=20  Identities=20%  Similarity=0.404  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |||.++.+++.++++....+
+T Consensus         1 Mkkliiavlv~~~ll~gC~v   20 (71)
+T Q9NAU3_MYTED/1    1 MNNSSVSVLVALVLIGSFAV   20 (71)
+T ss_pred             CcHHHHHHHHHHHHHhhhce
+
+
+No 52
+>PF01456.17 ; Mucin ; Mucin-like glycoprotein
+Probab=91.29  E-value=1.1  Score=22.65  Aligned_cols=48  Identities=6%  Similarity=-0.006  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGAGG   49 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~   49 (50)
+                      |++++++.++++++.....+|................+- -|..+|...
+T Consensus         3 mlrRvLC~lLvLlLcccasvCv~A~e~~~~~~~~~~~v~-~~q~~g~~e   50 (207)
+T Q26879_TRYCR/1    3 TTCRLLCALLVLVLCCCPSVCIKANGVDEQVAPDMTKVP-GAQLPVKKE   50 (207)
+T ss_pred             hHHHHHHHHHHHHHhhhhHHHHhhcCCccccCCccCCCC-CCcCCCccc
+
+
+No 53
+>COG1580 FliL; Flagellar basal body-associated protein FliL [Cell motility]. 
+Probab=91.19  E-value=0.78  Score=21.45  Aligned_cols=23  Identities=13%  Similarity=0.043  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |+|+.+++++++++++++..+..
+T Consensus        13 ~~~~~~~i~ii~~~~~l~~~~~~   35 (159)
+T COG1580          13 KKKKSLWILLIVLIVLLALAGAG   35 (159)
+T ss_pred             ccchHHHHHHHHHHHHHHHHHHH
+
+
+No 54
+>COG2372 CopC; Copper-binding protein CopC (methionine-rich) [Inorganic ion transport and metabolism]. 
+Probab=91.18  E-value=0.89  Score=20.49  Aligned_cols=23  Identities=13%  Similarity=0.160  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |||+...+.++++++++++....
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~   23 (127)
+T COG2372           1 MARTARALALSALALLMLALVTP   23 (127)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHhhH
+
+
+No 55
+>COG5633 YcfL; Uncharacterized conserved protein YcfL [Function unknown]. 
+Probab=91.08  E-value=0.62  Score=20.63  Aligned_cols=22  Identities=5%  Similarity=0.013  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      ||+.++     ++++++++++|+....
+T Consensus         1 Mk~~~~-----~~~~~~~LagCa~~~~   22 (123)
+T COG5633           1 MRKLCL-----LSLALLLLVGCSSHQE   22 (123)
+T ss_pred             ChHHHH-----HHHHHHHHHhhcCCcc
+
+
+No 56
+>COG1744 Med; Basic membrane lipoprotein Med, periplasmic binding protein (PBP1-ABC) superfamily [Cell wall/membrane/envelope biogenesis]. 
+Probab=90.82  E-value=1.7  Score=21.99  Aligned_cols=50  Identities=10%  Similarity=-0.154  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCCCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGAGGG   50 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~   50 (50)
+                      |+++.+..+++++++++++++|.................+....++.+.+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~~~ig~i~~~~~~~~~   50 (345)
+T COG1744           1 MKFRRILGLKLALGAALLLAACGASLAGAAAAGKKKKVAVIDVGGIDDKS   50 (345)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHhhhhhHHHhcCCCCEEEEEECCCCCCCc
+
+
+No 57
+>COG3117 YrbK; Lipopolysaccharide export system protein LptC [Cell wall/membrane/envelope biogenesis]. 
+Probab=90.59  E-value=1.5  Score=20.85  Aligned_cols=36  Identities=19%  Similarity=0.292  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTP   36 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (50)
+                      |+++++.+++++++++++.+................
+T Consensus         2 ~~~r~~~~~~~~~~~~~~~w~~~~~~~~~~~~~~~~   37 (188)
+T COG3117           2 MSRRWVYLILLLAALALSGWLLGLEQDEIEQVRPNP   37 (188)
+T ss_pred             ccHHHHHHHHHHHHHHHHHHHhcCCccccccCCCCC
+
+
+No 58
+>COG1729 YbgF; Periplasmic TolA-binding protein (function unknown) [General function prediction only]. 
+Probab=90.56  E-value=0.59  Score=22.61  Aligned_cols=20  Identities=15%  Similarity=0.212  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      ||+++++++++++++..+..
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~   20 (262)
+T COG1729           1 MKSNLRLVLLGLSLLVGLAA   20 (262)
+T ss_pred             CcHHHHHHHHHHHHHHHhcC
+
+
+No 59
+>PF03264.14 ; Cytochrom_NNT ; NapC/NirT cytochrome c family, N-terminal region
+Probab=90.10  E-value=1.2  Score=20.22  Aligned_cols=22  Identities=14%  Similarity=-0.037  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |+++.+.+++++++++++.+..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~   22 (174)
+T Q47FQ0_DECAR/1    1 KPWAKILEVEAIVLMLIGALLM   22 (174)
+T ss_pred             CchhHHHHHHHHHHHHHHHHHH
+
+
+No 60
+>PF07437.11 ; YfaZ ; YfaZ precursor
+Probab=90.07  E-value=1.1  Score=20.04  Aligned_cols=23  Identities=13%  Similarity=0.027  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |||+++.++++++++.....+..
+T Consensus         1 Mkk~~~~~~~~~~~~~~~a~a~~   23 (180)
+T YFAZ_ECOLI/1-1    1 MKKIALAGLAGMLLVSASVNAMS   23 (180)
+T ss_pred             ChhHHHHHHHHHHHHHHHHhhhh
+
+
+No 61
+>COG5416 YrvD; Uncharacterized integral membrane protein  [Function unknown]. 
+Probab=90.02  E-value=1.4  Score=19.53  Aligned_cols=27  Identities=15%  Similarity=0.258  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CchHHHHHHH-HHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVI-AAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~-~~~~~~~~~~~~~~~~~   27 (50)
+                      ||+.+..+++ ++++++++....+|.+.
+T Consensus        20 mk~~~~~ii~~lll~i~~v~F~~qN~~~   47 (98)
+T COG5416          20 MKGQWTVIIVGILILLLLLIFAVINTDS   47 (98)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHcCCC
+
+
+No 62
+>PF16386.5 ; DUF4995 ; Domain of unknown function
+Probab=89.98  E-value=1.2  Score=18.88  Aligned_cols=28  Identities=14%  Similarity=0.108  Sum_probs=0.0  Template_Neff=2.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKE   28 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~   28 (50)
+                      |||+.++...+++++.+..+..+.....
+T Consensus         1 Mk~k~l~~~~aa~~~~ltsCq~~~p~~~   28 (75)
+T R6KCV6_9BACE/1    1 MKRFLLFCCAVATLQGFSSCSSSQPNTE   28 (75)
+T ss_pred             CcchHHHHHHHHHHHHHHhcCCCCCCcc
+
+
+No 63
+>PF06316.11 ; Ail_Lom ; Enterobacterial Ail/Lom protein
+Probab=89.86  E-value=0.72  Score=20.76  Aligned_cols=28  Identities=11%  Similarity=0.191  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKE   28 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~   28 (50)
+                      |||.+++++++++++.............
+T Consensus         1 Mk~~~~~~~~~~~~~~~~~~~~~~~~~~   28 (199)
+T Q9LA63_9CAUD/1    1 MRKLCAVILSAVVWLVAAGTPASAAEHQ   28 (199)
+T ss_pred             ChHHHHHHHHHHHHHHHccCccccccCc
+
+
+No 64
+>PF06873.11 ; SerH ; Cell surface immobilisation antigen SerH
+Probab=89.76  E-value=1.3  Score=24.75  Aligned_cols=27  Identities=11%  Similarity=0.176  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      |++|++++.+++.+++..........+
+T Consensus         1 M~~k~~~i~l~~s~~~~~~~~~~~G~~   27 (436)
+T Q27197_TETTH/1    1 MQNKTLIICLIISQLLVSVFSVTAGGA   27 (436)
+T ss_pred             CcHHHHHHHHHHHHHHHHHHhcCCCCc
+
+
+No 65
+>COG3417 LpoB; Outer membrane lipoprotein LpoB, binds and activates PBP1b [Cell wall/membrane/envelope biogenesis]. 
+Probab=89.63  E-value=0.75  Score=21.97  Aligned_cols=21  Identities=19%  Similarity=0.104  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+|.+..++++++++++.+|+
+T Consensus         1 m~~~~~~~~~~~~~~~l~gC~   21 (200)
+T COG3417           1 MTKMKIYASILLLALFLSGCS   21 (200)
+T ss_pred             CchHHHHHHHHHHHHHHhccC
+
+
+No 66
+>COG3056 YajG; Uncharacterized lipoprotein YajG [Function unknown]. 
+Probab=89.59  E-value=1.1  Score=21.51  Aligned_cols=25  Identities=4%  Similarity=-0.186  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHN   25 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~   25 (50)
+                      |.|+.....++++++++++++|...
+T Consensus        10 ~~~~~~~~~~~~l~~~llLsGCa~~   34 (204)
+T COG3056          10 ESKNMTKKILFPLAAIFLLAGCAAP   34 (204)
+T ss_pred             HhHhhHHHHHHHHHHHHHHHhhcCC
+
+
+No 67
+>COG5468 COG5468; Predicted secreted (periplasmic) protein  [Function unknown]. 
+Probab=89.24  E-value=0.91  Score=21.13  Aligned_cols=21  Identities=19%  Similarity=0.230  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||....++++++++++.+|+
+T Consensus         1 ~~~~~~~~~~~~~~l~lsgCg   21 (172)
+T COG5468           1 MKRTLARVALAFSLATLTACQ   21 (172)
+T ss_pred             CchHHHHHHHHHHHHHHhccc
+
+
+No 68
+>COG2143 SoxW; Thioredoxin-related protein  [Posttranslational modification, protein turnover, chaperones]. 
+Probab=89.17  E-value=0.98  Score=20.57  Aligned_cols=21  Identities=5%  Similarity=0.039  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||+++++++++++++.....
+T Consensus         1 mmk~~~~~~~~~~~~~~~~~~   21 (182)
+T COG2143           1 VMRVLLIVLLIISLFLSACKS   21 (182)
+T ss_pred             ChHHHHHHHHHHHHHHHHhcC
+
+
+No 69
+>PF11685.8 ; DUF3281 ; Protein of unknown function (DUF3281)
+Probab=89.04  E-value=0.79  Score=23.96  Aligned_cols=28  Identities=11%  Similarity=-0.076  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhhhcCccccc
+Q Q_9186633_5       3 LKAIKVVIAAAIIACVGFTPVHNDKEVS   30 (50)
+Q Consensus         3 k~~~~~~~~~~~~~~~~~~~~~~~~~~~   30 (50)
+                      ||++++..+++...+++.+|...++..+
+T Consensus         1 kkkll~~~~iis~~~lL~sCgk~Et~~E   28 (267)
+T Q5NHH2_FRATT/4    1 KKKLLIGTAILSSAAILGSCGKSETATE   28 (267)
+T ss_pred             CCchHHHHHHHHHHHHHhcCCCCCccee
+
+
+No 70
+>PF03058.14 ; Sar8_2 ; Sar8.2 family
+Probab=88.95  E-value=1.6  Score=19.92  Aligned_cols=36  Identities=11%  Similarity=-0.041  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             CchHHHHHHHHHHHHHH-HHHhhhcCccccccCccCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIAC-VGFTPVHNDKEVSQQSQTP   36 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~   36 (50)
+                      |..|.++++.+++++++ +.+.-....+..+...+..
+T Consensus         1 M~SK~~LLLgllLAivLllISSeVAARel~e~s~~~~   37 (106)
+T Q9SBZ6_TOBAC/1    1 MFSKTNLFLCLSLAILLIVISSQADARETSKAAAPIT   37 (106)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHHhhhhHHhhcchhh
+
+
+No 71
+>PF10913.8 ; DUF2706 ; Protein of unknown function (DUF2706)
+Probab=88.77  E-value=1.4  Score=17.97  Aligned_cols=31  Identities=13%  Similarity=0.019  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      |.|.+.+++++++++.+..+.+...-+-..+
+T Consensus         1 m~k~~~~ll~~~~l~~l~sC~~~~p~eiKSP   31 (59)
+T Y288_RICPR/1-5    1 MLKSLKFLLVFIILAQLLSCTPSAPYEIKSP   31 (59)
+T ss_pred             ChHHHHHHHHHHHHHHHhcCCCCCCcccCCC
+
+
+No 72
+>COG4150 CysP; ABC-type sulfate transport system, periplasmic component [Inorganic ion transport and metabolism]. 
+Probab=88.47  E-value=1.8  Score=21.99  Aligned_cols=31  Identities=10%  Similarity=-0.013  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      |+++...++++++++++++++|.........
+T Consensus         2 ~~~~~~~~~~~~~~~~~~l~~c~~~~~~~~~   32 (341)
+T COG4150           2 AVNLMKKNLLIGATILALFAALLQAGASATE   32 (341)
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHHHhCCCCceE
+
+
+No 73
+>COG3047 OmpW; Outer membrane protein W [Cell wall/membrane/envelope biogenesis]. 
+Probab=88.43  E-value=1.4  Score=20.18  Aligned_cols=21  Identities=38%  Similarity=0.458  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||.+++++++++++.....+
+T Consensus         1 Mkk~~~~~~~~~~~~~~~a~~   21 (213)
+T COG3047           1 MKKVALAALAAAALAAASAFA   21 (213)
+T ss_pred             ChHHHHHHHHHHHHHHHHhhc
+
+
+No 74
+>PF03032.15 ; FSAP_sig_propep ; Frog skin active peptide family signal and propeptide
+Probab=88.36  E-value=1.4  Score=17.40  Aligned_cols=19  Identities=11%  Similarity=0.065  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVG   19 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~   19 (50)
+                      |||.+++++++.++.+.+.
+T Consensus         3 LKKsLlLlfFLG~vslS~C   21 (50)
+T TPFY_PACDA/2-5    3 LKKSLFLVLFLGFVSISFC   21 (50)
+T ss_pred             chHHHHHHHHHHHHhHHhh
+
+
+No 75
+>PF07312.11 ; DUF1459 ; Protein of unknown function (DUF1459)
+Probab=88.25  E-value=1.5  Score=19.01  Aligned_cols=17  Identities=18%  Similarity=0.141  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             CchHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIAC   17 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~   17 (50)
+                      |..|+++.+++++++..
+T Consensus         1 Mn~K~i~al~~~l~~~~   17 (81)
+T E3NMU9_CAERE/1    1 MFQKSLIVLAISLFCLA   17 (81)
+T ss_pred             ChHHHHHHHHHHHHHHH
+
+
+No 76
+>cd09622 CBM9_like_HisKa; DOMON-like type 9 carbohydrate binding module at the N-terminus of bacterial sensor histidine kinases.
+Probab=88.18  E-value=2  Score=21.12  Aligned_cols=23  Identities=22%  Similarity=-0.138  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh.
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV.   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~.   23 (50)
+                      |+.+..+++++++++++...++. 
+T Consensus         1 m~l~~~l~~~~~~~l~l~~~~~~.   23 (265)
+T cd09622           1 MVGTARAVATALHERPALFDTQSa   24 (265)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHH.
+
+
+No 77
+>COG5584 COG5584; Predicted small secreted protein  [Function unknown]. 
+Probab=87.99  E-value=2  Score=18.81  Aligned_cols=21  Identities=19%  Similarity=0.150  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+|+.+++.+++.+++...+.
+T Consensus         1 m~k~~~~~~~~~~~~~g~~~~   21 (103)
+T COG5584           1 MTKKKFILGVGLGVAAGIIVT   21 (103)
+T ss_pred             CChhHHHHHHHHHHHHHHHHH
+
+
+No 78
+>PF02030.15 ; Lipoprotein_8 ; Hypothetical lipoprotein (MG045 family)
+Probab=87.86  E-value=1.8  Score=23.33  Aligned_cols=23  Identities=9%  Similarity=-0.139  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CchHHH-HHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAI-KVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~-~~~~~~~~~~~~~~~~~   23 (50)
+                      |+|+.+ .++++++++++++++|.
+T Consensus         1 Mkk~~~~~~~~~~~~~~~~l~~c~   24 (484)
+T Y058_MYCPN/1-4    1 MKKQLKYWFSLMGLTMSVGLTACS   24 (484)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHHHhc
+
+
+No 79
+>COG2825 HlpA; Periplasmic chaperone for outer membrane proteins, Skp family [Cell wall/membrane/envelope biogenesis, Posttranslational modification, protein turnover, chaperones]. 
+Probab=87.82  E-value=2.6  Score=19.98  Aligned_cols=26  Identities=12%  Similarity=0.206  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHND   26 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~   26 (50)
+                      |||.+++++++++++...........
+T Consensus         1 mk~~~~~~~~~~~~~~~~~~~~~~~k   26 (170)
+T COG2825           1 MKKRLLAALLGLALATSASAAQAAPK   26 (170)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHhcCCc
+
+
+No 80
+>PF06788.13 ; UPF0257 ; Uncharacterised protein family (UPF0257)
+Probab=87.73  E-value=0.89  Score=22.30  Aligned_cols=17  Identities=18%  Similarity=0.430  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CchHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIAC   17 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~   17 (50)
+                      ||+.++++++++++..+
+T Consensus         1 MKk~l~~l~~~~~l~sc   17 (236)
+T YNFC_SALTY/1-2    1 MKKPLLLTLLCMILAGC   17 (236)
+T ss_pred             CchHHHHHHHHHHHHcc
+
+
+No 81
+>PF05968.11 ; Bacillus_PapR ; Bacillus PapR protein
+Probab=87.66  E-value=1.5  Score=16.91  Aligned_cols=21  Identities=33%  Similarity=0.344  Sum_probs=0.0  Template_Neff=2.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||.++.-++.++++..+..+
+T Consensus         1 MkKlligsL~~lAml~giSf~   21 (45)
+T A7GV97_BACCN/1    1 MKKFLACSLVAVAMLAGVAFG   21 (45)
+T ss_pred             CchHHHHHHHHHHHHHhhhcc
+
+
+No 82
+>COG3637 LomR; Opacity protein and related surface antigens [Cell wall/membrane/envelope biogenesis]. 
+Probab=87.53  E-value=2.1  Score=19.61  Aligned_cols=21  Identities=19%  Similarity=0.218  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||.++.+++++++.......
+T Consensus         1 Mkk~~~~~~~~~~~~~~~~~~   21 (199)
+T COG3637           1 MKKLLAAAALAALLLSAAAAA   21 (199)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHh
+
+
+No 83
+>COG3111 YdeI; Predicted periplasmic protein YdeI with OB-fold, BOF family [Function unknown]. 
+Probab=87.50  E-value=2.5  Score=19.32  Aligned_cols=34  Identities=21%  Similarity=0.166  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQ   34 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (50)
+                      |||.++..++++++...++.+...-.+....++.
+T Consensus         1 mk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (128)
+T COG3111           1 MKKQAIAALIALVSTPALAADQGGFKGDAATQPP   34 (128)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHhcCCCCCCCCCCCC
+
+
+No 84
+>COG3591 eMpr; V8-like Glu-specific endopeptidase [Posttranslational modification, protein turnover, chaperones]. 
+Probab=87.16  E-value=2.7  Score=20.04  Aligned_cols=35  Identities=23%  Similarity=0.150  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQT   35 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   35 (50)
+                      ||+..+++++++++++...................
+T Consensus         1 Mk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   35 (251)
+T COG3591           1 MNKNAVVLSLAALTILTSAAGVGATAVEEPQQTAS   35 (251)
+T ss_pred             CchHHHHHHHHHHHHHHHhccCCcccCCCCcccCC
+
+
+No 85
+>COG3133 SlyB; Outer membrane lipoprotein SlyB [Cell wall/membrane/envelope biogenesis]. 
+Probab=86.84  E-value=2.2  Score=20.26  Aligned_cols=22  Identities=27%  Similarity=0.138  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHN   25 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~   25 (50)
+                      |||.++   ++++++.+++++|...
+T Consensus         1 mk~~~~---~~~~~~~l~lagCat~   22 (154)
+T COG3133           1 MIKTAL---AVAALMALSLTGCANN   22 (154)
+T ss_pred             ChHHHH---HHHHHHHHHHHHHhCC
+
+
+No 86
+>COG3745 CpaB; Flp pilus assembly protein CpaB  [Intracellular trafficking, secretion, and vesicular transport, Extracellular structures]. 
+Probab=86.43  E-value=2.3  Score=21.85  Aligned_cols=20  Identities=25%  Similarity=0.237  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+++.+++++++++++.+..
+T Consensus         1 M~~~~~ii~~l~~~~~~~~~   20 (276)
+T COG3745           1 MRPKRLIILIVALAAAGLAG   20 (276)
+T ss_pred             CChHHHHHHHHHHHHHHHHH
+
+
+No 87
+>PF14855.6 ; PapJ ; Pilus-assembly fibrillin subunit, chaperone
+Probab=85.58  E-value=2.7  Score=20.61  Aligned_cols=20  Identities=15%  Similarity=-0.047  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      ||||.++.+.++++++....
+T Consensus         2 ~mkk~~~~~~~~~ll~~~~~   21 (193)
+T D8A6C2_ECOMS/1    2 VVNKTTAVLYLIALSLSGFI   21 (193)
+T ss_pred             cchHHHHHHHHHHHHHHHHH
+
+
+No 88
+>COG3746 OprP; Phosphate-selective porin  [Inorganic ion transport and metabolism]. 
+Probab=85.06  E-value=2.6  Score=22.58  Aligned_cols=20  Identities=5%  Similarity=-0.047  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      +|||+.++++.+++.+.+.+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~   20 (426)
+T COG3746           1 AIRRISTLFVQLALGLAASA   20 (426)
+T ss_pred             CchhHHHHHHHHHHHHHHhH
+
+
+No 89
+>COG3063 PilF; Tfp pilus assembly protein PilF  [Cell motility, Extracellular structures]. 
+Probab=84.71  E-value=2.6  Score=19.59  Aligned_cols=32  Identities=3%  Similarity=0.000  Sum_probs=0.0  Template_Neff=13.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQ   32 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (50)
+                      |+++.+++++++++++................
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (250)
+T COG3063           1 KFKFSTRISLVFSLALGACVTDPAPSRQTDRN   32 (250)
+T ss_pred             CCCchHHHHHHHHHHHhHHhcCCCCCCcCCch
+
+
+No 90
+>KOG4063 Major epididymal secretory protein HE1 [Function unknown]
+Probab=84.49  E-value=3.9  Score=18.83  Aligned_cols=26  Identities=19%  Similarity=0.312  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHND   26 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~   26 (50)
+                      ||++.+.++++++++....+.+....
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~   26 (158)
+T KOG4063           1 MMMSFLKTVILLALLSLAAAQAISTG   26 (158)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHHHHhcC
+
+
+No 91
+>COG1653 UgpB; ABC-type glycerol-3-phosphate transport system, periplasmic component [Carbohydrate transport and metabolism]. 
+Probab=84.39  E-value=5.7  Score=20.63  Aligned_cols=41  Identities=7%  Similarity=-0.004  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADP   45 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   45 (50)
+                      |||+...+++++++++++..|.    ..........+.++.+...
+T Consensus         1 ~~~~~~~~~~~~~~~~~l~~c~----~~~~~~~~~~l~v~~~~~~   41 (433)
+T COG1653           1 LKKISKLLLLLLAAALGLAACG----SAAASAAGVTITFWHSWTG   41 (433)
+T ss_pred             CchHHHHHHHHHHHHHHHHHhh----cchhhcCceEEEEEEecCC
+
+
+No 92
+>COG3187 HslJ; Heat shock protein HslJ [Posttranslational modification, protein turnover, chaperones]. 
+Probab=84.30  E-value=3.7  Score=18.43  Aligned_cols=37  Identities=19%  Similarity=0.124  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEee
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMM   42 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   42 (50)
+                      |||     ++++++++++..+|....+..+...........|
+T Consensus         1 mk~-----~~~~~~~~~~~~aC~~~~~~~~~~~~~~~~~g~W   37 (142)
+T COG3187           1 MKK-----ILTAVALALALAGCVSTDPVTVTPEQEAHHNQAF   37 (142)
+T ss_pred             ChH-----HHHHHHHHHHHHhhcCCCCCCCCcccccccCCeE
+
+
+No 93
+>PF17431.2 ; YpmT ; Uncharacterized YmpT-like
+Probab=84.14  E-value=3  Score=17.22  Aligned_cols=21  Identities=10%  Similarity=-0.290  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||+...+.++.+++.+.+.+
+T Consensus         1 mKr~y~~~sli~~l~slyFGg   21 (62)
+T YPMT_BACSU/1-6    1 MKRIYQYFSLLSFTFSLYFGW   21 (62)
+T ss_pred             CchHHHHHHHHHHHHHHHHHH
+
+
+No 94
+>PF11471.8 ; Sugarporin_N ; Maltoporin periplasmic N-terminal extension
+Probab=84.12  E-value=2.7  Score=16.71  Aligned_cols=25  Identities=8%  Similarity=0.052  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHN   25 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~   25 (50)
+                      ||++.+.+++++++...........
+T Consensus         1 Mk~~~l~l~~~ll~~~~~~~~~~a~   25 (54)
+T A0KMI4_AERHH/3    1 MCKNKLALAVALGLGMSSPLWAADG   25 (54)
+T ss_pred             CcHHHHHHHHHHHHHHhhhhHhhcC
+
+
+No 95
+>COG5520 XynC; O-Glycosyl hydrolase  [Cell wall/membrane/envelope biogenesis]. 
+Probab=83.98  E-value=6.5  Score=20.94  Aligned_cols=38  Identities=11%  Similarity=0.053  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEE
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEY   39 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (50)
+                      |||.++. ++++++++++.+.+..............+..
+T Consensus         1 m~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~v   38 (433)
+T COG5520           1 MKGRLKS-TVDSLVAFSMLCLPFVSGSTEVLAASEDITV   38 (433)
+T ss_pred             CchhhHH-HHHHHHHHHHHHhhhcCCCcchhhcCCcEEE
+
+
+No 96
+>COG4086 YpuA; Uncharacterized protein YpuA, DUF1002 family [Function unknown]. 
+Probab=83.88  E-value=6.7  Score=21.06  Aligned_cols=44  Identities=14%  Similarity=0.085  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMAD   44 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   44 (50)
+                      |||.++...++.+++++++.+.................+.+-.+
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~lGa~   44 (299)
+T COG4086           1 MKKVRIEITILVVIAILLLVAAAYPEVSLADATVGRPIVTLGED   44 (299)
+T ss_pred             CccHHHHHHHHHHHHHHHHHHhhCcccccccccCCCCEEEecCC
+
+
+No 97
+>COG4105 BamD; Outer membrane protein assembly factor BamD, BamD/ComL family [Cell wall/membrane/envelope biogenesis]. 
+Probab=83.87  E-value=4  Score=18.92  Aligned_cols=33  Identities=3%  Similarity=-0.040  Sum_probs=0.0  Template_Neff=13.300
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhhhcCccccccCccC
+Q Q_9186633_5       3 LKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQT   35 (50)
+Q Consensus         3 k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   35 (50)
+                      |+++++++++++++.+..+|..........+..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   33 (254)
+T COG4105           1 KKLKLLLVIGLLLLVASTGCSGDKDKNGVYNLP   33 (254)
+T ss_pred             ChHHHHHHHHHHHHHHhccccCccccCCCCCCC
+
+
+No 98
+>PF08139.12 ; LPAM_1 ; Prokaryotic membrane lipoprotein lipid attachment site
+Probab=83.83  E-value=1.4  Score=13.05  Aligned_cols=16  Identities=25%  Similarity=0.320  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CchHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIA   16 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~   16 (50)
+                      ||+.++.+...+++..
+T Consensus         1 mk~~~~~~~~~~~lsg   16 (18)
+T A0A0U5GJ58_9GA    1 MKRTIVPLTMMLALSA   16 (18)
+T ss_pred             ChHHHHHHHHHHHHhh
+
+
+No 99
+>PF10880.8 ; DUF2673 ; Protein of unknown function (DUF2673)
+Probab=83.64  E-value=3.1  Score=17.78  Aligned_cols=34  Identities=18%  Similarity=0.003  Sum_probs=0.0  Template_Neff=1.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQ   34 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (50)
+                      ||+.+.+++++.+..-.++++.....+......+
+T Consensus         1 MKNLlkIlLilAFs~pvFAss~~~~~p~SvtT~q   34 (82)
+T Y697_RICPR/1-8    1 MKNLLKILLIIAFANPVFASSMQMPDPASVTTTQ   34 (82)
+T ss_pred             CchHHHHHHHHHHhCHHHhccCCCCCCCccchhH
+
+
+No 100
+>COG5462 COG5462; Predicted secreted (periplasmic) protein  [Function unknown]. 
+Probab=83.56  E-value=4.5  Score=18.95  Aligned_cols=20  Identities=25%  Similarity=0.031  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+|.+.++++++++++.+..
+T Consensus         1 m~r~~~lvli~v~~~~a~~l   20 (138)
+T COG5462           1 MLRTFDIVLIAIMVAAATVT   20 (138)
+T ss_pred             CchHHHHHHHHHHHHHHHHH
+
+
+No 101
+>d2noca1 d.230.6.1 (A:1-91) Putative periplasmic protein YahO {Salmonella enterica [TaxId: 28901]}
+Probab=83.43  E-value=3.8  Score=17.88  Aligned_cols=23  Identities=17%  Similarity=0.059  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      ||+..+.+.++++++.....+..
+T Consensus         1 MK~~~~~~~~~l~~~s~~a~AA~   23 (91)
+T d2noca1           1 MKTGYKVMLGALAFVVTNVYAAE   23 (91)
+T ss_dssp             CCCCCCCCCCCCCCCCCCCCCCE
+T ss_pred             CchHHHHHHHHHHHHHHHhhhch
+
+
+No 102
+>COG1732 OsmF; Periplasmic glycine betaine/choline-binding (lipo)protein of an ABC-type transport system (osmoprotectant binding protein) [Cell wall/membrane/envelope biogenesis]. 
+Probab=83.39  E-value=5.3  Score=19.52  Aligned_cols=34  Identities=6%  Similarity=0.012  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQ   34 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (50)
+                      |+++.+..++++++++++..|.............
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~   34 (300)
+T COG1732           1 SKRRMLLIKLLLGSLLLLAACSLPGLGSASAAKT   34 (300)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHccCCCCCCcccCce
+
+
+No 103
+>COG3014 COG3014; Uncharacterized protein [Function unknown]. 
+Probab=83.30  E-value=3.7  Score=22.11  Aligned_cols=21  Identities=14%  Similarity=0.116  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      ||++.+.++++++++++.+++
+T Consensus         1 m~~~~~~~~~~~~~lll~gC~   21 (449)
+T COG3014           1 MKIFVQLIMSVILGLSLTGCI   21 (449)
+T ss_pred             ChhHHHHHHHHHHHHHHHhHh
+
+
+No 104
+>COG3771 YciS; Uncharacterized membrane protein YciS, DUF1049 family [Function unknown]. 
+Probab=83.30  E-value=3.7  Score=17.69  Aligned_cols=27  Identities=22%  Similarity=0.309  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      ||+..+.++++++++..+.....+.+.
+T Consensus         1 Mk~~~~l~~~l~~~v~~~~f~~~N~~~   27 (97)
+T COG3771           1 MKYILIFVLVLAIFLIAVTLGAQNDQQ   27 (97)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHHCCCc
+
+
+No 105
+>PF10836.8 ; DUF2574 ; Protein of unknown function (DUF2574)
+Probab=83.27  E-value=3.8  Score=17.81  Aligned_cols=26  Identities=12%  Similarity=-0.127  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHND   26 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~   26 (50)
+                      |||+++.+.++++++....+......
+T Consensus         1 Mkk~~~~l~~~l~~~~~~~~~a~~~g   26 (93)
+T YEHE_ECOLI/1-9    1 MNKYWLSGIIFLAYGLASPAFSSETA   26 (93)
+T ss_pred             CchHHHHHHHHHHHHHHHHHhhcCCC
+
+
+No 106
+>d2jnaa1 d.230.6.1 (A:1-96) Hypothetical protein STM0082 {Salmonella typhimurium [TaxId: 90371]}
+Probab=83.23  E-value=4  Score=17.94  Aligned_cols=22  Identities=18%  Similarity=0.291  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |||..+...++++++.....+.
+T Consensus         1 MK~~~~~~~l~l~~~S~~a~AA   22 (96)
+T d2jnaa1           1 MKKRIIAAALLATVASFSTLAA   22 (96)
+T ss_dssp             CCCCCCCCCCCCCCCCCCCCSC
+T ss_pred             CchHHHHHHHHHHHHHHHHhhc
+
+
+No 107
+>PF03687.13 ; UPF0164 ; Uncharacterised protein family (UPF0164)
+Probab=82.66  E-value=3.6  Score=21.26  Aligned_cols=21  Identities=14%  Similarity=-0.100  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+|+.....+++++++++...
+T Consensus         1 m~~~~~~~~~~~l~~~~~~~~   21 (356)
+T Y858_TREPA/4-3    1 MIRHTFTHRCGALLCALALGS   21 (356)
+T ss_pred             CcchhhHHHHHHHHHHHHHHH
+
+
+No 108
+>PF10717.9 ; ODV-E18 ; Occlusion-derived virus envelope protein ODV-E18
+Probab=82.39  E-value=4.4  Score=17.81  Aligned_cols=39  Identities=21%  Similarity=0.208  Sum_probs=0.0  Template_Neff=2.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEE
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEY   39 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (50)
+                      ++.-++.++++++++.++-.+...+.............|
+T Consensus        27 lMtILi~LVIIiLlIllfqsSS~g~~sss~~~~~~~~~f   65 (87)
+T Q8B9B9_NPVR1/4   27 FLTILAVVVIIALIIIFVQSSSTGNNSSSPNTPNANMGF   65 (87)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhccCCCCCCCCCCCCCCccc
+
+
+No 109
+>COG3103 YgiM; Uncharacterized conserved protein YgiM, contains N-terminal SH3 domain, DUF1202 family [General function prediction only]. 
+Probab=81.56  E-value=3.6  Score=19.45  Aligned_cols=17  Identities=12%  Similarity=0.092  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CchHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIAC   17 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~   17 (50)
+                      ||+.++++++++++++.
+T Consensus         1 m~~~~~~~~~~~~~~~~   17 (205)
+T COG3103           1 MNKLIFILLTSLLLSAA   17 (205)
+T ss_pred             ChHHHHHHHHHHHHHHh
+
+
+No 110
+>COG4729 COG4729; Uncharacterized protein, DUF1850 family [Function unknown]. 
+Probab=81.54  E-value=6  Score=18.87  Aligned_cols=21  Identities=19%  Similarity=0.161  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |++|....+++++++++....
+T Consensus         1 ~~~~~~~~~~~~~~~~l~~~~   21 (156)
+T COG4729           1 MLRKVVKAASGLAVFTLIAGL   21 (156)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHh
+
+
+No 111
+>PF17428.2 ; DUF5412 ; Family of unknown function (DUF5412)
+Probab=81.53  E-value=5  Score=17.94  Aligned_cols=21  Identities=14%  Similarity=0.279  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      ||.++.++++++++++++...
+T Consensus         1 ~~~l~~~l~~~~~~~~l~~~~   21 (119)
+T E6U1F3_BACCJ/1    1 RKSLLIILICSLSFFCLIGYG   21 (119)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHH
+
+
+No 112
+>COG4932 COG4932; Uncharacterized surface anchored protein  [Function unknown]. 
+Probab=81.31  E-value=4.7  Score=25.20  Aligned_cols=23  Identities=26%  Similarity=-0.013  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |||++..+++++++++++...+.
+T Consensus         1 m~~~~~~~~~~~~~~l~~~~~~~   23 (1531)
+T COG4932           1 NKLRWKALVIALIIGLLLFQNIS   23 (1531)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHhHh
+
+
+No 113
+>PF14055.6 ; NVEALA ; NVEALA protein
+Probab=81.27  E-value=3.9  Score=16.54  Aligned_cols=28  Identities=21%  Similarity=0.305  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhhhcCccccc
+Q Q_9186633_5       3 LKAIKVVIAAAIIACVGFTPVHNDKEVS   30 (50)
+Q Consensus         3 k~~~~~~~~~~~~~~~~~~~~~~~~~~~   30 (50)
+                      ||++.++++++++++........+.+..
+T Consensus         1 Kk~~~~~~~~~~~~~~~~~~~~~~~~~~   28 (63)
+T R6SUA4_9BACE/3    1 KNFIKAAFVAAFASIAGYGVYTSQQKVE   28 (63)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHHcCCCCc
+
+
+No 114
+>PF05984.12 ; Cytomega_UL20A ; Cytomegalovirus UL20A protein
+Probab=81.03  E-value=5  Score=17.62  Aligned_cols=38  Identities=13%  Similarity=0.118  Sum_probs=0.0  Template_Neff=1.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceE
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIE   38 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   38 (50)
+                      |-++++++.++++.+...+++-...........+....
+T Consensus         1 MaRRlwiLsLLAV~LtVALAAPsQKsKRSVtvEqPsts   38 (103)
+T UL22A_HCMVM/1-    1 MARRLWILSLLAVTLTVALAAPSQKSKRSVTVEQPSTS   38 (103)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHCCccccCcceeeecCCcc
+
+
+No 115
+>COG2113 ProX; ABC-type proline/glycine betaine transport system, periplasmic component [Amino acid transport and metabolism]. 
+Probab=80.83  E-value=6.6  Score=19.32  Aligned_cols=23  Identities=17%  Similarity=0.005  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |+++.++++++++++++....|.
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~   23 (302)
+T COG2113           1 MKKLLALLAAVAAAALLAAAAAA   23 (302)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 116
+>COG4380 COG4380; Uncharacterized protein [Function unknown]. 
+Probab=80.46  E-value=3.5  Score=19.64  Aligned_cols=19  Identities=16%  Similarity=-0.188  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVH   24 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~   24 (50)
+                      ||+.     ++++++++++++|..
+T Consensus         1 mk~~-----~l~~~~~l~l~gC~~   19 (216)
+T COG4380           1 MKPL-----ILGLAAVLALSACQV   19 (216)
+T ss_pred             CHHH-----HHHHHHHHHHHhccC
+
+
+No 117
+>PF07263.11 ; DMP1 ; Dentin matrix protein 1 (DMP1)
+Probab=80.33  E-value=7.2  Score=22.42  Aligned_cols=26  Identities=12%  Similarity=0.101  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHH-HHhhhcCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACV-GFTPVHND   26 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~-~~~~~~~~   26 (50)
+                      ||..+++++|+.+.+++. .+...+..
+T Consensus         1 mktsill~~lwglscalp~varyqnte   27 (500)
+T G1P5E5_MYOLU/1    1 MKTSILLMFLSTSLSFLPHVARYQHTE   27 (500)
+T ss_pred             CcHHHHHHHHHHHHHhhHHHHHhcCCC
+
+
+No 118
+>cd19640 beta16_ChiP; Porin Chitoporin domain. Chitoporin (ChiP) is a sugar-specific channel responsible for the transport of chitooligosaccharides through the outer membrane of the marine bacterium Vibrio.
+Probab=80.26  E-value=5.7  Score=20.38  Aligned_cols=27  Identities=15%  Similarity=-0.059  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      ||||.++.+++++++...........+
+T Consensus         1 ~mkk~~l~~~~~~~~~~~~~~~~~~~~   27 (358)
+T cd19640           1 MIAATIIGSFAALPAHAYKIGTENGMN   27 (358)
+T ss_pred             CchHHHHHHHHHHHHHHHhhcccCCCc
+
+
+No 119
+>COG4929 COG4929; Uncharacterized membrane-anchored protein  [Function unknown]. 
+Probab=80.18  E-value=4.4  Score=19.75  Aligned_cols=21  Identities=14%  Similarity=-0.070  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      ||++...+++++++..++..+
+T Consensus         2 ~~~~~~~~~~~~~l~~l~~~~   22 (190)
+T COG4929           2 MMNNKKWLYIRAILPLLLQTG   22 (190)
+T ss_pred             ccccchHHHHHHHHHHHHHHh
+
+
+No 120
+>COG0687 PotD; Spermidine/putrescine-binding periplasmic protein [Amino acid transport and metabolism]. 
+Probab=80.06  E-value=4.7  Score=20.85  Aligned_cols=23  Identities=13%  Similarity=-0.068  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |||+++...+++++++++.+|..
+T Consensus         1 ~~k~~~~~~~~~~~~~~l~~C~~   23 (363)
+T COG0687           1 MMKKLSRRSFLALAALALAALAG   23 (363)
+T ss_pred             CcchhchHHHHHHHHHHHHHHHh
+
+
+No 121
+>PF07116.11 ; DUF1372 ; Protein of unknown function (DUF1372)
+Probab=80.05  E-value=6  Score=17.87  Aligned_cols=47  Identities=11%  Similarity=0.054  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCCCC
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGAGG   49 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~   49 (50)
+                      +++++.+++++.+.+.+...-.........++.+|+.. +..|+.++.
+T Consensus         4 ~~~~~~~~il~s~~~~~~~~~~~~~~~~~l~~~~pvII-YkvDNaG~e   50 (97)
+T A0A126UP22_STR    4 IKEHAPLLGLICMLFFAGGVATATLFDDNAPQRQPIII-HVVDNAGGM   50 (97)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHccCCCCCCCCCCEEE-EEeeCCCce
+
+
+No 122
+>PF13623.6 ; SurA_N_2 ; SurA N-terminal domain
+Probab=80.00  E-value=5.6  Score=17.54  Aligned_cols=24  Identities=17%  Similarity=-0.045  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVH   24 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~   24 (50)
+                      +++.++.++++++++++++.+|..
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~~~~~~   31 (137)
+T C6WWC4_METML/2    8 AKGWVGKAILAFITVPFALFGIDS   31 (137)
+T ss_pred             hcHHHHHHHHHHHHHHHHHhcchh
+
+
+No 123
+>COG3521 COG3521; Predicted component of the type VI protein secretion system  [Intracellular trafficking, secretion, and vesicular transport]. 
+Probab=79.72  E-value=7.3  Score=18.65  Aligned_cols=41  Identities=12%  Similarity=0.114  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCC
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPG   46 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g   46 (50)
+                      |++.+.+++++++++++..|+.....    .....+......+++
+T Consensus         1 m~~~~~~~~~l~~~~~L~gCss~~~~----~~~~~i~l~i~a~~~   41 (159)
+T COG3521           1 MNSSRKAVLALFALLVLSGCSSSKPL----LPPSRLDLTLTAAPD   41 (159)
+T ss_pred             CchHHHHHHHHHHHHHHhhccCCCCC----CCCCeEEEEEEeCCc
+
+
+No 124
+>COG3883 CwlO1; Uncharacterized N-terminal domain of peptidoglycan hydrolase CwlO  [Function unknown]. 
+Probab=79.71  E-value=5.1  Score=20.40  Aligned_cols=18  Identities=28%  Similarity=0.370  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACV   18 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~   18 (50)
+                      |+|+++.+++++++++..
+T Consensus         1 m~~~~~~~~~~~~~~~~~   18 (265)
+T COG3883           1 MKKKILLAVLLSLVIIST   18 (265)
+T ss_pred             ChHHHHHHHHHHHHHHHh
+
+
+No 125
+>COG4143 TbpA; ABC-type thiamine transport system, periplasmic component [Coenzyme transport and metabolism]. 
+Probab=79.47  E-value=8.8  Score=19.47  Aligned_cols=35  Identities=9%  Similarity=0.036  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMAD   44 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   44 (50)
+                      |||    ++.+++++++++++|....     ....++.++.+..
+T Consensus         1 mk~----~~~~~~~~~~~l~~C~~~~-----~~~~~l~v~~~~~   35 (336)
+T COG4143           1 MRR----LLRALIGLALLVSAALGAQ-----AATPTLTVYTYDS   35 (336)
+T ss_pred             CHH----HHHHHHHHHHHHHHhccCc-----cCCCEEEEEEcCC
+
+
+No 126
+>COG4764 COG4764; Uncharacterized protein [Function unknown]. 
+Probab=79.40  E-value=4.3  Score=19.57  Aligned_cols=22  Identities=18%  Similarity=0.344  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |++++..++++++++++..+..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~   22 (197)
+T COG4764           1 RTPSMMRLVFAVVLLALAGCAT   22 (197)
+T ss_pred             CCHhHHHHHHHHHHHHHhccCC
+
+
+No 127
+>COG4509 SrtB; class B sortase (surface protein transpeptidase) [Cell wall/membrane/envelope biogenesis]. 
+Probab=79.33  E-value=7.1  Score=19.73  Aligned_cols=21  Identities=14%  Similarity=0.251  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+|+++..+++++.++++..+
+T Consensus         2 ~~k~~~~~~~~~i~i~~~~~~   22 (244)
+T COG4509           2 MMKRFLKLSDTLVVVIVFCFS   22 (244)
+T ss_pred             chhHHHHHHHHHHHHHHHHHH
+
+
+No 128
+>PF05538.11 ; Campylo_MOMP ; Campylobacter major outer membrane protein
+Probab=79.30  E-value=5.8  Score=20.79  Aligned_cols=21  Identities=33%  Similarity=0.207  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||.++.++++++++......
+T Consensus         1 Mkk~~~~~~~~~~~~~~~~~a   21 (414)
+T A7I3X9_CAMHC/1    1 MKLLKLSLVAALAAGALATTA   21 (414)
+T ss_pred             ChHHHHHHHHHHHHHHHHhhh
+
+
+No 129
+>KOG3526 Subtilisin-like proprotein convertase [Posttranslational modification, protein turnover, chaperones]
+Probab=79.06  E-value=13  Score=21.32  Aligned_cols=43  Identities=12%  Similarity=0.035  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGAG   48 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~   48 (50)
+                      |||+.++++++++++++..+.     .........+..|+..-+++..
+T Consensus         1 m~~~~~~~~l~~~~~~~~~~~-----~~~~~~~~~~~~~iV~~~~~~~   43 (629)
+T KOG3526           1 MMKNTHSDLIAVFLSLFCVMI-----GAGEAVDVFTNHFLVHLKEGGG   43 (629)
+T ss_pred             CchHHHHHHHHHHHHHHHHHh-----ccCCCceecCCEEEEEEcCCCC
+
+
+No 130
+>PF11106.8 ; YjbE ; Exopolysaccharide production protein YjbE
+Probab=79.02  E-value=5.9  Score=17.21  Aligned_cols=21  Identities=19%  Similarity=0.045  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||.++.+.++.+........
+T Consensus         1 MKK~~~~~aa~~la~s~~a~A   21 (79)
+T Q7CPB5_SALTY/2    1 MKKVLYGIFAITALAATSVSA   21 (79)
+T ss_pred             ChhHHHHHHHHHHHHHhHhhc
+
+
+No 131
+>COG2854 MlaC; ABC-type transporter Mla maintaining outer membrane lipid asymmetry, periplasmic MlaC component [Lipid transport and metabolism]. 
+Probab=78.95  E-value=8.5  Score=19.01  Aligned_cols=29  Identities=17%  Similarity=0.150  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEV   29 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~   29 (50)
+                      ||++.++..++++++++...+.....+..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~a~~~~~~~p   29 (202)
+T COG2854           1 MMMKKSLTILALLVIAFASSLAAAAPANP   29 (202)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHhcCCCCh
+
+
+No 132
+>PF05887.11 ; Trypan_PARP ; Procyclic acidic repetitive protein (PARP)
+Probab=78.91  E-value=6.6  Score=17.73  Aligned_cols=23  Identities=9%  Similarity=-0.097  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |+.+.+.+++.+++.+++..+..
+T Consensus         1 m~~~~~~~~~~l~l~~~l~~~~~   23 (123)
+T Q581F6_TRYB2/1    1 MAPRSLYLLAILLFSANLFSGVG   23 (123)
+T ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+
+
+No 133
+>COG2980 LptE; Outer membrane lipoprotein LptE/RlpB (LPS assembly) [Cell wall/membrane/envelope biogenesis]. 
+Probab=78.61  E-value=5.1  Score=18.98  Aligned_cols=20  Identities=15%  Similarity=0.140  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||...++++++++++.+|+
+T Consensus         1 ~~~~~~~l~~~~~l~lsgCG   20 (178)
+T COG2980           1 MRKLKTLLLLAAVLLLAACG   20 (178)
+T ss_pred             ChhHHHHHHHHHHHHHhhcC
+
+
+No 134
+>COG2332 CcmE; Cytochrome c-type biogenesis protein CcmE [Energy production and conversion, Posttranslational modification, protein turnover, chaperones]. 
+Probab=78.31  E-value=6.2  Score=18.97  Aligned_cols=20  Identities=10%  Similarity=-0.112  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+++.++++.++++++++..
+T Consensus         5 ~k~r~k~~~~~~~~~~a~~~   24 (153)
+T COG2332           5 RRKRLWIILAGLAGLALAVG   24 (153)
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+
+
+No 135
+>COG1559 YceG; Cell division protein YceG, involved in septum cleavage [Cell cycle control, cell division, chromosome partitioning]. 
+Probab=78.28  E-value=7.6  Score=20.88  Aligned_cols=22  Identities=18%  Similarity=0.256  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |+||....++++++++++.+++
+T Consensus         4 ~~~k~~~~l~~~vl~~~~~~~~   25 (342)
+T COG1559           4 MKKKLLKTLLVLVLVLLLILGG   25 (342)
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHH
+
+
+No 136
+>PF03100.15 ; CcmE ; CcmE
+Probab=78.25  E-value=6.9  Score=17.60  Aligned_cols=22  Identities=9%  Similarity=0.037  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |+++.+.++++++++++++...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~   22 (126)
+T CCME_RHORT/3-1    1 RKKRRLYFVVLGMLALFAAAGL   22 (126)
+T ss_pred             CchhHHHHHHHHHHHHHHHHHH
+
+
+No 137
+>COG4454 COG4454; Uncharacterized copper-binding protein, cupredoxin-like subfamily [General function prediction only]. 
+Probab=78.13  E-value=7.1  Score=17.63  Aligned_cols=36  Identities=14%  Similarity=0.037  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTP   36 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (50)
+                      |+|.++.++++++++......+.............+
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (158)
+T COG4454           1 MFRMIRAILLAALASPALAAGSVQAGSLVVMAVGKT   36 (158)
+T ss_pred             ChhHHHHHHHHHHhcHHHhhcccccCCccccccCCC
+
+
+No 138
+>COG3126 YbaY; Uncharacterized lipoprotein YbaY [Function unknown]. 
+Probab=78.11  E-value=8.4  Score=18.48  Aligned_cols=29  Identities=14%  Similarity=0.109  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQ   32 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (50)
+                      ||+   +..+++++++++.++|.........+
+T Consensus         1 M~~---~~~~~~l~~~~~LagC~~~~~~~~~~   29 (158)
+T COG3126           1 MKL---VHIPIGLLAAILLAACASKSADIPAP   29 (158)
+T ss_pred             Ccc---cHHHHHHHHHHHHHHHcCCCCCCCCC
+
+
+No 139
+>COG3898 COG3898; Uncharacterized membrane-anchored protein  [Function unknown]. 
+Probab=78.01  E-value=9.9  Score=20.41  Aligned_cols=26  Identities=12%  Similarity=0.022  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHND   26 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~   26 (50)
+                      |.+.++.+++++++++.+........
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~   26 (531)
+T COG3898           1 MIRVLFFLILVAALGFGFAWLADRPG   26 (531)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHhhCCC
+
+
+No 140
+>PF15581.6 ; Imm58 ; Immunity protein 58
+Probab=77.80  E-value=7.4  Score=17.65  Aligned_cols=20  Identities=20%  Similarity=0.205  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+|+.+.++++++++++...
+T Consensus         1 m~~~k~~~~i~l~lli~~n~   20 (109)
+T Q8XSL9_RALSO/1    1 MTRATKAVVVMLAFAVSASI   20 (109)
+T ss_pred             CcHHHHHHHHHHHHHHHHHH
+
+
+No 141
+>COG1464 NlpA; ABC-type metal ion transport system, periplasmic component/surface antigen [Inorganic ion transport and metabolism]. 
+Probab=77.76  E-value=8.1  Score=18.54  Aligned_cols=21  Identities=19%  Similarity=0.102  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+++.+.++++++++.+.+++
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~   21 (268)
+T COG1464           1 MKKLKKLALALVALLALAACG   21 (268)
+T ss_pred             ChhHHHHHHHHHHHHHHHHhh
+
+
+No 142
+>PF12354.8 ; Internalin_N ; Bacterial adhesion/invasion protein N terminal
+Probab=77.73  E-value=5.4  Score=16.03  Aligned_cols=28  Identities=14%  Similarity=-0.062  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKE   28 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~   28 (50)
+                      |+|+.++-.++.+++.+....|......
+T Consensus         1 ~kk~~~lk~~~~~~lv~~i~~~v~~~~~   28 (56)
+T INLA_LISMO/3-5    1 KKRYVWLKSILVAILVFGSGVWINTSNG   28 (56)
+T ss_pred             CchhHHHHHHHHHHHHHHHHHHHhcCCc
+
+
+No 143
+>COG4571 OmpT; Outer membrane protease [Cell wall/membrane/envelope biogenesis]. 
+Probab=77.56  E-value=6  Score=20.27  Aligned_cols=20  Identities=20%  Similarity=0.167  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |||+.+++++++++.+...+
+T Consensus         1 Mk~~~~~~~~~~~~~~~~~a   20 (314)
+T COG4571           1 MKAKSLGIVAITPFAISSLA   20 (314)
+T ss_pred             CcchHHHHHHHHHHHHHHHc
+
+
+No 144
+>COG3107 LpoA; Outer membrane lipoprotein LpoA, binds and activates PBP1a [Cell wall/membrane/envelope biogenesis]. 
+Probab=77.38  E-value=7.8  Score=21.31  Aligned_cols=32  Identities=9%  Similarity=-0.145  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQ   32 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (50)
+                      |++.++..+++++++++++++|..........
+T Consensus         6 ~~~~~~~~~~~~~~~~~~l~~c~~~~~~~~~~   37 (604)
+T COG3107           6 FQRIKAPRLLTPILLALVLAGCSTFLPSGSVV   37 (604)
+T ss_pred             HHHhhHHHHHHHHHHHHHHHHhcCCCCCCccc
+
+
+No 145
+>PF16956.5 ; Porin_7 ; Putative general bacterial porin
+Probab=77.12  E-value=9.1  Score=19.17  Aligned_cols=27  Identities=15%  Similarity=-0.004  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      |||..+.+++++++++...+.......
+T Consensus         1 Mkk~~~~~~~~~~~~~~~~~~~a~~~~   27 (267)
+T Q3IIM9_PSEHT/1    1 MKKLAVIISSILLSSAATTAMAADSYQ   27 (267)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHHhhc
+
+
+No 146
+>PF03978.13 ; Borrelia_REV ; Borrelia burgdorferi REV protein
+Probab=76.91  E-value=9.8  Score=18.95  Aligned_cols=22  Identities=18%  Similarity=0.085  Sum_probs=0.0  Template_Neff=2.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |+++-+.-++++.++.++..+|
+T Consensus         1 m~~~ni~kl~f~~~~~lfv~~c   22 (174)
+T O50973_BORBU/1    1 MQKINIAKLIFILIFSLFVISC   22 (174)
+T ss_pred             CcchhHHHHHHHHHHHHHHHHh
+
+
+No 147
+>PF05423.13 ; Mycobact_memb ; Mycobacterium membrane protein
+Probab=76.90  E-value=7.1  Score=18.13  Aligned_cols=20  Identities=15%  Similarity=0.021  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |++.++.+.+++++++..+.
+T Consensus         1 ~~~~w~~l~~~~~~~~~~~~   20 (138)
+T MMPS5_MYCTU/5-    1 LKRAWIPLLILVVVAIAGFT   20 (138)
+T ss_pred             CCcchHHHHHHHHHHHHHHH
+
+
+No 148
+>PF12869.7 ; tRNA_anti-like ; tRNA_anti-like
+Probab=76.70  E-value=10  Score=18.74  Aligned_cols=36  Identities=14%  Similarity=0.131  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             Cc--hHHHHHHHHHHHHHHHHHhhhcCccccccCccCc
+Q Q_9186633_5       1 MK--LKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTP   36 (50)
+Q Consensus         1 m~--k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (50)
+                      |+  .+.+++.+++++++.+.+..++...........+
+T Consensus         1 m~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~   38 (183)
+T Q0KFH4_CUPNH/1    1 MLNRTQQILVAIVAVAVLGMLWFAGNDRRDDVGDAAPE   38 (183)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHhcccccCCCCCCChh
+
+
+No 149
+>COG2853 VacJ; ABC-type transporter Mla maintaining outer membrane lipid asymmetry, lipoprotein component MlaA [Cell wall/membrane/envelope biogenesis]. 
+Probab=76.40  E-value=11  Score=19.81  Aligned_cols=38  Identities=18%  Similarity=0.124  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceE
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIE   38 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   38 (50)
+                      |+|..+.++++++++++..++.............++.+
+T Consensus         1 ~~~~~~~~~~~~~~~~l~~ca~~~~~~~~~~~~~DP~E   38 (250)
+T COG2853           1 MMKLRRLSGILLSATLLAGCANADNDEYQAAGRNDPLE   38 (250)
+T ss_pred             CchHHHHHHHHHHHHHHHHhcCCCchhHhhcCCCCCCc
+
+
+No 150
+>COG2133 YliI; Glucose/arabinose dehydrogenase, beta-propeller fold [Carbohydrate transport and metabolism]. 
+Probab=76.19  E-value=6.8  Score=20.11  Aligned_cols=36  Identities=11%  Similarity=-0.105  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTP   36 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (50)
+                      ||++.....+++++++++.+.+..............
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (399)
+T COG2133           1 MRRSVRSGSGALGLALAACLSAGAFLLAQLQPATTA   36 (399)
+T ss_pred             CCcchhhhHHHHHHHHHHHHHHHHhHHhcCCCCCCC
+
+
+No 151
+>PF12092.8 ; DUF3568 ; Protein of unknown function (DUF3568)
+Probab=75.78  E-value=5.2  Score=17.88  Aligned_cols=17  Identities=12%  Similarity=0.038  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             HHHHHHHHHHHHHHHhh
+Q Q_9186633_5       6 IKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         6 ~~~~~~~~~~~~~~~~~   22 (50)
+                      ++++++++++++..++|
+T Consensus         2 ~~~~~~~~~~~~~l~GC   18 (126)
+T B8FMB6_DESAA/3    2 ALLALLCAIVLISTSSC   18 (126)
+T ss_pred             HHHHHHHHHHHHHhcCc
+
+
+No 152
+>COG3470 Tpd; Uncharacterized protein probably involved in high-affinity Fe2+ transport  [Cell wall/membrane/envelope biogenesis, Lipid transport and metabolism]. 
+Probab=75.72  E-value=6.9  Score=19.50  Aligned_cols=29  Identities=14%  Similarity=-0.020  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEV   29 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~   29 (50)
+                      ||++..++.+++++.++.+.+.......+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~a~~~e   29 (179)
+T COG3470           1 MKMKKLLLSAAILASVFSAPAEGAAAFKE   29 (179)
+T ss_pred             CchHHHHHHHHHHHHHHhCCccccccccE
+
+
+No 153
+>COG4851 CamS; Protein involved in sex pheromone biosynthesis  [General function prediction only]. 
+Probab=75.64  E-value=6.2  Score=21.92  Aligned_cols=20  Identities=15%  Similarity=0.247  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||.+.++++++++++.+|+
+T Consensus         1 ~k~~~~~~~l~~~llLsgC~   20 (382)
+T COG4851           1 MKKTLGIAATASVLILSGCF   20 (382)
+T ss_pred             CchHHHHHHHHHHHHHHhcC
+
+
+No 154
+>COG4652 COG4652; Uncharacterized protein [Function unknown]. 
+Probab=75.06  E-value=18  Score=20.64  Aligned_cols=45  Identities=9%  Similarity=-0.019  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADP   45 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   45 (50)
+                      |||.+.++++++++++................+...........+
+T Consensus         1 mkK~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   45 (657)
+T COG4652           1 MKKFKFFLDSITFILISILLFVVNFKENEIIKNYDSVDLTQINWN   45 (657)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHhcccceeeecccceeEeeecCC
+
+
+No 155
+>KOG3970 Predicted E3 ubiquitin ligase [Posttranslational modification, protein turnover, chaperones]
+Probab=74.71  E-value=6.9  Score=20.72  Aligned_cols=20  Identities=10%  Similarity=0.092  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      ++|+.+++++++++.++.+.
+T Consensus       249 ~~~r~~~~~~~~~~~~~t~~  268 (299)
+T KOG3970         249 AKKRALFLIFLGVLAFITII  268 (299)
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+
+
+No 156
+>PF06692.11 ; MNSV_P7B ; Melon necrotic spot virus P7B protein
+Probab=74.45  E-value=7.2  Score=15.87  Aligned_cols=44  Identities=11%  Similarity=0.004  Sum_probs=0.0  Template_Neff=1.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCCC
+Q Q_9186633_5       5 AIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGAG   48 (50)
+Q Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~   48 (50)
+                      .++++.++++.+..+....+..-..-++..-..+|+-.+.+|.|
+T Consensus        18 lilfi~~v~f~It~Lg~~~~~~~hh~DNSsiKTQYVGISTNG~~   61 (61)
+T Q8V990_MNSV/68   18 LILFISFVFFYITSLSPQGNTYVHHFDNSSVKTQYVGISTNGDG   61 (61)
+T ss_pred             HHHHHHHHHHHHHhhCCCCCeEEEEecCCcceeEEeEeEeCCCC
+
+
+No 157
+>PF10831.8 ; DUF2556 ; Protein of unknown function (DUF2556)
+Probab=74.44  E-value=6.7  Score=15.55  Aligned_cols=18  Identities=22%  Similarity=0.017  Sum_probs=0.0  Template_Neff=1.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACV   18 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~   18 (50)
+                      |-+|...++++++.++++
+T Consensus         1 MiRKY~WlvvFa~~~flf   18 (53)
+T V5CPV8_ENTCL/1    1 MIRKYGWLLVFALSIFAL   18 (53)
+T ss_pred             CcHhHHHHHHHHHHHHHH
+
+
+No 158
+>COG3245 CytC5; Cytochrome c5  [Energy production and conversion]. 
+Probab=74.14  E-value=8.5  Score=16.69  Aligned_cols=32  Identities=9%  Similarity=-0.025  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQ   32 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (50)
+                      |+++.+++++++++++................
+T Consensus         1 ~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~~~   32 (126)
+T COG3245           1 SLRRPGLLLLAAPAVAAACGEAAAPALAAAPA   32 (126)
+T ss_pred             CccHHHHHHHHHHHHHHHhhccchhhhhcchH
+
+
+No 159
+>PF10829.8 ; DUF2554 ; Protein of unknown function (DUF2554)
+Probab=74.07  E-value=8.5  Score=16.56  Aligned_cols=17  Identities=24%  Similarity=0.333  Sum_probs=0.0  Template_Neff=2.600
+
+Q ss_pred             CchHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIAC   17 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~   17 (50)
+                      |.+|.+.++++++.++.
+T Consensus         1 M~~k~ls~lLl~caLFS   17 (76)
+T Q7CQH9_SALTY/1    1 MLTKTLSVVLLTCALFS   17 (76)
+T ss_pred             ChhHHHHHHHHHHHHHh
+
+
+No 160
+>COG0715 TauA; ABC-type nitrate/sulfonate/bicarbonate transport system, periplasmic component [Inorganic ion transport and metabolism]. 
+Probab=74.05  E-value=13  Score=18.67  Aligned_cols=26  Identities=8%  Similarity=-0.058  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHND   26 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~   26 (50)
+                      ||++++.++++++++++..+......
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~   26 (335)
+T COG0715           1 MMSSRRRLLALLLALALALAAAAAAP   26 (335)
+T ss_pred             CchhHHHHHHHHHHHHHHHHHHhcCC
+
+
+No 161
+>PF14481.6 ; Fimbrial_PilY2 ; Type 4 fimbrial biogenesis protein PilY2
+Probab=74.04  E-value=9.2  Score=16.91  Aligned_cols=28  Identities=4%  Similarity=-0.184  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKE   28 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~   28 (50)
+                      ||+..+.+.+++++++.+.......+.+
+T Consensus         1 ~~~~~~~~~~~~~ll~~~a~~A~a~~~~   28 (99)
+T W9T792_9PSED/2    1 NHRFPRLLAIVTMTLLTGIAHSATFEAS   28 (99)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHhhhhhce
+
+
+No 162
+>COG4447 COG4447; Uncharacterized protein related to plant photosystem II stability/assembly factor  [General function prediction only]. 
+Probab=73.84  E-value=12  Score=18.87  Aligned_cols=34  Identities=3%  Similarity=-0.046  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQ   34 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (50)
+                      |++....++++++++.++..+.............
+T Consensus         3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~w~~   36 (339)
+T COG4447           3 LSSSTRRAVLVLGFAVICVLCSAVPLIAPNPWTD   36 (339)
+T ss_pred             CCcchHHHHHHHHHHHHHHHhccCCCCCCCCcEE
+
+
+No 163
+>COG4814 COG4814; Uncharacterized protein with an alpha/beta hydrolase fold  [Function unknown]. 
+Probab=73.82  E-value=13  Score=18.44  Aligned_cols=46  Identities=17%  Similarity=0.144  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc-----------CccCceEEEeecCCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ-----------QSQTPIEYRMMADPGA   47 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----------~~~~~~~~~~~~~~g~   47 (50)
+                      |+|..+.+.+++++...+.....---.....           .....+.+ .+...++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~y~p~~~~~~~~~~~~~~~~~~p~vv~-~hG~~~~   57 (288)
+T COG4814           1 MKKVFFSIVILLAGALILGWIIGIFEVTKYADKQPKASNSDKKVAIPTIF-IHGSGGT   57 (288)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHHHHHHhHhhhcccCCCCCCCCCCCcCcEEE-EcCCCCC
+
+
+No 164
+>PF16475.5 ; DUF5052 ; Domain of unknown function (DUF5052)
+Probab=73.57  E-value=9  Score=19.59  Aligned_cols=20  Identities=5%  Similarity=0.017  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       4 KAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         4 ~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |.++++++++++++.+++|.
+T Consensus         1 KK~~~~~l~~~~~~~LsGC~   20 (204)
+T R7GNX1_9FIRM/2    1 KRMMKIFTVTLVCLSLCGCS   20 (204)
+T ss_pred             ChHHHHHHHHHHHHHHHHHH
+
+
+No 165
+>COG3889 COG3889; Predicted periplasmic protein [Function unknown]. 
+Probab=73.51  E-value=24  Score=21.43  Aligned_cols=47  Identities=11%  Similarity=-0.072  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGA   47 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~   47 (50)
+                      |||+.-+++.+++++.++...-..........+.-..+.+.......
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~d~I~~~~~~d~~   47 (872)
+T COG3889           1 MKKKLGKILAILVLVGLLVTPLTPPVTAAEQSPAVLKITIKSVTGSL   47 (872)
+T ss_pred             ChHHHHHHHHHHHHHHHHHcccCCccccccCCCCeeEEEEEEecCCc
+
+
+No 166
+>COG4461 LprI; Uncharacterized protein LprI [Function unknown]. 
+Probab=73.45  E-value=7.8  Score=18.62  Aligned_cols=23  Identities=0%  Similarity=-0.230  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |||++++.++++...........
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~   23 (185)
+T COG4461           1 VLALLLLGGALLTPLSLTASAAS   23 (185)
+T ss_pred             CHHHHHHHHHHHhHHHhhhcccc
+
+
+No 167
+>COG3764 SrtA; Sortase (surface protein transpeptidase)  [Cell wall/membrane/envelope biogenesis]. 
+Probab=72.91  E-value=13  Score=18.38  Aligned_cols=20  Identities=20%  Similarity=0.159  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+|.+..+++++.+++++..
+T Consensus         1 ~~~~~~~~li~~gl~ll~~~   20 (210)
+T COG3764           1 MRKILIVLILIAGLILLFVG   20 (210)
+T ss_pred             ChHHHHHHHHHHHHHHHHHH
+
+
+No 168
+>PF03207.13 ; OspD ; Borrelia outer surface protein D (OspD)
+Probab=72.41  E-value=15  Score=18.58  Aligned_cols=47  Identities=13%  Similarity=0.087  Sum_probs=0.0  Template_Neff=1.200
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCCCCC
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPGAGG   49 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~   49 (50)
+                      |||++.+++..+++++...|..+.+.-.....-+...- |-...|...
+T Consensus         1 mkklikill~slflllsisc~~d~~~~~sksnlnnqkg-yldnega~~   47 (254)
+T H7C7Q2_BORBU/1    1 MKKLIKILLLSLFLLLSISCVHDKQELSSKSNLNNQKG-YLDNEGANS   47 (254)
+T ss_pred             ChHHHHHHHHHHHHHHHHHhhcCccccccccccccccc-ccCCCCccc
+
+
+No 169
+>PF06286.11 ; Coleoptericin ; Coleoptericin
+Probab=72.30  E-value=9.6  Score=18.43  Aligned_cols=19  Identities=26%  Similarity=-0.080  Sum_probs=0.0  Template_Neff=3.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVG   19 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~   19 (50)
+                      |+|..+++.+++++.+...
+T Consensus         1 m~k~~~~~~~~a~~aa~~~   19 (142)
+T RHIC_ORYRH/1-1    1 MMKLYIVFGFIAFSAAYVV   19 (142)
+T ss_pred             ChhHHHHHHHHHHHHHHhC
+
+
+No 170
+>COG5314 COG5314; Conjugal transfer/entry exclusion protein  [Mobilome: prophages, transposons]. 
+Probab=72.05  E-value=8.3  Score=19.65  Aligned_cols=22  Identities=14%  Similarity=0.327  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |.+|.++++++++++..++.+.
+T Consensus         6 ~~~~~~~~~~~l~~~~~~~~~~   27 (252)
+T COG5314           6 MRARALSMIAILIAVAFPSYAG   27 (252)
+T ss_pred             HHHHHHHHHHHHHHHHHhHhcC
+
+
+No 171
+>COG3071 HemY; Uncharacterized conserved protein HemY, contains two TPR repeats [Function unknown]. 
+Probab=71.28  E-value=16  Score=18.56  Aligned_cols=26  Identities=15%  Similarity=-0.032  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHND   26 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~   26 (50)
+                      |++.+++++++++.++++.+......
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~   26 (400)
+T COG3071           1 MRRVLLLFVLLLAGIGVGLAIAGQQG   26 (400)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHhcCCC
+
+
+No 172
+>COG1930 CbiN; ABC-type cobalt transport system, periplasmic component  [Inorganic ion transport and metabolism]. 
+Probab=71.27  E-value=12  Score=16.92  Aligned_cols=22  Identities=27%  Similarity=0.397  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |||+..-.++++++++++....
+T Consensus         1 ~~~~~~~~~ll~~~vv~l~~~p   22 (97)
+T COG1930           1 MSKKHMLNLLAIGIILALPLIP   22 (97)
+T ss_pred             CChHHHHHHHHHHHHHHHHHHH
+
+
+No 173
+>COG3700 AphA; Acid phosphatase (class B) [Inorganic ion transport and metabolism, General function prediction only]. 
+Probab=71.04  E-value=15  Score=17.93  Aligned_cols=33  Identities=12%  Similarity=-0.005  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQS   33 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   33 (50)
+                      |+++++.+.++++++++.......+.......+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   33 (237)
+T COG3700           1 MKKITQALSAVCLLFALASPAVALGSSPPYTQP   33 (237)
+T ss_pred             ChHHHHHHHHHHHHHHHHhHHHHcCCCCCCCCC
+
+
+No 174
+>PF05454.11 ; DAG1 ; Dystroglycan (Dystrophin-associated glycoprotein 1)
+Probab=70.99  E-value=12  Score=19.96  Aligned_cols=17  Identities=12%  Similarity=0.100  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             HHHHHHHHHHHHHHHhh
+Q Q_9186633_5       6 IKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         6 ~~~~~~~~~~~~~~~~~   22 (50)
+                      ++++++++++++++++|
+T Consensus       153 vvi~~~LLla~iia~~~  169 (290)
+T DAG1_HUMAN/606  153 VVVAAILLIAGIIAMIC  169 (290)
+T ss_pred             HHHHHHHHHHHHHHHHH
+
+
+No 175
+>COG4785 NlpI; Lipoprotein NlpI, contains TPR repeats [Cell wall/membrane/envelope biogenesis]. 
+Probab=70.87  E-value=9.4  Score=18.52  Aligned_cols=25  Identities=8%  Similarity=0.119  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhhhcCc
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTPVHND   26 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~~~~~   26 (50)
+                      ||+++.++++++++++.++......
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~   25 (297)
+T COG4785           1 MKPFLRWCFVATALTLAGCSNQNET   25 (297)
+T ss_pred             CchHHHHHHHHHHHHHHcccCCCch
+
+
+No 176
+>PF09976.9 ; TPR_21 ; Tetratricopeptide repeat-like domain
+Probab=70.76  E-value=12  Score=16.96  Aligned_cols=22  Identities=14%  Similarity=-0.034  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |++....+++++++++++..+.
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~~~   25 (195)
+T Q3SL68_THIDA/1    4 WKRWGSVSMIGLAVLIAAAAGW   25 (195)
+T ss_pred             HhHHHHHHHHHHHHHHHHHHHH
+
+
+No 177
+>COG2993 CcoO; Cbb3-type cytochrome oxidase, cytochrome c subunit  [Energy production and conversion]. 
+Probab=70.27  E-value=16  Score=18.12  Aligned_cols=22  Identities=9%  Similarity=0.273  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |+++..++++++++++.++...
+T Consensus         6 ~~~~~~~~~~~~~~~~~~~~~~   27 (227)
+T COG2993           6 LEKNVTLLIVASLLVVSIGGLV   27 (227)
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHH
+
+
+No 178
+>KOG4065 Uncharacterized conserved protein [Function unknown]
+Probab=70.08  E-value=12  Score=16.64  Aligned_cols=35  Identities=3%  Similarity=-0.071  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhhhcCccccccCccCc
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTP   36 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (50)
+                      |++.++++++++++......+..............
+T Consensus         1 m~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   35 (144)
+T KOG4065           1 MRGFLLISTCFLLLVFEAQGAKFEEPAASFAQPGS   35 (144)
+T ss_pred             ChHHHHHHHHHHHHHHHhhcccccCCccccCCCCc
+
+
+No 179
+>KOG4391 Predicted alpha/beta hydrolase BEM46 [General function prediction only]
+Probab=69.95  E-value=16  Score=17.98  Aligned_cols=22  Identities=9%  Similarity=-0.093  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |.++.+..++++++++..+...
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~   22 (300)
+T KOG4391           1 AIFNVLKYSGMALLAVTLIALG   22 (300)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHHH
+
+
+No 180
+>PF10731.9 ; Anophelin ; Thrombin inhibitor from mosquito
+Probab=69.80  E-value=10  Score=15.73  Aligned_cols=34  Identities=12%  Similarity=0.137  Sum_probs=0.0  Template_Neff=2.100
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhhhcCccccccCccCc
+Q Q_9186633_5       3 LKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTP   36 (50)
+Q Consensus         3 k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   36 (50)
+                      |.+.+.++.+.+++++-++-+....+.+..+++.
+T Consensus         4 Kvivia~LC~alvAivQsAPQYa~GEePtYDeDd   37 (65)
+T Q7Q3R9_ANOGA/1    4 KLFVLAFLCLALVVVVQSAPQYARGDVPTYDEED   37 (65)
+T ss_pred             hHHHHHHHHHHHHHHHHcCcccCCCCCCCCCCCC
+
+
+No 181
+>COG2991 COG2991; Uncharacterized protein [Function unknown]. 
+Probab=69.74  E-value=12  Score=16.28  Aligned_cols=21  Identities=19%  Similarity=0.113  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |...++.+++++++++.++.+
+T Consensus         1 M~tfl~tf~vfll~~~~MaIG   21 (77)
+T COG2991           1 MTTFLLTFGIFLLVIAGMSIG   21 (77)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHH
+
+
+No 182
+>PF16410.5 ; DUF5018 ; Domain of unknown function (DUF5018)
+Probab=69.63  E-value=15  Score=19.68  Aligned_cols=33  Identities=9%  Similarity=-0.079  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             HHHHHHHHHHHHHhhhcCccccccCccCceEEE
+Q Q_9186633_5       8 VVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYR   40 (50)
+Q Consensus         8 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   40 (50)
+                      ++++++++++++.+|....+.........+..+
+T Consensus         1 ~~~~~~~~~~~l~sC~~~~~~~~~~~~~~i~s~   33 (354)
+T D4ILT1_9BACT/5    1 IFSFLTAAGLLFAGCHQPDELLPSVSRNGINSV   33 (354)
+T ss_pred             CHHHHHHHHHHHHccCCCCccCCCcccCCceeE
+
+
+No 183
+>KOG3662 Cell division control protein/predicted DNA repair exonuclease [Replication, recombination and repair]
+Probab=69.32  E-value=22  Score=19.22  Aligned_cols=45  Identities=16%  Similarity=0.074  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CchHHHH--HHHHHHHHHHHHH----------hhhcCccccccCccCceEEEeecCC
+Q Q_9186633_5       1 MKLKAIK--VVIAAAIIACVGF----------TPVHNDKEVSQQSQTPIEYRMMADP   45 (50)
+Q Consensus         1 m~k~~~~--~~~~~~~~~~~~~----------~~~~~~~~~~~~~~~~~~~~~~~~~   45 (50)
+                      |+|..++  +.+++.++++...          .|.-...........+..++..+|+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~c~w~~~~~~~~~~~~~~il~isD~   57 (410)
+T KOG3662           1 MHKLKVGRYKVIILLQKLLLYVEKVIYYRALFQCQWPGKKQWASNENSTKILLVADP   57 (410)
+T ss_pred             CcchHHHHHHHHHHHHHHHHHhHHHHHHHHHhcCCCCCccccCCCCCcEEEEEEeCc
+
+
+No 184
+>PF06092.12 ; DUF943 ; Enterobacterial putative membrane protein (DUF943)
+Probab=69.27  E-value=16  Score=17.74  Aligned_cols=20  Identities=10%  Similarity=0.092  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+++.+.++++++.+++++.
+T Consensus         2 ~k~kk~~~~~~~~~~~~~~~   21 (151)
+T H8L1T3_FRAAD/2    2 SKSKKMICTAISSLALATIY   21 (151)
+T ss_pred             cchHHHHHHHHHHHHHHHHH
+
+
+No 185
+>PF11714.8 ; Inhibitor_I53 ; Thrombin inhibitor Madanin
+Probab=69.21  E-value=11  Score=15.88  Aligned_cols=35  Identities=20%  Similarity=0.249  Sum_probs=0.0  Template_Neff=1.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQT   35 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   35 (50)
+                      ||...++++.++...+.++..-.++...+.++.+.
+T Consensus         1 mkhfai~ilavvasavvmayperdsakd~gnqe~e   35 (78)
+T Q4R1A2_HAELO/1    1 MKHFAILILAVVASAVVMAYPESDSAKDDGNQEKE   35 (78)
+T ss_pred             CcchHHHHHHHHHHHHHHhCcccccccccCcHHHH
+
+
+No 186
+>PF11336.8 ; DUF3138 ; Protein of unknown function (DUF3138)
+Probab=68.74  E-value=16  Score=20.35  Aligned_cols=21  Identities=29%  Similarity=0.431  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      ||++++.+++++++++.....
+T Consensus         1 M~~~~~~~~~~~~~~~~~~~~   21 (532)
+T B4EJE8_BURCJ/1    1 MNIKHMTVLCALAFDTAAAFA   21 (532)
+T ss_pred             CchHHHHHHHHHHHHHHHhhh
+
+
+No 187
+>COG4863 YycH; Two-component signal transduction system YycFG, regulatory protein YycH [Signal transduction mechanisms]. 
+Probab=68.47  E-value=17  Score=19.97  Aligned_cols=20  Identities=25%  Similarity=0.301  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      ||+..+.-+++++++++..+
+T Consensus         1 m~~e~ik~i~L~~LV~lSl~   20 (439)
+T COG4863           1 MKKENIKSVLLTVLVVMSLV   20 (439)
+T ss_pred             CChhHHHHHHHHHHHHHHHH
+
+
+No 188
+>COG3019 COG3019; Uncharacterized conserved protein [Function unknown]. 
+Probab=68.47  E-value=12  Score=17.08  Aligned_cols=17  Identities=24%  Similarity=0.219  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CchHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIAC   17 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~   17 (50)
+                      |++.++++++++++++.
+T Consensus         1 m~~~~~l~~~~~~~~~~   17 (149)
+T COG3019           1 MRRRAFLRSLAALGLGS   17 (149)
+T ss_pred             CchHHHHHHHHHHHHhc
+
+
+No 189
+>COG3767 COG3767; Uncharacterized low-complexity protein  [Function unknown]. 
+Probab=68.44  E-value=14  Score=16.54  Aligned_cols=30  Identities=23%  Similarity=0.230  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVS   30 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~   30 (50)
+                      |+|...++.++.++++.+..........++
+T Consensus         1 ~~k~~~~~a~~g~l~lg~~a~~~a~a~~~~   30 (95)
+T COG3767           1 MKKLATAAALAGALLLGAAAVAQAENKSAS   30 (95)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHHHHHccccc
+
+
+No 190
+>COG5309 Scw11; Exo-beta-1,3-glucanase,  GH17 family [Carbohydrate transport and metabolism]. 
+Probab=68.27  E-value=18  Score=17.99  Aligned_cols=23  Identities=0%  Similarity=-0.244  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |+++...++++++++++++++..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~   23 (305)
+T COG5309           1 STSSMQFSSTSSSAALATLSSSS   23 (305)
+T ss_pred             CchhHHHHHHHHHHHHHHHHHHH
+
+
+No 191
+>PF16941.5 ; CymA ; Putative cyclodextrin porin
+Probab=68.19  E-value=17  Score=19.88  Aligned_cols=32  Identities=22%  Similarity=0.412  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQS   33 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   33 (50)
+                      |+|.++.+++..++++...+.... .....+++
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~   32 (341)
+T B7VK50_VIBTL/3    1 VKKTLLSVVITNTLLISAGASAAD-DRTMSPSD   32 (341)
+T ss_pred             CCchhHHHHHHHHHHhhHhhHHhh-cCCCCCcc
+
+
+No 192
+>PF15724.5 ; TMEM119 ; TMEM119 family
+Probab=68.13  E-value=21  Score=18.65  Aligned_cols=20  Identities=5%  Similarity=-0.064  Sum_probs=0.0  Template_Neff=2.600
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       3 LKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         3 k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      +.++++++..+++++++.-|
+T Consensus        56 nmLLIiVV~SL~~ll~fIiC   75 (234)
+T F7G358_ORNAN/2   56 YMLLISVVGSLAFLLLFIVC   75 (234)
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+
+
+No 193
+>COG3054 YtfJ; Predicted transcriptional regulator [General function prediction only]. 
+Probab=67.88  E-value=15  Score=16.67  Aligned_cols=31  Identities=10%  Similarity=0.135  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      ||+..+++++++++...............+.
+T Consensus         1 mk~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (184)
+T COG3054           1 MKKRKLLALLCLLLPMMASAHNLQLGQRVPP   31 (184)
+T ss_pred             ChHHHHHHHHHHHHHHHHhhhhccCCCCCCC
+
+
+No 194
+>COG3317 NlpB; Uncharacterized lipoprotein, NlpB/DapX family [Function unknown]. 
+Probab=67.78  E-value=16  Score=19.62  Aligned_cols=22  Identities=9%  Similarity=0.037  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhhhc
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTPVH   24 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~~~   24 (50)
+                      ||+.+. +++++++++++++|+.
+T Consensus         1 ~~~~~~-~~~~~~~~~~LsgCs~   22 (342)
+T COG3317           1 MKSSAK-LVLGALLVLLLAACSS   22 (342)
+T ss_pred             CchHHH-HHHHHHHHHHHHHhcC
+
+
+No 195
+>PF05170.14 ; AsmA ; AsmA family
+Probab=67.70  E-value=19  Score=20.50  Aligned_cols=21  Identities=14%  Similarity=-0.067  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+|.+..+++++++++++...
+T Consensus         1 m~~~~~~~~~~~~~l~~~~~~   21 (711)
+T Q9ZDI1_RICPR/1    1 MPKALKYSLIIFITIILLLII   21 (711)
+T ss_pred             CchHHHHHHHHHHHHHHHHHH
+
+
+No 196
+>COG3088 NrfF; Cytochrome c-type biogenesis protein CcmH/NrfF [Energy production and conversion, Posttranslational modification, protein turnover, chaperones]. 
+Probab=67.66  E-value=18  Score=17.55  Aligned_cols=28  Identities=7%  Similarity=0.100  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKE   28 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~   28 (50)
+                      |||.+.++++++++..............
+T Consensus         1 mk~~~~~~~~~l~~~~~~~~~a~~~~~~   28 (153)
+T COG3088           1 MKKLRALLLLLLLLFSAFAALATIDTEQ   28 (153)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHHhccCccc
+
+
+No 197
+>KOG1520 Predicted alkaloid synthase/Surface mucin Hemomucin [General function prediction only]
+Probab=67.26  E-value=21  Score=18.30  Aligned_cols=25  Identities=4%  Similarity=0.008  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHN   25 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~   25 (50)
+                      ||++...++++++++++........
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~   25 (376)
+T KOG1520           1 LMASRFLFLFIFLFLAVIILLYLLS   25 (376)
+T ss_pred             CchHHHHHHHHHHHHHHHHHHhccC
+
+
+No 198
+>KOG2183 Prolylcarboxypeptidase (angiotensinase C) [Posttranslational modification, protein turnover, chaperones, General function prediction only]
+Probab=67.19  E-value=14  Score=20.43  Aligned_cols=21  Identities=5%  Similarity=-0.002  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+++.+++++++++++++...
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~   21 (492)
+T KOG2183           1 LIRMFLALVFPSLLSPLATSK   21 (492)
+T ss_pred             ChhhHHHhHHHHHhhHHHhHH
+
+
+No 199
+>KOG2182 Hydrolytic enzymes of the alpha/beta hydrolase fold [Posttranslational modification, protein turnover, chaperones, General function prediction only]
+Probab=66.99  E-value=16  Score=20.39  Aligned_cols=21  Identities=10%  Similarity=0.113  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+++++++++++++++..+..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~   21 (514)
+T KOG2182           1 MSMKLELLLLSLLALLLSASS   21 (514)
+T ss_pred             CchHHHHHHHHHHHHHHhhhc
+
+
+No 200
+>PF08999.10 ; SP_C-Propep ; Surfactant protein C, N terminal propeptide
+Probab=66.91  E-value=15  Score=16.58  Aligned_cols=20  Identities=10%  Similarity=0.290  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       3 LKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         3 k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |+++++.+.+++++++..+.
+T Consensus        37 K~lLiivvvvVllVvVivga   56 (96)
+T G3X147_SARHA/1   37 KRLLIIVVVVVLVVVVVLGA   56 (96)
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+
+
+No 201
+>PF02433.15 ; FixO ; Cytochrome C oxidase, mono-heme subunit/FixO
+Probab=66.71  E-value=20  Score=17.91  Aligned_cols=22  Identities=14%  Similarity=0.241  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |+|+.+.+.+++++++++....
+T Consensus         4 ~~~~~~~~~~~~l~~~~~~~~~   25 (227)
+T Q5LL40_RUEPO/5    4 LERHSIAFAMMILFVASIGGIV   25 (227)
+T ss_pred             hhHHHHHHHHHHHHHHHHHHHH
+
+
+No 202
+>PF13627.6 ; LPAM_2 ; Prokaryotic lipoprotein-attachment site
+Probab=66.59  E-value=7.2  Score=12.71  Aligned_cols=19  Identities=0%  Similarity=-0.123  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             HHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       9 VIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         9 ~~~~~~~~~~~~~~~~~~~   27 (50)
+                      ++++++..+..++|+...+
+T Consensus         1 ~~~~~~~~~~l~gCG~kG~   19 (23)
+T Q0AC72_ALKEH/9    1 LVLLVLSTTLLAGCGQKGP   19 (23)
+T ss_pred             CHHHHHHHHHHHhccccCC
+
+
+No 203
+>COG3509 LpqC; Poly(3-hydroxybutyrate) depolymerase  [Secondary metabolites biosynthesis, transport and catabolism]. 
+Probab=66.56  E-value=20  Score=17.84  Aligned_cols=45  Identities=0%  Similarity=-0.135  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPG   46 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g   46 (50)
+                      |+++..++.+++++++++.+.+................. +..+..
+T Consensus         1 ~~~~~~~~~~~l~l~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~   45 (312)
+T COG3509           1 PRTLGRLARLVLLLAVLAVAAAACSGHAALARFGSSVAS-FDVNGL   45 (312)
+T ss_pred             CCcHHHHHHHHHHHHHHHHHHHHcCCcchhccCCceEEE-EEeCCe
+
+
+No 204
+>KOG4389 Acetylcholinesterase/Butyrylcholinesterase [Signal transduction mechanisms]
+Probab=66.06  E-value=26  Score=20.02  Aligned_cols=31  Identities=10%  Similarity=-0.031  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      ||.|..++.+++++.++....+.........
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (601)
+T KOG4389           1 MHPKSLLFPLFLLLTLLLVDSVHAEGPEDDD   31 (601)
+T ss_pred             CCchhhHHHHHHHHHHHHHHhhccCCCCCCC
+
+
+No 205
+>COG4233 COG4233; Thiol-disulfide interchange protein, contains DsbC and DsbD domains [Posttranslational modification, protein turnover, chaperones, Energy production and conversion]. 
+Probab=65.75  E-value=18  Score=18.98  Aligned_cols=31  Identities=10%  Similarity=-0.244  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      ||+++..+++.++.+....+....+......
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~a~~~~s~w~~~~   31 (273)
+T COG4233           1 MMRIFRSFLLALLGGWTSPAQAEESAWRRSP   31 (273)
+T ss_pred             ChhHHHHHHHHHHHhhccchhHhhccccCCC
+
+
+No 206
+>COG4287 PqaA; PhoPQ-activated pathogenicity-related protein  [General function prediction only]. 
+Probab=65.51  E-value=18  Score=20.04  Aligned_cols=22  Identities=14%  Similarity=0.079  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |||++++++++++++....+..
+T Consensus        21 ~~~~~~~~~~~~~l~~~~~~~~   42 (507)
+T COG4287          21 MMKRFLAITLTLFFISTKVATL   42 (507)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHH
+
+
+No 207
+>COG3966 DltD; Poly D-alanine transfer protein DltD, involved inesterification of teichoic acids [Cell wall/membrane/envelope biogenesis]. 
+Probab=65.33  E-value=18  Score=20.02  Aligned_cols=20  Identities=25%  Similarity=0.095  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+|+.++..+++++++++++
+T Consensus         1 ~~~~~~~~~~~~a~~l~~~~   20 (415)
+T COG3966           1 MKKKMIFGPLLIAFALFILL   20 (415)
+T ss_pred             CcchHhHHHHHHHHHHHHHH
+
+
+No 208
+>COG1876 LdcB; LD-carboxypeptidase LdcB, LAS superfamily  [Cell wall/membrane/envelope biogenesis]. 
+Probab=65.27  E-value=13  Score=18.76  Aligned_cols=18  Identities=11%  Similarity=0.150  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACV   18 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~   18 (50)
+                      |+|+.+++++++.+....
+T Consensus         1 m~k~~~~l~~~~~~~~~~   18 (241)
+T COG1876           1 MKKILFLLFVLVSVSVAA   18 (241)
+T ss_pred             ChhhHHHHHHHHHhhhhh
+
+
+No 209
+>PF15240.6 ; Pro-rich ; Proline-rich
+Probab=65.21  E-value=4.6  Score=21.55  Aligned_cols=27  Identities=11%  Similarity=0.181  Sum_probs=0.0  Template_Neff=3.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       5 AIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      +++++|.++|+++..+-+...+...+.
+T Consensus         1 MLlILLsvaLLaLSSAQ~~~edv~~e~   27 (281)
+T Q58E44_MOUSE/1    1 MLVVLLTAALLVLSSAQRQDEEITYED   27 (281)
+T ss_pred             CceehHHHHHHHHhhhccccchhhhhh
+
+
+No 210
+>COG0725 ModA; ABC-type molybdate transport system, periplasmic component [Inorganic ion transport and metabolism]. 
+Probab=65.14  E-value=19  Score=16.95  Aligned_cols=31  Identities=10%  Similarity=0.095  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      |++...+++++++++++.+++..........
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~c~~~~~~~~~~~   31 (258)
+T COG0725           1 GKKMKKILALLLLVLLALGCAAGSAAQEAAT   31 (258)
+T ss_pred             ChhHHHHHHHHHHHHHHHHhhcccccccCce
+
+
+No 211
+>PF12988.7 ; DUF3872 ; Domain of unknown function, B. Theta Gene description (DUF3872)
+Probab=64.89  E-value=19  Score=16.93  Aligned_cols=28  Identities=11%  Similarity=-0.187  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             HHHHHHHHHHHHHHHhhhcCccccccCc
+Q Q_9186633_5       6 IKVVIAAAIIACVGFTPVHNDKEVSQQS   33 (50)
+Q Consensus         6 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~   33 (50)
+                      +.++++++++++++.+|.+.-+-+..-+
+T Consensus         2 ~~~~~~~~~~~~~~~sC~~dldiq~~~~   29 (133)
+T I1YWB8_PREI7/8    2 IWVMGVLSIAVFCLSACDNELDIQQAYP   29 (133)
+T ss_pred             HHHHHHHHHHHHHHHhCCCCCCcccccc
+
+
+No 212
+>PF15050.6 ; SCIMP ; SCIMP protein
+Probab=64.56  E-value=20  Score=17.18  Aligned_cols=20  Identities=20%  Similarity=0.306  Sum_probs=0.0  Template_Neff=3.200
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      ++.+++++.+.+++..+..+
+T Consensus         5 R~~fWiilavaIIlvSv~lG   24 (132)
+T SCIMP_HUMAN/12    5 RNNFWIILAVAIIVVSVGLG   24 (132)
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+
+
+No 213
+>COG4521 TauA; ABC-type taurine transport system, periplasmic component [Inorganic ion transport and metabolism]. 
+Probab=64.38  E-value=24  Score=17.85  Aligned_cols=28  Identities=11%  Similarity=-0.049  Sum_probs=0.0  Template_Neff=11.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKE   28 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~   28 (50)
+                      |||+.+++.++++++++...+.......
+T Consensus         3 ~m~~~~~~~~~~~~~~~~~~~~~~~~~~   30 (334)
+T COG4521           3 HLRRISSLSSLLAALAFVLLAFAAQAVD   30 (334)
+T ss_pred             cHHHHHHHHHHHHHHHHHHHHHHhcCCc
+
+
+No 214
+>COG3755 YecT; Uncharacterized conserved protein YecT, DUF1311 family [Function unknown]. 
+Probab=64.34  E-value=17  Score=16.22  Aligned_cols=27  Identities=11%  Similarity=-0.011  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      |||.+.+++++++.............+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~   27 (127)
+T COG3755           1 ALGIVAPLALLLATLALSATSQSAADD   27 (127)
+T ss_pred             ChhhHHHHHHHHHHHHHhhhhhhhhHh
+
+
+No 215
+>PF10907.8 ; DUF2749 ; Protein of unknown function (DUF2749)
+Probab=64.21  E-value=15  Score=15.63  Aligned_cols=21  Identities=19%  Similarity=0.176  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |.+.++++++++.++.+....
+T Consensus         1 Msr~~iI~l~ia~iva~~a~~   21 (72)
+T B9JPG4_AGRRK/1    1 MSPRILIVLAVAGLVAFGAGM   21 (72)
+T ss_pred             CCHHHHHHHHHHHHHHHHHhh
+
+
+No 216
+>COG3248 Tsx; Nucleoside-specific outer membrane channel protein Tsx [Cell wall/membrane/envelope biogenesis]. 
+Probab=63.19  E-value=28  Score=18.51  Aligned_cols=26  Identities=27%  Similarity=0.340  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHND   26 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~   26 (50)
+                      |++.+..+++++.+++...+.....+
+T Consensus         1 ~~~~m~k~~la~~~~~~~~~~~~~~~   26 (284)
+T COG3248           1 MSRTMKKTLLAAGLLAALSASFTAND   26 (284)
+T ss_pred             CchhHHHHHHHHHHHHHHHhhhhccc
+
+
+No 217
+>KOG4440 NMDA selective glutamate-gated ion channel receptor subunit GRIN1 [Inorganic ion transport and metabolism, Amino acid transport and metabolism, Signal transduction mechanisms]
+Probab=63.15  E-value=33  Score=20.82  Aligned_cols=46  Identities=9%  Similarity=-0.096  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEEEeecCCC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEYRMMADPG   46 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g   46 (50)
+                      |+|+...+++++++++++..++.............-..-+....++
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~Ig~~~~~~~   46 (993)
+T KOG4440           1 MFRISVMFTMRLLTLALLFSCSVARLIVAACNPKTVNIGAVLSTRK   46 (993)
+T ss_pred             CcchHHHHHHHHHHHHHHHHhhHHHHHhccCCCCeeEEEEeecChH
+
+
+No 218
+>COG0760 SurA; Parvulin-like peptidyl-prolyl isomerase [Posttranslational modification, protein turnover, chaperones]. 
+Probab=63.11  E-value=25  Score=17.68  Aligned_cols=39  Identities=10%  Similarity=-0.005  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCccCceEE
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQTPIEY   39 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (50)
+                      |++++++.++++++++.+..................+..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~~~I~~   39 (320)
+T COG0760           1 AANSAIAKILLGLIALAFAAFGVSASLVAGVVNAGAVAK   39 (320)
+T ss_pred             CcccHHHHHHHHHHHHHHHHHHHhhhhccccCCCceeeE
+
+
+No 219
+>COG0803 ZnuA; ABC-type Zn uptake system ZnuABC, Zn-binding component ZnuA [Inorganic ion transport and metabolism]. 
+Probab=62.70  E-value=22  Score=18.45  Aligned_cols=21  Identities=19%  Similarity=0.175  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |||+...+.++++++++.++.
+T Consensus         1 ~~~~~~~~~~~~~~~~l~~~~   21 (303)
+T COG0803           1 MKKLLLLLLALLLILLLAGCG   21 (303)
+T ss_pred             CHHHHHHHHHHHHHHHHHhhc
+
+
+No 220
+>COG0834 HisJ; ABC-type amino acid transport/signal transduction system, periplasmic component/domain [Amino acid transport and metabolism, Signal transduction mechanisms]. 
+Probab=62.64  E-value=22  Score=16.91  Aligned_cols=21  Identities=14%  Similarity=0.001  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+++.+++++++++.+++..|
+T Consensus         1 m~~~~~~~~~~~~~~~~~~~~   21 (275)
+T COG0834           1 MKKLKLLALAALLAALLLAAC   21 (275)
+T ss_pred             ChHHHHHHHHHHHHHHHHHHH
+
+
+No 221
+>COG5010 TadD; Flp pilus assembly protein TadD, contains TPR repeats  [Intracellular trafficking, secretion, and vesicular transport, Extracellular structures]. 
+Probab=62.26  E-value=22  Score=16.72  Aligned_cols=34  Identities=9%  Similarity=-0.018  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQ   34 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (50)
+                      |+.+.+.+++++++++..................
+T Consensus         2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   35 (257)
+T COG5010           2 RLLGGAVLAALALSLAGCAGQAGQREMSTGASAK   35 (257)
+T ss_pred             ccHHHHHHHHHHHHHHHHhHHhhcccccCCCccc
+
+
+No 222
+>COG5266 COG5266; Uncharacterized conserved protein, contains GH25 family domain [General function prediction only]. 
+Probab=62.25  E-value=25  Score=17.82  Aligned_cols=20  Identities=15%  Similarity=-0.207  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+|.++++++++++...+.+
+T Consensus         1 mkk~~~~~~~~l~~~~~a~A   20 (264)
+T COG5266           1 MKKILTLGASSLLFSASAFA   20 (264)
+T ss_pred             ChHHHHHHHHHHHHHHHHhh
+
+
+No 223
+>PF02950.17 ; Conotoxin ; Conotoxin
+Probab=61.59  E-value=17  Score=15.16  Aligned_cols=31  Identities=19%  Similarity=0.170  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQ   31 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~   31 (50)
+                      ||--..++++++++.+.-.+......+....
+T Consensus         1 mKLt~vlivavLlLtAc~l~t~~~~~~~~~~   31 (78)
+T O1613_CONTE/1-    1 MKLTCMMIVAVLFLTAWTFATADDSGNGLEN   31 (78)
+T ss_pred             CHHHHHHHHHHHHHHHHHHHhhccCCCchhh
+
+
+No 224
+>PF15106.6 ; TMEM156 ; TMEM156 protein family
+Probab=61.17  E-value=21  Score=18.63  Aligned_cols=20  Identities=10%  Similarity=-0.004  Sum_probs=0.0  Template_Neff=3.000
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+|-++..++++++++.+..
+T Consensus       173 ~~KItW~~lilvVFvf~i~~  192 (226)
+T F6TSQ3_HORSE/3  173 SMKITWYVLVLLVFIFLLTL  192 (226)
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+
+
+No 225
+>PF17259.2 ; DUF5325 ; Family of unknown function (DUF5325)
+Probab=61.17  E-value=16  Score=14.95  Aligned_cols=23  Identities=17%  Similarity=-0.142  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |++.....++..++..+...+.+
+T Consensus         1 Mk~~k~~~l~lAilav~~~~~iG   23 (61)
+T A0A0M9GQC9_9BA    1 MKDIKWIFMLYAVLAAVSLGMVG   23 (61)
+T ss_pred             CchhHHHHHHHHHHHHHHHHHHH
+
+
+No 226
+>COG3218 COG3218; ABC-type uncharacterized transport system, auxiliary component  [General function prediction only]. 
+Probab=61.12  E-value=25  Score=17.02  Aligned_cols=21  Identities=14%  Similarity=-0.143  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      +....+.+++++++++++++|
+T Consensus         6 ~~~~~~~~~~~~~~~lll~GC   26 (205)
+T COG3218           6 RPLRRLSLAAALALAATLAGC   26 (205)
+T ss_pred             cHHHHHHHHHHHHHHHHHhcC
+
+
+No 227
+>cd02962 TMX2; TMX2 family; composed of proteins similar to human TMX2, a 372-amino acid TRX-related transmembrane protein, identified and characterized through the cloning of its cDNA from a human fetal library.
+Probab=60.99  E-value=18  Score=15.45  Aligned_cols=32  Identities=6%  Similarity=-0.058  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccC
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQ   32 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (50)
+                      |++..++++++++++.................
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   32 (152)
+T cd02962           1 DIRMGLLYITLCIVFLMTCKPPLYMGPEYIKY   32 (151)
+T ss_pred             CHHHHHHHHHHHHHHHHHHhhccCCCCCCCCc
+
+
+No 228
+>KOG0809 SNARE protein TLG2/Syntaxin 16 [Intracellular trafficking, secretion, and vesicular transport]
+Probab=60.62  E-value=27  Score=18.06  Aligned_cols=19  Identities=26%  Similarity=0.217  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             chHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~   20 (50)
+                      +++++++++++++++++..
+T Consensus       281 ~~~~i~~li~~ii~l~i~l  299 (305)
+T KOG0809         281 KMKVILMLTLLIIALLVLL  299 (305)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+
+
+No 229
+>PF09680.10 ; YjcZ_2 ; Family of unknown function
+Probab=60.30  E-value=11  Score=12.52  Aligned_cols=18  Identities=6%  Similarity=0.137  Sum_probs=0.0  Template_Neff=3.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       5 AIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         5 ~~~~~~~~~~~~~~~~~~   22 (50)
+                      +.+++++.+++.+..++|
+T Consensus         6 falivVLFILLiIiG~~~   23 (23)
+T K0J7X0_AMPXN/2    6 FALLIVLFILLIIIGASF   23 (23)
+T ss_pred             HHHHHHHHHHHHHHhhcC
+
+
+No 230
+>PF11153.8 ; DUF2931 ; Protein of unknown function (DUF2931)
+Probab=60.27  E-value=26  Score=17.53  Aligned_cols=33  Identities=9%  Similarity=-0.109  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHHHHHhhhcCccccccCccCc--eEEEeec
+Q Q_9186633_5      10 IAAAIIACVGFTPVHNDKEVSQQSQTP--IEYRMMA   43 (50)
+Q Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~   43 (50)
+                      ++++++++.+++|.............+  ..+ .|.
+T Consensus         2 ~~~~~~~~~l~~C~~~~~~~~~~~~~~~~~~~-~W~   36 (214)
+T X2H1H7_9GAMM/5    2 ISTLCLTLLISGCLSPIKSKPIDPNLPQKPYS-RWY   36 (214)
+T ss_pred             HHHHHHHHHHHhcCCCCCCCCCCCCCCCCCcc-cce
+
+
+No 231
+>KOG0228 Beta-fructofuranosidase (invertase) [Carbohydrate transport and metabolism]
+Probab=60.25  E-value=29  Score=19.77  Aligned_cols=21  Identities=14%  Similarity=0.051  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      |+|+-++++++++++++...+
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~   21 (571)
+T KOG0228           1 MLASNICLVLLLLLVTLNLTN   21 (571)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHh
+
+
+No 232
+>PF10956.8 ; DUF2756 ; Protein of unknown function (DUF2756)
+Probab=60.00  E-value=23  Score=16.33  Aligned_cols=17  Identities=12%  Similarity=0.092  Sum_probs=0.0  Template_Neff=3.300
+
+Q ss_pred             chHHHHHHHHHHHHHHH
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACV   18 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~   18 (50)
+                      ||+++++++++-+.+++
+T Consensus         1 Mk~~l~laaLLPl~~~A   17 (105)
+T A7MGG3_CROS8/1    1 MKRYLLIAAALPLAALA   17 (105)
+T ss_pred             ChhHHHHHHHHHHHHHh
+
+
+No 233
+>PF10794.9 ; DUF2606 ; Protein of unknown function (DUF2606)
+Probab=59.96  E-value=22  Score=15.91  Aligned_cols=19  Identities=5%  Similarity=0.153  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CchHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVG   19 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~   19 (50)
+                      |+++++++++++++++...
+T Consensus        11 m~~~~~~~~~~~~~~l~~~   29 (130)
+T YBFJ_BACSU/1-1   11 INKYSKLAIFMSILFLCGC   29 (130)
+T ss_pred             hhHHHHHHHHHHHHHHHhc
+
+
+No 234
+>COG3495 COG3495; Uncharacterized protein, DUF3299 family [Function unknown]. 
+Probab=59.84  E-value=27  Score=17.08  Aligned_cols=27  Identities=15%  Similarity=0.186  Sum_probs=0.0  Template_Neff=6.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDK   27 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~   27 (50)
+                      |+|+.++..+++++.+...........
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~   27 (166)
+T COG3495           1 MNRFTSITLLAAALLLSAPLVAAETPE   27 (166)
+T ss_pred             ChHHHHHHHHHHHHHHHhhhhhcCCCC
+
+
+No 235
+>PF11912.8 ; DUF3430 ; Protein of unknown function (DUF3430)
+Probab=59.27  E-value=27  Score=17.72  Aligned_cols=18  Identities=0%  Similarity=-0.084  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             chH--HHHHHHHHHHHHHHH
+Q Q_9186633_5       2 KLK--AIKVVIAAAIIACVG   19 (50)
+Q Consensus         2 ~k~--~~~~~~~~~~~~~~~   19 (50)
+                      ||.  ++.++++++++....
+T Consensus         1 MKl~~l~~ll~lil~~~~~~   20 (226)
+T Q55DQ8_DICDI/1    1 MKLNYLLLSFCLILVLKQIN   20 (226)
+T ss_pred             CcHHHHHHHHHHHHHHHHHH
+
+
+No 236
+>PF17424.2 ; DUF5411 ; Family of unknown function (DUF5411)
+Probab=59.11  E-value=27  Score=16.75  Aligned_cols=22  Identities=14%  Similarity=-0.111  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |++..+.++++++.+++++..+
+T Consensus         1 Mk~~~~~~~ii~lG~~~i~~~~   22 (136)
+T R6BFP5_9CLOT/1    1 MKESLWGYWLIILGIFILSVML   22 (136)
+T ss_pred             CchhHHHHHHHHHHHHHHHHHH
+
+
+No 237
+>COG3266 DamX; Cell division protein DamX, binds to the septal ring, contains C-terminal SPOR domain [Cell cycle control, cell division, chromosome partitioning]. 
+Probab=58.74  E-value=28  Score=18.79  Aligned_cols=20  Identities=20%  Similarity=0.081  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      ||..+-+++++++++.+..+
+T Consensus        11 ~mig~gilvLlllii~I~sA   30 (292)
+T COG3266          11 MMMGVGILVLLLLIIGIGSA   30 (292)
+T ss_pred             HHHHHHHHHHHHHHHHHHHH
+
+
+No 238
+>COG5608 COG5608; LEA14-like dessication related protein  [Defense mechanisms]. 
+Probab=58.61  E-value=23  Score=16.68  Aligned_cols=19  Identities=11%  Similarity=-0.195  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       4 KAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         4 ~~~~~~~~~~~~~~~~~~~   22 (50)
+                      ++++..++++++++..++|
+T Consensus         8 ~~~~~~~~~~~~~~~~~gc   26 (161)
+T COG5608           8 IVISSLINVWGVPSHLSGC   26 (161)
+T ss_pred             HHHHHHHHHHHHHhHhhCc
+
+
+No 239
+>PF15621.6 ; PROL5-SMR ; Proline-rich submaxillary gland androgen-regulated family
+Probab=58.41  E-value=24  Score=16.48  Aligned_cols=23  Identities=13%  Similarity=-0.032  Sum_probs=0.0  Template_Neff=2.900
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      ||...+++.+++++......-|.
+T Consensus         1 MK~L~li~gL~~Li~CF~~gE~~   23 (112)
+T SMR2D_MOUSE/1-    1 MKPLCLVFGLCVLIGCFLSSECQ   23 (112)
+T ss_pred             CchHHHHHHHHHHHHHhcccchh
+
+
+No 240
+>KOG3202 SNARE protein TLG1/Syntaxin 6 [Intracellular trafficking, secretion, and vesicular transport]
+Probab=58.20  E-value=30  Score=16.97  Aligned_cols=19  Identities=0%  Similarity=-0.116  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             chHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~   20 (50)
+                      .++++++++++++++++..
+T Consensus       212 ~~~~~~ii~l~~i~~~l~~  230 (235)
+T KOG3202         212 QCSQWCAILLLVGLLLLVV  230 (235)
+T ss_pred             HHHHHHHHHHHHHHHHHHH
+
+
+No 241
+>COG1638 DctP; TRAP-type C4-dicarboxylate transport system, periplasmic component [Carbohydrate transport and metabolism]. 
+Probab=57.83  E-value=34  Score=17.55  Aligned_cols=29  Identities=10%  Similarity=-0.057  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCcccc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEV   29 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~   29 (50)
+                      |+|+..++++++++++....+........
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   29 (332)
+T COG1638           1 MMKLLALLLALLLAAAALASAAAAAGALV   29 (332)
+T ss_pred             ChhHHHHHHHHHHHHHHHHHHHhhCCcEE
+
+
+No 242
+>COG4758 LiaF; Predicted membrane protein  [Function unknown]. 
+Probab=57.63  E-value=32  Score=17.23  Aligned_cols=20  Identities=30%  Similarity=0.172  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+++.++..+++++.+.+..
+T Consensus         1 m~~~~~~~~l~i~~g~~~ll   20 (235)
+T COG4758           1 MTKKKIFGFIIAIFLALMII   20 (235)
+T ss_pred             CCchhHHHHHHHHHHHHHHH
+
+
+No 243
+>PF09581.10 ; Spore_III_AF ; Stage III sporulation protein AF (Spore_III_AF)
+Probab=57.59  E-value=28  Score=16.56  Aligned_cols=20  Identities=10%  Similarity=0.031  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      +||++.+++.+++++++..+
+T Consensus        18 ~kkyvk~v~Glilil~il~P   37 (171)
+T R5HKR3_9FIRM/1   18 MQKYIRFFSQMILAFGLLYP   37 (171)
+T ss_pred             cHHHHHHHHHHHHHHHHHHH
+
+
+No 244
+>COG5337 CotH; Spore coat protein CotH [Cell wall/membrane/envelope biogenesis]. 
+Probab=57.44  E-value=34  Score=19.31  Aligned_cols=23  Identities=22%  Similarity=-0.003  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      |.+|.+..++++++++.+..+..
+T Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~   23 (473)
+T COG5337           1 MNRRLFLGTSAAIIAVGGVLGGV   23 (473)
+T ss_pred             CcHHHHHHHHHHHHHHHHHHccc
+
+
+No 245
+>COG3227 LasB; Zn-dependent metalloprotease [Posttranslational modification, protein turnover, chaperones]. 
+Probab=57.38  E-value=18  Score=20.28  Aligned_cols=34  Identities=18%  Similarity=-0.098  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhhcCccccccCcc
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPVHNDKEVSQQSQ   34 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   34 (50)
+                      |||++..+..+++..+...+.....+.......+
+T Consensus         1 mkk~~~~~~~~~~~~~~~~~~~~aa~~~~~~~~~   34 (507)
+T COG3227           1 MKKLSSVLTGLFLASAGSFPSVAAADLETIKDQQ   34 (507)
+T ss_pred             CchHHHHHHHHHHHHHhhchhhhhhcHHHHhhhc
+
+
+No 246
+>PF09610.10 ; Myco_arth_vir_N ; Mycoplasma virulence signal region (Myco_arth_vir_N)
+Probab=57.35  E-value=14  Score=12.92  Aligned_cols=21  Identities=24%  Similarity=0.267  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHhh
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFTP   22 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~~   22 (50)
+                      |+|++.+.+...+......+.
+T Consensus         8 K~kii~l~l~~~~~~s~~~~~   28 (32)
+T B3PM29_MYCA5/1    8 KIAIIVLASTAALLAAGTVSG   28 (32)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHH
+
+
+No 247
+>PF13721.6 ; SecD-TM1 ; SecD export protein N-terminal TM region
+Probab=57.14  E-value=22  Score=15.11  Aligned_cols=20  Identities=5%  Similarity=0.064  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHH
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGF   20 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~   20 (50)
+                      |+++...-.++++++++++.
+T Consensus         1 M~~~~~~k~~~i~~vl~~~~   20 (103)
+T F2JYV3_MARM1/2    1 LNKYPLWKYLLILAVLVFGV   20 (103)
+T ss_pred             CCCChHHHHHHHHHHHHHHH
+
+
+No 248
+>COG5339 YdgA; Uncharacterized conserved protein YdgA, DUF945 family [Function unknown]. 
+Probab=56.56  E-value=32  Score=19.16  Aligned_cols=20  Identities=25%  Similarity=-0.011  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      ||++++.++++++++.++++
+T Consensus         1 ~k~~~~~v~~vl~~~~~~a~   20 (479)
+T COG5339           1 KSLVAIGVIVALGAVWLGGA   20 (479)
+T ss_pred             CchHHHHHHHHHHHHHHHHh
+
+
+No 249
+>COG3009 YmbA; Uncharacterized lipoprotein YmbA [Function unknown]. 
+Probab=56.55  E-value=24  Score=16.86  Aligned_cols=17  Identities=18%  Similarity=-0.168  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CchHHHHHHHHHHHHHHHHHhhh
+Q Q_9186633_5       1 MKLKAIKVVIAAAIIACVGFTPV   23 (50)
+Q Consensus         1 m~k~~~~~~~~~~~~~~~~~~~~   23 (50)
+                      ||+      ++++++++++++|.
+T Consensus         1 mk~------~~~~~~~l~LsgC~   17 (190)
+T COG3009           1 MMR------WLMIIAALLLAGCA   17 (190)
+T ss_pred             ChH------HHHHHHHHHHHHhc
+
+
+No 250
+>PF08194.12 ; DIM ; DIM protein
+Probab=56.50  E-value=16  Score=13.45  Aligned_cols=20  Identities=0%  Similarity=-0.253  Sum_probs=0.0  Template_Neff=3.900
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHh
+Q Q_9186633_5       2 KLKAIKVVIAAAIIACVGFT   21 (50)
+Q Consensus         2 ~k~~~~~~~~~~~~~~~~~~   21 (50)
+                      ||.+.+.+++++++++....
+T Consensus         1 MK~~sl~f~l~~lal~~a~~   20 (36)
+T B4J5S6_DROGR/1    1 MKWLSIAFVLGLLAFASADP   20 (36)
+T ss_pred             ChHHHHHHHHHHHHHHhcCC
+
+

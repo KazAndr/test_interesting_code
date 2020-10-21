@@ -1,0 +1,1475 @@
+Query         Q_9186633_16
+Match_columns 263
+No_of_seqs    331 out of 1215
+Neff          12.4716
+Searched_HMMs 69205
+Date          Sun May 24 00:20:50 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_16.hhr -oa3m ../results/9186633_16.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF12684.7 ; DUF3799 ; PDDEXK-l 100.0 3.8E-26 5.5E-31  163.4  22.6  221   22-249     1-235 (235)
+  2 PF06023.12 ; Csa1 ; CRISPR-ass  99.9 2.5E-21 3.5E-26  142.5  21.4  215   15-253    42-281 (281)
+  3 COG2887 COG2887; RecB family e  99.9   2E-21 2.9E-26  142.0  19.4  228   21-263     1-261 (269)
+  4 PF10926.8 ; DUF2800 ; Protein   99.9 6.2E-21   9E-26  145.2  19.5  214   18-257     1-231 (359)
+  5 cd09637 Cas4_I-A_I-B_I-C_I-D_I  99.9 1.9E-20 2.8E-25  127.7  20.0  173   21-253     1-178 (178)
+  6 PF12705.7 ; PDDEXK_1 ; PD-(D/E  99.9 1.7E-20 2.5E-25  134.9  18.7  208   20-253     1-242 (242)
+  7 cd09659 Cas4_I-A; CRISPR/Cas s  99.9 3.5E-19 5.1E-24  129.9  20.1  209   15-253    29-270 (270)
+  8 COG4343 Cas4; CRISPR/Cas syste  99.9 3.5E-19 5.1E-24  131.0  19.9  214   15-254    38-281 (281)
+  9 KOG4760 Uncharacterized conser  99.8 8.6E-20 1.2E-24  138.2  15.6  219   17-257    71-349 (365)
+ 10 PF09810.9 ; Exo5 ; Exonuclease  99.8 3.5E-20 5.1E-25  138.4  13.0  215   17-253    10-336 (338)
+ 11 PF01930.17 ; Cas_Cas4 ; Domain  99.8 2.3E-19 3.4E-24  120.8  12.6  157   22-254     1-160 (160)
+ 12 COG3857 AddB; ATP-dependent he  99.8 9.1E-18 1.3E-22  145.3  20.7  222   18-253   749-1076(1108)
+ 13 COG1468 Cas4; CRISPR/Cas syste  99.8   2E-16 2.9E-21  109.7  18.5  173   16-256    11-190 (190)
+ 14 KOG1805 DNA replication helica  99.7 7.5E-15 1.1E-19  127.1  16.9  226   16-263   180-459 (1100)
+ 15 d1w36b3 c.52.1.24 (B:899-1174)  99.4 4.3E-11 6.3E-16   87.3  13.2  161   48-220    47-274 (276)
+ 16 COG2251 COG2251; Predicted nuc  99.2   7E-09   1E-13   82.8  18.6  218   19-263     1-228 (474)
+ 17 COG1074 RecB; ATP-dependent ex  98.9 8.6E-10 1.2E-14   96.9   3.9  169   21-199   913-1134(1139)
+ 18 PF08696.11 ; Dna2 ; DNA replic  98.6 1.5E-07 2.2E-12   66.1   5.7  118   16-133    53-200 (201)
+ 19 COG1330 RecC; Exonuclease V ga  98.5   8E-06 1.2E-10   72.3  13.9  138   17-181   791-953 (1078)
+ 20 COG5377 COG5377; Phage-related  97.2  0.0059 8.6E-08   46.7   8.8  115  124-254   101-216 (319)
+ 21 COG1637 NucS; Endonuclease Nuc  92.3    0.79 1.1E-05   34.2   5.7   49  126-193   161-212 (253)
+ 22 d3sm4a_ c.52.1.13 (A:) lambda   92.0     4.9   7E-05   29.4  15.0  184    1-232    11-214 (225)
+ 23 PF13366.6 ; PDDEXK_3 ; PD-(D/E  91.2     2.1   3E-05   27.5   6.1   71   91-178    24-95  (117)
+ 24 PF06250.11 ; YhcG_C ; YhcG PDD  90.8     2.4 3.5E-05   28.4   6.4   56  125-199    58-122 (145)
+ 25 PF01939.16 ; NucS ; Endonuclea  88.9     1.8 2.6E-05   31.7   4.9   38  126-180   137-177 (226)
+ 26 PF14281.6 ; PDDEXK_4 ; PD-(D/E  76.7      29 0.00042   24.0   7.5   78  125-222    74-153 (169)
+ 27 d1w36c3 c.52.1.25 (C:818-1121)  71.8      59 0.00086   25.3  18.1  185   18-236    12-219 (304)
+ 28 d2ghfa4 g.37.1.1 (A:-6-95) Zin  66.2     3.1 4.4E-05   20.9   0.1    7  243-249    19-25  (42)
+ 29 PF15518.6 ; L_protein_N ; L pr  66.1     7.5 0.00011   24.5   1.7   20  127-146    72-93  (103)
+ 30 PF15516.6 ; BpuSI_N ; BpuSI N-  56.6      84  0.0012   21.7   6.5   69   89-179    14-87  (152)
+ 31 PF09588.10 ; YqaJ ; YqaJ-like   49.9      70   0.001   21.1   4.4   38  123-178    88-138 (141)
+ 32 PF13588.6 ; HSDR_N_2 ; Type I   49.1      63 0.00091   20.1   3.9   39  125-178    36-78  (110)
+ 33 PF18743.1 ; AHJR-like ; REase_  48.0      32 0.00047   22.2   2.6   22  125-146    42-65  (125)
+ 34 PF03470.14 ; zf-XS ; XS zinc f  47.5      12 0.00018   19.2   0.5    5  243-247     1-5   (44)
+ 35 COG0792 YraN; Predicted endonu  43.4      41 0.00059   21.7   2.4   22  126-147    33-56  (114)
+ 36 PF17946.1 ; RecC_C ; RecC C-te  39.1   2E+02  0.0029   21.0  19.2  185   18-236     1-208 (222)
+ 37 PF09630.10 ; DUF2024 ; Domain   38.0      80  0.0012   19.2   2.8   29  218-246    32-60  (83)
+ 38 PF08011.11 ; PDDEXK_9 ; PD-(D/  36.9      51 0.00074   20.2   2.1   18  125-142    29-48  (97)
+ 39 PF01870.18 ; Hjc ; Archaeal ho  36.7      50 0.00073   19.5   2.0   22  126-147    24-47  (87)
+ 40 PF10576.9 ; EndIII_4Fe-2S ; Ir  36.6      41 0.00059   12.3   1.2   16  237-252     2-17  (17)
+ 41 PF15650.6 ; Tox-REase-9 ; Rest  36.0 1.4E+02  0.0021   18.4   4.8   49  127-192    37-85  (88)
+ 42 cd20736 PoNe_Nuclease; Polymor  33.8      63 0.00091   18.2   2.1   23  125-147    29-53  (78)
+ 43 PF14475.6 ; Mso1_Sec1_bdg ; Se  33.3      80  0.0012   16.2   2.0   22   56-77     19-42  (42)
+ 44 PF09226.11 ; Endonuc-HincII ;   32.1 1.8E+02  0.0026   21.5   4.1   43  127-176   102-146 (247)
+ 45 d2hfqa1 d.375.1.1 (A:1-85) Hyp  27.9 1.4E+02   0.002   18.3   2.7   29  218-246    30-58  (85)
+ 46 d1hh1a_ c.52.1.18 (A:) Archaea  27.3      74  0.0011   21.2   1.7   20  126-145    31-52  (132)
+ 47 d1wjpa2 g.37.1.1 (A:43-66) Zin  27.2      43 0.00062   14.5   0.4    4  243-246     3-6   (24)
+ 48 d2yrka1 g.37.1.4 (A:8-55) Zinc  26.8      64 0.00093   16.9   1.1   13  236-248     2-14  (48)
+ 49 d4qboa1 c.52.1.35 (A:1-90) saN  26.8      86  0.0012   19.0   1.8   23  125-147    28-52  (90)
+ 50 PF18450.1 ; zf_C2H2_6 ; Zinc F  26.3      46 0.00066   15.2   0.5    4  243-246     5-8   (28)
+ 51 PF01646.16 ; Herpes_UL24 ; Her  25.5 2.1E+02  0.0031   20.5   3.6   41  127-181    59-105 (174)
+ 52 d3e40a_ c.52.1.19 (A:) Restric  25.2 2.8E+02  0.0041   20.7   4.1   43  127-176   111-155 (257)
+ 53 d1ob8a_ c.52.1.18 (A:) Hollida  24.6      93  0.0014   20.3   1.8   22  125-146    30-53  (124)
+ 54 d1gefa_ c.52.1.18 (A:) Archaea  23.9   1E+02  0.0015   20.0   1.9   21  126-146    30-52  (120)
+ 55 PF02021.17 ; UPF0102 ; Unchara  23.4 1.2E+02  0.0018   18.5   2.1   22  126-147    25-50  (92)
+ 56 d1xmxa1 c.52.1.26 (A:1-383) Hy  23.4 5.5E+02   0.008   21.1   9.4   98  110-226   274-379 (383)
+ 57 PF18742.1 ; DpnII-MboI ; REase  22.0 3.7E+02  0.0053   18.5   4.4   37  125-175    63-103 (148)
+ 58 PF17653.1 ; DUF5522 ; Family o  21.9      68 0.00099   17.0   0.6    9  240-248    36-44  (48)
+ 59 PF14082.6 ; DUF4263 ; Domain o  21.7 3.7E+02  0.0054   18.5   5.6   54  126-182    45-106 (164)
+ 60 PF10117.9 ; McrBC ; McrBC 5-me  20.9 2.6E+02  0.0038   21.9   3.9   36  127-178   259-305 (316)
+
+No 1
+>PF12684.7 ; DUF3799 ; PDDEXK-like domain of unknown function (DUF3799)
+Probab=99.96  E-value=3.8e-26  Score=163.40  Aligned_cols=221  Identities=40%  Similarity=0.763  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CHHHHHHHHH-----cHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcccChhhhcccchhHHHHHHHHHHHHH
+Q Q_9186633_16     22 SVSQYKAFRK-----CEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKEKTPSLFTRSGELYSQYKNADLMIET   96 (263)
+Q Consensus        22 s~S~l~~~~~-----Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   96 (263)
+                      |+|+|..+..     ||++|++++..+++.....++.+|+++|.+++.++..+.......+............+..++..
+T Consensus         1 S~S~l~~~~~~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~le~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (235)
+T F2JK71_CELLD/2    1 GSSSFKAWDILHAGGCEARELAKHNGEWQEKENDAYLLGSYVHAWNEGNLKEFIIEHPEMFKKDGSIYAKFALGDVMINT   80 (235)
+T ss_pred             CccchHHHHHhccCCChHHHHHHhcCCCCCCCCcHHHHHHHHHHHhhcchHHHhHhCHHHHhcCCchhhHHHHHHHHHHH
+
+
+Q ss_pred             HHhCCcchhccc-CceeeEeeccccCeeeeEEeeEEeccCC-EEEEeeccccccccccccccccchHHHH-------hcH
+Q Q_9186633_16     97 LKDDGLCMFALE-GEKEVIITAELFGTPWKSKLDVYNPING-RFVDLKTVKSIYDKVWTDEYGYCSFVEA-------YGY  167 (263)
+Q Consensus        97 ~~~~~~~~~~~~-~~~e~~~~~~~~~~~~~g~~D~l~~~~g-~i~D~Kt~~~~~~~~~~~~~~~~~~~~~-------~~~  167 (263)
+                      +........... ...|..+.....++.+.|++|++.. +. .|+||||++..      ....+......       ..+
+T Consensus        81 ~~~~~~~~~~~~~~~~E~~~~~~~~~~~~~G~iD~v~~-~~~~ivD~Kt~~~~------~~~~~~~~~~~~~~~~~~~~~  153 (235)
+T F2JK71_CELLD/2   81 LKNDALVERFRDGAEKERIFTGKISGIPFKIQIDILNI-EKGYFADIKTTKNL------SETYYNEHTKRRETFIDKYDY  153 (235)
+T ss_pred             HHcchhhHHhhcCCcceEEEEEeeCCeEEEEEEEEEec-CCeEEEEeecCCCC------ChHhhhhhhhccchhhhcccH
+
+
+Q ss_pred             HHHHHHHHHHHHHhhCCCCCcccEEEEeeCCCCCCcEEEEcCHHHHHHHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCCh
+Q Q_9186633_16    168 TIQMAVYAELEKRWSGRENWLEPFIVAVSKEKHPDKAVINFDDEIIQLELDEVEEYLPRVLSVKHGVDKPNRCEKCAYCR  247 (263)
+Q Consensus       168 ~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C~~C~  247 (263)
+                      ..|+.+|++++....+..+.....++++............++.+.++.....+...+..+........+|.++..|.||+
+T Consensus       154 ~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~p~~~~~C~~C~  233 (235)
+T F2JK71_CELLD/2  154 YTQIAIYAEILRQNLGMTTYLEPYLLVVDKQEVPDHAIIDVGTSFIEEKLEEIKGRLPRIMAVRNLVEEPIGCGKCDYCR  233 (235)
+T ss_pred             HHHHHHHHHHHHHhhCCCCcceeEEEEEeCCCCCceEEEEeChhHHHHHHHHHHHHHHHHHHHHhcCCCCCCCcccceee
+
+
+Q ss_pred             hH
+Q Q_9186633_16    248 QT  249 (263)
+Q Consensus       248 ~~  249 (263)
+                      |+
+T Consensus       234 ~~  235 (235)
+T F2JK71_CELLD/2  234 SK  235 (235)
+T ss_pred             cC
+
+
+No 2
+>PF06023.12 ; Csa1 ; CRISPR-associated exonuclease Csa1
+Probab=99.90  E-value=2.5e-21  Score=142.45  Aligned_cols=215  Identities=11%  Similarity=-0.013  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             hhhcCCCCHHHHH-HHHHcHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcccChhhhcccchhHHHHHHHHHH
+Q Q_9186633_16     15 EADMQYMSVSQYK-AFRKCEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKEKTPSLFTRSGELYSQYKNADLM   93 (263)
+Q Consensus        15 ~~~~~~ls~S~l~-~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   93 (263)
+                      +..+..+|+|.|. .+..||++|++++..+.+...+.++..|+++|.+++.++.....................+.....
+T Consensus        42 ~~~~~~lS~S~l~~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~le~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  121 (281)
+T O28400_ARCFU/1   42 PYYNVKLPMYLICSRYCPTSRDVYLTMVEKVRGEESFPVSLGKAIHEAVAKAIREAKSKNFSAEPPNYDNEMINVAVKAV  121 (281)
+T ss_pred             hhcCCCCCHHHhhhccccccHHHHHHHhhccCCCCCChhHHHHHHHHHHHHHHHHHHhcCCCCCCCCCChhHHHHHHHHH
+
+
+Q ss_pred             HHHHHh----------------CCcchhcccCceeeEeeccccCeeeeEE--eeEEeccCC-EEEEeecccccccccccc
+Q Q_9186633_16     94 IETLKD----------------DGLCMFALEGEKEVIITAELFGTPWKSK--LDVYNPING-RFVDLKTVKSIYDKVWTD  154 (263)
+Q Consensus        94 ~~~~~~----------------~~~~~~~~~~~~e~~~~~~~~~~~~~g~--~D~l~~~~g-~i~D~Kt~~~~~~~~~~~  154 (263)
+                      ......                ............+..+......+.+.|+  +|++... + .|+|||||+..       
+T Consensus       122 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~g~~~iD~v~~~-~~~IvD~KT~~~~-------  193 (281)
+T O28400_ARCFU/1  122 WEYTMSLCQSSYLKVRSEQPYATEEGVLLTSMPFLVEHRMDGSLLGCSGLISVDCYDYL-RNVVFDLKVGEFN-------  193 (281)
+T ss_pred             HHHHHHHhHHHHHHHHhcCCcccccCcccccceeEEEecCCCceeEEeceeeeceEecc-CcEEEEEecCCCc-------
+
+
+Q ss_pred             ccccchHHHHhcHHHHHHHHHHHHHHhhCCCCCcccEEEEeeCCCCCC----cEEEEcCHHHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_16    155 EYGYCSFVEAYGYTIQMAVYAELEKRWSGRENWLEPFIVAVSKEKHPD----KAVINFDDEIIQLELDEVEEYLPRVLSV  230 (263)
+Q Consensus       155 ~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~  230 (263)
+                                ..+..|+.+|++++....+..  +....++....+...    ...+.++.+.++.....+..+++.+.  
+T Consensus       194 ----------~~~~~Ql~~Y~~~~~~~~~~~--~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~--  259 (281)
+T O28400_ARCFU/1  194 ----------EEMRLYTTGYALVLESIHEIP--VDVGCIISITFNGERMRVSKDLHYIDANLRSWWIEERDRKAEIVF--  259 (281)
+T ss_pred             ----------hhhcHHHHHHHHHHHHHhCCC--ccEEEEEEEEecCceeeEEEeeEecCHHHHHHHHHHHHHHHHHHH--
+
+
+Q ss_pred             hcCCCCCCCCCCCC-CChhHHHhc
+Q Q_9186633_16    231 KHGVDKPNRCEKCA-YCRQTKRLT  253 (263)
+Q Consensus       231 ~~~~~~~~~~~~C~-~C~~~~~C~  253 (263)
+                       .+.+++.+ ..|. +|+|+..|+
+T Consensus       260 -~~~~p~~~-~~C~~~C~~~~~C~  281 (281)
+T O28400_ARCFU/1  260 -NEADPGVA-KSCSSNCLFNAFCL  281 (281)
+T ss_pred             -cCcCCCCc-ccccCCCccccccC
+
+
+No 3
+>COG2887 COG2887; RecB family exonuclease  [Replication, recombination and repair]. 
+Probab=99.90  E-value=2e-21  Score=142.01  Aligned_cols=228  Identities=18%  Similarity=0.112  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCHHHHHHHHHcHHHHHHHHhCcccccc-----chhHHHHHHHHHHHHHHHH-------------------HhcccChhh
+Q Q_9186633_16     21 MSVSQYKAFRKCEAAALAKLKGEWQEEH-----NESLLLGSYVHAWLEGALD-------------------QFKEKTPSL   76 (263)
+Q Consensus        21 ls~S~l~~~~~Cp~~~~~~~~~~~~~~~-----~~~~~~G~~~H~~l~~~~~-------------------~~~~~~~~~   76 (263)
+                      +|+|.+..|..||++|++.++.+++...     +.++.+|+++|.+++.++.                   .+.......
+T Consensus         1 ~S~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~~~~~~G~~~H~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (269)
+T COG2887           1 LSVSRAEALRRCPYLFYARRILALPPLGTRAEEPEAAVRGTLLHAILEALVGERYHAAAAALAKLAWLLRKELAEAELPG   80 (269)
+T ss_pred             CChhHHHHHhhCHHHHHHHHHhCCCCCCCccCCCCHHHHHHHHHHHHHHHHhchhhHHHHHHHHHHHHHHHHHHHccCCC
+
+
+Q ss_pred             hcccchhHHHHHHHHHHHHHHHhCCcchhcccCceeeE-eeccccC-eeeeEEeeEEecc-CC--EEEEeeccccccccc
+Q Q_9186633_16     77 FTRSGELYSQYKNADLMIETLKDDGLCMFALEGEKEVI-ITAELFG-TPWKSKLDVYNPI-NG--RFVDLKTVKSIYDKV  151 (263)
+Q Consensus        77 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~-~~~~~~~-~~~~g~~D~l~~~-~g--~i~D~Kt~~~~~~~~  151 (263)
+                      +............+..++..+..............|.. +.....+ +.+.|++|+|... +|  .|+|||||+..    
+T Consensus        81 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~l~G~iD~i~~~~~g~~~i~D~KT~~~~----  156 (269)
+T COG2887          81 YTDAEWLDRLRARARAFLVYDWERERGTAFHAWLEEERGAELLIDGGIRLRGRADRIDKDADGELEILDYKTGKSP----  156 (269)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHHHhcccceeeeeeecCceEEeCCeEEEEEEEEEEEECCCCcEEEEEcCCCCCC----
+
+
+Q ss_pred             cccccccchHHHHhcHHHHHHHHHHHHHHhh--CCCCCcccEEEEeeCCCCCCcEEEEcCHH-HHHHHHHHHHHHHHHHH
+Q Q_9186633_16    152 WTDEYGYCSFVEAYGYTIQMAVYAELEKRWS--GRENWLEPFIVAVSKEKHPDKAVINFDDE-IIQLELDEVEEYLPRVL  228 (263)
+Q Consensus       152 ~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~  228 (263)
+                             ........+..|+.+|++++....  +..+ ..+.++++..+.........-... ..+.....+.++...+.
+T Consensus       157 -------~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~-~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  228 (269)
+T COG2887         157 -------SAARAPAAVSPQLALEALALIEGRFRGVEP-GQLRLVYLRKSGRVGEAPDNREQLPQLALAREALAELAELLA  228 (269)
+T ss_pred             -------chhhcCcccCcHHHHHHHHHHhcccCCCCc-CeEEEEEeecCCccCCCCCcccchhHHHHHHHHHHHHHHHHh
+
+
+Q ss_pred             HhhcCCCCCC-CCCCCCCChhHHHhcchhhhHhhcC
+Q Q_9186633_16    229 SVKHGVDKPN-RCEKCAYCRQTKRLTKVIHYSQILS  263 (263)
+Q Consensus       229 ~~~~~~~~~~-~~~~C~~C~~~~~C~~~~~~~~~~~  263 (263)
+                         .+.++|. ....|++|+|+..|..........+
+T Consensus       229 ---~~~f~~~~~~~~C~~C~~~~~C~~~~~~~~~~~  261 (269)
+T COG2887         229 ---GLEVRPRGYSSRCDLCPHQDLCPAYGGLARLLE  261 (269)
+T ss_pred             ---CCCCCCCCCcccCcCChhhhcCccccccccccC
+
+
+No 4
+>PF10926.8 ; DUF2800 ; Protein of unknown function (DUF2800)
+Probab=99.89  E-value=6.2e-21  Score=145.20  Aligned_cols=214  Identities=12%  Similarity=0.023  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             cCCCCHHHHHHHHHcHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhc--ccChhhh---------cccchhHHH
+Q Q_9186633_16     18 MQYMSVSQYKAFRKCEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFK--EKTPSLF---------TRSGELYSQ   86 (263)
+Q Consensus        18 ~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~--~~~~~~~---------~~~~~~~~~   86 (263)
+                      ...+|+|++..|..||++|++  ...++...+.++..|+++|.+++.++....  ......-         .........
+T Consensus         1 h~~lS~S~l~~~~~Cp~~~~~--~~~~~~~~~~~~~~Gt~~H~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   78 (359)
+T R5NXT1_9BACT/5    1 HAILSPSAAYRWLICTPSARF--EEQIPGEESVYAAEGTLAHELAALLLTARAGLFKGPQKAFNALLNKITSNELYSPEM   78 (359)
+T ss_pred             CCCcCCChhHHHhhCchHHHH--HhcCCCCCcHHHHHHHHHHHHHHHHHHhccCCCCCchHHHHHHHhhccCCccCCHHH
+
+
+Q ss_pred             HHHHHHHHHHHHhCCcchhcccCceeeEeeccccCeeeeEEeeEEeccCC--EEEEeeccccccccccccccccchHHHH
+Q Q_9186633_16     87 YKNADLMIETLKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPING--RFVDLKTVKSIYDKVWTDEYGYCSFVEA  164 (263)
+Q Consensus        87 ~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~  164 (263)
+                      .+.+..++......     ......|..+.....+..+.|++|++...+|  .|+|||||+...              ..
+T Consensus        79 ~~~~~~~~~~~~~~-----~~~~~~E~~~~~~~~~~~i~G~iD~i~~~~~~~~iiD~Ktg~~~~--------------~~  139 (359)
+T R5NXT1_9BACT/5   79 LEHCEAYAGFVIDK-----GGEILVEHSYDLAKYIPLGRGTADATNFTKSTIYVTDFKYGAGIR--------------VS  139 (359)
+T ss_pred             HHHHHHHHHHHHHh-----CCeEEEEEEecchhhCCCCeeEeeEEEEeCCEEEEEECCCCCCCc--------------cC
+
+
+Q ss_pred             hcHHHHHHHHHHHHHHh-hC--CCCCcccEEEEeeCCCCCCcEEEEcCHHHHHHHHHH-HHHHHHHHHHhhcCCCCCCCC
+Q Q_9186633_16    165 YGYTIQMAVYAELEKRW-SG--RENWLEPFIVAVSKEKHPDKAVINFDDEIIQLELDE-VEEYLPRVLSVKHGVDKPNRC  240 (263)
+Q Consensus       165 ~~~~~Ql~~Y~~~~~~~-~~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~  240 (263)
+                      ..+..|+.+|++++... ++  ..  .....+.+............++.+++..+... +..+...+.   .+.+.+.++
+T Consensus       140 ~~~~~Ql~~Ya~~~~~~~~~~~~~--~~~~~~~i~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~---~~~~~~~~~  214 (359)
+T R5NXT1_9BACT/5  140 ATVNTQLMCYGLGAYEEAIKRGLN--PKTFVLSIFQPRAGGPASWEISTDDLLEWAWGVVIPKAGLAM---AGQGEFKPG  214 (359)
+T ss_pred             CCCCHHHHHHHHHHHHHHHhcCCC--CcEEEEEEEcCCCCCCCeEEEeHHHHHHHHhhchHHHHHHHH---cCCCCCCCC
+
+
+Q ss_pred             CCCCCChhHHHhcchhh
+Q Q_9186633_16    241 EKCAYCRQTKRLTKVIH  257 (263)
+Q Consensus       241 ~~C~~C~~~~~C~~~~~  257 (263)
+                      .+|.||+|+..|+....
+T Consensus       215 ~~C~~C~~~~~C~~~~~  231 (359)
+T R5NXT1_9BACT/5  215 SHCQFCKARTSCKAYFT  231 (359)
+T ss_pred             CCCCCCCccccCHHHHH
+
+
+No 5
+>cd09637 Cas4_I-A_I-B_I-C_I-D_II-B; CRISPR/Cas system-associated protein Cas4. CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) and associated Cas proteins comprise a system for heritable host defense by prokaryotic cells against phage and other foreign DNA.
+Probab=99.89  E-value=1.9e-20  Score=127.67  Aligned_cols=173  Identities=17%  Similarity=0.182  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CCHHHHHHHHHcHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcccChhhhcccchhHHHHHHHHHHHHHHHhC
+Q Q_9186633_16     21 MSVSQYKAFRKCEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKEKTPSLFTRSGELYSQYKNADLMIETLKDD  100 (263)
+Q Consensus        21 ls~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  100 (263)
+                      +|+|.|..+..||+++++.+..+.+.........|+.+|..++.+..                                 
+T Consensus         1 ~s~s~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~h~~~~~~~~---------------------------------   47 (178)
+T cd09637           1 VTVSDVKQYHFCKAIPWINYVMGYREPSTFSMEEGKKISYEEVVKS----------------------------------   46 (170)
+T ss_pred             CChhHHHHHhhchhHHHHHHhcCCCCCCCchHHHHHHHHHHHHHHHH---------------------------------
+
+
+Q ss_pred             CcchhcccCceeeEeeccccCeeeeEEeeEEeccCC--EEEEeecccc--ccccccccccccchHHHHhcHHHHHHHHHH
+Q Q_9186633_16    101 GLCMFALEGEKEVIITAELFGTPWKSKLDVYNPING--RFVDLKTVKS--IYDKVWTDEYGYCSFVEAYGYTIQMAVYAE  176 (263)
+Q Consensus       101 ~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g--~i~D~Kt~~~--~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~  176 (263)
+                          .......+..+.....++.+.|++|++...++  .++|+||++.  ..                ..+..|+.+|+.
+T Consensus        48 ----~~~~~~~~~~~~~~~~~~~~~g~~D~i~~~~~~~~i~d~Kt~~~~~~~----------------~~~~~ql~~y~~  107 (178)
+T cd09637          47 ----LNLTTPVKYEVCLSYNG--LSGCIDILAGDRKY-TVVEVKAFKRG-NF----------------SHFRYQLLAYAY  102 (170)
+T ss_pred             ----HcCCCcceEEEEecCCCEEEEEEEEEEEECCCeEEEEEccCCCCCCCc----------------hhhcHHHHHHHH
+
+
+Q ss_pred             HHHHhhCCCCCcccEEEEeeCCCCCCcEEEEcCHHHHHHHHHHHHHHHHHHHHhhcCCCCCCC-CCCCCCChhHHHhc
+Q Q_9186633_16    177 LEKRWSGRENWLEPFIVAVSKEKHPDKAVINFDDEIIQLELDEVEEYLPRVLSVKHGVDKPNR-CEKCAYCRQTKRLT  253 (263)
+Q Consensus       177 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~C~~C~~~~~C~  253 (263)
+                      ++....+... ....+++...+.   ...+..+...++.+.+.+..+...+.   ...+++.+ ...|.+|+|...|+
+T Consensus       108 ~~~~~~~~~~-~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~C~~C~~~~~C~  178 (178)
+T cd09637         103 LVRKRLG--I-VERAILVMEGKK---VLEIEPTEEHYRYIENVVKKIEEIVN---SEKLPAVN-VEKCDFCQYRRICP  170 (170)
+T ss_pred             HHHHHHCCCc-eEEEEEEecCCe---EEEEeCCHHHHHHHHHHHHHHHHHHH---cCCCCCCCCCCCCCCCCccccCC
+
+
+No 6
+>PF12705.7 ; PDDEXK_1 ; PD-(D/E)XK nuclease superfamily
+Probab=99.88  E-value=1.7e-20  Score=134.93  Aligned_cols=208  Identities=14%  Similarity=0.126  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CCCHHHHHHHHHcHHHHHHHHhCccccccchhH--HHHHHHHHHHHHHHH----------------HhcccChhh--hcc
+Q Q_9186633_16     20 YMSVSQYKAFRKCEAAALAKLKGEWQEEHNESL--LLGSYVHAWLEGALD----------------QFKEKTPSL--FTR   79 (263)
+Q Consensus        20 ~ls~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~--~~G~~~H~~l~~~~~----------------~~~~~~~~~--~~~   79 (263)
+                      ++|+|.|..+..||++|++++..+++.......  .+|+++|.+++.++.                .+.......  -..
+T Consensus         1 ~lS~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~~~G~~~H~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (242)
+T Q7NDV3_GLOVI/4    1 PLSASRLVRYATCPRAYAWKYRYHYPEPGGGGRRQRLGILLHATLGRFWQDWLGRRGDRSLGHLERLWRQGGGELEKPEQ   80 (242)
+T ss_pred             CCChHHHHHHHhChhHHheeeeecCCCCCCCCcchhhHHHHHHHHHHHHHHHhhhHHHHHHHHHHHHHHcCCCCCCCccc
+
+
+Q ss_pred             cchhHHHHHHHHHHHHHHHhCCcchhcccCceeeEeecccc-------C---eeeeEEeeEEeccCC--EEEEeeccccc
+Q Q_9186633_16     80 SGELYSQYKNADLMIETLKDDGLCMFALEGEKEVIITAELF-------G---TPWKSKLDVYNPING--RFVDLKTVKSI  147 (263)
+Q Consensus        80 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~-------~---~~~~g~~D~l~~~~g--~i~D~Kt~~~~  147 (263)
+                      .... ......  .+..+...... .....+.++.+..+..       +   +.+.|++|+  ..+|  .|+||| |+..
+T Consensus        81 ~~~~-~~~~~~--~~~~~~~~~~~-~~~~~E~~~~~~~~l~~~~~~~~~~~~~~~~G~iD~--~~~g~~~ivD~K-~~~~  153 (242)
+T Q7NDV3_GLOVI/4   81 TSGW-HALESY--YLQEVRRPEPP-RPFASEGRLRHSLVLDRVDVQFESRYDLLLWGEPDR--RGVAGIDLVEFK-TARQ  153 (242)
+T ss_pred             ccHH-HHHHHH--HHheeccCCCC-CcEEEEeeEEEeeecCcccccccCceeEEEEEEecC--CCCCcEEEEEec-CCCC
+
+
+Q ss_pred             cccccccccccchHHHHhcHHHHHHHHHHHHHHhhCCC-CCcccEEEEeeCCCCCCcEEEEcCHHHHHHHHHHHHHHHHH
+Q Q_9186633_16    148 YDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSGRE-NWLEPFIVAVSKEKHPDKAVINFDDEIIQLELDEVEEYLPR  226 (263)
+Q Consensus       148 ~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  226 (263)
+                                 ........+..|+.+|++++...++.. + ..+.++++....   ......+.++ +.+...+.+++..
+T Consensus       154 -----------~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~-~~~~~~~~~~~~---~~~~~~~~~~-~~~~~~~~~~~~~  217 (242)
+T Q7NDV3_GLOVI/4  154 -----------VRSLSQLEADLQLSCYILGIGAQYGQALR-TVSHYYLLSGEK---LTFAVQPHHQ-RYALEKAQRLVAN  217 (242)
+T ss_pred             -----------CCChhHhcHHHHHHHHHHHHHHHhccccc-eeEEEEEccCCe---EEEecCCHHH-HHHHHHHHHHHHH
+
+
+Q ss_pred             HHHhhcC-CCCCCCCCCCCCChhHHHhc
+Q Q_9186633_16    227 VLSVKHG-VDKPNRCEKCAYCRQTKRLT  253 (263)
+Q Consensus       227 ~~~~~~~-~~~~~~~~~C~~C~~~~~C~  253 (263)
+                      +.   .+ .+.+.+...|.+|+|...|+
+T Consensus       218 i~---~~~~~~~~~~~~C~~C~~~~~C~  242 (242)
+T Q7NDV3_GLOVI/4  218 LL---DGGDWEPKPGSHCRRCGYRSQCD  242 (242)
+T ss_pred             HH---cCCCCCCCCCCCCCCCCchhcCC
+
+
+No 7
+>cd09659 Cas4_I-A; CRISPR/Cas system-associated protein Cas4. CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) and associated Cas proteins comprise a system for heritable host defense by prokaryotic cells against phage and other foreign DNA.
+Probab=99.86  E-value=3.5e-19  Score=129.91  Aligned_cols=209  Identities=14%  Similarity=0.068  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             hhhc.CCCCHHHHHHHHHcH--HHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcc.cChh---------------
+Q Q_9186633_16     15 EADM.QYMSVSQYKAFRKCE--AAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKE.KTPS---------------   75 (263)
+Q Consensus        15 ~~~~.~~ls~S~l~~~~~Cp--~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~.~~~~---------------   75 (263)
+                      +..+ ..+|+|.| .|..||  ++|++++..+.+.....+..+|+++|.+++.++..... ....               
+T Consensus        29 ~~~~.~~~S~S~l-~~~~Cp~~r~~~~~~~~~~~~~~~~~~~~G~~~H~~le~~~~~~~~.~~~~~~~~~~~~~~~~~~~  105 (270)
+T cd09659          29 PPPLgVRLSVSDI-VGGGCESRRDLYLKRVLGVRAEPNGGMKFGAYIHEVFKRSLAELRSlIEGGAVKGWELVQSFNAEA  107 (282)
+T ss_pred             CCCC.CCcChhHc-eeccChhHHHHHHHHhhCCCCCCCcHHHHHHHHHHHHHHHHHHHHh.ccCCCCCcHHHHHHHHHHH
+
+
+Q ss_pred             ---..........----hhcccchhHHHHHHHHHHHHHHH.hCCcchh..cccCceeeEeeccccCeeeeEEee--EEec
+Q Q_9186633_16     76 ---..........----LFTRSGELYSQYKNADLMIETLK.DDGLCMF..ALEGEKEVIITAELFGTPWKSKLD--VYNP  133 (263)
+Q Consensus        76 ---..........----~~~~~~~~~~~~~~~~~~~~~~~.~~~~~~~..~~~~~~e~~~~~~~~~~~~~g~~D--~l~~  133 (263)
+                                       ..............+..++..+. ..... .  ......|..+..     .+.|.+|  .+..
+T Consensus       106 ~~~..........~~~~~~~~~~~~~~~~~~~~~~l~~~~.~~~~~-~..~~~~~~e~~~~~-----~~~g~~~~~~iD~  166 (270)
+T cd09659         108 IAReaaiaaeaeaDPRGVELARYLAIQVAARVDEIASRSSaDSLSI-AarAVPVLAEYVIDG-----RPLGLTL-VRADA  180 (282)
+T ss_pred             Hhh..........hhccchhhHHHHHHHHHHHHHHHHHHH.HhcCC-C..CcceEEEEEeCC-----eEeeEecceeeee
+
+
+Q ss_pred             cCC--EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHhhCCCCCcccEEEEeeCCCCC----CcEEEE
+Q Q_9186633_16    134 ING--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSGRENWLEPFIVAVSKEKHP----DKAVIN  207 (263)
+Q Consensus       134 ~~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~----~~~~~~  207 (263)
+                      ..+  .|+||||++..                 ..+..|+.+|+.++...++..  +....++.......    ......
+T Consensus       167 ~~~~~~iiD~Kt~~~~-----------------~~~~~Ql~~Y~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~~  227 (270)
+T cd09659         181 LYYN-VVVEIKVGSYS-----------------ERHALALAGYALAIEADEEVP--VDAGLLISVAFNGG-VKLRAYPVA  239 (282)
+T ss_pred             cCCCcEEEEeCCCCCC-----------------cccchHHHHHHHHHHHHHCCC--CCcceEEEcccCCCCCCccccccc
+
+
+Q ss_pred             cCHHHHHHHHHHHHHHHHHHHHhhcCCCCCCCCCCC-CCChhHHHhc
+Q Q_9186633_16    208 FDDEIIQLELDEVEEYLPRVLSVKHGVDKPNRCEKC-AYCRQTKRLT  253 (263)
+Q Consensus       208 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C-~~C~~~~~C~  253 (263)
+                      ++.+.++.+...+.+++..+.   .+.+++.+ ..| .+|+|...|+
+T Consensus       228 ~~~~~~~~~~~~~~~~~~~~~---~~~~~~~~-~~C~~~C~~~~~C~  270 (270)
+T cd09659         240 IGEGLRREFLEERNRLMELVA---SGSDPGLS-PKCDDKCPLWRHCH  282 (282)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHH---cCCCCCCC-ccccccCCchHhcC
+
+
+No 8
+>COG4343 Cas4; CRISPR/Cas system-associated exonuclease Cas4, RecB family [Defense mechanisms]. 
+Probab=99.86  E-value=3.5e-19  Score=131.04  Aligned_cols=214  Identities=16%  Similarity=0.049  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             hhhcCCCCHHHHHHHHHcH--HHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcccC----------hhhhcc---
+Q Q_9186633_16     15 EADMQYMSVSQYKAFRKCE--AAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKEKT----------PSLFTR---   79 (263)
+Q Consensus        15 ~~~~~~ls~S~l~~~~~Cp--~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~~~----------~~~~~~---   79 (263)
+                      +..+..+|+|+|. |..||  ++|+++++.+++...+.++.+|+++|.+++.++.......          ......   
+T Consensus        38 ~~~~~~lS~S~l~-~~~CP~~r~~~~~~~l~~~~~~~~~~~~G~~~H~~le~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  116 (281)
+T COG4343          38 PPRYVRLSLSDIV-YGYCPTGRDVYLKRVLGVRGEGGFPLLLGAAIHEAFAKAIEEHKSLIYSGESPRESVLEDAREMAN  116 (281)
+T ss_pred             CCCCCCCCHHHhh-cccCCcchHheheehhCCCCCCCCchHHHHHHHHHHHHHHHHHHHhhcCCCCchHHHHHHHHHHHH
+
+
+Q ss_pred             -----------cchhHHHHHHHHHHHHHHHhCCcchhcccCceeeEeeccccCeeeeEEeeEEeccCC-EEEEeeccccc
+Q Q_9186633_16     80 -----------SGELYSQYKNADLMIETLKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPING-RFVDLKTVKSI  147 (263)
+Q Consensus        80 -----------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g-~i~D~Kt~~~~  147 (263)
+                                 ........+.+..++..+.........   ....+..+......+.|++|.-...++ .|+|||||+.+
+T Consensus       117 ~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~---~~~~E~~~~~~~~g~~g~i~~d~~~~~~~ivDyKTg~~~  193 (281)
+T COG4343         117 ILAKRVWARLNEYCEISYMAVRSEKASRTSDSALSIGA---PVLVEFNVDGSPLGLSDLVRVDALVGLPVVVELKVGSYR  193 (281)
+T ss_pred             HHHHHHHHHHHHHhhHhhHHHHHHHHHhhhhhhhcCCC---cEEEEEeeCCCccceeeeeeeeccCCccEEEEEEeCCCc
+
+
+Q ss_pred             cccccccccccchHHHHhcHHHHHHHHHHHHHHhhCCCCCcccEEEEeeCCCCCC--cEEEEcCHHHHHHHHHHHHHHHH
+Q Q_9186633_16    148 YDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSGRENWLEPFIVAVSKEKHPD--KAVINFDDEIIQLELDEVEEYLP  225 (263)
+Q Consensus       148 ~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~  225 (263)
+                                       ..+..|+.+|++++....+..+ ....++++..+....  ...+.++.+.++.+...+..+++
+T Consensus       194 -----------------~~~~~Ql~~Y~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  255 (281)
+T COG4343         194 -----------------EVHRLALAGYALAIEADTEIPV-DYGVLISVTVNSGVKIKARLVYIDDSLRSEFLEERDRVAD  255 (281)
+T ss_pred             -----------------hhHHHHHHHHHHHHHHhhCCCC-cEEEEEEeeCCCCceeeeeeeeCCHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHhhcCCCCCCCCCCCC-CChhHHHhcc
+Q Q_9186633_16    226 RVLSVKHGVDKPNRCEKCA-YCRQTKRLTK  254 (263)
+Q Consensus       226 ~~~~~~~~~~~~~~~~~C~-~C~~~~~C~~  254 (263)
+                      .+.   .+.+++. +..|. +|+|+..|..
+T Consensus       256 ~i~---~~~fp~~-~~~C~~~C~~~~~C~~  281 (281)
+T COG4343         256 IVE---YGSDPGL-AKSCPSGCPFYEVCHV  281 (281)
+T ss_pred             HHH---hCCCCCC-cccCCCCCchhHccCC
+
+
+No 9
+>KOG4760 Uncharacterized conserved protein [Function unknown]
+Probab=99.85  E-value=8.6e-20  Score=138.24  Aligned_cols=219  Identities=15%  Similarity=0.105  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             hcCCCCHHHHHHHHHcHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcccChhhhcccchhHHHHHHHHHHHHH
+Q Q_9186633_16     17 DMQYMSVSQYKAFRKCEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKEKTPSLFTRSGELYSQYKNADLMIET   96 (263)
+Q Consensus        17 ~~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   96 (263)
+                      ....+|+|+|..+..||++|++.+..+++.....++..|+++|.+++.++......  ..-.........+......+..
+T Consensus        71 ~~~~lS~S~l~~~~~CP~~~~~~~i~~~~~~~~~~~~~Gt~iH~~le~~~~~~~~~--~i~~~e~~w~~~~~~~i~~~~~  148 (365)
+T KOG4760          71 HSIYLSVTDLVSPSWCEAQGSYELIRSITLFSKRKLSAGASIHESYEHEFRRNQTL--GVTDLTGAWAIKFLRILLLIPT  148 (365)
+T ss_pred             cCCccchhHccChhhChhHHeEEEeccCCccChHHHHHHHHHHHHHHHHhcCCccC--CCCCcccHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHhCCcchhcccCceeeEeeccccCeeeeEEeeEEecc-CC--EEEEeeccccccccccccccccchHHHHhcHHHHHHH
+Q Q_9186633_16     97 LKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPI-NG--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAV  173 (263)
+Q Consensus        97 ~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~-~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~  173 (263)
+                      +..       .....|..+.....++.+.|++|+|... +|  .|+||||++...         .........+..|+.+
+T Consensus       149 ~~~-------~~~~~E~~~~~~~~~~~l~G~ID~I~~~~~g~~~IiD~KT~~~~~---------~~~~~~~~~~~~QL~l  212 (365)
+T KOG4760         149 LQS-------EGHIREFPVFGEGEGVLLVGVIDELHYTAFGELELAELKTRRRPM---------LPGEAQKLKDCFQVSL  212 (365)
+T ss_pred             HHH-------hCCeeEEEEEEEeCCEEEEEEEceEEECCCCcEEEEEeecCCCCC---------CCcHHHhhcHHHHHHH
+
+
+Q ss_pred             HHHHHHHhhCCCCCc-------------------------------------------------------ccEEEEeeC-
+Q Q_9186633_16    174 YAELEKRWSGRENWL-------------------------------------------------------EPFIVAVSK-  197 (263)
+Q Consensus       174 Y~~~~~~~~~~~~~~-------------------------------------------------------~~~~~~~~~-  197 (263)
+                      |++++....+..  .                                                       ...+.|... 
+T Consensus       213 Y~~~l~~~~~~~--~~~~~~~~~~~l~~~~~l~~~~~~~~~~~~~~~~~~~~~~~l~y~~~~~~~lp~~~~l~~~Y~~~~  290 (365)
+T KOG4760         213 YKYIFDAMVQGK--VTPASLIHHTKLCLEKPLWPSVLRHAQQGGAGVKSLGDLMELVFLSLTLSDLPVIDILKIEYIHQK  290 (365)
+T ss_pred             HHHHHHHHHCCC--CChhhHHHHhccCCCCcccHHHHHHHHhCCCCCCchHHHHHHHHHHhhcccCCchhheEEEEEecC
+
+
+Q ss_pred             -CCCCCcEEEEcCHHHHHHHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCChhHHHhcchhh
+Q Q_9186633_16    198 -EKHPDKAVINFDDEIIQLELDEVEEYLPRVLSVKHGVDKPNRCEKCAYCRQTKRLTKVIH  257 (263)
+Q Consensus       198 -~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C~~C~~~~~C~~~~~  257 (263)
+                       +.......+.++.+.+....+.+.+.+..+..  ....++.....|.+|.|...|+....
+T Consensus       291 ~~~~~~~~~~~~d~~~l~~~~~~~~~~w~g~r~--~~~~~~~~~~kC~~C~f~~~C~~~~~  349 (365)
+T KOG4760         291 TATVLGTEIFAFKEKEVRAKYQHYMAFWMNHRE--PQGVPVEEAWKCRTCTFAKICEWRKG  349 (365)
+T ss_pred             CCCeEEEEEEECCHHHHHHHHHHHHHHHcCCCC--CCCCCHHHhcccCCCCCcccCccccc
+
+
+No 10
+>PF09810.9 ; Exo5 ; Exonuclease V - a 5' deoxyribonuclease
+Probab=99.85  E-value=3.5e-20  Score=138.37  Aligned_cols=215  Identities=15%  Similarity=0.085  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             hcCCCCHHHHHHHHHcHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcccChhhhcccchhHHHHHHHHHHHHH
+Q Q_9186633_16     17 DMQYMSVSQYKAFRKCEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKEKTPSLFTRSGELYSQYKNADLMIET   96 (263)
+Q Consensus        17 ~~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   96 (263)
+                      ....+|+|.|.++..||++|++.+..+.....+.++..|+.+|.+++.++.         -..........+.+...+..
+T Consensus        10 ~~~~lS~s~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~le~~~~---------~~~~~~~~~~~~~~~~~~~~   80 (338)
+T M2TDQ5_COCH5/1   10 PKKPLSVTDLVSPAWCELQYLYTLSKFGRKPRTQAMRTGSKIHEKLEAEVH---------TTVPVQVESKEDRFGLRIWN   80 (338)
+T ss_pred             CCCCCcccccCCCcchHHHHhhhhccCCCCCCChhHHHhHHHHHHHHhhcC---------CccccccCCHHHHHHHHHHH
+
+
+Q ss_pred             HHhCCcchhcccCceeeEeeccccCeeeeEEeeEEecc-C----------------------------------------
+Q Q_9186633_16     97 LKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPI-N----------------------------------------  135 (263)
+Q Consensus        97 ~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~-~----------------------------------------  135 (263)
+                      ...............|..+.....++.+.|++|+|... +                                        
+T Consensus        81 ~~~~~~~l~~~~~~~E~~~~~~~~~~~l~G~iD~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  160 (338)
+T M2TDQ5_COCH5/1   81 TISGLRCLSETGLTRELEVWGVLEGQVVNGIIDELSYQCPDAAFEEQLEKSSAEKNGGIIPLPSDQLRISNAFAKDCTGG  160 (338)
+T ss_pred             HHHHHHHHHHHCCccEEEEEEEECCEEEEEEEEEEEEeCCChHHHHHHHHhhhhcCCCccCCChhhhchhHhhhcccCCC
+
+
+Q ss_pred             ------C-EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHhhC-------------------------
+Q Q_9186633_16    136 ------G-RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSG-------------------------  183 (263)
+Q Consensus       136 ------g-~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~-------------------------  183 (263)
+                            . .|+||||++...         .........+..|+.+|++++....+                         
+T Consensus       161 ~~~~~~~~~IvDyKT~~~~~---------~~~~~~~~~~~~Ql~~Y~~~l~~l~~~~~~~~~~~~~~~l~~~~~~~~~~~  231 (338)
+T M2TDQ5_COCH5/1  161 MLQSDRQIYITDVKTRSSNS---------LPAGASLRPTWMQLMLYRKLLESLSLNTVDAETVFSRYDLQPLENFSDTFM  231 (338)
+T ss_pred             CCCCCceEEEEecCCCCCCC---------CCChHHcchHHHHHHHHHHHHHHHcCCCCCHHHHHHHcCCCCCCCCCHHHH
+
+
+Q ss_pred             ---------------------------------------CCCCcccEEEEeeCCCCCCcEEEEcCHHHHHHHHHHHHHHH
+Q Q_9186633_16    184 ---------------------------------------RENWLEPFIVAVSKEKHPDKAVINFDDEIIQLELDEVEEYL  224 (263)
+Q Consensus       184 ---------------------------------------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  224 (263)
+                                                             ..  ..+.+.....+.......+..+.+.++.....+...+
+T Consensus       232 ~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~--l~~~y~~~~~~~~~~~~~~~~~~~~l~~~i~~~~~~~  309 (338)
+T M2TDQ5_COCH5/1  232 QAVGGIGPHNQAPNYPNLLSLWSLLVTEMQIAVPPTSLSPI--VRAEFRYAKNGHVIGSELMVYDTDTIDKYIRDEMAWW  309 (338)
+T ss_pred             HHHHccCCCCCCCCCCcHHHHHHHHHHHHHHhCCccccCCc--EEEEEEeCCCCCeEEEEEEECCHHHHHHHHHHHHHHh
+
+
+Q ss_pred             HHHHHhhcCCCCCCCCCCCCCChhHHHhc
+Q Q_9186633_16    225 PRVLSVKHGVDKPNRCEKCAYCRQTKRLT  253 (263)
+Q Consensus       225 ~~~~~~~~~~~~~~~~~~C~~C~~~~~C~  253 (263)
+                      .....  .....+.....|.+|+|+..|+
+T Consensus       310 ~g~~~--~~~~~~~~~~~C~~C~f~~~C~  336 (338)
+T M2TDQ5_COCH5/1  310 KGRRE--AKGVEIEEAFKCRICDFADSCS  336 (338)
+T ss_pred             hCCCC--CCCCCHHHhhccCCCCCcccCC
+
+
+No 11
+>PF01930.17 ; Cas_Cas4 ; Domain of unknown function DUF83
+Probab=99.83  E-value=2.3e-19  Score=120.79  Aligned_cols=157  Identities=15%  Similarity=0.095  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CHHHHHHHHHcHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcccChhhhcccchhHHHHHHHHHHHHHHHhCC
+Q Q_9186633_16     22 SVSQYKAFRKCEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKEKTPSLFTRSGELYSQYKNADLMIETLKDDG  101 (263)
+Q Consensus        22 s~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  101 (263)
+                      |+|.|..+..||+++++.+........+..+..|+.+|..+.....                                  
+T Consensus         1 s~s~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~h~~~~~~~~----------------------------------   46 (160)
+T Q3AA67_CARHZ/7    1 GGTLIWYYYICPRQVWFMGRKITPDEDNELLDLGRVIHAQSKKPGV----------------------------------   46 (160)
+T ss_pred             CceeeeeeEechHHHHHHhCCCCcccccHHHHHHHHhhhcccCCCc----------------------------------
+
+
+Q ss_pred             cchhcccCceeeEeeccccCeee-eEEeeEEeccCC--EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHH
+Q Q_9186633_16    102 LCMFALEGEKEVIITAELFGTPW-KSKLDVYNPING--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELE  178 (263)
+Q Consensus       102 ~~~~~~~~~~e~~~~~~~~~~~~-~g~~D~l~~~~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~  178 (263)
+                                        ..+.+ .|++|++...+|  .|+|+||+....                ..+..|+.+|++++
+T Consensus        47 ------------------~~~~~~~g~~D~i~~~~~~~~v~d~Kt~~~~~----------------~~~~~Ql~~y~~~~   92 (160)
+T Q3AA67_CARHZ/7   47 ------------------REMVLGGSKIDLITREDGELLVYEIKKSSKFK----------------EASKMQLLYYLLEF   92 (160)
+T ss_pred             ------------------ceeeeceEEEEEEEccCCEEEEEEEEeCCCCc----------------HHHHHHHHHHHHHH
+
+
+Q ss_pred             HHhhCCCCCcccEEEEeeCCCCCCcEEEEcCHHHHHHHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCChhHHHhcc
+Q Q_9186633_16    179 KRWSGRENWLEPFIVAVSKEKHPDKAVINFDDEIIQLELDEVEEYLPRVLSVKHGVDKPNRCEKCAYCRQTKRLTK  254 (263)
+Q Consensus       179 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C~~C~~~~~C~~  254 (263)
+                      . ..+..  +.+.++++..+.   ...+.++...++.+...+.++.+.+..  .....+.....|.+|+|...|+.
+T Consensus        93 ~-~~g~~--~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~C~~C~~~~~C~~  160 (160)
+T Q3AA67_CARHZ/7   93 K-RRGVE--IAGELSYPEEKK---REKVRLTPEDEAKLVAAEKDILRIIYQ--ETPPPYQKTPFCKKCAYLEFCVA  160 (160)
+T ss_pred             H-HhCcE--EEEEEEcCCccc---eEEEeCCHHHHHHHHHHHHHHHHHHhC--CCCCCCCCCCCCCCCCchhhcCC
+
+
+No 12
+>COG3857 AddB; ATP-dependent helicase/DNAse subunit B [Replication, recombination and repair]. 
+Probab=99.81  E-value=9.1e-18  Score=145.30  Aligned_cols=222  Identities=14%  Similarity=0.125  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             cCCCCHHHHHHHHHcHHHHHHHHhCcccccc---chhHHHHHHHHHHHHHHHHHhccc----------------------
+Q Q_9186633_16     18 MQYMSVSQYKAFRKCEAAALAKLKGEWQEEH---NESLLLGSYVHAWLEGALDQFKEK----------------------   72 (263)
+Q Consensus        18 ~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~~~---~~~~~~G~~~H~~l~~~~~~~~~~----------------------   72 (263)
+                      +..+|+|+|..+..||++|++.+..++.+..   ..+...|+++|.+++.++......                      
+T Consensus       749 ~~~~S~s~l~~~~~CP~~~~~~~~l~~~~~~~~~~~~~~~G~~~H~~le~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  828 (1108)
+T COG3857         749 ELYLSVSRLEKFYRCPFSYFLEYGLGLKERKDIHLDARDLGNFFHRVFERISEEENLENQDWNFLNEEDCERLTQKIVEV  828 (1108)
+T ss_pred             CcccchhHHHHHhhCHHHHHHHhCCCCCCcccccCChhhHHHHHHHHHHHHHHHHhhhCCCHHHCCHHHHHHHHHHHHHH
+
+
+Q ss_pred             ---------ChhhhcccchhHHHHHHHHHHHHHHHhCCcchhcccCceeeEeeccc-----------cCeeeeEEeeEEe
+Q Q_9186633_16     73 ---------TPSLFTRSGELYSQYKNADLMIETLKDDGLCMFALEGEKEVIITAEL-----------FGTPWKSKLDVYN  132 (263)
+Q Consensus        73 ---------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~-----------~~~~~~g~~D~l~  132 (263)
+                               .................+..+...+........+.....|..+....           .++.+.|++|+|.
+T Consensus       829 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~E~~~~~~~~~~~~~~~~~~~~~~l~G~iDri~  908 (1108)
+T COG3857         829 LLEKEQEQILLSSARYEYTLEKLEDIVRRTATILAEQAKFSDFEPIGEEASFGLKGLPPLTIGLPSGSEILLRGRIDRID  908 (1108)
+T ss_pred             HHHHHhhhhhcCCHHHHHHHHHHHHHHHHHHHHHHHHHHcCCCcceEEEeccCCCCCCCceeeCCCCCEEEEEEEEEEeE
+
+
+Q ss_pred             ccCC----EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHhhCCC---CCcccEEEEeeCCCCCCcEE
+Q Q_9186633_16    133 PING----RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSGRE---NWLEPFIVAVSKEKHPDKAV  205 (263)
+Q Consensus       133 ~~~g----~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~  205 (263)
+                      ..++    .|+|||||+..          .........+..||.+|++++....+..   . ....++.+..+.   ...
+T Consensus       909 ~~~~~~~~~IvDyKt~~~~----------~~~~~~~~~~~~Ql~lY~~~~~~~~~~~~~~~-~~~~~~~~~~~~---~~~  974 (1108)
+T COG3857         909 QLEKDGYLGIVDYKSSAHQ----------FDLTDVYYGLSLQLMTYLDAIKQNAPEDDVKP-GGALYFHMHEPE---IKL  974 (1108)
+T ss_pred             EcccCCEEEEEEcCCCCCc----------CCHHHHhhhhhHHHHHHHHHHHHhCCcCCCcc-eEEEEEEccCCc---ccc
+
+
+Q ss_pred             E------------------------------------------------EcCHHHHHHHHHHHHHHHHHHHH-hhcCCCC
+Q Q_9186633_16    206 I------------------------------------------------NFDDEIIQLELDEVEEYLPRVLS-VKHGVDK  236 (263)
+Q Consensus       206 ~------------------------------------------------~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~  236 (263)
+                      .                                                ..+.++++...+.+.+.+..+.. +..+.+.
+T Consensus       975 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~i~~g~~~ 1054 (1108)
+T COG3857         975 NSDLGLDKIEQELKKSMKYKGLFLEDETEMDQRLEIIIPAGLKKNGSLSQATEEEFDLLLKHNRNLYQEAAEQILDGDFS 1054 (1108)
+T ss_pred             CccCChHHHHHHHHHhcCcCcEeeCChHHHHhchhhhccceeccCCCcCcCCHHHHHHHHHHHHHHHHHHHHHHHcCCCC
+
+
+Q ss_pred             CCCC-----CCCCCChhHHHhc
+Q Q_9186633_16    237 PNRC-----EKCAYCRQTKRLT  253 (263)
+Q Consensus       237 ~~~~-----~~C~~C~~~~~C~  253 (263)
+                      +.+.     ..|.||+|+..|+
+T Consensus      1055 ~~p~~~~~~~~C~~C~~~~~C~ 1076 (1108)
+T COG3857        1055 INPYKKKKKTPCQYCPYKSICR 1076 (1108)
+T ss_pred             CCCccCCCCCCCCCCCchHHhC
+
+
+No 13
+>COG1468 Cas4; CRISPR/Cas system-associated exonuclease Cas4, RecB family [Defense mechanisms]. 
+Probab=99.77  E-value=2e-16  Score=109.71  Aligned_cols=173  Identities=20%  Similarity=0.218  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             hhcCCCCHHHHHHHHHcHHHHHHHHhCccccc---cchhHHHHHHHHHHHHHHHHHhcccChhhhcccchhHHHHHHHHH
+Q Q_9186633_16     16 ADMQYMSVSQYKAFRKCEAAALAKLKGEWQEE---HNESLLLGSYVHAWLEGALDQFKEKTPSLFTRSGELYSQYKNADL   92 (263)
+Q Consensus        16 ~~~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~~---~~~~~~~G~~~H~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   92 (263)
+                      .....+|+|++.++..||+++++.+..+....   .......|+.+|+.++.+...                        
+T Consensus        11 ~~~~~ls~s~l~~~~~Cpr~~~~~~~~~~~~~~~~~~~~~~~G~~~H~~~e~~~~~------------------------   66 (190)
+T COG1468          11 VNSMRITGSDVNEYLYCPRKLWLFSRGGPEESPEVYSEGVELGKLIHEKLEKFLRD------------------------   66 (190)
+T ss_pred             hccCCcCHHHHHHHHhCcHHHHHHhcCCCCCCCccccchhHHHHHHHHHHHHHhcc------------------------
+
+
+Q ss_pred             HHHHHHhCCcchhcccCceeeEee-ccccCeeeeEEeeEEeccCC-EEEEeeccccccccccccccccchHHHHhc-HHH
+Q Q_9186633_16     93 MIETLKDDGLCMFALEGEKEVIIT-AELFGTPWKSKLDVYNPING-RFVDLKTVKSIYDKVWTDEYGYCSFVEAYG-YTI  169 (263)
+Q Consensus        93 ~~~~~~~~~~~~~~~~~~~e~~~~-~~~~~~~~~g~~D~l~~~~g-~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~-~~~  169 (263)
+                                       ..+..+. .......+.|++|.+.   + .|+|+||++...                .. +..
+T Consensus        67 -----------------~~~~~~~~~~~~~~~l~g~~D~i~---~~~ivd~Kt~~~~~----------------~~~~~~  110 (190)
+T COG1468          67 -----------------EKEVELEGEWIKIDFLKGRMDLEV---KDVVVEIKKSKKME----------------KAPHKL  110 (190)
+T ss_pred             -----------------ccceEeeeceeeeeeeecCcceeE---eEEEEEEEcCCccC----------------CchHHH
+
+
+Q ss_pred             HHHHHHHHHHHhhCCCCCcccEEEEeeCCCCCCcEEEEcCHHHHHHHHHHHHHHHHHHHHhhcCCCCCC-CCCCCCCChh
+Q Q_9186633_16    170 QMAVYAELEKRWSGRENWLEPFIVAVSKEKHPDKAVINFDDEIIQLELDEVEEYLPRVLSVKHGVDKPN-RCEKCAYCRQ  248 (263)
+Q Consensus       170 Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~C~~C~~  248 (263)
+                      |+.+|++++.......  ..+.+++...+.   .....++++..+...+.+..+...+.   ...+++. ....|.+|+|
+T Consensus       111 Ql~~Y~~~~~~~~~~~--~~~~l~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~C~~C~~  182 (190)
+T COG1468         111 QLAYYLYLEEKLGIAV--AKGYIYYPKLKK---RVEVELTEELREEVERVLKEIEEILE---GGKPPPPKKKKKCKKCAY  182 (190)
+T ss_pred             HHHHHHHHHHHHCCCC--cEEEEEEecCCe---EEEEECCHHHHHHHHHHHHHHHHHHh---CCCCCCCcccCCCCCCCc
+
+
+Q ss_pred             HHHhcchh
+Q Q_9186633_16    249 TKRLTKVI  256 (263)
+Q Consensus       249 ~~~C~~~~  256 (263)
+                      ...|....
+T Consensus       183 ~~~C~~~~  190 (190)
+T COG1468         183 REICFPKL  190 (190)
+T ss_pred             hhhcCCCC
+
+
+No 14
+>KOG1805 DNA replication helicase [Replication, recombination and repair]
+Probab=99.66  E-value=7.5e-15  Score=127.06  Aligned_cols=226  Identities=13%  Similarity=0.016  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             hhcCCCCHHHHHHHHHcHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcccChh---------------hhccc
+Q Q_9186633_16     16 ADMQYMSVSQYKAFRKCEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKEKTPS---------------LFTRS   80 (263)
+Q Consensus        16 ~~~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~~~~~---------------~~~~~   80 (263)
+                      .+...+|+|.+..+..||+++++.+..+.....+.++..|+++|.+++.++.........               .+...
+T Consensus       180 ~Pd~liS~T~v~~~~~C~rr~~L~~~~~~~~~~~~~~~~GtivH~~~q~~l~~~~~~~~~~~~~~~~~~~~~~~~l~~~~  259 (1100)
+T KOG1805         180 HPDDLISGTTVASSLFCLRRTVLNERFRSGNSHTKAMLLGTIVHEVFQKALIQKSFAVDELILQASLQISKYISELYALG  259 (1100)
+T ss_pred             CCCceeccchHHhcccCccHHHHHHHhcCCCCCCHHHHHHHHHHHHHHHHHHcCCCCHHHHHHHHHHHHHHHHHHHHhCC
+
+
+Q ss_pred             chhHHHHHHHHHHHHHHHhCCcc----------------------hhcccCceeeEeeccccCeeeeEEeeEEeccCC--
+Q Q_9186633_16     81 GELYSQYKNADLMIETLKDDGLC----------------------MFALEGEKEVIITAELFGTPWKSKLDVYNPING--  136 (263)
+Q Consensus        81 ~~~~~~~~~~~~~~~~~~~~~~~----------------------~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g--  136 (263)
+                      .........+...+..+......                      ........|..+..+  .+.+.|++|.+.....  
+T Consensus       260 ~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~iEe~i~sp--~~gLkG~iD~~v~~~~~~  337 (1100)
+T KOG1805         260 VSEDVIRNELEKYLPNICLWIEHFVHKPLSGSFPSKRGPLPSKSIQISEVIDIEENIWSP--KFGLKGKIDATVRVKVEE  337 (1100)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHccCCCCCCCCCCCCCCCCCceeeechHHcccceecc--ccccCcEEeEEEEEEEcC
+
+
+Q ss_pred             -----EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHhhCCCCCcc-cEEEEeeCCCCCCcEEEEcCH
+Q Q_9186633_16    137 -----RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSGRENWLE-PFIVAVSKEKHPDKAVINFDD  210 (263)
+Q Consensus       137 -----~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~  210 (263)
+                           .++|+|||+..               ....+..|+.+|++++...++..  +. +.++|+..+.   ...+..+.
+T Consensus       338 ~~~~i~plElKTGk~~---------------~~~~h~~Ql~lY~lll~~~~~~~--~~~g~L~Yl~~~~---~~~v~~~~  397 (1100)
+T KOG1805         338 GKETIMPLELKTGKSS---------------SSIEHVGQVLLYTLLLSERYEIP--ILPGLLYYLKDGQ---LVEVPSKH  397 (1100)
+T ss_pred             CCeEEEEEEEecCCCC---------------CcHHHHHHHHHHHHHHHHhcCCC--CCceEEEEccCCc---eEEecCCh
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHhhcCC-------CCCC--CCCCCCCChhHHHhcchhhhHhhcC
+Q Q_9186633_16    211 EIIQLELDEVEEYLPRVLSVKHGV-------DKPN--RCEKCAYCRQTKRLTKVIHYSQILS  263 (263)
+Q Consensus       211 ~~~~~~~~~~~~~~~~~~~~~~~~-------~~~~--~~~~C~~C~~~~~C~~~~~~~~~~~  263 (263)
+                      .++........+++..+.......       .+|.  ....|.+|++...|.......+-.+
+T Consensus       398 ~~~~~li~~rn~la~~i~~~~~~~~~~~~~~~P~~~~~~~~C~~C~~~~~C~~~~~~~~~~~  459 (1100)
+T KOG1805         398 SDLRGLLMLRNRLANDLVHQEDVSASAQGGNLPEPILEDSSCDHCSHKTACSFFQKLEDQLD  459 (1100)
+T ss_pred             HHHHHHHHHHHHHHHHHHhchhcchhhcCCCCCCCCCCCccCCCCccchHHhHHHHHhhccc
+
+
+No 15
+>d1w36b3 c.52.1.24 (B:899-1174) Exodeoxyribonuclease V beta chain (RecB), C-terminal domain {Escherichia coli [TaxId: 562]}
+Probab=99.37  E-value=4.3e-11  Score=87.27  Aligned_cols=161  Identities=13%  Similarity=0.021  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             cchhHHHHHHHHHHHHHHHHHhcccChh---hhcccchhHHHHHHHHHHHHHHHhCCcchh--------cccCceeeEee
+Q Q_9186633_16     48 HNESLLLGSYVHAWLEGALDQFKEKTPS---LFTRSGELYSQYKNADLMIETLKDDGLCMF--------ALEGEKEVIIT  116 (263)
+Q Consensus        48 ~~~~~~~G~~~H~~l~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--------~~~~~~e~~~~  116 (263)
+                      ...+..+|+++|++|+.+..........   .....+........+...+.++...+....        ......|.++.
+T Consensus        47 ~~~~a~~GtlvH~vLE~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~l~~~l~s~~~~~~~~l~~~~~~~~~~E~~f~  126 (276)
+T d1w36b3          47 FPRGASPGTFLHSLFEDLDFTQPVDPNWVREKLELGGFESQWEPVLTEWITAVLQAPLNETGVSLSQLSARNKQVEMEFY  126 (276)
+T ss_dssp             SCCSHHHHHHHHHHTTSCCSSSCCCHHHHHHHHHHTTCCGGGHHHHHHHHHHHHSSCSSSSSCCGGGCCGGGEEEEEEEE
+T ss_pred             CCCChhHHHHHHHHHHhCCCCCCCChHHHHHHHHhCCCchhhHHHHHHHHHHHHcCCccCCCccHHHCCcccceeeeeee
+
+
+Q ss_pred             cccc------------------------------CeeeeEEeeEEeccCC--EEEEeeccccccccccccccccch----
+Q Q_9186633_16    117 AELF------------------------------GTPWKSKLDVYNPING--RFVDLKTVKSIYDKVWTDEYGYCS----  160 (263)
+Q Consensus       117 ~~~~------------------------------~~~~~g~~D~l~~~~g--~i~D~Kt~~~~~~~~~~~~~~~~~----  160 (263)
+                      ....                              ++.+.|+||++...+|  .|+||||+...          ...    
+T Consensus       127 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~G~IDrV~~~~g~~~IVDYKTg~~~----------~~~~~~~  196 (276)
+T d1w36b3         127 LPISEPLIASQLDTLIRQFDPLSAGCPPLEFMQVRGMLKGFIDLVFRHEGRYYLLDYKSNWLG----------EDSSAYT  196 (276)
+T ss_dssp             EEECSCCCHHHHHHHHHHHCSSTTSCCCCCSCCCEEEEEEEEEEEEBSSSCBCCEEEECCCCC----------SSGGGSB
+T ss_pred             ecCChhhhHHHHHHHHHhhCcccCCCCCcchhhHhhheeeEEEEEEEECCEEEEEecCCCCCC----------CChhhcC
+
+
+Q ss_pred             ------HHHHhcHHHHHHHHHHHHHHhhCCCCCcc----------cEEEEeeCCCCC----CcEEEEcCHHHHHHHHHHH
+Q Q_9186633_16    161 ------FVEAYGYTIQMAVYAELEKRWSGRENWLE----------PFIVAVSKEKHP----DKAVINFDDEIIQLELDEV  220 (263)
+Q Consensus       161 ------~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~----------~~~~~~~~~~~~----~~~~~~~~~~~~~~~~~~~  220 (263)
+                            ......|..|+.+|+.++.+.++..  +.          +.++++......    .......++..++...+.+
+T Consensus       197 ~~~~~~~~~~~~y~~QL~lY~~al~~~~~~~--v~~~~y~~~~~~a~~~fl~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  274 (276)
+T d1w36b3         197 QQAMAAAMQAHRYDLQYQLYTLALHRYLRHR--IADYDYEHHFGGVIYLFLRGVDKEHPQQGIYTTRPNAGLIALMDEMF  274 (276)
+T ss_dssp             HHHHHHHHHHTTTHHHHHHHHHHHHHHHHHH--SSSCCHHHHCCCCEEEESSSCCTTCTTBSCCBCCCCSSHHHHHHHHH
+T ss_pred             HHHHHHHHHHcccHHHHHHHHHHHHHHHhHH--ccCCChhhhcCcEEEEEEeecCCCCCCceEEecCCCHHHHHHHHHHh
+
+
+No 16
+>COG2251 COG2251; Predicted nuclease, RecB family  [General function prediction only]. 
+Probab=99.20  E-value=7e-09  Score=82.79  Aligned_cols=218  Identities=12%  Similarity=0.003  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CCCCHHHHHHHHHcHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHHhcccC------hhhhcccchhHHHHHHHHH
+Q Q_9186633_16     19 QYMSVSQYKAFRKCEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQFKEKT------PSLFTRSGELYSQYKNADL   92 (263)
+Q Consensus        19 ~~ls~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~~~~~~------~~~~~~~~~~~~~~~~~~~   92 (263)
+                      ..+|.|.+..+.+||++.++...................-....+..........      ...................
+T Consensus         1 ~~ls~s~~~~~~~C~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (474)
+T COG2251           1 MLYSASDLLAYQRCQRRALLRTFDARLGRGPPVAVLLKLPQERAALINDHELKEFQLREEETAKRLIIGRAAYTGTLMAA   80 (474)
+T ss_pred             CCCCHHHHHHHccCCcHHHHHHhHHhcCCCCCchhhhchHHHHHHHHHHHHHHHHHhhchhhhhceEecchhhhHHHHHH
+
+
+Q ss_pred             HHHHHHhCCcchhcccCceeeEeeccccCeeeeEEeeEEeccCC--EEEEeeccccccccccccccccchHHHHhcHHHH
+Q Q_9186633_16     93 MIETLKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPING--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQ  170 (263)
+Q Consensus        93 ~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Q  170 (263)
+                      ............    ....+....-..+..+.|++|+|...++  .|+|+|+++..+                ..+..|
+T Consensus        81 ~~~~t~~~~l~~----~~~~i~~~~~~~~~~~~g~~D~L~~~~~~~~iid~K~~~~~k----------------~~~~~Q  140 (474)
+T COG2251          81 GADEIFREVLIA----NRAPLYQPVLVGKIELVGFPDFLIKDGDVYRIVDAKLAKRPK----------------LPYRLQ  140 (474)
+T ss_pred             hHHHHHHhHHHh----cCCCceeeeeecCeEEEEEeeEEEecCCeEEEEEeEeCCCCC----------------CcHHHH
+
+
+Q ss_pred             HHHHHHHHHHhhCCCCCcccEEEEeeCCCCCCcEEEEcCHH-HHHHHHHHHHHHHHHHHHhhcCCCCCCCCC-CCCCChh
+Q Q_9186633_16    171 MAVYAELEKRWSGRENWLEPFIVAVSKEKHPDKAVINFDDE-IIQLELDEVEEYLPRVLSVKHGVDKPNRCE-KCAYCRQ  248 (263)
+Q Consensus       171 l~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~C~~C~~  248 (263)
+                      +++|++++.......  ....+++...+.   .....++.. .+......+..+...+..  .....+.... +|.+|+|
+T Consensus       141 la~Y~~~L~~~g~~~--~~~~~l~~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~~l~~--~~~p~~~~~~~~C~~C~~  213 (474)
+T COG2251         141 AAFYALLLAKSGVPV--AGNAELSLIGKV---AVPYSVEDLIWLNDVQRFLDTIEEDLHY--EAKTAVRWIRARCTTCQF  213 (474)
+T ss_pred             HHHHHHHHHHcCCCC--CCeEEEEEecCe---eeeEeHhHhHHHHHHHHHHHHHHHHHhh--cccccccccccccccCCC
+
+
+Q ss_pred             HHHhcchhhhHhhcC
+Q Q_9186633_16    249 TKRLTKVIHYSQILS  263 (263)
+Q Consensus       249 ~~~C~~~~~~~~~~~  263 (263)
+                      ...|.......+.++
+T Consensus       214 ~~~C~~~~~~~~~i~  228 (474)
+T COG2251         214 EPQCESEALEEDDLS  228 (474)
+T ss_pred             cchhHHHhhhcCCee
+
+
+No 17
+>COG1074 RecB; ATP-dependent exoDNAse (exonuclease V) beta subunit (contains helicase and exonuclease domains) [Replication, recombination and repair]. 
+Probab=98.94  E-value=8.6e-10  Score=96.95  Aligned_cols=169  Identities=14%  Similarity=0.041  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCHHHHHHHHHcHHHHHHH-HhCccccccch------------hHHHHHHHHHHHHHHH-------HHhcccChhhhccc
+Q Q_9186633_16     21 MSVSQYKAFRKCEAAALAK-LKGEWQEEHNE------------SLLLGSYVHAWLEGAL-------DQFKEKTPSLFTRS   80 (263)
+Q Consensus        21 ls~S~l~~~~~Cp~~~~~~-~~~~~~~~~~~------------~~~~G~~~H~~l~~~~-------~~~~~~~~~~~~~~   80 (263)
+                      .|+|.+..+..||..|+.. +..++.+....            +...|+++|.+++.+.       ..........+...
+T Consensus       913 ~s~s~~~~~~~cp~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~G~~~H~~le~~~~~~~~~~~~~~~~~~~~~~~~  992 (1139)
+T COG1074         913 TSFSSLQQGEQDAYPRLDARQEASVKELPRPLSESGTPHEFPKGKSFGTLLHSVLENLDFSAPVDAAEIGTAIHELLQHL  992 (1139)
+T ss_pred             cchHHHHccccccCCccccccccccccCCCCccCCCCcccCCCCCCcchhhHHHHhcCCCCCCCCHHHHHHHHHHHHHhC
+
+
+Q ss_pred             chhHHHHHHHHHHHHHHHh--------CCcchhccc--CceeeEeeccc---------------cCeeeeEEeeEEeccC
+Q Q_9186633_16     81 GELYSQYKNADLMIETLKD--------DGLCMFALE--GEKEVIITAEL---------------FGTPWKSKLDVYNPIN  135 (263)
+Q Consensus        81 ~~~~~~~~~~~~~~~~~~~--------~~~~~~~~~--~~~e~~~~~~~---------------~~~~~~g~~D~l~~~~  135 (263)
+                      .............+..+..        .........  ...|..+....               .++.+.|+||++...+
+T Consensus       993 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~l~G~IDri~~~~ 1072 (1139)
+T COG1074         993 PFEEDWEQELAEWLEAMLSTPLEDAERAIILSQILAFFRDPELEFLFPINSRPFSLLDPLSAGSERGLLQGIIDLLFRHE 1072 (1139)
+T ss_pred             CCCchHHHHHHHHHHHHhcCCchhHhhcccHHHHHHHhcCCcHHhhccccCCcccccCCCCcchhHHHhheeeEEEEEEC
+
+
+Q ss_pred             C--EEEEeeccccccccccccccccchH------HHHhcHHHHHHHHHHHHHHhhCCCCCcccEEEEeeCCC
+Q Q_9186633_16    136 G--RFVDLKTVKSIYDKVWTDEYGYCSF------VEAYGYTIQMAVYAELEKRWSGRENWLEPFIVAVSKEK  199 (263)
+Q Consensus       136 g--~i~D~Kt~~~~~~~~~~~~~~~~~~------~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~  199 (263)
+                      |  .|+|||||+...         ....      .....+..||.+|+.++....+..+ ....++++..+.
+T Consensus      1073 ~~~~IiDyKTg~~~~---------~~~~~~~~~~~~~~~~~~QL~~Y~~a~~~~~~~~~-~~~~~~~~~~~~ 1134 (1139)
+T COG1074        1073 GRYYILDYKTNRLGD---------DSAAYSPAEAMLKQRYDLQLQLYAEALHRILRKRV-KDYALARHFGGV 1134 (1139)
+T ss_pred             CEEEEEeCCCCCCCC---------ChhhcChhHHHHHHhHHHHHHHHHHHHHHHHcccC-ccccHHHhhCce
+
+
+No 18
+>PF08696.11 ; Dna2 ; DNA replication factor Dna2
+Probab=98.61  E-value=1.5e-07  Score=66.14  Aligned_cols=118  Identities=8%  Similarity=-0.024  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             hhcCCCCHHHHHHHHHcHHHHHHHHhCccccccchhHHHHHHHHHHHHHHHHH---------------hc--ccChhhhc
+Q Q_9186633_16     16 ADMQYMSVSQYKAFRKCEAAALAKLKGEWQEEHNESLLLGSYVHAWLEGALDQ---------------FK--EKTPSLFT   78 (263)
+Q Consensus        16 ~~~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~~~~~~~~~G~~~H~~l~~~~~~---------------~~--~~~~~~~~   78 (263)
+                      .+...+|+|+|..+..||+++++++..+.+...+.++.+|+++|.+++.++..               +.  ......+.
+T Consensus        53 ~Pd~liS~S~l~~~~~Cprk~~l~~~~~~~~~~~~~~~~G~ivH~~~q~~~~~~~~~~~~l~~~~~~~~~~~~~~~~l~~  132 (201)
+T E5SLR8_TRISP/1   53 NPSSVVGVNRISNGHFCTRKSVLMEIFKGFDKPGLKTQVGIIAHKMFQRAVKESISDEDTLRKMILEISKNVEFVQNQYY  132 (201)
+T ss_pred             CCCceEeeeehhhccCCcHHHHHHHHhcCCCCCCHHHHHHHHHHHHHHHHHHcCCCCHHHHHHHHHHHHhCcchHHHHHh
+
+
+Q ss_pred             ccchhHHHHHHHHHHHHHHHhCCcchhccc-------------CceeeEeeccccCeeeeEEeeEEec
+Q Q_9186633_16     79 RSGELYSQYKNADLMIETLKDDGLCMFALE-------------GEKEVIITAELFGTPWKSKLDVYNP  133 (263)
+Q Consensus        79 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-------------~~~e~~~~~~~~~~~~~g~~D~l~~  133 (263)
+                      .........+.+...+..+...........             .....+-......+.+.|++|++..
+T Consensus       133 ~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~i~~~~~iEe~i~s~~~gLkGkID~i~~  200 (201)
+T E5SLR8_TRISP/1  133 YDIDPVALNSELQSFVKAIAKFVQNFLSNRNPLPGVVPSTVIDRVLAVEEEMISEKFGFRGSIDMTMG  200 (201)
+T ss_pred             CCCCHHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCCCCeeEEEEeEeCcchhcccccCCCceeeEEEE
+
+
+No 19
+>COG1330 RecC; Exonuclease V gamma subunit [Replication, recombination and repair]. 
+Probab=98.47  E-value=8e-06  Score=72.34  Aligned_cols=138  Identities=9%  Similarity=-0.108  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             hcCCCCHHHHHHHHHcHHHHHHHHhCccccccc------------hhHHHHHHHHHHHH-------------HHHHHhcc
+Q Q_9186633_16     17 DMQYMSVSQYKAFRKCEAAALAKLKGEWQEEHN------------ESLLLGSYVHAWLE-------------GALDQFKE   71 (263)
+Q Consensus        17 ~~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~~~~------------~~~~~G~~~H~~l~-------------~~~~~~~~   71 (263)
+                      .+..+|+|+|..|..||.+|++++..++.....            .....|+++|++++             .   ....
+T Consensus       791 ~~~~lS~s~L~~~~~cP~~~~l~~~L~l~~~~~~~~~~~~e~~~~~~l~~~~l~~~~~~~~~~~~~~~~~~~~---~~~~  867 (1078)
+T COG1330         791 PPAELNLDELIRFWSHPVKHFFQQRLGVKFPDQDEEIEDSEPFELDGLSRYQINERLLEGLDEQDDAERQLRR---RLQG  867 (1078)
+T ss_pred             CCCcccHHHHHHHHhCHHHHHHHHhhCCCCCcccccccCCCCCcCchHHHHHHHHHHHHhhccCChHHHHHHH---HHcC
+
+
+Q ss_pred             cChhhhcccchhHHHHHHHHHHHHHHHhCCcchhcccCceeeEeeccccCeeeeEEeeEEeccCCEEEEeeccccccccc
+Q Q_9186633_16     72 KTPSLFTRSGELYSQYKNADLMIETLKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPINGRFVDLKTVKSIYDKV  151 (263)
+Q Consensus        72 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g~i~D~Kt~~~~~~~~  151 (263)
+                      ..+.-...........+.+......+.........     +..+....+++.+.|++|.+...  .++|||||+.+    
+T Consensus       868 ~~p~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-----~~~i~~~~~~~~l~G~id~v~~~--~~v~~ktg~~~----  936 (1078)
+T COG1330         868 DLPYGEFGVIFADQIREEAKPLANAVLYSIEQPGQ-----SVEIDLTIHGVRLKGWLLQLYGD--GLVRWRYGKPN----  936 (1078)
+T ss_pred             CCCccHHHHHHHHHHHHHHHHHHHHHHHHHhCCCC-----cEEEEeEECcEEEEEEecccccC--ceEEEeeCCCC----
+
+
+Q ss_pred             cccccccchHHHHhcHHHHHHHHHHHHHHh
+Q Q_9186633_16    152 WTDEYGYCSFVEAYGYTIQMAVYAELEKRW  181 (263)
+Q Consensus       152 ~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~  181 (263)
+                                   .....|+.+|.+++...
+T Consensus       937 -------------~~~~l~~wl~~L~~~a~  953 (1078)
+T COG1330         937 -------------DKQLLALWLEHLIYCAL  953 (1078)
+T ss_pred             -------------HHHHHHHHHHHHHHHHh
+
+
+No 20
+>COG5377 COG5377; Phage-related protein, predicted endonuclease  [Mobilome: prophages, transposons]. 
+Probab=97.18  E-value=0.0059  Score=46.74  Aligned_cols=115  Identities=13%  Similarity=0.072  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             eeEEeeEEeccCCEEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHH-HhhCCCCCcccEEEEeeCCCCCC
+Q Q_9186633_16    124 WKSKLDVYNPINGRFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEK-RWSGRENWLEPFIVAVSKEKHPD  202 (263)
+Q Consensus       124 ~~g~~D~l~~~~g~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~-~~~~~~~~~~~~~~~~~~~~~~~  202 (263)
+                      +.|.+|.+...+..+++.|+....      ....+........|..|+..|+.+.. .       ..+.++....+....
+T Consensus       101 ~~as~Dg~~~~~~~~lEiK~~~~~------~~~~~~~~~~p~~y~~Qvq~qm~v~g~~-------~~~~~~~~~~~~~~~  167 (319)
+T COG5377         101 ILANVDRDVVGEKAILECKTTSAY------MAKEWEDDEIPFHYIVQMQHYLGVLGEY-------RKAYFAVLIGGNKFI  167 (319)
+T ss_pred             eEEecccceeCCCceEEEecCchH------HHHhCCCCCCCHHHHHHHHHHHHHhCcc-------cEEEEEEEECCceEE
+
+
+Q ss_pred             cEEEEcCHHHHHHHHHHHHHHHHHHHHhhcCCCCCCCCCCCCCChhHHHhcc
+Q Q_9186633_16    203 KAVINFDDEIIQLELDEVEEYLPRVLSVKHGVDKPNRCEKCAYCRQTKRLTK  254 (263)
+Q Consensus       203 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C~~C~~~~~C~~  254 (263)
+                      ...+..+++..+.....+.+....+.   ....+|.....|..|.+...|..
+T Consensus       168 ~~~v~~d~~~~~~i~~~~~~f~~~~v---~~~~pp~~~~~~~~~~~~~~~~~  216 (319)
+T COG5377         168 WKEIERDDELINMIINAEIDFWNDIV---LGPVPPALDGSSAAEKYLALRYA  216 (319)
+T ss_pred             EEEEECCHHHHHHHHHHHHHHHHHhh---cCCCCCCCCCChhHHHHHHHHcc
+
+
+No 21
+>COG1637 NucS; Endonuclease NucS, RecB family [Replication, recombination and repair]. 
+Probab=92.31  E-value=0.79  Score=34.16  Aligned_cols=49  Identities=24%  Similarity=0.357  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             EEeeEEecc-CC--EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHhhCCCCCcccEEE
+Q Q_9186633_16    126 SKLDVYNPI-NG--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSGRENWLEPFIV  193 (263)
+Q Consensus       126 g~~D~l~~~-~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~~  193 (263)
+                      |++|++..+ +|  +|+++|.+...                 .....|+.-|...+.......  +.+.++
+T Consensus       161 griDil~~d~~g~~vIIElK~~~~~-----------------~~~v~Ql~~Y~~~l~~~~~~~--vrgilV  212 (253)
+T COG1637         161 GKVDILGRDERGNIVIIELKRRKAG-----------------LSAVSQLKRYVELLREDTGDK--VRGILV  212 (253)
+T ss_pred             CeecEEEECCCCCEEEEEEeecCCC-----------------hhHHHHHHHHHHHHHHccCCC--eEEEEE
+
+
+No 22
+>d3sm4a_ c.52.1.13 (A:) lambda exonuclease {Bacteriophage lambda [TaxId: 10710]}
+Probab=91.99  E-value=4.9  Score=29.36  Aligned_cols=184  Identities=10%  Similarity=-0.036  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCccccChhHhccchhhcCCCCHHHHHHHHHcHH--------------HHHHHHhCcccc-ccchhHHHHHHHHHHHHHH
+Q Q_9186633_16      1 MNLLQLNDENYYSQEADMQYMSVSQYKAFRKCEA--------------AALAKLKGEWQE-EHNESLLLGSYVHAWLEGA   65 (263)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~ls~S~l~~~~~Cp~--------------~~~~~~~~~~~~-~~~~~~~~G~~~H~~l~~~   65 (263)
+                      |....+.....-........++.|.+.....+..              ..+.....+..+ ..+..+..|+.....+...
+T Consensus        11 ~~~~~~~q~s~~W~~~R~~~itaS~~~~i~g~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~G~~~E~~~~~~   90 (225)
+T d3sm4a_          11 IDVRAVEQGDDAWHKLRLGVITASEVHNVIAKPRSGKKWPDMKMSYFHTLLAEVCTGVAPEVNAKALAWGKQYENDARTL   90 (225)
+T ss_dssp             CCTTCCCSSSHHHHHHTTTCEEGGGTHHHHCCCSSSSCCCHHHHHHHHHHHHHHHHCCCCCCCHHHHHHHHHHHHHHHHH
+T ss_pred             CeehhcccCCHHHHHHHCCCccHHhHHHHhcCCCCCCCCchhhhhHHHHHHHHHHhCCCCCCChHHHHHHHHcHHHHHHH
+
+
+Q ss_pred             HHHhcccChhhhcccchhHHHHHHHHHHHHHHHhCCcchhcccCceeeEeeccccCeeeeEEeeEEeccCCEEEEeeccc
+Q Q_9186633_16     66 LDQFKEKTPSLFTRSGELYSQYKNADLMIETLKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPINGRFVDLKTVK  145 (263)
+Q Consensus        66 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g~i~D~Kt~~  145 (263)
+                      +.......                                    ..+..+......-.+.+.+|.+...+| +++.|+..
+T Consensus        91 ~~~~~g~~------------------------------------v~~~~~~~~~~~~~l~aspDg~~~~~~-~vEiK~~~  133 (225)
+T d3sm4a_          91 FEFTSGVN------------------------------------VTESPIIYRDESMRTACSPDGLCSDGN-GLELACPF  133 (225)
+T ss_dssp             HHHHHSCC------------------------------------EECCCCEESSTTCCEEECCSEEETTSC-EEEEECCS
+T ss_pred             HHHHHCCc------------------------------------eEecCEEEECCCCceeecCceeecCCC-EEEEeCCC
+
+
+Q ss_pred             cccccccccccccchHH---HHhcHHHHHHHHHHHHHHhhCCCCCcccEEEEeeC--CCCCCcEEEEcCHHHHHHHHHHH
+Q Q_9186633_16    146 SIYDKVWTDEYGYCSFV---EAYGYTIQMAVYAELEKRWSGRENWLEPFIVAVSK--EKHPDKAVINFDDEIIQLELDEV  220 (263)
+Q Consensus       146 ~~~~~~~~~~~~~~~~~---~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~--~~~~~~~~~~~~~~~~~~~~~~~  220 (263)
+                      ...     ....+....   ....|..|+..|+.+.    +..  ...++++...  +....+..+..+++.++.....+
+T Consensus       134 ~~~-----~~~~~~~~~~~~ip~~y~~Qvq~qm~vt----g~~--~~~~v~~~~~~~~~~~~~~~v~~D~~~~~~i~~~~  202 (225)
+T d3sm4a_         134 TSR-----DFMKFRLGGFEAIKSAYMAQVQYSMWVT----RKN--AWYFANYDPRMKREGLHYVVIERDEKYMASFDEIV  202 (225)
+T ss_dssp             SHH-----HHHHHHHHGGGGTHHHHHHHHHHHHHHH----TCS--EEEEEEECTTSSSCCEEEEEEECCHHHHHHHHHHH
+T ss_pred             ccc-----cceeEEeCChhHhcHHHHHHHHHHHHhc----CCC--EEEEEEECCCcccCCcEEEEEeCCHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHhhc
+Q Q_9186633_16    221 EEYLPRVLSVKH  232 (263)
+Q Consensus       221 ~~~~~~~~~~~~  232 (263)
+                      .+..+.+.+...
+T Consensus       203 ~~f~~~v~~~~~  214 (225)
+T d3sm4a_         203 PEFIEKMDEALA  214 (225)
+T ss_dssp             HHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHH
+
+
+No 23
+>PF13366.6 ; PDDEXK_3 ; PD-(D/E)XK nuclease superfamily
+Probab=91.16  E-value=2.1  Score=27.54  Aligned_cols=71  Identities=17%  Similarity=0.196  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHHhCCcchhcccCceeeEeeccccCeeeeE-EeeEEeccCCEEEEeeccccccccccccccccchHHHHhcHHH
+Q Q_9186633_16     91 DLMIETLKDDGLCMFALEGEKEVIITAELFGTPWKS-KLDVYNPINGRFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTI  169 (263)
+Q Consensus        91 ~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g-~~D~l~~~~g~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~  169 (263)
+                      .......+.......-+....|..+.....+..+.+ ++|++.... .+++.|+.....                ..+..
+T Consensus        24 e~~Y~~~l~~eL~~~gi~~~~e~~i~v~y~g~~i~~~~~D~vv~~~-iivEiK~~~~~~----------------~~~~~   86 (117)
+T A0ZF67_NODSP/9   24 EEVYHRALREEFLMREIPHQSEYPVKVHYKGRPVGEGKLDFLVGNS-LIIELKAVQNLA----------------PIHEA   86 (117)
+T ss_pred             HHHHHHHHHHHHHhCCCCcceeCCeeeeeCCeeecCCeeeeEEcCc-EEEEeeccccCC----------------HHHHH
+
+
+Q ss_pred             HHHHHHHHH
+Q Q_9186633_16    170 QMAVYAELE  178 (263)
+Q Consensus       170 Ql~~Y~~~~  178 (263)
+                      |+..|..+.
+T Consensus        87 Ql~~YL~~~   95 (117)
+T A0ZF67_NODSP/9   87 QVLSYLKMT   95 (117)
+T ss_pred             HHHHHHHHh
+
+
+No 24
+>PF06250.11 ; YhcG_C ; YhcG PDDEXK nuclease domain
+Probab=90.82  E-value=2.4  Score=28.41  Aligned_cols=56  Identities=18%  Similarity=0.145  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             eEEeeEEeccC--C--EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHhh-----CCCCCcccEEEEe
+Q Q_9186633_16    125 KSKLDVYNPIN--G--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWS-----GRENWLEPFIVAV  195 (263)
+Q Consensus       125 ~g~~D~l~~~~--g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~-----~~~~~~~~~~~~~  195 (263)
+                      .+++|++..+.  |  +|++.|.+...                 ..+..|+..|...+....     ...  +...++..
+T Consensus        58 ~~~iDll~~~~~~~~~vviElK~~~~~-----------------~~~v~Ql~~Y~~~~~~~~~~~~~~~~--~~gili~~  118 (145)
+T G2P197_STRVO/1   58 EFRIDLLFYHCKLHRYVVIELKTDKAR-----------------PAHLGQLGFYVTVVDDLLRDKERDDP--TLGILIAK  118 (145)
+T ss_pred             cceecEEEEeCCCCeEEEEEEcCCCCC-----------------HhHHHHHHHHHHHHHHHhccCCCCCC--cEEEEEEe
+
+
+Q ss_pred             eCCC
+Q Q_9186633_16    196 SKEK  199 (263)
+Q Consensus       196 ~~~~  199 (263)
+                      ....
+T Consensus       119 ~~~~  122 (145)
+T G2P197_STRVO/1  119 SRDK  122 (145)
+T ss_pred             cCCH
+
+
+No 25
+>PF01939.16 ; NucS ; Endonuclease NucS
+Probab=88.92  E-value=1.8  Score=31.73  Aligned_cols=38  Identities=21%  Similarity=0.272  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             EEeeEEecc-CC--EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHH
+Q Q_9186633_16    126 SKLDVYNPI-NG--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKR  180 (263)
+Q Consensus       126 g~~D~l~~~-~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~  180 (263)
+                      |++|++..+ +|  ++++.|.+...                 .....|+.-|+..+.+
+T Consensus       137 g~iDll~~d~~g~~vvIElK~~~~~-----------------~~~v~Ql~rY~~~~~~  177 (226)
+T NUCS_METTH/27-  137 GFIDILGKDENGSLMIIELKSRKAG-----------------VSAVKQLKRYVDEFRE  177 (226)
+T ss_pred             CeeEEEEEeCCCCEEEEEEecCCCC-----------------HHHHHHHHHHHHHHHH
+
+
+No 26
+>PF14281.6 ; PDDEXK_4 ; PD-(D/E)XK nuclease superfamily
+Probab=76.71  E-value=29  Score=23.98  Aligned_cols=78  Identities=17%  Similarity=0.129  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             eEEeeEEeccCC--EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHhhCCCCCcccEEEEeeCCCCCC
+Q Q_9186633_16    125 KSKLDVYNPING--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSGRENWLEPFIVAVSKEKHPD  202 (263)
+Q Consensus       125 ~g~~D~l~~~~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~~  202 (263)
+                      .|++|++...++  .+++-|.+...                   ...|+.-|...+....+... ....++.........
+T Consensus        74 ~~riDi~i~~~~~~ivIEnKi~a~~-------------------~~~Ql~~Y~~~~~~~~~~~~-~~~v~L~~~~~~~~~  133 (169)
+T Q1QYN0_CHRSD/3   74 GARLDMLAQWPGGALLFEHKVHAPL-------------------SAEQVNKYRELAASEFPGKS-ARVIVVSANTGQHRP  133 (169)
+T ss_pred             CCcccEEEEcCCeEEEEEeCCCCCC-------------------ChHHHHHHHHHHHHHCCCCc-EEEEEEeCCCCCCCC
+
+
+Q ss_pred             cEEEEcCHHHHHHHHHHHHH
+Q Q_9186633_16    203 KAVINFDDEIIQLELDEVEE  222 (263)
+Q Consensus       203 ~~~~~~~~~~~~~~~~~~~~  222 (263)
+                      .....++-.++-........
+T Consensus       134 ~~~~~isw~~i~~~l~~~~~  153 (169)
+T Q1QYN0_CHRSD/3  134 EAHGCLCWEDVYKLLETRHK  153 (169)
+T ss_pred             CCceEEeHHHHHHHHHHHhh
+
+
+No 27
+>d1w36c3 c.52.1.25 (C:818-1121) Exodeoxyribonuclease V beta chain (RecC), C-terminal domain {Escherichia coli [TaxId: 562]}
+Probab=71.81  E-value=59  Score=25.27  Aligned_cols=185  Identities=10%  Similarity=-0.045  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             cCCCCHHHHHHHHHcHHHHHHHHhCcccc------------ccchhHHHHHHHHHHHHHHHHH-----------hcccCh
+Q Q_9186633_16     18 MQYMSVSQYKAFRKCEAAALAKLKGEWQE------------EHNESLLLGSYVHAWLEGALDQ-----------FKEKTP   74 (263)
+Q Consensus        18 ~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~------------~~~~~~~~G~~~H~~l~~~~~~-----------~~~~~~   74 (263)
+                      +..++.++|..|.+.|.+++++...++..            -....+..-.+.+..++.....           .....|
+T Consensus        12 ~~~i~l~~L~~F~~~P~~~f~~~~Lgi~l~~~~~~~~d~Epf~ld~L~~y~l~~~ll~~~~~~~~~~~~~~~~~~~G~lP   91 (304)
+T d1w36c3          12 PETVPLETLQRFWAHPVRAFFQMRLQVNFRTEDSEIPDTEPFILEGLSRYQINQQLLNALVEQDDAERLFRRFRAAGDLP   91 (304)
+T ss_dssp             CSCEEHHHHHHHSSSHHHHCCCCCTCCCCCCSCCCCCSSCCSSCCHHHHHHHHHHHHHHHHTTCCHHHHHHHHHHHTCSC
+T ss_pred             CCccCHHHHHHHHHcHHHHHHHHhhCCcCCCcccCCCCCCCCCCchHhHHHHHHHHHHHHHcCCCHHHHHHHHHHhCCCC
+
+
+Q ss_pred             hhhcccchhHHHHHHHHHHHHHHHhCCcchhcccCceeeEeeccccCeeeeEEeeEEeccCCEEEEeecccccccccccc
+Q Q_9186633_16     75 SLFTRSGELYSQYKNADLMIETLKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPINGRFVDLKTVKSIYDKVWTD  154 (263)
+Q Consensus        75 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g~i~D~Kt~~~~~~~~~~~  154 (263)
+                      .-...........+.+..+...+......      .....+.....++.+.|.++.+...  .++.+..++..       
+T Consensus        92 ~g~~g~~~~~~~~~~~~~l~~~~~~~~~~------~~~~~~~l~~~~~~l~g~l~~~~~~--~~v~~~~~~~~-------  156 (304)
+T d1w36c3          92 YGAFGEIFWETQCQEMQQLADRVIACRQP------GQSMEIDLACNGVQITGWLPQVQPD--GLLRWRPSLLS-------  156 (304)
+T ss_dssp             SHHHHHHHHHHHHHHHHHHHHHHHTTCCC------CEEEEEEEEETTEEEEEEEEEECSS--EEEEECSSCCC-------
+T ss_pred             CcHHHHHHHHHHHHHHHHHHHHHHHhcCC------CCCeeEEEeeCCEEEEEEcCcccCC--CcEEEEeCCCC-------
+
+
+Q ss_pred             ccccchHHHHhcHHHHHHHHHHHHHHhhCCCCCcccEEEEeeCCCCCCcEEEEcCHHHHHHHHHHHHHHHHHHHHhhcCC
+Q Q_9186633_16    155 EYGYCSFVEAYGYTIQMAVYAELEKRWSGRENWLEPFIVAVSKEKHPDKAVINFDDEIIQLELDEVEEYLPRVLSVKHGV  234 (263)
+Q Consensus       155 ~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  234 (263)
+                                ..+.++..+..+++. ..+..  ....++....+.      ..+..-..+.....+...+..+.......
+T Consensus       157 ----------~k~~l~~wl~hL~~~-a~~~~--~~~~~~~~~~~~------~~~~~~~~~~A~~~L~~ll~~~~~g~~~P  217 (304)
+T d1w36c3         157 ----------VAQGMQLWLEHLVYC-ASGGN--GESRLFLRKDGE------WRFPPLAAEQALHYLSQLIEGYREGMSAP  217 (304)
+T ss_dssp             ----------HHHHHHHHHHHHHHH-HTSCC--CEEEEECGGGCE------EEECCCCHHHHHHHHHHHHHHHHHTTTSC
+T ss_pred             ----------HHHHHHHHHHHHHHH-HhCCC--ceeEEEEEeCCE------EEeCCCCHHHHHHHHHHHHHHHHHHHhCC
+
+
+Q ss_pred             CC
+Q Q_9186633_16    235 DK  236 (263)
+Q Consensus       235 ~~  236 (263)
+                      .+
+T Consensus       218 lp  219 (304)
+T d1w36c3         218 LL  219 (304)
+T ss_dssp             CC
+T ss_pred             Cc
+
+
+No 28
+>d2ghfa4 g.37.1.1 (A:-6-95) Zinc fingers and homeoboxes protein 1, ZHX1 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=66.23  E-value=3.1  Score=20.91  Aligned_cols=7  Identities=43%  Similarity=1.312  Sum_probs=0.0  Template_Neff=3.000
+
+Q ss_pred             CCCChhH
+Q Q_9186633_16    243 CAYCRQT  249 (263)
+Q Consensus       243 C~~C~~~  249 (263)
+                      |.||+|.
+T Consensus        19 CKyC~F~   25 (42)
+T d2ghfa4          19 CKYCTFQ   25 (42)
+T ss_dssp             CSSCSCE
+T ss_pred             ccCCCCC
+
+
+No 29
+>PF15518.6 ; L_protein_N ; L protein N-terminus
+Probab=66.05  E-value=7.5  Score=24.47  Aligned_cols=20  Identities=40%  Similarity=0.434  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             EeeEEeccCC--EEEEeecccc
+Q Q_9186633_16    127 KLDVYNPING--RFVDLKTVKS  146 (263)
+Q Consensus       127 ~~D~l~~~~g--~i~D~Kt~~~  146 (263)
+                      ++|.+...+|  .|+||||...
+T Consensus        72 TPD~i~~~~~~~~IIEfkts~~   93 (103)
+T H6V7I0_9VIRU/6   72 TPDNYLIINGWIIIIDYKVSVS   93 (103)
+T ss_pred             CCcEEEEECCEEEEEEceeecC
+
+
+No 30
+>PF15516.6 ; BpuSI_N ; BpuSI N-terminal domain
+Probab=56.59  E-value=84  Score=21.69  Aligned_cols=69  Identities=12%  Similarity=0.009  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             HHHHHHHHHHhCCcchhcccCceeeEeeccccCeeeeEEeeEEeccCC-----EEEEeeccccccccccccccccchHHH
+Q Q_9186633_16     89 NADLMIETLKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPING-----RFVDLKTVKSIYDKVWTDEYGYCSFVE  163 (263)
+Q Consensus        89 ~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g-----~i~D~Kt~~~~~~~~~~~~~~~~~~~~  163 (263)
+                      ..+..+...+....+.    ...++......++    .++|++...+.     .|++.|-....-              .
+T Consensus        14 ~~E~ai~~aL~~LGw~----~ei~v~~~~~iGs----i~PDfVi~~~~t~k~l~VIEvKRp~~~v--------------~   71 (152)
+T W3AKY3_9FIRM/2   14 ICEDALNQALSALGLS----ATYEAKHHIYTGS----LEMDFVVINKSTGRYLCVVEVKRTPSDV--------------Q   71 (152)
+T ss_pred             HHHHHHHHHHHHCCCC----CeEEEEeeeecCC----ccceEEEEECCCCCEEEEEEEecCcccc--------------c
+
+
+Q ss_pred             HhcHHHHHHHHHHHHH
+Q Q_9186633_16    164 AYGYTIQMAVYAELEK  179 (263)
+Q Consensus       164 ~~~~~~Ql~~Y~~~~~  179 (263)
+                      ...|..|+.-|+..+.
+T Consensus        72 s~~y~~Ql~SYmr~l~   87 (152)
+T W3AKY3_9FIRM/2   72 STRYQFQAQSYVQMNQ   87 (152)
+T ss_pred             chHHHHHHHHHHHhcc
+
+
+No 31
+>PF09588.10 ; YqaJ ; YqaJ-like viral recombinase domain
+Probab=49.94  E-value=70  Score=21.11  Aligned_cols=38  Identities=18%  Similarity=0.036  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             eeeEEeeEEeccCC-EEEEeecccc------------ccccccccccccchHHHHhcHHHHHHHHHHHH
+Q Q_9186633_16    123 PWKSKLDVYNPING-RFVDLKTVKS------------IYDKVWTDEYGYCSFVEAYGYTIQMAVYAELE  178 (263)
+Q Consensus       123 ~~~g~~D~l~~~~g-~i~D~Kt~~~------------~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~  178 (263)
+                      .+.|.+|.+... + .+++.|+...            +                 ..|..|+..|+.+.
+T Consensus        88 ~~~aspDg~~~~-~~~~~EiK~~~~~~~~~~~~~~~ip-----------------~~y~~Q~q~~m~~t  138 (141)
+T M9X6M0_MANHA/1   88 QLMVSPDGLIPN-LKKGLEIKCPKMKTHIKYLLEGGVP-----------------NEYLIQVQSALWVT  138 (141)
+T ss_pred             eeEEcCCEeccC-CCeEEEEeCCCchHhHHHHHcCCCC-----------------hHHHHHHHHHHHHc
+
+
+No 32
+>PF13588.6 ; HSDR_N_2 ; Type I restriction enzyme R protein N terminus (HSDR_N)
+Probab=49.09  E-value=63  Score=20.07  Aligned_cols=39  Identities=10%  Similarity=-0.026  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             eEEeeEEeccCC----EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHH
+Q Q_9186633_16    125 KSKLDVYNPING----RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELE  178 (263)
+Q Consensus       125 ~g~~D~l~~~~g----~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~  178 (263)
+                      .|++|.+...++    .+++.|.....               .......|+..|+...
+T Consensus        36 ~~~~D~~~~~~~~~~~~iiE~K~~~~~---------------~~~~~~~q~~~y~~~~   78 (110)
+T Q7MVU2_PORGI/3   36 RKRCDTVVYDTNLRPIVLCEYKAPTVS---------------LTQKTMDQILCYNFIF   78 (110)
+T ss_pred             cceeEEEEEcCCCCEEEEEEEcCCCCC---------------CCHHHHHHHHHHHHHc
+
+
+No 33
+>PF18743.1 ; AHJR-like ; REase_AHJR-like
+Probab=47.97  E-value=32  Score=22.24  Aligned_cols=22  Identities=14%  Similarity=0.240  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             eEEeeEEeccCC--EEEEeecccc
+Q Q_9186633_16    125 KSKLDVYNPING--RFVDLKTVKS  146 (263)
+Q Consensus       125 ~g~~D~l~~~~g--~i~D~Kt~~~  146 (263)
+                      .+.+|++...+|  .+++.|+...
+T Consensus        42 ~y~pDii~~~~g~~~~iEVK~~~~   65 (125)
+T L8LT49_9CYAN/1   42 NYRLDLVVRNKDETVVIEVRSRAS   65 (125)
+T ss_pred             cceecEEEEeCCEEEEEEEEeccc
+
+
+No 34
+>PF03470.14 ; zf-XS ; XS zinc finger domain
+Probab=47.49  E-value=12  Score=19.16  Aligned_cols=5  Identities=60%  Similarity=2.009  Sum_probs=0.0  Template_Neff=5.800
+
+Q ss_pred             CCCCh
+Q Q_9186633_16    243 CAYCR  247 (263)
+Q Consensus       243 C~~C~  247 (263)
+                      ||||+
+T Consensus         1 CPfC~    5 (44)
+T IDN2_ARATH/48-    1 CPYCP    5 (44)
+T ss_pred             CCCCC
+
+
+No 35
+>COG0792 YraN; Predicted endonuclease distantly related to archaeal Holliday junction resolvase [Replication, recombination and repair]. 
+Probab=43.36  E-value=41  Score=21.73  Aligned_cols=22  Identities=18%  Similarity=0.270  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             EEeeEEeccCC--EEEEeeccccc
+Q Q_9186633_16    126 SKLDVYNPING--RFVDLKTVKSI  147 (263)
+Q Consensus       126 g~~D~l~~~~g--~i~D~Kt~~~~  147 (263)
+                      |.+|+|...++  .+++.|+.+..
+T Consensus        33 geiDiIa~~~~~l~fVEVK~r~~~   56 (114)
+T COG0792          33 GEIDLIARDGDTVVFVEVKYRRND   56 (114)
+T ss_pred             CeeEEEEEeCCEEEEEEEEEEecC
+
+
+No 36
+>PF17946.1 ; RecC_C ; RecC C-terminal domain
+Probab=39.07  E-value=2e+02  Score=21.03  Aligned_cols=185  Identities=9%  Similarity=-0.094  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             cCCCCHHHHHHHHHcHHHHHHHHhCcccc------------ccchhHHHHHHHHHHHHHHH-----------HHhcccCh
+Q Q_9186633_16     18 MQYMSVSQYKAFRKCEAAALAKLKGEWQE------------EHNESLLLGSYVHAWLEGAL-----------DQFKEKTP   74 (263)
+Q Consensus        18 ~~~ls~S~l~~~~~Cp~~~~~~~~~~~~~------------~~~~~~~~G~~~H~~l~~~~-----------~~~~~~~~   74 (263)
+                      |..++.++|..|..+|.+++++...++..            -.......-.+-+..++...           -......|
+T Consensus         1 p~~l~l~~L~~F~~~P~~~fl~~~Lgi~~~~~~~~~~d~Epf~ld~L~~~~l~~~l~~~~~~~~~~~~~~~~~~~~G~lP   80 (222)
+T A0A0N1J1D5_9DE    1 ENKISLTELLTFFRNPIQYFFNHRLGLVLTDRVRTLERREPFNIEGLEKYNLKNDLLDILLENDAPYAFLDQIRAKGILP   80 (222)
+T ss_pred             CCceeHHHHHHHHHCHHHHHHHcccCCCCChhhhhcccCCCCCCchHhhhHHHHHHHHHHhcCCChHHHHHHHHHcCCCC
+
+
+Q ss_pred             hhhcccchhHHHHHHHHHHHHHHHhCCcchhcccCceeeEeeccccCeeeeEEeeEEeccCCEEEEeecccccccccccc
+Q Q_9186633_16     75 SLFTRSGELYSQYKNADLMIETLKDDGLCMFALEGEKEVIITAELFGTPWKSKLDVYNPINGRFVDLKTVKSIYDKVWTD  154 (263)
+Q Consensus        75 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~g~~D~l~~~~g~i~D~Kt~~~~~~~~~~~  154 (263)
+                      .-...........+.+..+...+.......     .....+.....++.+.|.++.+...  .++.|..++..       
+T Consensus        81 ~g~~g~~~~~~~~~~~~~l~~~l~~~~~~~-----~~~~~~~~~~~~~~l~g~l~~~~~~--~~v~~~~~~~~-------  146 (222)
+T A0A0N1J1D5_9DE   81 LGEVGRVAYIDVIDELKQMSKKIQHLIKDP-----LPDITLDIKIDGIQLFGNIQNCYQE--GLVFYRPTKAK-------  146 (222)
+T ss_pred             CCHHHHHHHHHHHHHHHHHHHHHHHHccCC-----CCCcEEEEEECCEEEEEEEeceeCC--eeEEEecCCCC-------
+
+
+Q ss_pred             ccccchHHHHhcHHHHHHHHHHHHHHhhCCCCCcccEEEEeeCCCCCCcEEEEcCHHHHHHHHHHHHHHHHHHHHhhcCC
+Q Q_9186633_16    155 EYGYCSFVEAYGYTIQMAVYAELEKRWSGRENWLEPFIVAVSKEKHPDKAVINFDDEIIQLELDEVEEYLPRVLSVKHGV  234 (263)
+Q Consensus       155 ~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  234 (263)
+                                ..+.....+..+++.......  .......+........        ..+...+.+...+..+.......
+T Consensus       147 ----------~~~~l~~wl~hL~~~a~~~~~--~~~~~~~~~~~~~~~~--------~~~~A~~~L~~ll~~~~~g~~~p  206 (222)
+T A0A0N1J1D5_9DE  147 ----------PKDFIDCWLIHLALNIQEGSN--RPPSWFVGNDNAYQFP--------SIVNSKALLSELISIFQQGLNEP  206 (222)
+T ss_pred             ----------HHHHHHHHHHHHHHHHhcCCC--CCCeeEEeecCCcccc--------chhcHHHHHHHHHHHHHHHhcCC
+
+
+Q ss_pred             CC
+Q Q_9186633_16    235 DK  236 (263)
+Q Consensus       235 ~~  236 (263)
+                      .+
+T Consensus       207 lp  208 (222)
+T A0A0N1J1D5_9DE  207 IH  208 (222)
+T ss_pred             Cc
+
+
+No 37
+>PF09630.10 ; DUF2024 ; Domain of unknown function (DUF2024)
+Probab=37.96  E-value=80  Score=19.19  Aligned_cols=29  Identities=24%  Similarity=0.492  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             HHHHHHHHHHHHhhcCCCCCCCCCCCCCC
+Q Q_9186633_16    218 DEVEEYLPRVLSVKHGVDKPNRCEKCAYC  246 (263)
+Q Consensus       218 ~~~~~~~~~~~~~~~~~~~~~~~~~C~~C  246 (263)
+                      +.+.+....+++.......+-....|.||
+T Consensus        32 ~~~~~yg~~yL~~kg~~~~~lt~~eC~FC   60 (83)
+T A5FCC7_FLAJ1/1   32 NQVFEYGKEYLKTVLQEGQPLTSKECRFC   60 (83)
+T ss_pred             HHHHHHHHHHHHhCCCCCCCCccceeeee
+
+
+No 38
+>PF08011.11 ; PDDEXK_9 ; PD-(D/E)XK nuclease superfamily
+Probab=36.93  E-value=51  Score=20.17  Aligned_cols=18  Identities=17%  Similarity=0.268  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             eEEeeEEeccCC--EEEEee
+Q Q_9186633_16    125 KSKLDVYNPING--RFVDLK  142 (263)
+Q Consensus       125 ~g~~D~l~~~~g--~i~D~K  142 (263)
+                      .|+.|++...++  .|+++|
+T Consensus        29 ~Gr~Di~l~~~~~~~IiE~K   48 (97)
+T Q2FPQ3_METHJ/4   29 KGRIDLTVITAQAAWIFEFK   48 (97)
+T ss_pred             CCeecEEEEeCCeEEEEEEe
+
+
+No 39
+>PF01870.18 ; Hjc ; Archaeal holliday junction resolvase (hjc)
+Probab=36.74  E-value=50  Score=19.53  Aligned_cols=22  Identities=18%  Similarity=0.215  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             EEeeEEeccCC--EEEEeeccccc
+Q Q_9186633_16    126 SKLDVYNPING--RFVDLKTVKSI  147 (263)
+Q Consensus       126 g~~D~l~~~~g--~i~D~Kt~~~~  147 (263)
+                      |-+|++...+|  .+++.|++...
+T Consensus        24 g~~Diia~~~~~~~~iEvK~~~~~   47 (87)
+T HJC_METJA/10-9   24 KGVDLIAGRKGEVLIFECKTSSKT   47 (87)
+T ss_pred             CCCcEEEEECCEEEEEEEEeeCCC
+
+
+No 40
+>PF10576.9 ; EndIII_4Fe-2S ; Iron-sulfur binding domain of endonuclease III
+Probab=36.61  E-value=41  Score=12.27  Aligned_cols=16  Identities=19%  Similarity=0.295  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CCCCCCCCCChhHHHh
+Q Q_9186633_16    237 PNRCEKCAYCRQTKRL  252 (263)
+Q Consensus       237 ~~~~~~C~~C~~~~~C  252 (263)
+                      ......|..|+....|
+T Consensus         2 ~Ar~p~c~~C~l~~~c   17 (17)
+T I3TFT8_THEC1/5    2 RPRNPRCWECPLRDLC   17 (17)
+T ss_pred             CCCCCCCcCCCchhhC
+
+
+No 41
+>PF15650.6 ; Tox-REase-9 ; Restriction endonuclease fold toxin 9
+Probab=36.02  E-value=1.4e+02  Score=18.39  Aligned_cols=49  Identities=12%  Similarity=0.126  Sum_probs=0.0  Template_Neff=5.200
+
+Q ss_pred             EeeEEeccCCEEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHhhCCCCCcccEE
+Q Q_9186633_16    127 KLDVYNPINGRFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSGRENWLEPFI  192 (263)
+Q Consensus       127 ~~D~l~~~~g~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~~~~~~  192 (263)
+                      ++|.+....+.|.+.|-.+..               ....-..||..|..-+...++..  ....+
+T Consensus        37 r~D~vd~~~~~i~ElKP~np~---------------ai~~G~~ql~~y~~el~~~~g~~--w~~~l   85 (88)
+T B7GLX9_ANOFW/2   37 RIDFIDFEKKIIYELKPNNPR---------------AIKKGLKQLKAYKKEVEKIYGKG--WRTVL   85 (88)
+T ss_pred             CcceeecCCCeEEeCCCCCHH---------------HHHHHHHHHHHHHHHHHHHhCCC--ceEee
+
+
+No 42
+>cd20736 PoNe_Nuclease; Polymorphic Nuclease effector (PoNe) co-occurs with N-terminal nuclease domain. This family contains the DNase toxin domain called PoNe (Polymorphic Nuclease effector), which belongs to a diverse superfamily of PD-(D/E)xK phosphodiesterases, and is associated with several toxin delivery systems including type V, type VI, and type VII.
+Probab=33.78  E-value=63  Score=18.25  Aligned_cols=23  Identities=22%  Similarity=0.371  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             eEEeeEEeccCC--EEEEeeccccc
+Q Q_9186633_16    125 KSKLDVYNPING--RFVDLKTVKSI  147 (263)
+Q Consensus       125 ~g~~D~l~~~~g--~i~D~Kt~~~~  147 (263)
+                      .|.+|++...++  .+++.|+....
+T Consensus        29 ~~~iD~i~~~~~~~~~vEvK~~~~~   53 (78)
+T cd20736          29 HGEIDIIARDHQSIIFVEVKTRRAS   53 (78)
+T ss_pred             CCcceEEEEeCCEEEEEEEEEeeCc
+
+
+No 43
+>PF14475.6 ; Mso1_Sec1_bdg ; Sec1-binding region of Mso1
+Probab=33.34  E-value=80  Score=16.24  Aligned_cols=22  Identities=18%  Similarity=0.212  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             HHHHHHHHHHHHHhc--ccChhhh
+Q Q_9186633_16     56 SYVHAWLEGALDQFK--EKTPSLF   77 (263)
+Q Consensus        56 ~~~H~~l~~~~~~~~--~~~~~~~   77 (263)
+                      +.||++|..++..-.  ...|.+.
+T Consensus        19 T~V~raLr~yY~~k~~~~~~P~WL   42 (42)
+T G8C0S0_TETPH/2   19 TLVHKALVKYYQNQQPFQGFPGWL   42 (42)
+T ss_pred             hHHHHHHHHHHHhcCCCCCCCCCC
+
+
+No 44
+>PF09226.11 ; Endonuc-HincII ; Restriction endonuclease HincII
+Probab=32.11  E-value=1.8e+02  Score=21.53  Aligned_cols=43  Identities=14%  Similarity=0.004  Sum_probs=0.0  Template_Neff=2.400
+
+Q ss_pred             EeeEEeccCC--EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHH
+Q Q_9186633_16    127 KLDVYNPING--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAE  176 (263)
+Q Consensus       127 ~~D~l~~~~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~  176 (263)
+                      +.|++...+|  .|+|.||.+-.+       .+-.......--..|+...+.
+T Consensus       102 TADIL~~~~~FyeiIDVKTrNisK-------~aq~PNIISAyKlAq~Ca~mi  146 (247)
+T C7M7J0_CAPOD/8  102 TADILVVKDEFYELVDVKTRNIAK-------KAQAPNIISAYKLAQLCAKML  146 (247)
+T ss_pred             cccEEEEcCceEEEEeeeccccCC-------cCCCCchHhHHHHHHHHHHHh
+
+
+No 45
+>d2hfqa1 d.375.1.1 (A:1-85) Hypothetical protein NE1680 {Nitrosomonas europaea [TaxId: 915]}
+Probab=27.85  E-value=1.4e+02  Score=18.32  Aligned_cols=29  Identities=21%  Similarity=0.389  Sum_probs=0.0  Template_Neff=4.800
+
+Q ss_pred             HHHHHHHHHHHHhhcCCCCCCCCCCCCCC
+Q Q_9186633_16    218 DEVEEYLPRVLSVKHGVDKPNRCEKCAYC  246 (263)
+Q Consensus       218 ~~~~~~~~~~~~~~~~~~~~~~~~~C~~C  246 (263)
+                      +.+.+....+++.......+-....|.||
+T Consensus        30 ~~~~~y~k~yL~~kg~~~~~lt~~eC~FC   58 (85)
+T d2hfqa1          30 KKAIEFAKQWLSSIGEEGATVTSEECRFC   58 (85)
+T ss_dssp             HHHHHHHHHHHHHHTCCCSCCCTTTBCCC
+T ss_pred             HHHHHHHHHHHHhCCCCCCccchheeccc
+
+
+No 46
+>d1hh1a_ c.52.1.18 (A:) Archaeal Holliday junction resolvase Hjc {Sulfolobus solfataricus [TaxId: 2287]}
+Probab=27.32  E-value=74  Score=21.21  Aligned_cols=20  Identities=25%  Similarity=0.383  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             EEeeEEeccCC--EEEEeeccc
+Q Q_9186633_16    126 SKLDVYNPING--RFVDLKTVK  145 (263)
+Q Consensus       126 g~~D~l~~~~g--~i~D~Kt~~  145 (263)
+                      |.+|+|...+|  ..++.|+++
+T Consensus        31 g~pDiIa~~~~~~~~IEVK~~~   52 (132)
+T d1hh1a_          31 PIPDIIALKNGVIILIEMKSRK   52 (132)
+T ss_dssp             CCCSEEEEETTEEEEEEECCEE
+T ss_pred             CCCcEEEEECCEEEEEEEEecc
+
+
+No 47
+>d1wjpa2 g.37.1.1 (A:43-66) Zinc finger protein 295, ZNF295 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=27.23  E-value=43  Score=14.48  Aligned_cols=4  Identities=75%  Similarity=2.585  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             CCCC
+Q Q_9186633_16    243 CAYC  246 (263)
+Q Consensus       243 C~~C  246 (263)
+                      |+||
+T Consensus         3 C~YC    6 (24)
+T d1wjpa2           3 CPYC    6 (24)
+T ss_dssp             CTTT
+T ss_pred             CCCC
+
+
+No 48
+>d2yrka1 g.37.1.4 (A:8-55) Zinc finger homeobox protein 4, ZFHX4 {Human (Homo sapiens) [TaxId: 9606]}
+Probab=26.78  E-value=64  Score=16.94  Aligned_cols=13  Identities=15%  Similarity=0.478  Sum_probs=0.0  Template_Neff=6.200
+
+Q ss_pred             CCCCCCCCCCChh
+Q Q_9186633_16    236 KPNRCEKCAYCRQ  248 (263)
+Q Consensus       236 ~~~~~~~C~~C~~  248 (263)
+                      .+.+...|++|..
+T Consensus         2 ~~~~~f~C~~C~~   14 (48)
+T d2yrka1           2 TDGTKPECTLCGV   14 (48)
+T ss_dssp             CCCCCSCCTTTTC
+T ss_pred             CCCCCcccCCCCC
+
+
+No 49
+>d4qboa1 c.52.1.35 (A:1-90) saNUC {Streptococcus phage P9 [TaxId: 403905]}
+Probab=26.75  E-value=86  Score=19.03  Aligned_cols=23  Identities=22%  Similarity=0.119  Sum_probs=0.0  Template_Neff=8.100
+
+Q ss_pred             eEEeeEEeccCC--EEEEeeccccc
+Q Q_9186633_16    125 KSKLDVYNPING--RFVDLKTVKSI  147 (263)
+Q Consensus       125 ~g~~D~l~~~~g--~i~D~Kt~~~~  147 (263)
+                      .|.+|++....|  ..++.|+....
+T Consensus        28 ~G~PDl~~~~~~~~~~iE~K~~~~~   52 (90)
+T d4qboa1          28 IGVPDRIVVMNTGTFFVEVKAPGKK   52 (90)
+T ss_dssp             SSCCSEEEEETTEEEEEEECCTTCC
+T ss_pred             CCCCcEEEEecCCEEEEEEeCCCCC
+
+
+No 50
+>PF18450.1 ; zf_C2H2_6 ; Zinc Finger domain
+Probab=26.35  E-value=46  Score=15.25  Aligned_cols=4  Identities=75%  Similarity=2.585  Sum_probs=0.0  Template_Neff=4.300
+
+Q ss_pred             CCCC
+Q Q_9186633_16    243 CAYC  246 (263)
+Q Consensus       243 C~~C  246 (263)
+                      |+||
+T Consensus         5 CpyC    8 (28)
+T A0A091KJI1_9GR    5 CPYC    8 (28)
+T ss_pred             CCCC
+
+
+No 51
+>PF01646.16 ; Herpes_UL24 ; Herpes virus proteins UL24 and UL76
+Probab=25.54  E-value=2.1e+02  Score=20.48  Aligned_cols=41  Identities=22%  Similarity=0.052  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             EeeEEeccCC------EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHh
+Q Q_9186633_16    127 KLDVYNPING------RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRW  181 (263)
+Q Consensus       127 ~~D~l~~~~g------~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~  181 (263)
+                      ++|.|..-+.      .|+++||.....              .......+..-|...+.++
+T Consensus        59 ipDCV~~~~~~~~~vCyiiElKTc~~~~--------------~~~t~~~k~~Qr~qGL~QL  105 (174)
+T UL24_HHV8P/14-   59 IADCVILVSGGHQPVCYVVELKTCLSHQ--------------LIPTNTVRTSQRAQGLCQL  105 (174)
+T ss_pred             CCCEEEEEEcCCCCEEEEEEEecccccc--------------CCCChHHHHHHHHHHHHHH
+
+
+No 52
+>d3e40a_ c.52.1.19 (A:) Restriction endonuclease HincII {Haemophilus influenzae [TaxId: 727]}
+Probab=25.23  E-value=2.8e+02  Score=20.72  Aligned_cols=43  Identities=12%  Similarity=0.005  Sum_probs=0.0  Template_Neff=2.300
+
+Q ss_pred             EeeEEeccCC--EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHH
+Q Q_9186633_16    127 KLDVYNPING--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAE  176 (263)
+Q Consensus       127 ~~D~l~~~~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~  176 (263)
+                      +.|++...+|  .|+|.||.+-.+       .+........--..|+...+.
+T Consensus       111 TADIL~~kn~FyeiIDVKTrN~~K-------~aq~PNIISAyKlAq~Ca~mi  155 (257)
+T d3e40a_         111 TADILLVKDQFYELLDVKTRNISK-------SAFAPNIISAYKLAQTCAKMI  155 (257)
+T ss_dssp             SCSEEEEETTEEEEEEEEEEETTS-------CCCCCEEEEHHHHHHHHHHHH
+T ss_pred             cccEEEEcCccEEEeeeecccCCC-------CCCCCchhcHHHHHHHHHHHH
+
+
+No 53
+>d1ob8a_ c.52.1.18 (A:) Holliday-junction resolvase SSO1176 {Sulfolobus solfataricus [TaxId: 2287]}
+Probab=24.59  E-value=93  Score=20.28  Aligned_cols=22  Identities=9%  Similarity=0.137  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             eEEeeEEeccCC--EEEEeecccc
+Q Q_9186633_16    125 KSKLDVYNPING--RFVDLKTVKS  146 (263)
+Q Consensus       125 ~g~~D~l~~~~g--~i~D~Kt~~~  146 (263)
+                      .|.+|++...+|  ..++.|+.+.
+T Consensus        30 ~g~pDiia~~~g~~~~IEvK~~~~   53 (124)
+T d1ob8a_          30 NPLPDIFATKGNTLLSIECKSTWE   53 (124)
+T ss_dssp             CCSCSEEEEETTEEEEEEEEEESS
+T ss_pred             CCCCCEEEEECCEEEEEEEEeCCC
+
+
+No 54
+>d1gefa_ c.52.1.18 (A:) Archaeal Holliday junction resolvase Hjc {Pyrococcus furiosus [TaxId: 2261]}
+Probab=23.88  E-value=1e+02  Score=19.97  Aligned_cols=21  Identities=19%  Similarity=0.259  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             EEeeEEeccCC--EEEEeecccc
+Q Q_9186633_16    126 SKLDVYNPING--RFVDLKTVKS  146 (263)
+Q Consensus       126 g~~D~l~~~~g--~i~D~Kt~~~  146 (263)
+                      |.+|++...+|  .+++.|+++.
+T Consensus        30 g~~Diia~~~~~~~~IEVK~~~~   52 (120)
+T d1gefa_          30 KKVDLVAGNGKKYLCIEVKVTKK   52 (120)
+T ss_dssp             SSCSEEEECSSCEEEEEEEEESS
+T ss_pred             CCCcEEEEECCEEEEEEEEecCC
+
+
+No 55
+>PF02021.17 ; UPF0102 ; Uncharacterised protein family UPF0102
+Probab=23.43  E-value=1.2e+02  Score=18.50  Aligned_cols=22  Identities=27%  Similarity=0.327  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             E--EeeEEeccCC--EEEEeeccccc
+Q Q_9186633_16    126 S--KLDVYNPING--RFVDLKTVKSI  147 (263)
+Q Consensus       126 g--~~D~l~~~~g--~i~D~Kt~~~~  147 (263)
+                      |  .+|+|...++  .+++.|+....
+T Consensus        25 g~~eiDlI~~~~~~lvfvEVk~r~~~   50 (92)
+T R7L347_9BACT/2   25 AHTEIDIIAVDGETMVFVEVKTRASN   50 (92)
+T ss_pred             CCCcccEEEEeCCEEEEEEEEeecCC
+
+
+No 56
+>d1xmxa1 c.52.1.26 (A:1-383) Hypothetical protein VC1899 {Vibrio cholerae [TaxId: 666]}
+Probab=23.39  E-value=5.5e+02  Score=21.09  Aligned_cols=98  Identities=13%  Similarity=0.135  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             ceeeEeeccccCeeeeEEeeEEeccCC--EEEEeeccccccccccccccccchHHHHhcHHHHHHHHHHHHHHhhCCCCC
+Q Q_9186633_16    110 EKEVIITAELFGTPWKSKLDVYNPING--RFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQMAVYAELEKRWSGRENW  187 (263)
+Q Consensus       110 ~~e~~~~~~~~~~~~~g~~D~l~~~~g--~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~~~~~~~~~~  187 (263)
+                      ...+.+.....+......+|++...++  .+++.||+...                 ......+.-+..+.....|..  
+T Consensus       274 ~~~v~i~~~~~~~~~~nEiDv~~~~~~~l~~iECKt~~~~-----------------~~~~~~l~kl~~~~~~~gg~~--  334 (383)
+T d1xmxa1         274 SLNVQVYRQLGEREVRNELDVATVVNNKLHIIECKTKGMR-----------------DDGDDTLYKLESLRDLLGGLQ--  334 (383)
+T ss_dssp             EEEEEEEEEETTEEEEEEEEEEEEETTEEEEEEEESSCCC-----------------C-CCCHHHHHHHHHHHHHGGG--
+T ss_pred             EecEEEEecCCCcccceEEEEEEEECCEEEEEEecCCCCc-----------------ccchHHHHHHHHHHHHHCccc--
+
+
+Q ss_pred             cccEEEEeeCCCC------CCcEEEEcCHHHHHHHHHHHHHHHHH
+Q Q_9186633_16    188 LEPFIVAVSKEKH------PDKAVINFDDEIIQLELDEVEEYLPR  226 (263)
+Q Consensus       188 ~~~~~~~~~~~~~------~~~~~~~~~~~~~~~~~~~~~~~~~~  226 (263)
+                      ...+++......+      ......-+..+++..+...+.+.++.
+T Consensus       335 ~~~~lv~~~~~~~~~~~ra~~~~i~vi~~~~l~~l~~~l~~w~~~  379 (383)
+T d1xmxa1         335 ARAMLVSFRPLRHNDITRAEDLGLALIGPDELKDLKTHLTQWFKA  379 (383)
+T ss_dssp             CEEEEEESSCCCHHHHHHHHHHTCEEECGGGGGGHHHHHHHHHHT
+T ss_pred             ceEEEEECCCCCHHHHHHHHHhCCEEeCHHHHhHHHHHHHHHHHH
+
+
+No 57
+>PF18742.1 ; DpnII-MboI ; REase_DpnII-MboI
+Probab=22.00  E-value=3.7e+02  Score=18.54  Aligned_cols=37  Identities=22%  Similarity=0.228  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             eEEeeEEeccCCEEEEeeccccccccccccccccchHHHHhcHHHHH----HHHH
+Q Q_9186633_16    125 KSKLDVYNPINGRFVDLKTVKSIYDKVWTDEYGYCSFVEAYGYTIQM----AVYA  175 (263)
+Q Consensus       125 ~g~~D~l~~~~g~i~D~Kt~~~~~~~~~~~~~~~~~~~~~~~~~~Ql----~~Y~  175 (263)
+                      ..++|+.....+.++++|..+...              ......-|+    ..|+
+T Consensus        63 ~~r~Df~i~~~~i~IEvK~~r~~~--------------~~~~i~~qi~~D~~~Y~  103 (148)
+T Q88LJ9_PSEPK/1   63 SSRVDFLLKEEQIIVEVKKTRESL--------------KARHIGEQLIVDIARYR  103 (148)
+T ss_pred             cceeeEEecccCEEEEEEEcCcch--------------hHHHHHHHHHHHHHHHH
+
+
+No 58
+>PF17653.1 ; DUF5522 ; Family of unknown function (DUF5522)
+Probab=21.87  E-value=68  Score=17.00  Aligned_cols=9  Identities=22%  Similarity=0.549  Sum_probs=0.0  Template_Neff=5.000
+
+Q ss_pred             CCCCCCChh
+Q Q_9186633_16    240 CEKCAYCRQ  248 (263)
+Q Consensus       240 ~~~C~~C~~  248 (263)
+                      .+.|.+|+|
+T Consensus        36 g~gCrHCPy   44 (48)
+T K8YVJ9_NANGC/2   36 GNVCRHCPY   44 (48)
+T ss_pred             CCCCcCCCC
+
+
+No 59
+>PF14082.6 ; DUF4263 ; Domain of unknown function (DUF4263)
+Probab=21.74  E-value=3.7e+02  Score=18.49  Aligned_cols=54  Identities=22%  Similarity=0.208  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             EEe-eEEeccC-C---EEEEeeccccccccccccc---cccchHHHHhcHHHHHHHHHHHHHHhh
+Q Q_9186633_16    126 SKL-DVYNPIN-G---RFVDLKTVKSIYDKVWTDE---YGYCSFVEAYGYTIQMAVYAELEKRWS  182 (263)
+Q Consensus       126 g~~-D~l~~~~-g---~i~D~Kt~~~~~~~~~~~~---~~~~~~~~~~~~~~Ql~~Y~~~~~~~~  182 (263)
+                      +++ |++.... +   .|+++|.....-   +...   ..+...........|+.-|...+....
+T Consensus        45 ~~~~Dfl~~~~~~~~~~lVElK~p~~~l---~~~~~r~~~~~~s~~~~~ai~Qv~~y~~~~~~~~  106 (164)
+T A8AFY4_CITK8/1   45 GNLVDFIYASRLTGNIVLVEIKTPKTIL---LGRRYRTNAYSISEELSGAFVQVLNYKDQLMKEY  106 (164)
+T ss_pred             CeeeeEEEEeCCCCeEEEEEEeCCCchh---hcCcccCCCceeCHHHHHHHHHHHHHHHHHHHHH
+
+
+No 60
+>PF10117.9 ; McrBC ; McrBC 5-methylcytosine restriction system component
+Probab=20.85  E-value=2.6e+02  Score=21.93  Aligned_cols=36  Identities=19%  Similarity=0.083  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             EeeEEeccCC---EEEEeecccc--------ccccccccccccchHHHHhcHHHHHHHHHHHH
+Q Q_9186633_16    127 KLDVYNPING---RFVDLKTVKS--------IYDKVWTDEYGYCSFVEAYGYTIQMAVYAELE  178 (263)
+Q Consensus       127 ~~D~l~~~~g---~i~D~Kt~~~--------~~~~~~~~~~~~~~~~~~~~~~~Ql~~Y~~~~  178 (263)
+                      ++|++...++   .|+|-|-...        ..                .....|+..|+..+
+T Consensus       259 ~PDiii~~~~~~~~I~DaKYk~~~~~~~~~~~~----------------~~D~yQ~~~Y~~~~  305 (316)
+T A0PYQ5_CLONN/5  259 IPDIVIEKDGIERIIIDTKWKSVSNEYNRHGVK----------------REDIYQMYAYLTRY  305 (316)
+T ss_pred             cCcEEEEECCceEEEEEeccccCCcccccCCCC----------------HHHHHHHHHHHHhc
+
+

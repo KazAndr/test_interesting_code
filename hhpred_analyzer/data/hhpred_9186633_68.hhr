@@ -1,0 +1,821 @@
+Query         Q_9186633_68
+Match_columns 277
+No_of_seqs    257 out of 1570
+Neff          11.1857
+Searched_HMMs 69205
+Date          Sun May 24 00:29:01 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_68.hhr -oa3m ../results/9186633_68.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 d2nw0a_ c.1.8.0 (A:) automated 100.0 1.9E-30 2.7E-35  195.6  20.9  187    2-198     1-188 (189)
+  2 d1jfxa_ c.1.8.8 (A:) Streptomy 100.0 3.5E-30 5.1E-35  198.4  18.2  192    1-197     4-216 (217)
+  3 d2waga1 c.1.8.0 (A:11-218) aut 100.0 1.7E-28 2.4E-33  187.8  18.0  187    1-193     5-206 (208)
+  4 d2x8ra_ c.1.8.0 (A:) automated 100.0 1.7E-28 2.4E-33  188.0  17.2  187    1-196     2-209 (209)
+  5 PF01183.20 ; Glyco_hydro_25 ;   99.9 2.1E-25 3.1E-30  166.8  17.2  167    5-176     1-179 (179)
+  6 d2j8fa2 c.1.8.8 (A:2-190) auto  99.9 1.3E-23 1.8E-28  158.6  18.6  170    1-187     4-188 (189)
+  7 COG3757 Acm; Lyzozyme M1 (1,4-  99.9 4.4E-23 6.3E-28  164.1  18.0  181    1-187    62-256 (269)
+  8 cd06414 GH25_LytC-like; The Ly  99.9 9.4E-21 1.4E-25  142.2  19.5  180    2-185     1-191 (191)
+  9 cd06523 GH25_PlyB-like; PlyB i  99.9 8.9E-21 1.3E-25  140.5  17.8  173    3-184     1-177 (177)
+ 10 cd06419 GH25_muramidase_2; Unc  99.9 9.7E-21 1.4E-25  142.1  17.5  177    1-184     7-190 (190)
+ 11 cd06413 GH25_muramidase_1; Unc  99.9 3.5E-20   5E-25  139.1  17.7  180    1-186     2-191 (191)
+ 12 cd06525 GH25_Lyc-like; Lyc mur  99.9 7.5E-20 1.1E-24  136.2  16.3  174    3-184     1-184 (184)
+ 13 cd06524 GH25_YegX-like; YegX i  99.8 3.6E-19 5.3E-24  133.9  16.9  177    3-186     1-194 (194)
+ 14 cd06415 GH25_Cpl1-like; Cpl-1   99.8 9.3E-19 1.3E-23  132.0  18.6  174    2-182     1-196 (196)
+ 15 cd00599 GH25_muramidase; Endo-  99.8 1.3E-18 1.9E-23  129.8  16.7  175    3-184     1-186 (186)
+ 16 cd06417 GH25_LysA-like; LysA i  99.8 2.2E-18 3.2E-23  129.7  17.3  174    2-187     1-191 (195)
+ 17 cd06416 GH25_Lys1-like; Lys-1   99.8 1.1E-17 1.5E-22  125.9  19.1  178    2-184     1-196 (196)
+ 18 cd06418 GH25_BacA-like; BacA i  99.8 1.5E-17 2.2E-22  127.1  19.6  180    1-184    11-212 (212)
+ 19 cd06522 GH25_AtlA-like; AtlA i  99.8   1E-17 1.4E-22  125.4  17.6  176    2-185     1-192 (192)
+ 20 d1sfsa_ c.1.8.8 (A:) Unnamed h  99.8 1.8E-18 2.6E-23  132.9  12.6  170    2-185     2-205 (213)
+ 21 cd06412 GH25_CH-type; CH-type   99.8 4.5E-17 6.5E-22  123.1  17.7  177    2-187     1-195 (199)
+ 22 PF08924.11 ; DUF1906 ; Domain   99.7 5.7E-16 8.3E-21  116.4  12.8  160   18-184     1-185 (185)
+ 23 PF12123.8 ; Amidase02_C ; N-ac  98.4 3.8E-07 5.4E-12   51.0   2.4   44  227-274     1-44  (44)
+ 24 d1egza_ c.1.8.3 (A:) Endogluca  30.2 3.8E+02  0.0055   21.5   8.9   88   40-128    77-166 (291)
+ 25 d5i2ua_ c.1.8.0 (A:) automated  24.6   5E+02  0.0072   21.0  10.0   87   40-128    79-165 (296)
+ 26 d3rjya_ c.1.8.0 (A:) automated  20.1 6.2E+02   0.009   20.4  10.3   89   40-128    72-167 (310)
+
+No 1
+>d2nw0a_ c.1.8.0 (A:) automated matches {Unidentified phage [TaxId: 38018]}
+Probab=99.98  E-value=1.9e-30  Score=195.59  Aligned_cols=187  Identities=50%  Similarity=0.928  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             ceeEEccccccCCCCHHHhccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHHHh
+Q Q_9186633_68      2 GQIIDISKWNAGSIKWDVLGPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMARV   81 (277)
+Q Consensus         2 ~~giDvs~~~~~~~~~~~~~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~~~   81 (277)
+                      .+|||||+|| +.+||..+.++++|+++|++.|..+.|+.|..++..|+++||+++.||+.+..+..++..||++|++.+
+T Consensus         1 ~~giDvS~~q-~~~d~~~~~~g~~fvi~r~t~G~~~~d~~~~~~~~~a~~~gl~~g~Y~~~~~~~~~~~~~qa~~f~~~~   79 (189)
+T d2nw0a_           1 GYIVDMSKWN-GSPDWDTAKGQLDLVIARVQDGSNYVDPVYKDYVAAMKARNIPFGSYAFCRFVSVEDAKVEARDFWNRG   79 (189)
+T ss_dssp             CEEEEECGGG-CSCCHHHHHTTEEEEEEEEEESTTCBCSSHHHHHHHHHHHTCCEEEEEECCCCSHHHHHHHHHHHHHHS
+T ss_pred             CeeEEeeccC-CCCCHHHHhccCCEEEEEecCCCCcCChhHHHHHHHHHHCCCCEEEEEEeccCCHHHHHHHHHHHHHhc
+
+
+Q ss_pred             CCCCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHCCC-EEEEEEcHHHHHhcCchhcccccceecccCCCCCCCCcc
+Q Q_9186633_68     82 SPNAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSKGW-KVGFYVSHHMYNKYGLSNVKADFLWIPRYGGPRPKYPCD  160 (277)
+Q Consensus        82 ~~~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~g~-~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~~~p~~~~~  160 (277)
+                      ....++++||+|......     ....+..|++.+++.|. +++||++.++|..+....+...++|+++|. ..|.+++.
+T Consensus        80 ~~~~~~~~lDvE~~~~~~-----~~~~~~~f~~~~~~~~~~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~-~~~~~~~~  153 (189)
+T d2nw0a_          80 DKDSLFWVADVEVTTMSD-----MRAGTQAFIDELYRLGAKKVGLYVGHHKYEEFGAAQIKCDFTWIPRYG-AKPAYPCD  153 (189)
+T ss_dssp             CTTCSCEEEEECSCCSSC-----HHHHHHHHHHHHHHHTCSCEEEEECTTTTTTTTGGGCCSSEEEEECSS-SCCSSCCS
+T ss_pred             ccCCceEEEEeecCChHh-----HHHHHHHHHHHHHHcCCCccEEEecHHHHHHhchhHhhcCCcEEecCC-CCCCCCCC
+
+
+Q ss_pred             eeeccCCCCCCccCCCceeecccccCCCChHHhcCCCC
+Q Q_9186633_68    161 IWQYADGETGGWLDGVGKVDLNSLIGNKPLSWFIGNEQ  198 (277)
+Q Consensus       161 ~wQyt~~~~~~~~~g~g~vD~~~~~~~~~~~~~~~~~~  198 (277)
+                      +|||++.   +.++|+++||+|.++++..++.|.+...
+T Consensus       154 ~wQyt~~---~~~~g~~~vd~n~~~g~~~~~~~~~~~~  188 (189)
+T d2nw0a_         154 LWQYDEY---GQVPGIGKCDLNRLNGDKSLDWFTGKGE  188 (189)
+T ss_dssp             EEEEEEE---EEETTTEEEEEEEECSSCCHHHHHCCCC
+T ss_pred             EEEEcCc---eeCCCCCeeeeeeecCCcchHHhcCCCC
+
+
+No 2
+>d1jfxa_ c.1.8.8 (A:) Streptomyces lysozyme {Streptomyces coelicolor, "mueller" dsm3030 [TaxId: 1902]}
+Probab=99.97  E-value=3.5e-30  Score=198.42  Aligned_cols=192  Identities=23%  Similarity=0.370  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CceeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHH
+Q Q_9186633_68      1 MGQIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMA   79 (277)
+Q Consensus         1 ~~~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~   79 (277)
+                      +.+|||||+|| +.+||..+ +.+++|+|+|++.|..+.|+.|..++..|+++||++|+|||.++.. .++..||++|++
+T Consensus         4 ~~~giDiS~~q-~~~d~~~~~~~g~~fviir~t~G~~~~D~~~~~~~~~a~~aGl~~g~Y~~~~~~~-~~~~~qa~~~~~   81 (217)
+T d1jfxa_           4 GVQGIDVSHWQ-GSINWSSVKSAGMSFAYIKATEGTNYKDDRFSANYTNAYNAGIIRGAYHFARPNA-SSGTAQADYFAS   81 (217)
+T ss_dssp             SSEEEEECGGG-CSCCHHHHHHTTCCEEEEEEEETTTEECTTHHHHHHHHHHTTCEEEEEEECCTTT-SCHHHHHHHHHH
+T ss_pred             CcceEEeccCC-CCCCHHHHHHcCCcEEEEEeccCCCccCccHHHHHHHHHHcCCeEEEEEEecCCC-CCHHHHHHHHHH
+
+
+Q ss_pred             HhC-----CCCceEEEEeecccc----ccCCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCc---hhcccccce
+Q Q_9186633_68     80 RVS-----PNAKFLVLDTEDDTL----KSCGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGL---SNVKADFLW  146 (277)
+Q Consensus        80 ~~~-----~~~~~~~~d~E~~~~----~~~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~---~~~~~~~lW  146 (277)
+                      .+.     ....+++||+|....    ...........+.+|++.+++. |.+++||++.++|..+..   ..+..+++|
+T Consensus        82 ~~~~~~~~~~~~~~~lDvE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iYt~~~~~~~~~~~~~~~~~~~~lW  161 (217)
+T d1jfxa_          82 NGGGWSRDNRTLPGVLDIEHNPSGAMCYGLSTTQMRTWINDFHARYKARTTRDVVIYTTASWWNTCTGSWNGMAAKSPFW  161 (217)
+T ss_dssp             TTCCCCCSSSBCCCEEECCSCSSSCTTTTCCHHHHHHHHHHHHHHHHHHHSSCCEEEECHHHHHHHHTSCCTTTTTCCEE
+T ss_pred             ccCCcCcCCCCCCcEEEeeeCCCCCcccCCCHHHHHHHHHHHHHHHHHhcCCcEEEEecHHHHHHhcccccchhhcCCeE
+
+
+Q ss_pred             ecccCCCCCCC-----CcceeeccCCCCCCccCCC-ceeecccccCCCC-hHHhcCCC
+Q Q_9186633_68    147 IPRYGGPRPKY-----PCDIWQYADGETGGWLDGV-GKVDLNSLIGNKP-LSWFIGNE  197 (277)
+Q Consensus       147 ~a~y~~~~p~~-----~~~~wQyt~~~~~~~~~g~-g~vD~~~~~~~~~-~~~~~~~~  197 (277)
+                      +|+|....|..     .+.+|||++.   +.++|+ ++||+|.++++.. |..+.+..
+T Consensus       162 ~A~y~~~~~~~p~~~~~~~~wQyt~~---~~~~G~~~~vD~n~~~g~~~~~~~~~~~~  216 (217)
+T d1jfxa_         162 VAHWGVSAPTVPSGFPTWTFWQYSAT---GRVGGVSGDVDRNKFNGSAARLLALANNT  216 (217)
+T ss_dssp             EECTTCSSCCCCTTSSSCSEEEEEEE---EEETTEEEEEEEEEESSCHHHHHHHHHTC
+T ss_pred             EeecCCCCCCCCCCCCCeeEEEeecC---ceeCCccCceeeceeCCCHHHHHHHhccC
+
+
+No 3
+>d2waga1 c.1.8.0 (A:11-218) automated matches {Bacillus anthracis [TaxId: 198094]}
+Probab=99.96  E-value=1.7e-28  Score=187.85  Aligned_cols=187  Identities=24%  Similarity=0.400  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CceeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHH
+Q Q_9186633_68      1 MGQIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMA   79 (277)
+Q Consensus         1 ~~~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~   79 (277)
+                      +.+|||||+|| +.+||..+ ..+++|+|+|++.|..+.|+.|..++..|+++||++|+|||.++.+  ++..||++|++
+T Consensus         5 ~~~giDvS~~q-~~~d~~~~~~~g~~fviir~~~G~~~~d~~~~~~~~~a~~agl~~g~Y~~~~~~~--~~~~qa~~f~~   81 (208)
+T d2waga1           5 EIKGVDVASYQ-GDIDWRELEKQNMKFAFIKATEGSAFVDKYFSKNWTNANKTSMRVGAYHFFSFDS--KGETQAEQFIR   81 (208)
+T ss_dssp             CCEEEEECGGG-CSCCHHHHHTTTCCEEEEEEEETTTEECTTHHHHHHHHHTSSSEEEEEEECCTTS--CHHHHHHHHHH
+T ss_pred             cceeeEecccc-CCCCHHHHHhCCCeEEEEEEeeCCcccCccHHHHHHHHHHcCCeEEEEEEeeCCC--CHHHHHHHHHH
+
+
+Q ss_pred             HhCC--CCceEEEEeeccccc---cCCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCchhcccccceecccCCC
+Q Q_9186633_68     80 RVSP--NAKFLVLDTEDDTLK---SCGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLSNVKADFLWIPRYGGP  153 (277)
+Q Consensus        80 ~~~~--~~~~~~~d~E~~~~~---~~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~~  153 (277)
+                      .+..  ...+++||+|.....   ..........+..|++.++.. |.+++||++..+|..+....+...++|+++|...
+T Consensus        82 ~l~~~~~~~~~~lDvE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iYt~~~~~~~~~~~~~~~~~lW~a~y~~~  161 (208)
+T d2waga1          82 NVPKYKQALPPVIDVEFYANKKDNPPKREDVTKELSVMIEMLEKHYGKKVILYATQEAYDLYIKDAYPQCDIWIRSVLTK  161 (208)
+T ss_dssp             HSCCCTTSCCCEEEECCCTTGGGSCCCHHHHHHHHHHHHHHHHHHHCSCCEEEECHHHCCCCCTTCCTTSEEEEECSSSC
+T ss_pred             hcchhcCCCCCEEEEEccCCCCCCCCCHHHHHHHHHHHHHHHHHHHCCCeEEEeCHHHHHHhchhhcCCCceEEEeCCCC
+
+
+Q ss_pred             CCC---CCcceeeccCCCCCCccCCC-ce---eecccccCCCC-hHHh
+Q Q_9186633_68    154 RPK---YPCDIWQYADGETGGWLDGV-GK---VDLNSLIGNKP-LSWF  193 (277)
+Q Consensus       154 ~p~---~~~~~wQyt~~~~~~~~~g~-g~---vD~~~~~~~~~-~~~~  193 (277)
+                      ++-   .++.+|||+++   +.++|. +.   ||+|.++++.. |..+
+T Consensus       162 p~~~~~~~~~~wQyt~~---~~~~g~~~~~~~vD~n~~~g~~~~~~~~  206 (208)
+T d2waga1         162 PSLSDERKWTFWQYTNR---GKLSGYNGKEKYIDLNVFYGNEEEFENY  206 (208)
+T ss_dssp             CCCTTCCCCSEEEEESS---CBCCSTTCSBCCCEEEEESSCHHHHHTT
+T ss_pred             CCCCCcCCeeEEEEeCC---ceecCCCCCcceeEEEEEcCCHHHHHhh
+
+
+No 4
+>d2x8ra_ c.1.8.0 (A:) automated matches {Aspergillus fumigatus [TaxId: 330879]}
+Probab=99.96  E-value=1.7e-28  Score=188.04  Aligned_cols=187  Identities=16%  Similarity=0.185  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CceeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHH
+Q Q_9186633_68      1 MGQIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMA   79 (277)
+Q Consensus         1 ~~~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~   79 (277)
+                      +.+|||||+|| +.+||..+ ..+++||++|++.|..+.|+.|..++..|+++||++|+|||.++.+ .++..||++|++
+T Consensus         2 ~~~giDiS~~q-~~~d~~~l~~~g~~~viir~t~G~~~~D~~~~~~~~~a~~~gl~~g~Yh~~~~~~-~~~~~qa~~~~~   79 (209)
+T d2x8ra_           2 TVQGFDISNHQ-KSVNFEAAKKDGAQFVMIKATEGTTYKDTVFNSHYTGATKAGLLRGGYHFARPDK-STGSTQAKFFLK   79 (209)
+T ss_dssp             EEEEEEECTTC-SCCCHHHHHHTTEEEEEEEEEETTTEECTTHHHHHHHHHHTTCEEEEEEECCTTS-SCHHHHHHHHHT
+T ss_pred             CceeEEcCCCC-CCCCHHHHHHcCCeEEEEEeccCCCCCCCcHHHHHHHHHHcCCEEEEEEEecCCC-CCHHHHHHHHHH
+
+
+Q ss_pred             HhC-----CCCceEEEEeeccccc----cCCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCc---hhcccccce
+Q Q_9186633_68     80 RVS-----PNAKFLVLDTEDDTLK----SCGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGL---SNVKADFLW  146 (277)
+Q Consensus        80 ~~~-----~~~~~~~~d~E~~~~~----~~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~---~~~~~~~lW  146 (277)
+                      .+.     ....+++||+|.....    ..........+.+|++.+++. |.+++||++..+|..+..   ..+...++|
+T Consensus        80 ~~~~~~~~~~~~~~~lDvE~~~~~~~~~~~~~~~~~~~~~~f~~~~~~~~g~~~~iYt~~~~~~~~~~~~~~~~~~~~lW  159 (209)
+T d2x8ra_          80 NGGGWSDDNRTLPGMLDIEYNPYGATCYGLSHSQMVAWIHDFVNEYHHATSRWPMIYTTADWWNRCTGNAKGFGDKCPLV  159 (209)
+T ss_dssp             TTCCCCSSSSBCCCEEECCCCTTSCGGGGCCHHHHHHHHHHHHHHHHHHHSSCCEEEECHHHHHHHHSSCCSSTTTSCEE
+T ss_pred             hcCCCCCCcCCCCcEEEEEeCCCCCcccCCCHHHHHHHHHHHHHHHHHHhCCCCEEEEcHHHHHHhhcCCCcchhcCceE
+
+
+Q ss_pred             ecccCCCCCCC------CcceeeccCCCCCCccCCCceeecccccCCCC-hHHhcCC
+Q Q_9186633_68    147 IPRYGGPRPKY------PCDIWQYADGETGGWLDGVGKVDLNSLIGNKP-LSWFIGN  196 (277)
+Q Consensus       147 ~a~y~~~~p~~------~~~~wQyt~~~~~~~~~g~g~vD~~~~~~~~~-~~~~~~~  196 (277)
+                      +|+|...++..      .+.+|||++.   +.++|    |+|.|+++.. |..+.+.
+T Consensus       160 ~a~y~~~~~~~~~~~w~~~~~wQyt~~---~~~~g----d~n~f~g~~~~~~~~~~~  209 (209)
+T d2x8ra_         160 LAAYSSSPPKTIPGDWKTWTIWQNSDK---YKHGG----DSDKFNGPMTQLRKLASG  209 (209)
+T ss_dssp             EECCSSSCCSCCCTTCSSCSEEEEESC---CTTSS----EEEEEESCHHHHHHHHHC
+T ss_pred             EeecCCCCCCCCCCCccceEEEEecCC---CCCCC----cccccCCCHHHHHHHhcC
+
+
+No 5
+>PF01183.20 ; Glyco_hydro_25 ; Glycosyl hydrolases family 25
+Probab=99.94  E-value=2.1e-25  Score=166.75  Aligned_cols=167  Identities=29%  Similarity=0.530  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             EEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHHHhCC
+Q Q_9186633_68      5 IDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMARVSP   83 (277)
+Q Consensus         5 iDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~~~~~   83 (277)
+                      ||||+|| +.+||..+ ..+++|+++|++.|..+.|+.|..++..|+++|+++|+|||.++ +..++..||+.|++.+..
+T Consensus         1 iDiS~~~-~~~~~~~~~~~g~~~vi~r~~~G~~~~d~~~~~~~~~a~~~g~~~g~Y~~~~~-~~~~~~~qa~~~~~~~~~   78 (179)
+T Q81AA3_BACCR/1    1 IDVSHWE-GNIDWNAVKASGIPAAYAKATEGVNYIDPTFTKNVQAARNANVLIGAYHFARP-EQNDAISEAKYFVSILQN   78 (179)
+T ss_pred             CcccccC-CCCCHHHHHHhCCCEEEEEeecCCCccCccHHHHHHHHHHCCCeEEEEEEeCC-CCCcHHHHHHHHHHHhcc
+
+
+Q ss_pred             --CCceEEEEee---ccccccCCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCchhcccccceecccCCCCCC-
+Q Q_9186633_68     84 --NAKFLVLDTE---DDTLKSCGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLSNVKADFLWIPRYGGPRPK-  156 (277)
+Q Consensus        84 --~~~~~~~d~E---~~~~~~~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~~~p~-  156 (277)
+                        ...++++|+|   ...............+..|++.++.. |++++||++.++|.......+...++|+++|...++. 
+T Consensus        79 ~~~~~~~~lDvE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iYt~~~~~~~~~~~~~~~~~lW~a~y~~~~~~~  158 (179)
+T Q81AA3_BACCR/1   79 NQTDLMPVLDLESPTDPSNSNLTGNAISNWARSFINYVKQATGKDVMLYTGVWYINEFGISGLSDIPLWIAKYSSTPPAD  158 (179)
+T ss_pred             CCCccceEEEEeCCCCcccCCCCHHHHHHHHHHHHHHHHHHHCCceEEEecHHHHHhcCCcccccCcEEEEecCCCCCCC
+
+
+Q ss_pred             ----CCcceeeccCCCCCCccCCC
+Q Q_9186633_68    157 ----YPCDIWQYADGETGGWLDGV  176 (277)
+Q Consensus       157 ----~~~~~wQyt~~~~~~~~~g~  176 (277)
+                          ..+.+|||++.   +.++|+
+T Consensus       159 ~~~~~~~~~wQyt~~---~~~~Gi  179 (179)
+T Q81AA3_BACCR/1  159 AGGWTTWTAWQYTDS---GQISGV  179 (179)
+T ss_pred             CCCccCeeEEEecCC---CccCCC
+
+
+No 6
+>d2j8fa2 c.1.8.8 (A:2-190) automated matches {Bacteriophage cp-1 [TaxId: 10747]}
+Probab=99.93  E-value=1.3e-23  Score=158.61  Aligned_cols=170  Identities=23%  Similarity=0.328  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CceeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeee-CHHHHHHHHHHHH
+Q Q_9186633_68      1 MGQIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFV-SVNDAIKEADDFM   78 (277)
+Q Consensus         1 ~~~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~-~~~~a~~~a~~~~   78 (277)
+                      +..|||||+|| +.++|..+ ..+++|+++|++.|..+.|+.|..++..    |+++|+||+..+. +..++..||+.|+
+T Consensus         4 ~~~giDiS~~~-~~~~~~~~~~~g~~~vi~r~~~G~~~~d~~~~~~~~~----g~~~G~Y~~~~~~~~~~~~~~qa~~~~   78 (189)
+T d2j8fa2           4 NDLFVDVSSHN-GYDITGILEQMGTTNTIIKISESTTYLNPCLSAQVEQ----SNPIGFYHFARFGGDVAEAEREAQFFL   78 (189)
+T ss_dssp             TCEEEEECGGG-CSCCHHHHHHHTCCEEEEEEEETTTEECTTHHHHHHT----SEEEEEEEECCCTTCHHHHHHHHHHHH
+T ss_pred             CceeEEccccc-CcccHHHHHhhCCCEEEEEecccCceeChhHHHHHHh----ccceEEEEEEecCCCHHHHHHHHHHHH
+
+
+Q ss_pred             HHhCCCCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHCCCEEEEEEcHHHHHhcCchh--cc--cccceecccCCCC
+Q Q_9186633_68     79 ARVSPNAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSKGWKVGFYVSHHMYNKYGLSN--VK--ADFLWIPRYGGPR  154 (277)
+Q Consensus        79 ~~~~~~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iY~~~~~~~~~~~~~--~~--~~~lW~a~y~~~~  154 (277)
+                      +.+.....++++|+|....  .........+..|++.++..|++++||++.++|..+....  +.  ..+||+|+|...+
+T Consensus        79 ~~~~~~~~~~~lDvE~~~~--~~~~~~~~~~~~f~~~i~~~g~~~~iYt~~~~~~~~~~~~~~~~~~~~~LW~a~y~~~~  156 (189)
+T d2j8fa2          79 DNVPMQVKYLVLDYQDDPS--GDAQANTNACLRFMQMIADAGYKPIYYSYKPFTHDNVDYQQILAQFPNSLWIAGYGLND  156 (189)
+T ss_dssp             HTCCSCCSEEEEECCSCCC--SCHHHHHHHHHHHHHHHHHTTCEEEEEEEHHHHHHHCCHHHHHHHSTTCEEEECCTTCS
+T ss_pred             HhCCCCCCEEEEEecCCCC--CCHHHHHHHHHHHHHHHHHCCCceEEEechhHhhccCCHHHHHHhCCCCeEEEeCCCCC
+
+
+Q ss_pred             CC---------CCcceeeccCCCCCCccCCCceeecccccCC
+Q Q_9186633_68    155 PK---------YPCDIWQYADGETGGWLDGVGKVDLNSLIGN  187 (277)
+Q Consensus       155 p~---------~~~~~wQyt~~~~~~~~~g~g~vD~~~~~~~  187 (277)
+                      +.         .++.+|||++.          .+|+|.++++
+T Consensus       157 ~~~~~~~~~~~~~~~~wQyt~~----------g~d~n~~~~~  188 (189)
+T d2j8fa2         157 GTANFEYFPSMDGIRWWQYSSN----------PFDKNIVLLD  188 (189)
+T ss_dssp             SSCCGGGCCCCTTEEEEEEECS----------SSEEEEESSC
+T ss_pred             CCCCcccCCCcCceeEEEcccC----------CccccccccC
+
+
+No 7
+>COG3757 Acm; Lyzozyme M1 (1,4-beta-N-acetylmuramidase), GH25 family [Cell wall/membrane/envelope biogenesis]. 
+Probab=99.91  E-value=4.4e-23  Score=164.14  Aligned_cols=181  Identities=28%  Similarity=0.441  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CceeEEccccccCCCCHHHh-ccCc-cEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHH
+Q Q_9186633_68      1 MGQIIDISKWNAGSIKWDVL-GPQL-DLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFM   78 (277)
+Q Consensus         1 ~~~giDvs~~~~~~~~~~~~-~~~~-~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~   78 (277)
+                      ...|||||+|| +.+||..+ ..++ .|+++|++.|..+.|+.|..++..++++|++++.||+.....  .+..|+++++
+T Consensus        62 ~~~giDvS~~q-~~~d~~~l~~~g~~~~vi~~~~~g~~~~d~~~~~~~~~a~~~gl~~g~Y~~~~~~~--~~~~q~~~~~  138 (269)
+T COG3757          62 DIHGIDVSKWQ-GPIDWQKVRASGVGSFVFIKATEGADHVDANFNKNWDLARNAGIKAGAYHFFRFAV--PAGNQARWFL  138 (269)
+T ss_pred             cceEEEecCcC-CCCCHHHHHHhCCCeEEEEEEecCCCccCccHHHHHHHHHHCCCeEEEEEEccccC--CHHHHHHHHH
+
+
+Q ss_pred             HHhCCCCc--eEEEEeeccccccC---CHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCchhcccccceecccCC
+Q Q_9186633_68     79 ARVSPNAK--FLVLDTEDDTLKSC---GEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLSNVKADFLWIPRYGG  152 (277)
+Q Consensus        79 ~~~~~~~~--~~~~d~E~~~~~~~---~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~  152 (277)
+                      ..+.....  ++++|+|.......   +...+...+.+|++.+++. |.+++||++..++..+.......+++|+++|+.
+T Consensus       139 ~~~~~~~~~~~~~~d~e~~~~~~d~~~~~~~~~~~~~~f~~~l~~~~g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~  218 (269)
+T COG3757         139 SNVPGARVFYPPVLDYEVNGYWSDVRPNMEQMNAGVLAFLDKLEKLGGKKPGIYTGVDFYDDNLIGTFKDYPLWIASYAT  218 (269)
+T ss_pred             HhCCCCCCCcCCEEEeeeCCCccCCCCCHHHHHHHHHHHHHHHHHhhCCCcEEEEeHHHHHHccchHhhcCCeEEEecCC
+
+
+Q ss_pred             CCCCC-----CcceeeccCCCCCCccCCC-ceeecccccCC
+Q Q_9186633_68    153 PRPKY-----PCDIWQYADGETGGWLDGV-GKVDLNSLIGN  187 (277)
+Q Consensus       153 ~~p~~-----~~~~wQyt~~~~~~~~~g~-g~vD~~~~~~~  187 (277)
+                      ..|..     .+.+|||++.   +.++|+ +.+|+|.+.++
+T Consensus       219 ~~~~~~~~~~~~~~wQyt~~---g~~~g~~~~~D~n~~~~~  256 (269)
+T COG3757         219 DHPSEPYVGLSWVFWQYSSQ---GSIPGVNGDVDLNVFNGS  256 (269)
+T ss_pred             CCCCCCCCCCCeeEEEEeee---eecCCCCCceEEEEeCCC
+
+
+No 8
+>cd06414 GH25_LytC-like; The LytC lysozyme of Streptococcus pneumoniae is a bacterial cell wall hydrolase that cleaves the beta1-4-glycosydic bond located between the N-acetylmuramoyl-N-glucosaminyl residues of the cell wall polysaccharide chains.
+Probab=99.88  E-value=9.4e-21  Score=142.19  Aligned_cols=180  Identities=22%  Similarity=0.381  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             ceeEEccccccCCC.CHHHh-cc.CccEEEEEeccCch---hccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHH
+Q Q_9186633_68      2 GQIIDISKWNAGSI.KWDVL-GP.QLDLCICRVQYGSN---MIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEAD   75 (277)
+Q Consensus         2 ~~giDvs~~~~~~~.~~~~~-~~.~~~~~i~~~~~g~~---~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~   75 (277)
+                      ++|+||+.++ +.+ +|..+ .. +++|+++|++.+..   +.|+.|..++..++++|++.++||+....+...+..++.
+T Consensus         1 ~~g~dis~~~-~~~.~~~~~~~~.g~~~~~~~~~~~~~~~~~~d~~~~~~~~~a~~~g~~~g~y~~~~~~~~~~~~~~~~   77 (191)
+T cd06414           1 KKIIDISEHN-GRInDWKKVIDEnKVDGVIVRLGYSGK----EDKELAHNIKELNRLGIPYGVYLYTYAENETDAENDAK   75 (200)
+T ss_pred             CceEEecccC-CCC.CHHHHHHC.CCCEEEEEeccCCCCCcccChhHHHHHHHHHHcCCCeEEEEEecCCChHHHHHHHH
+
+
+Q ss_pred             HHHHHhCC-..-CCceEEEEeecccccc-....-CCHHHHHHHHHHHHHHHHHCCC.EEEEEEcHHHHHhcCc-hhcccc
+Q Q_9186633_68     76 DFMARVSP-..-NAKFLVLDTEDDTLKS-....-CGEQKIAEASQAFIDRCKSKGW.KVGFYVSHHMYNKYGL-SNVKAD  143 (277)
+Q Consensus        76 ~~~~~~~~-..-~~~~~~~d~E~~~~~~-....-~~~~~~~~~~~~~~~~~~~~g~.~~~iY~~~~~~~~~~~-~~~~~~  143 (277)
+                      .+++.+..    ...++++|+|......      .........+..|++.++..|+ +++||+...++..... ..+...
+T Consensus        78 ~~~~~~~~~..~~~~~~~~d~e~~~~~~~....~~~~~~~~~~~~~~~~~~~~~g~.~~~iy~~~~~~~~~~~~~~~~~~  150 (191)
+T cd06414          76 QTIELIKKYnmNLSYPIYYDVENWEYVNKskraPSDTDTWVKIINKYMDTMKQAGYqNVYVYSYRSLLQTRLKHPDILKH  155 (200)
+T ss_pred             HHHHHHhcC..CCCCCcEEEeecCCCCCC....CCCHHHHHHHHHHHHHHHHHcCC.CcEEEECHHHHHHhcCchhhhCC
+
+
+Q ss_pred             cceecccCCCC-....CCCCcceeeccCCCCCCccCCC-ceeeccccc
+Q Q_9186633_68    144 FLWIPRYGGPR-....PKYPCDIWQYADGETGGWLDGV-GKVDLNSLI  185 (277)
+Q Consensus       144 ~lW~a~y~~~~-....p~~~~~~wQyt~~~~~~~~~g~-g~vD~~~~~  185 (277)
+                      ++|++.|....     ....+.+|||++.   ..++|+ +++|++.++
+T Consensus       151 ~~w~a~y~~~~~....~~~~~~~wq~~~~---~~~~g~~~~~d~~~~~  191 (191)
+T cd06414         156 VNWVAAYTNALEwenpYYSGEKGWQYTSS---EYMKGIQGRVDVSVWY  200 (200)
+T ss_pred             cEEEEEcCCCCC....CcCCeeEEEecee---eecCCCCCceeeeccC
+
+
+No 9
+>cd06523 GH25_PlyB-like; PlyB is a bacteriophage endolysin that displays potent lytic activity toward Bacillus anthracis.
+Probab=99.88  E-value=8.9e-21  Score=140.45  Aligned_cols=173  Identities=48%  Similarity=0.846  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             eeEEccccccCCCCH-HHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHHH
+Q Q_9186633_68      3 QIIDISKWNAGSIKW-DVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMAR   80 (277)
+Q Consensus         3 ~giDvs~~~~~~~~~-~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~~   80 (277)
+                      +++||+.++ +.++| ..+ +.++.|+++|++.+..+.|+.|..++..++.+|+.+++||+..+.+..++..++..+++.
+T Consensus         1 ~~~dvs~~~-~~~~~~~~~~~~g~~~~~~~~~~~~~~~d~~~~~~~~~~~~~gl~~g~y~~~~~~~~~~~~~~~~~~~~~   79 (177)
+T cd06523           1 YIVDMSKWN-GSPDW--DTAKGQLDLVIARVQDGSNYVDPVYKDYVAAMKARNIPFGSYAFCRFVSVEDAKVEARDFWNR   77 (173)
+T ss_pred             CCeeccccC-CCCChHHHHHHCCCcEEEEEeccCCCccChhHHHHHHHHHHCCCceEEEEEecCCCchhHHHHHHHHHHH
+
+
+Q ss_pred             hCCCCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCchhcccccceecccCCCCCCCCc
+Q Q_9186633_68     81 VSPNAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLSNVKADFLWIPRYGGPRPKYPC  159 (277)
+Q Consensus        81 ~~~~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~~~p~~~~  159 (277)
+                      +.....++++|+|....     ......+..|++.++.. +.++++|++.+++..+....+...++|++.|...++...+
+T Consensus        80 ~~~~~~~~~~d~e~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~~~~~~~~~w~~~~~~~~~~~~~  154 (177)
+T cd06523          78 GDKDSLFWVADVEVTTM-----SDMRAGTQAFIDELYRLGAKKVGLYVGHHKYEEFGAAQIKCDFTWIPRYGAKP-AYPC  151 (173)
+T ss_pred             hcCCCCCcEEEEeCCCh-----HHHHHHHHHHHHHHHHccCCCCEEEEcHHHHHHhcCchhhCCCceEEecCCCCCCCCc
+
+
+Q ss_pred             ceeeccCCCCCCccCCC-ceeecccc
+Q Q_9186633_68    160 DIWQYADGETGGWLDGV-GKVDLNSL  184 (277)
+Q Consensus       160 ~~wQyt~~~~~~~~~g~-g~vD~~~~  184 (277)
+                      .+|||++.   ..++|. +.+|++.+
+T Consensus       155 ~~~q~~~~---~~~~g~~~~~d~~~~  177 (177)
+T cd06523         152 DLWQYDEY---GQVPGIG-KCDLNRL  173 (173)
+T ss_pred             cEEEeccc---eeCCCCCCccccccC
+
+
+No 10
+>cd06419 GH25_muramidase_2; Uncharacterized bacterial muramidase containing a glycosyl hydrolase family 25 (GH25) catalytic domain.
+Probab=99.88  E-value=9.7e-21  Score=142.09  Aligned_cols=177  Identities=11%  Similarity=0.096  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             CceeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHH
+Q Q_9186633_68      1 MGQIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMA   79 (277)
+Q Consensus         1 ~~~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~   79 (277)
+                      +..|+|||+++ +.++|..+ ..+++|+++|++.|..+.|+.|..++..++.+|++.++||+.....  ++..+++.+++
+T Consensus         7 ~~~g~dvs~~~-~~~~~~~~~~~g~~~~~~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~--~~~~~a~~~~~   83 (190)
+T cd06419           7 DVRGVAVSQND-GYLDFAALQNDGLKFVYLHATQGASYTDDNFASNYERIVGTSLGVGVIHTFSFSS--TAAAQADYFEK   83 (194)
+T ss_pred             ceeeEEEcCCC-CCCCHHHHHhCCCeEEEEEecCCCcccCccHHHHHHHHHhcCCcEEEEEEccCCC--CHHHHHHHHHH
+
+
+Q ss_pred             HhCC--CCceEEEEeecccccc...CCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCchhcccccceecccCCC
+Q Q_9186633_68     80 RVSP--NAKFLVLDTEDDTLKS...CGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLSNVKADFLWIPRYGGP  153 (277)
+Q Consensus        80 ~~~~--~~~~~~~d~E~~~~~~...~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~~  153 (277)
+                      .+..  ...++++|+|......   .........+..|++.++.. +.++++|+...++..+.. .+...++|++.|...
+T Consensus        84 ~~~~~~~~~~~~~d~e~~~~~~...~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~-~~~~~~~w~a~~~~~  159 (190)
+T cd06419          84 TVGDSIGNLPIAIQVQYYGDYTdqtIAVRKSRAKLKALVTTLTQDYNRSCVVWSTPAVAKQIVKpALKDTDLWLDTAKTH  163 (194)
+T ss_pred             HHccccCCCCEEEEEEecCCCC...CCHHHHHHHHHHHHHHHHHHhCCCeEEEeCHHHHHHHHH-HhccCceEEEecccC
+
+
+Q ss_pred             CCCCCcceeeccCCCCCCccCC--C-ceeecccc
+Q Q_9186633_68    154 RPKYPCDIWQYADGETGGWLDG--V-GKVDLNSL  184 (277)
+Q Consensus       154 ~p~~~~~~wQyt~~~~~~~~~g--~-g~vD~~~~  184 (277)
+                      .....+.+|||++.   ..++|  . ..+|++.|
+T Consensus       160 ~~~~~~~~~q~~~~---~~~~g~~~~~~~d~~~~  190 (190)
+T cd06419         164 QQGRRVMFMHYSDR---AVYRQNGTRQEFAGILF  194 (194)
+T ss_pred             CCCcceEEEEEcCC---ceecCCCccceeeeeeC
+
+
+No 11
+>cd06413 GH25_muramidase_1; Uncharacterized bacterial muramidase containing a glycosyl hydrolase family 25 (GH25) catalytic domain.
+Probab=99.87  E-value=3.5e-20  Score=139.08  Aligned_cols=180  Identities=20%  Similarity=0.414  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CceeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHH
+Q Q_9186633_68      1 MGQIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMA   79 (277)
+Q Consensus         1 ~~~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~   79 (277)
+                      +.+||||+.++ +.++|..+ ..+++|+++|++.|..+.|+.|..++..++.+|++.++||+....+  .+..|++.+++
+T Consensus         2 ~~~g~dvs~~~-~~~~~~~~~~~g~~~~~~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~--~~~~~~~~~~~   78 (191)
+T cd06413           2 PIHGTDVSKYQ-SDVDWSAVRASGISFAFIKATEGGDRVDERFNEHWSGTREARLPRGAYHFYYFCR--PAIEQARWYIQ   78 (195)
+T ss_pred             CeeeEEecccC-CCCCHHHHHhcCCcEEEEEeccCCCccCccHHHHHHHHHHcCCCeEEEEECccCC--cHHHHHHHHHH
+
+
+Q ss_pred             HhCC--CCceEEEEeecccccc--...CCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCchhcccccceecccC
+Q Q_9186633_68     80 RVSP--NAKFLVLDTEDDTLKS--...CGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLSNVKADFLWIPRYG  151 (277)
+Q Consensus        80 ~~~~--~~~~~~~d~E~~~~~~--...~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~  151 (277)
+                      .+..  ...++++|+|......     .........+.+|++.++.. ++++++|++..++.......+...++|+++|.
+T Consensus        79 ~~~~~~~~~~~~~d~e~~~~~~~~...~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~~~~~~~~~w~~~~~  155 (191)
+T cd06413          79 NVPREQSALPPVLDMEWNPHSPTCklrPNAAVVRREMRTFLQAVEKHYGKRPVIYTTVDFFDDNDLRQLSEYPFWLRSVA  158 (195)
+T ss_pred             hCChhhCCCCcEEEEeeCCCCCCC...CCHHHHHHHHHHHHHHHHHHHCCCCEEEEcHHHHHHhchhhhhhCCeeeeecC
+
+
+Q ss_pred             CCC-.--CCCCcceeeccCCCCCCccCCC-ceeecccccC
+Q Q_9186633_68    152 GPR-.--PKYPCDIWQYADGETGGWLDGV-GKVDLNSLIG  186 (277)
+Q Consensus       152 ~~~-.--p~~~~~~wQyt~~~~~~~~~g~-g~vD~~~~~~  186 (277)
+                      ..+    ....+.+|||++.   ..++|+ +.+|++.+++
+T Consensus       156 ~~~~.~~~~~~~~~wq~~~~---~~~~g~~~~~d~~~~~g  191 (191)
+T cd06413         159 GHPDeKYGPHPWTFWQYTGT---GSIPGIRGDADINTFAG  195 (195)
+T ss_pred             CCCC.CCCCCCceEEEeeee---EEcCCCCCceeeeeeCC
+
+
+No 12
+>cd06525 GH25_Lyc-like; Lyc muramidase is an autolytic lysozyme (autolysin) from Clostridium acetobutylicum encoded by the lyc gene.
+Probab=99.85  E-value=7.5e-20  Score=136.24  Aligned_cols=174  Identities=25%  Similarity=0.384  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             eeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHHHh
+Q Q_9186633_68      3 QIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMARV   81 (277)
+Q Consensus         3 ~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~~~   81 (277)
+                      +|+||+.++ +.++|..+ ..+++|++++++.|..+.|+.|..++..++.+|+..++||+..+  ...+..++..+++.+
+T Consensus         1 ~g~dvs~~~-~~~~~~~~~~~~~~~~~~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~--~~~~~~~~~~~~~~~   77 (184)
+T cd06525           1 KGIDIYSGQ-GSVDFNAVKESGVEVVYIKATEGLTYTDSTYKDFYDGAKNAGLKIGFYHYLRA---NDPTSEAEHFFNTI   76 (179)
+T ss_pred             CCeeecccC-CCCCHHHHHHCCCCEEEEEeccCCCccCccHHHHHHHHHHcCCCEEEEEEcCC--CCCHHHHHHHHHHHh
+
+
+Q ss_pred             CC--CCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCchhcccccceecccCCCCC---
+Q Q_9186633_68     82 SP--NAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLSNVKADFLWIPRYGGPRP---  155 (277)
+Q Consensus        82 ~~--~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~~~p---  155 (277)
+                      ..  ...++++|+|.....  ........+..|++.++.. |+++++|++..++.......+..+++|+++|...++   
+T Consensus        78 ~~~~~~~~~~~d~e~~~~~--~~~~~~~~~~~~~~~~~~~~g~~~~~y~~~~~~~~~~~~~~~~~~~w~~~~~~~~~~~~  155 (184)
+T cd06525          77 SGLSLDCKCAIDVEVTLGQ--SIDQISSNVRKFADYLINK-GLDVCVYTYTNFYKDNLNSTVKDLPLWIAEYGVSKPN--  151 (179)
+T ss_pred             CCCCCCCCcEEEEeCCCCC--CHHHHHHHHHHHHHHHHHHHCCCCEEEECHHHHHHhcchhhhcCCEEEEecCCCCCCCC
+
+
+Q ss_pred             --CCCcceeeccCCCCCCccCCC-ceeecccc
+Q Q_9186633_68    156 --KYPCDIWQYADGETGGWLDGV-GKVDLNSL  184 (277)
+Q Consensus       156 --~~~~~~wQyt~~~~~~~~~g~-g~vD~~~~  184 (277)
+                        ...+.+|||++.   ..++|. +.+|++.|
+T Consensus       156 ~~~~~~~~~q~~~~---~~~~g~~~~~d~~~~  184 (184)
+T cd06525         152 -IDASYVGFQYSDS---GSVNGISGSADLDEF  179 (179)
+T ss_pred             CCccCeeEEEEEec---eeCCCCCCCcceecC
+
+
+No 13
+>cd06524 GH25_YegX-like; YegX is an uncharacterized bacterial protein with a glycosyl hydrolase family 25 (GH25) catalytic domain that is similar in sequence to the CH-type (Chalaropsis-type) lysozymes of the GH25 family of endolysins.
+Probab=99.84  E-value=3.6e-19  Score=133.89  Aligned_cols=177  Identities=23%  Similarity=0.383  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             eeEEccccccCCCCHHH--.--h-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHH
+Q Q_9186633_68      3 QIIDISKWNAGSIKWDV--.--L-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADD   76 (277)
+Q Consensus         3 ~giDvs~~~~~~~~~~~--.--~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~   76 (277)
+                      .|+|||.++ +.++|..     + ..++.|+++|++.+..+.|+.+..++..++++|++.++||+....  .++..++..
+T Consensus         1 ~g~dis~~~-~~~~~~~~~.~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~g~~~~~y~~~~~~--~~~~~~~~~   76 (194)
+T cd06524           1 HGIDVSRWQ-ERIDWQRVAkMRDNGIRLQFAFIKATEGEKLVDPYFSRNWQLSRENGLLRGAYHYFSPS--VSASVQARL   77 (189)
+T ss_pred             CceeccccC-CCCCHHHHH.HHHHHcCCCEEEEEeccCCCCCCccHHHHHHHHHHCCCCEEEEEEccCC--CCHHHHHHH
+
+
+Q ss_pred             HHHHhCC-CCc--eEEEEeeccccccCCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCch-hcccccceecccC
+Q Q_9186633_68     77 FMARVSP-NAK--FLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLS-NVKADFLWIPRYG  151 (277)
+Q Consensus        77 ~~~~~~~-~~~--~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~-~~~~~~lW~a~y~  151 (277)
+                      +++.+.. ...  ++++|+|....... .......+.+|++.+++. |+++++|++..++...... .+...++|+++|.
+T Consensus        77 ~~~~~~~~~~~~~~~~~d~e~~~~~~~-~~~~~~~~~~~~~~~~~~~g~~~~~y~~~~~~~~~~~~~~~~~~~~w~a~~~  155 (194)
+T cd06524          78 FLQTVDF-SQGDFPAVLDVEERGKLS--AKELRKRVSQWLKMVEKRTGKKPIIYSGAVFYHTNLAG-YFNEYPWWVAHYY  153 (189)
+T ss_pred             HHHHhccCCCCCCCcEEEeeCCCCCCC-HHHHHHHHHHHHHHHHHHHCCCCEEEEcHHHHHHhcCchhHhcCCeEeeecC
+
+
+Q ss_pred             CC------CCCCCcceeeccCCCCCCccCCC-ceeecccccC
+Q Q_9186633_68    152 GP------RPKYPCDIWQYADGETGGWLDGV-GKVDLNSLIG  186 (277)
+Q Consensus       152 ~~------~p~~~~~~wQyt~~~~~~~~~g~-g~vD~~~~~~  186 (277)
+                      ..      .....+.+|||++.   ..++|+ +.+|++.+.+
+T Consensus       156 ~~~~~~~~~~~~~~~~~qy~~~---~~~~g~~~~~d~~~~~g  194 (194)
+T cd06524         154 QRRPD---NDGMAWRFWQHSDR---GQVDGINGPVDFNVFNG  189 (189)
+T ss_pred             CCCCCCCCCCccCeeEEEeeec---eeCCCCCCCeeeeeecC
+
+
+No 14
+>cd06415 GH25_Cpl1-like; Cpl-1 lysin (also known as Cpl-9 lysozyme / muramidase) is a bacterial cell wall endolysin encoded by the pneumococcal bacteriophage Cp-1, which cleaves the glycosidic N-acetylmuramoyl-(beta1,4)-N-acetylglucosamine bonds of the pneumococcal glycan chain, thus acting as an enzymatic antimicrobial agent (an enzybiotic) against streptococcal infections.
+Probab=99.84  E-value=9.3e-19  Score=132.00  Aligned_cols=174  Identities=22%  Similarity=0.294  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             ceeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEee-eCHHHHHHHHHHHHH
+Q Q_9186633_68      2 GQIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCF-VSVNDAIKEADDFMA   79 (277)
+Q Consensus         2 ~~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~-~~~~~a~~~a~~~~~   79 (277)
+                      ++|+||+.++ +.++|. + ..+++|+++|++.+..+.|+.|..++..++++|+..++||+... .+..++..++..+++
+T Consensus         1 ~~g~dvs~~~-~~~~~~-~~~~g~~~~~~~~~~~~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~~~~~~~~~~~~   78 (196)
+T cd06415           1 DLFVDVSSHN-GYDITGiLEQMGTTNTIIKISESTTYL----NRCLSAQVEQSNPIGFYHFARFGGDVAEAEREAQFFLD   75 (183)
+T ss_pred             CCCeecchhc-CCCChH-HHHcCCCEEEEEeccCCCccChhHHHHHHHHHHCCCCeEEEEEcCCCCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HhCC----CCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHCCCEEEEEEcHHHHHhcCchhc----ccccceecccC
+Q Q_9186633_68     80 RVSP----NAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSKGWKVGFYVSHHMYNKYGLSNV----KADFLWIPRYG  151 (277)
+Q Consensus        80 ~~~~----~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iY~~~~~~~~~~~~~~----~~~~lW~a~y~  151 (277)
+                      .+..    ...++++|+|.....  ........+.+|++.+...|+++++|++..++........    ...++|+++|.
+T Consensus        79 ~~~~~~~~~~~~~~~d~e~~~~~--~~~~~~~~~~~~~~~~~~~g~~~~~y~~~~~~~~~~~~~~~~~~~~~~~w~~~~~  156 (196)
+T cd06415          76 NVPM----QVKYLVLDYEDDPSG--DAQANTNACLRFMQMIADAGYKPIYYSYKPFTHDNVDYQQILAQFPNSLWIAGYG  149 (183)
+T ss_pred             HHHhcCCCCCCCCEEEEEcCCCC--CHHHHHHHHHHHHHHHHHcCCceEEEECHHHHHHhcCcchhhhcCCCCeEEecCC
+
+
+Q ss_pred             CCCCC-----------CCcceeeccCCCCCCccCCC-ceeecc
+Q Q_9186633_68    152 GPRPK-----------YPCDIWQYADGETGGWLDGV-GKVDLN  182 (277)
+Q Consensus       152 ~~~p~-----------~~~~~wQyt~~~~~~~~~g~-g~vD~~  182 (277)
+                      ...+.           ..+.+|||++.   ..+.|+ +.+|++
+T Consensus       157 ~~~~~~~~~~~~~~~~~~~~~~q~~~~---~~~~g~~~~~d~~  196 (196)
+T cd06415         150 LND--GTANFEYFPSMDGIRWWQYSSN-------PFDKNIVLL  183 (183)
+T ss_pred             CCCCCCCCCCCCCCCCCCeeEEEeecc---CCCCCccCcccCC
+
+
+No 15
+>cd00599 GH25_muramidase; Endo-N-acetylmuramidases (muramidases) are lysozymes (also referred to as peptidoglycan hydrolases) that degrade bacterial cell walls by catalyzing the hydrolysis of 1,4-beta-linkages between N-acetylmuramic acid and N-acetyl-D-glucosamine residues.
+Probab=99.82  E-value=1.3e-18  Score=129.77  Aligned_cols=175  Identities=23%  Similarity=0.387  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             eeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHHHh
+Q Q_9186633_68      3 QIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMARV   81 (277)
+Q Consensus         3 ~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~~~   81 (277)
+                      +|+||+.++ +.++|..+ ..+++|+++|++.+..+.|..+..++..++.+|++.++||+...  ..++..++..+.+.+
+T Consensus         1 ~g~dis~~~-~~~~~~~~~~~g~~~~~~~~~~~~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~--~~~~~~~~~~~~~~~   77 (186)
+T cd00599           1 QGIDVSHWQ-GSINWSSVKSAGMSFAYIKATEGTNYKDDRFSANYTNAYNAGIIRGAYHFARPn-ASSGTAQADYFASNG   78 (197)
+T ss_pred             CCeeecccC-CCCCHHHHHHcCCcEEEEEeccCCCccCccHHHHHHHHHHcCCeEEEEEEccc--CCCHHHHHHHHHHhh
+
+
+Q ss_pred             CC-...-CCceEEEEeeccccccC....CHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCch..-hcccccceec
+Q Q_9186633_68     82 SP-...-NAKFLVLDTEDDTLKSC....GEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLS..-NVKADFLWIP  148 (277)
+Q Consensus        82 ~~-...-~~~~~~~d~E~~~~~~~....~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~..-~~~~~~lW~a  148 (277)
+                      ..     ...++++|+|......     +.......+..|++.+++. +.++++|++..++..+...   .+...++|++
+T Consensus        78 ~~~...~~~~~~~~d~e~~~~~~-....~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~~..~~~~~~~~w~~  147 (186)
+T cd00599          79 GGWsrdNRTLPGVLDIEHNPSGAmcyglSTTQMRTWINDFHARYKARTTRDVVIYTTASWWNTCTGSwnGMAAKSPFWVA  158 (197)
+T ss_pred             ccc...cCCCCeEEEEeeCCCCC-....CHHHHHHHHHHHHHHHHHhhCCCeEEEECHHHHHHhhCC..chhhcCCeEEE
+
+
+Q ss_pred             ccCCC-----CCCCCcceeeccCCCCCCccCCC-ceeecccc
+Q Q_9186633_68    149 RYGGP-----RPKYPCDIWQYADGETGGWLDGV-GKVDLNSL  184 (277)
+Q Consensus       149 ~y~~~-----~p~~~~~~wQyt~~~~~~~~~g~-g~vD~~~~  184 (277)
+                      +|...     .....+.+|||++.   ..+.|. +.+|++.+
+T Consensus       148 ~~~~~~~~~~~~~~~~~~~q~~~~---~~~~g~~~~~d~~~~  186 (186)
+T cd00599         159 HWGVSAPTVPSGFPTWTFWQYSAT---GRVGGVSGDVDRNKF  197 (197)
+T ss_pred             ecCCCCCCCCCCCCCeeEEEEeec---ceeCCCccccccccC
+
+
+No 16
+>cd06417 GH25_LysA-like; LysA is a cell wall endolysin produced by Lactobacillus fermentum, which degrades bacterial cell walls by catalyzing the hydrolysis of 1,4-beta-linkages between N-acetylmuramic acid and N-acetyl-D-glucosamine residues.
+Probab=99.82  E-value=2.2e-18  Score=129.66  Aligned_cols=174  Identities=16%  Similarity=0.169  Sum_probs=0.0  Template_Neff=12.400
+
+Q ss_pred             ceeEEccccccCCCCHHHhccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHHHh
+Q Q_9186633_68      2 GQIIDISKWNAGSIKWDVLGPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMARV   81 (277)
+Q Consensus         2 ~~giDvs~~~~~~~~~~~~~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~~~   81 (277)
+                      ++|+|||+++ +.+++....  ++|+++|++.|..+.|+.|..++..++++|++.+.||+...   .++..++..+++.+
+T Consensus         1 ~~g~dis~~~-~~~~~~~~~--~~~~~~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~---~~~~~~a~~~~~~~   74 (195)
+T cd06417           1 LKMVDVFSGS-PRSFATLPE--TDITMVKATQGIGYVNPACNIDYANAKAAGKLLGLYHYCAG---GNPIAEADYFINNI   74 (187)
+T ss_pred             CcceEEeccc-CCCCHHHhc--cCEEEEEeccCCCccChhHHHHHHHHHHcCCcEEEEEEccc---cCHHHHHHHHHHHH
+
+
+Q ss_pred             CC--CCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhcCchhcccccceecccCCCCCC--
+Q Q_9186633_68     82 SP--NAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKYGLSNVKADFLWIPRYGGPRPK--  156 (277)
+Q Consensus        82 ~~--~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~~~p~--  156 (277)
+                      ..  ...++++|+|.....   .......+.+|++.++.. +.+++||++..++..+....+...++|+++|....+.  
+T Consensus        75 ~~~~~~~~~~~d~e~~~~~---~~~~~~~~~~~~~~~~~~~~~~~~iy~~~~~~~~~~~~~~~~~~~w~a~~~~~~~~~~  151 (195)
+T cd06417          75 KNYVGEAVLAVDWEGYQNS---SWGNYNYVRQFVNRVHELTGVWCMVYVSQSEIRQVAN-CINDCPLWVAYYKYSQPLNW  150 (187)
+T ss_pred             cccCCCCCEEEEecCCCCC---hHHHHHHHHHHHHHHHHHHCCCCEEEeCHHHHHHhcchhHhcCCEEEEeCCCCCCCCC
+
+
+Q ss_pred             ---.--------CCcceeeccCCCCCCccCCC-ceeecccccCC
+Q Q_9186633_68    157 ---.--------YPCDIWQYADGETGGWLDGV-GKVDLNSLIGN  187 (277)
+Q Consensus       157 ---.--------~~~~~wQyt~~~~~~~~~g~-g~vD~~~~~~~  187 (277)
+                                  ..+.+|||++.   ..++|. +.+|++.+.++
+T Consensus       152 ~~~.~~~~~~~~~~~~~~q~~~~---~~~~g~~~~~d~~~~~~~  191 (195)
+T cd06417         151 DYQgAGFNIAPWEVFTIHQFTGS-----------DMDRNMVNTT  183 (187)
+T ss_pred             CCC.CCCCCCCCcCceEEEeeec---eecCCCCCceeeeeeeCC
+
+
+No 17
+>cd06416 GH25_Lys1-like; Lys-1 is a lysozyme encoded by the Caenorhabditis elegans lys-1 gene. This gene is one of a several lysozyme genes upregulated upon infection by the Gram-negative bacterial pathogen Serratia marcescens.
+Probab=99.81  E-value=1.1e-17  Score=125.94  Aligned_cols=178  Identities=13%  Similarity=0.073  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             ceeEEccccccCCCCHHHh-ccCccEEEEEeccCchh..ccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHH
+Q Q_9186633_68      2 GQIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNM..IDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFM   78 (277)
+Q Consensus         2 ~~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~..~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~   78 (277)
+                      ..|+|++.++ +.++|..+ ..+++|+++|+..+..+  .|..|..++..++++|+..++||+........+..++..++
+T Consensus         1 ~~g~dvs~~~-~~~~~~~~~~~g~~~~~~~~~~~~~~..~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~~   77 (196)
+T cd06416           1 AYAVDISVPT-TVSQMNCLKTSRYAAVFIRGFTPFGSgaFDTTSVTSIRNAYSAGLGIEVYMTPQPLSSLQGYQQLDALY   79 (203)
+T ss_pred             CcceEeCccC-CCCCHHHHHHcCCCEEEEEeccCCCc..cChhHHHHHHHHHHCCCCeEEEEecCCCChhhHHHHHHHHH
+
+
+Q ss_pred             HHhCCCCc---eEEEEeec-cccccCCHHHHHHHHHHHHHHHHHCCCEEEEEEcHHHHHhcCchh----cccccceecc.
+Q Q_9186633_68     79 ARVSPNAK---FLVLDTED-DTLKSCGEQKIAEASQAFIDRCKSKGWKVGFYVSHHMYNKYGLSN----VKADFLWIPR.  149 (277)
+Q Consensus        79 ~~~~~~~~---~~~~d~E~-~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iY~~~~~~~~~~~~~----~~~~~lW~a~.  149 (277)
+                      +.+.....   .+++|+|. ..............+..|++.++..|+++++|++..++.......    +...++|+++ 
+T Consensus        78 ~~~~~~~~~~~~~~~d~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~~~~~~~~~~~~~~w~~~.  156 (196)
+T cd06416          80 NGLNGNGITIRSVWIQVTS-PANWQKSATTNVNFLNSIISRAKQYGLTVGIYTNQYDWSQITGNWATL-SSDVLLWYWHv  157 (203)
+T ss_pred             HHHhccCCCcCCeEEEeecCCCccCCCHHHHHHHHHHHHHHHHHcCCceEEEEcHHHHHHHhCCCccchHhcCCEEEec.
+
+
+Q ss_pred             ......cCCCCCCCCc---------ceeeccCCCCCCccCCCceeecccc
+Q Q_9186633_68    150 ......YGGPRPKYPC---------DIWQYADGETGGWLDGVGKVDLNSL  184 (277)
+Q Consensus       150 ......y~~~~p~~~~---------~~wQyt~~~~~~~~~g~g~vD~~~~  184 (277)
+                            |....+...+         .+|||++.   ..+.|.. +|++.+
+T Consensus       157 ......~~~~~~~~~~~~~~~w~~~~~~q~~~~---~~~~g~~-~d~~~~  196 (196)
+T cd06416         158 lgggvtGETPATFDDFRAFGSFKKASVKQFAQV---ESVCSLT-VNRDVY  203 (203)
+T ss_pred             ......cCCCCCCCCCCCCCCCCCccEEEeeec---eecCCee-eeeecC
+
+
+No 18
+>cd06418 GH25_BacA-like; BacA is a bacterial lysin from Enterococcus faecalis that degrades bacterial cell walls by catalyzing the hydrolysis of 1,4-beta-linkages between N-acetylmuramic acid and N-acetyl-D-glucosamine residues.
+Probab=99.81  E-value=1.5e-17  Score=127.11  Aligned_cols=180  Identities=12%  Similarity=0.022  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             CceeEEccccccCC..CCHHHh-ccCccEEEEEeccCchh--ccHHHHHHHHHHHHCCCCEE-EEEEE----eeeCHHHH
+Q Q_9186633_68      1 MGQIIDISKWNAGS..IKWDVL-GPQLDLCICRVQYGSNM--IDQYYNGYVKELEKRNIPHA-AYAYG----CFVSVNDA   70 (277)
+Q Consensus         1 ~~~giDvs~~~~~~..~~~~~~-~~~~~~~i~~~~~g~~~--~d~~~~~~~~~~~~~g~~~g-~y~~~----~~~~~~~a   70 (277)
+                      ...|+|++.++ +.  ++|..+ ..+++|++++++.+..+  .+..+..++..++++|+.++ .||+.    ...+...+
+T Consensus        11 ~~~g~d~s~~~-~~..~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~y~~~~~~~~~~~~~~~   87 (212)
+T cd06418          11 GIWGVDSAQVV-TDqlFQCVRTELGYPKFWGRYLSEVPNV--SEGLTRDEIVRIRNYGVKVLPIYNAF---REAVGYANG   84 (214)
+T ss_pred             CeeEEEEcccc-CC..CCHHHHHHcCCCEEEEEeccCCCCccCCHHHHHHHHHHHHcCCCccCeEEEcCchhcCCChHHH
+
+
+Q ss_pred             HHHHHHHHHHhCC----CCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHCCCEEEEEEcHHHHHhcCchh.......
+Q Q_9186633_68     71 IKEADDFMARVSP----NAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSKGWKVGFYVSHHMYNKYGLSN.......  139 (277)
+Q Consensus        71 ~~~a~~~~~~~~~----~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iY~~~~~~~~~~~~~.......  139 (277)
+                      ..++..+++.+..    ...++++|+|...............+.+|++.++..|++++||++..++..+....       
+T Consensus        88 ~~~a~~~~~~~~~~~~~~~~~~~~d~e~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iY~~~~~~~~~~~~~.......  160 (212)
+T cd06418          85 QVAARNAVFHARRLGIPKNKLLFANIEDFFA------VDAAWIAAWVETLYPTGYRPGLYADPTKGDFAAAYCeavsrnn  158 (214)
+T ss_pred             HHHHHHHHHHHHhcCCCCCCCeEEEEeCCCCCCCCHHHHHHHHHHHHHHHHHCCCccEEEECHHHHHHhcCch.......
+
+
+Q ss_pred             .-cccccceecccCCC---...........-CCCCCcceeeccCCCCCCccC----CC-ceeecccc
+Q Q_9186633_68    140 .-VKADFLWIPRYGGP---...........-RPKYPCDIWQYADGETGGWLD----GV-GKVDLNSL  184 (277)
+Q Consensus       140 .-~~~~~lW~a~y~~~---...........-~p~~~~~~wQyt~~~~~~~~~----g~-g~vD~~~~  184 (277)
+                        ....++|+++|...               ....++.+|||++.   ..+.    +. +.||++.+
+T Consensus       161 .~~~~~~~W~a~y~~~~~~...........~~~~~~~~~wq~~~~---~~~~~~~~~~~~~vd~~~~  212 (212)
+T cd06418         159 qVAVQAVIWSAAPRPGTTKeqkapryqpaaPPCSANVWVWQYGRD---AE--------VCPVDTNLA  214 (214)
+T ss_pred             .hhhCCCEEeecCCCCCCC...........CCCCCCcCeEEeecC---cccCCCCCCccCCeecccC
+
+
+No 19
+>cd06522 GH25_AtlA-like; AtlA is an autolysin found in Gram-positive lactic acid bacteria that degrades bacterial cell walls by catalyzing the hydrolysis of 1,4-beta-linkages between N-acetylmuramic acid and N-acetyl-D-glucosamine residues.
+Probab=99.80  E-value=1e-17  Score=125.43  Aligned_cols=176  Identities=20%  Similarity=0.333  Sum_probs=0.0  Template_Neff=12.700
+
+Q ss_pred             ceeEEccccccCCC---CHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHH
+Q Q_9186633_68      2 GQIIDISKWNAGSI---KWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDF   77 (277)
+Q Consensus         2 ~~giDvs~~~~~~~---~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~   77 (277)
+                      ++++||+.++ +.+   +|..+ ..+++|+++|++.|..+.|+.+..++..++.+|+.++.||+..+.+...+..++..+
+T Consensus         1 ~~~~dvs~~~-~~~~~~~~~~~~~~g~~~~~~~~~~g~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~   79 (192)
+T cd06522           1 SYFIDISSHN-GIISVAEFNSLKQQGIQGVVVKLTEGTSYINPYASSQIANARAAGIKVSAYHYAHYTSAAGAQEEARYF   79 (200)
+T ss_pred             Ccceeccccc-CCCCHHHHHHHHHCCCCEEEEEeccCCCccCccHHHHHHHHHHcCCCEEEEEEecCCChhhHHHHHHHH
+
+
+Q ss_pred             HHHhC----CCCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHCCC-EEEEEEcHHHHHhc-...Cchhcccccceec
+Q Q_9186633_68     78 MARVS----PNAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSKGW-KVGFYVSHHMYNKY-...GLSNVKADFLWIP  148 (277)
+Q Consensus        78 ~~~~~----~~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~g~-~~~iY~~~~~~~~~-...~~~~~~~~~lW~a  148 (277)
+                      ++.+.    ....++++|+|....    .......+..|++.++..+. ++++|+...++...    ....+...++|++
+T Consensus        80 ~~~~~~~~~~~~~~~~~d~e~~~~----~~~~~~~~~~~~~~~~~~~~~~~~~y~~~~~~~~~~...~~~~~~~~~~w~~  152 (192)
+T cd06522          80 ANAARSFGLEASTVMVNDMEESSM----VNNINNNVQAWQDEMRRQGYSNLIHYTMASWLDIRGgqvYTARFGINNFWVA  155 (200)
+T ss_pred             HHHHHcCCCCCCCCCEEEccCCCC----hHHHHHHHHHHHHHHHHhCCCCCEEEECHHHHHHhC...CccHhhcCCEEee
+
+
+Q ss_pred             ccCCCCCC-.......----CCcceeeccCCCCCCccCCC-ceeeccccc
+Q Q_9186633_68    149 RYGGPRPK-.......----YPCDIWQYADGETGGWLDGV-GKVDLNSLI  185 (277)
+Q Consensus       149 ~y~~~~p~-.......----~~~~~wQyt~~~~~~~~~g~-g~vD~~~~~  185 (277)
+                      +|...++.            ....+|||++.   ..+.|. +.+|++.++
+T Consensus       153 ~y~~~~~~~.......~~~~~~~~~~q~~~~---~~~~g~~~~~d~~~~~  192 (192)
+T cd06522         156 HYAKGYTYMtqeeaksLNYYANAAAWQYTSV---SSK--LSHALDENIDY  200 (200)
+T ss_pred             ccCCCCCCC.......CCCCCCceEEEecee---cccCCCCCCeeeeeeC
+
+
+No 20
+>d1sfsa_ c.1.8.8 (A:) Unnamed hypothetical protein {Bacillus stearothermophilus [TaxId: 1422]}
+Probab=99.80  E-value=1.8e-18  Score=132.86  Aligned_cols=170  Identities=13%  Similarity=0.085  Sum_probs=0.0  Template_Neff=9.000
+
+Q ss_pred             ceeEEccccccCCCCHHHh-c-cCc-cEEEEEeccCchhccHHHHHHHHHHHHCCCCEE-EEEEEee-eCHHHHHHHHHH
+Q Q_9186633_68      2 GQIIDISKWNAGSIKWDVL-G-PQL-DLCICRVQYGSNMIDQYYNGYVKELEKRNIPHA-AYAYGCF-VSVNDAIKEADD   76 (277)
+Q Consensus         2 ~~giDvs~~~~~~~~~~~~-~-~~~-~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g-~y~~~~~-~~~~~a~~~a~~   76 (277)
+                      .+|||+|.++ +..++..+ + .|+ +|++++.+.+....++.+.+++..++++||.++ .||+.+. .+...+..||+.
+T Consensus         2 ~~GiD~s~~~-~~~~~~~~k~~~G~~~fv~~~~~~~~~~~~~~~~~~~~~~~~aGl~~~~~Y~~~~~~~~~~~g~~~a~~   80 (213)
+T d1sfsa_           2 IWGVDSAQVV-TDQLFQCVRTELGYPKFWGRYLSEVPNVSEGLTRDEIVRIRNYGVKVLPIYNAFREAVGYANGQVAARN   80 (213)
+T ss_dssp             EEEEECSSCC-CHHHHHHHHHHTCCCSEEEEESSCBTTTBCBCCHHHHHHHHHTTCEEEEEECCCSCBCCHHHHHHHHHH
+T ss_pred             ceeEEEeccC-CHHHHHHHHHHhCCCEEEEEEccCCCCCCCCCCHHHHHHHHHcCCEEEEEEeccccccCHHHHHHHHHH
+
+
+Q ss_pred             HHHHhCC----CCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHCCCEEEEEEcHHHH-------Hhc--Cchhcccc
+Q Q_9186633_68     77 FMARVSP----NAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSKGWKVGFYVSHHMY-------NKY--GLSNVKAD  143 (277)
+Q Consensus        77 ~~~~~~~----~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iY~~~~~~-------~~~--~~~~~~~~  143 (277)
+                      +++.++.    ...+++||+|......      .+.+++|++.+++.|++++||++..+|       ...  ........
+T Consensus        81 a~~~~~~~g~~~~~~i~lDvE~~~~~~------~~~~~~~~~~v~~~gy~~GiY~s~~~~~~~~~~~~~~~~~~~~~~~~  154 (213)
+T d1sfsa_          81 AVFHARRLGIPKNKLLFANIEDFFAVD------AAWIAAWVETLYPTGYRPGLYADPTKGDFAAAYCEAVSRNNQVAVQA  154 (213)
+T ss_dssp             HHHHHHHTTCCSSCEEEEECCTTSCBC------HHHHHHHHHHHHHHTCEEEEEECTTSTTHHHHHHHHHHHCTHHHHHC
+T ss_pred             HHHHHHHcCCCCCCeEEEecccchhcC------HHHHHHHHHHHHhcCCCcEEEecCcchHHHHHHHHHHHhCCccccce
+
+
+Q ss_pred             cceecccCCCC----------CCC-----CcceeeccCCCCCCccCCC-ceeeccccc
+Q Q_9186633_68    144 FLWIPRYGGPR----------PKY-----PCDIWQYADGETGGWLDGV-GKVDLNSLI  185 (277)
+Q Consensus       144 ~lW~a~y~~~~----------p~~-----~~~~wQyt~~~~~~~~~g~-g~vD~~~~~  185 (277)
+                      ++|+++|+...          |..     ...+|||+++       +. ..||+|.+.
+T Consensus       155 ~lW~a~~~~~~~~~~~~~~~~~~~~~~~~~~~iwQY~~~-------~~~~~vd~n~~~  205 (213)
+T d1sfsa_         155 VIWSAAPRPGTTKEQKAPRYQPAAPPCSANVWVWQYGRD-------AEVCPVDTNLAD  205 (213)
+T ss_dssp             EEEECCCCCCCCCGGGCCCCCCCCCSSCCEEEEEEEECC-------CSSSSCEEEEEC
+T ss_pred             EEEEccCCCCCCcccCCCcCCCCCCCCccceeEEEeccC-------CeEeeccchhhc
+
+
+No 21
+>cd06412 GH25_CH-type; CH-type (Chalaropsis-type) lysozymes represent one of four functionally-defined classes of peptidoglycan hydrolases (also referred to as endo-N-acetylmuramidases) that cleave bacterial cell wall peptidoglycans.
+Probab=99.78  E-value=4.5e-17  Score=123.10  Aligned_cols=177  Identities=23%  Similarity=0.393  Sum_probs=0.0  Template_Neff=12.200
+
+Q ss_pred             ceeEEccccccCCCCHHHh-ccCccEEEEEeccCchhccHHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHHH
+Q Q_9186633_68      2 GQIIDISKWNAGSIKWDVL-GPQLDLCICRVQYGSNMIDQYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMAR   80 (277)
+Q Consensus         2 ~~giDvs~~~~~~~~~~~~-~~~~~~~i~~~~~g~~~~d~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~~   80 (277)
+                      .+|+|++.++ +.++|..+ ..+++|+++|+..+..+.|+.+..++..++.+|++.+.||+..+... +...++..+++.
+T Consensus         1 ~~g~dis~~~-~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~g~~~g~y~~~~~~~~-~~~~~a~~~~~~   78 (199)
+T cd06412           1 VQGIDVSHWQ-GSINWSSVKSAGMSFAYIKATEGTNYKDDRFSANYTNAYNAGIIRGAYHFARPNAS-SGTAQADYFASN   78 (205)
+T ss_pred             CCceEeCccC-CCCCHHHHHHCCCcEEEEEeccCCCCCChhHHHHHHHHHHcCCeeeEEEEecCCCC-CHHHHHHHHHHc
+
+
+Q ss_pred             hCC-----CCceEEEEeecccc----ccCCHHHHHHHHHHHHHHHHHC-CCEEEEEEcHHHHHhc--Cchhcc.ccccee
+Q Q_9186633_68     81 VSP-----NAKFLVLDTEDDTL----KSCGEQKIAEASQAFIDRCKSK-GWKVGFYVSHHMYNKY--GLSNVK.ADFLWI  147 (277)
+Q Consensus        81 ~~~-----~~~~~~~d~E~~~~----~~~~~~~~~~~~~~~~~~~~~~-g~~~~iY~~~~~~~~~--~~~~~~.~~~lW~  147 (277)
+                      +..     ...++++|+|....    ...........+..|++.++.. |.++++|++..++..+  ....+. ..++|+
+T Consensus        79 ~~~~~~~~~~~~~~~d~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~y~~~~~~~~~~~~~~~~~.~~~~w~  157 (199)
+T cd06412          79 GGGWSRDNRTLPGVLDIEHNPSGAMCYGLSTTQMRTWINDFHARYKARTTRDVVIYTTASWWNTCTGSWNGMAaKSPFWV  158 (205)
+T ss_pred             cCccCCCCCCCCcEEEEEeCCCCCcccCCCHHHHHHHHHHHHHHHHHHHCCCeEEEEcHHHHHHhhCCCchhh.hCcEEE
+
+
+Q ss_pred             cccCCCCCCCC-----cceeeccCCCCCCcc.....CCCceeecccccCC
+Q Q_9186633_68    148 PRYGGPRPKYP-----CDIWQYADGETGGWL.....DGVGKVDLNSLIGN  187 (277)
+Q Consensus       148 a~y~~~~p~~~-----~~~wQyt~~~~~~~~.....~g~g~vD~~~~~~~  187 (277)
+                      ++|....+..+     +.+|||++.   ..+     ++    |+|.+.++
+T Consensus       158 a~~~~~~~~~~~~~~~~~~~q~~~~---~~~.....~~----~~~~~~~~  195 (199)
+T cd06412         159 AHWGVSAPTVPSGFPTWTFWQYSAT---GRVggvsgDV----DRNKFNGS  201 (205)
+T ss_pred             ecCCCCCCCCCCCCCcceEEEEeCC---Ccc.....cc----ceeeecCC
+
+
+No 22
+>PF08924.11 ; DUF1906 ; Domain of unknown function (DUF1906)
+Probab=99.70  E-value=5.7e-16  Score=116.35  Aligned_cols=160  Identities=9%  Similarity=0.061  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             HHh-ccCccEEEEEeccCch----hc---cHHHHHHHHHHHHCCCCE-EEEEEEeeeC----HHHHHHHHHHHHHHhCCC
+Q Q_9186633_68     18 DVL-GPQLDLCICRVQYGSN----MI---DQYYNGYVKELEKRNIPH-AAYAYGCFVS----VNDAIKEADDFMARVSPN   84 (277)
+Q Consensus        18 ~~~-~~~~~~~i~~~~~g~~----~~---d~~~~~~~~~~~~~g~~~-g~y~~~~~~~----~~~a~~~a~~~~~~~~~~   84 (277)
+                      .++ ++|++||+++++.+..    +.   ++.+.+++..++++||.+ ++||+....+    ...+..||+.+++.++..
+T Consensus         1 ~~lk~~G~~fv~~y~~~~~~~~~~~~~~~~~~~~~~~~~~~~aGl~i~~vY~~~~~~~~~~~~~~g~~~A~~a~~~a~~~   80 (185)
+T Q6A7D5_CUTAK/3    1 GHLKADGYQIVGRYLSEPNQSSKSEADYFKALRTGELERIVGHGLKYFPIFQEYSTELKYFSVENGHRHAKEAQTAAQRL   80 (185)
+T ss_pred             ChhHhcCcCEEEEEccCCCCcccchhhhcCCCCHHHHHHHHHCCCEEEEEEecCCCccccCCHHHHHHHHHHHHHHHHHh
+
+
+Q ss_pred             Cc---eEEE--EeeccccccCCHHHHHHHHHHHHHHHHHCCCEEEEEEcHHHHHhcCchhcccccceecccCCCCCCCC-
+Q Q_9186633_68     85 AK---FLVL--DTEDDTLKSCGEQKIAEASQAFIDRCKSKGWKVGFYVSHHMYNKYGLSNVKADFLWIPRYGGPRPKYP-  158 (277)
+Q Consensus        85 ~~---~~~~--d~E~~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~iY~~~~~~~~~~~~~~~~~~lW~a~y~~~~p~~~-  158 (277)
+                      ..   .+++  |+|....  .....+...+..|.+.++ .|++++||++..++.......+..+ +|+++|....+... 
+T Consensus        81 g~~~~~i~~avD~E~~~~--~~~~~~~~y~~~~~~~~~-~g~~~GvY~s~~~~~~~~~~~~~~~-~W~a~~~~~~~~~~~  156 (185)
+T Q6A7D5_CUTAK/3   81 GVPPTVIYFAVDYDATDP--QVTSHILPYFKAVTQSLG-GGYRVGIYASRNICTRIAQAGYAVA-SFVSDMSTGFSGNLG  156 (185)
+T ss_pred             CCCCeEEEEEEecCCCCc--cchhhHHHHHHHHHHHhc-CCCceEEEeCHHHHHHHHHCCCcEE-EEEeccCCCCCCCCC
+
+
+Q ss_pred             ------cceeeccCCCCCCccCCCceeecccc
+Q Q_9186633_68    159 ------CDIWQYADGETGGWLDGVGKVDLNSL  184 (277)
+Q Consensus       159 ------~~~wQyt~~~~~~~~~g~g~vD~~~~  184 (277)
+                            |.+|||++.   ...+|.-.||+|..
+T Consensus       157 ~~~~~~w~~~Qy~~~---~~~~G~~~vD~n~~  185 (185)
+T Q6A7D5_CUTAK/3  157 FPIPDNWVFDQFHEI---SGYRGKWDLDRVAY  185 (185)
+T ss_pred             cCCCCceEEEEecce---ecccCCeEeceecC
+
+
+No 23
+>PF12123.8 ; Amidase02_C ; N-acetylmuramoyl-l-alanine amidase
+Probab=98.38  E-value=3.8e-07  Score=51.01  Aligned_cols=44  Identities=25%  Similarity=0.598  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             HhCCCCcEEecCCCCceeEeeccccChhhhheeeecccCCCCceEEEE
+Q Q_9186633_68    227 ERGTKGQVISDPLTGTAYLQTEVLPNPELDKITWWMDTRPEGKWYYEY  274 (277)
+Q Consensus       227 ~~~~~~~i~~~~~~G~~y~~~~~~~~~~l~~~~~w~~~~~~~~w~y~~  274 (277)
+                      +.+++++++... +|..|++++..++++|+++++|++.+   +|||++
+T Consensus         1 ~~~~~~~~~~~~-~G~~y~~t~~~~~~~l~~~~~wld~~---gw~ye~   44 (44)
+T Q81PJ7_BACAN/2    1 SLKMTATFILQS-DGLTYFVTEPTSDTQLNALKSWLDRK---GWWYEV   44 (44)
+T ss_pred             CCCceeEEEEcC-CCceeEEeccCChhhHHHHhhhhhhc---CcEEEC
+
+
+No 24
+>d1egza_ c.1.8.3 (A:) Endoglucanase Cel5a {Erwinia chrysanthemi [TaxId: 556]}
+Probab=30.20  E-value=3.8e+02  Score=21.51  Aligned_cols=88  Identities=9%  Similarity=0.038  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             HHHHHHHHHHHHCCCCE--EEEEEEeeeCHHHHHHHHHHHHHHhCCCCceEEEEeeccccccCCHHHHHHHHHHHHHHHH
+Q Q_9186633_68     40 QYYNGYVKELEKRNIPH--AAYAYGCFVSVNDAIKEADDFMARVSPNAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCK  117 (277)
+Q Consensus        40 ~~~~~~~~~~~~~g~~~--g~y~~~~~~~~~~a~~~a~~~~~~~~~~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~  117 (277)
+                      ..+...+..|++.||.+  ....................+++..+....++ +++..+.............+..+.+.++
+T Consensus        77 ~~l~~~~~~a~~~Gi~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~-~~i~NE~~~~~~~~~~~~~~~~~~~~ir  155 (291)
+T d1egza_          77 AKVERVVDAAIANDMYAIIGWHSHSAENNRSEAIRFFQEMARKYGNKPNVI-YEIYNEPLQVSWSNTIKPYAEAVISAIR  155 (291)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEEEECSCGGGGHHHHHHHHHHHHHHHTTSTTEE-EECCSCCCSCCCCCCCHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCCCEEEEecCCCCCcccHHHHHHHHHHHHHHhCCCCcEE-EEcccCCCCCCchhhHHHHHHHHHHHHH
+
+
+Q ss_pred             HCCCEEEEEEc
+Q Q_9186633_68    118 SKGWKVGFYVS  128 (277)
+Q Consensus       118 ~~g~~~~iY~~  128 (277)
+                      +.+....|...
+T Consensus       156 ~~dp~~~i~~~  166 (291)
+T d1egza_         156 AIDPDNLIIVG  166 (291)
+T ss_dssp             HHCSSSCEEEC
+T ss_pred             HHCCCCeEEEe
+
+
+No 25
+>d5i2ua_ c.1.8.0 (A:) automated matches {Soil metagenome [TaxId: 410658]}
+Probab=24.63  E-value=5e+02  Score=21.04  Aligned_cols=87  Identities=7%  Similarity=-0.070  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             HHHHHHHHHHHHCCCCEEEEEEEeeeCHHHHHHHHHHHHHHhCCCCceEEEEeeccccccCCHHHHHHHHHHHHHHHHHC
+Q Q_9186633_68     40 QYYNGYVKELEKRNIPHAAYAYGCFVSVNDAIKEADDFMARVSPNAKFLVLDTEDDTLKSCGEQKIAEASQAFIDRCKSK  119 (277)
+Q Consensus        40 ~~~~~~~~~~~~~g~~~g~y~~~~~~~~~~a~~~a~~~~~~~~~~~~~~~~d~E~~~~~~~~~~~~~~~~~~~~~~~~~~  119 (277)
+                      ..+...+..|++.||.+-.-.+...............+++.......++ +++..+... .........++...+.+++.
+T Consensus        79 ~~~~~~l~~a~~~Gi~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~-~~i~NEp~~-~~~~~~~~~~~~~~~~ir~~  156 (296)
+T d5i2ua_          79 QCITPVIESAIENGIYVIIDFHAHNKYTEEAKTFFAGMAEKYGEYPNVI-YEIWNEPDY-FEWEEVKTYSEEVIAVIRAI  156 (296)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEEEECSSCCHHHHHHHHHHHHHHHTTCTTEE-EECCSCCCS-CCHHHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCCCEEEEECCCCcccHHHHHHHHHHHHHHHCCCCcEE-EECccCCCC-CCHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             CCEEEEEEc
+Q Q_9186633_68    120 GWKVGFYVS  128 (277)
+Q Consensus       120 g~~~~iY~~  128 (277)
+                      +....|...
+T Consensus       157 ~~~~~i~~~  165 (296)
+T d5i2ua_         157 DPDNIILVG  165 (296)
+T ss_dssp             CSSSCEEEC
+T ss_pred             CCCCEEEEc
+
+
+No 26
+>d3rjya_ c.1.8.0 (A:) automated matches {Fervidobacterium nodosum [TaxId: 381764]}
+Probab=20.09  E-value=6.2e+02  Score=20.43  Aligned_cols=89  Identities=6%  Similarity=-0.089  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             HHHHHHHHHHHHCCCCEEEEEEEee-------eCHHHHHHHHHHHHHHhCCCCceEEEEeeccccccCCHHHHHHHHHHH
+Q Q_9186633_68     40 QYYNGYVKELEKRNIPHAAYAYGCF-------VSVNDAIKEADDFMARVSPNAKFLVLDTEDDTLKSCGEQKIAEASQAF  112 (277)
+Q Consensus        40 ~~~~~~~~~~~~~g~~~g~y~~~~~-------~~~~~a~~~a~~~~~~~~~~~~~~~~d~E~~~~~~~~~~~~~~~~~~~  112 (277)
+                      ..+...+..|++.|+.+-.-.....       ..........+.+++.......++.+++..+.............+..+
+T Consensus        72 ~~~~~~~~~a~~~Gi~v~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~v~~~~i~NEp~~~~~~~~~~~~~~~~  151 (310)
+T d3rjya_          72 DRVKHVVDVALKNDLVVIINCHHFEELYQAPDKYGPVLVEIWKQVAQAFKDYPDKLFFEIFNEPAQNLTPTKWNELYPKV  151 (310)
+T ss_dssp             HHHHHHHHHHHHTTCEEEEECCCCHHHHHCHHHHHHHHHHHHHHHHHHHTTSCTTEEEECCSCCCTTSCHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHCCCEEEEeCCCcchhhcCCcchHHHHHHHHHHHHHHhccCCCcEEEEccCCCCCCCCHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHCCCEEEEEEc
+Q Q_9186633_68    113 IDRCKSKGWKVGFYVS  128 (277)
+Q Consensus       113 ~~~~~~~g~~~~iY~~  128 (277)
+                      .+.+++.+....|...
+T Consensus       152 ~~~ir~~~p~~~i~~~  167 (310)
+T d3rjya_         152 LGEIRKTNPSRIVIID  167 (310)
+T ss_dssp             HHHHHTTCSSSCEEEE
+T ss_pred             HHHHHHhCCCcEEEEe
+
+

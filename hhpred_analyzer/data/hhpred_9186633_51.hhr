@@ -1,0 +1,209 @@
+Query         Q_9186633_51
+Match_columns 213
+No_of_seqs    248 out of 1626
+Neff          8.27961
+Searched_HMMs 69205
+Date          Sun May 24 00:25:09 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_51.hhr -oa3m ../results/9186633_51.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF14265.6 ; DUF4355 ; Domain o  99.5 4.4E-13 6.4E-18  102.4  13.5  114   62-181     1-135 (135)
+  2 PF05696.11 ; DUF826 ; Protein   56.3      79  0.0011   21.3   6.9   58  134-194     8-65  (65)
+  3 PF06810.11 ; Phage_GP20 ; Phag  53.4 1.4E+02   0.002   23.3  13.6  122   45-167     1-135 (147)
+  4 PF14193.6 ; DUF4315 ; Domain o  52.3 1.2E+02  0.0018   22.2   7.0   59   83-142     3-63  (95)
+  5 PF03978.13 ; Borrelia_REV ; Bo  34.7 3.3E+02  0.0048   22.2   9.8  101   61-163    62-169 (174)
+  6 KOG3809 Microtubule-binding pr  32.3 6.6E+02  0.0095   24.9   9.7   77   45-122   486-568 (583)
+  7 PF00816.21 ; Histone_HNS ; H-N  28.9 2.6E+02  0.0038   19.2   6.3   40   99-139     3-42  (84)
+  8 COG5509 COG5509; Uncharacteriz  24.7 3.1E+02  0.0045   18.7   5.2   38   96-133    28-65  (65)
+  9 COG4472 COG4472; Uncharacteriz  24.3 3.8E+02  0.0054   19.5   7.4   64  119-184    21-86  (88)
+ 10 PF15967.5 ; Nucleoporin_FG2 ;   22.0   1E+03   0.015   23.7  11.0  116   44-176   257-374 (605)
+ 11 KOG3088 Secretory carrier memb  21.5 2.8E+02   0.004   25.0   4.8   29   97-125    64-92  (313)
+
+No 1
+>PF14265.6 ; DUF4355 ; Domain of unknown function (DUF4355)
+Probab=99.53  E-value=4.4e-13  Score=102.35  Aligned_cols=114  Identities=16%  Similarity=0.221  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             HHHHHHHHHH---HHHH--HHhcccHHHHHHHH--------------HhhccCCHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_51     62 QSRVDSGVSK---GVES--YRTNTVPELIQKEI--------------AKRTEKTPEQIEMEGMKAEIEKMKAENTRKTIE  122 (213)
+Q Consensus        62 q~~~d~~v~k---~l~~--~k~~~~~~~~e~e~--------------~k~~~~e~~~~e~~~~~~el~~~e~e~~~~e~~  122 (213)
+                      |+++|++|.+   +|.+  |..+..++.++..+              ++|++.++.+.+++.++.+++.+++++.++++.
+T Consensus         1 q~e~d~~v~k~~~rl~~e~~~~~~~~~~~~~~~~~~~~~~~~~~k~~~~mt~~ek~~~e~~~~~~el~~~e~~~~~~e~~   80 (135)
+T Q03G25_PEDPA/4    1 ESKVDETVEKLQKRLHSETANKHSLEEQVADLQKQLDEQKKKPDKSVKSLSDDEKKQKEFEALNKKNEELEAKLKRNEVL   80 (135)
+T ss_pred             ChHHHHHHHHHHHHHHhhHHhHhcHHHHHHHHHHHHHHHhcchhhhhccCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHcCCCH--HHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Q Q_9186633_51    123 TEVAKQADKLGIDA--DFALTFCVDPTSLDNTLKNVTKFNEYAESLVADRVQKSVDERFAN  181 (213)
+Q Consensus       123 ~~~~~~l~e~Glp~--~l~~~l~~~~~d~e~~~~~i~~l~~~~~~~~~~~v~~~v~~~l~~  181 (213)
+                      ..+...|.+.|||.  +++++|++  +|++.+.++|+.|...|    ...|+..|+++|+|
+T Consensus        81 ~~~~~~l~e~glp~~~~~~~~l~~--~dee~~~~~i~~~~~~~----~~~v~~~v~~~lkg  135 (135)
+T Q03G25_PEDPA/4   81 SQTRSVLQEDNINVDDSILNLIVT--DDDDKTYENIVAIKSLI----AKTTKSARKGYLKG  135 (135)
+T ss_pred             HHHHHHHHHCCCCCChHHHHHHhc--CCHHHHHHHHHHHHHHH----HHHHHHHHHHHhcC
+
+
+No 2
+>PF05696.11 ; DUF826 ; Protein of unknown function (DUF826)
+Probab=56.26  E-value=79  Score=21.27  Aligned_cols=58  Identities=14%  Similarity=0.054  Sum_probs=0.0  Template_Neff=2.400
+
+Q ss_pred             CCHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCCCCCCCCCCCc
+Q Q_9186633_51    134 IDADFALTFCVDPTSLDNTLKNVTKFNEYAESLVADRVQKSVDERFANNYAKGADLTLPKT  194 (213)
+Q Consensus       134 lp~~l~~~l~~~~~d~e~~~~~i~~l~~~~~~~~~~~v~~~v~~~l~~~~~P~~~~~~~~~  194 (213)
+                      +..+++.-.+.   +++-..+--..|...|...++..|.....+.|+....|.+.++.|..
+T Consensus         8 VT~d~VK~aLr---SeeV~~alK~qir~~le~qiDa~VD~~L~~llG~~a~~~~~~~ep~~   65 (65)
+T D2TQ82_CITRI/1    8 VTEDLVKQALY---SGEVNKLLKAQVRKDFEAQIDTYVDEVLAKLIGPAAAASGSDNEPKT   65 (65)
+T ss_pred             ccHHHHHHHHh---hHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHChhhhcCCCCCCCCC
+
+
+No 3
+>PF06810.11 ; Phage_GP20 ; Phage minor structural protein GP20
+Probab=53.37  E-value=1.4e+02  Score=23.26  Aligned_cols=122  Identities=9%  Similarity=0.056  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHhcCHHHHHHHHHHHHHHHHHHHHHHHhcccHHHHHHHHHhhc-cCCHHHHHHHHHHHHHHH----HHHHHHHH
+Q Q_9186633_51     45 DHFQRFLDTNVDAQKILQSRVDSGVSKGVESYRTNTVPELIQKEIAKRT-EKTPEQIEMEGMKAEIEK----MKAENTRK  119 (213)
+Q Consensus        45 ~~~~~~l~~~~~~k~~~q~~~d~~v~k~l~~~k~~~~~~~~e~e~~k~~-~~e~~~~e~~~~~~el~~----~e~e~~~~  119 (213)
+                      +.++.++..+...-..+...++..-.+.-.-...-......-+.+.+.. .-+..+.++..++++++.    ++.++...
+T Consensus         1 eqi~~Im~~~g~~i~~~k~~~~~~~~e~~~~~~~l~~~~~~i~~lk~~~~d~e~l~~~i~~~k~~~~~~~~~~~~~~~~~   80 (147)
+T S5RJ52_9STRE/1    1 EQAKEVFTLHGKDLNETKSALDTITQERDSLKNQLQNAETQIETLKADANTSAEQKEALDKLQAEYDKFKADAEADLAMT   80 (147)
+T ss_pred             ChHHHHHHHchhhhHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCcHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHcCC-CHHHHHHhcC-------CCCCHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_51    120 TIETEVAKQADKLGI-DADFALTFCV-------DPTSLDNTLKNVTKFNEYAESLV  167 (213)
+Q Consensus       120 e~~~~~~~~l~e~Gl-p~~l~~~l~~-------~~~d~e~~~~~i~~l~~~~~~~~  167 (213)
+                      .+...+...|...|. +++.+..++.       .++... +...|+.|++..+-+|
+T Consensus        81 ~~~~ai~~al~~a~~~~~~~~~~lld~~~~~~~edG~~~-lde~i~~lke~~p~lF  135 (147)
+T S5RJ52_9STRE/1   81 QKVNAINLALKDTNAHNPSTLMKFIDVDTVELDEDGKPK-LDDIITGLKESDPYLF  135 (147)
+T ss_pred             HHHHHHHHHHhcCCCCCHHHHHhhcChhhCeeCCCCCcc-HHHHHHHHHHhCHhhc
+
+
+No 4
+>PF14193.6 ; DUF4315 ; Domain of unknown function (DUF4315)
+Probab=52.25  E-value=1.2e+02  Score=22.21  Aligned_cols=59  Identities=8%  Similarity=0.068  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             HHHHHHHHhhc-cCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCC-CHHHHHHh
+Q Q_9186633_51     83 ELIQKEIAKRT-EKTPEQIEMEGMKAEIEKMKAENTRKTIETEVAKQADKLGI-DADFALTF  142 (213)
+Q Consensus        83 ~~~e~e~~k~~-~~e~~~~e~~~~~~el~~~e~e~~~~e~~~~~~~~l~e~Gl-p~~l~~~l  142 (213)
+                      ..+.+++.+.. .....+.+++.+...+..++.++...+. ..+.......++ |.+++.+|
+T Consensus         3 ~ki~~EieK~k~Ki~e~Q~r~d~~~~klkeLe~qk~E~En-~eIv~~VR~~~ltpeeL~~~L   63 (95)
+T D4M3J7_9FIRM/3    3 EKATADYEKAKEKMEASKARYEADLKRFKAAEIAKTEAEN-LEIVRIIRAMDMSIPELEAFK   63 (95)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH-HHHHHHHHhCCCCHHHHHHHH
+
+
+No 5
+>PF03978.13 ; Borrelia_REV ; Borrelia burgdorferi REV protein
+Probab=34.74  E-value=3.3e+02  Score=22.22  Aligned_cols=101  Identities=9%  Similarity=0.113  Sum_probs=0.0  Template_Neff=2.800
+
+Q ss_pred             HHHHHHHHHHHHHHHHHhcccHHHHHHHHHhhc-----cCCHHHHHHHHHHHHHHHHHHHHHH--HHHHHHHHHHHHHcC
+Q Q_9186633_51     61 LQSRVDSGVSKGVESYRTNTVPELIQKEIAKRT-----EKTPEQIEMEGMKAEIEKMKAENTR--KTIETEVAKQADKLG  133 (213)
+Q Consensus        61 ~q~~~d~~v~k~l~~~k~~~~~~~~e~e~~k~~-----~~e~~~~e~~~~~~el~~~e~e~~~--~e~~~~~~~~l~e~G  133 (213)
+                      +-.+....|.+--++++-+...+.++.++..|.     ..+...++++..++.++.+..+...  ......+-..+...|
+T Consensus        62 ty~eYeekIkkLkE~LKdk~na~eLeekL~~Le~slkdK~e~RkkALeeAKqKfEefk~qv~s~g~qaK~qaW~~Ak~lG  141 (174)
+T O50973_BORBU/1   62 AFKHCREKISLLKEDLKYATNAKEFEEKFLNLQKLFQEKLTSKLNALKAVRVDIQRFNANDNDDLEKNKLKIRSIALSAG  141 (174)
+T ss_pred             HHHHHHHHHHHHHHHHhhccCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcccHHHHHHHHHHHHHHHhC
+
+
+Q ss_pred             CCHHHHHHhcCCCCCHHHHHHHHHHHHHHH
+Q Q_9186633_51    134 IDADFALTFCVDPTSLDNTLKNVTKFNEYA  163 (213)
+Q Consensus       134 lp~~l~~~l~~~~~d~e~~~~~i~~l~~~~  163 (213)
+                      |...+...-.+  .+.+=....|+.+-.++
+T Consensus       142 l~vsyS~n~~~--nt~emSk~vIe~i~~ii  169 (174)
+T O50973_BORBU/1  142 VNTSPIALHAI--NIKELSEDVVAHIDSII  169 (174)
+T ss_pred             CCCCcccccCC--chHHHHHHHHHHHHHHH
+
+
+No 6
+>KOG3809 Microtubule-binding protein MIP-T3 [Cytoskeleton]
+Probab=32.33  E-value=6.6e+02  Score=24.91  Aligned_cols=77  Identities=16%  Similarity=0.223  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             HHHHHHHhc-CHHHH--HHHHHHHHHHHHHHHHHHHhcccH--HHHHHH-HHhhccCCHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_51     45 DHFQRFLDT-NVDAQ--KILQSRVDSGVSKGVESYRTNTVP--ELIQKE-IAKRTEKTPEQIEMEGMKAEIEKMKAENTR  118 (213)
+Q Consensus        45 ~~~~~~l~~-~~~~k--~~~q~~~d~~v~k~l~~~k~~~~~--~~~e~e-~~k~~~~e~~~~e~~~~~~el~~~e~e~~~  118 (213)
+                      ..|+.+..+ ++-.+  .|+|+++|.+..+ |..|+..+..  ..+..+ ..--...++...+|..++.+|.+....+..
+T Consensus       486 ~~IQ~LtrsanPLGKlmD~iQEDlDsM~kE-L~~Wr~E~~~~~~~L~~Eq~~Te~~lepL~~qL~eLe~~I~eq~~kI~~  564 (583)
+T KOG3809         486 EKLQDLTKSAYPLGKLFDFINEDIDAMQKE-LEMWRSEQRQNEQELQNEQAATFGASEPLYNILANLQKEINDTKEEISK  564 (583)
+T ss_pred             HHHHHHHHhHhHHHHHHHHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHHHHhhhchHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q Q_9186633_51    119 KTIE  122 (213)
+Q Consensus       119 ~e~~  122 (213)
+                      ....
+T Consensus       565 ~Ka~  568 (583)
+T KOG3809         565 ARGR  568 (583)
+T ss_pred             HHHH
+
+
+No 7
+>PF00816.21 ; Histone_HNS ; H-NS histone family
+Probab=28.86  E-value=2.6e+02  Score=19.17  Aligned_cols=40  Identities=13%  Similarity=0.214  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcCCCHHHH
+Q Q_9186633_51     99 QIEMEGMKAEIEKMKAENTRKTIETEVAKQADKLGIDADFA  139 (213)
+Q Consensus        99 ~~e~~~~~~el~~~e~e~~~~e~~~~~~~~l~e~Glp~~l~  139 (213)
+                      ...++.++.+++. .....+.+....+...+.+.||+.+-+
+T Consensus         3 ~~~~~~~~~~~~~-~~~~~~~~~~~~i~~~~~~~gis~~dl   42 (84)
+T Q8XSY2_RALSO/6    3 VAQKAKLEEQIEA-ARSKELEAVIQQVRQTVAEYGLTAEDL   42 (84)
+T ss_pred             HHHHHHHHHHHHH-HHHHHHHHHHHHHHHHHHHcCCCHHHH
+
+
+No 8
+>COG5509 COG5509; Uncharacterized small protein, DUF1192 family [Function unknown]. 
+Probab=24.73  E-value=3.1e+02  Score=18.68  Aligned_cols=38  Identities=24%  Similarity=0.215  Sum_probs=0.0  Template_Neff=4.100
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHcC
+Q Q_9186633_51     96 TPEQIEMEGMKAEIEKMKAENTRKTIETEVAKQADKLG  133 (213)
+Q Consensus        96 e~~~~e~~~~~~el~~~e~e~~~~e~~~~~~~~l~e~G  133 (213)
+                      +..+..+..|+.+|...+.++..+.....+...+-..+
+T Consensus        28 ~EL~~rI~~L~aEI~R~ea~i~~K~~~r~aAealFk~~   65 (65)
+T COG5509          28 AELEERIALLQAEIERLKAELAKKKASRSAAEALFRRL   65 (65)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCC
+
+
+No 9
+>COG4472 COG4472; Uncharacterized protein, UPF0297 family [Function unknown]. 
+Probab=24.26  E-value=3.8e+02  Score=19.48  Aligned_cols=64  Identities=11%  Similarity=0.048  Sum_probs=0.0  Template_Neff=4.000
+
+Q ss_pred             HHHHHHHHHHHHHcCCCH--HHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhcCCC
+Q Q_9186633_51    119 KTIETEVAKQADKLGIDA--DFALTFCVDPTSLDNTLKNVTKFNEYAESLVADRVQKSVDERFANNYA  184 (213)
+Q Consensus       119 ~e~~~~~~~~l~e~Glp~--~l~~~l~~~~~d~e~~~~~i~~l~~~~~~~~~~~v~~~v~~~l~~~~~  184 (213)
+                      ++.-..+...|.++|.++  -++.+|++++.+-=.-..++-.+...+..  ++.++.-|...|+....
+T Consensus        21 ~~~L~~Vy~AL~EKGYnPinQiVGYllSGDPtYITs~~nAR~~I~~~eR--dellEeLl~~Yl~~~~~   86 (88)
+T COG4472          21 KETLNDVYNSLEEKGYNPINQIVGYLLSGDPAYIPRYNDARNQIRKLER--DEIVEELVKYYLKGNGK   86 (88)
+T ss_pred             HHHHHHHHHHHHHcCCChHHHHHHHHHhCCCccccchhhHHHHHHHhhH--HHHHHHHHHHHHHhcCC
+
+
+No 10
+>PF15967.5 ; Nucleoporin_FG2 ; Nucleoporin FG repeated region
+Probab=21.99  E-value=1e+03  Score=23.72  Aligned_cols=116  Identities=9%  Similarity=0.196  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             HHHHHHHHhcCHHHHHHHHHHHHHHHHHHHHHHHhcccHHHHHHHHHhhc-cCCHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_51     44 LDHFQRFLDTNVDAQKILQSRVDSGVSKGVESYRTNTVPELIQKEIAKRT-EKTPEQIEMEGMKAEIEKMKAENTRKTIE  122 (213)
+Q Consensus        44 ~~~~~~~l~~~~~~k~~~q~~~d~~v~k~l~~~k~~~~~~~~e~e~~k~~-~~e~~~~e~~~~~~el~~~e~e~~~~e~~  122 (213)
+                      ++.++++|+    .+..+.++|.+...+.+.+....  -+.+...+..+. ...+....++.|+.++.+..+..+.....
+T Consensus       257 Ve~lkkfIK----~Qk~isdEI~r~s~~~i~kV~eD--I~~L~q~L~~vss~L~rd~~ai~~LK~ev~qdl~~AE~A~Rt  330 (605)
+T H2LRF1_ORYLA/3  257 VENFQKFVK----EQKQVQEEISRMSSKAISKVQDD--IKNLKQLLSVNASGLQRQALAIDKLKQETAQELKNADIALRT  330 (605)
+T ss_pred             HHHHHHHHH----HHHHHHHHHHHhcHHHHHHHHHH--HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHHH-HHcCCCHHHHHHhcCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_51    123 TEVAKQA-DKLGIDADFALTFCVDPTSLDNTLKNVTKFNEYAESLVADRVQKSVD  176 (213)
+Q Consensus       123 ~~~~~~l-~e~Glp~~l~~~l~~~~~d~e~~~~~i~~l~~~~~~~~~~~v~~~v~  176 (213)
+                      ...-..+ .+...|.++...++.      .++..+..+...+     +.++..+.
+T Consensus       331 ~~~p~~lq~~n~~p~~YF~~Lve------efE~rL~~yrqqI-----eeLE~~L~  374 (605)
+T H2LRF1_ORYLA/3  331 QKTPPGLQHENTAPSDYFRSLVE------QFEVQLQQYRQQI-----EELENHLT  374 (605)
+T ss_pred             hcCCCCCCCCCCChHHHHHHHHH------HHHHHHHHHHHHH-----HHHHHHHh
+
+
+No 11
+>KOG3088 Secretory carrier membrane protein [Intracellular trafficking, secretion, and vesicular transport]
+Probab=21.49  E-value=2.8e+02  Score=24.97  Aligned_cols=29  Identities=17%  Similarity=0.190  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+Q Q_9186633_51     97 PEQIEMEGMKAEIEKMKAENTRKTIETEV  125 (213)
+Q Consensus        97 ~~~~e~~~~~~el~~~e~e~~~~e~~~~~  125 (213)
+                      +.+++++..+++|+.+++++.+++.....
+T Consensus        64 ~~~~eL~~re~eL~~rE~eL~~re~~~~~   92 (313)
+T KOG3088          64 KKQAELLKKQEELRRKEQELDRRERALAR   92 (313)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+

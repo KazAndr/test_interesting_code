@@ -1,0 +1,73 @@
+1	hp	DUF4236(3-55);4.55e-19
+2	-	-
+3	prorepressor [Bacillus phage PfNC7401];1.0e-47$Transcriptional regulator, MerR family [Bacillus phage phBC6A51];1.0e-26$transcriptional regulator [Bacillus phage vB_BtS_BMBtp3];1.0e-14	HTH_XRE(5-62);1.32e-18$HipB(3-98);3.86e-12$PRK13355(4-73);9.33e-09
+4	helix-turn-helix protein [Bacillus virus IEBH];2.0e-150$helix-turn-helix protein [Bacillus phage phBC6A52];8.0e-104$helix-turn-helix protein [Bacillus phage PfNC7401];1.0e-33	-
+5	hp	-
+6	-	-
+7	helix-turn-helix domain protein [Bacillus virus IEBH];2.0e-76$transcriptional regulator [Bacillus phage vB_BtS_BMBtp16];2.0e-34$transcriptional regulator [Brevibacillus phage Abouo];5.0e-16	HTH_XRE(5-61);1.29e-15
+8	helix-turn-helix domain protein [Bacillus virus IEBH];5.0e-47$repressor [Bacillus phage vB_BtS_BMBtp16];7.0e-23$putative repressor [Listeria phage PSU-VKH-LP040];4.0e-09	HTH_XRE(4-62);5.03e-16
+9	antirepressor [Lactococcus phage 58502];2.0e-29$antirepressor [Lactococcus phage 53802];3.0e-29$putative phage antirepressor [Streptococcus phage phi30c];7.0e-29	COG3617(1-103);5.69e-35
+10	antirepressor [Bacillus phage PfNC7401];1.0e-84$antirepressor [Staphylococcus prophage phiPV83];5.0e-44$77ORF010 [Staphylococcus virus 77];7.0e-44	ANT(42-146);1.18e-30
+11	hp	-
+12	-	-
+13	Yqai superfamily protein [Bacillus phage BM5];4.0e-08	-
+14	-	-
+15	ssDNA binding protein [Gordonia phage Mutzi];2.0e-54$ssDNA binding protein [Gordonia phage Twister6];4.0e-54$putative RecT [Mycobacterium phage Sparky];2.0e-37	-
+16	Cas4 family putative nuclease [Lactobacillus phage LR2];7.0e-59$putative Cas4 nuclease [Lactobacillus phage LR1];2.0e-58$nuclease [Streptococcus phage P0095];4.0e-47	DUF3799(22-249);5.40e-90
+17	hp	-
+18	hp	-
+19	replication protein [Bacillus phage phBC6A52];2.0e-77$DnaD [Bacillus phage BVE2];3.0e-67$replication initiation protein [Bacillus phage vB_BtS_BMBtp16];8.0e-66	Phg_2220_C(161-233);5.14e-36$HTH_36(23-74);9.88e-05
+20	phage replication protein, putative [Bacillus phage Gamma];3.0e-110$ATPase AAA [Bacillus phage vB_BceS-MY192];9.0e-108$putative DnaC protein [Bacillus phage AP631];6.0e-107	DnaC(48-273);1.14e-12$PRK06835(91-269);1.92e-11
+21	hp	-
+22	hp	-
+23	phage protein [Bacillus phage BtCS33];5.0e-23$group-specific phage protein [Bacillus phage phIS3501];3.0e-20	-
+24	hp	-
+25	gp38 [Bacillus phage TP21-L];2.0e-04$lysozyme-like protein [Bacillus phage vB_BtS_BMBtp14];4.0e-04	-
+26	nucleotide pyrophosphohydrolase [Bacillus phage BVE2];2.0e-82$MazG nucleotide pyrophosphohydrolase domain protein [Bacillus phage vB_BhaS-171];3.0e-28$putative NTP pyrophosphohydrolase MazG family [Staphylococcus phage phi879];2.0e-26	NTP-PPase_u4(36-135);3.95e-37
+27	-	-
+28	hp	-
+29	hp	-
+30	-	-
+31	hp	-
+32	putative membrane protein [Bacillus phage vB_BceM_Bc431v3];7.0e-07$putative membrane protein [Xanthomonas phage Xoo-sp15];7.0e-07$putative membrane protein [Bacillus phage Bcp1];4.0e-06	-
+33	-	-
+34	YopX protein [Bacillus phage 11143];7.0e-36$YopX protein [Bacillus phage SBP8a];6.0e-18$gp127 [Bacillus phage W.Ph.];2.0e-16	-
+35	-	-
+36	hp	-
+37	hp	DUF3983(5-38);6.69e-06
+38	putative recombination protein U [uncultured Caudovirales phage];5.0e-58$putative recombination protein U [Bacillus phage vB_BtS_BMBtp3];2.0e-50$recombination protein U [Staphylococcus phage SpaA1];2.0e-50	RecU(6-148);5.84e-50
+39	ArpU family transcriptional regulator [Bacillus phage PfNC7401];5.0e-27	phage_arpU(7-123);4.87e-12
+40	restriction endonuclease [Paenibacillus phage Vegas];2.0e-27$antirepressor/restriction endonuclease [Paenibacillus phage Pagassa];2.0e-25$antirepressor [Mycobacterium phage Sbash];8.0e-22	-
+41	phage protein [Bacillus phage phIS3501];7.0e-08$conserved phage protein [Bacillus phage Gamma];1.0e-06$conserved phage protein [Bacillus virus Wbeta];1.0e-06	-
+42	-	-
+43	-	-
+44	-	-
+45	putative resolvase [Clostridium phage vB_CpeS-CP51];2.0e-37$DNA-invertase [Clostridioides phage phiSemix9P1];2.0e-33$mobile element protein [Escherichia virus P1];4.0e-33	SR_ResInv(2-129);8.91e-50$PinE(1-193);7.73e-39$HTH_7(141-185);3.68e-04
+46	excinuclease ABC subunit C [Bacillus virus 250];2.0e-62	GIY-YIG_UvrC_Cho(19-94);5.94e-16$UvrC(12-144);1.04e-08$uvrC(19-93);3.33e-08
+47	putative terminase small subunit [Anoxybacillus phage A403];9.0e-77$phage-related terminase small subunit-like protein [Bacillus virus 250];5.0e-70$putative terminase small subunit [Clostridium virus phiC2];4.0e-60	YjcR(1-238);1.48e-57$Sigma70_r4_2(12-38);2.63e-05
+48	terminase large subunit [Bacillus phage phi4B1];0.0e+00$putative terminase large subunit [Staphylococcus virus IPLA88];5.0e-149$terminase large subunit [Streptococcus satellite phage Javan259];8.0e-147	XtmB(1-337);8.88e-86$Terminase_3(1-149);2.37e-44$phage_term_2(1-332);2.17e-39
+49	portal protein [Deep-sea thermophilic phage D6E];7.0e-56$phage portal protein, SPP1 [Staphylococcus phage SpaA1];7.0e-53$portal protein [Aeribacillus phage AP45];7.0e-51	Phage_prot_Gp6(36-460);4.67e-67
+50	head morphogenesis protein [Phage Altai3];4.0e-52$putative head morphogenesis protein [Brevibacillus phage Osiris];2.0e-42$head morphogenesis protein [Brevibacillus phage Davies];3.0e-42	phageSPP1_gp7(130-236);1.98e-23$COG5585(1-235);2.75e-11
+51	scaffold protein [Deep-sea thermophilic phage D6E];5.0e-13$scaffold protein [Aeribacillus phage AP45];3.0e-10$alanyl-tRNA synthetase [Staphylococcus phage DW2];2.0e-05	DUF4355(62-173);4.45e-07
+52	major head protein [Pseudomonas virus PaP3];5.0e-20$major head protein [Pseudomonas phage Delta];6.0e-20$major head protein [Pseudomonas phage TL];7.0e-20	DUF5309(14-295);7.22e-69
+53	-	-
+54	putative head-tail connector [Streptococcus phage P738];2.0e-15$head-tail connector protein [Phage Altai3];3.0e-13$putative phage protein [Clostridium phage phi8074-B1];8.0e-11	Phage_connect_1(1-84);1.44e-10
+55	-	-
+56	tail-component protein [Bacillus phage Silence];1.0e-05$putative tail protein [Bacillus phage 000TH010];1.0e-05$putative tail protein [Bacillus phage 049ML001];2.0e-04	HK97-gp10_like(12-87);8.76e-05
+57	-	-
+58	major tail protein [Streptococcus phage P738];8.0e-17$LmaA-like protein [Streptococcus phage Javan383];6.0e-16$major tail protein [Streptococcus phage D4446];7.0e-16	COG5437(19-160);1.76e-14
+59	-	-
+60	-	-
+61	lysozyme_like superfamily protein [Bacillus phage BM5];3.0e-148$tail length tape-measure protein [Bacillus phage vB_BtS_BMBtp16];6.0e-111$tail length tape-measure protein [Bacillus phage vB_BtS_BMBtp15];3.0e-108	YqbO(15-420);1.33e-34$PhageMin_Tail(128-298);2.37e-13$tape_meas_TP901(51-404);1.40e-08
+62	minor structural protein [Caldibacillus phage CBP1];9.0e-59$putative tail protein [Bacillus phage BSP7];2.0e-07$distal tail protein [Geobacillus phage TP-84];2.0e-04	Sipho_tail(17-268);3.29e-24$phi3626_gp14_N(35-132);2.34e-06
+63	minor tail protein [Arthrobacter phage Ingrid];2.0e-23$lysin A, glycosyl hydrolase domain [Microbacterium phage Leaf];3.0e-19$glycerophosphoryl diester phosphodiesterase [Enterococcus phage vB_EfaS_IME197];7.0e-04	-
+64	putative structural protein [uncultured Caudovirales phage];0.0e+00$putative structural protein [uncultured Caudovirales phage];0.0e+00$minor structural protein [Enterococcus phage EFC-1];0.0e+00	put_anti_recept(19-334);5.88e-81$PTZ00473(405-505);2.02e-06$Plasmodium_HRP(539-617);1.63e-04
+65	hp	-
+66	hp	-
+67	holin [Bacillus phage Harambe];2.0e-32$bacteriocin biosynthesis protein [Bacillus phage VMY22];2.0e-26$putative holin [Paenibacillus phage LincolnB];1.0e-24	Holin_BhlA(1-62);3.57e-06
+68	N-acetylmuramoyl-L-alanine amidase [Bacillus phage phBC6A52];2.0e-107$Gram-positive endolysin [Bacillus phage 0305phi8-36];5.0e-107$endolysin [Bacillus phage 11143];8.0e-101	GH25_PlyB-like(4-184);1.07e-54$Amidase02_C(227-274);7.28e-11
+69	-	-
+70	ParA family protein [Phage Altai3];5.0e-57$sporulation initiation inhibitor protein Soj [Mycobacterium phage Adler];2.0e-13$putative cobyrinic acid ac-diamide synthase [Brevibacillus phage Sundance];3.0e-13	AAA_31(3-156);2.39e-34
+71	potential replication protein [Bacillus virus 250];2.0e-61$potential replication protein [Bacillus virus IEBH];2.0e-61$putative replication protein [Bacillus phage PfNC7401];4.0e-61	-
+72	potential replication protein [Bacillus virus IEBH];2.0e-113$potential replication protein [Bacillus virus 250];7.0e-113$putative replication protein [Bacillus phage PfNC7401];1.0e-112	-
+73	-	-

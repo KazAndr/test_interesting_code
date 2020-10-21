@@ -1,0 +1,233 @@
+Query         Q_9186633_9
+Match_columns 104
+No_of_seqs    134 out of 1054
+Neff          13.6586
+Searched_HMMs 69205
+Date          Sun May 24 00:19:28 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_9.hhr -oa3m ../results/9186633_9.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 COG3617 COG3617; Prophage anti  99.6 7.4E-13 1.1E-17   63.2  12.0  102    1-103     6-110 (176)
+  2 PF10547.9 ; P22_AR_N ; P22_AR   99.1 2.5E-08 3.6E-13   44.3  10.5   96    7-104     2-112 (114)
+  3 PF02498.17 ; Bro-N ; BRO famil  98.9 1.4E-07   2E-12   40.1   9.0   83   14-97      1-91  (91)
+  4 COG3561 COG3561; Phage anti-re  95.0    0.18 2.6E-06   22.6   8.3   77   17-93      4-93  (110)
+  5 COG3646 pRha; Phage regulatory  94.3    0.39 5.6E-06   23.5   9.1   90   13-102     2-107 (167)
+  6 COG3943 COG3943; Uncharacteriz  86.6     5.7 8.3E-05   22.7   5.8  101    1-101     1-116 (329)
+  7 PF09669.10 ; Phage_pRha ; Phag  79.7     4.8   7E-05   16.6   4.8   39   59-97     45-83  (86)
+  8 PF10543.9 ; ORF6N ; ORF6N doma  52.9      28  0.0004   15.0   3.5   22   17-38      3-24  (89)
+  9 PF10733.9 ; DUF2525 ; Protein   34.8      35  0.0005   14.1   0.7   20   18-37     26-45  (57)
+ 10 PF06806.12 ; DUF1233 ; Putativ  24.9      90  0.0013   12.6   1.2   22   17-38      1-22  (70)
+ 11 d1rkia1 d.308.1.2 (A:1-98) Hyp  21.0 1.2E+02  0.0018   14.2   1.2   22   14-35      4-25  (98)
+ 12 PF13121.6 ; DUF3976 ; Domain o  20.5   1E+02  0.0015   11.5   1.2   10   67-76     14-23  (40)
+
+No 1
+>COG3617 COG3617; Prophage antirepressor  [Mobilome: prophages, transposons]. 
+Probab=99.59  E-value=7.4e-13  Score=63.21  Aligned_cols=102  Identities=44%  Similarity=0.671  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCcceecccCCCCeEEEEEECCEEEEEHHHHHHHcCCCCHHHHHhcCChhhceee---ecCCCcccEEEEeHHHHHHHHH
+Q Q_9186633_9       1 MNQLQVFNNEEFGQVRTVTKGEDVWFVAKDVAEILEFKDAYSLTQHLDEDEKLNL---PLEGFKRGAIIINESGLYSAIL   77 (104)
+Q Consensus         1 m~~~~~~~~~~~~~i~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~---~~~~~~~~~~~~~~~~~~~~~~   77 (104)
+                      |++++.+.+.+. .++++..+|.+|+.++|+++.+|+.+.......+........   ...+......+++..|++.++.
+T Consensus         6 ~~~l~~~~F~~~-~lr~~~~~g~~wf~a~dla~~Lg~~~~~~~~~~~~~~~~~~~~~~~~~g~~~~~~~i~e~Gl~~ll~   84 (176)
+T COG3617           6 MTMLQPFTFEDH-AVRVVLDDGEPWFVAADVARALGYTNPSKALQRHCDEVTERMSLTDSLGREQEVRIISESGLYKLIM   84 (176)
+T ss_pred             CcccEEeEeCCc-eEEEEEcCCeEEEEHHHHHHHcCCCCHHHHHHhhccccceeeeeeCCCCCeeeEEEEEHHHHHHHHH
+
+
+Q ss_pred             cCCChhhHHHHHHHHHhhHHHHHhhC
+Q Q_9186633_9      78 RSRKKEAKSFKKWVTSEVLPSIRKHG  103 (104)
+Q Consensus        78 ~~~~~~~~~~~~~~~~~~~~~~~~~~  103 (104)
+                      .+..+.+..|+.|+..++++.++..+
+T Consensus        85 ~s~~~~a~~f~~Wv~~evlp~ir~~g  110 (176)
+T COG3617          85 RSRKPEAEKFRRWVTDEVLPSIRKTG  110 (176)
+T ss_pred             hCCChhHHHHHHHHhhchHHHHHHhC
+
+
+No 2
+>PF10547.9 ; P22_AR_N ; P22_AR N-terminal domain
+Probab=99.11  E-value=2.5e-08  Score=44.35  Aligned_cols=96  Identities=11%  Similarity=0.093  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             cccCCCCeEEEEEECCEEEEEHHHHHHHcCCCCHHHHHhcCChhhcee-------eecCCCcccEEEEeHHHHHHHHHcC
+Q Q_9186633_9       7 FNNEEFGQVRTVTKGEDVWFVAKDVAEILEFKDAYSLTQHLDEDEKLN-------LPLEGFKRGAIIINESGLYSAILRS   79 (104)
+Q Consensus         7 ~~~~~~~~i~~~~~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~-------~~~~~~~~~~~~~~~~~~~~~~~~~   79 (104)
+                      +.+.+. .++++..+|.+|+...++++.+|+.................       ....++.....+++..+++.+++.+
+T Consensus         2 ~~f~~~-~i~~~~~~~~~~~~~~di~~~lg~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~g~~~~~~~~   80 (114)
+T C1D7S9_LARHH/8    2 VEFAGA-VLDGVIVDGVAYVALRPIAEGMGLSWARQYRKLMSDPVLRSVVAEKATTGADGKQYTMLCLPETYLQGWLFKV   80 (114)
+T ss_pred             ceeCCe-eEEEEEECCEEEEEeHHHHHHcCCCHHHHHHHHhcCccceeeEEEeeecCCCCCeEEEEEEEHHHHHHHHhcC
+
+
+Q ss_pred             CC--------hhhHHHHHHHHHhhHHHHHhhCC
+Q Q_9186633_9      80 RK--------KEAKSFKKWVTSEVLPSIRKHGA  104 (104)
+Q Consensus        80 ~~--------~~~~~~~~~~~~~~~~~~~~~~~  104 (104)
+                      ..        +.+..|+.|+. ..++.+...+.
+T Consensus        81 ~~~~~~~~~~~~a~~~~~w~~-~vl~~~~~~g~  112 (114)
+T C1D7S9_LARHH/8   81 NPDKVQPSIRDKVIRYQRECY-EVLHQAFTQGK  112 (114)
+T ss_pred             CHhHCCHHHHHHHHHHHHHHH-HHHHHHHhcCC
+
+
+No 3
+>PF02498.17 ; Bro-N ; BRO family, N-terminal domain
+Probab=98.93  E-value=1.4e-07  Score=40.11  Aligned_cols=83  Identities=17%  Similarity=0.374  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             eEEEEE--ECCEEEEEHHHHHHHcCCCCHHHHHhcCChhhceeee------cCCCcccEEEEeHHHHHHHHHcCCChhhH
+Q Q_9186633_9      14 QVRTVT--KGEDVWFVAKDVAEILEFKDAYSLTQHLDEDEKLNLP------LEGFKRGAIIINESGLYSAILRSRKKEAK   85 (104)
+Q Consensus        14 ~i~~~~--~~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~------~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   85 (104)
+                      .++++.  .++.+|+...++++.+| .........+.........      ..+......+++..|++.+++.+.++.+.
+T Consensus         1 ~i~~~~~~~~~~~~~~~~di~~~lg-~~~~~i~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~g~~~l~~~~~~~~a~   79 (91)
+T Q9EME4_AMEPV/1    1 NIYIYVDIKTKLSYFISNDILKILT-ESTDNIYKYCEKSDIFKWINIHNNIPSNISDETILINKNGLNNIISKLNNEKSN   79 (91)
+T ss_pred             CeeEEEeCCCCcEEEEHHHHHHHhc-CCHHHHHHHCChhcceehhHhhhcCCCCCCCCeEEEehHHHHHHHHcCCCHHHH
+
+
+Q ss_pred             HHHHHHHHhhHH
+Q Q_9186633_9      86 SFKKWVTSEVLP   97 (104)
+Q Consensus        86 ~~~~~~~~~~~~   97 (104)
+                      .|+.|+....++
+T Consensus        80 ~f~~w~~~~~~p   91 (91)
+T Q9EME4_AMEPV/1   80 HFRKWLNDIDIN   91 (91)
+T ss_pred             HHHHHHhhcccC
+
+
+No 4
+>COG3561 COG3561; Phage anti-repressor protein  [Mobilome: prophages, transposons]. 
+Probab=95.00  E-value=0.18  Score=22.56  Aligned_cols=77  Identities=10%  Similarity=0.151  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             EEEECCEEEEEHHHHHHHcCCCCHHHHHh--------cCChhhceeee-----cCCCcccEEEEeHHHHHHHHHcCCChh
+Q Q_9186633_9      17 TVTKGEDVWFVAKDVAEILEFKDAYSLTQ--------HLDEDEKLNLP-----LEGFKRGAIIINESGLYSAILRSRKKE   83 (104)
+Q Consensus        17 ~~~~~~~~~~~~~~i~~~~~~~~~~~~~~--------~~~~~~~~~~~-----~~~~~~~~~~~~~~~~~~~~~~~~~~~   83 (104)
+                      +...++..++++++|+..++.......+.        .+.........     ..+.....+.++..++..+.+....+.
+T Consensus         4 ~~~~~~~~~~~a~dL~~~l~~~~~~~~~~~~~~~~~~~~e~~~~~~~~~~~~~~~~~~~~~~~lt~~~~~~l~m~~~~~~   83 (110)
+T COG3561           4 TIKNNTLSLVSARELHWFLDVKTRYSAWFRERISEYGFIENIDYIGCSDYGEEFSGVIGMDYALTIDMAKEIAMVERNEK   83 (110)
+T ss_pred             eecCCCeeEEEHHHHHHHhcCCcchhHHHHHHHHHccceeccceeeeeecCCccCCccceEEEEeHHHHHHHhhhcCCHH
+
+
+Q ss_pred             hHHHHHHHHH
+Q Q_9186633_9      84 AKSFKKWVTS   93 (104)
+Q Consensus        84 ~~~~~~~~~~   93 (104)
+                      +..++.|+..
+T Consensus        84 ~~~~r~~~~~   93 (110)
+T COG3561          84 GRQARQYFIK   93 (110)
+T ss_pred             HHHHHHHHHH
+
+
+No 5
+>COG3646 pRha; Phage regulatory protein Rha [Mobilome: prophages, transposons]. 
+Probab=94.34  E-value=0.39  Score=23.49  Aligned_cols=90  Identities=12%  Similarity=0.151  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CeEEEEEECCEEEEEHHHHHHHcCCCCHH--HHHhcCChhhc--------------eeeecCCCcccEEEEeHHHHHHHH
+Q Q_9186633_9      13 GQVRTVTKGEDVWFVAKDVAEILEFKDAY--SLTQHLDEDEK--------------LNLPLEGFKRGAIIINESGLYSAI   76 (104)
+Q Consensus        13 ~~i~~~~~~~~~~~~~~~i~~~~~~~~~~--~~~~~~~~~~~--------------~~~~~~~~~~~~~~~~~~~~~~~~   76 (104)
+                      ..+.+...++.++.+..+|++.+|..+..  ..+........              ......+.....+.++..++..++
+T Consensus         2 ~~l~v~~~~~~~~~ts~~IAe~~g~~h~~v~~~I~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~y~lt~~g~~~l~   81 (167)
+T COG3646           2 NNLAVIDSNKLIVTNSREIAEMVGKRHDNILRSIENLKRDFDQNEKLGSLEFFIESLYLRGQGKKVKMFEMTKAGFMILV   81 (167)
+T ss_pred             CceEEEcCCCEEEEeHHHHHHHHCCCHHHHHHHHHHHHhhhccccccCccchheeeeeeCCCCcEEEEEEeeHHHHhhhh
+
+
+Q ss_pred             HcCCChhhHHHHHHHHHhhHHHHHhh
+Q Q_9186633_9      77 LRSRKKEAKSFKKWVTSEVLPSIRKH  102 (104)
+Q Consensus        77 ~~~~~~~~~~~~~~~~~~~~~~~~~~  102 (104)
+                      +....+.+..+..++...+...-...
+T Consensus        82 ~~~~~~~a~~~k~~~i~~f~~~~~~~  107 (167)
+T COG3646          82 NKLTGEKVRQFKAALVKRFDEMEEAL  107 (167)
+T ss_pred             cccccHHHHHHHHHHHHHHHHHHHHH
+
+
+No 6
+>COG3943 COG3943; Uncharacterized conserved protein [Function unknown]. 
+Probab=86.64  E-value=5.7  Score=22.65  Aligned_cols=101  Identities=18%  Similarity=0.267  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             CCcceecccCCCCeEEEEEECCEEEEEHHHHHHHcCCCCH--HHHHhcCChhh----------ceeeecCCCc---ccEE
+Q Q_9186633_9       1 MNQLQVFNNEEFGQVRTVTKGEDVWFVAKDVAEILEFKDA--YSLTQHLDEDE----------KLNLPLEGFK---RGAI   65 (104)
+Q Consensus         1 m~~~~~~~~~~~~~i~~~~~~~~~~~~~~~i~~~~~~~~~--~~~~~~~~~~~----------~~~~~~~~~~---~~~~   65 (104)
+                      +.-+.-.+..+...+++...++..|++..++++.++....  ...++.+-...          .......|+.   ....
+T Consensus         1 ~e~iiy~~~~g~~~v~v~~~~~tvWLTq~eiAeLF~v~~~~I~~HIknIfk~gEL~e~~~~~~~~~v~~eg~~~~~~~~~   80 (329)
+T COG3943           1 MSIILYTANDGTAQFALQEFGGQLWLTQADMAELYQTTKQNISKHIKTILAEGELEEKATVNSYLTVQNEGGRQVNRNIA   80 (329)
+T ss_pred             CceEEEEcCCCceEEEEEecCCeEEECHHHHHHHHHhcHHHHHHHHHHHHhcCCCCccceecceehhhcCCCceeccCee
+
+
+Q ss_pred             EEeHHHHHHHHHcCCChhhHHHHHHHHHhhHHHHHh
+Q Q_9186633_9      66 IINESGLYSAILRSRKKEAKSFKKWVTSEVLPSIRK  101 (104)
+Q Consensus        66 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  101 (104)
+                      +++...+..+..+.....+..|+.|........+.+
+T Consensus        81 ~YnLd~IIavgyRv~S~~a~~FR~Wat~~L~ey~~k  116 (329)
+T COG3943          81 HYSLPVILAVGYRVRSARGTQFRQWATQTLQEYLIK  116 (329)
+T ss_pred             eeccceeEeeeeeccCHHHHHHHHHHHHHHHHHHHh
+
+
+No 7
+>PF09669.10 ; Phage_pRha ; Phage regulatory protein Rha (Phage_pRha)
+Probab=79.65  E-value=4.8  Score=16.59  Aligned_cols=39  Identities=18%  Similarity=0.167  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCcccEEEEeHHHHHHHHHcCCChhhHHHHHHHHHhhHH
+Q Q_9186633_9      59 GFKRGAIIINESGLYSAILRSRKKEAKSFKKWVTSEVLP   97 (104)
+Q Consensus        59 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   97 (104)
+                      +.....+.++..++..+++....+.+..++.++......
+T Consensus        45 ~~~~~~~~l~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~   83 (86)
+T I5B112_9DELT/2   45 GEERPAFNMTRDGFVLLVMGFTGKRAMAWKIKYIEAFNA   83 (86)
+T ss_pred             CCEEeeEEEeHHHHHHHHcCcCcHHHHHHHHHHHHHHHH
+
+
+No 8
+>PF10543.9 ; ORF6N ; ORF6N domain
+Probab=52.87  E-value=28  Score=15.02  Aligned_cols=22  Identities=14%  Similarity=0.066  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             EEEECCEEEEEHHHHHHHcCCC
+Q Q_9186633_9      17 TVTKGEDVWFVAKDVAEILEFK   38 (104)
+Q Consensus        17 ~~~~~~~~~~~~~~i~~~~~~~   38 (104)
+                      +.+..|..+++..++++.+|..
+T Consensus         3 ~~~~~g~~v~t~~~la~~~~~~   24 (89)
+T R5U9R5_9BACE/8    3 IYEIRGQKVMLDFDLAELYGTE   24 (89)
+T ss_pred             cEEECCEEEEeHHHHHHHhCCC
+
+
+No 9
+>PF10733.9 ; DUF2525 ; Protein of unknown function (DUF2525)
+Probab=34.81  E-value=35  Score=14.14  Aligned_cols=20  Identities=10%  Similarity=0.082  Sum_probs=0.0  Template_Neff=3.500
+
+Q ss_pred             EEECCEEEEEHHHHHHHcCC
+Q Q_9186633_9      18 VTKGEDVWFVAKDVAEILEF   37 (104)
+Q Consensus        18 ~~~~~~~~~~~~~i~~~~~~   37 (104)
+                      +..+|..+-+.+++++.++.
+T Consensus        26 ~~v~gr~~~~~~ELAeafEL   45 (57)
+T A7MP34_CROS8/2   26 TLADARRKDTCRELGEEFEL   45 (57)
+T ss_pred             ccccccccccccHHHHHhcc
+
+
+No 10
+>PF06806.12 ; DUF1233 ; Putative excisionase (DUF1233)
+Probab=24.93  E-value=90  Score=12.57  Aligned_cols=22  Identities=5%  Similarity=0.187  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             EEEECCEEEEEHHHHHHHcCCC
+Q Q_9186633_9      17 TVTKGEDVWFVAKDVAEILEFK   38 (104)
+Q Consensus        17 ~~~~~~~~~~~~~~i~~~~~~~   38 (104)
+                      +.......+++..++++.+|..
+T Consensus         1 ~~~~~~~~~l~~~~~a~~lg~s   22 (70)
+T Q74U26_YERPE/4    1 VIQMNPSKWVSEDLLMSLNGMT   22 (70)
+T ss_pred             CcccCcccccCHHHHHHHhCCC
+
+
+No 11
+>d1rkia1 d.308.1.2 (A:1-98) Hypothetical protein PAE0736 {Pyrobaculum aerophilum [TaxId: 13773]}
+Probab=20.97  E-value=1.2e+02  Score=14.22  Aligned_cols=22  Identities=9%  Similarity=0.202  Sum_probs=0.0  Template_Neff=2.600
+
+Q ss_pred             eEEEEEECCEEEEEHHHHHHHc
+Q Q_9186633_9      14 QVRTVTKGEDVWFVAKDVAEIL   35 (104)
+Q Consensus        14 ~i~~~~~~~~~~~~~~~i~~~~   35 (104)
+                      .+-+.+..+..-..++|||+.+
+T Consensus         4 ~il~~T~~~KE~vvARDLCDCl   25 (98)
+T d1rkia1           4 HIIIKTIPKKEEIISRDLCDCI   25 (98)
+T ss_dssp             EEEEEECTTCHHHHHHHHHHHH
+T ss_pred             EEEEEeCCccchhHHHHhhchh
+
+
+No 12
+>PF13121.6 ; DUF3976 ; Domain of unknown function (DUF3976)
+Probab=20.54  E-value=1e+02  Score=11.48  Aligned_cols=10  Identities=30%  Similarity=0.803  Sum_probs=0.0  Template_Neff=1.600
+
+Q ss_pred             EeHHHHHHHH
+Q Q_9186633_9      67 INESGLYSAI   76 (104)
+Q Consensus        67 ~~~~~~~~~~   76 (104)
+                      ++++|++.+.
+T Consensus        14 LtKRGFYkli   23 (40)
+T Q81TJ8_BACAN/1   14 LTKRGFYKMI   23 (40)
+T ss_pred             cchHHHHHHH
+
+

@@ -1,0 +1,182 @@
+Query         Q_9186633_10
+Match_columns 149
+No_of_seqs    125 out of 1179
+Neff          12.7962
+Searched_HMMs 69205
+Date          Sun May 24 00:19:32 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_10.hhr -oa3m ../results/9186633_10.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF03374.14 ; ANT ; Phage antir  99.2 6.4E-09 9.2E-14   55.1  13.7  113   34-146     1-113 (113)
+  2 COG3645 KilAC; Phage antirepre  99.2 4.1E-08 5.9E-13   53.8  16.0  129   13-147     4-132 (135)
+  3 PF17253.2 ; DUF5320 ; Family o  69.1      18 0.00027   18.4   4.2   28   13-40     56-83  (83)
+  4 PF14056.6 ; DUF4250 ; Domain o  42.6      54 0.00078   15.4   3.5   27   58-89     21-47  (54)
+  5 cd14724 ZIP_Gal4-like_1; Leuci  29.3      63 0.00091   12.2   2.1   22   27-48      2-23  (24)
+  6 PF11336.8 ; DUF3138 ; Protein   28.5 2.4E+02  0.0034   20.4   4.2   33   13-45     29-61  (532)
+  7 PF15741.5 ; LRIF1 ; Ligand-dep  28.1 2.4E+02  0.0034   21.9   4.1   38    1-39    689-726 (726)
+  8 COG2960 YqiC; Uncharacterized   26.1 1.7E+02  0.0024   16.0   5.4   43   10-52     55-97  (103)
+  9 PF09849.9 ; DUF2076 ; Uncharac  25.3 2.9E+02  0.0042   18.5   4.0   34   12-45     52-85  (269)
+ 10 PF08954.11 ; Trimer_CC ; Trime  21.5 1.4E+02  0.0021   13.6   4.3   32   14-45     15-46  (48)
+ 11 PF11500.8 ; Cut12 ; Spindle po  20.3 2.8E+02   0.004   16.5   4.3   32   14-45    101-132 (141)
+
+No 1
+>PF03374.14 ; ANT ; Phage antirepressor protein KilAC domain
+Probab=99.24  E-value=6.4e-09  Score=55.08  Aligned_cols=113  Identities=48%  Similarity=0.781  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             HHHHHhccchHHHHHHHHhcCCceeHHHHHHHHHHcCCCccHHHHHHHHHHCCCEeecCCCcCcCcchHhhhcCcEEEee
+Q Q_9186633_10     34 QQQIVQQQPLVTFAEAVQVSTNLITVKQLANLMRQKGIDTGQNRLFEWFRENGYLCKKRGSLYNTPTQYSMDLELFESQE  113 (149)
+Q Consensus        34 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  113 (149)
+                      +++++.+.|+++.++.+....+..++.++++.+...+..++..+++.+|.+.++.++..+...+.++..+...+|+....
+T Consensus         1 ~~~~~~~~pk~~~~~~~~~~~~~~~~~~~ak~lg~~~~~i~~~~l~~~l~~~g~~~~~~~~~~~~~~~~~~~~g~~~~~~   80 (113)
+T B9E7T0_MACCJ/1    1 EEQMKIDKPKTIFADAVAASKTSILVGELAKLLKQNGVEIGQKRLFEYLRKNGFLIRRKGTDYNMPTQYSMERGLFEIKE   80 (113)
+T ss_pred             ChhhhhhcchhHHHHHHHcCCCeEEHHHHHHHHHhcCCcccHHHHHHHHHHCCcEeecCCCCCCcccHHHHhcCCEEEEE
+
+
+Q ss_pred             EEEECCCCcEEEeeEEEechhHHHHHHHHHccc
+Q Q_9186633_10    114 YVRTNSVGEFVTSFTTKVTGKGQLYFINKFLGK  146 (149)
+Q Consensus       114 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  146 (149)
+                      .......+.........++++|..++.+.+.+.
+T Consensus        81 ~~~~~~~~~~~~~~~~~~t~kG~~~l~~~l~~~  113 (113)
+T B9E7T0_MACCJ/1   81 TSITHSDGHVSINKTPKVTGKGQQYFINRFLNN  113 (113)
+T ss_pred             EEEECCCCCEEEeEEeEEeHHHHHHHHHHHhcC
+
+
+No 2
+>COG3645 KilAC; Phage antirepressor protein YoqD, KilAC domain [Mobilome: prophages, transposons]. 
+Probab=99.19  E-value=4.1e-08  Score=53.78  Aligned_cols=129  Identities=37%  Similarity=0.526  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhccchHHHHHHHHhcCCceeHHHHHHHHHHcCCCccHHHHHHHHHHCCCEeecC
+Q Q_9186633_10     13 PDFAIGLLTKLKEEKEKLAAAQQQIVQQQPLVTFAEAVQVSTNLITVKQLANLMRQKGIDTGQNRLFEWFRENGYLCKKR   92 (149)
+Q Consensus        13 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~~~~   92 (149)
+                      +....+.+.......+....++.++..+.|+++.++.+....+..+.+++++.+     +++...++.+|...++.++. 
+T Consensus         4 ~~~~~~~~~~~~~~~~~~~~l~~~i~~~~pk~~~~~~~~~~~~~~~~~~~ak~l-----gi~~~~l~~~L~~~g~~~~~-   77 (135)
+T COG3645           4 LTLLAEELELKAQLRLENEVLTVELAIAAPKVEFADAVVEASGLILFRELAKLL-----KIGENRLFAWLRENKYLIKR-   77 (135)
+T ss_pred             hHHHHHHHHHHHHHHHHHHHHHHHHHHhhchHHHHHHHHHhcCcEEHHHHHHHc-----CCCHHHHHHHHHHCCceeec-
+
+
+Q ss_pred             CCcCcCcchHhhhcCcEEEeeEEEECCCCcEEEeeEEEechhHHHHHHHHHcccc
+Q Q_9186633_10     93 GSLYNTPTQYSMDLELFESQEYVRTNSVGEFVTSFTTKVTGKGQLYFINKFLGKE  147 (149)
+Q Consensus        93 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  147 (149)
+                      +..++.++..+...+|+...........+.........+++.|..++...+....
+T Consensus        78 ~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~~~~~~~~~t~~g~~~~~~~~~~~~  132 (135)
+T COG3645          78 GGDKNLPTQKHMELGLFKVKETSIAHSNGAITQTKTTKKTGKGQQLLLNKFLENV  132 (135)
+T ss_pred             CCCCccccchhcccCCEEEEEEEEEcCCCeEEEEEEeCcCHHHHHHHHHHHHHhh
+
+
+No 3
+>PF17253.2 ; DUF5320 ; Family of unknown function (DUF5320)
+Probab=69.14  E-value=18  Score=18.36  Aligned_cols=28  Identities=11%  Similarity=0.004  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhc
+Q Q_9186633_10     13 PDFAIGLLTKLKEEKEKLAAAQQQIVQQ   40 (149)
+Q Consensus        13 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~   40 (149)
+                      .+.+..+..+.+..+++++.++++++++
+T Consensus        56 ~~e~~~L~~q~~~Le~eL~~i~~rl~eL   83 (83)
+T A0A0G0MK00_9BA   56 IEETEFLQQKALALEEEIKNVKVRLSEV   83 (83)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhcC
+
+
+No 4
+>PF14056.6 ; DUF4250 ; Domain of unknown function (DUF4250)
+Probab=42.56  E-value=54  Score=15.36  Aligned_cols=27  Identities=11%  Similarity=0.230  Sum_probs=0.0  Template_Neff=5.600
+
+Q ss_pred             eHHHHHHHHHHcCCCccHHHHHHHHHHCCCEe
+Q Q_9186633_10     58 TVKQLANLMRQKGIDTGQNRLFEWFRENGYLC   89 (149)
+Q Consensus        58 ~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~~   89 (149)
+                      +..+++..+     ++....+.+.|...||.|
+T Consensus        21 sL~~lc~~~-----~i~~~~l~~rl~~~Gy~Y   47 (54)
+T I5ATK2_EUBCE/3   21 NLDELCAAL-----NLDKTEITEKLAAIDYHY   47 (54)
+T ss_pred             CHHHHHHHc-----CCCHHHHHHHHHHCCCEe
+
+
+No 5
+>cd14724 ZIP_Gal4-like_1; Leucine zipper Dimerization domain of Gal4-like transcription factors. The Gal4p family of transcriptional activators contain an N-terminal DNA-binding domain with a Zn2Cys6 binuclear cluster that interact with CCG triplets and a leucine zipper-like heptad repeat that dimerizes.
+Probab=29.26  E-value=63  Score=12.22  Aligned_cols=22  Identities=9%  Similarity=0.182  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             HHHHHHHHHHHHhccchHHHHH
+Q Q_9186633_10     27 KEKLAAAQQQIVQQQPLVTFAE   48 (149)
+Q Consensus        27 ~~~~~~~~~~~~~~~~~~~~~~   48 (149)
+                      ++++..|..+|..++.......
+T Consensus         2 q~E~~~Lr~rIr~LEa~~~~~~   23 (24)
+T cd14724           2 ADEIRNLREEIRELTASLHNCE   23 (24)
+T ss_pred             HHHHHHHHHHHHHHHHHHHhhc
+
+
+No 6
+>PF11336.8 ; DUF3138 ; Protein of unknown function (DUF3138)
+Probab=28.54  E-value=2.4e+02  Score=20.44  Aligned_cols=33  Identities=9%  Similarity=0.177  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhccchHH
+Q Q_9186633_10     13 PDFAIGLLTKLKEEKEKLAAAQQQIVQQQPLVT   45 (149)
+Q Consensus        13 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   45 (149)
+                      .+.+.++..+++..+.++++|+++++.++....
+T Consensus        29 ~~~i~~L~~~l~~l~~~~~~L~~~~~~~~~~~~   61 (532)
+T B4EJE8_BURCJ/1   29 ANRMKALQAQVTALQRQVNALRASMLAAKPAGA   61 (532)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHhhccccc
+
+
+No 7
+>PF15741.5 ; LRIF1 ; Ligand-dependent nuclear receptor-interacting factor 1
+Probab=28.10  E-value=2.4e+02  Score=21.95  Aligned_cols=38  Identities=21%  Similarity=0.275  Sum_probs=0.0  Template_Neff=3.700
+
+Q ss_pred             CCHHHHHHHhcCHHHHHHHHHHHHHHHHHHHHHHHHHHh
+Q Q_9186633_10      1 MTDQVLEQAVTNPDFAIGLLTKLKEEKEKLAAAQQQIVQ   39 (149)
+Q Consensus         1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   39 (149)
+                      ++|.++++.+. .+-|..+.+.|.+.+.++++..+++..
+T Consensus       689 ~TPPdLdETIR-DEKIrRLKQlLRErEAALEEmRKKM~q  726 (726)
+T F1LMD4_RAT/22-  689 VTPPELEETIR-DEKIRRLKQILREKEAALEELRKKMHQ  726 (726)
+T ss_pred             CCCCchhhHHh-HHHHHHHHHHHHHHHHHHHHHHHHhcC
+
+
+No 8
+>COG2960 YqiC; Uncharacterized conserved protein YqiC, BMFP domain [Function unknown]. 
+Probab=26.12  E-value=1.7e+02  Score=16.02  Aligned_cols=43  Identities=19%  Similarity=0.098  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             hcCHHHHHHHHHHHHHHHHHHHHHHHHHHhccchHHHHHHHHh
+Q Q_9186633_10     10 VTNPDFAIGLLTKLKEEKEKLAAAQQQIVQQQPLVTFAEAVQV   52 (149)
+Q Consensus        10 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   52 (149)
+                      +...+.+..+...+....+++..|+.++..++...........
+T Consensus        55 lvtreE~d~q~~~l~~~~~rl~~Le~RV~~LE~~l~~~~~~~~   97 (103)
+T COG2960          55 LVSREEFDVQRQVLLRTREKLAALEARIEELEARLASAAPAAA   97 (103)
+T ss_pred             CCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhhhHHH
+
+
+No 9
+>PF09849.9 ; DUF2076 ; Uncharacterized protein conserved in bacteria (DUF2076)
+Probab=25.33  E-value=2.9e+02  Score=18.53  Aligned_cols=34  Identities=21%  Similarity=0.161  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             CHHHHHHHHHHHHHHHHHHHHHHHHHHhccchHH
+Q Q_9186633_10     12 NPDFAIGLLTKLKEEKEKLAAAQQQIVQQQPLVT   45 (149)
+Q Consensus        12 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   45 (149)
+                      .|++...+.+...-++..+..++.+|.+|+..+.
+T Consensus        52 qP~A~Y~LaQ~vlvQE~AL~~Aq~rI~~Le~ql~   85 (269)
+T C7JC37_ACEP3/1   52 YPEARYRITQMAVVQEAALVEAQNRIQQLQFQLQ   85 (269)
+T ss_pred             CCChHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+
+No 10
+>PF08954.11 ; Trimer_CC ; Trimerisation motif
+Probab=21.54  E-value=1.4e+02  Score=13.60  Aligned_cols=32  Identities=16%  Similarity=0.185  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhccchHH
+Q Q_9186633_10     14 DFAIGLLTKLKEEKEKLAAAQQQIVQQQPLVT   45 (149)
+Q Consensus        14 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   45 (149)
+                      ..+.+.+.++......+..+..+|..|+....
+T Consensus        15 ~~l~ell~Eir~Lka~v~~q~~RI~~LE~~l~   46 (48)
+T G1TF67_RABIT/3   15 DVISRLEEELRKLQTVVQELQKRVDRLEDTVQ   46 (48)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+
+
+No 11
+>PF11500.8 ; Cut12 ; Spindle pole body formation-associated protein
+Probab=20.33  E-value=2.8e+02  Score=16.48  Aligned_cols=32  Identities=25%  Similarity=0.342  Sum_probs=0.0  Template_Neff=4.500
+
+Q ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHhccchHH
+Q Q_9186633_10     14 DFAIGLLTKLKEEKEKLAAAQQQIVQQQPLVT   45 (149)
+Q Consensus        14 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   45 (149)
+                      +..+.+...|..++.++..++.++..|.....
+T Consensus       101 ~E~~~L~ekLreE~~kv~~mE~~i~~l~~q~~  132 (141)
+T V5FJL3_BYSSN/1  101 AESLRLAEKLKEEEAKVADMERHVSNLASTMV  132 (141)
+T ss_pred             HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
+
+

@@ -1,0 +1,136 @@
+Query         Q_9186633_43
+Match_columns 33
+No_of_seqs    1 out of 3
+Neff          1
+Searched_HMMs 69205
+Date          Sun May 24 00:22:25 2020
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/scope70/scope70 -d /cluster/toolkit/production/databases/hh-suite/COG_KOG/COG_KOG -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/NCBI_CD/NCBI_CD -o ../results/9186633_43.hhr -oa3m ../results/9186633_43.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF17420.2 ; GP17 ; Superinfect  69.1     6.8 9.8E-05   23.8   2.0   21   12-32      4-24  (100)
+  2 PF07495.13 ; Y_Y_Y ; Y_Y_Y dom  42.1      63 0.00091   16.7   2.6   29    5-33     32-60  (76)
+  3 PF12345.8 ; DUF3641 ; Protein   38.3      14 0.00021   22.8  -0.2   20    5-24     19-38  (133)
+  4 PF14734.6 ; DUF4469 ; Domain o  38.0      56  0.0008   17.7   2.1   16   13-28     66-81  (95)
+  5 cd13230 PH1_SSRP1-like; Struct  35.4      31 0.00045   20.2   0.9   10   19-28     16-25  (137)
+  6 PF02149.19 ; KA1 ; Kinase asso  30.8      69   0.001   14.5   1.5   12    2-13      1-12  (45)
+  7 PF18245.1 ; XRN1_DBM ; 5-3 exo  30.0      41 0.00059   16.8   0.7    6   16-21      8-13  (26)
+  8 PF17989.1 ; ALP_N ; Actin like  30.0   1E+02  0.0015   16.0   2.2   16    2-17    132-147 (151)
+  9 PF08320.12 ; PIG-X ; PIG-X / P  22.2      63 0.00091   18.9   0.6   14   11-24     34-47  (218)
+
+No 1
+>PF17420.2 ; GP17 ; Superinfection exclusion gene product 17
+Probab=69.13  E-value=6.8  Score=23.77  Aligned_cols=21  Identities=33%  Similarity=0.732  Sum_probs=0.0  Template_Neff=3.600
+
+Q ss_pred             EEEEcCCCCCCceeeeecccc
+Q Q_9186633_43     12 RVYIMPNLPRGRFTTEIAGIE   32 (33)
+Q Consensus        12 rvyimpnlprgrftteiagie   32 (33)
+                      ||+-+|+.|...|+.++..+|
+T Consensus         4 RVw~ipQvP~k~F~v~V~sve   24 (100)
+T A0MZA8_BPN4/5-    4 RVWHIPQVPGKAFYVEVDSVE   24 (100)
+T ss_pred             eEEEecCCCCccEEEECCCHH
+
+
+No 2
+>PF07495.13 ; Y_Y_Y ; Y_Y_Y domain
+Probab=42.14  E-value=63  Score=16.67  Aligned_cols=29  Identities=21%  Similarity=0.202  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             eeeceEeEEEEcCCCCCCceeeeeccccC
+Q Q_9186633_43      5 KVDVDICRVYIMPNLPRGRFTTEIAGIES   33 (33)
+Q Consensus         5 kvdvdicrvyimpnlprgrftteiagies   33 (33)
+                      .+|-.-.+.+..++||.|+++.+|.....
+T Consensus        32 ~~~~~~~~~i~~~~Lp~G~Y~l~v~~~~~   60 (76)
+T Q8A1K1_BACTN/6   32 ATVGNGILQASYTNLPPGDYTFKVAASDN   60 (76)
+T ss_pred             cccCCceEEEEeCCCCCceEEEEEEEEcC
+
+
+No 3
+>PF12345.8 ; DUF3641 ; Protein of unknown function (DUF3641)
+Probab=38.32  E-value=14  Score=22.75  Aligned_cols=20  Identities=20%  Similarity=0.587  Sum_probs=0.0  Template_Neff=4.700
+
+Q ss_pred             eeeceEeEEEEcCCCCCCce
+Q Q_9186633_43      5 KVDVDICRVYIMPNLPRGRF   24 (33)
+Q Consensus         5 kvdvdicrvyimpnlprgrf   24 (33)
+                      +.+|..-++|.+.|.|-|||
+T Consensus        19 ~~gI~Fn~L~titNmPIgRF   38 (133)
+T I4B8I8_TURPD/1   19 DYNIRFNNLFCINNMPINRF   38 (133)
+T ss_pred             HhCcccceEEEeecchhHHH
+
+
+No 4
+>PF14734.6 ; DUF4469 ; Domain of unknown function (DUF4469) with IG-like fold
+Probab=38.01  E-value=56  Score=17.74  Aligned_cols=16  Identities=38%  Similarity=0.789  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             EEEcCCCCCCceeeee
+Q Q_9186633_43     13 VYIMPNLPRGRFTTEI   28 (33)
+Q Consensus        13 vyimpnlprgrfttei   28 (33)
+                      +..+|+|+.|.++.+|
+T Consensus        66 ~f~vP~L~~G~Y~l~I   81 (95)
+T F5YFL1_TREAZ/1   66 VFQMPVLKKGVYHIEV   81 (95)
+T ss_pred             EEEcCCCCCeEEEEEE
+
+
+No 5
+>cd13230 PH1_SSRP1-like; Structure Specific Recognition protein 1 (SSRP1) Pleckstrin homology (PH) domain, repeat 1.
+Probab=35.37  E-value=31  Score=20.21  Aligned_cols=10  Identities=50%  Similarity=1.115  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCceeeee
+Q Q_9186633_43     19 LPRGRFTTEI   28 (33)
+Q Consensus        19 lprgrfttei   28 (33)
+                      .|||||..++
+T Consensus        16 ~PRGry~~~~   25 (137)
+T cd13230          16 TPRGRYDIDI   25 (137)
+T ss_pred             cCCeeceEEE
+
+
+No 6
+>PF02149.19 ; KA1 ; Kinase associated domain 1
+Probab=30.80  E-value=69  Score=14.47  Aligned_cols=12  Identities=25%  Similarity=1.035  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CCceeeceEeEE
+Q Q_9186633_43      2 EGVKVDVDICRV   13 (33)
+Q Consensus         2 egvkvdvdicrv   13 (33)
+                      +.++..+.+|++
+T Consensus         1 ~~v~feiev~k~   12 (45)
+T A0A0D2VKD6_CAP    1 RNIRFEIEMCRV   12 (45)
+T ss_pred             CceEEEEEEEEc
+
+
+No 7
+>PF18245.1 ; XRN1_DBM ; 5-3 exonuclease XRN1 DCP1-binding motif
+Probab=29.98  E-value=41  Score=16.80  Aligned_cols=6  Identities=83%  Similarity=1.663  Sum_probs=0.0  Template_Neff=1.800
+
+Q ss_pred             cCCCCC
+Q Q_9186633_43     16 MPNLPR   21 (33)
+Q Consensus        16 mpnlpr   21 (33)
+                      |||||.
+T Consensus         8 mp~LPk   13 (26)
+T B4I753_DROSE/1    8 MPNLPK   13 (26)
+T ss_pred             CCCCCC
+
+
+No 8
+>PF17989.1 ; ALP_N ; Actin like proteins N terminal domain
+Probab=29.96  E-value=1e+02  Score=15.98  Aligned_cols=16  Identities=25%  Similarity=0.605  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCceeeceEeEEEEcC
+Q Q_9186633_43      2 EGVKVDVDICRVYIMP   17 (33)
+Q Consensus         2 egvkvdvdicrvyimp   17 (33)
+                      .|.++.+.|..|+++|
+T Consensus       132 ~g~~~~v~i~~v~v~p  147 (151)
+T A7C1X5_9GAMM/1  132 NGEELKIEIEKVEVQP  147 (151)
+T ss_pred             CCEEEEEEEEEEEEee
+
+
+No 9
+>PF08320.12 ; PIG-X ; PIG-X / PBN1
+Probab=22.23  E-value=63  Score=18.89  Aligned_cols=14  Identities=36%  Similarity=0.550  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             eEEEEcCCCCCCce
+Q Q_9186633_43     11 CRVYIMPNLPRGRF   24 (33)
+Q Consensus        11 crvyimpnlprgrf   24 (33)
+                      |++++.-.||++-|
+T Consensus        34 C~l~~~~~LP~~~f   47 (218)
+T J3P7I9_GAGT3/2   34 CAPHAYLVLPRSVF   47 (218)
+T ss_pred             CceEEEEecCccce
+
+
