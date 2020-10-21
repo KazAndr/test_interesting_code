@@ -1,0 +1,7 @@
+﻿
+Date,Amount,Category,Subcategory,Payment Method,Description,Ref/Check No,Payee/Payer,Status,Receipt Picture,Account,Tag,Tax,Quantity,Split Total,Row Id,Type Id
+2020-08-27,-123,Home Office,Computer,Cash,,,Walmart,Cleared,,Personal Expense,,,1 PCS,,1,
+2020-09-07,-617.05,Food,Snack,DebitCard,,,,Uncleared,,Personal Expense,,,1 PCS,,2,
+2020-09-07,-5,Food,Snack,DebitCard,Описание с запятыми  на русском языке,,Пятёрочка,Uncleared,,Personal Expense,,,1 PCS,,3,
+2020-09-07,-10,Health Care,Medical,DebitCard,список: а  б  с.,,Пятёрочка,Uncleared,,Personal Expense,,,1 PCS,,4,
+2020-09-07,20,Income,Salary,DebitCard,,,NA,Uncleared,,Personal Expense,,,1 PCS,,5,
